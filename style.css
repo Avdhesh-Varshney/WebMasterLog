@@ -8,7 +8,7 @@ body {
     background-color: #FAF8F1;
 }
 
-/* =============Container 1================ */
+/* =============Front Page================ */
 header {
     margin: 0;
     padding: 0;
@@ -25,7 +25,19 @@ header h2 {
     top: 200px;
 }
 
-/* =============Container 2================ */
+/* =============Profile================ */
+h2 {
+    margin: 2.075rem;
+}
+p {
+    margin: 1rem;
+}
+
+/* =============My Skills================ */
+h3 {
+    margin: 1.5rem;
+}
+
 nav {
     display: flex;
 }
