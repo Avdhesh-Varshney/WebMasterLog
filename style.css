@@ -1,0 +1,41 @@
+/* =============Full Page================ */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    text-align: center;
+    background-color: #FAF8F1;
+}
+
+/* =============Container 1================ */
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #2874f0;
+}
+h1 {
+    position: absolute;
+    left: 673px;
+    top: 120px;
+}
+header h2 {
+    position: absolute;
+    left: 688px;
+    top: 200px;
+}
+
+/* =============Container 2================ */
+nav {
+    display: flex;
+}
+nav ul {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
