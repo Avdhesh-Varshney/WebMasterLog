@@ -16,6 +16,9 @@ h2 {
 h4 {
     color: chartreuse;
 }
+p {
+    color: #ffff00;
+}
 
 /* ID Selectors */
 #heading {
