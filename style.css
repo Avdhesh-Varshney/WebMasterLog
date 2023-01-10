@@ -6,7 +6,7 @@
 
 body {
     /* background-image: url("/Dice-Game/Images/Background-Image.gif"); */
-    background-image: url("/Images/Background-Image.gif");
+    background-image: url("../Images/Background-Image.gif");
     overflow-x: hidden;
 }
 
