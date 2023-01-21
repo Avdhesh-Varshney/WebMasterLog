@@ -5,98 +5,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="Images/icon.ico" type="image/x-icon">
     <title>Avdhesh's HomePage</title>
+
+    <!-- Adding StyleSheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/Projects/My_Personal_Site/Images/icon.ico">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v6.2.1/js/all.js"></script>
+
+    <!-- Adding JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="https://github.com/Avdhesh-Varshney/My_Personal_Site/blob/main/Images/logo.png?raw=true"
+                    alt="Logo" width="50px">
+            </a>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <ul class="navbar-nav nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="https://raw.githubusercontent.com/Avdhesh-Varshney/My_Personal_Site/main/Docs/Resume.pdf"
+                            download>Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contace Me</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-secondary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <header>
-        <h1>I'm Avdhesh.</h1>
-        <h2>a programmer.</h2>
-        <div>
-            <img src="/Projects/My_Personal_Site/Images/Wallpaper.jpg" alt="Background-Image" width="100%">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-6">
+                    <div class="col">
+                        <img src="Images/My_Photo.png" alt="My Image" width="260px">
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col-6">
+                    <div class="col">
+                        <h1>I'm Avdhesh</h1>
+                        <h2>a programmer.</h2>
+                    </div>
+                    <div class="col">
+                        <h5>High level experience in competitive programming, doing well on different coding platforms.
+                        </h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    
-    
-    <main>
-        <div class="profile">
-            <a href="index.html">
-                <img src="Images/My_Photo.png" alt="My Profile Picture" width="20%" href="index.html">
-            </a>
-            <h2>Hello.</h2>
-            <p>I am a Web developer & Competitive Programmer.</p>
-        </div>
-        <hr>
 
-        <div class="skills">
-            <h2>My Skills.</h2>
-            <div>
-                <h3>DBMS</h3>
-            </div>
-            <div>
-                <h3>DSA</h3>
-            </div>
-            <div>
-                <h3>Competitive Programming</h3>
-            </div>
-            <div>
-                <h3>Web Developement</h3>
-            </div>
-            <div>
-                <h3>Machine Learning</h3>
-            </div>
-        </div>
-        <hr>
-        
-        <div class="achievements">
-            <h2>Achievements</h2>
-            <div>
-                <h3>Competitive Programming</h3>
-                <p>I have solve more than 500 problems on CodeChef and more than 100 problems on LeetCode.</p>
-            </div>
-        </div>
-        <hr>
-        
-        <div class="experience">
-            <h2>Experiences</h2>
-            <div>
-                <h3>Competitive Programming</h3>
-                <p>I have experience of Contests on many coding platforms like CodeChef, LeetCode, HackerRank, and many more.</p>
-            </div>
-        </div>
-        <hr>
-
-        <div class="links">
-            <h2>My Important Links</h2>
-            <a href="my_hobbies.html">My Hobbies</a> <br>
-            <a href="my_coding_sites.html">My Coding Profiles</a> <br>
-            <a href="social-media_sites.html">My Social Media Profiles</a> <br>
-            <a href="learning_sites.html">My Learning Websites</a> <br>
-            <a href="skills.html">My Skills</a> <br>
-            <a href="/Projects/Login_Form/index.html">Form</a>
-        </div>
-        <hr>
-
-        <div class="contact">
-            <h2>Get In Touch</h2>
-            <h3>Lorem ipsum dolor sit.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi facere dicta perferendis.</p>
-            <a href="malito:avdheshvarshney786@gmail.com">CONTACT ME</a>
-        </div>
-        <hr>
-    </main>
-
-
-    <footer>
-        <a href="#">LinkedIn</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
-        <a href="#">Discord</a>
-        <a href="#">GitHub</a>
-        <a href="index.html">Website</a>
-        <p>&copy; 2022 Avdhesh Varshney.</p>
+    <footer id="footer">
+        <a href="https://www.linkedin.com/in/avdhesh-varshney-5314a4233/">
+            <i class="social-icon fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/_._avdhesh_._/">
+            <i class="social-icon fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/Avdhesh-Varshney">
+            <i class="social-icon fa-brands fa-github"></i>
+        </a>
+        <a href="malito:avdheshvarshney786@gmail.com">
+            <i class="social-icon fa-solid fa-envelope"></i>
+        </a>
+        <p>Copyright &copy; 2023 Avdhesh Varshney.</p>
     </footer>
 </body>
 

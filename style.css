@@ -1,53 +1,44 @@
-/* =============Full Page================ */
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
+
 body {
+    align-items: center;
     text-align: center;
     background-color: #FAF8F1;
+    color: white;
 }
 
-/* =============Front Page================ */
-header {
-    margin: 0;
-    padding: 0;
-    background-color: #2874f0;
-}
-h1 {
-    position: absolute;
-    left: 673px;
-    top: 120px;
-}
-header h2 {
-    position: absolute;
-    left: 688px;
-    top: 200px;
+h1,h2,h5 {
+    padding: 1.5%;
 }
 
-/* =============Profile================ */
-h2 {
-    margin: 2.075rem;
-}
-p {
-    margin: 1rem;
-}
-
-/* =============My Skills================ */
-h3 {
-    margin: 1.5rem;
-}
-
-nav {
-    display: flex;
-}
-nav ul {
-    height: 58px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-nav ul li {
+li {
+    margin: 0.5rem 2rem;
     list-style: none;
-    padding: 0 23px;
+}
+
+header {
+    margin-top: 3.5%;
+}
+
+footer {
+    margin-top: 2%;
+}
+
+.social-icon {
+    margin: 1% 0.5%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgreen;
+    text-decoration: none;
 }
