@@ -1,0 +1,64 @@
+body {
+    padding: 25px;
+}
+
+.title {
+    color: #5C6AC4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.form {
+    margin-left: 43%;
+    margin-top: 15%;
+    box-shadow: 0px 0px 15px 10px;
+    width: 20%;
+}
+
+.form .title {
+    background-color: green;
+    text-align: center;
+    height: 50px;
+    color: #fff;
+}
+
+.form .body {
+    width: 100%;
+}
+
+.form .body #tb {
+    width: 80%;
+    height: 23px;
+    margin-left: 23px;
+    border-radius: 5px;
+    border: 2px solid #000;
+}
+
+.form .body label {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.form .body #btn {
+    width: 80%;
+    margin-left: 25px;
+    padding: 3px;
+    background-color: blue;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form .end {
+    text-align: center;
+}
+
+.form .end a {
+    color: red;
+    font-weight: bolder;
+    text-decoration: none;
+}
