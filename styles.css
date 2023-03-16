@@ -11,6 +11,14 @@ h1 {
 
 }
 
+p {
+  margin: 2% auto;
+  font-size: 1.5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 1px 1px #DA0463;
+}
+
 footer {
   color: #DBEDF3;
   font-family: sans-serif;
@@ -45,7 +53,7 @@ footer {
 }
 
 .set {
-  margin: 10% auto;
+  margin: 9% auto;
 }
 
 .game-over {
