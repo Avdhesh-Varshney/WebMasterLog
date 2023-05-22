@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+
+body {
+   font-family: 'Edu VIC WA NT Beginner', cursive;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100vh;
+   justify-content: center;
+}
+
+div {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   text-align: center;
+}
+
+#cover {
+   background-color: aliceblue;
+   z-index: 1;
+   transition: 1s;
+   transform-origin: left;
+}
+
+#message {
+   background-color: bisque;
+   z-index: 0;
+}
+
+.open-card {
+   transform: rotateY(90deg);
+}
