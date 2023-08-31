@@ -1,16 +1,16 @@
 # Number To Words Convertor
 
----
-
 <br>
 
 ## **Description 📃**
 
-- This program can convert the entered numbers value into the international system of numbering.
+- This project is a beginner friendly project.
+- This project can convert the entered number into the international system of numbering.
+    - For example, 123 -> One Hundred Twenty Three
 
 <br>
 
-## **[Link](https://number-2-words.netlify.app/)**
+## **[Deployed Link](https://number-2-words.netlify.app/)**
 
 <br>
 
@@ -40,3 +40,5 @@
 [Avdhesh Varshney](https://github.com/Avdhesh-Varshney)
 
 <br>
+
+### Happy Coding!
