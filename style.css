@@ -1,0 +1,49 @@
+/* Tag Selectors */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./Images/Background-Image.gif");
+    overflow-x: hidden;
+}
+
+h2 {
+    color: red;
+}
+
+h4 {
+    color: chartreuse;
+}
+p {
+    color: #ffff00;
+}
+
+/* ID Selectors */
+#heading {
+    color: orange;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Class Selectors */
+.game {
+    text-align: center;
+}
+
+.rows {
+    display: inline-block;
+}
+
+.name {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.dice {
+    display: inline-block;
+    padding: 2rem 2rem;
+    vertical-align: middle;
+}
