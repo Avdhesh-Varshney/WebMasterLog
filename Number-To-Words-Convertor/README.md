@@ -10,10 +10,6 @@
 
 <br>
 
-## **[Deployed Link](https://number-2-words.netlify.app/)**
-
-<br>
-
 ## **Tech Stack 🎮**
 
 - HTML
