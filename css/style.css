@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    text-align: center;
+    background-color: #FAF8F1;
+    color: white;
+}
+
+h1,h2,h5 {
+    padding: 1.5%;
+}
+
+li {
+    margin: 0.5rem 2rem;
+    list-style: none;
+}
+
+header {
+    margin-top: 3%;
+}
+
+footer {
+    margin-top: 1.5%;
+}
+
+.social-icon {
+    margin: 1% 0.5%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgreen;
+    text-decoration: none;
+}
