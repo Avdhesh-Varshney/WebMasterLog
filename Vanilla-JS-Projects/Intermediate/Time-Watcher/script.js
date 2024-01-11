@@ -48,19 +48,19 @@ function updateTime(birthTime) {
     setInterval(() => {
         document.getElementById('milliseconds').textContent = parseInt(timeDifference % 1000);
         timeDifference = parseInt(timeDifference / 1000);
-    
+
         document.getElementById('seconds').textContent = parseInt(timeDifference % 60);
         timeDifference = parseInt(timeDifference / 60);
-    
+
         document.getElementById('minutes').textContent = parseInt(timeDifference % 60);
         timeDifference = parseInt(timeDifference / 60);
-    
+
         document.getElementById('hours').textContent = parseInt(timeDifference % 24);
         timeDifference = parseInt(timeDifference / 24);
-    
+
         document.getElementById('days').textContent = parseInt(timeDifference % 30.416);
         timeDifference = parseInt(timeDifference / 30.416);
-    
+
         document.getElementById('months').textContent = parseInt(timeDifference % 12);
         document.getElementById('years').textContent = parseInt(timeDifference / 12);
 
@@ -81,11 +81,11 @@ function submitBirthDetails() {
     let birthSeconds = parseInt(document.getElementById("birthSeconds").value);
     let birthMilliSeconds = parseInt(document.getElementById("birthMilliSeconds").value);
 
-    if(birthYear && birthMonth && birthDay && birthHours && birthMinutes && birthSeconds && birthMilliSeconds) {
+    if (birthYear && birthMonth && birthDay && birthHours && birthMinutes && birthSeconds && birthMilliSeconds) {
         if (validateInputs(birthYear, birthMonth, birthDay, birthHours, birthMinutes, birthSeconds, birthMilliSeconds)) {
             let birthTime = new Date(birthYear, birthMonth - 1, birthDay, birthHours, birthMinutes, birthSeconds, birthMilliSeconds);
             updateTime(birthTime);
-    
+
             // Hide box-1 and show box-2
             document.querySelector('.box-1').style.display = 'none';
             document.querySelector('.box-2').style.display = 'flex';

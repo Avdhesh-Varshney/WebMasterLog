@@ -96,6 +96,7 @@ button {
 }
 
 @media (min-width: 768px) {
+
     #heading {
         font-size: 3rem;
         margin-bottom: 1.5rem;
