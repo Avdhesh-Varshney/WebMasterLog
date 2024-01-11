@@ -42,7 +42,7 @@ git push -u origin <your_branch_name>
 
 We want your work to be readable by others; therefore, we encourage you to note the following:
 
-- If To Do List is submitted for example, the Folder Name should be "To-Do-List".
+- If To Do List is submitted for example, the Folder Name should be "To-Do-List" and also add a Screenshot of the project in the project folder with the named "To-Do-List.webp" as webp file has small size.
 - Projects should be kept according to their technologies, as it will be easy to maintain the project and increase their readability.
 - Strictly use Kebab-Case (hypen-separated) in your file-name, as it will be easy to parse in future using scripts.
 - Please avoid creating new directories if at all possible. Try to fit your work into the existing directory structure you have created for your project. If you want to, please contact before doing so.
