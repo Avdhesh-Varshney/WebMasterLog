@@ -1,4 +1,4 @@
-# **PROJECT NAME**
+# **💥 PROJECT NAME 💥**
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
@@ -7,7 +7,12 @@
 <!-- add your project description here  -->
 - 
 
-<br>
+
+## **Tech Stack Used 🎮**
+
+<!-- enlist all the technologies used to create this project -->
+- 
+
 
 ## **How to run it? 🕹️**
 
@@ -20,26 +25,22 @@
 
 ## **Screenshots 📸**
 
+<!-- add the screenshot of the project (Mandatory) -->
 
-
-<br>
 
 ## **Working Video 📹**
 
-<!-- directly add the link of video -->
-
+<!-- directly add the link of video (If, possible) -->
 
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
-## **Developed By [***YOUR NAME***] 👦**
+## **Developed By ***YOUR NAME*** 👦**
 
-[Your GitHub URL](https://github.com/<your-github-url>)
+[Your GitHub Username](https://github.com/<your-github-username>)
 
-<br>
 
 ### **Happy Coding 🧑‍💻**
 
 <h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
-
