@@ -13,6 +13,11 @@ assignees: ''
 :red_circle: **Category** :  <!-- Category of the project: Angular, CSS, NextJS, NodeJS, React, Vanilla, VueJS, etc. -->
 :red_circle: **Approach** :  <!-- Explain the approach to handle this bug. -->
 
+
+### Screenshots 📷
+<!-- Write N/A if not available-->
+
+
 ***********************************************************************
 ### 📍 **Follow the Guidelines to Contribute in the Project :**
 * You need to create a separate folder named as the Project Title.
