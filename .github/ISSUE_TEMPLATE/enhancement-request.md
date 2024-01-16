@@ -2,7 +2,7 @@
 name: Enhancement Request 🧑‍💻
 about: This is the issue template that is going to be used while improving any styling or documentation of the project in this repo.
 title: ''
-labels: 'Up-for-Grabs :hand:', 'enhancement :technologist:'
+labels: 'Up-for-Grabs :hand:, enhancement :technologist:'
 assignees: ''
 
 ---

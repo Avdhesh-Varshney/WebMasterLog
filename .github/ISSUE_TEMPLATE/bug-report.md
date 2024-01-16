@@ -2,7 +2,7 @@
 name: Bug Report 🐞
 about: This is the issue template that is going to be used while reporting for any bug in the project of this repo.
 title: ''
-labels: 'Up-for-Grabs :hand:', 'bug :bug:'
+labels: 'Up-for-Grabs :hand:, bug :bug:'
 assignees: ''
 
 ---
