@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥 PROJECT NAME 💥</b></h1>
+<h1 align='center'><b>💥 MakeMyTrip Website Clone 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -28,7 +28,7 @@
 
 <h3 align='center'>How to run it? 🕹️</h3>
 
-<div align='center'>=
+<div align='center'>
     <p>To run this project locally, follow these steps:
 
 1. Fork the repository.
