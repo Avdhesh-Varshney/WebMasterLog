@@ -82,7 +82,7 @@ Click the "Generate Password" button, and you should see a randomly generated pa
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 <h3 align='center'>Screenshots 📸</h3>
-![Alt text](image-2.png)
+![Alt text](Password-Generator.webp)
 <!-- add the screenshot of the project (Mandatory) -->
 
 
