@@ -45,7 +45,7 @@ git clone https://github.com/your-username/makemytrip-clone.git
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 <h3 align='center'>Screenshots 📸</h3>
-<img src='./Images/background.jpg'>
+<img src='./MakeMyTrip-website-clone.webp'>
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
