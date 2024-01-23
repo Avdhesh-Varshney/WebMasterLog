@@ -1,0 +1,186 @@
+.navbar-brand img {
+    width: 150px;
+    height: 50px;
+  }
+  
+  .header-container {
+    background-image: url('./Images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 690px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navSecCon {
+    margin-right: 200px;
+  }
+  
+  .form-check {
+    padding-left: 50px;
+  }
+  
+  .behindCard {
+    height: 400px;
+    width: 100%;
+    margin-left: 172px;
+  }
+  
+  
+  .cardDes {
+    height: 155px;
+    padding: 0px
+  }
+  
+  .destination h1 {
+    font-weight: 700;
+    font-size: 25px;
+  }
+  
+  .light-sky {
+    background-color: lightskyblue;
+  }
+  
+  .travel-class {
+    font-size: 40px;
+  }
+  
+  .sm-text {
+    font-size: 12px;
+  }
+  
+  .destinationContent {
+    margin-top: 45px;
+  }
+  
+  .serviceLinks {
+    z-index: 3;
+  }
+  
+  .navSecCon {
+    position: absolute;
+    top: 140px;
+    left: 0px;
+    right: 0px;
+  }
+  
+  .radioCards {
+    height: 70px;
+    width: 140px;
+  }
+  
+  .searchBtn {
+    font-size: 20px;
+    font-weight: 700;
+    width: 250px;
+    height: 50px;
+    background-image: url('data:image/jpeg;base64,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');
+    background-repeat: no-repeat;
+  }
+  
+  .logInBtn {
+    font-size: 20px;
+    font-weight: 700;
+    background-image: url('data:image/jpeg;base64,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');
+    background-repeat: no-repeat;
+    color: white;
+  
+  }
+  
+  .explore {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* scroll card css */
+  .scroll-card {
+    margin-left: 102px;
+  
+  }
+  
+  .offers {
+    padding: 0px 30px;
+  }
+  
+  
+  .cardCenter {
+    margin-left: 115px;
+  }
+  
+  
+  .arrow {
+    margin-left: 100px;
+  }
+  
+  /* download app card */
+  .phoneLogo img {
+    height: 105px;
+  }
+  
+  .indLogo img {
+    height: 25px;
+  }
+  
+  .get-link {
+    height: 61px;
+    width: 400px;
+  }
+  
+  .firstDivCol img {
+    height: 70px;
+  }
+  
+  .qrNInfo {
+    justify-content: space-between;
+  }
+  
+  .rightPart {
+    margin-left: 500px
+  }
+  
+  .mobileApp {
+    margin-top: 60px;
+    width: 114%;
+  }
+  
+  /* information about mmt info css */
+  .information {
+    font-size: 13px;
+  }
+  
+  /* why mmt */
+  .whyMmt {
+    display: flex;
+    background-color: lightgray;
+    width: 100%;
+    margin-right: 500px;
+  }
+  
+  .oneDiv {
+    padding: 85px;
+  }
+  
+  .paraInfo {
+    font-size: 13px;
+  }
+  
+  /* footer css */
+  .logos img {
+    height: 70px;
+  }
+  
+  .footer {
+    justify-content: space-around;
+  }
+  
+  .logos img {
+    padding: 10px;
+  }
+  
+  .footerMmt {
+    margin-top: 200%;
+    width: 20%;
+  }

@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css">
+  <title>Make My Trip</title>
+</head>
+
+<body>
+  <!-- make my trip  -->
+  <!-- main container inside navbar and another container -->
+  <div class="header-container container-fluid bg-primary">
+    <!-- only logo com -->
+    <class class="navbar container-lg navbar-light bg-">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/mmtLogoWhite.png" alt="" width="30"
+            height="24" class="d-inline-block align-text-top">
+        </a>
+        <!-- nav iteam -->
+        <ul class="nav justify-content-center mr-50">
+          <!-- offer svg font awsome -->
+          <li class="nav-item d-flex ">
+            <a class="nav-link active text-light" aria-current="page" href="#"><span class="material-symbols-outlined">
+                percent
+              </span></a>
+            <div class="flexOne d-flex flex-column">
+              <p class="font12 whiteText latoBlack text-light">Super offers</p>
+              <p data-cy="AppDownloadSubText" class="font10 userPerText appendTop3 text-secondary">Explore
+                great deals
+                &amp; offers</p>
+            </div>
+          </li>
+          <!--  -->
+          <li class="nav-item d-flex">
+            <a class="nav-link active text-light" aria-current="page" href="#"><span class="material-symbols-outlined">
+                shopping_bag
+              </span>
+
+            </a>
+            <div class="flexOne d-flex flex-column">
+              <p class="font12 whiteText latoBlack text-light">Introducing my Bizz</p>
+              <p data-cy="AppDownloadSubText" class="font10 userPerText appendTop3 text-secondary">Business Travel
+                Solutions
+                &amp; offer</p>
+            </div>
+          </li>
+          <!--  -->
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="" alt=""></a>
+          </li>
+          <li class="nav-item">
+            <button class="btn logInBtn">Log In</button>
+          </li>
+        </ul>
+
+    </class>
+    </nav>
+
+    <!-- .navbar card -->
+    <div class="container serviceLinks" style="margin-left:8rem">
+      <div class="card d-flex flex-row roundedv align-items-center " style="width: 59rem;">
+        <div class=" d-flex flex-column p-4 align-items-center">
+          <span class="material-symbols-outlined">
+            flight
+          </span>
+          <span>Flights</span>
+        </div>
+
+        <div class="lni d-flex flex-column p-4 align-items-center">
+          <span class="material-symbols-outlined">
+            night_shelter
+          </span>
+          <span>Hotels</span>
+        </div>
+
+        <div class="lni d-flex flex-column p-4 align-items-center">
+          <span class="material-symbols-outlined">
+            other_houses
+          </span>
+          <span>Homestays</span>
+        </div>
+
+        <div class="lni d-flex flex-column p-4 align-items-center">
+          <span class="material-symbols-outlined">
+            train
+          </span>
+          <span>Trains</span>
+        </div>
+
+        <div class="lni d-flex flex-column p-4 align-items-center">
+          <span class="material-symbols-outlined">
+            directions_bus
+          </span>
+          <span>Buses</span>
+        </div>
+
+        <div class="lni d-flex flex-column p-4 align-items-center">
+          <span class="material-symbols-outlined">
+            directions_car
+          </span>
+          <span>Cabs</span>
+        </div>
+
+        <div class="lni d-flex flex-column p-4 align-items-center">
+          <span class="material-symbols-outlined">
+            finance_chip
+          </span>
+          <span>Forex</span>
+        </div>
+
+        <div class="lni d-flex flex-column p-4 align-items-center">
+          <span class="material-symbols-outlined">
+            flight_takeoff
+          </span>
+          <span>Charter Flights</span>
+        </div>
+
+        <div class="lni d-flex flex-column p-4 align-items-center">
+          <span class="material-symbols-outlined">
+            hiking
+          </span>
+          <span>Activity</span>
+        </div>
+      </div>
+    </div>
+    <!-- bid card have all the ibfo about destination and dates and etc -->
+    <div class="container navSecCon">
+      <div class="card behindCard">
+        <div class="destinationContent">
+          <div class="card-body">
+            <!-- radio btn -->
+            <div class="handleBtn d-flex ">
+              <div class="form-check bg-secondary rounded-pill ">
+                <input class="form-check-input " type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label bg-secondary rounded " for="flexRadioDefault1">
+                  ONE WAY
+                </label>
+              </div>
+              <div class="form-check ">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label text-secondary" for="flexRadioDefault2">
+                  ROUND TRIP
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label text-secondary" for="flexRadioDefault2">
+                  MULTICITY
+                </label>
+              </div>
+            </div>
+            <!-- side text -->
+            <div class="text-end">
+              Book International and Domestic Flights
+            </div>
+            <!-- destination group of cards -->
+            <div class="destinationRow d-flex flex-row">
+              <div class="col-3">
+                <div class="card cardDes">
+                  <div class="card-body">
+                    <div class="heading">
+                      <p>FROM</p>
+                    </div>
+                    <div class="destination">
+                      <h1>Delhi</h1>
+                      <p>DEL,Delhi Airport India</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card cardDes">
+                  <div class="card-body">
+                    <div class="heading">
+                      <p>TO</p>
+                    </div>
+                    <div class="destination">
+                      <h1>Bangaluru</h1>
+                      <p>BLR,Bengaluru International</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 ">
+                <div class="card cardDes light-sky">
+                  <div class="card-body">
+                    <div class="dropdown">
+                      <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        DEPARTURE
+                      </a>
+                      <div class="dateNMonth d-flex">
+                        <div class="depatureDate">
+                          <h2>19</h2>
+                          <p>Feb'23</p>
+                        </div>
+                      </div>
+
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><input type="date" name="" id="" aria-labelledby="dropdownMenuLink">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <div class="card cardDes">
+                  <div class="card-body">
+                    <div class="dropdown">
+                      <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        RETURN
+                      </a>
+                      <div class="returnDate text-secondary">
+                        <p>Tap to add a return date for bigger discounts</p>
+                      </div>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><input type="date" name="" id="" aria-labelledby="dropdownMenuLink">
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card cardDes">
+                  <div class="card-body">
+                    <div class="dropdown">
+                      <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        TRAVELLERS & CLASS
+                      </a>
+                      <div>
+                        <span class="travel-class">1</span>
+                        <span>Traveller</span>
+                      </div>
+                      <div>
+                        <div class="sm-text">Economy/Premium Economy</div>
+                        <div class="fw-bold sm-text text-warning">Group Booking Available!</div>
+                      </div>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">First Class</a></li>
+                        <li><a class="dropdown-item" href="#">Economy Class</a></li>
+                        <li><a class="dropdown-item" href="#">Business Class</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- radio button cards -->
+        <div class="radioContent d-flex flex-row">
+          <div class="radioHeading d-flex flex-column align-items-center justify-content-center">
+            <div>
+              Select A
+            </div>
+            <div>
+              Fare Type:
+            </div>
+          </div>
+          <div class="card radioCards">
+            <div class="card-body">
+              <input type="radio" name="select">Ragular Fares
+            </div>
+          </div>
+          <div class="card radioCards">
+            <div class="card-body">
+              <input type="radio" name="select">Armed Forces Fares
+            </div>
+          </div>
+          <div class="card radioCards">
+            <div class="card-body">
+              <input type="radio" name="select">Student Fares
+            </div>
+          </div>
+          <div class="card radioCards">
+            <div class="card-body">
+              <input type="radio" name="select">Senior Citizen Fares
+            </div>
+          </div>
+          <div class="card radioCards">
+            <div class="card-body">
+              <input type="radio" name="select">Doctor Fares
+            </div>
+          </div>
+          <div class="card radioCards">
+            <div class="card-body">
+              <input type="radio" name="select">Double Seat Fares
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <button type="button" class="btn rounded-pill btn-secondary searchBtn text-center">Search</button>
+        </div>
+        <div class="text-center text-light mt-4 d-flex explore">
+          <span class="material-symbols-outlined">
+            keyboard_double_arrow_down
+          </span>Explore More<span class="material-symbols-outlined">
+            keyboard_double_arrow_down
+          </span>
+        </div>
+        <!-- rounded pill bar next to explore more -->
+        <div class="container serviceLinks" style="margin-left:8rem">
+          <div class="card d-flex flex-row rounded rounded-pill mt-4" style="width: 59rem;">
+            <div class=" d-flex flex-column p-4">
+              <span class="material-symbols-outlined col-2">
+                travel_explore
+              </span>
+              <span>Where2Go!</span>
+            </div>
+
+            <div class="lni d-flex flex-column p-4 col-2">
+              <span class="material-symbols-outlined">
+                payments
+              </span>
+              <span>Trip Money
+                Loan Credit and More
+              </span>
+            </div>
+
+            <div class="lni d-flex flex-row col-4 p-4">
+              <span class="material-symbols-outlined">
+                flight_takeoff
+              </span>
+              <span class="fw-bold">Explore International Flights</span>
+            </div>
+
+            <div class="lni d-flex flex-column col-2 p-4">
+              <span class="material-symbols-outlined">
+                groups
+              </span>
+              <span>Mice</span>
+              <span>Plan your offsite with us</span>
+            </div>
+
+            <div class="lni d-flex flex-column col-2 p-4">
+              <span class="material-symbols-outlined">
+                redeem
+              </span>
+              <span>Gift Cards</span>
+            </div>
+          </div>
+        </div>
+        <!-- scroll card -->
+        <div class="card mt-3 scroll-card" style="width: 69rem;">
+          <div class="card-body d-flex flex-row align-items-center">
+            <div class="offers fw-bold fs-2">offers</div>
+            <div class="offers text-primary fw-bold ">ALL OFFERS</div>
+            <div class="offers">BANK OFFERS</div>
+            <div class="offers">FLIGHTS</div>
+            <div class="offers">HOTELS</div>
+            <div class="offers">HOLIDAYS</div>
+            <div class="offers">TRAINS</div>
+            <div class="offers">CABS</div>
+          </div>
+        </div>
+        <!-- carousal -->
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <!-- cards row -->
+              <!-- first card -->
+              <!-- grouping cards making center -->
+              <div class="cardCenter">
+                <div class="firstRow d-flex flex-row">
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_Banner_SSFS_17Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- second card -->
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_DH-TravelFest_16Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- second row cards -->
+                <div class="secondRow d-flex flex-row">
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-DF-Extended-17Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop-IF-Extended-17Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <!-- first card -->
+              <div class="cardCenter">
+                <div class="firstRow d-flex flex-row">
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_IH-TravelFest_15Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- second card -->
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img
+                            src="https://promos.makemytrip.com/notification/xhdpi//Desktop_Holidays-TravelFest_15Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- second row cards -->
+                <div class="secondRow d-flex flex-row">
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_OS-TravelFest_16Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_IF-MiddleEast_17Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!-- first card -->
+              <div class="cardCenter">
+                <div class="firstRow d-flex flex-row">
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_IF-USA_17Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- second card -->
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_IF-SouthEast_17Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- second row cards -->
+                <div class="secondRow d-flex flex-row">
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_IF-Australia_17Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="card d-flex flex-row offerCard" style="width: 35rem;">
+                      <div class="imgNInfo d-flex flex-column">
+                        <div class="offerLogo">
+                          <img src="https://promos.makemytrip.com/notification/xhdpi//Desktop_IF-Africa_17Feb.jpg"
+                            class="card-img-top p-3" alt="...">
+                        </div>
+                        <div class="tNc">
+                          <p class="text-secondary">T & C's Apply</p>
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <h6 class="card-title text-secondary">INTL FLIGHTS</h6>
+                        <p class="fw-bolder fs-6">LIVE NOW:Super-Saver Feb Sale!</p>
+                        <p class="text-secondary fw-semibold">Grab upto 35% OFF on
+                          flights,stays,holidays,cabs & buses </p>
+                        <p class="text-end book-now text-primary fw-bolder">Book Now</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon arrow" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- get the app section  -->
+        <!-- main card -->
+        <div class="card mobileApp">
+          <div class="card-body">
+            <div class="partDiv">
+              <div class="part1">
+                <p class="fw-bold fs-1">Download App Now!</p>
+                <p>Get India's #1 travel super app,join 100 Million+ happy travellers !</p>
+                <div class="logoNNoDiv d-flex flex-row">
+                  <div class="phoneLogo">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/13/01/22/mobile-1976104_640.png" alt="">
+                  </div>
+                  <div class="logoInfo">
+                    <p>Use code <span class="fw-bold">WELCOMEMMT</span> and get upto RS 1200 off on
+                      your first domestic flight booking </p>
+                    <div class="number">
+                      <!-- FLEXING NUMBER AND NUMBER LOGO -->
+
+                      <div class="flexNUM d-flex flex-row">
+                        <div class="card h-30" style="width: 135%;">
+                          <div class="card-body">
+                            <!-- This is some text within a card body. -->
+                            <div class="indLogo">
+                              <img src="https://cdn.pixabay.com/photo/2016/08/24/17/07/india-1617463__340.png" alt="">
+                              <span class="fw-bolder">+91</span><input type="tel" class="border border-0"
+                                placeholder="Enter Mobile number">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card get-link">
+                          <div class="card-body">
+                            <p class="fw-bolder fs-7 text-primary">GET APP LINK</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rightPart">
+                    <div class="qrPart">
+                      <p>MORE WAYS TO GET THE APP</p>
+                    </div>
+                    <div class="mainQrDiv ml-5">
+                      <div class="firstDivCol">
+                        <img src="https://seeklogo.com/images/A/app-store-google-play-logo-4A2747BF5E-seeklogo.com.png"
+                          alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card infomation that shows rules -->
+        <div class="container mt-5">
+          <div class="card">
+            <div class="card-body">
+              <p class="fw-bold">PRODUCT OFFERING</p>
+              <p class="information text-secondary">Flights, International Flights, Charter Flights,
+                Hotels,
+                International Hotels, Homestays and Villas,
+                Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for
+                Corporate
+                Travel,
+                Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book
+                Flights From
+                US,
+                Book Flights From UAE, Trip Planner, Gift Cards, Trip Money, Trip Ideas, Travel Blog,
+                PNR Status,
+                MakeMyTrip Advertising Solutions, One Way Cab</p>
+              <p class="fw-bold">MAKEMYTRIP</p>
+              <p class="information text-secondary">About Us, Investor Relations, Careers, MMT Foundation,
+                CSR Policy,
+                myPartner - Travel Agent Portal,
+                Foreign Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Advertise with
+                Us
+              </p>
+              <p class="fw-bold">ABOUT THE SITE</p>
+              <p class="information text-secondary">Customer Support, Payment Security, Privacy Policy,
+                User Agreement,
+                Terms of Service, More Offices,
+                Make A Payment, Work From Home</p>
+              <p class="fw-bold">TOP HOTELS IN INDIA</p>
+              <p class="information text-secondary">Fairmont Jaipur, St Regis Goa, Six Senses Fort
+                Barwara, W Goa, Grand
+                Hyatt Goa, Shangri-La Bangalore,
+                The St Regis Mumbai, Taj Rishikesh, Grand Hyatt Mumbai, Le Meridien Delhi, Rambagh
+                Palace Jaipur,
+                Leela Palace Chennai, The Leela Palace Udaipur, Taj Lake Palace Udaipur, Jw Marriott
+                Chandigarh,
+                Alila Diwa Goa, Le Meridien Goa, Taj Lands End Mumbai, Itc Grand Chola Chennai, Itc
+                Maratha Mumbai,
+                Oberoi Udaivilas, Jai Mahal Palace Jaipur, Taj Mahal Tower Mumbai, Marriott Suites Pune,
+                Park Hyatt
+                Chennai, The Leela Palace Jaipur, Jw Marriott Mumbai Sahar, Jw Marriott Mumbai Juhu, The
+                Ritz
+                Carlton Bengaluru, The Oberoi New Delhi, Taj Resort & Convention Centre Goa, Taj Bengal
+                Kolkata, Taj
+                Coromandel Chennai, The Oberoi Gurgaon, The Westin Goa, Jw Marriott Hotel Pune, The
+                Leela Palace New
+                Delhi, Taj West End Bengaluru, The Taj Mahal Palace Mumbai
+              </p>
+              <p class="fw-bold">TOP INTERNATIONAL HOTELS</p>
+              <p class="information text-secondary">Adaaran Club Rannalhi, Marina Bay Sands Singapore,
+                Coco Bodu Hithi,
+                Taj Dubai, Atlantis Hotel Dubai,
+                Amari Phuket, Jw Marriott Dubai, Armani Hotel Dubai, Grand Hyatt Dubai, Saii Lagoon
+                Maldives, Gevora
+                Hotel Dubai, Hyatt Regency Dubai, Pan Pacific Singapore, The Palm Dubai, Caesars Palace,
+                Baiyoke Sky
+                Hotel, Centara Pattaya Hotel, Embudu Village, Orchard Hotel Singapore, Reethi Beach
+                Resort,
+                Ambassador Hotel Bangkok, Dusit Thani Pattaya, Shangri La Singapore, Sunbeam Hotel
+                Pattaya, Taj
+                Samudra Colombo, Bangkok Palace Hotel, Hilton Pattaya, Novotel Phuket Resort, Taj
+                Exotica Resort
+                Maldives, Village Hotel Bugis, Avani Atrium Bangkok, The Plaza New York, Village Hotel
+                Albert Court,
+                Amari Pattaya</p>
+              <p class="fw-bold">QUICK LINKS</p>
+              <p class="information text-secondary">Delhi Chennai Flights, Delhi Mumbai Flights, Delhi Goa
+                Flights,
+                Chennai Mumbai flights, Mumbai Hyderabad flights, Kolkata to Rupsi Flights, Rupsi to
+                Guwahati Flights, Pasighat to Guwahati Flights, Delhi to Khajuraho Flights, Cochin to
+                Agatti Island Flights, Hotels in Delhi, Hotels in Mumbai, Hotels In Goa, Hotels In
+                Jaipur, Hotels In Ooty, Hotels In Udaipur, Hotels in Puri, Hotels In North Goa, Hotels
+                In Rishikesh, Honeymoon Packages, Kerala Packages, Kashmir Packages, Ladakh Packages,
+                Goa Packages, Thailand Packages, Sri Lanka Visa, Thailand Visa, Explore Goa, Explore
+                Manali, Explore Shimla, Explore Jaipur, Explore Srinagar</p>
+            </div>
+          </div>
+        </div>
+        <!-- why mmt -->
+        <div class="container-fluid whyMmt mt-5">
+          <div class="threeDiv d-flex flex-row">
+            <div class="oneDiv">
+              <p class="fw-bold">Why MakeMyTrip?</p>
+              <p class="paraInfo">Established in 2000, MakeMyTrip has since positioned itself as one of
+                the leading companies, providing great offers, competitive airfares, exclusive
+                discounts, and a seamless online booking experience to many of its customers. The
+                experience of booking your flight tickets, hotel stay, and holiday package through our
+                desktop site or mobile app can be done with complete ease and no hassles at all. We also
+                deliver amazing offers, such as Instant Discounts, Fare Calendar, MyRewardsProgram,
+                MyWallet, and many more while updating them from time to time to better suit our
+                customers’ evolving needs and demands.</p>
+            </div>
+            <div class="oneDiv">
+              <p class="fw-bold">Booking Flights with MakeMyTrip</p>
+              <p class="paraInfo">At MakeMyTrip, you can find the best of deals and cheap air tickets to
+                any place you want by booking your tickets on our website or app. Being India’s leading
+                website for hotel, flight, and holiday bookings, MakeMyTrip helps you book flight
+                tickets that are affordable and customized to your convenience. With customer
+                satisfaction being our ultimate goal, we also have a 24/7 dedicated helpline to cater to
+                our customer’s queries and concerns. Serving over 5 million happy customers, we at
+                MakeMyTrip are glad to fulfill the dreams of folks who need a quick and easy means to
+                find air tickets. You can get a hold of the cheapest flight of your choice today while
+                also enjoying the other available options for your travel needs with us.</p>
+            </div>
+            <div class="oneDiv">
+              <p class="fw-bold">Domestic Flights with MakeMyTrip</p>
+              <p class="paraInfo">MakeMyTrip is India's leading player for flight bookings. With the
+                cheapest fare guarantee, experience great value at the lowest price. Instant
+                notifications ensure current flight status, instant fare drops, amazing discounts,
+                instant refunds and rebook options, price comparisons and many more interesting
+                features.</p>
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <div class="container-fluid bg-dark">
+          <div class="footer d-flex flex-row">
+            <div class="logos d-flex flex-row">
+              <div>
+                <img
+                  src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
+                  alt="">
+              </div>
+              <div>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png"
+                  alt="">
+              </div>
+            </div>
+            <div>
+              <p class="text-light">&copy;2023 MAKEMYTRIP PVT.LTD</p>
+              <P class="text-light">country India USA UAE</P>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <div id="app"></div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
