@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    padding: 0;
+    display: block;
+    margin-right: 1px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    font-family: Amazon Ember,
+        Amazon Arabic Ember,
+        Arial,
+        sans-serif !important;
+}
+.whole {
+    background-color: #000;
+    width: 100%;
+}
+
+/* NavBar*/
+.head {
+    display: flex;
+    height:36px;
+    width: 80%;
+    background-color: #10151b;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.navlogo {
+    background-image: url("./Images/Logo-min.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    width: 112px;
+    height: 40px;
+    position: relative;
+    top: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+.right{
+    align-items: flex-end;
+}
+.right ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 36%;
+}
+.right ul li{
+    list-style-type: none;
+    padding: 24px;
+    color: rgb(210, 201, 201);
+    font-size: 18px;
+}
+.sigin {
+    margin-left: 0px;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+.arrow {
+    border: solid rgb(211, 209, 209);
+    border-width: 0 3px 3px 0;
+    display: inline;
+    padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* Hero section */
+.content {
+    display: block;
+    width: 100%;
+}
+
+.login-now {
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%),
+        url('./Images/bg-hero.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-left {
+    display: flex;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    padding: 10px 5%;
+    width: 40%;
+    margin-top: 35px;
+}
+
+.welcome{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+    margin-top: 10px;
+    /* font-family: 'Martel Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.join {
+    margin-top: 10px;
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-prime,
+.started {
+    background-color: #0f79af;
+    color: #fff;
+    margin-top: 18px;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    width: 250px;
+    text-align: center;
+}
+
+.login-link {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+/* Section-1 afetr hero section */
+.sec-1 {
+
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url('./Images/section1-bg.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content-left-3 {
+    display: flex;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    padding: 40px 5%;
+    width: 40%;
+    margin-top: 35px;
+}
+
+.sec1-head {
+    font-size: 2.5em;
+}
+
+.sec1-para {
+    margin-top: 5px;
+    font-size: 21px;
+}
+.start-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* section-2*/
+.card-container {
+    display: flex;
+    gap: 40px;
+    padding: 20px 5%;
+    min-height: 70vh;
+    background-color: rgb(250, 248, 244);
+    justify-content: space-between; 
+}
+
+.left-part{
+    margin-top: 16px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.left-part h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+.left-part p{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.right-part {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* gap: 10px; */
+    width: 60%;
+}
+
+.card-item {
+    flex: 0 0 calc(31% - 8px);
+    margin: 3px;
+    box-sizing: border-box;
+}
+
+.card-item img {
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .right-part, .left-part {
+        width: 100%;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .card-item {
+        flex: 0 0 calc(100% - 10px);
+    }
+}
+
+/* section-3 */
+.tv-stick {
+    background-color: #000;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url('https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-right-2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    position: relative;
+    width: 40%;
+    padding: 50px 5%;
+    padding-left: 54%;
+    gap: 20px;
+}
+
+.firetv-h1 {
+    font-size: 2.5em;
+}
+
+.firetv-use {
+    margin-top: 5px;
+    font-size: 21px;
+}
+
+/* footer */
+.foot {
+    text-align: center;
+    background-color: #222;
+    font-size: 15px;
+    padding: 30px;
+    height: 80px;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.lis-of-links {
+    display: flex;
+    text-decoration: none;
+}
+
+.list-of-links li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 4px;
+
+}
+
+.links {
+    text-decoration: none;
+    color: #0f79af;
+
+}
+
+.link-para {
+    color: #b1b1b1;
+    display: block;
+    margin-top: 6px;
+}
