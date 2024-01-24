@@ -1,4 +1,4 @@
-<div align="center"><img src="assets/images/favicon.ico" height="150" width="150" ></div>
+<div align="center"><img src="https://github.com/Sneha123-zudo/WebMasterLog/assets/145490348/6f7e1833-057a-4b95-9a2a-91f9d3801e4f" height="150" width="150" ></div>
 
 # <div align="center">NETFLIX</div>
 
@@ -19,8 +19,8 @@ NETFLIX is a state-of-the-art streaming platform designed to cater to the divers
 
 ## Technology Used🚀
 
-<img src="assets/images/html.png" height="50"> 
-<img src="assets/images/css.jpeg" height="50">
+<img src="https://github.com/Sneha123-zudo/WebMasterLog/assets/145490348/ca970132-2c19-4fbd-b719-0fddaa2c8e51" height="50"> 
+<img src="https://github.com/Sneha123-zudo/WebMasterLog/assets/145490348/fb91911d-a9a4-40b3-8d51-981da7ecedc9" height="50">
 
 ##  Overview⭐
 Netflix is a popular streaming service that offers a wide variety of TV shows, movies, documentaries, and original content across different genres. 
