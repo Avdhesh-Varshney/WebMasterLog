@@ -21,7 +21,6 @@ NETFLIX is a state-of-the-art streaming platform designed to cater to the divers
 
 <img src="assets/images/html.png" height="50"> 
 <img src="assets/images/css.jpeg" height="50">
-<img src="assets/images/java.jpg" height="50">
 
 ##  Overview⭐
 Netflix is a popular streaming service that offers a wide variety of TV shows, movies, documentaries, and original content across different genres. 
