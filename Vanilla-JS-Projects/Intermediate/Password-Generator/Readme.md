@@ -30,30 +30,32 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+<h2 align='center'>Description 📃</h2>
 
 
 <div align='center'>
   <!-- <p>Add Description of the project</p> -->
 
-HTML (index.html):The HTML file defines the structure of a webpage.
-It includes a title, a link to an external CSS file for styling, and a body containing a container div.
-Inside the container div, there's an heading for the title, a paragraph for displaying the generated password, and a button triggering the password generation.
+**HTML (index.html)**
+<p>The HTML file defines the structure of a webpage.</p>
+<p>It includes a title, a link to an external CSS file for styling, and a body containing a container div.</p>
+<p>Inside the container div, there's an heading for the title, a paragraph for displaying the generated password, and a button triggering the password generation.</p>
 
-CSS (style.css):The CSS file styles the HTML elements to enhance the visual presentation of the webpage.
-It centers the content on the page and gives a basic style to the button.
+**CSS (style.css)**
+<p>The CSS file styles the HTML elements to enhance the visual presentation of the webpage.</p>
+<p>It centers the content on the page and gives a basic style to the button.</p>
 
-JavaScript (script.js):The JavaScript file contains a function named generatePassword.
-This function is called when the "Generate Password" button is clicked.
-It generates a random password of a specified length (default is 12 characters) using a set of characters including uppercase and lowercase letters, digits, and special symbols.
-The generated password is then displayed in the HTML paragraph element.
-Overall Description:
+**JavaScript (script.js)**
+<p>The JavaScript file contains a function named generatePassword.</p>
+<p>This function is called when the "Generate Password" button is clicked.</p>
+<p>It generates a random password of a specified length (default is 12 characters) using a set of characters including uppercase and lowercase letters, digits, and special symbols.</p>
+<p>The generated password is then displayed in the HTML paragraph element.</p>
 
-The webpage provides a simple user interface with a title, a display area for the generated password, and a button to trigger password generation.
+**Overall Description**
+
+<p>The webpage provides a simple user interface with a title, a display area for the generated password, and a button to trigger password generation.
 Users can click the "Generate Password" button to get a random password displayed on the webpage.
-The styling is kept minimal, and you can customize it further based on your design preferences. The JavaScript code handles the logic of generating random passwords.
-
-
+The styling is kept minimal, and you can customize it further based on your design preferences. The JavaScript code handles the logic of generating random passwords.</p>
 
 
 
@@ -62,7 +64,7 @@ The styling is kept minimal, and you can customize it further based on your desi
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run it? 🕹️</h3>
+<h2 align='center'>How to run it? 🕹️</h2>
 
 <div align='center'>
   <!-- <p>Add steps how to run this project</p> -->
@@ -81,9 +83,9 @@ Click the "Generate Password" button, and you should see a randomly generated pa
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshots 📸</h3>
-![image](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/129144413/4dc3d8b0-effc-4067-be93-3a491ccbaf49)
+<h2 align='center'>Screenshots 📸</h2>
 <!-- add the screenshot of the project (Mandatory) -->
+<img src="https://github.com/Avdhesh-Varshney/WebMasterLog/assets/129144413/4dc3d8b0-effc-4067-be93-3a491ccbaf49" alt="screenshot" />
 
 
 <!-- <h3 align='center'>Working Video 📹</h3> -->
