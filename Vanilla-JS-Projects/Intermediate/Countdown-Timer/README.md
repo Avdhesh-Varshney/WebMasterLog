@@ -1,13 +1,70 @@
-# Front Clock With Stopwatch And Timer Option
+<h1 align='center'><b>💥 Countdown-Timer 💥</b></h1>
 
-<img width="753" alt="Screenshot 2024-01-23 153925" src="https://github.com/vishal2005025/WebMasterLog/assets/146833908/31a325de-73c4-4e5f-a52d-395d80140160">
+<!-- -------------------------------------------------------------------------------------------------------------- -->
 
-# Stopwatch With Lap , Reset And Back Option
+<h3 align='center'>Tech Stack Used 🎮</h3>
 
-<img width="841" alt="Screenshot 2024-01-23 153938" src="https://github.com/vishal2005025/WebMasterLog/assets/146833908/148d5109-e082-4178-ad45-1e04df2d6b93">
+<div align='center'>
 
-# Timer Option with Reset , Start And Back Option 
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/javascript.svg"/>
 
-<img width="801" alt="Screenshot 2024-01-23 154005" src="https://github.com/vishal2005025/WebMasterLog/assets/146833908/0d7d078f-664a-4e73-a485-708f84d81ed8">
+</div>
 
-<img width="776" alt="Screenshot 2024-01-23 154015" src="https://github.com/vishal2005025/WebMasterLog/assets/146833908/c901e62e-588e-4271-9b03-5db0885e16e1">
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+<h3 align='center'>Description 📃</h3>
+
+<div align='center'>
+    <p>This project is a simple vanilla javascript implementation of Countdown Timer with stopwatch and clock . This project have a COUNTDOWN TIMER  that counts down time from a given number with stop and reset option . Also this project have a CLOCK which displays time on the front of the webpage and a STOPWATCH with lap and reset option.
+      Its aim is to manage time.
+</p>
+</div>
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+<h3 align='center'>How to run this Project? 🕹️</h3>
+
+<div >
+    <p>To run this project locally, follow these steps:
+
+1. Fork the repository.
+
+2. Clone the repository to your local computer:
+    git clone https://github.com/your-username/Countdown-Timer-Clone.git
+
+3. Open the project folder in your preferred code editor, now you can view website in live.
+
+</p>
+</div>
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+<h3 align='center'>Screenshot📸</h3>
+1. <img src='./photo1.webp.webp'>
+
+2. <img src='./photo2.webp.webp'>
+
+3. <img src='./photo3.webp.webp'>
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+<h4 align='center'>Developed By <b><i>Prithwi Hegde</i></b></h4>
+<p align='center'>
+  <a href='linkedin.com/in/prithwi-hegde'>
+    <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
+  </a>
+  <a href='https://github.com/Prithwi32'>
+    <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
+  </a>
+</p>
+
+<h4 align='center'>Happy Coding 🧑‍💻</h4>
+
+<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
