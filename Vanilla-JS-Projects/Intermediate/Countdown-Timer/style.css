@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 body {
   min-height: 100vh;
   display: flex;
@@ -14,6 +15,7 @@ body {
   background: #eef1f6;
   /* overflow: hidden; */
 }
+
 .container {
   position: relative;
   width: 100%;
@@ -25,6 +27,7 @@ body {
   background: #6994c5;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
+
 p,
 i {
   font-size: 10px;
@@ -32,11 +35,13 @@ i {
   color: #ffffff62;
   text-transform: uppercase;
 }
+
 .content h3 {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 25px;
 }
+
 .wrapper {
   padding: 30px 0;
   border-radius: 10px;
@@ -49,19 +54,23 @@ i {
   border: 1px solid rgba(255, 255, 255, 0.18);
   transition: all 0.3s ease;
 }
+
 .wrapper:hover {
   box-shadow: none;
 }
+
 .main {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
+
 .main div {
   width: 20%;
   text-align: center;
 }
+
 .main .number {
   position: relative;
   font-size: 60px;
@@ -69,9 +78,11 @@ i {
   line-height: 1;
   color: #fff;
 }
+
 .main .colon {
   font-size: 20px;
 }
+
 .btns {
   margin-top: 20px;
   display: flex;
@@ -80,6 +91,7 @@ i {
   flex-wrap: wrap;
   gap: 10px;
 }
+
 .btn {
   padding: 10px 20px;
   border-radius: 5px;
@@ -96,12 +108,15 @@ i {
   -webkit-backdrop-filter: blur(1.5px);
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
 .btn:active {
   box-shadow: none;
 }
+
 .hidden {
   display: none;
 }
+
 .laps {
   position: relative;
   max-height: 100px;
@@ -113,17 +128,21 @@ i {
   margin: 0 auto;
   margin-top: 20px;
 }
+
 .laps::-webkit-scrollbar {
   width: 5px;
 }
+
 .laps::-webkit-scrollbar-track {
   background: rgba(255, 255, 255, 0.15);
   border-radius: 10px;
 }
+
 .laps::-webkit-scrollbar-thumb {
   background: rgba(255, 255, 255, 0.15);
   border-radius: 10px;
 }
+
 .lap {
   width: 50%;
   display: flex;
@@ -133,9 +152,11 @@ i {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
+
 .lap:last-child {
   border-bottom: none;
 }
+
 .lap.active p {
   color: #fff;
 }
@@ -156,10 +177,12 @@ i {
   animation: bg-elem 10s linear infinite;
   transition: all 0.3s ease;
 }
+
 .bg-elem:hover {
   animation-play-state: paused;
   box-shadow: none;
 }
+
 .bg-elem:nth-child(2) {
   top: 20%;
   left: 80%;
@@ -167,6 +190,7 @@ i {
   height: 100px;
   animation-duration: 30s;
 }
+
 .bg-elem:nth-child(3) {
   top: 15%;
   left: 10%;
@@ -180,9 +204,11 @@ i {
   0% {
     transform: rotate(45deg) translate(0, 0);
   }
+
   50% {
     transform: rotate(45deg) translate(20px, 20px);
   }
+
   100% {
     transform: rotate(45deg) translate(0, 0);
   }
@@ -198,18 +224,23 @@ i {
     border-radius: 0;
     padding: 0 20px;
   }
+
   .content h3 {
     font-size: 16px;
   }
+
   .main-wrapper {
     padding: 20px 0;
   }
+
   .main div {
     width: 15%;
   }
+
   .main .number {
     font-size: 50px;
   }
+
   .main .colon {
     font-size: 16px;
   }
@@ -223,18 +254,23 @@ i {
   .container {
     padding: 0 10px;
   }
+
   .content h3 {
     font-size: 14px;
   }
+
   .main-wrapper {
     padding: 10px 0;
   }
+
   .main-wrapper .head {
     padding: 0 20px;
   }
+
   .main .number {
     font-size: 40px;
   }
+
   .main .colon {
     font-size: 12px;
   }
@@ -248,6 +284,7 @@ i {
   font-size: 14px;
   color: #333;
 }
+
 .credits span {
   color: #109dff;
 }
