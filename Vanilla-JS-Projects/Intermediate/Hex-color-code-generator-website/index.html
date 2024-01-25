@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Palette Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="colorPaletteContainer">
+    <h1 id="heading">Choose a Color</h1>
+    <div class="colorPaletteWrapper">
+        <div id="colorPalette">
+            <div class="colorBox" id="color1" style="background-color: #FF5733;"></div>
+            <div class="colorBox" id="color2" style="background-color: #33FF57;"></div>
+            <div class="colorBox" id="color3" style="background-color: #5733FF;"></div>
+        </div>
+        <button onclick="copyToClipboard()">Copy Hex</button>
+    </div>
+
+    <div id="resultColor">
+        <p>Result Color</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
