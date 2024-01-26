@@ -45,7 +45,7 @@
 
 <h3 align='center'>Screenshot📸</h3>
 
-1. <img src='./photo1.webp.webp'>
+ <img src='./Countdown-Timer.webp'>
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
