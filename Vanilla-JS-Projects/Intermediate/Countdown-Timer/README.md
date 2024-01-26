@@ -8,8 +8,7 @@
 
   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-  <img width="55" src="https://raw.githubusercontent.com/gilbarbara/logos/master/logos/javascript.svg"/>
-
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 </div>
 
 
@@ -45,11 +44,9 @@
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 <h3 align='center'>Screenshot📸</h3>
+
 1. <img src='./photo1.webp.webp'>
 
-2. <img src='./photo2.webp.webp'>
-
-3. <img src='./photo3.webp.webp'>
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
@@ -57,7 +54,7 @@
 
 <h4 align='center'>Developed By <b><i>Vishal Malyan</i></b></h4>
 <p align='center'>
-  <a href='linkedin.com/in/Vishal-malyan'>
+  <a href='https://www.linkedin.com/in/vishal-malyan-a5204625b'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
   </a>
   <a href='https://github.com/vishal2005025'>
