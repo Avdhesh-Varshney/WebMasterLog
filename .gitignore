@@ -1,3 +1,5 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # Logs
 logs
 *.log
@@ -22,6 +24,8 @@ pids
 *.pid
 *.seed
 *.pid.lock
+/.pnp
+.pnp.js
 
 # Editor directories and files
 .vscode/*
@@ -51,6 +55,9 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+
+# production
+/build
 
 # nyc test coverage
 .nyc_output
@@ -83,7 +90,10 @@ typings
 
 # dotenv environment variables file
 .env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # next.js build output
 .next
-
