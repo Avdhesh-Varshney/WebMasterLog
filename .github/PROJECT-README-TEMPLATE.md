@@ -29,9 +29,9 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+## :zap: Description 📃
 
-<div align='center'>
+<div>
   <!-- <p>Add Description of the project</p> -->
     <p></p>
 </div>
@@ -39,20 +39,19 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run it? 🕹️</h3>
+## :zap: How to run it? 🕹️
 
-<div align='center'>
-  <!-- <p>Add steps how to run this project</p> -->
-    <p></p>
-</div>
+<!-- Add steps how to run this project -->
+
+
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshots 📸</h3>
+## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
 
-<h3 align='center'>Working Video 📹</h3>
+## :zap: Working Video 📹
 <!-- directly add the link of video (If, possible) -->
 
 
