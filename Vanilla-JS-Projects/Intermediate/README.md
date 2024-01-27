@@ -24,6 +24,8 @@
 		<td align="center"> <a href="https://github.com/Avdhesh-Varshney/WebMasterLog/tree/main/Vanilla-JS-Projects/Intermediate/Day-Calculator">Day Calculator</a></td>
 		<td align="center"> 3.</td>
 		<td align="center"> <a href="https://github.com/Avdhesh-Varshney/WebMasterLog/tree/main/Vanilla-JS-Projects/Intermediate/Number-To-Words-Convertor">Number to Words Convertor</a></td>
+		<td align="center"> 4.</td>
+		<td align="center"> <a href="https://github.com/Avdhesh-Varshney/WebMasterLog/tree/main/Vanilla-JS-Projects/Intermediate/Password-Generator">Password Generator</a></td>
 	</tr>
 
  
