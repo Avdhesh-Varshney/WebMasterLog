@@ -10,11 +10,10 @@
     color: white;
 }
 
-/* Sidebar */
 .sidebar {
     background: #12151e;
     color: #6c7293;
-    height: 100vh;
+    height: 100%;
     overflow-y: auto;
 }
 

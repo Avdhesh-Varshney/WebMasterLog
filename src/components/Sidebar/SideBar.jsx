@@ -129,7 +129,7 @@ const SideBar = ({ children }) => {
           </section>
         </motion.div>
 
-        <main className="ms-5" style={{ paddingLeft: !isOpen ? '3rem' : '6.4rem', transition: 'all 0.3s' }}>{children}</main>
+        <main style={{ marginLeft: 'auto', transition: 'all 0.3s' }}>{children}</main>
       </div>
     </>
   );
