@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #12151e;
+    color: #6c7293;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.top_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.logo {
+    font-size: 18px;
+    line-height: 0;
+    margin: 0 5px;
+}
+
+.bars {
+    width: 20px;
+    margin: 0px 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    height: 30px;
+    padding: 10px;
+}
+
+.search input {
+    border: none;
+    margin-left: 10px;
+    border-radius: 5px;
+    background: rgb(238, 238, 238);
+    color: black;
+}
+
+.routes {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.link {
+    display: flex;
+    color: #6c7293;
+    gap: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-right: 4px solid transparent;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.link:hover {
+    color: white;
+    background: #0f1015;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.active {
+    border-left: 4px solid white;
+    color: white;
+    background: #0f1015;
+}
+
+.link_text {
+    white-space: nowrap;
+    font-size: 15px;
+    margin: auto 0;
+}
+
+.menu {
+    display: flex;
+    color: white;
+    padding: 5px 10px;
+    border-right: 4px solid transparent;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    justify-content: space-between;
+}
+
+.menu_item {
+    display: flex;
+    gap: 10px;
+}
+
+.menu_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu_container .link {
+    padding-left: 20px;
+    border-bottom: #fff 0.5px solid;
+}
+
+.icon {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #bba8bff5;
+}
+
+.icon::before {
+    vertical-align: middle;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #6c729333;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.dashboard {
+    color: violet;
+    filter: drop-shadow(0 0 5px violet);
+}
+
+.angular {
+    color: red;
+    filter: drop-shadow(0 0 5px red);
+}
+
+.css {
+    color: blue;
+    filter: drop-shadow(0 0 5px blue);
+}
+
+.front-end {
+    color: yellowgreen;
+    filter: drop-shadow(0 0 5px yellowgreen);
+}
+
+.next {
+    filter: drop-shadow(0 0 5px yellowgreen);
+    color: #12151e;
+}
+
+.node {
+    filter: drop-shadow(0 0 5px yellowgreen);
+    color: green;
+}
+
+.react {
+    color: blue;
+    filter: drop-shadow(0 0 5px blue);
+}
+
+.vanilla {
+    color: yellow;
+    filter: drop-shadow(0 0 5px yellowgreen);
+}
+
+.vue {
+    color: green;
+    filter: drop-shadow(0 0 5px yellowgreen);
+}
