@@ -39,12 +39,26 @@ colorBoxes.forEach(box => {
 
 // Function to copy hex code to clipboard
 function copyToClipboard() {
-    const hexCode = resultColor.style.backgroundColor;
-    if (hexCode) {
+    const rgbColor = resultColor.style.backgroundColor;
+    if (rgbColor) {
+        // Convert RGB color to hexadecimal
+        const hexCode = rgbToHex(rgbColor);
         navigator.clipboard.writeText(hexCode).then(() => {
             alert('Hex code copied to clipboard: ' + hexCode);
         }, () => {
             alert('Failed to copy hex code to clipboard.');
         });
     }
+}
+
+// Function to convert RGB color to hexadecimal
+function rgbToHex(rgb) {
+    // Split the RGB color into its components
+    const [r, g, b] = rgb.match(/\d+/g).map(Number);
+    // Convert each component to hexadecimal and pad with zeros if necessary
+    const rHex = r.toString(16).padStart(2, '0');
+    const gHex = g.toString(16).padStart(2, '0');
+    const bHex = b.toString(16).padStart(2, '0');
+    // Return the hexadecimal color code
+    return `#${rHex}${gHex}${bHex}`;
 }
