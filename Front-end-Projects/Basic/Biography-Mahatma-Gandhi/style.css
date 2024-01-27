@@ -1,0 +1,71 @@
+body {
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #343a40 !important;
+    margin-bottom: 20px;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #ffffff !important;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #ffffff; /* Uniform background color for section content */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Other styles remain the same */
+.col-lg-6 {
+    padding-bottom: 20px; /* Adjust the value as needed */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #007bff; /* Heading color */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+button {
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 111%;
+    margin-left: -60px;
+    clear: both;
+    animation: fadeInUp 1s ease-out;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.quote {
+    font-style: italic;
+    margin-top: 10px;
+}
