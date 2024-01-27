@@ -1,15 +1,23 @@
 import React from 'react'
 import Card from './Card'
+import './card.css'
 
 const ProjectCards = (props) => {
-	const { projectsData } = props;
+	const { projectsData, tech } = props;
+	const truncateDescription = (description, limit) => {
+    const words = description.split(' ');
+    if (words.length > limit) {
+      return words.slice(0, limit).join(' ') + '...';
+    }
+    return description;
+  };
 	return (
-		<div className='ms-5 ps-5' style={{width: '1300px'}} >
-			<div className="d-flex flex-wrap justify-content-evenly align-content-around">
-				{projectsData.map((data, index) => (
-					<Card key={index} imageLink={data.imageLink} title={data.title} content={data.content} sourceLink={data.sourceLink} liveLink={data.liveLink} />
-				))}
-			</div>
+		<div className='projectsCard row row-cols-1 row-cols-md-3 g-4' style={{ margin: '1rem auto', position: 'absolute', right: '0', top: '15%' }}>
+			{projectsData.map((data, index) => (
+				<div className="col" key={index}>
+					<Card key={index} tech={tech} tag={truncateDescription(data.tag, 1)} title={truncateDescription(data.title, 5)} description={truncateDescription(data.description, 20)} liveLink={data.liveLink} />
+				</div>
+			))}
 		</div>
 	)
 }

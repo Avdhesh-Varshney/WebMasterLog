@@ -1,0 +1,22 @@
+.projectsCard {
+    max-width: 1300px;
+    transition: all 0.3s;
+}
+
+@media (max-width: 1400px) {
+    .projectsCard {
+        max-width: 88%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .projectsCard {
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 800px) {
+    .projectsCard {
+        max-width: 65%;
+    }
+}
