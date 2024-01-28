@@ -6,31 +6,8 @@ import SideBarMenu from "./SideBarMenu";
 import './sidebar.css';
 
 // Importing Icons 
-import { FaBars, FaHome, FaAngular, FaCss3, FaReact, FaVuejs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
-import { FaNode } from "react-icons/fa6";
-import { IoLogoJavascript } from "react-icons/io5";
-import { MdLaptopWindows } from "react-icons/md";
+import { FaBars } from "react-icons/fa";
 import { BiSearch } from "react-icons/bi";
-
-const categories = ['', 'angular', 'css', 'front-end', 'next', 'node', 'react', 'vanilla', 'vue'];
-const icons = {
-  '': <FaHome className="dashboard" />,
-  'angular': <FaAngular className="angular" />,
-  'css': <FaCss3 className="css" />,
-  'front-end': <MdLaptopWindows className="front-end" />,
-  'next': <TbBrandNextjs className="next" />,
-  'node': <FaNode className="node" />,
-  'react': <FaReact className="react" />,
-  'vanilla': <IoLogoJavascript className="vanilla" />,
-  'vue': <FaVuejs className="vue" />,
-}
-const routesName = (category) => {
-  if (category === '') return 'Dashboard';
-  else if (category === 'css') return 'CSS';
-  else if (category === 'front-end') return 'Front End';
-  return category[0].toUpperCase() + category.slice(1) + ' JS';
-}
 
 const inputAnimation = {
   hidden: {
@@ -65,14 +42,9 @@ const showAnimation = {
   },
 };
 
-const SideBar = ({ children }) => {
+const SideBar = ({ routes, children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
-  const routes = categories.map((category) => ({
-    path: `/${category}`,
-    name: routesName(category),
-    icon: icons[category],
-  }));
 
   return (
     <>
