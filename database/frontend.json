@@ -1,0 +1,20 @@
+[
+	{
+		"tag": "Intermediate",
+		"title": "Amazon Prime Clone",
+		"description": "This project is a simple HTML and CSS implementation of a Amazon Prime website clone. It aims to replicate the basic structure and styling of the popular entertaining website Amazon Prime.This project Showcases the power of HTML and CSS.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Amazon-Prime-Clone/index.html"
+	},
+	{
+		"tag": "Intermediate",
+		"title": "MakeMyTrip website clone",
+		"description": "This project is a simple HTML and CSS implementation of a MakeMyTrip website clone. It aims to replicate the basic structure and styling of the popular travel booking platform. This project serves as a practice exercise for HTML and CSS skills.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/MakeMyTrip-website-clone/index.html"
+	},
+	{
+		"tag": "Basic",
+		"title": "Biography Mahatma Gandhi",
+		"description": "This project is a webpage which can tell you the history of Mahatma Gandhi in a concised way from their birth to death.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Basic/Biography-Mahatma-Gandhi/index.html"
+	}
+]

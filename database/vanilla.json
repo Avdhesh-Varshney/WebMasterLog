@@ -1,0 +1,56 @@
+[
+	{
+		"tag": "Basic",
+		"title": "To Do List",
+		"description": "To do list provide all the CRUD operations to the user. Help to keep their notes on the website temporary.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Basic/To-Do-List/index.html"
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Day Calculator",
+		"description": "This application can tell the day of the entered date instantly, whether it is Sunday, Monday, Tuesday, etc.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Day-Calculator/index.html"
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Time Watcher",
+		"description": "This a simple project where i created a time watcher website using only html, css, bootstrap and js, which can shows the time from the entered date to the currect upto milli-seconds precision.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Time-Watcher/index.html"
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Number To Words Convertor",
+		"description": "Number to Words convertor can facilitate users to convert any number into words instantly.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Number-To-Words-Convertor/index.html"
+	},
+	{
+		"tag": "Basic",
+		"title": "Gallery",
+		"description": "This website helps to enlist those videos which are necessary to the user by adding their links into the json file provided along with the project.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Basic/Gallery/index.html"
+	},
+	{
+		"tag": "Advanced",
+		"title": "Audio Analyzer",
+		"description": "This a simple project where i created a amplification wave of the sound using only html, css and js, which can be shows according to the pitch of the user's sound.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Advanced/Audio-Analyzer/index.html"
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Password Generator",
+		"description": "It generates a random password of a specified length (default is 12 characters) using a set of characters including uppercase and lowercase letters, digits, and special symbols.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Password-Generator/index.html"
+	},
+	{
+		"tag": "Basic",
+		"title": "Palindrome Checker",
+		"description": "A palindrome checker project that verifies whether a given text input is a palindrome or not either alphabetic or non-alphabetic.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Basic/Gallery/index.html"
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Hex color code generator website",
+		"description": "This website can generate the different combinations of the hex color codes by changing the different colors from the color palletes.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Hex-color-code-generator-website/index.html"
+	}
+]
