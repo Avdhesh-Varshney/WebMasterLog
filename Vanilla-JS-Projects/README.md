@@ -21,15 +21,45 @@ To get started with these Vanilla JavaScript projects, follow these steps:
 1. Clone the repository.
 2. Navigate to the `Vanilla-JS-Projects` directory.
 3. Choose the project level (Basic, Intermediate, Advanced) you're interested in.
-4. Follow the instructions in the project's README for installation and usage.
+4. Follow the instructions in the project's [README](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/README.md) for installation and usage.
 
-### :zap: Contributing
 
-If you'd like to contribute to this project, please follow our [Contribution Guidelines](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CONTRIBUTING.md).
+<div align="center">
 
-### :zap: License
+## :zap: Available Projects 🎉
+<!-- Rules to Add project are as follows:
 
-This project is licensed under the [MIT License](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/LICENSE).
+1. Attach the project name as shown below.
+[To Do List](./Basic/To-Do-List)
+
+2. If alignment is distorted, i will manage it. You have just added you project here according to serial number. 
+
+3. Add the category of the project using the provided links below here, according to your project.
+
+![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) 
+![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) 
+![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) 
+
+-->
+
+
+| S.No  | Project Name | Category |
+|-------|--------------|----------|
+|   1   | [To Do List](./Basic/To-Do-List) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   2   | [Day Calculator](./Intermediate/Day-Calculator) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   3   | [Time Watcher](./Intermediate/Time-Watcher) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   4   | [Number to Words Convertor](./Intermediate/Number-To-Words-Convertor) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   5   | [Gallery](./Basic/Gallery) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   6   | [Audio Analyzer](./Advanced/Audio-Analyzer) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   7   | [Password Generator](./Intermediate/Password-Generator) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   8   | [Palindrome Checker](./Basic/Palindrome-Checker) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   9   | [Hex Color Code Generator](./Intermediate/Hex-color-code-generator-website) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  10   | [Countdown Timer](./Intermediate/Countdown-Timer) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+
+
+
+</div>
+
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 

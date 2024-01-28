@@ -128,6 +128,12 @@ And these directories contains 3 sub-directories.
    <a href="https://twitter.com/__Avdhesh__">
      <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
    </a>
+   <a href="https://www.youtube.com/@Hack-Master">
+     <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube" />
+   </a>
+   <a href="https://t.me/hack_er_boy">
+     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+   </a>
 </div>
 <br />
 
@@ -159,7 +165,7 @@ And these directories contains 3 sub-directories.
 <div align="center">
 
   <a href="https://github.com/Avdhesh-Varshney/WebMasterLog/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=Avdhesh-Varshney/WebMasterLog" />
+    <img src="https://contrib.rocks/image?repo=Avdhesh-Varshney/WebMasterLog&&max=1000" />
   </a>
   <br />
 </div>
