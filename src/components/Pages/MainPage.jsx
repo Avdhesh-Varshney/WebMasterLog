@@ -22,7 +22,7 @@ const MainPage = (props) => {
 		const fetchData = async () => {
 			props.setProgress(10);
 			try {
-				const response = await fetch(`/database/${category}.json`);
+				const response = await fetch(`https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/database/${category}.json`);
 				if (!response.ok) {
 					throw new Error('Failed to fetch projects data');
 				}
