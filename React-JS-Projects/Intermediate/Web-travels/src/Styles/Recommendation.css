@@ -1,0 +1,128 @@
+.recommendation {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 1.8rem;
+}
+
+.CategoryBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CategoryBar ul {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+}
+
+.CategoryBar ul li {
+  list-style: none;
+  padding: 1rem 0.7rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-bottom: 0.2rem solid rgba(249, 115, 11, 0.181);
+}
+
+.Active {
+  color: rgb(236, 104, 4);
+  border-bottom: 3px solid rgb(243, 111, 9) !important;
+}
+
+.recommendationBox {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 2rem 0;
+}
+
+.box {
+  padding: 0.5rem;
+  background-color: rgba(224, 185, 250, 0.35);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: 0.3s ease-in-out;
+  box-shadow: rgb(0, 0, 0, 0.1) 0px 10px 15px 0px;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: translateX(0.5rem) translateY(-0.5rem);
+  box-shadow: rgb(0, 0, 0, 0.3) 0px 10px 10px 0px;
+}
+
+.box:hover .image img {
+  transform: scale(115%);
+}
+
+.image {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.box img {
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.box p {
+  font-size: 0.9rem;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price img {
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0.2rem 0.3rem;
+  margin-right: 0.2rem;
+  border-radius: 50%;
+  background-color: rgb(143, 9, 245);
+  color: white;
+}
+
+.price p {
+  font-weight: bold;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details p {
+  font-size: 0.8rem;
+}
+
+/* responsive section */
+
+@media screen and (max-width: 450px) {
+  .recommendation {
+    padding: 2rem 1rem;
+  }
+
+  .CategoryBar ul {
+    gap: 0.5rem;
+  }
+
+  .recommendationBox {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}

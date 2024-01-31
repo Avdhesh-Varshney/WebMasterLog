@@ -1,0 +1,39 @@
+.service {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+.services {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: rgb(100, 100, 100, 0.2) 0px 17px 20px 0px;
+}
+
+.services:hover {
+  transform: translateX(0.5rem) translateY(-1rem);
+  box-shadow: rgb(0, 0, 0, 0.4) 0px 5px 15px;
+}
+
+.services img {
+  width: 30px;
+}
+
+.services p {
+  font-size: 0.9rem;
+}
+
+/* responsive section */
+@media screen and (max-width: 450px) {
+  .service {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    padding: 3rem 1rem;
+  }
+}
