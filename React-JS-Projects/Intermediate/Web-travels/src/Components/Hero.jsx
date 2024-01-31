@@ -25,7 +25,7 @@ function Hero() {
           <div className={Classes.title}>
             <h1>
               Travel & Explore With{" "}
-              <span className={Classes.nickName}>Samim Travels</span>
+              <span className={Classes.nickName}>Web Travels</span>
             </h1>
             <p>
               Save at least 15% on stays worldwide, from relaxing retreats to
