@@ -145,11 +145,6 @@
     filter: drop-shadow(0 0 5px red);
 }
 
-.css {
-    color: blue;
-    filter: drop-shadow(0 0 5px blue);
-}
-
 .frontend {
     color: yellowgreen;
     filter: drop-shadow(0 0 5px yellowgreen);
