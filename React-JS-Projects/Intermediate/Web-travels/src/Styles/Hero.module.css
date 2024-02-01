@@ -1,0 +1,200 @@
+.heroContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin-top: 3.5rem;
+}
+
+.heroimage {
+  height: 100%;
+}
+
+.heroimage img {
+  width: 100%;
+  filter: brightness(60%);
+  object-fit: cover;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  width: 50%;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title h1 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  text-align: start;
+  padding: 0 3vw;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+
+.nickName {
+  color: rgb(255, 136, 0);
+}
+
+.title p {
+  padding: 0 3vw;
+  text-align: justify;
+  font-size: 0.8rem;
+}
+
+.bookingContainer {
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 5px;
+  justify-content: space-between;
+  background-color: #ffff;
+  align-items: center;
+}
+
+.bookingContainer .search {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.3rem;
+}
+
+.bookingContainer label {
+  text-align: left;
+  font-size: 1rem;
+  color: rgb(28, 32, 88);
+  font-weight: 600;
+}
+
+.bookingContainer input {
+  border: none;
+  cursor: pointer;
+}
+
+.bookingContainer input:focus {
+  outline: none;
+}
+
+.bookingContainer input::placeholder {
+  color: rgb(0, 0, 0);
+}
+
+.bookingContainer button {
+  padding: 0.7rem 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgb(243, 111, 9);
+  border-radius: 5px;
+  color: #ffff;
+  border: 1px solid rgb(243, 111, 9);
+  outline: none;
+  transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.bookingContainer button:hover {
+  background-color: transparent;
+  color: rgb(243, 111, 9);
+}
+
+/* modal */
+.modalContainer {
+  position: absolute;
+  width: 40%;
+  top: 2%;
+  left: 30%;
+  padding: 1rem;
+  background-color: rgb(243, 111, 9);
+  border-radius: 20px;
+  box-shadow: rgb(0, 0, 0, 0.2) 0px 10px 10px 0px;
+  z-index: 999;
+  text-align: center;
+  position: fixed;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.open {
+  transform: translateY(0px);
+}
+
+.modalContainer h5 {
+  font-size: 1.2rem;
+}
+.modalContainer button {
+  padding: 0.6rem 4rem;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-top: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* responsive section */
+@media screen and (max-width: 450px) {
+  .heroContainer {
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .heroimage {
+    height: 100%;
+    padding: 0 1rem;
+  }
+
+  .heroimage img {
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .title {
+    width: 80%;
+    margin-bottom: 3rem;
+  }
+
+  .title h1 {
+    font-size: 1.7rem;
+  }
+
+  .bookingContainer {
+    width: 80%;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .title h1 {
+    padding: 0 0vw;
+  }
+
+  .title p {
+    padding: 0 0vw;
+  }
+
+  .modalContainer {
+    width: 80%;
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .heroContainer {
+    margin-top: 2.9rem;
+  }
+}

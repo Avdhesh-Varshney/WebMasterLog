@@ -1,0 +1,72 @@
+.testimonials h1 {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+.boxContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 3rem 0;
+}
+
+.testimonialBox {
+  background-color: rgb(216, 236, 253);
+  padding: 0.9rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  position: relative;
+}
+
+.testimonialBox:hover {
+  transform: translateX(0.5rem) translateY(-0.9rem);
+  box-shadow: rgb(0, 0, 0, 0.3) 0px 10px 10px 0px;
+}
+
+.testimonialBox p {
+  font-size: 0.9rem;
+}
+
+.testimonialBox img {
+  width: 14%;
+  border-radius: 50%;
+}
+
+.Icon {
+  position: absolute;
+  top: -9%;
+  left: 4%;
+  font-size: 2rem;
+  color: rgb(243, 111, 9);
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.info h3 {
+  font-size: 1rem;
+}
+
+.info span {
+  font-size: 0.9rem;
+  color: rgb(84, 84, 84);
+}
+
+/* responsive section */
+
+@media screen and (max-width: 450px) {
+  .testimonials {
+    padding: 0 1rem;
+  }
+
+  .boxContainer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+}
