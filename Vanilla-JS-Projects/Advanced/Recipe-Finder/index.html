@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Recipe Finder</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Recipe Finder</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <select id="searchBy">
+                <option value="categories">Categories</option>
+                <option value="cuisine">Cuisine</option>
+                <option value="mainIngredient">Main Ingredient</option>
+                <option value="name">Name</option>
+            </select>
+            <button onclick="performSearch()">Search</button>
+            <br><br>
+            <button onclick="searchRandomRecipe()">Random Recipe</button>
+        </div>
+        <div id="resultContainer" class="results"></div>
+
+        <div class="related-recipes" id="related-recipes">
+            <h2>Related Recipes</h2>
+            <div id="relatedContainer" class="related-results"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
