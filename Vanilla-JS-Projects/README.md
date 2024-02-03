@@ -55,6 +55,7 @@ To get started with these Vanilla JavaScript projects, follow these steps:
 |   8   | [Palindrome Checker](./Basic/Palindrome-Checker) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   9   | [Hex Color Code Generator](./Intermediate/Hex-color-code-generator-website) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  10   | [Countdown Timer](./Intermediate/Countdown-Timer) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  11   | [Recipe Finder](./Advanced/Recipe-Finder/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 
 
 
