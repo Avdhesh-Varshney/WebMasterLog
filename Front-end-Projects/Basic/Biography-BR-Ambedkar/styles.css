@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 18px;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 18px;
+    text-align: center;
+    font-size: 36px;
+    border-radius: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile-img:hover {
+    transform: translateY(-5px);
+}
+
+.profile-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 70%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-img img:hover {
+    transform: scale(1.1);
+}
+
+.profile-info {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.bio-text {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.animated {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Interactive elements */
+
+.profile-info p {
+    margin: 8px 0;
+    font-size: 18px;
+}
+
+.profile-info p strong {
+    color: #4CAF50;
+}
+
+.profile-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.profile-img:hover:before {
+    opacity: 1;
+}
+
+.profile-img:hover:after {
+    content: 'View Image';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 16px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.profile-img:hover:active:after {
+    opacity: 1;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    .profile-card {
+        flex-direction: column;
+        align-items: center;
+    }
+}
