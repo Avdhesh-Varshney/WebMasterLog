@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥 Biography-Mahatma-Gandhi 💥</b></h1>
+<h1 align='center'><b>💥 Biography-Dr. BR-Ambedkar 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -20,7 +20,7 @@
 <h3 align='center'>Description 📃</h3>
 
 <div align='center'>
-    <p>This project is a webpage which can tell you the history of Mahatma Gandhi in a concised way from their birth to death.This project Showcases the power of HTML and CSS.</p>
+    <p>This project is a webpage which can tell you the history of Dr. BR Ambedkar in a brief way from their birth to death.This project Showcases the power of HTML and CSS.</p>
 </div>
 
 
@@ -44,15 +44,15 @@
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 <h3 align='center'>Screenshot📸</h3>
-<img src= ./biography.webp>
+<img src ='./Biography-BR-Ambedkar.webp'>
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h4 align='center'>Developed By <b><i>Bishal karmakar</i></b></h4>
+<h4 align='center'>Developed By <b><i>Bishal Karmakar</i></b></h4>
 <p align='center'>
-  <a href='linkedin.com/in/bishal-karmakar-03629524b/'>
+  <a href='https://www.linkedin.com/in/bishal-karmakar-03629524b/'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
   </a>
   <a href='https://github.com/Bishal-35'>
