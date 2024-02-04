@@ -44,7 +44,7 @@
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 <h3 align='center'>Screenshot📸</h3>
-<img src= './Biography-BR-Ambedkar.webp'>
+<img src= ./biography.webp>
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
