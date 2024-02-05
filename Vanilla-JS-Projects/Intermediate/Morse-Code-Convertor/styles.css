@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #e74c3c; 
+    background-color: #030637;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    transition: transform 0.3s ease; 
+    background-color: #3C0753;
+}
+
+.container:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+h1 {
+    color: red; /* Heading color */
+}
+
+label, textarea, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    color: rgb(22, 21, 21);
+}
+label {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    color: rgb(245, 245, 36);
+}
+textarea, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    color: rgb(22, 21, 21);
+}
+
+textarea {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #910A67; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #219d54; /* Hover color */
+}
+
+textarea[readonly] {
+    background-color: #d0e0ea; /* Readonly textarea background color */
+}
+
+.error-message {
+    color: #e74c3c; /* Red color for error message */
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+    }
+}
