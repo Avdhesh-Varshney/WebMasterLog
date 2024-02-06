@@ -56,7 +56,8 @@ To get started with these Vanilla JavaScript projects, follow these steps:
 |   9   | [Hex Color Code Generator](./Intermediate/Hex-color-code-generator-website) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  10   | [Countdown Timer](./Intermediate/Countdown-Timer) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  11   | [Recipe Finder](./Advanced/Recipe-Finder/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|  12   | [CosmoXplore : APOD](./Intermediate/CosmoXplore-APoD/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  12   | [Morse Code Generator](./Intermediate/Morse-Code-Generator) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  13   | [CosmoXplore : APOD](./Intermediate/CosmoXplore-APoD/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 </div>
