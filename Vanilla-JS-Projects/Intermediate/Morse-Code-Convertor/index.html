@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morse Code Converter</title>
+    <style>
+       body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #e74c3c; 
+    background-color: #030637;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 20px;
+    transition: transform 0.3s ease; 
+    background-color: #3C0753;
+}
+
+.container:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+h1 {
+    color: red; /* Heading color */
+}
+
+label, textarea, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    color: rgb(22, 21, 21);
+}
+label {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    color: rgb(245, 245, 36);
+}
+textarea, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 4px;
+    color: rgb(22, 21, 21);
+}
+
+textarea {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #910A67; /* Button background color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: #219d54; /* Hover color */
+}
+
+textarea[readonly] {
+    background-color: #d0e0ea; /* Readonly textarea background color */
+}
+
+.error-message {
+    color: #e74c3c; /* Red color for error message */
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 10px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>English to Morse Code Converter</h1>
+
+        <div class="converter">
+            <div class="converter-container">
+                <label for="englishInput">Enter English:</label>
+                <textarea id="englishInput" placeholder="Enter English..." rows="4"></textarea>
+                <button onclick="convertToMorse()">Convert to Morse</button>
+            </div>
+        </div>
+
+        <label for="englishOutput">Output:</label>
+        <textarea id="englishOutput" placeholder="Translation will appear here..." rows="4" readonly></textarea>
+        
+        <p class="error-message" id="errorMessage"></p>
+    </div>
+
+    <div class="container">
+        <h1>Morse Code to English Converter</h1>
+
+        <div class="converter">
+            <div class="converter-container">
+                <label for="morseInput">Enter Morse Code:</label>
+                <textarea id="morseInput" placeholder="Enter Morse Code..." rows="4"></textarea>
+                <button onclick="convertToEnglish()">Convert to English</button>
+            </div>
+        </div>
+
+        <label for="morseOutput">Output:</label>
+        <textarea id="morseOutput" placeholder="Translation will appear here..." rows="4" readonly></textarea>
+        
+        <p class="error-message" id="errorMessageMorse"></p>
+    </div>
+
+    <script>
+        const morseToEnglishMap = {
+            ".-": "A", "-...": "B", "-.-.": "C", "-..": "D", ".": "E",
+            "..-.": "F", "--.": "G", "....": "H", "..": "I", ".---": "J",
+            "-.-": "K", ".-..": "L", "--": "M", "-.": "N", "---": "O",
+            ".--.": "P", "--.-": "Q", ".-.": "R", "...": "S", "-": "T",
+            "..-": "U", "...-": "V", ".--": "W", "-..-": "X", "-.--": "Y",
+            "--..": "Z", "-----": "0", ".----": "1", "..---": "2", "...--": "3",
+            "....-": "4", ".....": "5", "-....": "6", "--...": "7", "---..": "8",
+            "----.": "9", ".-.-.-": ".", "--..--": ",", "..--..": "?", "-.-.--": "!",
+            " ": " "
+        };
+
+        const englishToMorseMap = {
+            'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 
+            'F': '..-.', 'G': '--.', 'H': '....', 'I': '..', 'J': '.---',
+            'K': '-.-', 'L': '.-..', 'M': '--', 'N': '-.', 'O': '---',
+            'P': '.--.', 'Q': '--.-', 'R': '.-.', 'S': '...', 'T': '-',
+            'U': '..-', 'V': '...-', 'W': '.--', 'X': '-..-', 'Y': '-.--',
+            'Z': '--..', '0': '-----', '1': '.----', '2': '..---', '3': '...--',
+            '4': '....-', '5': '.....', '6': '-....', '7': '--...', '8': '---..',
+            '9': '----.', '.': '.-.-.-', ',': '--..--', '?': '..--..', '!': '-.-.--',
+            ' ': ' '
+        };
+
+        function convertToMorse() {
+            const englishInput = document.getElementById("englishInput").value.toUpperCase();
+            let morseOutput = "";
+
+            for (let i = 0; i < englishInput.length; i++) {
+                if (englishToMorseMap[englishInput[i]]) {
+                    morseOutput += englishToMorseMap[englishInput[i]] + " ";
+                } else {
+                    document.getElementById("errorMessage").innerText = "Invalid character in input!";
+                    return;
+                }
+            }
+
+            document.getElementById("englishOutput").value = morseOutput.trim();
+            document.getElementById("errorMessage").innerText = "";
+        }
+
+        function convertToEnglish() {
+            const morseInput = document.getElementById("morseInput").value;
+            const morseArray = morseInput.split(" ");
+            let englishOutput = "";
+
+            for (let i = 0; i < morseArray.length; i++) {
+                if (morseToEnglishMap[morseArray[i]]) {
+                    englishOutput += morseToEnglishMap[morseArray[i]];
+                } else {
+                    document.getElementById("errorMessageMorse").innerText = "Invalid Morse Code!";
+                    return;
+                }
+            }
+
+            document.getElementById("morseOutput").value = englishOutput;
+            document.getElementById("errorMessageMorse").innerText = "";
+        }
+    </script>
+</body>
+</html>
