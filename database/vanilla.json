@@ -67,13 +67,13 @@
 	},
 	{
 		"tag": "Intermediate",
-		"title": "Morse Code Generator",
+		"title": "Morse Code Convertor",
 		"description": "This project is a simple vanilla JavaScript implementation of a Morse Code generator. It takes the entered text by the user and converts it into Morse Code.",
 		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Morse-Code-Convertor/index.html"
 	},
 	{
 		"tag": "Intermediate",
-		"title": "CosmoXplore : APOD",
+		"title": "CosmoXplore APOD",
 		"description": "This project is a vanilla javascript project that uses NASA APoD API to fetch Astronomy Picture of the Day.",
 		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/CosmoXplore-APoD/index.html"
 	}
