@@ -73,7 +73,7 @@
 	},
 	{
 		"tag": "Intermediate",
-		"title": "CosmoXplore APOD",
+		"title": "CosmoXplore APoD",
 		"description": "This project is a vanilla javascript project that uses NASA APoD API to fetch Astronomy Picture of the Day.",
 		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/CosmoXplore-APoD/index.html"
 	}
