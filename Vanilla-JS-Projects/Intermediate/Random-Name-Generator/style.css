@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5px;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    background: #6441A5;
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+    background: linear-gradient(to right, #2a0845, #6441A5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    /* border: 2px solid white; */
+    background: #485563;
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    background: linear-gradient(to right, #29323c, #485563);
+    padding: 2rem;
+    box-shadow: 0px 0px 20px white, 0px 0px 40px white;
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-size: 3.5rem;
+    color: gold;
+    text-shadow: 0px 0px 20px rgb(180, 158, 32);
+    text-align: center;
+}
+
+.select {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    padding: 0rem 2rem;
+    /* border: 2px solid white; */
+}
+
+.select h2 {
+    font-size: 2.5rem;
+    color: #ff6b6b;
+    text-shadow: 0px 0px 20px #954545;
+    text-align: center;
+}
+
+select {
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    text-shadow: 0px 0px 20px #dc8a87, 0px 0px 40px #dc8a87;
+    background: #e52d27;
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);
+    background: linear-gradient(to right, #b31217, #e52d27);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: block;
+}
+
+.submit-btn.hide {
+    display: none;
+}
+
+.submit-btn2 {
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+    text-shadow: 0px 0px 20px #dc8a87, 0px 0px 40px #dc8a87;
+    background: #e52d27;
+    background: -webkit-linear-gradient(to right, #b31217, #e52d27);
+    background: linear-gradient(to right, #b31217, #e52d27);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: block;
+}
+
+.submit-btn2.hide {
+    display: none;
+}
+
+.submit-btn:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 20px white;
+}
+
+.submit-btn2:hover {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 0px 20px white;
+}
+
+.output-section {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: #ffa751;
+    display: block;
+}
+
+.output-section.hide {
+    display: none;
+}
+
+@media screen and (max-width : 400px) {
+    .select {
+        flex-direction: column;
+    }
+}
