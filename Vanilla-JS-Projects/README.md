@@ -59,6 +59,7 @@ To get started with these Vanilla JavaScript projects, follow these steps:
 |  12   | [Morse Code Generator](./Intermediate/Morse-Code-Generator) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  13   | [CosmoXplore : APOD](./Intermediate/CosmoXplore-APoD/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  14   | [Random Name Generator](./Intermediate/Random-Name-Generator) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  15   | [Martian Imagery](./Intermediate/Martian-Imagery) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 </div>
