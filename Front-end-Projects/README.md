@@ -1,12 +1,12 @@
 <h2>Hey <𝚌𝚘𝚍𝚎𝚛𝚜/>! 👋</h2>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=NEXT+JS+PROJECTS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=FRONT-END+PROJECTS)](https://git.io/typing-svg)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=65&pause=400&color=18b8d0&center=true&vCenter=true&width=2000&height=200&lines=BASIC+LEVEL+PROJECTS;INTERMEDIATE+LEVEL+PROJECTS;ADVANCED+LEVEL+PROJECTS)](https://git.io/typing-svg)
 
-## :zap: Next.js Projects 🚀
+## :zap: Front-end Projects 🎨
 
-- This directory contains Next.js projects categorized into different levels of complexity.
-- These projects showcase the power and features of Next.js for building modern web applications.
+- This directory contains Front-end projects categorized into different levels of complexity.
+- These projects showcase various styling and layout techniques using Front-end technologies.
 - The directory is organized into 3 sub-directories.
     - 🌱 Basic
     - 🚀 Intermediate
@@ -36,8 +36,11 @@
 
 | S.No  | Project Name | Category |
 |-------|--------------|----------|
-|   1   |  |  |
-|   2   |  |  |
+|   1   | [Amazon Prime Clone](./Intermediate/Amazon-Prime-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   2   | [Make My Trip Website Clone](./Intermediate/MakeMyTrip-website-clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   3   | [Biography of Mahatma Gandhi](./Basic/Biography-Mahatma-Gandhi) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   4   | [Biography of Dr. B R Ambedkar](./Basic/Biography-BR-Ambedkar) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   5   | [Netflix Clone](./Intermediate/Netflix-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 

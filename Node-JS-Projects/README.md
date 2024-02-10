@@ -12,29 +12,41 @@
     - 🚀 Intermediate
     - 🌟 Advanced
 - The naming convention of the sub-directories corresponds to the project difficulty, with the Basic directory containing simpler projects or fundamental concepts.
+- Follow the instructions in the project's [README](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/README.md) for installation and usage.
 
-### :zap: Installation and Usage
 
-To get started with these Node.js projects, follow these steps:
+<div align="center">
 
-1. Clone the repository.
-2. Navigate to the `Node-JS-Projects` directory.
-3. Choose the project level (Basic, Intermediate, Advanced) you're interested in.
-4. Follow the instructions in the project's README for installation and usage.
+## :zap: Available Projects 🎉
+<!-- Rules to Add project are as follows:
 
-### :zap: Contributing
+1. Attach the project name as shown below or you can refer from the README file of Vanilla-JS.
+[To Do List](./Basic/To-Do-List)
 
-If you'd like to contribute to this Node.js project, please follow our [Contribution Guidelines](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CONTRIBUTING.md).
+2. If alignment is distorted, i will manage it. You have just added you project here according to serial number. 
 
-### :zap: License
+3. Add the category of the project using the provided links below here, according to your project.
 
-This project is licensed under the [MIT License](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/LICENSE).
+![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) 
+![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) 
+![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) 
+
+-->
+
+
+| S.No  | Project Name | Category |
+|-------|--------------|----------|
+|   1   |  |  |
+|   2   |  |  |
+
+
+
+</div>
+
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <div align="center">
-    <h1>Tip from us 😇</h1>
-    <p>It always takes time to understand and learn. So, don't worry at all. We know <b>you have got this</b>! 💪</p>
-    <h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
-    <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
+	<h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
 </div>
+<a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
