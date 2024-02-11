@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
+
+:root {
+
+  --gradient-color-red: linear-gradient(90deg,
+      hsl(7, 89%, 46%) 15%,
+      hsl(11, 93%, 68%) 100%);
+  --gradient-color-orange: linear-gradient(90deg,
+      hsl(22, 89%, 46%) 15%,
+      hsl(54, 90%, 45%) 100%);
+  --gradient-color-yellow: linear-gradient(90deg,
+      hsl(54, 89%, 46%) 15%,
+      hsl(92, 90%, 45%) 100%);
+  --gradient-color-green: linear-gradient(90deg,
+      hsl(92, 89%, 46%) 15%,
+      hsl(92, 90%, 68%) 100%);
+
+  --text-color: rgb(255, 255, 255);
+  --text-color-light: #A1A1A1;
+  --body-color: hsl(0, 0%, 11%);
+  --container-color: hsl(0, 0%, 17%);
+  --body-font: 'Rubik', sans-serif;
+  --biggest-font-size: 2.5rem;
+  --normal-font-size: .938rem;
+  --smaller-font-size: .75rem;
+}
+
+@media screen and (min-width: 968px) {
+  :root {
+    --biggest-font-size: 2.75rem;
+    --normal-font-size: 1rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/* base */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*::-moz-selection {
+  background: var(--text-color-light);
+  color: var(--text-color);
+}
+
+*::selection {
+  background: var(--text-color-light);
+  color: var(--text-color);
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Battery */
+.battery {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  margin: 0 1.5rem;
+}
+
+.battery__card {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background-color: var(--container-color);
+  padding: 1.4rem 2rem;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 0.9rem;
+}
+
+.battery__text {
+  margin-bottom: .2rem;
+  text-align: center;
+  color: var(--text-color-light);
+}
+
+.battery__percentage {
+  font-size: var(--biggest-font-size);
+  text-align: center;
+}
+
+.battery__status {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-column-gap: .5rem;
+  column-gap: .5rem;
+  font-size: var(--smaller-font-size);
+}
+
+.battery__status i {
+  font-size: 1.25rem;
+}
+
+.battery__pill {
+  position: relative;
+  width: 75px;
+  height: 100px;
+  background-color: var(--container-color);
+  -webkit-box-shadow: inset 20px 0px 48px #292929, inset -4px 12px 48px #8f8f8f;
+  box-shadow: inset 20px 0px 48px #292929, inset -4px 12px 48px #8f8f8f;
+  border-radius: 3rem;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  margin-bottom: 2rem;
+}
+
+.battery__level {
+  position: absolute;
+  inset: 2px;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+
+.battery__liquid {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 36px;
+  background: var(--gradient-color-red);
+  -webkit-box-shadow: inset -10px 0px 12px rgba(0, 0, 0, 0.1), inset 12px 0px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: inset -10px 0px 12px rgba(0, 0, 0, 0.1), inset 12px 0px 12px rgba(0, 0, 0, 0.15);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.battery__liquid::after {
+  content: '';
+  position: absolute;
+  height: 8px;
+  background: var(--gradient-color-red);
+  -webkit-box-shadow: inset 0px -3px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0px -3px 6px rgba(0, 0, 0, 0.2);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -4px;
+  border-radius: 50%;
+}
+
+.green-color {
+  background: var(--gradient-color-green);
+}
+
+
+.animated-green {
+  background: var(--gradient-color-green);
+  -webkit-animation: animated-charging-battery 1.2s infinite alternate;
+  animation: animated-charging-battery 1.2s infinite alternate;
+}
+
+
+.animated-red {
+  background: var(--gradient-color-red);
+  -webkit-animation: animated-low-battery 1.2s infinite alternate;
+  animation: animated-low-battery 1.2s infinite alternate;
+}
+
+.animated-green,
+.animated-red,
+.green-color {
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+@-webkit-keyframes animated-charging-battery {
+  0% {
+    text-shadow: none;
+  }
+
+  100% {
+    text-shadow: 0 0 6px #a9f764;
+  }
+}
+
+@keyframes animated-charging-battery {
+  0% {
+    text-shadow: none;
+  }
+
+  100% {
+    text-shadow: 0 0 6px #a9f764;
+  }
+}
+
+@-webkit-keyframes animated-low-battery {
+  0% {
+    text-shadow: none;
+  }
+
+  100% {
+    text-shadow: 0 0 8px #de250d;
+  }
+}
+
+@keyframes animated-low-battery {
+  0% {
+    text-shadow: none;
+  }
+
+  100% {
+    text-shadow: 0 0 8px #de250d;
+  }
+}
+
+/* Liquid battery with gradient color */
+.gradient-color-red,
+.gradient-color-red::after {
+  background: var(--gradient-color-red);
+}
+
+.gradient-color-orange,
+.gradient-color-orange::after {
+  background: var(--gradient-color-orange);
+}
+
+.gradient-color-yellow,
+.gradient-color-yellow::after {
+  background: var(--gradient-color-yellow);
+}
+
+.gradient-color-green,
+.gradient-color-green::after {
+  background: var(--gradient-color-green);
+}
+
+/* Breakpoint */
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .battery__card {
+    zoom: .8;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 430px) {
+  .battery__card {
+    width: 200px;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+  .battery__card {
+    zoom: 1.5;
+  }
+}
