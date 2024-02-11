@@ -33,17 +33,17 @@ colorBtn.addEventListener("click", () => {
 });
 
 eyesBtn.addEventListener("click", () => {
-  eyes.setAttribute("src", `eye-${counter2}.svg`);
+  eyes.setAttribute("src", `./Images/eye-${counter2}.svg`);
   counter2 = counter2 < totalCounts.eyeCount - 1 ? counter2 + 1 : 0;
 });
 
 eyebrowsBtn.addEventListener("click", () => {
-  eyebrows.setAttribute("src", `eyebrow-${counter3}.svg`);
+  eyebrows.setAttribute("src", `./Images/eyebrow-${counter3}.svg`);
   counter3 = counter3 < totalCounts.eyebrowsCount - 1 ? counter3 + 1 : 0;
 });
 
 mouthBtn.addEventListener("click", () => {
-  mouth.setAttribute("src", `mouth-${counter4}.svg`);
+  mouth.setAttribute("src", `./Images/mouth-${counter4}.svg`);
   counter4 = counter4 < totalCounts.mouthCount - 1 ? counter4 + 1 : 0;
 });
 
