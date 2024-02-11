@@ -3,9 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #f4c531;
 }
+
 .container {
   background-color: #ffffff;
   height: 31.25em;
@@ -17,6 +19,7 @@ body {
   border-radius: 0.8em;
   box-shadow: 0 1.87em 4em rgba(86, 68, 9, 0.3);
 }
+
 .buttons-container {
   height: 30%;
   width: 100%;
@@ -28,7 +31,7 @@ body {
   padding: 0 1em;
 }
 
-.download-btn{
+.download-btn {
   border: 2px solid black;
   position: absolute;
   bottom: 0;
@@ -42,7 +45,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.download-btn:hover{
+.download-btn:hover {
   transform: scale(1.04);
   transition: all 0.2s ease-in-out;
 }
@@ -57,6 +60,7 @@ body {
   font-family: "Poppins", sans-serif;
   cursor: pointer;
 }
+
 .emoji-container {
   height: 70%;
   width: 100%;
@@ -75,6 +79,7 @@ body {
   left: 50%;
   top: 50%;
 }
+
 .eyes,
 .eyebrows,
 .mouth {
@@ -82,12 +87,15 @@ body {
   transform: translateX(-50%);
   left: 50%;
 }
+
 .eyes {
   top: 5em;
 }
+
 .eyebrows {
   top: 3.12em;
 }
+
 .mouth {
   top: 7.5em;
 }
