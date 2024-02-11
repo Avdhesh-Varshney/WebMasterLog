@@ -35,7 +35,7 @@
 1. Fork the repository.
 
 2. Clone the repository to your local machine:
-    git clone https://github.com/your-username/Random-Name-Generator.git
+    git clone https://github.com/your-username/Emoji-Maker.git
 
 3. Open the project folder in your preferred code editor, now run index.html file.
 
