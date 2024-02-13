@@ -53,6 +53,7 @@
 |  15   | [Martian Imagery](./Intermediate/Martian-Imagery) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  16   | [Battery Status Tracker](./Intermediate/Battery-Status-Tracker/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  17   | [Emoji Maker](./Intermediate/Emoji-Maker/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  18   | [Sudoku Solver](./Intermediate/Sudoku-Solver/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 </div>
