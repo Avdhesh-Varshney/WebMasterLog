@@ -54,6 +54,7 @@
 |  16   | [Battery Status Tracker](./Intermediate/Battery-Status-Tracker/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  17   | [Emoji Maker](./Intermediate/Emoji-Maker/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  18   | [Weather App](./Intermediate/Weather-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  19   | [Weather App](./Intermediate/Sudoku-Solver/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
