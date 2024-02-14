@@ -1,0 +1,23 @@
+{
+    "name": "url-scraper",
+    "version": "1.0.0",
+    "description": "A simple URL scraper built using Node.js and Express.js",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "keywords": [
+      "url",
+      "scraper",
+      "nodejs",
+      "expressjs"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.24.0",
+      "cheerio": "^1.0.0-rc.10",
+      "express": "^4.17.1"
+    }
+  }
+  
