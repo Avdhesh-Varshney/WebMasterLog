@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥 CosmoXplore : APoD 💥</b></h1>
+<h1 align='center'><b>💥 Password Generator 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -46,7 +46,7 @@
 <h3 align='center'>Screenshot📸</h3>
 <img src='./Password-Generator.webp'>
 
- 
+
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
