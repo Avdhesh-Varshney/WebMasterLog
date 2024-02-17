@@ -36,8 +36,7 @@
 
 | S.No  | Project Name | Category |
 |-------|--------------|----------|
-|   1   |  |  |
-|   2   |  |  |
+|   1   | [Password-Generator](./Basic/Password-Generator) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 
 
 
