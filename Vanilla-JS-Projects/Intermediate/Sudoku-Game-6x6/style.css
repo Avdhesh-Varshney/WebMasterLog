@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-weight: 500;
+    color: #000000;
+    font-size: 3rem;
+}
+
+.sudoku-container {
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid rgba(9, 9, 121, 1);
+    /* border: 5px solid #000; */
+
+}
+
+.cell {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid #999;
+    transform: all 0.3s ease-in-out;
+    background: rgb(244, 213, 99);
+}
+
+table tr:nth-child(2n) td,
+table tr:nth-child(2n+2) td {
+    border-bottom: 3px solid rgba(9, 9, 121, 1);
+    /* border-bottom: 2px solid #000; */
+}
+
+table td:nth-child(3n) {
+    border-right: 3px solid rgba(9, 9, 121, 1);
+    /* border-right: 2px solid #000; */
+}
+
+input {
+    outline: none;
+
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-buton {
+    -webkit-appearance: none;
+    margin: 0;
+
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #1665cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 1rem;
+}
+
+.btn-s:hover {
+    background-color: #92d3ff;
+    color: #1665cc;
+}
+
+
+.output-cell {
+    color: #1e25e8;
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+.lives-container {
+    text-align: center;
+    margin: 10px;
+    background-color: greenyellow;
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.size {
+    height: fit-content;
+
+}
+
+select,
+option {
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 2px;
+}
