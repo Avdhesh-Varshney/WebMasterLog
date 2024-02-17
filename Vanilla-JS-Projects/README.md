@@ -56,7 +56,7 @@
 |  18   | [Weather App](./Intermediate/Weather-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  19   | [Sudoku Solver](./Intermediate/Sudoku-Solver/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  20   | [Sudoku Game 6x6](./Intermediate/Sudoku-Game-6x6/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-
+|  21   | [Electronic Drum Kit](./Basic/Electronic-Drum-Kit/)| ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 </div>
 
 
