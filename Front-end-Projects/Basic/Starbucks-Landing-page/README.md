@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥 Starbucks-Landing-Page 💥</b></h1>
+<h1 align='center'><b>💥Starbucks Landing Page💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -12,45 +12,43 @@
 
 </div>
 
-
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+## :zap: Description 📃
 
-<div align='center'>
+<div>
+  <!-- <p>Add Description of the project</p> -->
     <p>This project is a simple HTML and CSS implementation of a Starbucks website clone. It aims to replicate the basic structure and styling of the popular website Starbucks. This project Showcases the power of HTML and CSS.</p>
 </div>
 
-
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run this Project? 🕹️</h3>
+## :zap: How to run it? 🕹️
 
-<div align='center'>
-    <p>To run this project locally, follow these steps:
+To run this project locally, follow these steps:
 
 1. Fork the repository.
 
 2. Clone the repository to your local machine:
-    git clone https://github.com/your-username/Starbucks-Landing-page.git
+git clone https://github.com/your-username/Starbucks-Landing-page.git
 
 3. Open the project folder in your preferred code editor, now you can view website in live.
 
-</p>
-</div>
-
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshot📸</h3>
-<img src="Starbucks.webp">
+## :zap: Screenshots 📸
+
+<img src="Starbucks-Landing-Page.webp">
+
+
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h4 align='center'>Developed By <b><i>Sneha Mishra</i></b></h4>
+<h4 align='center'>Developed By <b><i>Sneha Mishra</i></b> 👦</h4>
 <p align='center'>
   <a href='https://www.linkedin.com/in/sneha-mishra-764aba253'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
