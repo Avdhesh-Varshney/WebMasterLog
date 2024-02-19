@@ -40,7 +40,7 @@ git clone https://github.com/your-username/Starbucks-Landing-page.git
 
 ## :zap: Screenshots 📸
 
-<img src="Starbucks-Landing-Page.webp">
+<img src="Starbucks-Landing-page.webp">
 
 
 
