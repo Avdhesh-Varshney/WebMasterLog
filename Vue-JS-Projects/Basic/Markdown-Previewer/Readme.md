@@ -1,66 +1,52 @@
-<h1 align='center'><b>💥 Markdown Previewer 💥</b></h1>
+<h2>Hey <𝚌𝚘𝚍𝚎𝚛𝚜/>! 👋</h2>
 
-<!-- -------------------------------------------------------------------------------------------------------------- -->
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=VUE+JS+PROJECTS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=65&pause=400&color=18b8d0&center=true&vCenter=true&width=2000&height=200&lines=BASIC+LEVEL+PROJECTS;INTERMEDIATE+LEVEL+PROJECTS;ADVANCED+LEVEL+PROJECTS)](https://git.io/typing-svg)
 
-<h3 align='center'>Tech Stack Used 🎮</h3>
+## :zap: Vue.js Projects 🌟
+
+- This directory contains Vue.js projects categorized into different levels of complexity.
+- These projects showcase the capabilities of Vue.js for building reactive and scalable user interfaces.
+- The directory is organized into 3 sub-directories.
+    - 🌱 Basic
+    - 🚀 Intermediate
+    - 🌟 Advanced
+- The naming convention of the sub-directories corresponds to the project difficulty, with the Basic directory containing simpler projects or fundamental concepts.
+- Follow the instructions in the project's [README](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/README.md) for installation and usage.
 
 
-<div align='center'>
+<div align="center">
 
-  ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+## :zap: Available Projects 🎉
+<!-- Rules to Add project are as follows:
+
+1. Attach the project name as shown below or you can refer from the README file of Vanilla-JS.
+[To Do List](./Basic/To-Do-List)
+
+2. If alignment is distorted, i will manage it. You have just added you project here according to serial number. 
+
+3. Add the category of the project using the provided links below here, according to your project.
+
+![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) 
+![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) 
+![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) 
+
+-->
+
+
+| S.No  | Project Name      | Category |
+|-------|-------------------|----------|
+|   1   |Markdown-Previewer |   Basic  |
+|   2   |                   |          |
+
+
 
 </div>
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
-<!-- -------------------------------------------------------------------------------------------------------------- -->
-
-<h3 align='center'>Description 📃</h3>
-
-<div align='center'>
-    <p>This project is a web application which converts and renders the markdown code to readable output in real-time.This project Showcases the power of Vue.JS, HTML and CSS.</p>
+<div align="center">
+	<h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
 </div>
-
-
-<!-- -------------------------------------------------------------------------------------------------------------- -->
-
-<h3 align='center'>How to run this Project? 🕹️</h3>
-
-<div align='center'>
-    <p>To run this project locally, follow these steps:
-
-1. Fork the repository.
-
-2. Clone the repository to your local machine:
-    git clone https://github.com/your-username/Markdown-Previewer-using-Vue-JS.git
-
-3. Open the project folder in your preferred code editor, now you can view website in live.
-
-</p>
-</div>
-
-<!-- -------------------------------------------------------------------------------------------------------------- -->
-
-<h3 align='center'>Screenshot📸</h3>
-<img src='./Markdown-Previewer.webp'>
-
-![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
-
-<!-- -------------------------------------------------------------------------------------------------------------- -->
-
-<h4 align='center'>Developed By <b><i>Bishal Karmakar</i></b></h4>
-<p align='center'>
-  <a href='https://www.linkedin.com/in/bishal-karmakar-03629524b/'>
-    <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
-  </a>
-  <a href='https://github.com/Bishal-35'>
-    <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
-  </a>
-</p>
-
-<h4 align='center'>Happy Coding 🧑‍💻</h4>
-
-<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
+<a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
