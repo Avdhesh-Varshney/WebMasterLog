@@ -1,52 +1,81 @@
-<h2>Hey <𝚌𝚘𝚍𝚎𝚛𝚜/>! 👋</h2>
+<h1 align='center'><b>💥 Markdown Previewer 💥</b></h1>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=VUE+JS+PROJECTS)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=65&pause=400&color=18b8d0&center=true&vCenter=true&width=2000&height=200&lines=BASIC+LEVEL+PROJECTS;INTERMEDIATE+LEVEL+PROJECTS;ADVANCED+LEVEL+PROJECTS)](https://git.io/typing-svg)
+<!-- -------------------------------------------------------------------------------------------------------------- -->
 
-## :zap: Vue.js Projects 🌟
+<h3 align='center'>Tech Stack Used 🎮</h3>
+<!-- enlist all the technologies used to create this project from them (Remove comment using 'ctrl+z' or 'command+z') -->
 
-- This directory contains Vue.js projects categorized into different levels of complexity.
-- These projects showcase the capabilities of Vue.js for building reactive and scalable user interfaces.
-- The directory is organized into 3 sub-directories.
-    - 🌱 Basic
-    - 🚀 Intermediate
-    - 🌟 Advanced
-- The naming convention of the sub-directories corresponds to the project difficulty, with the Basic directory containing simpler projects or fundamental concepts.
-- Follow the instructions in the project's [README](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/README.md) for installation and usage.
+<div align='center'>
 
-
-<div align="center">
-
-## :zap: Available Projects 🎉
-<!-- Rules to Add project are as follows:
-
-1. Attach the project name as shown below or you can refer from the README file of Vanilla-JS.
-[To Do List](./Basic/To-Do-List)
-
-2. If alignment is distorted, i will manage it. You have just added you project here according to serial number. 
-
-3. Add the category of the project using the provided links below here, according to your project.
-
-![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) 
-![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) 
-![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) 
-
--->
-
-
-| S.No  | Project Name      | Category |
-|-------|-------------------|----------|
-|   1   |[Markdown-Previewer](./BASIC/Markdown-Previewer)|![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge)   |
-|   2   |                   |          |
-
-
-
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  
+  <!-- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) -->
+  <!-- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) -->
+  <!-- ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) -->
+  <!-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) -->
+  <!-- ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) -->
+  <!-- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) -->
+  <!-- ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) -->
+  <!-- ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) -->
+  <!-- ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white) -->
+  <!-- ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) -->
+  <!-- ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) -->
+  <!-- ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) -->
+  <!-- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) -->
+  <!-- ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) -->
+  <!-- ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) -->
 </div>
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+## ⚡ Description 📃
+
+<div>
+  <!-- <p>Add Description of the project</p> -->
+    <p>This project is a web application which converts and renders the markdown code to readable output in real-time.This project Showcases the power of Vue.JS, HTML and CSS.</p>
+</div>
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+## ⚡ How to run it? 🕹️
+
+<!-- Add steps how to run this project -->
+<p>
+To run this project locally, follow these steps:
+
+1. Fork the repository.
+
+2. Clone the repository to your local machine:
+    git clone https://github.com/your-username/Markdown-Previewer-using-Vue-JS.git
+
+3. Open the project folder in your preferred code editor, now you can view website in live.
+</p>
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+## ⚡ Screenshots 📸
+
+<!-- add the screenshot of the project (Mandatory) -->
+<img src='./Markdown-Previewer.webp'>
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
-<div align="center">
-	<h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
-</div>
-<a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+<h4 align='center'>Developed By <b><i>Bishal Karmakar</i></b> 👦</h4>
+<p align='center'>
+  <a href='https://www.linkedin.com/in/bishal-karmakar-03629524b/'>
+    <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
+  </a>
+  <a href='https://github.com/Bishal-35'>
+    <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
+  </a>
+</p>
+
+<h4 align='center'>Happy Coding 🧑‍💻</h4>
+
+<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
