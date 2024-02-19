@@ -1,17 +1,58 @@
-import { useState, useCallback, useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef, useReducer } from 'react'
 
+const initialState = {
+  length: 8,
+  numberAllowed: false,
+  charAllowed: false,
+  password: ""
+}
 
+const actionTypes = {
+  SET_LENGTH: "SET_LENGTH",
+  SET_NUMBER_ALLOWED: " SET_NUMBER_ALLOWED",
+  SET_PASSWORD: "SET_PASSWORD",
+  SET_CHAR_ALLOWED: "SET_CHAR_ALLOWED"
+}
 
+const reducer = (state, action) => {
+  switch(action.type) {
+    case actionTypes.SET_LENGTH: 
+      return {...state, length: action.payload}
+    case actionTypes.SET_PASSWORD: 
+      return {...state, password: action.payload}
+    case actionTypes.SET_NUMBER_ALLOWED: 
+      return {...state, numberAllowed: !state.numberAllowed}
+    case actionTypes.SET_CHAR_ALLOWED: 
+      return {...state, charAllowed: action.payload}
+    default:
+      return state
+  }
+}
 
 function App() {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  const {
+    length,
+    numberAllowed,
+    password,
+    charAllowed
+  } = state;
 
+  const setLengthAction = (value) => {
+    dispatch({type: actionTypes.SET_LENGTH, payload: value});
+  };
 
-  // Using useState() Hooks for all the variables
-  const [length, setLength] = useState(8)
-  const [numberAllowed, setNumberAllowed] = useState(false)
-  const [charAllowed, setCharAllowed] = useState(false)
-  const [password, setPassword] = useState("")
+  const setPasswordAction = (value) => {
+    dispatch({type: actionTypes.SET_PASSWORD, payload: value});
+  };
 
+  const setNumberAllowedAction = (value) => {
+    dispatch({type: actionTypes.SET_NUMBER_ALLOWED, payload: value});
+  };
+
+  const setCharAllowedAction = (value) => {
+    dispatch({type: actionTypes.SET_CHAR_ALLOWED, payload: value});
+  };
 
   // Using useCallback() Hooks : This password generator method is called everytime number, characters, length are altered.
   // So ise baar baar call krne mein resources waste honge therefore hum isko memoiz krlete hai and humesha iska memoized version aayega until one of the dependancies is changed.
@@ -27,7 +68,7 @@ function App() {
 
       pass += str.charAt(char)
     }
-    setPassword(pass)
+    setPasswordAction(pass)
   }, [length, numberAllowed, charAllowed])
 
 
@@ -79,7 +120,7 @@ function App() {
             max={25}
             value={length}
             className='cursor-pointer'
-            onChange={(e) => {setLength(e.target.value)}}
+            onChange={(e) => {setLengthAction(e.target.value)}}
           />
             <label>Length: {length}</label>
         </div>
@@ -89,7 +130,7 @@ function App() {
           type="checkbox"
           defaultChecked={numberAllowed}
           id="numberInput"
-          onChange={() => {setNumberAllowed((prev) => !prev)}}
+          onChange={() => {setNumberAllowedAction(!numberAllowed)}}
         />
         <label htmlFor="numberInput">Numbers</label>
         </div>
@@ -99,7 +140,7 @@ function App() {
           type="checkbox"
           defaultChecked={charAllowed}
           id="characterInput"
-          onChange={() => {setCharAllowed((prev) => !prev)}}
+          onChange={() => {setCharAllowedAction(!charAllowed)}}
         />
         <label htmlFor="characterInput">Characters</label>
         </div>
