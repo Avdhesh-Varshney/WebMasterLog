@@ -1,8 +1,15 @@
 <h1 align='center'><b>💥 Joke Telling Website 💥</b></h1>
 
 
-<h3 align='center'>HTML, CSS, Vanilla-JS 🎮</h3>
+<h3 align='center'>Tech Stack Used 🎮 🎮</h3>
 
+<div align='center'>
+
+   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+</div>
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
@@ -21,7 +28,10 @@
 ## :zap: How to run it? 🕹️
 
 
-Fork this project and run the `index.html` file directly.
+- Fork this repository.
+- Clone the forked repository.
+- Open index.html in your web browser.
+
 
 
 
