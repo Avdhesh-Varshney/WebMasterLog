@@ -52,5 +52,29 @@
 		"title": "Hex color code generator website",
 		"description": "This website can generate the different combinations of the hex color codes by changing the different colors from the color palletes.",
 		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Hex-color-code-generator-website/index.html"
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Countdown Timer",
+		"description": "This project have a COUNTDOWN TIMER  that counts down time from a given number with stop and reset option. Also this project have a CLOCK which displays time on the front of the webpage and a STOPWATCH with lap and reset option.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Countdown-Timer/index.html"
+	},
+	{
+		"tag": "Advanced",
+		"title": "Recipe Finder",
+		"description": "The Recipe Finder is a dynamic web application that empowers users to explore a world of culinary delights. This interactive platform allows users to search for diverse food recipes based on categories, cuisines, main ingredients, or specific dish names. Whether you're seeking a quick meal idea or a unique culinary adventure, the Recipe Finder has you covered.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Advanced/Recipe-Finder/index.html"
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Morse Code Convertor",
+		"description": "This project is a simple vanilla JavaScript implementation of a Morse Code generator. It takes the entered text by the user and converts it into Morse Code.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Morse-Code-Convertor/index.html"
+	},
+	{
+		"tag": "Intermediate",
+		"title": "CosmoXplore APoD",
+		"description": "This project is a vanilla javascript project that uses NASA APoD API to fetch Astronomy Picture of the Day.",
+		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/CosmoXplore-APoD/index.html"
 	}
 ]

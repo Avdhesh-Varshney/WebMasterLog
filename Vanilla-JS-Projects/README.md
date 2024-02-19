@@ -12,16 +12,7 @@
 	- 🌱 Basic
 	- 🚀 Intermediate
 	- 🌟 Advanced
-- The naming convention of the sub-directories corresponds to the project difficulty, with the Basic directory containing simpler projects or fundamental concepts.
-
-### :zap: Installation and Usage
-
-To get started with these Vanilla JavaScript projects, follow these steps:
-
-1. Clone the repository.
-2. Navigate to the `Vanilla-JS-Projects` directory.
-3. Choose the project level (Basic, Intermediate, Advanced) you're interested in.
-4. Follow the instructions in the project's [README](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/README.md) for installation and usage.
+- Follow the instructions in the project's [README](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/README.md) for installation and usage.
 
 
 <div align="center">
@@ -56,8 +47,15 @@ To get started with these Vanilla JavaScript projects, follow these steps:
 |   9   | [Hex Color Code Generator](./Intermediate/Hex-color-code-generator-website) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  10   | [Countdown Timer](./Intermediate/Countdown-Timer) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  11   | [Recipe Finder](./Advanced/Recipe-Finder/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-
-
+|  12   | [Morse Code Generator](./Intermediate/Morse-Code-Convertor) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  13   | [CosmoXplore : APOD](./Intermediate/CosmoXplore-APoD/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  14   | [Random Name Generator](./Intermediate/Random-Name-Generator) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  15   | [Martian Imagery](./Intermediate/Martian-Imagery) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  16   | [Battery Status Tracker](./Intermediate/Battery-Status-Tracker/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  17   | [Emoji Maker](./Intermediate/Emoji-Maker/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  18   | [Weather App](./Intermediate/Weather-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  19   | [Sudoku Solver](./Intermediate/Sudoku-Solver/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  20   | [Sudoku Game 6x6](./Intermediate/Sudoku-Game-6x6/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
@@ -65,8 +63,6 @@ To get started with these Vanilla JavaScript projects, follow these steps:
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <div align="center">
-	<h1>Tip from us 😇</h1>
-	<p>It always takes time to understand and learn. So, don't worry at all. We know <b>you have got this</b>! 💪</p>
 	<h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
-	<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> :)</em>
 </div>
+<a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>

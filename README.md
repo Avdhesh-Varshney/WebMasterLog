@@ -8,17 +8,18 @@
   <a href="https://www.buymeacoffee.com/avdheshvarshney">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
   </a><br /><br />
-  <img src="https://img.shields.io/github/contributors/Avdhesh-Varshney/WebMasterLog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/last-commit/Avdhesh-Varshney/WebMasterLog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues-pr-closed/Avdhesh-Varshney/WebMasterLog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/stars/Avdhesh-Varshney/WebMasterLog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/languages/count/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=brightgreen" />
-  <img src="https://img.shields.io/github/repo-size/Avdhesh-Varshney/WebMasterLog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues-closed-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/issues-pr-closed-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/Avdhesh-Varshney/WebMasterLog?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/Avdhesh-Varshney/WebMasterLog?style=for-the-badge" />
+  <img src="https://img.shields.io/github/repo-size/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkred" />
+  <img src="https://img.shields.io/github/contributors/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=orange" />
+  <img src="https://img.shields.io/github/languages/count/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=yellowgreen" />
+  <img src="https://img.shields.io/github/stars/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=brightgreen" />
+  <img src="https://img.shields.io/github/forks/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=blue" />
+  <img src="https://img.shields.io/github/last-commit/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=navy" />
+  <img src="https://img.shields.io/github/license/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=violet" />
+  
+  <img src="https://img.shields.io/github/issues-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkgreen" />
+  <img src="https://img.shields.io/github/issues-closed-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkviolet" />
+  <img src="https://img.shields.io/github/issues-pr-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkgreen" />
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkviolet" />
  </p>
 </div>
 <br />
@@ -73,7 +74,7 @@
 The project is organized into the following main directories:
 
 - [**Angular-JS-Projects**](./Angular-JS-Projects/README.md)
-- [**CSS-Projects**](./CSS-Projects/README.md)
+- [**Front-end-Projects**](./Front-end-Projects/README.md)
 - [**Next-JS-Projects**](./Next-JS-Projects/README.md)
 - [**Node-JS-Projects**](./Node-JS-Projects/README.md)
 - [**React-JS-Projects**](./React-JS-Projects/README.md)

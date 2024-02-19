@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+
+ 
+}
+
+
+body{
+  background-image: linear-gradient(to left, rgb(10, 0, 73) , rgb(0, 0, 0));
+  overflow-x: hidden;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+}
+
+
+.body::-webkit-scrollbar {
+  display: none;
+}
+
+
+.auto-typed{
+background: -webkit-linear-gradient(#e4d6fb, #8400ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.section_title{
+background: -webkit-linear-gradient(#e4d6fb, #8400ff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 4rem;
+font-weight: bold;
+}
+
+#bg{
+  position:fixed;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.input_container{
+display: flex;
+width: 100%;
+justify-content: center;
+
+}
+
+.date_input{
+width: 700px;
+}
+
+
+.apod_img_container{
+
+width: 500px;
+height: 500px;
+}
+
+.img{
+ 
+ width: 500px;
+ height: 400px;
+}
+
+.info{
+
+ width: 500px;
+ height: 100px;
+
+}
+
+#apod_img{
+border-radius: 25px;
+}
+
+#apod_img:hover {
+color: white;
+box-shadow: 0 5px 15px #9000ff;
+}
