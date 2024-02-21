@@ -14,7 +14,7 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+## ⚡ Description 📃
 
 <div align='center'>
     <p>This project is a react.js project that helps to create a ToDo list.
@@ -23,7 +23,7 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run this Project? 🕹️</h3>
+## ⚡ How to run this Project? 🕹️
 
 <div >
     <p>To run this project locally, follow these steps:
@@ -40,7 +40,7 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshot📸</h3>
+## ⚡ Screenshot📸
 <img src='./ToDo-List.webp'>
 
 
