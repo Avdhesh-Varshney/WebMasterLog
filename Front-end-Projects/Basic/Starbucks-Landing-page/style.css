@@ -1,0 +1,373 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    letter-spacing: var(--letterSpacingLoose)!important;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+header{
+    margin: 0px 20px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+.heading{
+    height: 71px;
+    width: 100%;
+    display: flex;
+    border-bottom:2px solid rgb(175, 173, 173) ;
+
+}
+.logo_img{
+    height: 34px;
+    width: 37px;
+    margin-right:30px ;
+}
+.left_head{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 26rem;
+    padding-left: 20px;
+    margin-left: 26px ;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#menu{
+    margin-right: 10px;
+}
+#reward{
+    margin-right: 10px;
+}
+#gift{
+    margin-right: 5px;
+}
+.right_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.loc_logo{
+    height: 23px;
+}
+.find{
+    margin-right: 25px;
+}
+.sign{
+    border: 1px solid black; 
+    border-radius: 20px;
+    margin: 20px;
+    padding:5px 12px;
+}
+.jn{
+    border: 1px solid black; 
+    border-radius: 20px;
+    padding:5px 14px;
+    background-color: black; 
+    color: white; 
+}
+.card1{
+    height: 353px;
+    width: 1210px;
+    display: flex;
+    background-color: rgb(6, 102, 54);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    margin-left: 36px;
+    margin-top: 40px;
+} 
+.stbrews{
+    height: 353px;
+    width: 771px;
+}
+.head1{
+    margin: 0px 100px;
+    padding-bottom: 36px;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.para1{
+    margin-bottom: 20px;
+    line-height: 2;
+    padding: 0px 84px;
+    text-align: center;
+    font-size: 15px;
+}
+.btn1{
+margin-left: 270px;
+font-size: 15px;
+border: 1px solid white;
+border-radius: 17px;
+padding: 5px 13px;
+}
+.card2{
+    height: 368px;
+    width: 1210px;
+    display: flex;
+    background-color: #b2b267;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    margin-left: 36px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+} 
+
+.stbpist{
+    height: 368px;
+    width: 931px;
+}
+.head2{
+    margin: 0px 153px;
+    padding-bottom: 36px;
+    font-weight: 500;
+    font-size: 33px;
+}
+.para2{
+    margin-bottom: 35px;
+    line-height: 2;
+    padding: 0px 84px;
+    text-align: center;
+    font-size: 20px;
+}
+.btn2{
+margin-left: 237px;
+font-size: 17px;
+border: 1px solid black;
+border-radius: 17px;
+padding: 8px 19px;
+}
+.card3{
+    height: 427px;
+    width: 1210px;
+    display: flex;
+    background-color: #cfd84d;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    margin-left: 36px;
+    margin-bottom: 20px;
+} 
+
+.stbhazle{
+    height: 427px;
+    width: 999px;
+}
+.head3{
+    margin: 0px 140px;
+    padding-bottom: 36px;
+    font-weight: 500;
+    font-size: 33px;
+}
+.para3{
+    margin-bottom: 44px;
+    line-height: 2;
+    padding: 0px 80px;
+    text-align: center;
+    font-size: 23px;
+}
+.btn3{
+margin-left: 270px;
+font-size: 18px;
+border: 1px solid black;
+border-radius: 17px;
+padding: 8px 19px;
+}
+.card4{
+    height: 383px;
+    width: 1210px;
+    display: flex;
+    background-color: #a5c4dc;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    margin-left: 36px;
+    margin-bottom: 20px;
+} 
+
+.stbpotato{
+    height: 383px;
+    width: 956px;
+}
+.head4{
+    margin: 0px 172px;
+    padding-bottom: 36px;
+    font-weight: 500;
+    font-size: 33px;
+}
+.para4{
+    margin-bottom: 60px;
+    line-height: 2;
+    padding: 0px 76px;
+    text-align: center;
+    font-size: 23px;
+}
+.btn4{
+margin-left: 245px;
+font-size: 18px;
+border: 1px solid black;
+border-radius: 17px;
+padding: 8px 19px;
+}
+.card5{
+    height: 427px;
+    width: 1210px;
+    display: flex;
+    background-color: #337481;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    margin-left: 36px;
+    margin-bottom: 20px;
+} 
+
+.stbhazle{
+    height: 427px;
+    width: 999px;
+}
+.head5{
+    margin: 0px 198px;
+    padding-bottom: 36px;
+    font-weight: 500;
+    font-size: 33px;
+}
+.para5{
+    margin-bottom: 44px;
+    line-height: 2;
+    padding: 0px 80px;
+    text-align: center;
+    font-size: 23px;
+}
+.btn5{
+margin-left: 270px;
+font-size: 18px;
+border: 1px solid black;
+border-radius: 17px;
+padding: 8px 19px;
+}
+.card6{
+    height: 383px;
+    width: 1210px;
+    display: flex;
+    background-color: #006241;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    margin-left: 36px;
+    margin-bottom: 20px;
+} 
+
+.stbpotato{
+    height: 383px;
+    width: 956px;
+}
+.head6{
+    margin: 0px 37px;
+    padding-bottom: 36px;
+    font-weight: 500;
+    font-size: 33px;
+}
+.para6{
+    margin-bottom: 60px;
+    line-height: 2;
+    padding: 0px 76px;
+    text-align: center;
+    font-size: 23px;
+}
+.btn6{
+margin-left: 205px;
+font-size: 18px;
+border: 1px solid black;
+border-radius: 17px;
+padding: 8px 19px;
+}
+.foot_part1{
+    padding: 50px;
+    padding-bottom: 40px;
+    border-top: 2px solid rgb(155, 155, 155) ;
+    border-bottom:2px solid rgb(155, 155, 155) ;
+display: flex;
+justify-content: space-between;
+gap: 1rem;
+font-family: Poppins, sans-serif;
+
+}
+li{
+    list-style: none;
+    color: rgb(163, 160, 160) ;
+    margin: 20px 0px;
+    font-weight: 500 ;
+}
+
+
+.copyright{
+    color:rgb(163, 162, 162) ; 
+    margin: 10px 0px;
+    margin-left: 75px;
+
+}
+
+
+
+.social {
+    display: flex;
+    align-items: center;
+    margin: 20px 75px;
+  }
+
+  .social img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .social a {
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .text_foot ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .text_foot ul li{
+    color: black;
+  }
+  .mark{
+    margin-left:  10px;
+
+  }
+  .para_last{
+    max-width: calc(1em * (calc(600 / 13)));
+    text-align: center;
+    margin:72px 0px;
+    margin-left: 245px;
+
+}
+.para_link{
+    text-decoration: underline;
+}
+.spn{
+    font-weight: 600;
+}
