@@ -16,16 +16,16 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+## :zap: Description 📃
 
-<div align='center'>
+<div>
     <p>This project is a simple vanilla javascript implementation of Text to voice converter . This project converts the entered text by user into a computed voice.
 </p>
 </div>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run this Project? 🕹️</h3>
+## :zap: How to run it? 🕹️
 
 <div >
     <p>To run this project locally, follow these steps:
@@ -42,10 +42,10 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshot📸</h3>
-<img src='Text-to-Voice.webp'>
+## :zap: Screenshots 📸
+<!-- add the screenshot of the project (Mandatory) -->
 
- 
+<img src='./Text-to-Voice.webp'>
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)

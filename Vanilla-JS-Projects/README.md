@@ -4,17 +4,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=65&pause=400&color=18b8d0&center=true&vCenter=true&width=2000&height=200&lines=BASIC+LEVEL+PROJECTS;INTERMEDIATE+LEVEL+PROJECTS;ADVANCED+LEVEL+PROJECTS)](https://git.io/typing-svg)
 
 
-## :zap: Vanilla Javascript Projects 💰 
-
-- This directory contains smooth functioning and applications of different functions of the JavaScript language.
-- These functions helps to understand their functioning and how they are converted into projects.
-- This directory contains 3 sub-directories.
-	- 🌱 Basic
-	- 🚀 Intermediate
-	- 🌟 Advanced
-- Follow the instructions in the project's [README](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/README.md) for installation and usage.
-
-
 <div align="center">
 
 ## :zap: Available Projects 🎉

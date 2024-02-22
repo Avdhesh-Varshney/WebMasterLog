@@ -17,19 +17,18 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+## :zap: Description 📃
 
-<div align='center'>
-    <p>This project is a simple HTML and CSS implementation of a Netflix website clone. It aims to replicate the basic structure and styling of the popular entertaining website Netflix. This project Showcases the power of HTML and CSS.</p>
+<div>
+  <p>This project is a simple HTML and CSS implementation of a Netflix website clone. It aims to replicate the basic structure and styling of the popular entertaining website Netflix. This project Showcases the power of HTML and CSS.</p>
 </div>
-
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run this Project? 🕹️</h3>
+## :zap: How to run it? 🕹️
 
-<div align='center'>
-    <p>To run this project locally, follow these steps:
+<div>
+  <p>To run this project locally, follow these steps:
 
 1. Fork the repository.
 
@@ -43,8 +42,10 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshot📸</h3>
-<img src="Netflix-clone.webp">
+## :zap: Screenshots 📸
+<!-- add the screenshot of the project (Mandatory) -->
+
+<img src="./Netflix-clone.webp">
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 

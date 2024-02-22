@@ -30,10 +30,9 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h2 align='center'>Description 📃</h2>
+## :zap: Description 📃
 
-
-<div align='center'>
+<div>
   <!-- <p>Add Description of the project</p> -->
 
 **HTML (index.html)**
@@ -61,12 +60,11 @@ The styling is kept minimal, and you can customize it further based on your desi
 
 </div>
 
-
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h2 align='center'>How to run it? 🕹️</h2>
+## :zap: How to run it? 🕹️
 
-<div align='center'>
+<div>
   <!-- <p>Add steps how to run this project</p> -->
     <p>Open index.html in a Browser:
 
@@ -83,8 +81,9 @@ Click the "Generate Password" button, and you should see a randomly generated pa
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h2 align='center'>Screenshots 📸</h2>
+## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
+
 <img src="https://github.com/Avdhesh-Varshney/WebMasterLog/assets/129144413/4dc3d8b0-effc-4067-be93-3a491ccbaf49" alt="screenshot" />
 
 

@@ -18,18 +18,17 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+## :zap: Description 📃
 
-<div align='center'>
+<div>
     <p>This Project is made using HTML , CSS & JS. This project basically displays random names of people according to the choice of the user - either male or female. This project showcases the power of HTML , CSS & JS. It also includes the use of Fetch Api method in Javascript with the help of which we fetch names of random people according to the choice of gender provided our user.</p>
 </div>
 
-
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run this Project? 🕹️</h3>
+## :zap: How to run it? 🕹️
 
-<div align='center'>
+<div>
     <p>To run this project locally, follow these steps:
 
 1. Fork the repository.
@@ -44,8 +43,10 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshot📸</h3>
-<img src='./Random-Name-Generator.png'>
+## :zap: Screenshots 📸
+<!-- add the screenshot of the project (Mandatory) -->
+
+<img src='./Random-Name-Generator.webp'>
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 

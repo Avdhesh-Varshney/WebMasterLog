@@ -16,19 +16,18 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+## :zap: Description 📃
 
 <div align='center'>
-    <p>This project is a vanilla javascript project that uses NASA APoD API to fetch Astronomy Picture of the Day.
-</p>
+  <p>This project is a vanilla javascript project that uses NASA APoD API to fetch Astronomy Picture of the Day.</p>
 </div>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run this Project? 🕹️</h3>
+## :zap: How to run it? 🕹️
 
 <div >
-    <p>To run this project locally, follow these steps:
+  <p>To run this project locally, follow these steps:
 
 1. Fork the repository.
 
@@ -42,7 +41,9 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshot📸</h3>
+## :zap: Screenshots 📸
+<!-- add the screenshot of the project (Mandatory) -->
+
 <img src='./CosmoXplore-APoD.webp'>
 
  

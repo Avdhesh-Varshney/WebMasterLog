@@ -15,16 +15,15 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+## :zap: Description 📃
 
-<div align='center'>
-    <p>This project is a simple vanilla JavaScript implementation of a Morse Code generator. It takes the entered text by the user and converts it into Morse Code.
-</p>
+<div>
+    <p>This project is a simple vanilla JavaScript implementation of a Morse Code generator. It takes the entered text by the user and converts it into Morse Code.</p>
 </div>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run this Project? 🕹️</h3>
+## :zap: How to run it? 🕹️
 
 <div >
     <p>To run this project locally, follow these steps:
@@ -41,10 +40,12 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshot📸</h3>
-<!-- Include a screenshot or gif of your project -->
+## :zap: Screenshots 📸
+<!-- add the screenshot of the project (Mandatory) -->
 
 ![image ](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/125949765/f734e9be-e588-44e7-8b61-fc7f749a7ad7)
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 

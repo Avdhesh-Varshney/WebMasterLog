@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥 Biography-Dr. BR-Ambedkar 💥</b></h1>
+<h1 align='center'><b>💥 Biography of Dr. B.R. Ambedkar 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -17,18 +17,18 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+## :zap: Description 📃
 
-<div align='center'>
-    <p>This project is a webpage which can tell you the history of Dr. BR Ambedkar in a brief way from their birth to death.This project Showcases the power of HTML and CSS.</p>
+<div>
+  <p>This project is a webpage which can tell you the history of Dr. BR Ambedkar in a brief way from their birth to death.This project Showcases the power of HTML and CSS.</p>
 </div>
 
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run this Project? 🕹️</h3>
+## :zap: How to run it? 🕹️
 
-<div align='center'>
+<div>
     <p>To run this project locally, follow these steps:
 
 1. Fork the repository.
@@ -43,7 +43,9 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshot📸</h3>
+## :zap: Screenshots 📸
+<!-- add the screenshot of the project (Mandatory) -->
+
 <img src ='./Biography-BR-Ambedkar.webp'>
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)

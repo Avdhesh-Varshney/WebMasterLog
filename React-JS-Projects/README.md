@@ -3,17 +3,6 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=REACT+JS+PROJECTS)](https://git.io/typing-svg)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=65&pause=400&color=18b8d0&center=true&vCenter=true&width=2000&height=200&lines=BASIC+LEVEL+PROJECTS;INTERMEDIATE+LEVEL+PROJECTS;ADVANCED+LEVEL+PROJECTS)](https://git.io/typing-svg)
 
-## :zap: React Projects ⚛️
-
-- This directory contains React projects categorized into different levels of complexity.
-- These projects showcase the power of React.js for building dynamic and interactive user interfaces.
-- The directory is organized into 3 sub-directories.
-    - 🌱 Basic
-    - 🚀 Intermediate
-    - 🌟 Advanced
-- The naming convention of the sub-directories corresponds to the project difficulty, with the Basic directory containing simpler projects or fundamental concepts.
-- Follow the instructions in the project's [README](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/README.md) for installation and usage.
-
 
 <div align="center">
 

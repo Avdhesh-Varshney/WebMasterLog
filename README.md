@@ -113,18 +113,12 @@ And these directories contains 3 sub-directories.
 <br />
 
 <!-- --------------Connect with Project Admin--------------------- -->
-## :zap: Let's Connect Project Admin 💬
+## :zap: Let's Connect to Project Admin 💬
 
 <div align='center'>
 
-   <a href='https://discord.gg/z34NCDEddG'>
-    <img src='https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white' alt='Dicord' />
-   </a>
    <a href="https://www.github.com/Avdhesh-Varshney">
      <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-   </a>
-   <a href='https://join.slack.com/t/codea2zhub/shared_invite/zt-2acisskvp-PIeXqmvaocnc7Z_ENRT1VQ'>
-     <img src='https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white' alt='Slack' />
    </a>
    <a href="https://twitter.com/__Avdhesh__">
      <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />

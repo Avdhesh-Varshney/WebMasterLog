@@ -17,19 +17,18 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Description 📃</h3>
+## :zap: Description 📃
 
-<div align='center'>
-    <p>This project is a simple HTML and CSS implementation of a MakeMyTrip website clone. It aims to replicate the basic structure and styling of the popular travel booking platform. This project serves as a practice exercise for HTML and CSS skills.</p>
+<div>
+  <p>This project is a simple HTML and CSS implementation of a MakeMyTrip website clone. It aims to replicate the basic structure and styling of the popular travel booking platform. This project serves as a practice exercise for HTML and CSS skills.</p>
 </div>
-
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>How to run it? 🕹️</h3>
+## :zap: How to run it? 🕹️
 
-<div align='center'>
-    <p>To run this project locally, follow these steps:
+<div>
+  <p>To run this project locally, follow these steps:
 
 1. Fork the repository.
 
@@ -44,7 +43,9 @@ git clone https://github.com/your-username/makemytrip-clone.git
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h3 align='center'>Screenshots 📸</h3>
+## :zap: Screenshots 📸
+<!-- add the screenshot of the project (Mandatory) -->
+
 <img src='./MakeMyTrip-website-clone.webp'>
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
