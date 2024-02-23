@@ -1,0 +1,26 @@
+@import 'vars';
+@import 'reset';
+@import 'header';
+@import 'app';
+@import 'buttons';
+@import 'ready';
+@import 'media';
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    position: absolute;
+    top: 10%;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 36px;
+}
