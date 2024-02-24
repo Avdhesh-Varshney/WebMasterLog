@@ -1,0 +1,18 @@
+.header {
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    &__wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 24px;
+    }
+}

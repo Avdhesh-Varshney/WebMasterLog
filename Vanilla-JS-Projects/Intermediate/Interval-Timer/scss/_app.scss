@@ -1,0 +1,33 @@
+.app {
+    width: 100%;
+    height: 100%;
+    &__wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #000;
+    }
+    &__subtitle {
+        margin-top: 15px;
+        font-size: 24px;
+        
+    }
+    &__set {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 180px;
+        
+    }
+    &__count {
+        font-size: 30px;
+    }
+}

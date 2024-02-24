@@ -1,0 +1,51 @@
+@media (min-width: 375px) {
+    body {
+        .app {
+            &__title {
+                font-size: 30px;
+            }
+            &__subtitle {
+                margin-top: 25px;
+                font-size: 26px;
+            }
+            &__set {
+                width: 220px;
+            }
+            &__count {
+                font-size: 34px;
+            }
+        }
+        .btn {
+            &_start {
+                margin-top: 50px;
+                font-size: 22px;
+                width: 160px;
+                height: 45px;
+            }
+            &_count {
+                font-size: 28px;
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+@media (min-width: 425px) {
+    body {
+        .app {
+            &__title {
+                font-size: 32px;
+            }
+            &__subtitle {
+                font-size: 28px;
+            }
+            &__set {
+                width: 240px;
+            }
+            &__count {
+                font-size: 38px;
+            }
+        }
+    }
+}
