@@ -27,6 +27,7 @@
 |-------|--------------|----------|
 |   1   | [Password Generator](./Basic/Password-Generator) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   2   | [To Do List](./Basic/ToDo-List) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   2   | [Weather-App](./Basic/weather-app) |  |
 
 
 
