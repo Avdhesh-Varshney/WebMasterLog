@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import ProjectCards from '../Cards/ProjectCards';
 import './mainpage.css';
+import Dashboard from './Dashboard';
 
 const MainPage = (props) => {
 	const { category, routes } = props;
-	if (category === '') return;
+	if (category === '') return <Dashboard />;
 
 	const [projectsData, setProjectsData] = useState([]);
 	const [tag, setTag] = useState('All');
