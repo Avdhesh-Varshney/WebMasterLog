@@ -28,6 +28,7 @@ pids
 .pnp.js
 
 # Editor directories and files
+*.vscode
 .vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
