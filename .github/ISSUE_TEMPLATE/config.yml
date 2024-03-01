@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Questions
+    url: https://t.me/+c60kdg6BNKYwY2Fl
+    about: You can join the discussions on Telegram.
   - name: Login does not work
     url: https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CONTRIBUTING.md
     about: Before opening a new issue, please make sure to read CONTRIBUTING.md
