@@ -1,8 +1,7 @@
 [
 	{
 		"tag": "Basic",
-		"title": "To Do List",
-		"description": "To do list provide all the CRUD operations to the user. Help to keep their notes on the website temporary.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Basic/To-Do-List/index.html"
+		"title": "Markdown Previewer",
+		"description": "This project is a web application which converts and renders the markdown code to readable output in real-time.This project Showcases the power of Vue.JS, HTML and CSS."
 	}
 ]

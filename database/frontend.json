@@ -2,19 +2,31 @@
 	{
 		"tag": "Intermediate",
 		"title": "Amazon Prime Clone",
-		"description": "This project is a simple HTML and CSS implementation of a Amazon Prime website clone. It aims to replicate the basic structure and styling of the popular entertaining website Amazon Prime.This project Showcases the power of HTML and CSS.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Front-end-Projects/Intermediate/Amazon-Prime-Clone/index.html"
+		"description": "This project is a simple HTML and CSS implementation of a Amazon Prime website clone. It aims to replicate the basic structure and styling of the popular entertaining website Amazon Prime.This project Showcases the power of HTML and CSS."
 	},
 	{
 		"tag": "Intermediate",
-		"title": "MakeMyTrip website clone",
-		"description": "This project is a simple HTML and CSS implementation of a MakeMyTrip website clone. It aims to replicate the basic structure and styling of the popular travel booking platform. This project serves as a practice exercise for HTML and CSS skills.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Front-end-Projects/Intermediate/MakeMyTrip-website-clone/index.html"
+		"title": "MakeMyTrip Clone",
+		"description": "This project is a simple HTML and CSS implementation of a MakeMyTrip website clone. It aims to replicate the basic structure and styling of the popular travel booking platform. This project serves as a practice exercise for HTML and CSS skills."
 	},
 	{
 		"tag": "Basic",
 		"title": "Biography Mahatma Gandhi",
-		"description": "This project is a webpage which can tell you the history of Mahatma Gandhi in a concised way from their birth to death.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Front-end-Projects/Basic/Biography-Mahatma-Gandhi/index.html"
+		"description": "This project is a webpage which can tell you the history of Mahatma Gandhi in a concised way from their birth to death."
+	},
+	{
+		"tag": "Basic",
+		"title": "Biography BR Ambedkar",
+		"description": "This project is a webpage which can tell you the history of Dr. BR Ambedkar in a brief way from their birth to death.This project Showcases the power of HTML and CSS."
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Netflix Clone",
+		"description": "This project is a simple HTML and CSS implementation of a Netflix website clone. It aims to replicate the basic structure and styling of the popular entertaining website Netflix. This project Showcases the power of HTML and CSS."
+	},
+	{
+		"tag": "Basic",
+		"title": "Starbucks Landing page",
+		"description": "This project is a simple HTML and CSS implementation of a Starbucks website clone. It aims to replicate the basic structure and styling of the popular website Starbucks. This project Showcases the power of HTML and CSS."
 	}
 ]

@@ -2,79 +2,91 @@
 	{
 		"tag": "Basic",
 		"title": "To Do List",
-		"description": "To do list provide all the CRUD operations to the user. Help to keep their notes on the website temporary.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Basic/To-Do-List/index.html"
+		"description": "To do list provide all the CRUD operations to the user. Help to keep their notes on the website temporary."
 	},
 	{
 		"tag": "Intermediate",
 		"title": "Day Calculator",
-		"description": "This application can tell the day of the entered date instantly, whether it is Sunday, Monday, Tuesday, etc.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Day-Calculator/index.html"
+		"description": "This application can tell the day of the entered date instantly, whether it is Sunday, Monday, Tuesday, etc."
 	},
 	{
 		"tag": "Intermediate",
 		"title": "Time Watcher",
-		"description": "This a simple project where i created a time watcher website using only html, css, bootstrap and js, which can shows the time from the entered date to the currect upto milli-seconds precision.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Time-Watcher/index.html"
+		"description": "This a simple project where i created a time watcher website using only html, css, bootstrap and js, which can shows the time from the entered date to the currect upto milli-seconds precision."
 	},
 	{
 		"tag": "Intermediate",
 		"title": "Number To Words Convertor",
-		"description": "Number to Words convertor can facilitate users to convert any number into words instantly.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Number-To-Words-Convertor/index.html"
+		"description": "Number to Words convertor can facilitate users to convert any number into words instantly."
 	},
 	{
 		"tag": "Basic",
 		"title": "Gallery",
-		"description": "This website helps to enlist those videos which are necessary to the user by adding their links into the json file provided along with the project.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Basic/Gallery/index.html"
+		"description": "This website helps to enlist those videos which are necessary to the user by adding their links into the json file provided along with the project."
 	},
 	{
 		"tag": "Advanced",
 		"title": "Audio Analyzer",
-		"description": "This a simple project where i created a amplification wave of the sound using only html, css and js, which can be shows according to the pitch of the user's sound.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Advanced/Audio-Analyzer/index.html"
+		"description": "This a simple project where i created a amplification wave of the sound using only html, css and js, which can be shows according to the pitch of the user's sound."
 	},
 	{
 		"tag": "Intermediate",
 		"title": "Password Generator",
-		"description": "It generates a random password of a specified length (default is 12 characters) using a set of characters including uppercase and lowercase letters, digits, and special symbols.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Password-Generator/index.html"
+		"description": "It generates a random password of a specified length (default is 12 characters) using a set of characters including uppercase and lowercase letters, digits, and special symbols."
 	},
 	{
 		"tag": "Basic",
 		"title": "Palindrome Checker",
-		"description": "A palindrome checker project that verifies whether a given text input is a palindrome or not either alphabetic or non-alphabetic.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Basic/Gallery/index.html"
+		"description": "A palindrome checker project that verifies whether a given text input is a palindrome or not either alphabetic or non-alphabetic."
 	},
 	{
 		"tag": "Intermediate",
-		"title": "Hex color code generator website",
-		"description": "This website can generate the different combinations of the hex color codes by changing the different colors from the color palletes.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Hex-color-code-generator-website/index.html"
+		"title": "Hex Color Code Generator",
+		"description": "This website can generate the different combinations of the hex color codes by changing the different colors from the color palletes."
 	},
 	{
 		"tag": "Intermediate",
 		"title": "Countdown Timer",
-		"description": "This project have a COUNTDOWN TIMER  that counts down time from a given number with stop and reset option. Also this project have a CLOCK which displays time on the front of the webpage and a STOPWATCH with lap and reset option.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Countdown-Timer/index.html"
+		"description": "This project have a COUNTDOWN TIMER  that counts down time from a given number with stop and reset option. Also this project have a CLOCK which displays time on the front of the webpage and a STOPWATCH with lap and reset option."
 	},
 	{
 		"tag": "Advanced",
 		"title": "Recipe Finder",
-		"description": "The Recipe Finder is a dynamic web application that empowers users to explore a world of culinary delights. This interactive platform allows users to search for diverse food recipes based on categories, cuisines, main ingredients, or specific dish names. Whether you're seeking a quick meal idea or a unique culinary adventure, the Recipe Finder has you covered.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Advanced/Recipe-Finder/index.html"
+		"description": "The Recipe Finder is a dynamic web application that empowers users to explore a world of culinary delights. This interactive platform allows users to search for diverse food recipes based on categories, cuisines, main ingredients, or specific dish names. Whether you're seeking a quick meal idea or a unique culinary adventure, the Recipe Finder has you covered."
 	},
 	{
 		"tag": "Intermediate",
 		"title": "Morse Code Convertor",
-		"description": "This project is a simple vanilla JavaScript implementation of a Morse Code generator. It takes the entered text by the user and converts it into Morse Code.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/Morse-Code-Convertor/index.html"
+		"description": "This project is a simple vanilla JavaScript implementation of a Morse Code generator. It takes the entered text by the user and converts it into Morse Code."
 	},
 	{
 		"tag": "Intermediate",
 		"title": "CosmoXplore APoD",
-		"description": "This project is a vanilla javascript project that uses NASA APoD API to fetch Astronomy Picture of the Day.",
-		"liveLink": "https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/Vanilla-JS-Projects/Intermediate/CosmoXplore-APoD/index.html"
+		"description": "This project is a vanilla javascript project that uses NASA APoD API to fetch Astronomy Picture of the Day."
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Martian Imagery",
+		"description": "This project is a vanilla javascript project that uses NASA Mars Rover API to fetch martian Images."
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Weather App",
+		"description": "This project is a vanilla javascript project that uses Open Weather API to fetch real time weather data."
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Sudoku Game",
+		"description": "A 6x6 Sudoku game has a grid with 6 rows, 6 columns, and 6 regions. The goal is to fill in the grid so that each row, each column, and each region contains the numbers 1 to 6 exactly once."
+	},
+	{
+		"tag": "Hard",
+		"title": "Sort Visualizer",
+		"description": "This Sorting Visualizer will help to visualize - Bubble Sort, Selection Sort, Insertion Sort, Quick sort."
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Interval Timer",
+		"description": "It help to user to work and take rest for specific time."
 	}
 ]
