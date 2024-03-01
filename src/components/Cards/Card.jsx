@@ -3,14 +3,14 @@ import { FaGithub } from "react-icons/fa";
 import { BiSolidZap } from "react-icons/bi";
 
 const Card = (props) => {
-	const { tech, tag, title, description, liveLink } = props;
+	const { tech, tag, title, description } = props;
+	const targetData = `main/${tech}/${tag}/${title.replace(/\s+/g, '-')}`;
 
-	const imageURL = `https://github.com/Avdhesh-Varshney/WebMasterLog/raw/main/${tech}/${tag}/${title.replace(/\s+/g, '-')}/${title.replace(/\s+/g, '-')}.webp`;
-	const sourceLink = `https://github.com/Avdhesh-Varshney/WebMasterLog/raw/main/${tech}/${tag}/${title.replace(/\s+/g, '-')}`
+	const imageURL = `https://github.com/Avdhesh-Varshney/WebMasterLog/raw/${targetData}/screenshot.webp`;
+	const sourceLink = `https://github.com/Avdhesh-Varshney/WebMasterLog/raw/${targetData}`
 
 	const handleProjectClick = () => {
-		const githubUrlParts = liveLink.split('/blob/');
-		const loadURL = 'https://raw.githack.com/Avdhesh-Varshney/WebMasterLog/' + githubUrlParts[1];
+		const loadURL = 'https://raw.githack.com/Avdhesh-Varshney/WebMasterLog/' + targetData + '/index.html';
 		window.location.href = loadURL;
 	};
 
@@ -27,9 +27,9 @@ const Card = (props) => {
 					<FaGithub />
 				</a>
 
-				<button className="btn btn-dark m-1" style={{ fontSize: '1.2rem', color: 'white' }} onClick={handleProjectClick}>
+				{(tech !== 'Vanilla-JS-Projects' && tech !== 'Front-end-Projects')? '' : <button className="btn btn-dark m-1" style={{ fontSize: '1.2rem', color: 'white' }} onClick={handleProjectClick}>
 					<BiSolidZap />
-				</button>
+				</button>}
 			</div>
 		</div>
 	);
