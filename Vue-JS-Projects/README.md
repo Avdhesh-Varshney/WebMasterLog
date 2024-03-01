@@ -25,8 +25,7 @@
 
 | S.No  | Project Name | Category |
 |-------|--------------|----------|
-|   1   |  |  |
-|   2   |  |  |
+|   1   | Markdown Previewer | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 
 
 
