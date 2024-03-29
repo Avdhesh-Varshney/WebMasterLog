@@ -16,7 +16,6 @@ class RegisterView(APIView):
         return Response(serializer.data)
 
 class Hi(APIView):
-    permission_classes=[IsAuthenticated]
     def post(self,request):
         return Response("YOLO")
     
