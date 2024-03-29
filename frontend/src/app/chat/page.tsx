@@ -221,7 +221,7 @@ export default function Chatpage() {
     //fetch the old message of the users
     axios
       .post(
-        `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/history`,
+        `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/chat/history`,
         {},
         {
           headers: {
