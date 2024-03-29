@@ -44,10 +44,17 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'cloudinary_storage',
     'django.contrib.staticfiles',
-    'authentication',
+    'rest_framework',
+    'rest_framework_simplejwt',
+    'authentication.apps.AuthenticationConfig',
+    'corsheaders',
     'chat',
+    'cloudinary',
+    
 ]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -80,7 +87,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'hairify.wsgi.application'
 
 AUTH_USER_MODEL = 'authentication.User'
-
+SESSION_ENGINE = 'django.contrib.sessions.backends.db'
 
 
 # Database
@@ -180,3 +187,33 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOW_ALL_ORIGINS = True
+
+
+CLOUDINARY = {
+    'cloud_name': str(os.getenv("CLOUD_NAME")),
+    'api_key': str(os.getenv("API_KEY")),
+    'api_secret':str(os.getenv("API_SECRET")),
+}
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': str(os.getenv("CLOUD_NAME")),
+    'API_KEY': str(os.getenv("API_KEY")),
+    'API_SECRET': str(os.getenv("API_SECRET")),
+}
+
+os.environ['LANGCHAIN_TRACING_V2'] = "true"
+os.environ['LANGCHAIN_ENDPOINT'] = "https://api.smith.langchain.com"
+os.environ['LANGCHAIN_API_KEY'] = "ls__b5c5afaf0e1e41a1bc93c3914c94beae"
+os.environ['LANGCHAIN_PROJECT'] = "python_project"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyA3nOaTxni4he62fwe1imEAFw5MAtrrEDg"
+
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+        
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
