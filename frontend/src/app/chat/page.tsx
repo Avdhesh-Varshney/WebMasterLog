@@ -219,6 +219,7 @@ export default function Chatpage() {
 
   useEffect(() => {
     //fetch the old message of the users
+    const accessToken = localStorage.getItem("access");
     axios
       .post(
         `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/chat/history`,
@@ -226,7 +227,7 @@ export default function Chatpage() {
         {
           headers: {
             Authorization:
-              "Bearer " + token,
+              "Bearer " + accessToken,
           },
         }
       )
