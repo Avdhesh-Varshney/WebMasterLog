@@ -19,7 +19,6 @@ import { FiArrowRight } from "react-icons/fi";
 import Header from "@/components/header";
 import axios from "axios";
 import Router from "next/router";
-import { json } from "node:stream/consumers";
 
 interface ChatMessage {
   text: string;
@@ -245,7 +244,7 @@ export default function Chatpage() {
     scrollToBottom();
   }, [chat]);
 
-  async function readStream(reader, s) {
+  async function readStream(reader: ReadableStreamDefaultReader<Uint8Array>, s: string) {
     try {
       while (true) {
         const { done, value } = await reader.read();
