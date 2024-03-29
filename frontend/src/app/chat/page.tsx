@@ -19,9 +19,7 @@ import { FiArrowRight } from "react-icons/fi";
 import Header from "@/components/header";
 import axios from "axios";
 import Router from "next/router";
-import { useDataContext } from "@/context/dataContext";
-import LoaderRipple from "@/components/LoaderRipple";
-import { useRouter } from "next/navigation";
+import { json } from "node:stream/consumers";
 
 interface ChatMessage {
   text: string;
@@ -191,29 +189,31 @@ function InputFile({ selectedFile, setSelectedFile }: any) {
   );
 }
 
-export default function Chatpage() {
-  const { authState } = useDataContext();
-  const router = useRouter();
-
+function LoaderRipple() {
   return (
-    <>
-      {authState === "loading" && (
-        <div>
-          <LoaderRipple />
-        </div>
-      )}
-      {authState === "loggedin" && <ChatpageInner />}
-      {authState === "notloggedin" && router.push("/login")}
-    </>
+    <div className="flex justify-center items-center min-h-[calc(100vh-130px)]">
+      <div className="relative inline-flex">
+        <div className="w-8 h-8 bg-orange-900 rounded-full" />
+        <div className="w-8 h-8 bg-orange-900 rounded-full absolute top-0 left-0 animate-ping" />
+        <div className="w-8 h-8 bg-orange-900 rounded-full absolute top-0 left-0 animate-pulse" />
+      </div>
+    </div>
   );
 }
-
-function ChatpageInner() {
+export default function Chatpage() {
   const [chat, setChat] = useState<ChatMsg[]>(dummyChat);
-  const [chatState, setChatState] = useState<string>("busy");
+  const [chatState, setChatState] = useState<string>("");
   const [chatInit, setChatInit] = useState<boolean>(false);
   const [message, setMessage] = useState<string>("");
   const mainRef = useRef<HTMLDivElement>(null);
+  const for_scrolling_div_ref = useRef(null);
+
+  function scrollToBottom() {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth", // Optional, adds smooth scrolling effect
+    });
+  }
 
   useEffect(() => {
     //fetch the old message of the users
@@ -225,24 +225,128 @@ function ChatpageInner() {
         {
           headers: {
             Authorization:
-              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzExNzQ0MzUyLCJpYXQiOjE3MTE2NTc5NTIsImp0aSI6IjRlMTY2MTE1MjZlYzRjYjQ5MjBhN2JlM2M1MjM1ZjBhIiwidXNlcl9pZCI6OX0.1038f9JiGNgIhAaKNay6IIejZQQ9_lFLCe__IAQfmtA",
+              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzExODM0MDM5LCJpYXQiOjE3MTE3NDc2MzksImp0aSI6Ijk3ZjE4OTFhZjIxMTQxOWJiZDgwNmYxNjRiOTUwNTk2IiwidXNlcl9pZCI6MTZ9.NtGOKlEhx0MRythC_XG_6tb8vKlhjE0SYvkHimBWgS0",
           },
         }
       )
       .then((data: any) => {
-        console.log(data);
+        // console.log(data.data.messages)
+        // { message: "Cow is an animal", own: false }
+
+        const new_loaded_chat = data.data.messages.map((m: any) => {
+          return { message: m.content, own: m.type === "human" };
+        });
+        // console.log(new_loaded_chat);
+        setChat(new_loaded_chat);
       });
   }, []);
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [chat]);
+
+  async function readStream(reader, s) {
+    try {
+      while (true) {
+        const { done, value } = await reader.read();
+
+        // Check if we have reached the end of the stream
+        if (done) {
+          console.log("End of stream");
+          break;
+        }
+        // Assuming you have a Uint8Array named binaryData
+        const decoder = new TextDecoder("utf-8"); // specify the encoding if known, utf-8 is common
+
+        // Convert binary data to a readable string
+        const text = decoder.decode(value);
+        console.log(text);
+        s += text;
+        // { message: "omg! really?", own: true },
+        // setChat((prev) => {
+        //   const newPrev = [...prev];
+        //   if (newPrev.length > 0 && !newPrev[newPrev.length - 1].own) {
+        //     // If the last message was not sent by the current user
+        //     newPrev[newPrev.length - 1].message += text; // Concatenate the new message to the last message
+        //     console.log("$$$$$$$$$$$$$$$$$$$i am concatening");
+        //   } else {
+        //     // Otherwise, add a new message to the array
+        //     console.log("*******************i am concatening");
+        //     newPrev.push({ message: text, own: false });
+        //   }
+        //   return newPrev; // Return a new array to trigger re-render
+        // });
+        setChat((prev) => {
+          const newPrev = [...prev];
+          if (newPrev.length > 0 && !newPrev[newPrev.length - 1].own) {
+            newPrev[newPrev.length - 1].message = s;
+            // console.log("$$$$$$$$$$$$$$$$$$$i am concatening");
+          } else {
+            // Otherwise, add a new message to the array
+            // console.log("*******************i am concatening");
+            newPrev.push({ message: s, own: false });
+          }
+          return newPrev;
+        });
+
+        // console.log(text); // Output the decoded text
+
+        // Process the chunk of data (value)
+        // console.log("Chunk of data:", text);
+      }
+    } catch (error) {
+      console.error("Error reading stream:", error);
+    } finally {
+      // Close the reader when done
+      reader.releaseLock();
+    }
+  }
+
   // let ws = useRef<WebSocket | null>(null);
   const handleClick = async () => {
-    await axios.post(
-      `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/chat`,
-      { message },
-      { headers: {} }
-    );
+    setChatState("busy");
+    setChat((prev) => {
+      // Create a new array with the previous messages and add the new message
+      const newChat = [...prev, { message: message, own: true }];
+      return newChat;
+    });
+
+    setMessage("");
+
+    try {
+      const response = await fetch("http://127.0.0.1:8000/chatapi/chat", {
+        method: "POST",
+        headers: {
+          Authorization:
+            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzExODM0MDM5LCJpYXQiOjE3MTE3NDc2MzksImp0aSI6Ijk3ZjE4OTFhZjIxMTQxOWJiZDgwNmYxNjRiOTUwNTk2IiwidXNlcl9pZCI6MTZ9.NtGOKlEhx0MRythC_XG_6tb8vKlhjE0SYvkHimBWgS0",
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ message }),
+      });
+      // Check if the response is ok
+      if (!response.ok) {
+        throw new Error("Network response was not ok");
+      }
+      let s = "";
+      // Create a ReadableStream reader
+      const reader = response.body!.getReader();
+
+      // Define a function to read chunks of data from the stream
+
+      // Start reading the stream
+      await readStream(reader, s);
+    } catch (error) {
+      console.error("Error fetching streaming data:", error);
+    }
+
+    setChatState("idle");
   };
+
   return (
-    <div className="px-4 bg-zinc-100 flex-grow pagecont">
+    <div
+      className="px-4 bg-zinc-100 flex-grow pagecont"
+      ref={for_scrolling_div_ref}
+    >
       <div className="py-[65px] min-h-full" ref={mainRef}>
         <div className=" mx-4">
           {/*!chatInit && (
@@ -290,7 +394,8 @@ function ChatpageInner() {
             <ImageChatPopup chatState={chatState} setChatState={setChatState} />
             <Button
               onClick={() => {
-                // handleClick();
+                handleClick();
+                console.log("fuckkk");
               }}
               disabled={chatState === "busy" ? true : false}
             >
