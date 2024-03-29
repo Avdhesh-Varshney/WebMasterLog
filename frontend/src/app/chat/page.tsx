@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState, ChangeEvent } from "react";
+import React, { useRef, useState, ChangeEvent, useEffect } from "react";
 import Markdown from "react-markdown";
 import Image from "next/image";
 import {
@@ -19,6 +19,9 @@ import { FiArrowRight } from "react-icons/fi";
 import Header from "@/components/header";
 import axios from "axios";
 import Router from "next/router";
+import { useDataContext } from "@/context/dataContext";
+import LoaderRipple from "@/components/LoaderRipple";
+import { useRouter } from "next/navigation";
 
 interface ChatMessage {
   text: string;
@@ -188,25 +191,56 @@ function InputFile({ selectedFile, setSelectedFile }: any) {
   );
 }
 
-function LoaderRipple() {
+export default function Chatpage() {
+  const { authState } = useDataContext();
+  const router = useRouter();
+
   return (
-    <div className="flex justify-center items-center min-h-[calc(100vh-130px)]">
-      <div className="relative inline-flex">
-        <div className="w-8 h-8 bg-orange-900 rounded-full" />
-        <div className="w-8 h-8 bg-orange-900 rounded-full absolute top-0 left-0 animate-ping" />
-        <div className="w-8 h-8 bg-orange-900 rounded-full absolute top-0 left-0 animate-pulse" />
-      </div>
-    </div>
+    <>
+      {authState === "loading" && (
+        <div>
+          <LoaderRipple />
+        </div>
+      )}
+      {authState === "loggedin" && <ChatpageInner />}
+      {authState === "notloggedin" && router.push("/login")}
+    </>
   );
 }
-export default function Chatpage() {
+
+function ChatpageInner() {
   const [chat, setChat] = useState<ChatMsg[]>(dummyChat);
   const [chatState, setChatState] = useState<string>("busy");
   const [chatInit, setChatInit] = useState<boolean>(false);
   const [message, setMessage] = useState<string>("");
   const mainRef = useRef<HTMLDivElement>(null);
 
-  let ws = useRef<WebSocket | null>(null);
+  useEffect(() => {
+    //fetch the old message of the users
+
+    axios
+      .post(
+        "http://127.0.0.1:8000/chatapi/chat/history",
+        {},
+        {
+          headers: {
+            Authorization:
+              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzExNzQ0MzUyLCJpYXQiOjE3MTE2NTc5NTIsImp0aSI6IjRlMTY2MTE1MjZlYzRjYjQ5MjBhN2JlM2M1MjM1ZjBhIiwidXNlcl9pZCI6OX0.1038f9JiGNgIhAaKNay6IIejZQQ9_lFLCe__IAQfmtA",
+          },
+        }
+      )
+      .then((data: any) => {
+        console.log(data);
+      });
+  }, []);
+  // let ws = useRef<WebSocket | null>(null);
+  const handleClick = async () => {
+    await axios.post(
+      `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/chat`,
+      { message },
+      { headers: {} }
+    );
+  };
   return (
     <div className="px-4 bg-zinc-100 flex-grow pagecont">
       <div className="py-[65px] min-h-full" ref={mainRef}>
@@ -253,7 +287,7 @@ export default function Chatpage() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
-            <ImageChatPopup chatState={chatState} />
+            <ImageChatPopup chatState={chatState} setChatState={setChatState} />
             <Button
               onClick={() => {
                 // handleClick();
