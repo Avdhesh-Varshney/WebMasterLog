@@ -9,6 +9,7 @@ export function DataProvider({ children }: any) {
   const [userid, setUserid] = useState<string>("");
   const [email, setEmail] = useState<string>("");
   const [name, setName] = useState<string>("");
+  const [token,setToken] = useState<string>("")
 
   useEffect(() => {
     async function fetchAuth() {
@@ -28,6 +29,7 @@ export function DataProvider({ children }: any) {
             setEmail(data.data.email);
             setUserid(data.data.userid);
             setName(data.data.name);
+            setToken(token)
             setAuthState("loggedin");
           }
         } catch (error) {
@@ -42,7 +44,7 @@ export function DataProvider({ children }: any) {
     fetchAuth();
   }, []);
 
-  const value = { userid, email, name, authState };
+  const value = { userid, email, name, authState,token };
 
   return <Context.Provider value={value}>{children}</Context.Provider>;
 }

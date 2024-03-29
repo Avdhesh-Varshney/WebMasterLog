@@ -19,6 +19,8 @@ import { FiArrowRight } from "react-icons/fi";
 import Header from "@/components/header";
 import axios from "axios";
 import Router from "next/router";
+import { useDataContext } from "@/context/dataContext";
+
 
 interface ChatMessage {
   text: string;
@@ -213,18 +215,18 @@ export default function Chatpage() {
       behavior: "smooth", // Optional, adds smooth scrolling effect
     });
   }
+  let {token} = useDataContext()
 
   useEffect(() => {
     //fetch the old message of the users
-
     axios
       .post(
-        "http://127.0.0.1:8000/chatapi/chat/history",
+        `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/history`,
         {},
         {
           headers: {
             Authorization:
-              "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzExODM0MDM5LCJpYXQiOjE3MTE3NDc2MzksImp0aSI6Ijk3ZjE4OTFhZjIxMTQxOWJiZDgwNmYxNjRiOTUwNTk2IiwidXNlcl9pZCI6MTZ9.NtGOKlEhx0MRythC_XG_6tb8vKlhjE0SYvkHimBWgS0",
+              "Bearer " + token,
           },
         }
       )
@@ -261,37 +263,17 @@ export default function Chatpage() {
         const text = decoder.decode(value);
         console.log(text);
         s += text;
-        // { message: "omg! really?", own: true },
-        // setChat((prev) => {
-        //   const newPrev = [...prev];
-        //   if (newPrev.length > 0 && !newPrev[newPrev.length - 1].own) {
-        //     // If the last message was not sent by the current user
-        //     newPrev[newPrev.length - 1].message += text; // Concatenate the new message to the last message
-        //     console.log("$$$$$$$$$$$$$$$$$$$i am concatening");
-        //   } else {
-        //     // Otherwise, add a new message to the array
-        //     console.log("*******************i am concatening");
-        //     newPrev.push({ message: text, own: false });
-        //   }
-        //   return newPrev; // Return a new array to trigger re-render
-        // });
         setChat((prev) => {
           const newPrev = [...prev];
           if (newPrev.length > 0 && !newPrev[newPrev.length - 1].own) {
             newPrev[newPrev.length - 1].message = s;
-            // console.log("$$$$$$$$$$$$$$$$$$$i am concatening");
           } else {
             // Otherwise, add a new message to the array
-            // console.log("*******************i am concatening");
             newPrev.push({ message: s, own: false });
           }
           return newPrev;
         });
 
-        // console.log(text); // Output the decoded text
-
-        // Process the chunk of data (value)
-        // console.log("Chunk of data:", text);
       }
     } catch (error) {
       console.error("Error reading stream:", error);
@@ -301,7 +283,6 @@ export default function Chatpage() {
     }
   }
 
-  // let ws = useRef<WebSocket | null>(null);
   const handleClick = async () => {
     setChatState("busy");
     setChat((prev) => {
@@ -313,11 +294,11 @@ export default function Chatpage() {
     setMessage("");
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/chatapi/chat", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/chat`, {
         method: "POST",
         headers: {
           Authorization:
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzExODM0MDM5LCJpYXQiOjE3MTE3NDc2MzksImp0aSI6Ijk3ZjE4OTFhZjIxMTQxOWJiZDgwNmYxNjRiOTUwNTk2IiwidXNlcl9pZCI6MTZ9.NtGOKlEhx0MRythC_XG_6tb8vKlhjE0SYvkHimBWgS0",
+            "Bearer "+token,
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ message }),
