@@ -38,7 +38,7 @@ interface InputFileProps {
   // You can add any additional props needed
 }
 
-function InputFile({ selectedFile, setSelectedFile }: any) {
+function InputFile({ selectedFile, setSelectedFile, myfile, setMyfile }: any) {
   const handleFileChange = (e: ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
 
@@ -46,6 +46,7 @@ function InputFile({ selectedFile, setSelectedFile }: any) {
       const reader = new FileReader();
       reader.onloadend = () => {
         setSelectedFile(reader.result as string);
+        setMyfile(file);
       };
       reader.readAsDataURL(file);
     }
@@ -83,7 +84,8 @@ export default function Reportpage() {
 function ReportpageInner() {
   const [curstate, setCurstate] = useState<string>("idle");
   const router = useRouter();
-  const [selectedFile, setSelectedFile] = useState<string | null>(null);
+  const [selectedFile, setSelectedFile] = useState<any>(null);
+  const [myfile, setMyfile] = useState<any>(null);
 
   async function handleForm(e: React.SyntheticEvent) {
     e.preventDefault();
@@ -93,7 +95,7 @@ function ReportpageInner() {
       image: any;
     } = {
       problem: (e.target as HTMLFormElement).problem.value,
-      image: selectedFile,
+      image: myfile,
     };
 
     if (
@@ -102,14 +104,14 @@ function ReportpageInner() {
     ) {
       try {
         setCurstate("busy");
-        const token = localStorage.getItem('access')
+        const token = localStorage.getItem("access");
         const response = await axios.post(
           `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/report`,
           formData,
           {
             headers: {
               "Content-type": "multipart/form-data",
-              'Authorization' : 'Bearer '+  token
+              Authorization: "Bearer " + token,
             },
           }
         );
@@ -149,6 +151,7 @@ function ReportpageInner() {
                     name="image"
                     selectedFile={selectedFile}
                     setSelectedFile={setSelectedFile}
+                    setMyfile={setMyfile}
                   />
                 </div>
               </CardContent>
@@ -162,7 +165,6 @@ function ReportpageInner() {
                     {curstate === "busy" ? (
                       <>
                         <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                        Submitting
                       </>
                     ) : (
                       <span>Submit {"->"}</span>
