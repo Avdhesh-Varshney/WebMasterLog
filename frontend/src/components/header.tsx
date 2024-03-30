@@ -2,6 +2,7 @@
 import Image from "next/image";
 import icon from "../assets/icon.png";
 import { useRouter } from "next/navigation";
+import { useDataContext } from "@/context/dataContext";
 
 export default function Header() {
   return (
@@ -20,19 +21,37 @@ function Logo() {
   );
 }
 function Userbuttons() {
+  const {authState} = useDataContext()
+
+  const handleLogout = () =>{
+    localStorage.clear()
+    window.location.reload()
+  }
+
   return (
     <div className="flex h-full mx-2 gap-2">
-      <HeaderButton text="Login" url="/login" />
+      {authState === 'loggedin'  ? 
+      <HeaderButton text="Logout" url="" onClickFunction={handleLogout} />:  <HeaderButton text="Login" url="/login" /> }
+      {/* <HeaderButton text="Login" url="/login" /> */}
       <HeaderButton text="Dashboard" url="" />
     </div>
   );
 }
-function HeaderButton({ text, url }: { text: string; url: string }) {
+function HeaderButton({ text, url, onClickFunction }: { text: string; url: string, onClickFunction? : ()=>any }) {
   const router = useRouter();
+
+  const handleOnClick = () =>{
+    if(onClickFunction !== undefined){
+      onClickFunction()
+    }
+    else{
+      router.push(url)
+    }
+  }
 
   return (
     <button
-      onClick={() => router.push(url)}
+      onClick={handleOnClick}
       className=" no-underline text-black"
     >
       <div className=" text-xl py-2 px-4 border-2 border-black hover:bg-[rgba(255,255,255,0.5)] my-2 transition-all">
