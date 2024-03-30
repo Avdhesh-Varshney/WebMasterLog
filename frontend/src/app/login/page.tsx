@@ -48,7 +48,8 @@ function LoginInner() {
       localStorage.setItem("access", data.data.access);
       localStorage.setItem("refresh", data.data.refresh);
       setLogginIn(false)
-      router.push('/chat')
+      window.location.reload()
+      // router.push('/chat')
     } catch (error) {
       setError((error as Error).message);
       setLogginIn(false)
