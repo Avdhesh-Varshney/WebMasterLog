@@ -19,6 +19,7 @@ import { useRouter } from "next/navigation";
 interface Record {
   timestamp: string;
   analysis: string;
+
 }
 
 let dummyData = [
@@ -59,30 +60,34 @@ export default function Dashboard() {
 }
 
 function DashboardInner() {
-  const [records, setRecords] = useState<Record[]>(dummyData);
+  const [records, setRecords] = useState<any[]>([]);
   const [curState, setCurState] = useState<string>("idle"); //should be "loading" in prod
   const dialogTrigger = useRef<HTMLButtonElement>(null);
   const [dialogData, setDialogData] = useState<Record | null>(null);
 
-  //   useEffect(function () {
-  //     async function getSubdatas() {
-  //       try {
-  //         const { data } = await axios.get(
-  //           `${process.env.NEXT_PUBLIC_BACKEND_PATH}/getreports`
-  //         );
-  //         // Assuming the response contains JSON data
-  //         // console.log(data);
-  //         if (data?.msg === "success" && data.data) {
-  //           setRecords(data.data);
-  //           setCurState("idle");
-  //         }
-  //       } catch (error: any) {
-  //         console.error("Error fetching data:", error.message);
-  //         setCurState("error");
-  //       }
-  //     }
-  //     getSubdatas();
-  //   }, []);
+    useEffect(function () {
+      async function getSubdatas() {
+        const token = localStorage.getItem('access')
+        try {
+          const { data } = await axios.get(
+            `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/reporthistory`,{headers:{
+              Authorization : 'Bearer '+ token
+            }}
+          );
+          // Assuming the response contains JSON data
+          
+          // if (data?.msg === "success" && data.data) {
+            setRecords(data);
+            // console.log(data.data)
+            setCurState("idle");
+          // }
+        } catch (error: any) {
+          console.error("Error fetching data:", error.message);
+          setCurState("error");
+        }
+      }
+      getSubdatas();
+    }, []);
 
   function handleView(data: Record | null) {
     setDialogData(data);
@@ -120,12 +125,12 @@ function DashboardInner() {
                 records.map((row, i) => (
                   <TableRow key={i} onClick={() => handleView(row)}>
                     <TableCell>
-                      {formatRelativeTime(row.timestamp)?.toString()}
+                      {formatRelativeTime(row.created_at)?.toString()}
                     </TableCell>
                     <TableCell>
-                      {row.analysis.length > 100
-                        ? `${row.analysis?.substring(0, 99)} ...`
-                        : row.analysis}
+                      {row.report.length > 100
+                        ? `${row.report?.substring(0, 99)} ...`
+                        : row.report}
                     </TableCell>
                   </TableRow>
                 ))}

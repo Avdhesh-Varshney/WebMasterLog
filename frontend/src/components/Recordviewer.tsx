@@ -13,10 +13,11 @@ interface Record {
   timestamp: string;
   analysis: string;
 }
+import Image from "next/image";
 
 const Recordviewer = React.forwardRef(
   (
-    { data }: { data: Record | null },
+    { data }: { data: any | null },
     ref: React.ForwardedRef<HTMLButtonElement>
   ) => {
     return (
@@ -35,13 +36,18 @@ const Recordviewer = React.forwardRef(
                 <div className="text-left">
                   <Label className="my-1 text-lg">Timestamp</Label>
                   <div className="my-1">
-                    {new Date(data.timestamp).toString()}
+                    {new Date(data.created_at).toString()}
+                  </div>
+                  <Label className="my-1 text-lg">Image</Label>
+                  <div className="my-1">
+                    {/* <Image src={data.image_url} height={200} width={200} alt="image" /> */}
+                    <img src={data.image_url} height={200} width={200} alt="image" />
                   </div>
 
                   <Label className="my-1 text-lg">Analysis</Label>
                   <div className="w-full">
                     <pre className="rounded-lg bg-slate-100 p-2 overflow-auto">
-                      {data.analysis}
+                      {data.report}
                     </pre>
                   </div>
                 </div>
