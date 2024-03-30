@@ -56,17 +56,21 @@ function HeaderButton({
 }) {
   const router = useRouter();
 
-  const handleOnClick = () => {
-    if (onClickFunction !== undefined) {
+  const handleOnClick = (e: any, url: any) => {
+    e.preventDefault();
+    console.log(onClickFunction);
+    if (onClickFunction != undefined) {
       onClickFunction();
     } else {
-      router.push(url);
+      console.log("sf", url);
+      router.push(url.toString());
+
     }
   };
 
   return (
     <button
-      onClick={handleOnClick}
+      onClick={(e) => handleOnClick(e, url)}
       className=" no-underline text-black"
       key={text}
     >
