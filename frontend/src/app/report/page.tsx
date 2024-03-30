@@ -102,12 +102,14 @@ function ReportpageInner() {
     ) {
       try {
         setCurstate("busy");
+        const token = localStorage.getItem('access')
         const response = await axios.post(
           `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/report`,
           formData,
           {
             headers: {
               "Content-type": "multipart/form-data",
+              'Authorization' : 'Bearer '+  token
             },
           }
         );
