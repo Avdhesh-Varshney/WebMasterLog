@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import axios from "axios";
 import { useDataContext } from "@/context/dataContext";
-import { useRouter } from "next/navigation";
+import { redirect, useRouter } from "next/navigation";
 
 export default function Signup() {
   const router = useRouter();
@@ -20,10 +20,12 @@ export default function Signup() {
 }
 
 function SignupInner() {
+  const router = useRouter()
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const [username, setUsername] = useState<string>("");
   const [error, setError] = useState<string>("");
+  const [Signingup,setSigningUp] = useState<boolean>(false)
   const handleSignup: () => void = async () => {
     if (email.length == 0) {
       setError("*Email can't be empty");
@@ -37,6 +39,7 @@ function SignupInner() {
       setError("*Password can't be empty");
       return;
     }
+    setSigningUp(true)
     try {
       const resp = await axios.post(
         `${process.env.NEXT_PUBLIC_BACKEND_PATH}/api/register`,
@@ -46,8 +49,12 @@ function SignupInner() {
           name: username,
         }
       );
+      setSigningUp(false)
+      router.push('/login')
     } catch (error) {
+      setSigningUp(false)
       setError((error as Error).message);
+
     }
   };
   return (
@@ -88,10 +95,11 @@ function SignupInner() {
             placeholder="password"
           />
           <button
-            className="bg-black text-white p-2 w-2/5"
+            className={`bg-black ${Signingup ? 'bg-gray-600' : 'bg-black'} text-white p-2 w-2/5`}
             onClick={handleSignup}
           >
-            Signup
+            {!Signingup ? 'Signup' : 'Signing in...'}
+            
           </button>
         </div>
         <div className="text-sm">

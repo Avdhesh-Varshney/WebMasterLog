@@ -39,18 +39,7 @@ interface InputFileProps {
   // You can add any additional props needed
 }
 
-const dummyChat: ChatMsg[] = [
-  {
-    message:
-      "cow j bhb j nuj bi noi uhi hygugiuhui hiyyu y gyhyugyhigyug yug yug yu g yug ugu",
-    own: true,
-    imgLink:
-      "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-  },
-  { message: "Cow is an animal", own: false },
-  { message: "omg! really?", own: true },
-  { message: "haaaaaaaaaaaaaa bro", own: false },
-];
+const dummyChat: ChatMsg[] = [];
 function Chat({ text, own, isLoading = false, imgLink }: ChatMessage) {
   return (
     <div
@@ -372,11 +361,10 @@ export default function Chatpage() {
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
-            <ImageChatPopup chatState={chatState} setChatState={setChatState} />
+            {/* <ImageChatPopup chatState={chatState} setChatState={setChatState} /> */}
             <Button
               onClick={() => {
                 handleClick();
-                console.log("fuckkk");
               }}
               disabled={chatState === "busy" ? true : false}
             >

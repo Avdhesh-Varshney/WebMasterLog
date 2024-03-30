@@ -86,6 +86,7 @@ function ReportpageInner() {
   const [curstate, setCurstate] = useState<string>("idle");
   const router = useRouter();
   const [selectedFile, setSelectedFile] = useState<string | null>(null);
+  const [problem,setProblem] = useState('')
 
   async function handleForm(e: React.SyntheticEvent) {
     e.preventDefault();
@@ -94,7 +95,7 @@ function ReportpageInner() {
       problem: string;
       image: any;
     } = {
-      problem: (e.target as HTMLFormElement).problem.value,
+      problem: problem,
       image: selectedFile,
     };
 
@@ -130,6 +131,8 @@ function ReportpageInner() {
     <div className="px-4 bg-zinc-100 flex-grow pagecont">
       <div className="py-[65px] min-h-full">
         <div className=" mx-4 md:mx-auto w-auto md:w-2/3 lg:w-1/2 mt-5">
+          {/* <form onSubmit={handleForm}> */}
+
           <Card className="shadow-[rgba(0,0,0,0.2)_0_0_10px,rgba(0,0,0,0.2)_0_0_1px]">
             <CardHeader>
               <CardTitle>Generate Report</CardTitle>
@@ -140,22 +143,26 @@ function ReportpageInner() {
                 <Textarea
                   name="problem"
                   className=" resize-y min-h-[150px]"
+                  value={problem}
+                  onChange={(e)=>setProblem(e.target!.value)}
                   placeholder="Describe your problem ..."
-                />
+                  
+                  />
                 <br />
                 <Label>Provide with relevent image</Label>
                 <InputFile
                   name="image"
                   selectedFile={selectedFile}
                   setSelectedFile={setSelectedFile}
-                />
+                  />
               </form>
             </CardContent>
             <CardFooter>
               <Button
                 disabled={curstate === "busy" ? true : false}
                 className="ml-auto"
-              >
+                onClick={handleForm}
+                >
                 <span className="">
                   {" "}
                   {curstate === "busy" ? (
@@ -165,11 +172,12 @@ function ReportpageInner() {
                     </>
                   ) : (
                     <span>Submit {"->"}</span>
-                  )}
+                    )}
                 </span>
               </Button>
             </CardFooter>
           </Card>
+                    {/* </form> */}
         </div>
       </div>
     </div>

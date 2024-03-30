@@ -23,6 +23,8 @@ function LoginInner() {
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
   const [error, setError] = useState<string>("");
+  const [loggingIn,setLogginIn] = useState<boolean>(false)
+  const router = useRouter()
   const handleLogin: () => void = async () => {
     if (email.length == 0) {
       setError("*Email can't be empty");
@@ -33,6 +35,7 @@ function LoginInner() {
       return;
     }
     //call the api here
+    setLogginIn(true)
     try {
       const data = await axios.post(
         `${process.env.NEXT_PUBLIC_BACKEND_PATH}/api/login`,
@@ -44,8 +47,11 @@ function LoginInner() {
       console.log(data);
       localStorage.setItem("access", data.data.access);
       localStorage.setItem("refresh", data.data.refresh);
+      setLogginIn(false)
+      router.push('/chat')
     } catch (error) {
       setError((error as Error).message);
+      setLogginIn(false)
     }
   };
   return (
@@ -75,11 +81,12 @@ function LoginInner() {
             className="bg-zinc-200 p-2 w-full"
             placeholder="password"
           />
-          <button
-            className="bg-black text-white p-2 w-2/5"
+           <button
+            className={`bg-black ${loggingIn ? 'bg-gray-600' : 'bg-black'} text-white p-2 w-2/5`}
             onClick={handleLogin}
           >
-            Login
+            {!loggingIn ? 'Login' : 'Logging in...'}
+            
           </button>
         </div>
         <div className="text-sm">
