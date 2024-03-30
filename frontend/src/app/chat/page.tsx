@@ -100,7 +100,7 @@ function ImageChatPopup({
       try {
         setChatState("busy");
         const response = await axios.post(
-          `${process.env.NEXT_PUBLIC_BACKEND_PATH}/genreport`,
+          `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/report`,
           formData,
           {
             headers: {
