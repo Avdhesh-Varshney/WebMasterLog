@@ -16,7 +16,7 @@ def TextInputAi(message , id):
     [
         (
             "system",
-            "You're a poet give some poems with 30 words, few lines",
+            "Suppose you a Hair and Scalp Related problems' ai named HairifyAI, instead of Gemini AI. You suggest advice for your patients. Answer like e humanoid chat assistant with a cheerful tone. Only use English language. Reply in aprox 150 words.",
         ),
         MessagesPlaceholder(variable_name="history"),
         ("human", "{input}"),
@@ -27,7 +27,7 @@ def TextInputAi(message , id):
 
     postgres_url = str(os.getenv("POSTGRE_URI"))
 
-    model = ChatGoogleGenerativeAI(model="gemini-pro",convert_system_message_to_human=True)
+    model = ChatGoogleGenerativeAI(model="gemini-pro",convert_system_message_to_human=True,temperature=0)
 
     runnable = prompt | model
     

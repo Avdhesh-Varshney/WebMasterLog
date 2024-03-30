@@ -52,10 +52,10 @@ class ChatView(APIView):
 
             if a_response:
                 def event_stream():
-                    s = ""
+                    # s = ""
                     for chunk in a_response:
-                        s += chunk.content + '\n'
-                        yield "data: {}\n\n".format(chunk)
+                        # s += chunk.content + '\n'
+                        yield "{}".format(chunk.content)
                 
                 response = StreamingHttpResponse(event_stream(), content_type='text/event-stream')
                 return response
