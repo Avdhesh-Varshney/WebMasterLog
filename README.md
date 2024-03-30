@@ -2,10 +2,10 @@
 ## one solution for all your hair problems
 
 #### Deploy Link : [Hairify](https://hairify-ai.vercel.app/)
-#### Youtube Link : [Hairify Youtube Explanation]()
+#### Youtube Link : [Hairify Youtube Explanation](https://www.youtube.com/watch?v=XnA6hmyCEUk)
 
 
-#### Devfolio Link : [Hairify Hackathon Project Link]()
+#### Devfolio Link : [Hairify Hackathon Project Link](https://devfolio.co/projects/hairify-2a4f)
 
 
 Hairify is an innovative **AI**-powered chat assistant dedicated to guiding individuals in improving their hair health. The Hairify website boasts a user-friendly UI tailored to help users find solutions for their hair health concerns.
