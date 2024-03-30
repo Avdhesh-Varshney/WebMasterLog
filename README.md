@@ -48,11 +48,11 @@ Hairify application runs on 2 server
 
 ## Website Flow
 
-  - At first we head to landing page. (/)
-  - Then we go to login -> signup. We create a new accout. After that, we login with it. (/login) (/signup)
-  - After, we can chat with AI for hair and scalp related issues. (/chat)
-  - Also, from landing page we can go to Image Report generation. We need to upload the image of our scalp/hairline. It will generate a report. (/report)
-  - In Dashboard, we can see previous report histories that we have generated before. (/dashboard)
+  - At first we head to landing page. (https://hairify-ai.vercel.app/)
+  - Then we go to login -> signup. We create a new accout. After that, we login with it. (https://hairify-ai.vercel.app/login) (https://hairify-ai.vercel.app/signup)
+  - After, we can chat with AI for hair and scalp related issues. (https://hairify-ai.vercel.app/chat)
+  - Also, from landing page we can go to Image Report generation. We need to upload the image of our scalp/hairline. It will generate a report. (https://hairify-ai.vercel.app/report)
+  - In Dashboard, we can see previous report histories that we have generated before. (https://hairify-ai.vercel.app/dashboard)
 
 ## Website Preview
 
