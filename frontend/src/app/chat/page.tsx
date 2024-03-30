@@ -20,7 +20,8 @@ import Header from "@/components/header";
 import axios from "axios";
 import Router from "next/router";
 import { useDataContext } from "@/context/dataContext";
-
+import { useRouter } from "next/navigation";
+import LoaderRipple from "@/components/LoaderRipple";
 
 interface ChatMessage {
   text: string;
@@ -179,18 +180,24 @@ function InputFile({ selectedFile, setSelectedFile }: any) {
   );
 }
 
-function LoaderRipple() {
+export default function Chatpage() {
+  const { authState } = useDataContext();
+  const router = useRouter();
+
   return (
-    <div className="flex justify-center items-center min-h-[calc(100vh-130px)]">
-      <div className="relative inline-flex">
-        <div className="w-8 h-8 bg-orange-900 rounded-full" />
-        <div className="w-8 h-8 bg-orange-900 rounded-full absolute top-0 left-0 animate-ping" />
-        <div className="w-8 h-8 bg-orange-900 rounded-full absolute top-0 left-0 animate-pulse" />
-      </div>
-    </div>
+    <>
+      {authState === "loading" && (
+        <div>
+          <LoaderRipple />
+        </div>
+      )}
+      {authState === "loggedin" && <ChatpageInner />}
+      {authState === "notloggedin" && router.push("/login")}
+    </>
   );
 }
-export default function Chatpage() {
+
+function ChatpageInner() {
   const [chat, setChat] = useState<ChatMsg[]>(dummyChat);
   const [chatState, setChatState] = useState<string>("");
   const [chatInit, setChatInit] = useState<boolean>(false);
@@ -204,7 +211,7 @@ export default function Chatpage() {
       behavior: "smooth", // Optional, adds smooth scrolling effect
     });
   }
-  let {token} = useDataContext()
+  let { token } = useDataContext();
 
   useEffect(() => {
     //fetch the old message of the users
@@ -215,8 +222,7 @@ export default function Chatpage() {
         {},
         {
           headers: {
-            Authorization:
-              "Bearer " + accessToken,
+            Authorization: "Bearer " + accessToken,
           },
         }
       )
@@ -236,7 +242,10 @@ export default function Chatpage() {
     scrollToBottom();
   }, [chat]);
 
-  async function readStream(reader: ReadableStreamDefaultReader<Uint8Array>, s: string) {
+  async function readStream(
+    reader: ReadableStreamDefaultReader<Uint8Array>,
+    s: string
+  ) {
     try {
       while (true) {
         const { done, value } = await reader.read();
@@ -263,7 +272,6 @@ export default function Chatpage() {
           }
           return newPrev;
         });
-
       }
     } catch (error) {
       console.error("Error reading stream:", error);
@@ -284,15 +292,17 @@ export default function Chatpage() {
     setMessage("");
 
     try {
-      const response = await fetch(`${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/chat`, {
-        method: "POST",
-        headers: {
-          Authorization:
-            "Bearer "+token,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message }),
-      });
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_BACKEND_PATH}/chatapi/chat`,
+        {
+          method: "POST",
+          headers: {
+            Authorization: "Bearer " + token,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ message }),
+        }
+      );
       // Check if the response is ok
       if (!response.ok) {
         throw new Error("Network response was not ok");

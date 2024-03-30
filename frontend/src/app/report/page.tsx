@@ -128,46 +128,48 @@ function ReportpageInner() {
     <div className="px-4 bg-zinc-100 flex-grow pagecont">
       <div className="py-[65px] min-h-full">
         <div className=" mx-4 md:mx-auto w-auto md:w-2/3 lg:w-1/2 mt-5">
-          <Card className="shadow-[rgba(0,0,0,0.2)_0_0_10px,rgba(0,0,0,0.2)_0_0_1px]">
-            <CardHeader>
-              <CardTitle>Generate Report</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleForm} className="flex flex-col gap-3">
-                <Label>Describe your Problem</Label>
-                <Textarea
-                  name="problem"
-                  className=" resize-y min-h-[150px]"
-                  placeholder="Describe your problem ..."
-                />
-                <br />
-                <Label>Provide with relevent image</Label>
-                <InputFile
-                  name="image"
-                  selectedFile={selectedFile}
-                  setSelectedFile={setSelectedFile}
-                />
-              </form>
-            </CardContent>
-            <CardFooter>
-              <Button
-                disabled={curstate === "busy" ? true : false}
-                className="ml-auto"
-              >
-                <span className="">
-                  {" "}
-                  {curstate === "busy" ? (
-                    <>
-                      <Loader2 className="mr-2 h-4 w-4 animate-spin" />
-                      Submitting
-                    </>
-                  ) : (
-                    <span>Submit {"->"}</span>
-                  )}
-                </span>
-              </Button>
-            </CardFooter>
-          </Card>
+          <form onSubmit={handleForm}>
+            <Card className="shadow-[rgba(0,0,0,0.2)_0_0_10px,rgba(0,0,0,0.2)_0_0_1px]">
+              <CardHeader>
+                <CardTitle>Generate Report</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-col gap-3">
+                  <Label>Describe your Problem</Label>
+                  <Textarea
+                    name="problem"
+                    className=" resize-y min-h-[150px]"
+                    placeholder="Describe your problem ..."
+                  />
+                  <br />
+                  <Label>Provide with relevent image</Label>
+                  <InputFile
+                    name="image"
+                    selectedFile={selectedFile}
+                    setSelectedFile={setSelectedFile}
+                  />
+                </div>
+              </CardContent>
+              <CardFooter>
+                <Button
+                  disabled={curstate === "busy" ? true : false}
+                  className="ml-auto"
+                >
+                  <span className="">
+                    {" "}
+                    {curstate === "busy" ? (
+                      <>
+                        <Loader2 className="mr-2 h-4 w-4 animate-spin" />
+                        Submitting
+                      </>
+                    ) : (
+                      <span>Submit {"->"}</span>
+                    )}
+                  </span>
+                </Button>
+              </CardFooter>
+            </Card>
+          </form>
         </div>
       </div>
     </div>
