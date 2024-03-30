@@ -5,7 +5,7 @@
 #### Youtube Link : [Hairify Youtube Explanation]()
 
 
-#### Devfolio Link : [MindMate Hackathon Project Link]()
+#### Devfolio Link : [Hairify Hackathon Project Link]()
 
 
 Hairify is an innovative **AI**-powered chat assistant dedicated to guiding individuals in improving their hair health. The Hairify website boasts a user-friendly UI tailored to help users find solutions for their hair health concerns.
