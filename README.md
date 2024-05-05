@@ -54,6 +54,31 @@ Hairify application runs on 2 server
   - Also, from landing page we can go to Image Report generation. We need to upload the image of our scalp/hairline. It will generate a report. (https://hairify-ai.vercel.app/report)
   - In Dashboard, we can see previous report histories that we have generated before. (https://hairify-ai.vercel.app/dashboard)
 
+## How to setup the project locally 
+
+  #### Frontend
+    - Open Terminal
+    - Naviagate to your directory and navigate to the frontend folder
+    - Install Node if not present in your machine
+    - Do `npm install`
+    - Rename .env.sample to .env
+    - Do `npm run dev` to start the project
+
+  #### Backend
+    - Create a Cloudinary Account and get the creditnals
+    - Host Postgres locally or on Cloud, you can also use a docker Image
+    - Create a Gemini Account and get the API Key
+    - Install Python and Pip if not present
+    - Do `pip install virtualenv`
+    - Navigate to backend folder
+    - Setup virtualenv in your backend folder by typing `virtualenv env` in your terminal
+    - Activate Virtualenv by doing `.\env\Scripts\activate` (for windows) or `source env/bin/activate` (for linux)
+    - Do `pip install -r requirements.txt`
+    - Create a .env file and add all the variables of .env.sample file with relevant keys
+    - Do `cd hairify` in backend
+    - Finally do `python manage.py runserver ` to start the server
+
+
 ## Website Preview
 
 #### HomePage 
