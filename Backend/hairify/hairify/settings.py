@@ -212,7 +212,7 @@ os.environ['LANGCHAIN_TRACING_V2'] = "true"
 os.environ['LANGCHAIN_ENDPOINT'] = "https://api.smith.langchain.com"
 os.environ['LANGCHAIN_API_KEY'] = "ls__b5c5afaf0e1e41a1bc93c3914c94beae"
 os.environ['LANGCHAIN_PROJECT'] = "python_project"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA3nOaTxni4he62fwe1imEAFw5MAtrrEDg"
+os.environ["GOOGLE_API_KEY"] = str(os.getenv("GEMINI_API_KEY"))
 
 
 REST_FRAMEWORK = {
