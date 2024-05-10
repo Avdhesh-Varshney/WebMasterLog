@@ -4,15 +4,53 @@ import hero_img from "../assets/hero_img.png";
 import report_img from "../assets/report_img.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { useRouter } from "next/navigation";
+import { useEffect} from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function Home() {
   const router = useRouter();
-
+  gsap.registerPlugin(ScrollTrigger);
+  //making opacity of heroimg 0-1
+  useEffect(() => {
+    gsap.fromTo(
+      ".heroimg",
+      { opacity: 0 },
+      {
+        opacity: 1,
+        duration: 1,
+        ease: "power3",
+        scrollTrigger: {
+          trigger: ".hero_text1",
+          start: "top 40%",
+          end: "bottom top",
+        },
+      }
+    );
+  }, []);
+  //making opacity of robotimg 0-1
+  useEffect(() => {
+    gsap.fromTo(
+      ".reportimg",
+      { opacity: 0 },
+      {
+        opacity: 1,
+        duration: 1,
+        ease: "power3",
+        scrollTrigger: {
+          trigger: ".hero_text",
+          start: "top 60%",
+         
+          end: "bottom top",
+        },
+      }
+    );
+  }, []);
   return (
-    <div className="min-h-[100vh] homepage">
-      <div className="w-full min-h-[100vh] md:h-[100vh] pt-[65px] flex md:flex-row flex-col place-content-center">
+    <div className="overflow-hidden min-h-[100vh] homepage">
+      <div className="w-full min-h-[100vh] md:h-[100vh] pt-[65px] flex md:flex-row flex-col place-content-center ">
         <div className="md:w-1/2 w-full h-full flex justify-center">
-          <div className="w-[80%] backdrop-blur h-fit place-self-center text-black leading-none hero_text">
+          <div className=" w-[80%] backdrop-blur h-fit place-self-center text-black leading-none hero_text1">
             <div className="text-[40px] md:text-[60px] font-light bigger leading-[43px] md:leading-[65px] mb-6">
               Combat Hair Loss with Confidence.
             </div>
@@ -36,27 +74,27 @@ export default function Home() {
           </div>
         </div>
         <div className="md:w-1/2 w-full h-full flex justify-center">
-          <div className="w-2/3 overflow-hidden h-fit flex place-self-center">
+          <div className="w-2/3 overflow-hidden h-fit flex place-self-center animate-move-up-down">
             <Image
               src={hero_img}
-              className="mt-3 mx-3 w-[calc(100%-12px*2)] heroimg"
+              className="mt-3 mx-3 w-[calc(100%-12px*2)] heroimg "
               alt="Pet Image"
             />
           </div>
         </div>
       </div>
       <div className="w-full min-h-[100vh] md:h-[100vh] pt-[65px] flex md:flex-row flex-col place-content-center">
-        <div className="md:w-1/2 w-full h-full flex justify-center">
-          <div className="w-2/3 overflow-hidden h-fit flex place-self-center">
+        <div className="md:w-1/2 w-full h-full flex justify-center ">
+          <div className="w-2/3 overflow-hidden h-fit flex place-self-center animate-move-up-down">
             <Image
               src={report_img}
-              className="mt-3 mx-3 w-[calc(100%-12px*2)] heroimg"
+              className="mt-3 mx-3 w-[calc(100%-12px*2)] reportimg"
               alt="Pet Image"
             />
           </div>
         </div>
-        <div className="md:w-1/2 w-full h-full flex justify-center">
-          <div className="w-[80%] backdrop-blur h-fit place-self-center text-black leading-none hero_text">
+        <div className="md:w-1/2 w-full h-full flex justify-center box1">
+          <div className=" w-[80%] backdrop-blur h-fit place-self-center text-black leading-none hero_text">
             <div className="text-[40px] md:text-[60px] font-light bigger leading-[43px] md:leading-[65px] mb-6">
               Analyse Your Hair Health by AI
             </div>
