@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+require('dotenv').config();
 
 //localhost:3000/api/weather
 export async function GET(request:any) {
@@ -6,15 +7,16 @@ export async function GET(request:any) {
   const address = searchParams.get("address");
   const latitude = searchParams.get("lat");
   const longitude = searchParams.get("lon");
+  const apiKey = process.env.apiKey;
   let url = "";
+  console.log(apiKey);
   if (address) {
     url =
       "https://api.openweathermap.org/data/2.5/weather?q=" +
       address +
-      "&appid=" +
-      "ae0a52d2f460b981cb04ce725ada6b17";
+      "&appid=" + apiKey;
   } else {
-    url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=ae0a52d2f460b981cb04ce725ada6b17`;
+    url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
   }
   console.log(url);
   const res = await fetch(url);
