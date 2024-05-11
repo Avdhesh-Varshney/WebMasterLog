@@ -25,8 +25,7 @@
 
 | S.No  | Project Name | Category |
 |-------|--------------|----------|
-|   1   |  |  |
-|   2   |  |  |
+|   1   |  [JWT Authentication with Roles](./Intermediate/jwt-authentication-with-roles) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 
