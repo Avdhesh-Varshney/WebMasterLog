@@ -1,7 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[<h1 align='center'><b>💥 Weather-Website 💥</b></h1>
 
-## Getting Started
+<!-- -------------------------------------------------------------------------------------------------------------- -->
 
+<h3 align='center'>Tech Stack Used 🎮</h3>
+<!-- enlist all the technologies used to create this project from them (Remove comment using 'ctrl+z' or 'command+z') -->
+
+<div align='center'>
+
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+  ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+</div>
+
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+## :zap: Description 📃
+
+<div>
+    <p>A weather application using Next.js that fetches weather data from an API and displays it to the user.</p>
+</div>
+
+
+
+
+## :zap: How to run it? 🕹️
 First, run the development server:
 
 ```bash
@@ -16,21 +44,29 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+## :zap: Screenshots 📸
+<img src="./Images/Weather -app.png"/>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+<h4 align='center'>Developed By <b><i>Pulkit Gupta</i></b> 👦</h4>
+<p align='center'>
+  <a href='www.linkedin.com/in/pulkitgupta2408'>
+    <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
+  </a>
+  <a href='https://github.com/pulkit1417'>
+    <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
+  </a>
+</p>
+
+<h4 align='center'>Happy Coding 🧑‍💻</h4>
+
+<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
