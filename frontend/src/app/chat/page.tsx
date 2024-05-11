@@ -204,6 +204,7 @@ function ChatpageInner() {
   const [message, setMessage] = useState<string>("");
   const mainRef = useRef<HTMLDivElement>(null);
   const for_scrolling_div_ref = useRef(null);
+  const [fetchingChat, setFetchingChat] = useState(true);
 
   function scrollToBottom() {
     window.scrollTo({
@@ -235,6 +236,7 @@ function ChatpageInner() {
         });
         // console.log(new_loaded_chat);
         setChat(new_loaded_chat);
+        setFetchingChat(false);
       });
   }, []);
 
@@ -328,13 +330,22 @@ function ChatpageInner() {
       ref={for_scrolling_div_ref}
     >
       <div className="py-[65px] min-h-full" ref={mainRef}>
-        <div className=" mx-4">
-          {/*!chatInit && (
+        {fetchingChat ? (
+          <div className="absolute inset-0 flex justify-center items-center">
+            <div className="flex space-x-2 items-center">
+              <div className="h-6 w-6 bg-black rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+              <div className="h-6 w-6 bg-black rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+              <div className="h-6 w-6 bg-black rounded-full animate-bounce"></div>
+            </div>
+          </div>
+        ) : (
+          <div className=" mx-4">
+            {/*!chatInit && (
             <div>
               <LoaderRipple />
             </div>
           )*/}
-          {/*chatInit && chat.length === 0 && (
+            {/*chatInit && chat.length === 0 && (
             <div className="flex justify-center items-center min-h-[calc(100vh-130px)]">
               <div>
                 Having questions about Animals or Pets?
@@ -343,20 +354,30 @@ function ChatpageInner() {
               </div>
             </div>
           )*/}
-          {
-            /*chatInit &&
+            {
+              /*chatInit &&
             chat &&*/
-            chat?.map((item, i) => (
-              <Chat
-                text={item.message}
-                isLoading={item.isLoading}
-                own={item.own}
-                imgLink={item.imgLink}
-                key={i}
-              />
-            ))
-          }
-        </div>
+              chat?.map((item, i) => (
+                <Chat
+                  text={item.message}
+                  isLoading={item.isLoading}
+                  own={item.own}
+                  imgLink={item.imgLink}
+                  key={i}
+                />
+              ))
+            }
+            {chatState === "busy" ? (
+              <div className="flex space-x-2 items-center my-5">
+                <div className="h-2 w-2 bg-black rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+                <div className="h-2 w-2 bg-black rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+                <div className="h-2 w-2 bg-black rounded-full animate-bounce"></div>
+              </div>
+            ) : (
+              ""
+            )}
+          </div>
+        )}
         <div className="fixed bottom-4 p-[6px] w-[calc(100%-16px*2)] bg-white shadow-[0_0_5px_3px_rgba(0,0,0,0.1),0_0_1px_1px_rgba(0,0,0,0.1)] rounded-lg">
           <form
             onSubmit={(e) => {
@@ -376,7 +397,7 @@ function ChatpageInner() {
               onClick={() => {
                 handleClick();
               }}
-              disabled={chatState === "busy" ? true : false}
+              disabled={chatState === "busy" || fetchingChat ? true : false}
             >
               <FiArrowRight />
             </Button>
