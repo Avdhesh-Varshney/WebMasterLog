@@ -61,10 +61,6 @@ input[type="number"] {
   background-color: #444; /* Dark input background color */
   color: #fff; /* Light text color */
 }
-/* textarea{
-    height: 200px;
-    width: 400px;
-  } */
 input[type="submit"] {
   width: 100%;
   padding: 10px;

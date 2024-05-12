@@ -46,7 +46,6 @@ box-shadow: 32px 32pxpx 32px 32px rgba(21, 26, 106, 0.37);/* Dark form backgroun
 backdrop-filter: blur(20px);
 -webkit-backdrop-filter: blur(20px);
 padding: 20px;
-
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
