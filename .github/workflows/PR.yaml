@@ -1,21 +1,23 @@
-name: 'Greetings'
-
 on:
-  pull_request_target:
-    types: [opened]
+  # Trigger the workflow on push or pull request
+  pull_request:
+    branches:
+      - master
+      - develop
 
 jobs:
-  welcome:
+  comment:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+      - uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          pr-message: |
-            Awesome work, @${{ github.actor }}! 🎉 Thank you for your contribution and efforts to enhance Hairify. 
-
-            Please don't tag the maintainers, we will review your changes soon and provide feedback.
-
-            
-          footer: 'Please ensure that you have followed the contributing guidelines for a smooth review process.'
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `👋 Thankyou for Making this PR and contributing to Hairify to enhance the product, we appreciate your time spent working on this and will be reviewing you PR soon.
+                    Make Sure you have followed all the contributing guidelines and are not tagging maintainers continuously for a PR review.
+                    If you Pull Request is incomplete at this state, make sure to mark it as draft.
+              `     
+            })
