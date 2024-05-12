@@ -2,7 +2,10 @@ from io import BytesIO
 import os 
 from django.shortcuts import render
 from rest_framework.decorators import api_view
-from langchain.memory import PostgresChatMessageHistory
+# from langchain.memory import PostgresChatMessageHistory
+from langchain_community.chat_message_histories import (
+    PostgresChatMessageHistory,
+)
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.runnables.history import RunnableWithMessageHistory

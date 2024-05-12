@@ -13,7 +13,9 @@ import cloudinary
 import cloudinary.uploader
 
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.memory import PostgresChatMessageHistory
+from langchain_community.chat_message_histories import (
+    PostgresChatMessageHistory,
+)
 from langchain_core.messages import HumanMessage
 from .utils import TextInputAi
 from django.views.decorators.csrf import csrf_exempt
