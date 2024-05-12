@@ -31,4 +31,5 @@ body {
   background-color: #f6c0ff;
   border: 1px solid black;
   border-radius: 5px;
+  cursor: pointer;
 }
