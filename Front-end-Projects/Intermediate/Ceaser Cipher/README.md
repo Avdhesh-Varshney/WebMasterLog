@@ -8,3 +8,7 @@
     Step 4 : git push 
     Step 5 : Raise a PR 
 
+## Screenshots
+ ![Light theme in the project picture](light.webp)
+ ![Dark theme in the project picture](dark.webp)
+ 
