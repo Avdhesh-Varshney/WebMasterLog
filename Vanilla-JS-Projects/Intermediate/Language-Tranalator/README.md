@@ -32,11 +32,8 @@
 - Clone the forked repository.
 - Open index.html in your web browser to start your culinary exploration.
 
-
-
 ## :zap: Screenshots 📸
 <img src="./screenshot.webp"/>
-
 
 
 
