@@ -61,7 +61,7 @@ Hairify application runs on 2 server
     - Naviagate to your directory and navigate to the frontend folder
     - Install Node if not present in your machine
     - Do `npm install`
-    - Rename .env.sample to .env
+    - Create a .env file and copy paste the content of .env.sample
     - Do `npm run dev` to start the project
 
   #### Backend
