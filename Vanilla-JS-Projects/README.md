@@ -48,7 +48,7 @@
 |  21   | [Sort Visualizer](./Advanced/sort-visualizer/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |  22   | [Joke Telling Website](./Basic/Joke-Telling-Website/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  23   | [Interval Timer](./Intermediate/Interval_Timer/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|  24   | [Language Translator](./Intermediate/Language-Translator/)) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  24   | [Language Translator](./Intermediate/Language-Translator/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 </div>
