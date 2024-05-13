@@ -23,6 +23,8 @@ jobs:
             Thanks for creating this issue and contributing to Hairify!
 
             We will review your issue soon and provide feedback. 
+            
+            If you're interested in working on this issue, make sure you get yourself assigned before starting your work.
           pr-message: |
             Awesome work, @${{ github.actor }}! 🎉 Thank you for your contribution and efforts to enhance Hairify. 
 
