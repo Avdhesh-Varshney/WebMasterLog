@@ -24,7 +24,8 @@ body {
   border-radius: 12px;
 }
 .restartBtn,
-.stopBtn {
+.stopBtn,
+.skipBtn {
   width: 5rem;
   height: 1.5rem;
   font-size: 1rem;

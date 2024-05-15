@@ -26,6 +26,14 @@ This project is a simple Pomodoro Timer built using React.js. It helps you manag
 3. Navigate to Project Directory: Move into the project directory
 
 ```bash
+ cd React-JS-Projects
+```
+
+```bash
+   cd Basic
+```
+
+```bash
    cd Pomodoro-Timer
 ```
 
