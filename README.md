@@ -121,9 +121,9 @@ Hairify application runs on 2 server
 #### HomePage 
 ![83dae728-5f7f-48c7-b2f4-0dccaacfec55](https://github.com/algovengers/MindMate/assets/101347977/ba239651-947c-40ee-a1b9-af174d02551c)
 #### Login
-![5e8cb463-c116-4eff-bc96-7a52eb0a1a72](https://github.com/algovengers/MindMate/assets/101347977/a7bcc395-f9c5-46ec-91ed-f9d99393501c)
+![hairify-login](https://github.com/algovengers/Hairify/assets/126336384/2014255b-0e31-470a-bd7b-dfd14624e211)
 #### Signup
-![Screenshot from 2024-03-30 11-29-31](https://github.com/algovengers/Hairify/assets/92659226/d2c52ef4-ac2a-4906-b39d-09f45ec04b79)
+![hairify-signup](https://github.com/algovengers/Hairify/assets/126336384/5b33790a-2f03-4567-add3-b25ae5e72a94)
 #### AI Chat
 ![Screenshot from 2024-03-30 11-31-08](https://github.com/algovengers/Hairify/assets/92659226/026c05a4-b95f-4007-a74d-ac1ba9c6661e)
 #### Report History Details
