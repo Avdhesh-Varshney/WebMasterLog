@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import axios from "axios";
 import { useDataContext } from "@/context/dataContext";
-import { redirect, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export default function Signup() {
   const router = useRouter();
@@ -23,23 +23,30 @@ function SignupInner() {
   const router = useRouter();
   const [email, setEmail] = useState<string>("");
   const [password, setPassword] = useState<string>("");
+  const [confirmPassword, setConfirmPassword] = useState<string>("");
   const [username, setUsername] = useState<string>("");
   const [error, setError] = useState<string>("");
   const [Signingup, setSigningUp] = useState<boolean>(false);
-  const handleSignup= async (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+
+  const handleSignup = async (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.preventDefault();
-    if (email.length == 0) {
+    if (email.length === 0) {
       setError("*Email can't be empty");
       return;
     }
-    if (username.length == 0) {
-      setError("*username can't be empty");
+    if (username.length === 0) {
+      setError("* Username can't be empty");
       return;
     }
-    if (password.length == 0) {
-      setError("*Password can't be empty");
+    if (password.length === 0) {
+      setError("* Password can't be empty");
       return;
     }
+    if (password !== confirmPassword) {
+      setError("* Passwords do not match");
+      return;
+    }
+
     setSigningUp(true);
     try {
       const resp = await axios.post(
@@ -57,6 +64,7 @@ function SignupInner() {
       setError((error as Error).message);
     }
   };
+
   return (
     <>
       <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 homepage">
@@ -115,7 +123,6 @@ function SignupInner() {
               </div>
             </div>
 
-
             <div>
               <div className="flex items-center justify-between">
                 <label htmlFor="password" className="block text-sm font-medium leading-6 text-gray-900">
@@ -142,6 +149,29 @@ function SignupInner() {
             </div>
 
             <div>
+              <label htmlFor="confirmPassword" className="block text-sm font-medium leading-6 text-gray-900">
+                Confirm Password
+              </label>
+              <div className="mt-2">
+                <input
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  type="password"
+                  autoComplete="confirm-password"
+                  required
+                  placeholder="confirm password"
+                  value={confirmPassword}
+                  onChange={(e) => {
+                    setError("");
+                    setConfirmPassword(e.target.value);
+                  }}
+                  className="block px-3 w-full rounded-md border-0 py-1.5 text-gray-900 placeholder:text-gray-400 text-sm sm:leading-6"
+                  style={{ outline: 'none' }}
+                />
+              </div>
+            </div>
+
+            <div>
               <button
                 type="submit"
                 onClick={handleSignup}
@@ -153,7 +183,7 @@ function SignupInner() {
           </form>
 
           <p className="mt-10 text-center text-sm text-gray-500">
-            Already have an account ?{" "}
+            Already have an account?{" "}
             <Link href="/login" className="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">
               Login
             </Link>
