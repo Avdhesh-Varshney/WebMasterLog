@@ -1,6 +1,6 @@
 <h1 align='center'><b>💥 JWT-Authenticator-With-Roles 💥</b></h1>
 
-<div style='display: flex; justify-content: center; gap: 1rem'>
+<div align='center' style='display: flex; justify-content: center; gap: 1rem'>
 
   ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
 
