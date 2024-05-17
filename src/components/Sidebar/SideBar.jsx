@@ -6,6 +6,9 @@ import './sidebar.css';
 
 import { FaBars } from 'react-icons/fa';
 import { BiSearch } from 'react-icons/bi';
+import { FiSun, FiMoon } from 'react-icons/fi';
+
+
 
 const inputAnimation = {
   hidden: {
@@ -43,6 +46,16 @@ const showAnimation = {
 const SideBar = ({ routes, children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+
+  const [theme, setTheme] = useState('light'); //Add state to manage the current theme
+
+const ThemeToggleIcon = ({ theme }) => {
+  return theme === 'light' ? <FiMoon /> : <FiSun />;
+};
+const toggleTheme = () => {
+  // Create a function to toggle the theme
+  setTheme(theme === 'light' ? 'dark' : 'light');
+};
 
   useEffect(() => {
     const currentCategory = getCurrentCategory();
@@ -93,17 +106,19 @@ const SideBar = ({ routes, children }) => {
   };
 
   const toggle = () => setIsOpen(!isOpen);
+  
+
 
   return (
     <>
-      <div className='main-container'>
+      <div className={`main-container ${theme}`}>
         <motion.div
           animate={{
             width: isOpen ? '200px' : '75px',
             position: 'fixed',
             transition: { duration: 0.5, type: 'spring', damping: 10 },
           }}
-          className={`sidebar`}
+          className={`sidebar ${theme}`} //  Apply theme class to sidebar
         >
           <div className='top_section d-lg-flex align-items-center justify-content-center'>
             <AnimatePresence>
@@ -120,14 +135,14 @@ const SideBar = ({ routes, children }) => {
           </div>
 
           <div className='search'>
-            <div className='search_icon circle'>
+            <div className={`search-icon circle ${theme}`}>
               <BiSearch />
             </div>
             <AnimatePresence>
               {isOpen && <motion.input initial='hidden' animate='show' exit='hidden' variants={inputAnimation} type='text' placeholder='Search' />}
             </AnimatePresence>
           </div>
-
+          
           <section className='routes'>
             {routes.map((route, index) => {
               if (route.subRoutes) {
@@ -140,12 +155,15 @@ const SideBar = ({ routes, children }) => {
                     setIsOpen={setIsOpen}
                     routes={routes} // Pass the routes prop here
                   />
+                  
                 );
               }
+              
 
               return (
+                
                 <NavLink to={route.path} key={index} className='link' activeClassName='active'>
-                  <div className='circle'>
+                  <div className={`circle ${theme}`}>
                     <div className='icon'>{route.icon}</div>
                   </div>
                   <AnimatePresence>
@@ -159,6 +177,11 @@ const SideBar = ({ routes, children }) => {
               );
             })}
           </section>
+          <div className='theme' onClick={toggleTheme}> {/*  Handle theme toggle action */}
+            <div className='bars flex-grow d-flex align-items-stretch align-self-center'>
+              {theme === 'light' ? <FiMoon /> : <FiSun />} {/* Conditional rendering based on theme */}
+            </div>
+          </div>
         </motion.div>
 
         <main style={{ marginLeft: 'auto', transition: 'all 0.3s' }}>{children}</main>
