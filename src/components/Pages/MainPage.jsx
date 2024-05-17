@@ -1,66 +1,96 @@
-import React, { useEffect, useState } from 'react';
-import ProjectCards from '../Cards/ProjectCards';
-import './mainpage.css';
-import Dashboard from './Dashboard';
-
+import React, { useEffect, useState } from "react";
+import ProjectCards from "../Cards/ProjectCards";
+import "./mainpage.css";
+import Dashboard from "./Dashboard";
+import Footer from "../Footer/Footer";
 const MainPage = (props) => {
-	const { category, routes } = props;
-	if (category === '') return <Dashboard />;
+  const { category, routes } = props;
+  if (category === "") return <Dashboard />;
 
-	const [projectsData, setProjectsData] = useState([]);
-	const [tag, setTag] = useState('All');
+  const [projectsData, setProjectsData] = useState([]);
+  const [tag, setTag] = useState("All");
 
-	const getName = (category) => {
-		let filtered = routes.filter(obj => obj.path === `/${category}`);
-		return filtered[0].name;
-	}
-	const getTech = (category) => {
-		let filtered = routes.filter(obj => obj.path === `/${category}`);
-		return filtered[0].tech;
-	}
+  const getName = (category) => {
+    let filtered = routes.filter((obj) => obj.path === `/${category}`);
+    return filtered[0].name;
+  };
+  const getTech = (category) => {
+    let filtered = routes.filter((obj) => obj.path === `/${category}`);
+    return filtered[0].tech;
+  };
 
-	useEffect(() => {
-		const fetchData = async () => {
-			props.setProgress(10);
-			try {
-				const response = await fetch(`https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/database/${category}.json`);
-				if (!response.ok) {
-					throw new Error('Failed to fetch projects data');
-				}
-				props.setProgress(30);
-				const data = await response.json();
-				props.setProgress(50);
-				let filteredData = data;
-				if (tag !== 'All') {
-					filteredData = data.filter(project => project.tag === tag);
-				}
-				props.setProgress(80);
-				setProjectsData(filteredData);
-			} catch (error) {
-				console.error('Error fetching projects data:', error);
-			}
-			props.setProgress(100);
-		};
-		fetchData();
-	}, [tag]);
+  useEffect(() => {
+    const fetchData = async () => {
+      props.setProgress(10);
+      try {
+        const response = await fetch(
+          `https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/database/${category}.json`
+        );
+        if (!response.ok) {
+          throw new Error("Failed to fetch projects data");
+        }
+        props.setProgress(30);
+        const data = await response.json();
+        props.setProgress(50);
+        let filteredData = data;
+        if (tag !== "All") {
+          filteredData = data.filter((project) => project.tag === tag);
+        }
+        props.setProgress(80);
+        setProjectsData(filteredData);
+      } catch (error) {
+        console.error("Error fetching projects data:", error);
+      }
+      props.setProgress(100);
+    };
+    fetchData();
+  }, [tag]);
 
-	const handleTagClick = (selectedTag) => {
-		setTag(selectedTag);
-	};
+  const handleTagClick = (selectedTag) => {
+    setTag(selectedTag);
+  };
 
-	return (
-		<>
-			<h1 className='text-end my-2 mx-3'>{`${getName(category)} Projects`}</h1>
-			<div className="d-flex justify-content-end my-2 mx-3">
-				<button type="button" className={`btn btn${tag !== 'Basic'? '-outline': ''}-success mx-1`} onClick={() => handleTagClick('Basic')}>Easy</button>
-				<button type="button" className={`btn btn${tag !== 'Intermediate'? '-outline': ''}-warning mx-1`} onClick={() => handleTagClick('Intermediate')}>Medium</button>
-				<button type="button" className={`btn btn${tag !== 'Advanced'? '-outline': ''}-danger mx-1`} onClick={() => handleTagClick('Advanced')}>Hard</button>
-				<button type="button" className={`btn btn${tag !== 'All'? '-outline': ''}-info mx-1`} onClick={() => handleTagClick('All')}>All</button>
-			</div>
+  return (
+    <>
+      <h1 className="text-end my-2 mx-3">{`${getName(category)} Projects`}</h1>
+      <div className="d-flex justify-content-end my-2 mx-3">
+        <button
+          type="button"
+          className={`btn btn${tag !== "Basic" ? "-outline" : ""}-success mx-1`}
+          onClick={() => handleTagClick("Basic")}
+        >
+          Easy
+        </button>
+        <button
+          type="button"
+          className={`btn btn${
+            tag !== "Intermediate" ? "-outline" : ""
+          }-warning mx-1`}
+          onClick={() => handleTagClick("Intermediate")}
+        >
+          Medium
+        </button>
+        <button
+          type="button"
+          className={`btn btn${
+            tag !== "Advanced" ? "-outline" : ""
+          }-danger mx-1`}
+          onClick={() => handleTagClick("Advanced")}
+        >
+          Hard
+        </button>
+        <button
+          type="button"
+          className={`btn btn${tag !== "All" ? "-outline" : ""}-info mx-1`}
+          onClick={() => handleTagClick("All")}
+        >
+          All
+        </button>
+      </div>
 
-			<ProjectCards projectsData={projectsData} tech={getTech(category)} />
-		</>
-	);
-}
+      <ProjectCards projectsData={projectsData} tech={getTech(category)} />
+    </>
+  );
+};
 
 export default MainPage;

@@ -1,0 +1,20 @@
+footer {
+  position: fixed;
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  text-align: center;
+  width: 100%;
+  z-index: 9999;
+}
+.social-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.social ul li {
+  display: inline;
+  padding-left: 30px;
+}
