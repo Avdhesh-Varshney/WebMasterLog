@@ -33,7 +33,7 @@ export const getStaticProps: GetStaticProps<CategoryNewsPageProps> = async ({
 }) => {
   const category = params?.category?.toString();
   const response = await fetch(
-    `https://newsapi.org/v2/top-headlines?country=ca&category=${category}&apiKey=${process.env.NEWS_API_KEY}`,
+    `https://newsapi.org/v2/top-headlines?country=ca&category=${category}&apiKey=4a5d98ed28e74ef081ce33ba3e140bdf`,
   );
   const newsResponse: NewsResponse = await response.json();
   return {
