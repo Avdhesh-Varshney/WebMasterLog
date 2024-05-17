@@ -1,22 +1,22 @@
 [
-	{
-		"tag": "Basic",
-		"title": "To Do List",
-		"description": "To do list provide all the CRUD operations to the user. Help to keep their notes on the website temporary."
-	},
-	{
-		"tag": "Basic",
-		"title": "Password Generator",
-		"description": "This project is a react.js project that creates a random password."
-	},
-	{
-		"tag": "Basic",
-		"title": "Weather App",
-		"description": "This project is a React-JS project using material ui, that helps to search the weather for any place, it uses api to render the information and then provided to the user."
-	}
-	{
-		"tag": "Basic",
-		"title":"Pomodoro Timer",
-		"description": "This project is a React-JS project, that helps to keep track of time and focus on the task using pomodoro technique."
-	}
+  {
+    "tag": "Basic",
+    "title": "To Do List",
+    "description": "To do list provide all the CRUD operations to the user. Help to keep their notes on the website temporary."
+  },
+  {
+    "tag": "Basic",
+    "title": "Password Generator",
+    "description": "This project is a react.js project that creates a random password."
+  },
+  {
+    "tag": "Basic",
+    "title": "Weather App",
+    "description": "This project is a React-JS project using material ui, that helps to search the weather for any place, it uses api to render the information and then provided to the user."
+  },
+  {
+    "tag": "Basic",
+    "title": "Pomodoro Timer",
+    "description": "This project is a React-JS project, that helps to keep track of time and focus on the task using pomodoro technique."
+  }
 ]
