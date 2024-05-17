@@ -43,6 +43,14 @@ To get started with NewsGlance, follow these steps:
 5. **Open the Website**:
    Open your web browser and visit [http://localhost:3000](http://localhost:3000) to view NewsGlance.
 
+## ScreenShots
+
+![Screenshot 2024-05-17 154813](https://github.com/codebreaker3008/WebMasterLog/assets/142109210/b0ff3919-b8ba-4513-860f-92f9090e9020)
+![Screenshot 2024-05-17 154828](https://github.com/codebreaker3008/WebMasterLog/assets/142109210/08593143-edd5-4725-a8f0-0e83a085bc5c)
+![Screenshot 2024-05-17 154847](https://github.com/codebreaker3008/WebMasterLog/assets/142109210/946d0f87-2237-4093-a989-fe54be0a34fb)
+
+
+
 ## Contributing
 
 We welcome contributions from the community to improve NewsGlance. Whether it's fixing a bug, adding a new feature, or suggesting enhancements, your contributions are highly appreciated. To contribute, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
