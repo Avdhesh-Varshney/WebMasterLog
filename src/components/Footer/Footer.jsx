@@ -7,10 +7,7 @@ const Footer = () => {
       <div class="social-section">
         <div>
           <div>
-            Made with ♡ by Avdhesh{" "}
-            <a href="https://github.com/Avdhesh-Varshney/WebMasterLog">
-              <i class="fa-brands fa-github"></i>
-            </a>
+            <b>Made with ♡ by Avdhesh </b>
           </div>
         </div>
         <div class="social">
@@ -21,7 +18,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="https://x.com/i/flow/login?redirect_after_login=%2F__Avdhesh__">
+              <a href="https://twitter.com/__Avdhesh__">
                 <i class="fa-brands fa-square-x-twitter fa-lg"></i>
               </a>
             </li>

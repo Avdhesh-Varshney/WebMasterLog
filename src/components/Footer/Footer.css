@@ -7,7 +7,8 @@ footer {
   padding: 8px;
   text-align: center;
   width: 100%;
-  z-index: 9999;
+
+  border-top: 2px solid white;
 }
 .social-section {
   display: flex;
@@ -17,4 +18,7 @@ footer {
 .social ul li {
   display: inline;
   padding-left: 30px;
+}
+.shoutout {
+  padding-right: 5px;
 }
