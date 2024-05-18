@@ -88,5 +88,10 @@
 		"tag": "Intermediate",
 		"title": "Interval Timer",
 		"description": "It help to user to work and take rest for specific time."
+	},
+	{
+		"tag": "Basic",
+		"title": "Stopwatch",
+		"description": "The project is a sleek and efficient stopwatch application built using HTML, CSS, and JavaScript."
 	}
 ]
