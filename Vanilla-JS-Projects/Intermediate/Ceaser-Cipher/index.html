@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" id="theme-style">
+</head>
+<body>
+   <header>
+    <h1>Caesar Cipher</h1>
+    <button id="theme-toggle">🌗</button>
+   </header>
+  
+ 
+
+<div class="container">
+    
+    <div>
+    <form>
+        <label>Plaintext:</label>
+    
+        <textarea name='plaintext' placeholder="Add Plaintext here" rows="8" cols="50"></textarea>
+        <label>Shift:</label>
+        <input type='number' name='shift' value='5' min='1' max='26'>
+        <input type='submit' value='Encrypt'>
+      </form>
+      <h2>Output</h2>
+      <div id='output'>
+      </div>
+    </div>
+    
+    <div>
+        <form>
+            <label for="ciphertext">Ciphertext:</label>
+            <textarea  id="ciphertext" name="ciphertext" type="text" placeholder="Add Ciphertext here" rows="8" cols="50"></textarea>
+
+            <!-- <input type="text" id="ciphertext" name="ciphertext" > -->
+            <br>
+            <label for="shift">Shift:</label>
+            <input type="number" id="shift" name="shift" min="1" max="25" value="3">
+            <br>
+            <button type="button" id="decrypt-button">Decrypt</button>
+          </form>
+          <h2>Output</h2>
+          <div id="plaintext"></div>
+      </div>
+
+</div>
+
+
+
+  <script src='main.js'></script>
+</body>
+</html> 
