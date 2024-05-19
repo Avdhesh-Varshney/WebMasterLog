@@ -110,7 +110,7 @@ const toggleTheme = () => {
 
 
   return (
-    <>
+    <><body className='bg'>
       <div className={`main-container ${theme}`}>
         <motion.div
           animate={{
@@ -179,13 +179,14 @@ const toggleTheme = () => {
           </section>
           <div className='theme' onClick={toggleTheme}> {/*  Handle theme toggle action */}
             <div className='bars flex-grow d-flex align-items-stretch align-self-center'>
-              {theme === 'light' ? <FiMoon /> : <FiSun />} {/* Conditional rendering based on theme */}
+              {theme === 'light' ? <FiMoon  style={{ color: 'darkblue', fontSize: '36px'}} /> : <FiSun style={{color:'yellow', fontSize: '36px'}}/>} {/* Conditional rendering based on theme */}
             </div>
           </div>
         </motion.div>
 
         <main style={{ marginLeft: 'auto', transition: 'all 0.3s' }}>{children}</main>
       </div>
+      </body>
     </>
   );
 };
