@@ -30,67 +30,13 @@
 <div align="center">
   Welcome to WebMasterLog, It serves as a comprehensive record of various web development endeavors, highlighting the versatility and capabilities of projects built with Front-end and Back-end Web developement technologies. From interactive and responsive user interfaces to dynamic web applications, this repository encompasses a spectrum of web development solutions.
 </div>
-<br />
 
-![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
-
-<!-- -------------------HOW YOU CAN CONTRIBUTE------------------------ -->
-## :zap: How to Contribute? 🤔
-
-- Drop a ⭐ on the GitHub repository
-- Take a look at the existing [**Issues**](https://github.com/Avdhesh-Varshney/WebMasterLog/issues). 
-- Fork the Repo create a branch for any issue that you are working on and commit your work.
-- Create a [**Pull Request**](https://github.com/Avdhesh-Varshney/WebMasterLog/pulls), which will be promptly reviewed and given suggestions for improvements by the community.
-- Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes that are included in your commits.
-- Carefully read the [**Contributing Guidelines**](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CONTRIBUTING.md).
-- Follow the [**Code of Conduct**](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CODE_OF_CONDUCT.md) and start your contribution.
-- This repository consists of various web development projects, and all of the projects must follow a certain template. I wish the contributors will take care of this while contributing in this repository.
-<br />
-
-<!-- ------------------WHAT YOU CAN CONTRIBUTE---------------------- -->
-## :zap: What Can You Contribute? 👩‍💻
-
-<div align="center">
-
-| **Contribution Area**               | **Description**                                                                                    |
-| ------------------------------------|----------------------------------------------------------------------------------------------------|
-| **Add New Projects**                | Share your HTML, CSS, and JavaScript web development projects.                                     |
-| **Improve Existing Projects**       | Enhance projects by refining code, optimizing performance, or adding features.                     |
-| **Documentation Refinement**        | Improve project documentation for clearer explanations and instructions.                           |
-| **Bug Fixes**                       | Contribute bug fixes to maintain the reliability of existing projects.                             |
-| **Responsive Design Contributions** | Ensure projects have responsive designs for optimal user experiences on various devices.           |
-| **Code Styling and Readability**    | Contribute to code readability and consistency, making it easier for others to comprehend.         |
-| **Optimized Approaches**            | Suggest and implement optimized approaches for specific functionalities in projects.               |
-
-#### Choose an area that aligns with your skills and interests, and help make WebMasterLog a valuable resource for the web development community. Thank you for your contributions! 🌐🚀
-</div>
-<br />
-
-![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
-
-<!-- -------------Structure of the Project------------ -->
-## :zap: Project Structure
-
-The project is organized into the following main directories:
-
-- [**Angular-JS-Projects**](./Angular-JS-Projects/README.md)
-- [**Front-end-Projects**](./Front-end-Projects/README.md)
-- [**Next-JS-Projects**](./Next-JS-Projects/README.md)
-- [**Node-JS-Projects**](./Node-JS-Projects/README.md)
-- [**React-JS-Projects**](./React-JS-Projects/README.md)
-- [**Vanilla-JS-Projects**](./Vanilla-JS-Projects/README.md)
-- [**Vue-JS-Projects**](./Vue-JS-Projects/README.md)
-
-And these directories contains 3 sub-directories.
-
-- 🌱 Basic
-- 🚀 Intermediate
-- 🌟 Advanced
+![image](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/f4229ca0-c80d-40a2-98c1-3193844d25de)
 
 <br />
 
 <!-- ------------TECH STACK USED---------------------- -->
-## :zap: Tech Stack Used ❤️
+## :zap: Tech Stack Used 🎉
 
 <div align ="center">
   
@@ -112,27 +58,80 @@ And these directories contains 3 sub-directories.
 </div>
 <br />
 
-<!-- --------------Connect with Project Admin--------------------- -->
-## :zap: Let's Connect to Project Admin 💬
+<!-- -------------Structure of the Project------------ -->
+## :zap: Project Structure 📜
 
-<div align='center'>
+The project is organized into the following main directories:
 
-   <a href="https://www.github.com/Avdhesh-Varshney">
-     <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-   </a>
-   <a href="https://twitter.com/__Avdhesh__">
-     <img src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-   </a>
-   <a href="https://www.youtube.com/@Hack-Master">
-     <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube" />
-   </a>
-   <a href="https://t.me/hack_er_boy">
-     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
-   </a>
-</div>
+- [**Angular-JS-Projects**](./Angular-JS-Projects/README.md)
+- [**Front-end-Projects**](./Front-end-Projects/README.md)
+- [**Next-JS-Projects**](./Next-JS-Projects/README.md)
+- [**Node-JS-Projects**](./Node-JS-Projects/README.md)
+- [**React-JS-Projects**](./React-JS-Projects/README.md)
+- [**Vanilla-JS-Projects**](./Vanilla-JS-Projects/README.md)
+- [**Vue-JS-Projects**](./Vue-JS-Projects/README.md)
+
+And these directories contains 3 sub-directories.
+
+- 🌱 Basic
+- 🚀 Intermediate
+- 🌟 Advanced
+
 <br />
 
-![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+<!-- --------------------OPEN SOURCE PROGRAMS PARTICIPATIONS------------------------ -->
+## :zap: Open Source Programs ❄️
+
+<table>
+<tr>
+
+  <td align="center">
+   <a href="https://www.jwoc.tech/">
+    <img src="https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/9a1577ad-a9b7-4e55-8be6-633e78a0b7ef" height=100px /><br />
+    <sub><b>JWOC 2024</b></sub>
+   </a>
+ </td>
+  <td align="center">
+   <a href="https://gssoc.girlscript.tech/">
+    <img src="https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/170d7ab8-ff9b-44ec-9ac1-45ef72c82c55" height=100px /><br />
+    <sub><b>GSSoC 2024</b></sub>
+   </a>
+ </td>
+ 
+</tr>
+</table>
+<br />
+
+<!-- -------------------HOW YOU CAN CONTRIBUTE------------------------ -->
+## :zap: How to Contribute? 🤔
+
+- Drop a ⭐ on the GitHub repository
+- Take a look at the existing [**Issues**](https://github.com/Avdhesh-Varshney/WebMasterLog/issues). 
+- Fork the Repo create a branch for any issue that you are working on and commit your work.
+- Create a [**Pull Request**](https://github.com/Avdhesh-Varshney/WebMasterLog/pulls), which will be promptly reviewed and given suggestions for improvements by the community.
+- Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes that are included in your commits.
+- Carefully read the [**Contributing Guidelines**](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CONTRIBUTING.md).
+- Follow the [**Code of Conduct**](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CODE_OF_CONDUCT.md) and start your contribution.
+- This repository consists of various web development projects, and all of the projects must follow a certain template. I wish the contributors will take care of this while contributing in this repository.
+
+<!-- ------------------WHAT YOU CAN CONTRIBUTE---------------------- -->
+## :zap: What Can You Contribute? 👩‍💻
+
+<div align="center">
+
+| **Contribution Area**               | **Description**                                                                                    |
+| ------------------------------------|----------------------------------------------------------------------------------------------------|
+| **Add New Projects**                | Share your HTML, CSS, and JavaScript web development projects.                                     |
+| **Improve Existing Projects**       | Enhance projects by refining code, optimizing performance, or adding features.                     |
+| **Documentation Refinement**        | Improve project documentation for clearer explanations and instructions.                           |
+| **Bug Fixes**                       | Contribute bug fixes to maintain the reliability of existing projects.                             |
+| **Responsive Design Contributions** | Ensure projects have responsive designs for optimal user experiences on various devices.           |
+| **Code Styling and Readability**    | Contribute to code readability and consistency, making it easier for others to comprehend.         |
+| **Optimized Approaches**            | Suggest and implement optimized approaches for specific functionalities in projects.               |
+
+#### Choose an area that aligns with your skills and interests, and help make WebMasterLog a valuable resource for the web development community. Thank you for your contributions! 🌐🚀
+</div>
+<br />
 
 <!-- ----------------PROJECT ADMIN AND MENTOR SECTION------------------ -->
 ## :zap: Project Admin & Mentor ❤️
@@ -140,16 +139,17 @@ And these directories contains 3 sub-directories.
 <div align="center">
 
   <table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Avdhesh-Varshney">
-        <img src="https://github.com/Avdhesh-Varshney/CPMasterLog/assets/114330097/0b13fac7-e59d-40be-ac14-b76a28174e85" width=185px height=175px />
-      </a></br> 
-      <h4 style="color:red;"><a href="https://github.com/Avdhesh-Varshney">Avdhesh Varshney</a></h4>
-      <a href="https://www.linkedin.com/in/avdhesh-varshney-5314a4233/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-      </a>
-  </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/Avdhesh-Varshney">
+          <img src="https://avatars.githubusercontent.com/u/114330097?v=4" width=150px height=150px />
+        </a></br> 
+        <h4 style="color:red;"><a href="https://discord.gg/tSqtvHUJzE">Avdhesh Varshney</a></h4>
+        <a href="https://www.linkedin.com/in/avdhesh-varshney-5314a4233/">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        </a>
+      </td>
+    </tr>
   </table>
 </div>
 <br />
@@ -162,9 +162,8 @@ And these directories contains 3 sub-directories.
   <a href="https://github.com/Avdhesh-Varshney/WebMasterLog/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=Avdhesh-Varshney/WebMasterLog&&max=1000" />
   </a>
-  <br />
 </div>
-  
+
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- ------------BOTTOM SECTION---------------------- -->

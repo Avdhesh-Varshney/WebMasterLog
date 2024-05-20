@@ -1,0 +1,108 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke; /* Dark background color */
+  color: black; /* Light text color */
+  margin: 0;
+  padding: 0;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 20px;
+}
+h1, h2 {
+  text-align: center;
+  color: black; /* Light heading color */
+}
+#theme-toggle{
+  width: 50px;
+  height: 50px;
+justify-items: center;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+ padding: 50px;
+}
+#decrypt-button{
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: black; /* Button color */
+  color: #fff; /* Light text color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+form {
+
+  border:2px solid black;
+  box-shadow: 2px black; /* White shadow */
+  max-width: 400px;
+  margin: 20px ;
+  background:whitesmoke;
+box-shadow: 32px 32pxpx 32px 32px rgba(21, 26, 106, 0.37);/* Dark form background color */
+backdrop-filter: blur(20px);
+-webkit-backdrop-filter: blur(20px);
+padding: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: black; /* Light label color */
+}
+
+textarea,
+input[type='number'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black; /* Dark border color */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: white; /* Dark input background color */
+  color: black; /* Light text color */
+}
+
+input[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: black; /* Button color */
+  color: #fff; /* Light text color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type='submit']:hover {
+  background-color: rgb(72, 22, 22); /* Button hover color */
+}
+
+#output {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: whitesmoke; /* Dark output background color */
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow */
+}
+#plaintext{
+  max-width: 400px;
+  margin: 20px ;
+  background-color: whitesmoke; /* Dark output background color */
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow */
+}
+.output-heading {
+  font-size: 1.2em;
+  color: chocolate; /* Light heading color */
+  margin-bottom: 10px;
+}
