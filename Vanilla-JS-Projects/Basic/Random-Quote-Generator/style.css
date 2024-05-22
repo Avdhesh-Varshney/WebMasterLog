@@ -1,0 +1,71 @@
+.container{
+    display: grid;
+    grid-template-rows: 0.5fr 2fr auto;
+    gap: 5px;
+    
+}
+
+
+.heading{
+    background-color: rgb(209, 247, 245);
+    border: 5px solid;
+    text-align: center;
+}
+h1{
+    font-size: 42px;   
+}
+.quote_gen{
+    margin-top: 80px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    gap: 5px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 50%;
+    border: 5px solid;
+    margin-left: 25%;
+}
+
+.btn{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 25%;
+    height: 40%;
+    background-color: #04AA6D;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 20px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(209, 247, 245);
+    color: white;
+    text-align: center;
+    
+}
+p{
+    color: black;
+    font-weight: bolder;
+}
+.end{
+    width: 20%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: large;
+}
