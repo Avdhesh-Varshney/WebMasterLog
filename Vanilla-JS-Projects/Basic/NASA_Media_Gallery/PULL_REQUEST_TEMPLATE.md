@@ -1,6 +1,6 @@
 ## Pull Request for WebMasterLog 💡
 
-### Issue Title: <!--New issue-->
+### Issue Title: <!--NASA Media Gallery-->
 
 - **Name of the project** : <!--NASA Media Gallery-->
 - **Category:** <!-- Category of the project:  CSS, Front-end, Vanilla JS, Documentation, etc. -->
