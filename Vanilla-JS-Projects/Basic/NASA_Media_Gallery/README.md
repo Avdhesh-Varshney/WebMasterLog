@@ -48,7 +48,8 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
             
-![image](http://127.0.0.1:5500/WebMasterLog/Vanilla-JS-Projects/NASA_Media_Gallery/index.html)
+![Screenshot 2024-05-21 134144](https://github.com/SonaliKumari2/WebMasterLog/assets/156329692/506c0e8a-c0dc-4d1e-96b3-d1262279a49e)
+![Screenshot 2024-05-21 134216](https://github.com/SonaliKumari2/WebMasterLog/assets/156329692/f517e1cd-311d-4ca8-845e-ae45f0aad427)
 
 
 
