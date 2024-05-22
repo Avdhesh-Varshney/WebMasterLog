@@ -2,17 +2,19 @@
   "name": "url-scraper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js","scripts": {
+  "main": "index.js",
+  "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
-},
+  },
   "keywords": [],
   "author": "Ragini Mishra",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.8",
     "cheerio": "^1.0.0-rc.12",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
