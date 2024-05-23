@@ -1,0 +1,33 @@
+name: 'Greetings'
+
+on:
+  fork:
+  push:
+    branches: [main]
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: EddieHubCommunity/gh-action-community/src/welcome@main
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            Hello @${{ github.actor }},
+
+            Thanks for creating this issue and contributing to Hairify!
+
+            We will review your issue soon and provide feedback. 
+            
+            If you're interested in working on this issue, make sure you get yourself assigned before starting your work.
+          pr-message: |
+            Awesome work, @${{ github.actor }}! 🎉 Thank you for your contribution and efforts to enhance Hairify. 
+
+            We will review your changes soon and provide feedback.
+
+          footer: 'Please ensure that you have followed the contributing guidelines for a smooth review process.'
