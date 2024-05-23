@@ -93,5 +93,10 @@
 		"tag": "Basic",
 		"title": "Stopwatch",
 		"description": "The project is a sleek and efficient stopwatch application built using HTML, CSS, and JavaScript."
+	},
+	{
+		"tag": "Basic",
+		"title": "Random Quote Generator",
+		"description": "This web application generates a random quote from a predefined dataset, when a button is clicked."
 	}
 ]
