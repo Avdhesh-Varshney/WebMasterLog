@@ -4,10 +4,13 @@ const Footer = () => {
 
   return (
     <footer>
+      <div className="footer1">
       <div class="social-section">
+      <h1 className="head">Web Master Log</h1>
         <div>
+          <div className="copy">{`© ${year} All rights Reserved.`}</div>
           <div>
-            <b>Made with ♡ by Avdhesh </b>
+            <b>Made with 💟 by Avdhesh </b>
           </div>
         </div>
         <div class="social">
@@ -30,7 +33,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div>{`Copyright © Web Master Log ${year}`}</div>
+      </div>
     </footer>
   );
 };

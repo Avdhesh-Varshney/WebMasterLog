@@ -1,24 +1,63 @@
-footer {
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+  padding-bottom: 500px; 
+}
+
+.footer1 {
   position: fixed;
-  background-color: black;
+  background-color: rgba(39, 36, 36, 0.741);
   bottom: 0;
-  left: 0;
+  left: 75px;
   right: 0;
-  padding: 8px;
+  padding: 10px;
   text-align: center;
   width: 100%;
-
-  border-top: 2px solid white;
+  border-top: 1px solid #fff;
+  z-index: 1;
 }
+
 .social-section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
+.social ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
 .social ul li {
   display: inline;
   padding-left: 30px;
+  width: 20px;
+  height: 20px;
 }
-.shoutout {
-  padding-right: 5px;
+
+.head {
+  font-size: 2em;
+  color: rgb(159, 89, 225);
+  margin-top: 10px;
+}
+.copy{
+  margin-bottom: 10px;
 }

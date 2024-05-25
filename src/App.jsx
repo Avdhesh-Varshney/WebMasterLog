@@ -15,7 +15,8 @@ function App() {
   const [progress, setProgress] = useState(0);
 
   return (
-    <div>
+    <div className='App'>
+      <div className="content">
       <Router>
         <SideBar routes={routes}>
           <LoadingBar height={3} color='#f11946' progress={progress} />
@@ -28,6 +29,7 @@ function App() {
         </SideBar>
 
       </Router>
+      </div>
       <Footer/>
     </div>
   );
