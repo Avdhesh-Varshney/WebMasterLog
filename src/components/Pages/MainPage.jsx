@@ -4,10 +4,11 @@ import "./mainpage.css";
 import Dashboard from "./Dashboard";
 
 const MainPage = (props) => {
-  const { category, routes } = props;
+  const { category, routes, setProgress } = props;
   if (category === "") return <Dashboard />;
 
   const [projectsData, setProjectsData] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
   const [tag, setTag] = useState("All");
 
   const getName = (category) => {
@@ -22,7 +23,7 @@ const MainPage = (props) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      props.setProgress(10);
+      setProgress(10);
       try {
         const response = await fetch(
           `https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/database/${category}.json`
@@ -30,26 +31,44 @@ const MainPage = (props) => {
         if (!response.ok) {
           throw new Error("Failed to fetch projects data");
         }
-        props.setProgress(30);
+        setProgress(30);
         const data = await response.json();
-        props.setProgress(50);
-        let filteredData = data;
-        if (tag !== "All") {
-          filteredData = data.filter((project) => project.tag === tag);
-        }
-        props.setProgress(80);
-        setProjectsData(filteredData);
+        setProgress(50);
+        setProjectsData(data);
+        setFilteredData(data);
+        setProgress(80);
       } catch (error) {
         console.error("Error fetching projects data:", error);
       }
-      props.setProgress(100);
+      setProgress(100);
     };
     fetchData();
-  }, [tag, category, props]);
+  }, [category, setProgress]);
+
+  useEffect(() => {
+    if (tag === "All") {
+      setFilteredData(projectsData);
+    } else {
+      setFilteredData(projectsData.filter((project) => project.tag === tag));
+    }
+  }, [tag, projectsData]);
 
   const handleTagClick = (selectedTag) => {
     setTag(selectedTag);
   };
+
+  useEffect(() => {
+    const dropdown = document.querySelector(".custom-dropdown");
+    if (dropdown) {
+      const colorMap = {
+        Basic: "green",
+        Intermediate: "yellow",
+        Advanced: "red",
+        All: "blue",
+      };
+      dropdown.style.backgroundColor = colorMap[tag] || "blue";
+    }
+  }, [tag]);
 
   return (
     <>
@@ -59,27 +78,21 @@ const MainPage = (props) => {
         <div className="button-group">
           <button
             type="button"
-            className={`btn btn${
-              tag !== "Basic" ? "-outline" : ""
-            }-success mx-1`}
+            className={`btn btn${tag !== "Basic" ? "-outline" : ""}-success mx-1`}
             onClick={() => handleTagClick("Basic")}
           >
             Easy
           </button>
           <button
             type="button"
-            className={`btn btn${
-              tag !== "Intermediate" ? "-outline" : ""
-            }-warning mx-1`}
+            className={`btn btn${tag !== "Intermediate" ? "-outline" : ""}-warning mx-1`}
             onClick={() => handleTagClick("Intermediate")}
           >
             Medium
           </button>
           <button
             type="button"
-            className={`btn btn${
-              tag !== "Advanced" ? "-outline" : ""
-            }-danger mx-1`}
+            className={`btn btn${tag !== "Advanced" ? "-outline" : ""}-danger mx-1`}
             onClick={() => handleTagClick("Advanced")}
           >
             Hard
@@ -95,18 +108,18 @@ const MainPage = (props) => {
 
         <div className="dropdown">
           <select
-            className="dropdown form-select "
+            className="dropdown form-select custom-dropdown"
             onChange={(e) => handleTagClick(e.target.value)}
           >
             <option value="Basic">Easy</option>
             <option value="Intermediate">Medium</option>
             <option value="Advanced">Hard</option>
-            <option value="All">All</option>
+            <option value="All" selected>All</option>
           </select>
         </div>
       </div>
 
-      <ProjectCards projectsData={projectsData} tech={getTech(category)} />
+      <ProjectCards projectsData={filteredData} tech={getTech(category)} />
     </>
   );
 };
