@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
        <div className="row-flex">
           <input type="email" placeholder="EMAIL ADDRESS" name="email" required />
-          <input type="submit" placeholder="SUBSCRIBE" name="subscribe" required />
+          <input type="submit" placeholder="SUBSCRIBE" name="subscribe"  value="SUBSCRIBE" required />
         </div>
         <div className="foot">
           <div className="foot-left">
