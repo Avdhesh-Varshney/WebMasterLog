@@ -77,7 +77,7 @@ Delete Items: Users can delete items from the database.
 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
-![Screenshot](https://github.com/1simransaini/Infinite-Scrolling/assets/91106038/fc31504c-6f04-469c-85c6-c6a35b94eb14)
+![Screenshot](https://github.com/Hannan2004/WebMasterLog/blob/nodejs-crud-operations/Node-JS-Projects/Basic/Crud-Operations/screenshot.webp)
 
 
 
