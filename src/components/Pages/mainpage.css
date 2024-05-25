@@ -1,0 +1,17 @@
+/* mainpage.css */
+.button-group {
+  display: flex;
+}
+
+.dropdown {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .button-group {
+    display: none;
+  }
+  .dropdown {
+    display: block;
+  }
+}
