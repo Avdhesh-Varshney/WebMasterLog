@@ -40,13 +40,14 @@
 
 <h4 align='center'>Developed By <b><i>Ishavdeep Kaur</i></b> 👦</h4>
 <p align='center'>
-  <a href='www.linkedin.com/in/ishavdeep-kaur-078902282'>
+  <a href='https://www.linkedin.com/in/ishavdeep-kaur-078902282'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
   </a>
   <a href='https://github.com/osmoosiis'>
     <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
   </a>
 </p>
+  
 
 <h4 align='center'>Happy Coding 🧑‍💻</h4>
 
