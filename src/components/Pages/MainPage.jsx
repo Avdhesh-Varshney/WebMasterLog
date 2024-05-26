@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react';
 import ProjectCards from '../Cards/ProjectCards';
 import './mainpage.css';
 import Dashboard from './Dashboard';
+import { FiSun, FiMoon } from 'react-icons/fi';
 
 const MainPage = (props) => {
-	const { category, routes } = props;
-	if (category === '') return <Dashboard />;
+	const { category, routes,theme,toggleTheme } = props;
+	if (category === '') return <Dashboard theme={theme} toggleTheme={toggleTheme}/>;
 
 	const [projectsData, setProjectsData] = useState([]);
 	const [tag, setTag] = useState('All');
@@ -50,7 +51,23 @@ const MainPage = (props) => {
 
 	return (
 		<>
-			<h1 className='text-end my-2 mx-3'>{`${getName(category)} Projects`}</h1>
+		   <div className='container'>
+		    <div className="row align-items-center">
+                  <div className="col">
+				  <h1 className={`project_title ${theme} text-end my-2 mx-3`}>{`${getName(category)} Projects`}</h1>
+                  </div>
+                  <div className="col-auto theme" onClick={toggleTheme}>
+                    <div>
+                      {theme === 'light' ? (
+                        <FiMoon style={{ color: 'black', fontSize: '28px' }} />
+                      ) : (
+                        <FiSun style={{ color: 'yellow', fontSize: '28px' }} />
+                      )}
+                    </div>
+                  </div>
+                </div>
+				</div>
+			{/* <h1 className={`project_title ${theme} text-end my-2 mx-3`}>{`${getName(category)} Projects`}</h1> */}
 			<div className="d-flex justify-content-end my-2 mx-3">
 				<button type="button" className={`btn btn${tag !== 'Basic'? '-outline': ''}-success mx-1`} onClick={() => handleTagClick('Basic')}>Easy</button>
 				<button type="button" className={`btn btn${tag !== 'Intermediate'? '-outline': ''}-warning mx-1`} onClick={() => handleTagClick('Intermediate')}>Medium</button>
@@ -58,7 +75,7 @@ const MainPage = (props) => {
 				<button type="button" className={`btn btn${tag !== 'All'? '-outline': ''}-info mx-1`} onClick={() => handleTagClick('All')}>All</button>
 			</div>
 
-			<ProjectCards projectsData={projectsData} tech={getTech(category)} />
+			<ProjectCards projectsData={projectsData} theme={theme} tech={getTech(category)} />
 		</>
 	);
 }

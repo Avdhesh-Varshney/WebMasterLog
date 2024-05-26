@@ -1,17 +1,17 @@
 import "./Footer.css";
-const Footer = () => {
+const Footer = ({theme}) => {
   const year = new Date().getFullYear();
 
   return (
-    <footer>
+    <footer className={`footer ${theme}`}>
        <div className="row-flex">
           <input type="email" placeholder="EMAIL ADDRESS" name="email" required />
-          <input type="submit" placeholder="SUBSCRIBE" name="subscribe"  value="SUBSCRIBE" required />
+          <input className={`subscribe ${theme}`} type="submit" placeholder="SUBSCRIBE" name="subscribe"  value="SUBSCRIBE" required />
         </div>
         <div className="foot">
           <div className="foot-left">
-          <h1>Web Master Log</h1>
-          <p>WebMasterLog serves as a comprehensive record of various web development endeavors,
+          <h1 className={`title ${theme}`}>Web Master Log</h1>
+          <p className={`footer_text ${theme}`}>WebMasterLog serves as a comprehensive record of various web development endeavors,
             highlighting the versatility and capabilities of projects built with Front-end and Back-end 
             Web development technologies. From interactive and responsive user interfaces to dynamic web 
             applications, this repository encompasses a spectrum of web development solutions</p>
@@ -42,9 +42,9 @@ const Footer = () => {
           </ul>
           <div class="social-section">
         <div>
-        <div>{`© ${year} All Rights Reserved`}</div>
+        <div className={`footer_text ${theme}`}>{`© ${year} All Rights Reserved`}</div>
           <div>
-            <b>Made By Master Web Log </b>
+            <b className={`footer_text ${theme}`}>Made By Master Web Log </b>
           </div>
         </div>
         </div>

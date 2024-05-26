@@ -40,7 +40,7 @@ const showAnimation = {
   },
 };
 
-const SideBar = ({ routes, children }) => {
+const SideBar = ({ routes, children,theme}) => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
 
@@ -96,16 +96,16 @@ const SideBar = ({ routes, children }) => {
 
   return (
     <>
-      <div className='main-container'>
+      <div className={`main-container ${theme}`}>
         <motion.div
           animate={{
             width: isOpen ? '200px' : '75px',
             position: 'fixed',
             transition: { duration: 0.5, type: 'spring', damping: 10 },
           }}
-          className={`sidebar`}
+          className={`sidebar ${theme}`}
         >
-          <div className='top_section d-lg-flex align-items-center justify-content-center'>
+          <div className={`top_section ${theme} d-lg-flex align-items-center justify-content-center`}>
             <AnimatePresence>
               {isOpen && (
                 <motion.h1 variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='logo'>
@@ -113,14 +113,13 @@ const SideBar = ({ routes, children }) => {
                 </motion.h1>
               )}
             </AnimatePresence>
-
-            <div className='bars flex-grow d-flex align-items-stretch align-self-center'>
+            <div className={`bars ${theme} flex-grow d-flex align-items-stretch align-self-center`}>
               <FaBars onClick={toggle} />
             </div>
           </div>
 
-          <div className='search'>
-            <div className='search_icon circle'>
+          <div className={`search ${theme}`}>
+            <div className={`search_icon circle ${theme}`}>
               <BiSearch />
             </div>
             <AnimatePresence>
@@ -144,9 +143,9 @@ const SideBar = ({ routes, children }) => {
               }
 
               return (
-                <NavLink to={route.path} key={index} className='link' activeClassName='active'>
-                  <div className='circle'>
-                    <div className='icon'>{route.icon}</div>
+                <NavLink to={route.path} key={index} className={`link ${theme}`} activeClassName='active'>
+                  <div className={`circle ${theme}`}>
+                    <div className={`icon ${theme}`}>{route.icon}</div>
                   </div>
                   <AnimatePresence>
                     {isOpen && (
