@@ -1,0 +1,11 @@
+:root{
+    --project_title-color-light:#000000;
+    --project_title-color-dark:#ffffff;    
+}
+
+.project_title{
+    color:var(--project_title-color-light);
+}
+.project_title.dark{
+    color:var(--project_title-color-dark);
+}

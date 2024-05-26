@@ -1,7 +1,30 @@
+:root{
+  --footer-bg-light:rgb(255, 255, 255);
+  --footer-bg-dark:rgb(15, 15, 17);
+  --footer_text-color-light:rgb(0, 0, 0);
+  --footer_text-color-dark:rgb(255, 255, 255);
+  --subscribe-bg-light:hsl(184, 89%, 29%);
+  --subscribe-bg-dark:hsl(184, 41%, 56%);
+  --title-color-light:rgb(145, 78, 209);
+  --title-color-dark:rgb(162, 112, 208);
 
+
+}
+.footer.dark{
+     background-color: var(--footer-bg-dark);
+}
+.footer{
+  background-color: var(--footer-bg-light);
+}
+.footer_text.dark{
+     color: var(--footer_text-color-dark);
+}
+.footer_text{
+  color: var(--footer_text-color-light);
+}
 footer {
   position: fixed;
-  background-color: rgb(15, 15, 17);
+  /* background-color: rgb(15, 15, 17); */
   bottom: 0;
   left: 0;
   right: 0;
@@ -10,9 +33,15 @@ footer {
   text-align: center;
   border-top: 1px solid silver;
 }
-.foot-left h1{
-  color: rgb(162, 112, 208);
+.title{
+  color: var(--title-color-light);
 }
+.title.dark{
+  color: var(--title-color-dark);
+}
+/* .foot-left h1{
+  color: rgb(162, 112, 208);
+} */
 .foot{
   display: flex;
   flex-direction: row;
@@ -49,10 +78,16 @@ input[type="email"] {
   width: 300px;
 }
 
+.subscribe{
+  background-color: var(--subscribe-bg-light);
+}
+.subscribe.dark{
+  background-color: var(--subscribe-bg-dark);
+}
 input[type="submit"] {
   padding: 8px 16px;
   border: none;
-  background-color: hsl(184, 41%, 56%);
+  /* background-color: hsl(184, 41%, 56%); */
   color: white;
   border-radius: 4px;
   cursor: pointer;

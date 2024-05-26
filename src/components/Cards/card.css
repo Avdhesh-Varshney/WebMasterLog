@@ -1,3 +1,32 @@
+:root{
+    --card-body-bg-light:#f5f5f5;
+    --card-body-bg-dark:#12151e;    
+    --card-title-color-light:#000000;
+    --card-title-color-dark:#ffffff;    
+    --card-text-color-light:#000000;
+    --card-text-color-dark:#ffffff;    
+}
+
+.card-body{
+    background-color:var(--card-body-bg-light);
+}
+.card-body.dark{
+    background-color:var(--card-body-bg-dark);
+}
+.card-title{
+    color:var(--card-title-color-light);
+}
+.card-title.dark{
+   color:var(--card-title-color-dark);
+}
+.card-text{
+    color:var(--card-text-color-light);
+}
+.card-text.dark{
+   color:var(--card-text-color-dark);
+}
+
+
 .projectsCard {
     max-width: 1300px;
     transition: all 0.3s;
