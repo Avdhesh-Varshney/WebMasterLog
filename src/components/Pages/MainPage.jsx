@@ -72,28 +72,27 @@ const MainPage = (props) => {
 
   return (
     <>
-    
-			<h1 className='text-end my-2 mx-3'>{`${getName(category)} Projects`}</h1>
-			<div className="button-group justify-content-end my-2 mx-3">
-				<button type="button" className={`btn btn${tag !== 'Basic'? '-outline': ''}-success mx-1`} onClick={() => handleTagClick('Basic')}>Easy</button>
-				<button type="button" className={`btn btn${tag !== 'Intermediate'? '-outline': ''}-warning mx-1`} onClick={() => handleTagClick('Intermediate')}>Medium</button>
-				<button type="button" className={`btn btn${tag !== 'Advanced'? '-outline': ''}-danger mx-1`} onClick={() => handleTagClick('Advanced')}>Hard</button>
-				<button type="button" className={`btn btn${tag !== 'All'? '-outline': ''}-info mx-1`} onClick={() => handleTagClick('All')}>All</button>
-			</div>
+      <h1 className='text-end my-2 mx-3'>{`${getName(category)} Projects`}</h1>
+      <div className="button-group justify-content-end my-2 mx-3">
+        <button type="button" className={`btn btn${tag !== 'Basic'? '-outline': ''}-success mx-1`} onClick={() => handleTagClick('Basic')}>Easy</button>
+        <button type="button" className={`btn btn${tag !== 'Intermediate'? '-outline': ''}-warning mx-1`} onClick={() => handleTagClick('Intermediate')}>Medium</button>
+        <button type="button" className={`btn btn${tag !== 'Advanced'? '-outline': ''}-danger mx-1`} onClick={() => handleTagClick('Advanced')}>Hard</button>
+        <button type="button" className={`btn btn${tag !== 'All'? '-outline': ''}-info mx-1`} onClick={() => handleTagClick('All')}>All</button>
+      </div>
 
-			<ProjectCards projectsData={projectsData} tech={getTech(category)} />
-		
-        <div className="dropdown">
-          <select
-            className="dropdown form-select custom-dropdown"
-            onChange={(e) => handleTagClick(e.target.value)}
-          >
-            <option value="Basic">Easy</option>
-            <option value="Intermediate">Medium</option>
-            <option value="Advanced">Hard</option>
-            <option value="All" selected>All</option>
-          </select>
-        </div>
+      <ProjectCards projectsData={filteredData} tech={getTech(category)} />
+
+      <div className="dropdown">
+        <select
+          className="dropdown form-select custom-dropdown"
+          onChange={(e) => handleTagClick(e.target.value)}
+        >
+          <option value="Basic">Easy</option>
+          <option value="Intermediate">Medium</option>
+          <option value="Advanced">Hard</option>
+          <option value="All" selected>All</option>
+        </select>
+      </div>
     </>
   );
 };
