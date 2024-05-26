@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="QuickNotesApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>QuickNotes</title>
+
+    <!--Link the css styles to index file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body ng-controller="NotesController">
+    <h1>QuickNotes</h1>
+    
+    <div class="container">
+        <!-- Note Title input box -->
+        <input type="text" ng-model="newNote.title" placeholder="Title" class="note-input">
+        
+        <!-- Note Body input box -->
+        <textarea ng-model="newNote.body" placeholder="Add text here" class="note-input"></textarea>
+        
+        <!-- Add button -->
+        <button class="add-button" ng-click="addNote()">Add</button>
+        
+        <!-- List of notes -->
+        <ul>
+            <li ng-repeat="note in notes">
+                <!-- Note Title -->
+                <strong>{{ note.title }}</strong><br>
+                <!-- Note Body -->
+                {{ note.body }}
+                <!-- Remove button for each note -->
+                <button class="remove-button" ng-click="removeNote($index)">Remove</button>
+            </li>
+        </ul>
+    </div>
+
+    <!--For linking the sceipt file to index file-->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

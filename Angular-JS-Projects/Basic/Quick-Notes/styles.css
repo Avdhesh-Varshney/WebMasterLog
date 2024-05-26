@@ -1,0 +1,82 @@
+/* CSS styles */
+html, body {
+  height: 160%; /* Ensure HTML and body fill the entire viewport */
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1e9e9;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Arial", sans-serif; /* Change the font family */
+  font-size: 50px; /* Change the font size */
+  color:#6d36c0;
+  margin-bottom: 60px; /* Add some space below the title */
+
+}
+
+
+.container{
+  width: 80%; /* Make container width responsive */
+  max-width: 600px; /* Limit maximum width */
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 490;
+  
+}
+
+.note-input {
+  width: calc(100% - 20px); /* Make input fields responsive */
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.add-button {
+  background-color: #8b70d6;
+  color: white;
+
+}
+
+.remove-button {
+  background-color:#8b70d6;
+  color: white;
+  margin-left: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px; /* Add space between each note */
+}
+
+li strong {
+  display: block; /* Ensure title appears on its own line */
+}
+
+/* Set background image */
+body {
+  background-image: url('bg.webp'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
