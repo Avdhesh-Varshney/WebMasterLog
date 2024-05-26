@@ -16,18 +16,18 @@ const Card = (props) => {
 
 	return (
 		<div className="card h-100" style={{ maxWidth: '400px', backgroundColor: '#12151e', color: '#fff', marginLeft: 'auto' }}>
-			<img src={imageURL} alt={title} className="card-img-top" style={{ objectFit: 'cover' }} />
+			<img src={imageURL} alt={title} className="card-img-top" style={{ objectFit: 'cover',height:'200px' }} />
 
 			<div className="card-body">
 				<h5 className="card-title">{title}</h5>
 
 				<p className="card-text">{description}</p>
 
-				<a href={sourceLink} className="btn btn-dark m-1" style={{ fontSize: '1.3rem' }}>
+				<a href={sourceLink} className="btn btn-dark m-1" style={{ fontSize: '1.3rem' }}title="View Code">
 					<FaGithub />
 				</a>
 
-				{(tech !== 'Vanilla-JS-Projects' && tech !== 'Front-end-Projects')? '' : <button className="btn btn-dark m-1" style={{ fontSize: '1.2rem', color: 'white' }} onClick={handleProjectClick}>
+				{(tech !== 'Vanilla-JS-Projects' && tech !== 'Front-end-Projects')? '' : <button className="btn btn-dark m-1" style={{ fontSize: '1.2rem', color: 'white' }} onClick={handleProjectClick} title="View Project">
 					<BiSolidZap />
 				</button>}
 			</div>

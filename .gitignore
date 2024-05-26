@@ -98,3 +98,7 @@ typings
 
 # next.js build output
 .next
+
+# Unnecessary files (only package.json is required)
+.gitignore
+package-lock.json

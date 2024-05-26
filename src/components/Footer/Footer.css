@@ -1,0 +1,63 @@
+
+footer {
+  position: fixed;
+  background-color: rgb(15, 15, 17);
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  border-top: 1px solid silver;
+}
+.foot-left h1{
+  color: rgb(162, 112, 208);
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: left;
+}
+.foot-left{
+  width: 50%;
+}
+p{
+  text-align: justify;
+}
+.social{
+  margin-top: 80px;
+}
+.social-section{
+  margin-top: 20px;
+}
+.social ul li {
+  display: inline;
+  margin: 10px 10px; 
+}
+.social ul li:hover svg {
+  fill: hsl(184, 41%, 36%); 
+}
+.row-flex {
+  text-align: right;
+}
+input[type="email"] {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  padding: 8px 16px;
+  border: none;
+  background-color: hsl(184, 41%, 56%);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: hsl(184, 41%, 46%);
+}

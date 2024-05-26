@@ -1,7 +1,35 @@
 .projectsCard {
     max-width: 1300px;
     transition: all 0.3s;
+    
 }
+
+/* Card Styles */
+.card {
+    border-radius: 30px; 
+    border: 8px solid transparent; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; 
+    margin-bottom:3px;
+}
+
+/* Card Image */
+.card-img-top {
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/* Card Body */
+.card-body {
+    padding: 20px;
+}
+
+.card:hover {
+    border-color: white; 
+    transform: scale(1.05);
+}
+
 
 @media (max-width: 1400px) {
     .projectsCard {
