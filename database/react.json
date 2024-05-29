@@ -1,6 +1,11 @@
 [
 	{
 		"tag": "Basic",
+		"title": "Cryptocurrency Finder",
+		"description": "Cryptocurrency Finder is a React-JS project which displays different crypto coins using API."
+	},
+	{
+		"tag": "Basic",
 		"title": "To Do List",
 		"description": "To do list provide all the CRUD operations to the user. Help to keep their notes on the website temporary."
 	},
