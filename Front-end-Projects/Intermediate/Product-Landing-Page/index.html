@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sneaker Shoes Online</title>
+</head>
+<body>
+    <nav id="nav">
+        <div class="navTop" >
+            <div class="navItem">
+                <img src="assests/sneakers.png" alt="">
+            </div>
+            <div class="navItem" >
+                <div class="search">
+                    <input type="text" placeholder="Search..." class="searchInput" >
+                    <img src="assests/search.png" width="20" height="20" alt="" class="searchIcon" >
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">BATA</h3>
+            <h3 class="menuItem">SKECHERS</h3>
+            <h3 class="menuItem">WOODLAND</h3>
+            <h3 class="menuItem">PUMA</h3>
+            <h3 class="menuItem">SPARX</h3>
+        </div>
+    </nav>
+    <div class="slider" >
+        <div class="sliderWrapper">
+            <div class="sliderItem" >
+                <img src="assests/shoe.png" alt="" class="sliderImg" >
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">SPARX</br> NEW SEASON </h1>
+                <h2 class="sliderPrice"> <b>₹12000</b> </h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!!!</button>
+                </a>
+            </div>
+            <div class="sliderItem" >
+                <img src="assests/shoe2.png" alt="" class="sliderImg" >
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">AIR JORDAN</br> NEW</br>SEASON</h1>
+                <h2 class="sliderPrice">$150</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem" >
+                <img src="assests/shoe3.png" alt="" class="sliderImg" >
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER</br> NEW</br>SEASON</h1>
+                <h2 class="sliderPrice">$110</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem" >
+                <img src="assests/shoe4.png" alt="" class="sliderImg" >
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">CRATER</br> NEW</br>SEASON</h1>
+                <h2 class="sliderPrice">$129</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+            <div class="sliderItem" >
+                <img src="assests/shoe5.png" alt="" class="sliderImg" >
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">HIPPIE</br> NEW</br>SEASON</h1>
+                <h2 class="sliderPrice">$99</h2>
+                <a href="#product">
+                    <button class="buyButton">BUY NOW!</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <img src="assests/freeshipping.png" class="featureIcon">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free worldwide shipping on all orders.</span>
+        </div>
+        <div class="feature">
+            <img src="assests/image.png" class="featureIcon">
+            <span class="featureTitle">30 DAYS RETURN</span>
+            <span class="featureDesc">No question return and refund in 14 days</span>
+        </div>
+        <div class="feature">
+            <img src="assests/gift.jpg" class="featureIcon">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+        <div class="feature">
+            <img src="assests/contact.jpg" class="featureIcon">
+            <span class="featureTitle">CONTACT US!</span>
+            <span class="featureDesc">Keep in touch via email and support system</span>
+        </div>
+    </div>
+
+    <div class="product" id="product" >
+        <img src="assests/shoe.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle" >  SPARX</h1>
+            <h2 class="productPrice">$199</h2>
+            <p class="productDesc">Lorem ipsum dolor sit amet consectetur impal adipisicing elit. Alias assumenda
+                dolorum
+                doloremque sapiente aliquid aperiam.</p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+            <button class="productButton">BUY NOW !</button>
+        </div>
+        <div class="payment" >
+            <h1 class="payTitle">Personal Information</h1>
+            <label>Name and Surname</label>
+            <input type="text" placeholder="John Doe" class="payInput">
+            <label>Phone Number</label>
+            <input type="text" placeholder="+1 234 5678" class="payInput" >
+            <label>Address</label>
+            <input type="text" placeholder="Elton St 21 22-145" class="payInput">
+            <h1 class="payTitle">Card Information</h1>
+            <input type="password" class="payInput" placeholder="Card Number" >
+            <div class="cardInfo" >
+                <input type="text" placeholder="mm" class="payInput sm">
+                <input type="text" placeholder="yyyy" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton" >Checkout !</button>
+            <span class="close">X</span>
+        </div>
+    </div>
+
+    <div class="gallery" >
+        <div class="galleryItem">
+            <h1 class="galleryTitle" >Be Aggresive!!!!!</h1>
+            <img src="assests/people.jpg"
+                alt="" class="galleryImg">
+        </div>
+        <div class="galleryItem">
+            <img src="assests/people2.jpg"
+                alt="" class="galleryImg">
+            <h1 class="galleryTitle">This is the Beginning Day of Your New Life</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Go For It!!!!</h1>
+            <img src="assests/people3.jpg"
+                alt="" class="galleryImg">
+        </div>
+    </div>
+
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="assests/shoe6.jpg"
+                alt="" class="nsImg">
+        </div>
+        <div class="nsItem">
+            <h3 class="nsTitleSm">TRENDS NEW ARRIVALS</h3>
+            <h1 class="nsTitle">New Collection</h1>
+            <h1 class="nsTitle">New Trend</h1>
+            <a href="#nav">
+                <button class="nsButton">CHOOSE YOUR STYLE</button>
+            </a>
+        </div>
+        <div class="nsItem">
+            <img src="assests/shoe7.png"
+                alt="" class="nsImg">
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft" >
+            <div class="footerMenu" >
+                <h1 class="fMenuTitle">About Us</h1>
+                <ul class="fList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Carrers</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu" >
+                <h1 class="fMenuTitle">Useful Links</h1>
+                <ul class="fList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                </ul>
+            </div><div class="footerMenu" >
+                <h1 class="fMenuTitle">Products</h1>
+                <ul class="fList">
+                    <li class="fListItem">BATA</li>
+                    <li class="fListItem">SKECHERS</li>
+                    <li class="fListItem">WOODLAND</li>
+                    <li class="fListItem">PUMA</li>
+                    <li class="fListItem">SPARX</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight" >
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle" >Subscribe to our Newsletter</h1>
+                <div class="fMail" >
+                    <input type="text" placeholder="your@email.com" class="fInput" >
+                    <button class="fButton" >Join!</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+                <div class="fIcons">
+                    <img src="assests/facebook.png" alt="" class="fIcon">
+                    <img src="assests/twitter.png" alt="" class="fIcon">
+                    <img src="assests/instagram.png" alt="" class="fIcon">
+                    <img src="assests/whatsapp.png" alt="" class="fIcon">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
