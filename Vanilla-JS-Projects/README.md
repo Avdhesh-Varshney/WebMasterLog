@@ -52,6 +52,7 @@
 |  25   | [Ceaser-Cipher](./Intermediate/Ceaser-Cipher/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  26   | [Email-Subscription-form-with-google-sheet](./Intermediate/Email-Subscription-form-with-google-sheet/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  27   | [Dictonary-App](./Basic/Dictonary-App/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  28   | [Typing-Test](./Advanced/Typing-Test/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 </div>
 
 
