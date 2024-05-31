@@ -64,19 +64,26 @@ To run the application follow these steps:
 ## :zap: Screenshots 📸
 
 - Web page user interface
-  ![web-page-demo](image.png)
+  ![image](https://github.com/Rags-Mishra/WebMasterLog/assets/83007531/de0c3993-0667-430f-9cd4-165896d6aebf)
+
 - Input type
-  ![example-url](image-1.png)
+  ![image](https://github.com/Rags-Mishra/WebMasterLog/assets/83007531/7ae0ba32-b10e-46a9-82c9-23ddda637644)
+
 - Scraped information
-  ![scraped-text](image-2.png)
+  ![image](https://github.com/Rags-Mishra/WebMasterLog/assets/83007531/59a6cc2f-128b-4c89-bd10-29f59493938e)
+
 - When in case of invalid input
-  ![invalid-url](image-3.png)
+  ![image](https://github.com/Rags-Mishra/WebMasterLog/assets/83007531/59302317-1cf6-4b46-9498-fb3d6926e8fc)
+
 - Error message gets displayed for invalid URL
-  ![error-message](image-4.png)
+  ![image](https://github.com/Rags-Mishra/WebMasterLog/assets/83007531/05876f9f-6c31-48c8-bd4b-07f7aaf23171)
+
 - When in case of an unsafe site
-  ![unsafe-site](image-5.png)
+  ![image](https://github.com/Rags-Mishra/WebMasterLog/assets/83007531/bd43d8dd-9b13-4e41-a297-b4e902b3f6b0)
+
 - Error is displayed for the invalid site
-  ![invalid-url](image-6.png)
+  ![image](https://github.com/Rags-Mishra/WebMasterLog/assets/83007531/f9613b79-f652-47e8-a26d-3b278e63ecad)
+
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
