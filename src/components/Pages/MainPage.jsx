@@ -66,13 +66,14 @@ const MainPage = (props) => {
         Advanced: "red",
         All: "#1E90FF",
       };
-      dropdown.style.backgroundColor = colorMap[tag] || "blue";
+      dropdown.style.border = '1px solid '+colorMap[tag] || "blue";
+      dropdown.style.color = colorMap[tag] || "blue";
     }
   }, [tag]);
 
   return (
     <>
-      <h1 className='text-end my-2 mx-3'>{`${getName(category)} Projects`}</h1>
+      <h1 className='text-end my-2 mx-2'>{`${getName(category)} Projects`}</h1>
       <div className="button-group justify-content-end my-2 mx-3">
         <button type="button" className={`btn btn${tag !== 'Basic'? '-outline': ''}-success mx-1`} onClick={() => handleTagClick('Basic')}>Easy</button>
         <button type="button" className={`btn btn${tag !== 'Intermediate'? '-outline': ''}-warning mx-1`} onClick={() => handleTagClick('Intermediate')}>Medium</button>
