@@ -1,24 +1,63 @@
+
 footer {
   position: fixed;
-  background-color: black;
+  background-color: rgb(15, 15, 17);
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 8px;
-  text-align: center;
   width: 100%;
-
-  border-top: 2px solid white;
+  padding: 16px;
+  text-align: center;
+  border-top: 1px solid silver;
 }
-.social-section {
+.foot-left h1{
+  color: rgb(162, 112, 208);
+}
+.foot{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  text-align: left;
+}
+.foot-left{
+  width: 50%;
+}
+p{
+  text-align: justify;
+}
+.social{
+  margin-top: 80px;
+}
+.social-section{
+  margin-top: 20px;
 }
 .social ul li {
   display: inline;
-  padding-left: 30px;
+  margin: 10px 10px; 
 }
-.shoutout {
-  padding-right: 5px;
+.social ul li:hover svg {
+  fill: hsl(184, 41%, 36%); 
+}
+.row-flex {
+  text-align: right;
+}
+input[type="email"] {
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 300px;
+}
+
+input[type="submit"] {
+  padding: 8px 16px;
+  border: none;
+  background-color: hsl(184, 41%, 56%);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: hsl(184, 41%, 46%);
 }
