@@ -55,7 +55,7 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-![FoodRecipe](https://raw.githubusercontent.com/AmrutaJayanti/WebMasterLog/main/Vanilla-JS-Projects/Basic/Food-Recipe-Finder/screenshot.webp)
+![MarkdownPreviewer](https://raw.githubusercontent.com/AmrutaJayanti/WebMasterLog/MarkDown/Vanilla-JS-Projects/Advanced/Markdown-Previewer/Screenshot.webp)
 
 
 
