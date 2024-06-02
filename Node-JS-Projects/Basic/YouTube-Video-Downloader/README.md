@@ -75,6 +75,6 @@
   </a>
 </p>
 
-<h4 align='center'>Happy Coding 👦h4>
+<h4 align='center'>Happy Coding 👦</h4>
 
 <h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
