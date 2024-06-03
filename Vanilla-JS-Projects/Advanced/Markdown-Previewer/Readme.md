@@ -55,8 +55,7 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-![MarkdownPreviewer](https://raw.githubusercontent.com/AmrutaJayanti/WebMasterLog/MarkDown/Vanilla-JS-Projects/Advanced/Markdown-Previewer/Screenshot.webp)
-
+![MarkdownPreviewer](https://raw.githubusercontent.com/AmrutaJayanti/WebMasterLog/MarkDown/Vanilla-JS-Projects/Advanced/Markdown-Previewer/screenshot.webp)
 
 
 
