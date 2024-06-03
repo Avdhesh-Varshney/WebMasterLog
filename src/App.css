@@ -1,0 +1,24 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* The app-container takes full height minus the footer height */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content will take the remaining space */
+.main-content {
+  flex: 1;
+  padding: 20px; /* Optional: Add padding to the main content */
+}
+
+.main-page{
+  display: flex;
+}

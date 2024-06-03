@@ -1,14 +1,12 @@
 
 footer {
-  position: fixed;
+  display: block;
   background-color: rgb(15, 15, 17);
-  bottom: 0;
-  left: 0;
-  right: 0;
   width: 100%;
-  padding: 16px;
+  padding-top: 10px;
   text-align: center;
   border-top: 1px solid silver;
+  /* height: 25%; */
 }
 .foot-left h1{
   color: rgb(162, 112, 208);
@@ -26,7 +24,7 @@ p{
   text-align: justify;
 }
 .social{
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .social-section{
   margin-top: 20px;
@@ -40,6 +38,9 @@ p{
 }
 .row-flex {
   text-align: right;
+  display: inline-block;
+  position: inherit;
+  right: 20px;
 }
 input[type="email"] {
   padding: 8px;

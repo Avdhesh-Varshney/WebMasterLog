@@ -11,9 +11,11 @@
 }
 
 .sidebar {
+    display: block;
+    height: 100vh;
     background: #12151e;
     color: #6c7293;
-    height: 100%;
+    padding: 10px 0;
     overflow-y: auto;
 }
 
@@ -56,10 +58,10 @@
 }
 
 .routes {
-    margin-top: 15px;
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
 }
 
 .link {
