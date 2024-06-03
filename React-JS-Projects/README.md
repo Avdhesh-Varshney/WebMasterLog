@@ -29,6 +29,7 @@
 |   2   | [To Do List](./Basic/ToDo-List) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   3   | [Weather App](./Basic/Weather-App) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   4   | [Cryptocurrency Finder](./Intermediate/Cryptocurrency-Finder/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   5   | [QR Code Generator](./Advanced/Qr-Code-Generator/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 
 
 </div>
