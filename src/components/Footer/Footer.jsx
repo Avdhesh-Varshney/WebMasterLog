@@ -5,8 +5,10 @@ const Footer = () => {
   return (
     <footer>
        <div className="row-flex">
+        <form action="/" method="post">
           <input type="email" placeholder="EMAIL ADDRESS" name="email" required />
           <input type="submit" placeholder="SUBSCRIBE" name="subscribe"  value="SUBSCRIBE" required />
+        </form>
         </div>
         <div className="foot">
           <div className="foot-left">
