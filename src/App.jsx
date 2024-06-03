@@ -15,20 +15,22 @@ function App() {
   const [progress, setProgress] = useState(0);
 
   return (
-    <div>
+    <div className='app-container'>
       <Router>
         <SideBar routes={routes}>
           <LoadingBar height={3} color='#f11946' progress={progress} />
+          <div className="main-container">
 
-          <Routes>
-            {categories.map((category) => {
-              return <Route key={category} exact path={`/${category}`} element={<MainPage setProgress={setProgress} key={category} category={category} routes={routes} />} />;
-            })}
-          </Routes>
+            <Routes>
+              {categories.map((category) => {
+                return <Route key={category} exact path={`/${category}`} element={<MainPage className='main-page' setProgress={setProgress} key={category} category={category} routes={routes} />} />;
+              })}
+            </Routes>
+          </div>
         </SideBar>
 
       </Router>
-      <Footer/>
+      {/* <Footer /> */}
     </div>
   );
 }
