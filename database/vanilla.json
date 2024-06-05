@@ -93,5 +93,10 @@
 		"tag": "Basic",
 		"title": "Stopwatch",
 		"description": "The project is a sleek and efficient stopwatch application built using HTML, CSS, and JavaScript."
+	},
+	{
+		"tag": "Basic",
+		"title": "RGB-Color-Slider",
+		"description" :"RGB Color Slider takes the input from the user and renders the color"
 	}
 ]
