@@ -5,6 +5,11 @@
 		"description": "Cryptocurrency Finder is a React-JS project which displays different crypto coins using API."
 	},
 	{
+		"tag": "Advanced",
+		"title": "QR Code Generator",
+		"description": "This is React JS project which generates QR code to open the website when url is entered and also it can be downloaded."
+	},
+	{
 		"tag": "Basic",
 		"title": "To Do List",
 		"description": "To do list provide all the CRUD operations to the user. Help to keep their notes on the website temporary."
