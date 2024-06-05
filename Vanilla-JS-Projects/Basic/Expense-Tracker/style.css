@@ -6,7 +6,6 @@ body {
     background-size: cover;
     image-resolution: 2000px;
 } 
-
 .container { 
 	max-width: 800px; 
 	margin: 0 auto; 
@@ -16,18 +15,15 @@ body {
     backdrop-filter: blur(30px);
     border: 2px solid rgba(255,255,255,0.18);
 } 
-
 h1 { 
 	text-align: center; 
 	margin-bottom: 20px; 
 } 
-
 form { 
 	display: flex; 
 	justify-content: center; 
 	margin-bottom: 20px; 
 } 
-
 input[type="text"], 
 input[type="number"] { 
 	padding: 10px; 
@@ -37,12 +33,10 @@ input[type="number"] {
     width: 250px;
     margin-right: 10px;
 } 
-
 input[type="text"]::placeholder, 
 input[type="number"]::placeholder { 
 	color: #999; 
 } 
-
 button { 
 	padding: 10px 20px; 
 	background-color: #4caf50; 
@@ -51,39 +45,32 @@ button {
 	border-radius: 4px; 
 	cursor: pointer; 
 } 
-
 button:hover { 
 	background-color: #45a049; 
 } 
-
 .expense-table { 
 	border: 1px solid #ddd; 
 	border-radius: 8px; 
 	overflow: hidden; 
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 } 
-
 table { 
 	width: 100%; 
 	border-collapse: collapse; 
 } 
-
 thead th { 
 	background-color: #f2f2f2; 
 	padding: 10px; 
 	text-align: left; 
 } 
-
 tbody td { 
 	padding: 10px; 
 	border-top: 1px solid #ddd; 
 } 
-
 .delete-btn { 
 	color: red; 
 	cursor: pointer; 
 } 
-
 .total-amount { 
 	padding: 10px; 
 	text-align: right; 
