@@ -52,7 +52,7 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-
+![RGBColor](https://raw.githubusercontent.com/AmrutaJayanti/WebMasterLog/main/Vanilla-JS-Projects/Basic/RGB-Color-Slider/screenshot.webp)
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
