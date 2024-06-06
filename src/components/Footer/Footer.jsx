@@ -7,12 +7,12 @@ const Footer = () => {
        <div className="row-flex">
         <form action="/" method="post">
           <input type="email" placeholder="EMAIL ADDRESS" name="email" required />
-          <input type="submit" placeholder="SUBSCRIBE" name="subscribe"  value="SUBSCRIBE" required />
+          <input type="submit" placeholder="SUBSCRIBE" name="subscribe"  value="SUBSCRIBE" id="Ui" required />
         </form>
         </div>
         <div className="foot">
           <div className="foot-left">
-          <h1>Web Master Log</h1>
+          <h1 id="Ui">Web Master Log</h1>
           <p>WebMasterLog serves as a comprehensive record of various web development endeavors,
             highlighting the versatility and capabilities of projects built with Front-end and Back-end 
             Web development technologies. From interactive and responsive user interfaces to dynamic web 

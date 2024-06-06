@@ -43,7 +43,7 @@ const showAnimation = {
 const SideBar = ({ routes, children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-
+  const [modes,setModes]=useState("Dark")
   useEffect(() => {
     const currentCategory = getCurrentCategory();
     const scrollbarColor = getScrollbarColor(currentCategory);
@@ -94,6 +94,16 @@ const SideBar = ({ routes, children }) => {
 
   const toggle = () => setIsOpen(!isOpen);
 
+  const modes_control=()=>{
+    document.body.classList.toggle('light')
+    if(document.body.classList.contains('light')){
+      setModes("Light")
+    }
+    else{
+      setModes("Dark")
+    }
+  }
+  console.log(modes)
   return (
     <>
       <div className='main-container'>
@@ -140,6 +150,7 @@ const SideBar = ({ routes, children }) => {
                     setIsOpen={setIsOpen}
                     routes={routes} // Pass the routes prop here
                   />
+
                 );
               }
 
@@ -158,7 +169,11 @@ const SideBar = ({ routes, children }) => {
                 </NavLink>
               );
             })}
-          </section>
+            <div className={isOpen?"opened_menu_bar":'Dark_Light_mode'} onClick={()=>modes_control()}>
+            <img  src='https://cdn-icons-png.flaticon.com/128/12301/12301351.png' alt='Dark_light_mode' />
+            {isOpen?<p>{modes}</p>:<></>}
+            </div>
+            </section>
         </motion.div>
 
         <main style={{ marginLeft: 'auto', transition: 'all 0.3s' }}>{children}</main>

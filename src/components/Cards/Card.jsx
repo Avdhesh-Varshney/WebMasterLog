@@ -24,11 +24,11 @@ const Card = (props) => {
 				<p className="card-text">{description}</p>
 
 				<a href={sourceLink} className="btn btn-dark m-1" style={{ fontSize: '1.3rem' }}title="View Code">
-					<FaGithub />
+					<FaGithub id='svg' />
 				</a>
 
 				{(tech !== 'Vanilla-JS-Projects' && tech !== 'Front-end-Projects')? '' : <button className="btn btn-dark m-1" style={{ fontSize: '1.2rem', color: 'white' }} onClick={handleProjectClick} title="View Project">
-					<BiSolidZap />
+					<BiSolidZap id='svg' />
 				</button>}
 			</div>
 		</div>
