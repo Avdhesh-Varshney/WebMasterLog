@@ -67,7 +67,10 @@
   }
 }
 
-
-.dropdown select{
+.dropdown select {
   background: none;
+}
+
+.pl-5 {
+  padding-left: 75px;
 }

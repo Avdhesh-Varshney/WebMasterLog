@@ -1,4 +1,3 @@
-
 footer {
   display: block;
   background-color: rgb(15, 15, 17);
@@ -6,35 +5,36 @@ footer {
   padding-top: 10px;
   text-align: center;
   border-top: 1px solid silver;
+  flex-wrap: wrap;
   /* height: 25%; */
 }
-.foot-left h1{
+.foot-left h1 {
   color: rgb(162, 112, 208);
 }
-.foot{
+.foot {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   text-align: left;
 }
-.foot-left{
+.foot-left {
   width: 50%;
 }
-p{
+p {
   text-align: justify;
 }
-.social{
+.social {
   margin-top: 50px;
 }
-.social-section{
+.social-section {
   margin-top: 20px;
 }
 .social ul li {
   display: inline;
-  margin: 10px 10px; 
+  margin: 10px 10px;
 }
 .social ul li:hover svg {
-  fill: hsl(184, 41%, 36%); 
+  fill: hsl(184, 41%, 36%);
 }
 .row-flex {
   text-align: right;

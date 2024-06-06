@@ -66,21 +66,48 @@ const MainPage = (props) => {
         Advanced: "red",
         All: "#1E90FF",
       };
-      dropdown.style.border = '1px solid '+colorMap[tag] || "blue";
+      dropdown.style.border = "1px solid " + colorMap[tag] || "blue";
       dropdown.style.color = colorMap[tag] || "blue";
     }
   }, [tag]);
 
   return (
-    <div className="">
-      <h1 className='text-end my-2 mx-2'>{`${getName(category)} Projects`}</h1>
+    <div className="pl-5">
+      <p className="text-end my-2 mx-2">{`${getName(category)} Projects`}</p>
       <div className="button-group justify-content-end my-2 mx-3">
-        <button type="button" className={`btn btn${tag !== 'Basic'? '-outline': ''}-success mx-1`} onClick={() => handleTagClick('Basic')}>Easy</button>
-        <button type="button" className={`btn btn${tag !== 'Intermediate'? '-outline': ''}-warning mx-1`} onClick={() => handleTagClick('Intermediate')}>Medium</button>
-        <button type="button" className={`btn btn${tag !== 'Advanced'? '-outline': ''}-danger mx-1`} onClick={() => handleTagClick('Advanced')}>Hard</button>
-        <button type="button" className={`btn btn${tag !== 'All'? '-outline': ''}-info mx-1`} onClick={() => handleTagClick('All')}>All</button>
+        <button
+          type="button"
+          className={`btn btn${tag !== "Basic" ? "-outline" : ""}-success mx-1`}
+          onClick={() => handleTagClick("Basic")}
+        >
+          Easy
+        </button>
+        <button
+          type="button"
+          className={`btn btn${
+            tag !== "Intermediate" ? "-outline" : ""
+          }-warning mx-1`}
+          onClick={() => handleTagClick("Intermediate")}
+        >
+          Medium
+        </button>
+        <button
+          type="button"
+          className={`btn btn${
+            tag !== "Advanced" ? "-outline" : ""
+          }-danger mx-1`}
+          onClick={() => handleTagClick("Advanced")}
+        >
+          Hard
+        </button>
+        <button
+          type="button"
+          className={`btn btn${tag !== "All" ? "-outline" : ""}-info mx-1`}
+          onClick={() => handleTagClick("All")}
+        >
+          All
+        </button>
       </div>
-
 
       <div className="dropdown">
         <select
@@ -90,7 +117,9 @@ const MainPage = (props) => {
           <option value="Basic">Easy</option>
           <option value="Intermediate">Medium</option>
           <option value="Advanced">Hard</option>
-          <option value="All" selected>All</option>
+          <option value="All" selected>
+            All
+          </option>
         </select>
       </div>
       <ProjectCards projectsData={filteredData} tech={getTech(category)} />
