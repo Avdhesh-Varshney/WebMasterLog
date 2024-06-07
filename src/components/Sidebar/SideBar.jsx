@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
-import { NavLink, useLocation } from 'react-router-dom';
-import SideBarMenu from './SideBarMenu';
-import './sidebar.css';
+import React, { useState, useEffect } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { NavLink, useLocation } from "react-router-dom";
+import SideBarMenu from "./SideBarMenu";
+import "./sidebar.css";
 
-import { FaBars } from 'react-icons/fa';
-import { BiSearch } from 'react-icons/bi';
+import { FaBars } from "react-icons/fa";
+import { BiSearch } from "react-icons/bi";
 
 const inputAnimation = {
   hidden: {
@@ -16,8 +16,8 @@ const inputAnimation = {
     },
   },
   show: {
-    width: '140px',
-    padding: '5px 15px',
+    width: "140px",
+    padding: "5px 15px",
     transition: {
       duration: 0.2,
     },
@@ -33,7 +33,7 @@ const showAnimation = {
   },
   show: {
     opacity: 1,
-    width: 'auto',
+    width: "auto",
     transition: {
       duration: 0.5,
     },
@@ -58,27 +58,27 @@ const SideBar = ({ routes, children }) => {
 
   const getScrollbarColor = (currentPath) => {
     switch (currentPath) {
-      case '/angular':
-        return '#eb0d0d';
-      case '/frontend':
-        return '#6cd380';
-      case '/next':
-        return '#68bf6f';
-      case '/node':
-        return 'green';
-      case '/react':
-        return 'blue';
-      case '/vanilla':
-        return '#ffd700';
-      case '/vue':
-        return 'green';
+      case "/angular":
+        return "#eb0d0d";
+      case "/frontend":
+        return "#6cd380";
+      case "/next":
+        return "#68bf6f";
+      case "/node":
+        return "green";
+      case "/react":
+        return "blue";
+      case "/vanilla":
+        return "#ffd700";
+      case "/vue":
+        return "green";
       default:
-        return 'blue';
+        return "blue";
     }
   };
 
   const applyScrollbarColor = (color) => {
-    const style = document.createElement('style');
+    const style = document.createElement("style");
     style.textContent = `
       ::-webkit-scrollbar-thumb {
         background: ${color};
@@ -96,39 +96,54 @@ const SideBar = ({ routes, children }) => {
 
   return (
     <>
-      <div className='main-container'>
+      <div className="main-container">
         <motion.div
           animate={{
-            width: isOpen ? '200px' : '75px',
-            position: 'fixed',
-            transition: { duration: 0.5, type: 'spring', damping: 10 },
+            width: isOpen ? "200px" : "75px",
+            position: "fixed",
+            transition: { duration: 0.5, type: "spring", damping: 10 },
           }}
           className={`sidebar`}
         >
-          <div className='top_section d-lg-flex align-items-center justify-content-center'>
+          <div className="top_section d-lg-flex align-items-center justify-content-center">
             <AnimatePresence>
               {isOpen && (
-                <motion.h1 variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='logo'>
+                <motion.h1
+                  variants={showAnimation}
+                  initial="hidden"
+                  animate="show"
+                  exit="hidden"
+                  className="logo"
+                >
                   WebMasterLog
                 </motion.h1>
               )}
             </AnimatePresence>
 
-            <div className='bars flex-grow d-flex align-items-stretch align-self-center'>
+            <div className="bars flex-grow d-flex align-items-stretch align-self-center">
               <FaBars onClick={toggle} />
             </div>
           </div>
 
-          <div className='search'>
-            <div className='search_icon circle'>
+          <div className="search">
+            <div className="search_icon circle">
               <BiSearch />
             </div>
             <AnimatePresence>
-              {isOpen && <motion.input initial='hidden' animate='show' exit='hidden' variants={inputAnimation} type='text' placeholder='Search' />}
+              {isOpen && (
+                <motion.input
+                  initial="hidden"
+                  animate="show"
+                  exit="hidden"
+                  variants={inputAnimation}
+                  type="text"
+                  placeholder="Search"
+                />
+              )}
             </AnimatePresence>
           </div>
 
-          <section className='routes'>
+          <section className="routes">
             {routes.map((route, index) => {
               if (route.subRoutes) {
                 return (
@@ -144,13 +159,24 @@ const SideBar = ({ routes, children }) => {
               }
 
               return (
-                <NavLink to={route.path} key={index} className='link' activeClassName='active'>
-                  <div className='circle'>
-                    <div className='icon'>{route.icon}</div>
+                <NavLink
+                  to={route.path}
+                  key={index}
+                  className="link"
+                  activeClassName="active"
+                >
+                  <div className="circle">
+                    <div className="icon">{route.icon}</div>
                   </div>
                   <AnimatePresence>
                     {isOpen && (
-                      <motion.div variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='link_text'>
+                      <motion.div
+                        variants={showAnimation}
+                        initial="hidden"
+                        animate="show"
+                        exit="hidden"
+                        className="link_text"
+                      >
                         {route.name}
                       </motion.div>
                     )}
@@ -161,7 +187,9 @@ const SideBar = ({ routes, children }) => {
           </section>
         </motion.div>
 
-        <main style={{ marginLeft: 'auto', transition: 'all 0.3s' }}>{children}</main>
+        <main style={{ marginLeft: "auto", transition: "all 0.3s" }}>
+          {children}
+        </main>
       </div>
     </>
   );
