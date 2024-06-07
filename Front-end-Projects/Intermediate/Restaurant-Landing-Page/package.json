@@ -1,0 +1,22 @@
+{
+  "name": "restaurant-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "your-start-script",
+    "build": "your-build-script"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.3",
+    "bootstrap-icons": "1.11.3",
+    "aos": "2.3.4",
+    "glightbox": "3.3.0",
+    "swiper": "11.0.5",
+    "isotope-layout": "^3.0.6",
+    "imagesloaded": "^5.0.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+}
