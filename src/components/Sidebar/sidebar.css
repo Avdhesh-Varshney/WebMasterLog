@@ -6,7 +6,7 @@
 .light{filter: invert(1);}
 .light img,.light svg,.light .button-group button,.light #Ui{filter: invert(1);}
 .light #svg{filter: invert(0%);}
-.main-container {
+.main-container{
   display: flex;
   background-color: black;
   color: white;
