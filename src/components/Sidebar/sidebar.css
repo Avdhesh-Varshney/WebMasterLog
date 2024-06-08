@@ -13,6 +13,7 @@
 }
 
 .sidebar {
+    z-index: 100;
     display: block;
     height: 100vh;
     background: #12151e;
