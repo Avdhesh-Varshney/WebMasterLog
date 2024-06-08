@@ -55,7 +55,9 @@
 |  28   | [Typing-Test](./Advanced/Typing-Test/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |  29   | [RGB-Color-Slider](./Basic/RGB-Color-Slider/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  30   | [Expense Tracker](./Basic/Expense-Tracker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge)  |
-|  31   | [Quote-Generator](./Basic/Quote-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge)  |
+|  31    | [CSS Art Gallery](./Basic/CSS-Art-Gallery) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge)  |
+|  32   | [Quote-Generator](./Basic/Quote-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge)  |
+
 </div>
 
 
