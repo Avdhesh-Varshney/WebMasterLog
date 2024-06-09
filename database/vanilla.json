@@ -105,8 +105,15 @@
 		"description" :"RGB Color Slider takes the input from the user and renders the color"
 	},
 	{
+
 		"tag": "Intermediate",
 		"title": "Social-Media-Analytics",
 		"description" :"This project takes your input screen time and tracks which app has been used more"
+  },
+  {
+		"tag": "Basic",
+		"title": "CSS Art Gallery",
+		"description" :"CSS Art Gallery showcases the art developed by CSS"
+
 	}
 ]
