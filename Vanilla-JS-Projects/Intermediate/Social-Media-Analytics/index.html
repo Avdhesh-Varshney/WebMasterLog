@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Social Media Analytics</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-custom text-center">
+        <div>
+            <h1>SOCIAL MEDIA ANALYTICS</h1>
+            <p>Worried About Screen Time!</p>
+        </div>
+    </div>
+
+    <div class="container form-container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form id="screen-time-form">
+                    <div class="form-group">
+                        <label for="insta"><i class="fab fa-instagram"></i> Instagram Screen Time (minutes)</label>
+                        <input type="number" class="form-control" placeholder="Enter your Instagram screen time" id="insta-time">
+                    </div>
+                    <div class="form-group">
+                        <label for="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp Screen Time (minutes)</label>
+                        <input type="number" class="form-control" placeholder="Enter your WhatsApp screen time" id="whatsapp-time">
+                    </div>
+                    <div class="form-group">
+                        <label for="twitter"><i class="fab fa-twitter"></i> Twitter Screen Time (minutes)</label>
+                        <input type="number" class="form-control" placeholder="Enter your Twitter screen time" id="twitter-time">
+                    </div>
+                    <div class="form-group">
+                        <label for="youtube"><i class="fab fa-youtube"></i> YouTube Screen Time (minutes)</label>
+                        <input type="number" class="form-control" placeholder="Enter your YouTube screen time" id="youtube-time">
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="addData()">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <canvas id="screen-time-chart" width="400" height="400"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src=".\js\index.js"></script>
+</body>
+</html>
