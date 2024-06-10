@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./src/App.css" rel="stylesheet">
+  <title>Resume Builder</title>
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center">Resume Builder</h2>
+    <form>
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="linkin">LinkedIn URL</label>
+        <input type="url" class="form-control" id="linkedin" placeholder="Enter your LinkedIn URL" required>
+      </div>
+      <div class="form-group">
+        <label for="github">Github URL</label>
+        <input type="url" class="form-control" id="github" placeholder="Enter your Github URL" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" class="form-control" id="phone" placeholder="Enter your phone number" required>
+      </div>
+      <div class="form-group">
+        <label for="summary">Professional Summary</label>
+        <textarea class="form-control" id="summary" rows="3" placeholder="Write a brief summary about yourself" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="experience">Work Experience</label>
+        <textarea class="form-control" id="experience" rows="3" placeholder="Detail your work experience" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="education">Education</label>
+        <textarea class="form-control" id="education" rows="3" placeholder="List your educational qualifications" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="skills">Skills</label>
+        <textarea class="form-control" id="skills" rows="3" placeholder="List your Skills" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block" onclick="generateResume()">Generate Resume</button>
+    </form>
+  </div>
+  <script src="./src/index.js"></script>
+</body>
+</html>
