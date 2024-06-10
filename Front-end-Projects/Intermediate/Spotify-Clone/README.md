@@ -45,9 +45,9 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-<img src="screenshot 1.png">
-<img src="screenshot 2.png">
-<img src="screenshot 3.png">
+<img src="screenshot 1.webp">
+<img src="screenshot 2.webp">
+<img src="screenshot 3.webp">
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
