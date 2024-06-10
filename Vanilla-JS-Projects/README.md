@@ -58,6 +58,7 @@
 |  31    | [CSS Art Gallery](./Basic/CSS-Art-Gallery) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge)  |
 |  32   | [Quote-Generator](./Basic/Quote-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge)  |
 | 33   |  [Social Media Analytics](./Intermediate/Social-Media-Analytics/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
+|  34   | [Virtual Piano](./Basic/Virtual-Piano) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 </div>
 
 

@@ -108,5 +108,10 @@
 		"tag": "Basic",
 		"title": "CSS Art Gallery",
 		"description" :"CSS Art Gallery showcases the art developed by CSS"
+	},
+	{
+		"tag": "Basic",
+		"title": "Virtual Piano",
+		"description" :"Virtual Piano enables users to play a digital piano with adjustable volumes, providing a customizable and interactive musical experience."
 	}
 ]
