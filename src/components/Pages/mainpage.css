@@ -58,6 +58,10 @@
   color: #fff;
 }
 
+.page-main-container {
+  padding-left: 75px;
+}
+
 @media (max-width: 768px) {
   .button-group {
     display: none;
@@ -67,7 +71,6 @@
   }
 }
 
-
-.dropdown select{
+.dropdown select {
   background: none;
 }

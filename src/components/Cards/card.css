@@ -46,11 +46,33 @@
   .projectsCard {
     max-width: 88%;
   }
+
 }
 
 @media (max-width: 1000px) {
   .projectsCard {
     max-width: 75%;
+=======
+  
+  .card:hover {
+    border-color: white; 
+    transform: scale(1.05);
+  }
+
+  .card-container{
+    min-width: 360px;
+  }
+  
+  @media (max-width: 1400px) {
+    .projectsCard {
+      max-width: 88%;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .projectsCard {
+      max-width: 75%;
+    }
   }
 }
 
@@ -58,4 +80,14 @@
   .projectsCard {
     max-width: 65%;
   }
+
 }
+=======
+
+  @media (max-width: 426px) {
+    .card-container{
+      min-width: 300px;
+    }
+    
+  }
+  

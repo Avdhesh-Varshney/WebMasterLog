@@ -1,22 +1,22 @@
-## Pull Request for WebMasterLog 💡
+Closes: <!-- #issue-number  -->
 
-### Issue Title: <!-- Enter the issue title here -->
-
-- **Name of the project** : <!-- What's the name of the project -->
-- **Category:** <!-- Category of the project: Angular, CSS, Front-end, NextJS, NodeJS, React, Vanilla, VueJS, Documentation, etc. -->
-- **Name:** <!--Mention Your name-->
-- **GitHub ID:** <!-- Mention your GitHub ID -->
-- **Idenitfy yourself:** <!-- Mention your role (like GSOC, GSSOC, SSOC, etc. Contributor) -->
+- **Title** : 
+- **Name:** : <!--Mention Your name-->
+- **Idenitfy yourself:** : <!-- Mention your role (like GSSOC, SSOC, JWOC, etc. Contributor) -->
 
 
 <!-- Mention the following details and these are mandatory -->
 
-Closes: <!-- #issue number  -->
-
-
 ### Describe the add-ons or changes you've made 📃
 
-Give a clear description of what have you added or modifications made
+
+### How Has This Been Tested? ⚙️
+<!-- Describe how it has been tested
+Describe how have you verified the changes made -->
+
+
+### Screenshots 📷
+<!-- Must add the screenshot of the project or your changes for review your pr -->
 
 
 ### Type of change ☑️
@@ -32,11 +32,6 @@ Example how to mark a checkbox:-
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
-### How Has This Been Tested? ⚙️
-<!-- Describe how it has been tested
-Describe how have you verified the changes made -->
-
-
 
 ### Checklist: ☑️
 <!--
@@ -50,10 +45,5 @@ Example how to mark a checkbox:-
 - [ ] My changes generate no new warnings.
 
 
-### Screenshots 📷
-<!-- Must add the screenshot of the project or your changes for review your pr -->
-
-
 ### Note to reviewers 📄
 <!-- Add notes to reviewers if applicable -->
-
