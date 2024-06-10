@@ -1,11 +1,17 @@
-import React from 'react'
-
+import React from "react";
+import Footer from "../Footer/Footer";
 const Dashboard = () => {
-	return (
-		<>
-			<h1 className='text-end my-2 mx-3'>WEB MASTER LOG</h1>
-		</>
-	)
-}
+  return (
+    <>
+      <div>
+        <h1 className="text-end my-2 mx-3">WEB MASTER LOG</h1>
 
-export default Dashboard
+        <br />
+
+        <Footer />
+      </div>
+    </>
+  );
+};
+
+export default Dashboard;
