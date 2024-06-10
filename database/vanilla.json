@@ -103,5 +103,10 @@
 		"tag": "Basic",
 		"title": "RGB-Color-Slider",
 		"description" :"RGB Color Slider takes the input from the user and renders the color"
+	},
+	{
+		"tag": "Basic",
+		"title": "CSS Art Gallery",
+		"description" :"CSS Art Gallery showcases the art developed by CSS"
 	}
 ]

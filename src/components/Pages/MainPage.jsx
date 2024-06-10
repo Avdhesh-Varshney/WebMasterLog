@@ -72,7 +72,7 @@ const MainPage = (props) => {
   }, [tag]);
 
   return (
-    <div className="">
+    <div className="page-main-container">
       <h1 className='text-end my-2 mx-2'>{`${getName(category)} Projects`}</h1>
       <div className="button-group justify-content-end my-2 mx-3">
         <button type="button" className={`btn btn${tag !== 'Basic'? '-outline': ''}-success mx-1`} onClick={() => handleTagClick('Basic')}>Easy</button>
