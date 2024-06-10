@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥 Product-Landing-Page💥</b></h1>
+<h1 align='center'><b>💥 Apple Clone 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -20,7 +20,7 @@
 ## :zap: Description 📃
 
 <div>
-  <p>This project is a simple HTML and CSS implementation of a Product Landing Page. It aims to showcase the product in front of the customer in other to get maximum number of user engagement. This project Showcases the power of HTML and CSS.</p>
+  <p>This project is a simple HTML and CSS implementation of a Apple IPhone 15 website clone. It aims to replicate the basic structure and styling of the popular entertaining website IPhone 15.This project Showcases the power of HTML and CSS.</p>
 </div>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
@@ -33,7 +33,7 @@
 1. Fork the repository.
 
 2. Clone the repository to your local machine:
-    git clone https://github.com/your-username/Product-Landing-Page.git
+    git clone https://github.com/your-username/Amazon-Prime-Clone.git
 
 3. Open the project folder in your preferred code editor, now you can view website in live.
 
@@ -45,9 +45,7 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-<img src="screenshot.webp">
-<img src="screenshot2.webp">
-<img src="screenshot3.webp">
+<img src='./screenshot.webp'>
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
