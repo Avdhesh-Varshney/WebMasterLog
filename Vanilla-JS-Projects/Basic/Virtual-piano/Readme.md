@@ -43,8 +43,9 @@
 ## :zap: How to run it? 🕹️
 
 <!-- Add steps how to run this project -->
-- Fork this project and run the `index.html` file directly.
-
+- Clone this repository.
+- Navigate to this project directory
+- Run the `index.html` file. 
 
 
 
@@ -53,7 +54,7 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-
+![img](./output.png)
 
 
 
