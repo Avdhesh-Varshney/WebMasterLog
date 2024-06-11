@@ -21,6 +21,7 @@
     padding: 10px 0;
     overflow-y: auto;
     position: relative;
+    z-index: 2;
 }
 .Dark_Light_mode,.opened_menu_bar{
     position: absolute;
