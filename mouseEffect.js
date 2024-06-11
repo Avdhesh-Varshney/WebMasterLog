@@ -1,3 +1,5 @@
+
+//Here i changes the things for adding glowing effect
 document.addEventListener('mousemove', function(event) {
   const ripple = document.createElement('div');
   const element = document.getElementById('top');
@@ -14,7 +16,6 @@ document.addEventListener('mousemove', function(event) {
   
   document.body.appendChild(ripple);
 
-//Here i changes the things for adding glowing effect
   // Trigger the animation by adding the class after a short delay
   setTimeout(() => {
       ripple.classList.add('ripple-active');
