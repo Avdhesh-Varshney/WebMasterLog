@@ -23,5 +23,10 @@
 		"tag": "Basic",
 		"title": "Weather App",
 		"description": "This project is a React-JS project using material ui, that helps to search the weather for any place, it uses api to render the information and then provided to the user."
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Currency Converter",
+		"description": "Ths is a simple currency converter application that allows users to convert between different currencies. It fetches live exchange rates from an API and performs conversions accordingly."
 	}
 ]
