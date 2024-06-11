@@ -1,0 +1,265 @@
+*{
+    margin-top: 5px;
+    padding: -30px;
+}
+header .icon-nav{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 100px;
+}
+
+header nav ul li{
+    text-align: center;
+    list-style: none;
+    margin-left: 80px;
+
+    font-size: 20px;
+    display: inline;
+    justify-content: space-around;
+    font-size: 15px;
+}
+.icon-nav :hover{
+    transition: transform 0.1s;
+    transform: scale(1);
+    cursor: pointer;
+}
+.footer-3 p{
+    text-align: center;
+    display: inline;
+    justify-content: center;
+    margin-left: 30%;
+    color: rgb(95, 95, 95);
+    font-size: 20px;
+}
+.footer-3 i{
+    font-size: 15px;
+}
+.footer-3{
+    height: 2.9vh;
+    background-color: rgb(237, 237, 237);
+}
+.footer-3 h4{
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    color: blue;
+    transition: transform 0.1s;
+    transform: scale(1.1);
+    cursor: pointer;
+    font-size: 20px;
+}
+.sub2.nav img{
+    height: 750px;
+    width: 90%;
+    margin-left: 100px;
+    position: relative;
+}
+.sub2.nav button{
+    text-align: center;
+    margin-left: 1040px;
+    margin-top: 50px;
+    width: 5%;
+    height: 70px;
+    border-radius:40px;
+    border: solid 2px;
+    color: white;
+    background-color: blue;
+}
+button:hover{
+    transition: transform 0.4s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.sub2.nav h2{
+    margin-left: -200px ;
+    padding: 30px;
+    margin-top: 120px;
+    margin-right: 10%;
+    font-size: 30px;
+}
+.sub3-nav h1{
+    text-align: left;
+    margin-left: 200px;
+}
+.sub4-nav h1{
+    margin-left: 200px;
+    font-size: 70px;
+}
+.sub4-1nav h1{
+    font-size: 70px;
+    margin-left: 10%;
+}
+.sub4-1nav p{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.sub4-1nav strong{
+    color: black;
+}
+.sub4-1nav h2{
+    text-align: center;
+    font-size: 80px;
+}
+.sub4-nav img{
+    height: 500px;
+    width: 40%;
+    margin-left: 700px;
+    margin-top: 100px
+}
+.sub4-nav h2{
+    text-align: center;
+    font-size: 100px;
+}
+.sub4-nav p{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(106, 106, 106);
+}
+.sub4-nav strong{
+    color: black;
+}
+
+.sub5-nav :first{
+    position: relative;
+}
+.sub5-nav img{
+    position: absolute;
+}
+.sub5-nav .img-second{
+    height: 500px;
+    width: 46%;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+.sub5-nav .img-first{
+    height: 1000px;
+    width: 43%;
+    margin-left: 700px;
+    margin-top: 100px
+}
+.sub6-nav h1{
+    font-size: 100px;
+    text-align: left;
+    margin-top: 1000px ;
+    margin-left: 25%;
+}
+.sub6-nav p{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 25%;
+    color: gray;
+}
+.sub6-nav strong{
+    color: black;
+}
+.sub7-nav img{
+    margin-left: 20%;
+}
+.shield{
+    font-size: 35px;
+    margin-right: 25%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(60, 60, 60);
+}
+.shield strong{
+    color: black;
+}
+.sub8-nav h1{
+    text-align: center;
+    font-size: 100px;
+}
+.sub8-nav img{
+    margin-left: 15%;
+    width: 1800px;
+}
+.section{
+    display: flex;
+        padding: 100px;
+}
+.section1{
+    margin-left: 500px;
+    text-align: left;
+    font-size: 30px;
+}
+.section2{
+    font-size: 30px;
+    margin-left: 300px;
+}
+.section2 strong{
+    font-size: 50px;
+    color: black;
+}
+footer{
+    background-color: aliceblue;
+    height: 50vh;
+}
+.main-footer{
+    display: flex;
+    margin-left: 10px;
+}
+.footer ul{
+    list-style: none;
+    margin-left: 200px;
+    font-size: 30px;
+}
+.info p{
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    padding: 10px;
+}
+.info u{
+    color: blue;
+}
+.main2-{
+    width: 300px;
+    height: 60px;
+    margin-left:10%;
+    margin-top: 0px; 
+    display: flex;  
+}
+.main2- p{
+    margin-left: 5%;
+    margin-top: 1%;
+    display: flex;
+}
+.main2-footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 17px
+}
+.footer-2 ul{
+    list-style: none;
+}
+.main2-footer :hover{
+    transition: transform 0.4s;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.down-1{
+    text-align: left;
+    margin-left: 10%;
+}
+.down-1 u{
+    color: blue;
+}
+.down-1{
+    margin-left: 10%;
+    margin-right: 20%;
+}
+.down-2{
+    text-align: left;
+    margin-left: 10%;
+}
+.down-3{
+    text-align: right;
+    margin-top: -40px;
+    margin-right: 23%;
+}
