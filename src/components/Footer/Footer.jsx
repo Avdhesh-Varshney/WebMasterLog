@@ -1,6 +1,6 @@
 import "./Footer.css";
 const Footer = () => {
-  const year = new Date().getFullYear();
+  const currentYear=new Date().getFullYear();
 
   return (
     <footer>
@@ -44,7 +44,7 @@ const Footer = () => {
           </ul>
           <div class="social-section">
         <div>
-        <div>{`© ${year} All Rights Reserved`}</div>
+        <div>{`© ${currentYear} All Rights Reserved`}</div>
           <div>
             <b>Made By Master Web Log </b>
           </div>
