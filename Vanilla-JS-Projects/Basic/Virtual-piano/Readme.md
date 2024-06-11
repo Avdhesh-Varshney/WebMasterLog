@@ -54,7 +54,7 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-![img](./output.png)
+![img](./screenshot.webp)
 
 
 
