@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { BiSolidZap } from "react-icons/bi";
-
+import image from '../../../public/card.png'
 const Card = (props) => {
 	const { tech, tag, title, description } = props;
 	const targetData = `main/${tech}/${tag}/${title.replace(/\s+/g, '-')}`;
@@ -16,7 +16,7 @@ const Card = (props) => {
 
 	return (
 		<div className="card h-100" style={{ maxWidth: '400px', backgroundColor: '#12151e', color: '#fff', marginLeft: 'auto' }}>
-			<img src={imageURL} alt={title} className="card-img-top" style={{ objectFit: 'cover',height:'200px' }} />
+			<img onError={(e) => { e.target.src = image }} src={imageURL} alt={title} className="card-img-top" style={{ objectFit: 'cover',height:'200px' }} />
 
 			<div className="card-body">
 				<h5 className="card-title">{title}</h5>
