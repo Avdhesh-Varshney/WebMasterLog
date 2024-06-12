@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./src/App.css" rel="stylesheet">
+  <title>Resume Builder</title>
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center">Resume Builder</h2>
+    <form>
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="role">Role</label>
+        <input type="text" class="form-control" id="role" placeholder="Enter your Role" required>
+      </div>
+      <div class="form-group">
+        <label for="fileInput">Enter your photo</label>
+        <input type="file" id="fileInput" accept="image/*" onchange="handleImageUpload(event)">
+      </div>
+      <div class="form-group">
+        <label for="linkedin">LinkedIn URL</label>
+        <input type="url" class="form-control" id="linkedin" placeholder="Enter your LinkedIn URL" required>
+      </div>
+      <div class="form-group">
+        <label for="github">Github URL</label>
+        <input type="url" class="form-control" id="github" placeholder="Enter your Github URL" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="text" class="form-control" id="phone" placeholder="Enter your phone number"  required>
+      </div>
+      <div class="form-group">
+        <label for="profile">Your Professional Profile</label>
+        <textarea rows="3" class="form-control" id="profile" placeholder="Enter your Profile" required></textarea>
+      </div>
+      <fieldset class="form-group" id="workExperienceFieldset">
+        <legend>Work Experience</legend>
+        <div class="form-group">
+           <label for="role_1">Your Role</label>
+           <input type="text" class="form-control" id="role_1" placeholder="Enter your Role" required>
+           <label for="company_1">Your Company</label>
+           <input type="text" class="form-control" id="company_1" placeholder="Enter your Company worked" required>
+           <label for="yr_1">Duration</label>
+           <input type="text" class="form-control" id="yr_1" placeholder="Enter your Duration in that company" required>
+           <label for="info_1">More Info</label>
+           <textarea rows="3" class="form-control" id="info_1" required></textarea>
+        </div>
+        <button type="button" class="btn btn-secondary btn-sm" onclick="addMore(event)">+</button>
+      </fieldset>
+      <fieldset class="form-group" id="educationFieldset">
+        <legend>Education</legend>
+        <div class="form-group">
+           <label for="year_1">Year</label>
+           <input type="number" class="form-control" id="year_1" placeholder="Enter your Year" required>
+           <label for="deg_1">Your Degree</label>
+           <input type="text" class="form-control" id="deg_1" placeholder="Enter your Degree" required>
+           <label for="gpa_1">GPA</label>
+           <input type="number" class="form-control" id="gpa_1" placeholder="Enter your GPA" required>
+           <label for="uni_1">Your College/University</label>
+           <input type="text" class="form-control" id="uni_1" placeholder="Enter your College/University" required>
+        </div>
+        <button type="button" class="btn btn-secondary btn-sm" onclick="addMore(event)">+</button>
+      </fieldset>
+      <fieldset class="form-group" id="skillsFieldset">
+        <legend>Skills</legend>
+        <div class="form-group">
+          <label for="skill_1">Enter your Skill</label>
+          <input type="text" class="form-control" id="skill_1" required>
+          <label for="level_1">Skill Level</label>
+          <input type="range" class="form-control" id="level_1" min="1"  max="100" required>
+        </div>
+        <button type="button" class="btn btn-secondary btn-sm" onclick="addMore(event)">+</button>
+      </fieldset>
+      <button type="submit" class="btn btn-primary btn-block" onclick="generateResume(event)">Generate Resume</button>
+    </form>
+  </div>
+  <script src="./src/index.js"></script>
+</body>
+</html>
