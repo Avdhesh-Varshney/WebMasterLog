@@ -1,6 +1,6 @@
 let timer;
 let isRunning = false;
-let time; // time in milliseconds
+let time;
 
 const startPauseBtn = document.getElementById("startPauseBtn");
 const resetBtn = document.getElementById("resetBtn");
@@ -29,7 +29,8 @@ function startTimer() {
 
     if (time > 0) {
       title.innerText = titleInput.value;
-      titleInput.style.display='none';
+      titleInput.style.display = "none";
+      title.classList.toggle("show");
       isRunning = true;
       startPauseBtn.textContent = "Pause";
       timer = setInterval(() => {
@@ -37,13 +38,20 @@ function startTimer() {
         if (time <= 0) {
           minutesInput.value = "";
           secondsInput.value = "";
-          updatePlaceholders("Minutes", "Seconds");
+          titleInput.value = "";
+          updatePlaceholders(
+            "Minutes",
+            "Seconds",
+            "Enter a title for your timer"
+          );
 
           alert("Time's up!"); // Show alert when time is up
           clearInterval(timer);
           time = 0;
           isRunning = false;
           startPauseBtn.textContent = "Start";
+          titleInput.style.display = "inline";
+          title.classList.remove("show");
         }
 
         updateDisplay();
@@ -65,13 +73,22 @@ function resetTimer() {
   time = 0;
   minutesInput.value = "";
   secondsInput.value = "";
-  updatePlaceholders("Minutes", "Seconds");
+  titleInput.value = "";
+  updatePlaceholders("Minutes", "Seconds", "Enter a title for your timer");
+  titleInput.style.display = "inline";
+  title.classList.remove("show");
+
   updateDisplay();
 }
 
-function updatePlaceholders(minutesPlaceholder, secondsPlaceholder) {
+function updatePlaceholders(
+  minutesPlaceholder,
+  secondsPlaceholder,
+  titlePlaceholder
+) {
   minutesInput.placeholder = minutesPlaceholder;
   secondsInput.placeholder = secondsPlaceholder;
+  titleInput.placeholder = titlePlaceholder;
 }
 
 function updateDisplay() {
@@ -82,5 +99,4 @@ function updateDisplay() {
   secondsDisplay.textContent = seconds < 10 ? `0${seconds}` : seconds;
 }
 
-// Initialize with default placeholders
-updatePlaceholders("Minutes", "Seconds");
+updatePlaceholders("Minutes", "Seconds", "Enter a title for your timer");

@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown Timer App</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main-container">
-        <h1>Timer App</h1>
+      <h1>Timer App</h1>
 
-    
-    <div class="container">
+      <div class="container">
+        <div id="timer-title" class="timer-title">Title</div>
+
         <div class="input-group">
-            <input type="number" id="minutesInput" placeholder="Minutes" min="0">
-            <input type="number" id="secondsInput" placeholder="Seconds" min="0" max="59">
+          <input
+            type="number"
+            id="minutesInput"
+            placeholder="Minutes"
+            min="0"
+          />
+          <input
+            type="number"
+            id="secondsInput"
+            placeholder="Seconds"
+            min="0"
+            max="59"
+          />
         </div>
         <div class="timer">
-            <span id="minutes">00</span>:<span id="seconds">00</span>
+          <span id="minutes">00</span>:<span id="seconds">00</span>
         </div>
         <div class="controls">
-            <button id="startPauseBtn">Start</button>
-            <button id="resetBtn">Reset</button>
+          <button id="startPauseBtn">Start</button>
+          <button id="resetBtn">Reset</button>
         </div>
-        <div id="timer-title"></div>
-        <input type="text" class="title-input" id="title-input" placeholder="Enter a title for your timer"/>
-    </div>
+        <input
+          type="text"
+          class="title-input"
+          id="title-input"
+          placeholder="Enter a title for your timer"
+        />
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
