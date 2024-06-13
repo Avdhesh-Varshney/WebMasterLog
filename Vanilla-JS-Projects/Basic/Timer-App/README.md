@@ -52,10 +52,12 @@
 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
+![image](https://github.com/Rags-Mishra/WebMasterLog/assets/83007531/32da95b8-26a3-49ba-b47a-eed4b397dc7a)
 
 
 ## :zap: Working Video 📹
 <!-- directly add the link of video (If, possible) -->
+
 
 
 
