@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -6,19 +7,27 @@ html, body {
   flex-direction: column;
 }
 
-/* The app-container takes full height minus the footer height */
 .app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-/* Main content will take the remaining space */
 .main-content {
   flex: 1;
-  padding: 20px; /* Optional: Add padding to the main content */
+  padding: 20px;
 }
 
-.main-page{
+.main-page {
   display: flex;
+}
+
+.main-container {
+  transition: margin-left 0.5s ease;
+}
+
+@media (min-width: 768px) {
+  .main-container.shifted {
+    margin-left: 120px;
+  }
 }

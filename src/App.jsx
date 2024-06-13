@@ -13,13 +13,20 @@ const routes = Links();
 
 function App() {
   const [progress, setProgress] = useState(0);
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
+
 
   return (
     <div className='app-container'>
       <Router>
-        <SideBar routes={routes}>
+        <SideBar routes={routes} isOpen={isSidebarOpen} toggleSidebar={toggleSidebar}>
+
           <LoadingBar height={3} color='#f11946' progress={progress} />
-          <div className="main-container">
+          <div className={`main-container ${isSidebarOpen ? 'shifted' : ''}`}>
 
             <Routes>
               {categories.map((category) => {
