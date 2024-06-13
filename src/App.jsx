@@ -6,7 +6,6 @@ import './App.css';
 import SideBar from './components/Sidebar/SideBar';
 import Links from './components/Links';
 import MainPage from './components/Pages/MainPage';
-import Footer from './components/Footer/Footer';
 
 const categories = ['angular', '', 'frontend', 'next', 'node', 'react', 'vanilla', 'vue'];
 const routes = Links();
@@ -37,7 +36,6 @@ function App() {
         </SideBar>
 
       </Router>
-      {/* <Footer /> */}
     </div>
   );
 }

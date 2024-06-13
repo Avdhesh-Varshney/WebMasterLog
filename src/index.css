@@ -39,6 +39,7 @@ li {
 a {
   text-decoration: none;
 }
+
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
@@ -47,16 +48,17 @@ a {
 ::-webkit-scrollbar-track {
   background: #000000;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #ffd700;
   border-radius: 6px;
-  border: 2px solid #ffd700; 
-  box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700, 0 0 70px #ffd700; 
+  border: 2px solid #ffd700;
+  box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700, 0 0 70px #ffd700;
   animation: neonGlow 1.5s infinite alternate;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffe066; 
+  background: #ffe066;
 }
 
 /* Neon glow animation */
@@ -64,6 +66,7 @@ a {
   from {
     box-shadow: 0 0 10px #ffd700, 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700, 0 0 70px #ffd700;
   }
+
   to {
     box-shadow: 0 0 20px #ffd700, 0 0 30px #ffd700, 0 0 40px #ffd700, 0 0 50px #ffd700, 0 0 80px #ffd700;
   }
