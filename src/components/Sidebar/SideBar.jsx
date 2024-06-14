@@ -40,8 +40,8 @@ const showAnimation = {
   },
 };
 
-const SideBar = ({ routes, children }) => {
-  const [isOpen, setIsOpen] = useState(false);
+const SideBar = ({ routes, isOpen, toggleSidebar, children }) => {
+  // const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const [modes, setModes] = useState("Dark")
   useEffect(() => {
@@ -92,7 +92,7 @@ const SideBar = ({ routes, children }) => {
     };
   };
 
-  const toggle = () => setIsOpen(!isOpen);
+  // const toggle = () => setIsOpen(!isOpen);
 
   const modes_control = () => {
     document.body.classList.toggle('light')
@@ -103,7 +103,7 @@ const SideBar = ({ routes, children }) => {
       setModes("Dark")
     }
   }
-  console.log(modes)
+  // console.log(modes)
   return (
     <>
       <div className='main-container'>
@@ -125,7 +125,7 @@ const SideBar = ({ routes, children }) => {
             </AnimatePresence>
 
             <div className='bars flex-grow d-flex align-items-stretch align-self-center'>
-              <FaBars onClick={toggle} />
+              <FaBars onClick={toggleSidebar} />
             </div>
           </div>
 
