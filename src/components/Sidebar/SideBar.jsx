@@ -155,7 +155,13 @@ const SideBar = ({ routes, isOpen, toggleSidebar, children }) => {
               }
 
               return (
-                <NavLink to={route.path} key={index} className='link' activeClassName='active'>
+                <NavLink 
+                  to={route.path} 
+                  key={index} 
+                  className='link' 
+                  activeClassName='active'
+                  title={route.name} // Add hover text here
+                >
                   <div className='circle'>
                     <div className='icon'>{route.icon}</div>
                   </div>
