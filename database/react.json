@@ -10,6 +10,11 @@
 		"description": "This is React JS project which generates QR code to open the website when url is entered and also it can be downloaded."
 	},
 	{
+		"tag": "Advanced",
+		"title": "Notes app",
+		"description": "A user-friendly notes app developed using react.js and firebase enabling seamless note management functionalities."
+	},
+	{
 		"tag": "Intermediate",
 		"title": "Quiz App",
 		"description": "This is React JS project which displays various questions to gain knowledge and also displays the score."
