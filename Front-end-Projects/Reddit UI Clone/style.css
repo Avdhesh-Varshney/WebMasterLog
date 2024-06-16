@@ -10,6 +10,7 @@
   padding: 0px;
   margin: 0px;
   font-family: var(--roboto);
+  /* border: 2px solid red; */
 }
 body {
   background-color: #0e1113;
@@ -50,8 +51,10 @@ header {
   width: 600px;
   border-radius: 50px;
   background-color: var(--grey);
+  /* background: url('assets/searchicon.png') 5px 5px no-repeat scroll ; */
   background-size: 40px;
   background-clip: 20px;
+  /* filter: invert(50%); */
   color: #fff;
   font-size: 20px;
   outline: none;
@@ -466,6 +469,7 @@ span {
   width: 100%;
   color: white;
   padding: 10px;
+  /* background-color: red; */
 }
 .headtopright,
 .headtopleft {

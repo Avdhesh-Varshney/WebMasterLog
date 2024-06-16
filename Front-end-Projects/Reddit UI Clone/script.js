@@ -7,6 +7,7 @@ labels.forEach((label) => {
 
 function hidemiddle() {
   console.log("working");
+  // const vall=document.getElementById('topics');
   const middle = document.getElementsByClassName("middlelevel")[0];
   const arrow = document.getElementById("arrow");
   const hidemiddle = document.querySelectorAll(".hidemiddle");
@@ -27,6 +28,7 @@ function hidemiddle() {
 
 function hidebottom() {
   console.log("working");
+  // const vall=document.getElementById('topics');
   const bottom = document.getElementsByClassName("bottomlevel")[0];
   const arrow = document.getElementById("arrow2");
   const hidebottom = document.querySelectorAll(".hidebottom");
@@ -45,6 +47,6 @@ function hidebottom() {
   }
 }
 
-function clickk() {
-  alert("This is just a UI Clone.");
+function clickk(){
+    alert('This is just a UI Clone.');
 }
