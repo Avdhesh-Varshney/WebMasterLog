@@ -61,10 +61,10 @@
 To run this project locally, follow these steps:
 
 1. Fork the repository.
-2. Clone the Repository. git clone <repository-url>
-3. go to root of project directory. cd <repository-directory>
+2. Clone the Repository. git clone repository-url
+3. go to root of project directory. cd repository-directory
 4. Install Dependencies: npm install
-5. setting up firebase - create .env file and fill th erequired credential as shown in .env.example file.
+5. setting up firebase - create .env file and fill the required credentials as shown in .env.example file.
 6. Run the Development Server. npm run dev
    
 
