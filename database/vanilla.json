@@ -21,6 +21,11 @@
 	},
 	{
 		"tag": "Basic",
+		"title": "Expense Tracker",
+		"description": "This website helps you to add, delete and manage expenses. It gives the total amount spent."
+	},
+	{
+		"tag": "Basic",
 		"title": "Gallery",
 		"description": "This website helps to enlist those videos which are necessary to the user by adding their links into the json file provided along with the project."
 	},
@@ -93,5 +98,20 @@
 		"tag": "Basic",
 		"title": "Stopwatch",
 		"description": "The project is a sleek and efficient stopwatch application built using HTML, CSS, and JavaScript."
+	},
+	{
+		"tag": "Basic",
+		"title": "RGB-Color-Slider",
+		"description" :"RGB Color Slider takes the input from the user and renders the color"
+	},
+	{
+		"tag": "Basic",
+		"title": "CSS Art Gallery",
+		"description" :"CSS Art Gallery showcases the art developed by CSS"
+	},
+	{
+		"tag":"Basic",
+		"title":"Virtual-Piano",
+		"description":"Virtual Piano enables users to play a digital piano with adjustable volumes, providing a customizable and interactive musical experience."
 	}
 ]

@@ -1,5 +1,20 @@
 [
 	{
+		"tag": "Intermediate",
+		"title": "Cryptocurrency Finder",
+		"description": "Cryptocurrency Finder is a React-JS project which displays different crypto coins using API."
+	},
+	{
+		"tag": "Advanced",
+		"title": "QR Code Generator",
+		"description": "This is React JS project which generates QR code to open the website when url is entered and also it can be downloaded."
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Quiz App",
+		"description": "This is React JS project which displays various questions to gain knowledge and also displays the score."
+	},
+	{
 		"tag": "Basic",
 		"title": "To Do List",
 		"description": "To do list provide all the CRUD operations to the user. Help to keep their notes on the website temporary."
@@ -13,5 +28,10 @@
 		"tag": "Basic",
 		"title": "Weather App",
 		"description": "This project is a React-JS project using material ui, that helps to search the weather for any place, it uses api to render the information and then provided to the user."
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Currency Converter",
+		"description": "Ths is a simple currency converter application that allows users to convert between different currencies. It fetches live exchange rates from an API and performs conversions accordingly."
 	}
 ]
