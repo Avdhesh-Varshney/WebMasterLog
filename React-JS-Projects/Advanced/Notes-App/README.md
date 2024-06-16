@@ -64,8 +64,16 @@ To run this project locally, follow these steps:
 2. Clone the Repository. git clone repository-url
 3. go to root of project directory. cd repository-directory
 4. Install Dependencies: npm install
-5. setting up firebase - create .env file and fill the required credentials as shown in .env.example file.
-6. Run the Development Server. npm run dev
+5. setting up firebase - create .env file and fill the required credentials as below.
+<code>
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+</code>
+7. Run the Development Server. npm run dev
    
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
