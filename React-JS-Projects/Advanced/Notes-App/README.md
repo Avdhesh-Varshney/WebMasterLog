@@ -61,16 +61,16 @@
 To run this project locally, follow these steps:
 
 1. Fork the repository.
-2. Clone the Repository. git clone repository-url
-3. go to root of project directory. cd repository-directory
-4. Install Dependencies: npm install
-5. setting up firebase - create .env file and fill the required credentials as below.
-<code>VITE_FIREBASE_API_KEY=your_api_key</code>
-<code>VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain</code>
-<code>VITE_FIREBASE_PROJECT_ID=your_project_id</code>
-<code>VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket</code>
-<code>VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id</code>
-<code>VITE_FIREBASE_APP_ID=your_app_id</code>
+2. Clone the Repository. <code>git clone repository-url</code>
+3. go to root of project directory. <code>cd repository-directory</code>
+4. Install Dependencies: <code>npm install</code>
+5. setting up firebase - create .env file and fill the required credentials as below.<br/>
+<code>VITE_FIREBASE_API_KEY=your_api_key</code><br/>
+<code>VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain</code><br/>
+<code>VITE_FIREBASE_PROJECT_ID=your_project_id</code><br/>
+<code>VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket</code><br/>
+<code>VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id</code><br/>
+<code>VITE_FIREBASE_APP_ID=your_app_id</code><br/>
 
 6. Run the Development Server. <code>npm run dev</code>
    
