@@ -62,6 +62,7 @@
 | 35 | [Resume Builder](./Advanced/Resume-Builder/) |![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |  36   | [Virtual-Piano](./Basic/Virtual-Piano/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  37   | [Text-to-Image-Generator](./Intermediate/Text-to-Image-Generator/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
+|  38  | [Text-Translator](./Basic/Text-Translator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 </div>
 
 
