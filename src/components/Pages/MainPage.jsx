@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ProjectCards from "../Cards/ProjectCards";
 import "./mainpage.css";
 import Dashboard from "./Dashboard";
+import BackToTop from '../BackToTop';
 
 const MainPage = (props) => {
   const { category, routes, setProgress } = props;
@@ -94,6 +95,7 @@ const MainPage = (props) => {
         </select>
       </div>
       <ProjectCards projectsData={filteredData} tech={getTech(category)} />
+      <BackToTop/>
     </div>
   );
 };
