@@ -103,5 +103,15 @@
 		"tag": "Basic",
 		"title": "RGB-Color-Slider",
 		"description" :"RGB Color Slider takes the input from the user and renders the color"
+	},
+	{
+		"tag": "Basic",
+		"title": "CSS Art Gallery",
+		"description" :"CSS Art Gallery showcases the art developed by CSS"
+	},
+	{
+		"tag":"Basic",
+		"title":"Virtual-Piano",
+		"description":"Virtual Piano enables users to play a digital piano with adjustable volumes, providing a customizable and interactive musical experience."
 	}
 ]

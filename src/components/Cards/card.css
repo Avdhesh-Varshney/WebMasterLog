@@ -1,60 +1,69 @@
 .projects-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    padding-top: 1rem;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.projectsCard {
+  max-width: 1300px;
+  transition: all 0.3s;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Card Styles */
+.card {
+  border-radius: 30px;
+  border: 8px solid transparent;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  margin-bottom: 3px;
+}
+
+/* Card Image */
+.card-img-top {
+  object-fit: cover;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+/* Card Body */
+.card-body {
+  padding: 20px;
+}
+
+.card:hover {
+  border-color: white;
+  transform: scale(1.05);
+}
+
+.card-container {
+  min-width: 360px;
+}
+
+@media (max-width: 1400px) {
   .projectsCard {
-    max-width: 1300px;
-    transition: all 0.3s;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    max-width: 88%;
   }
-  
-  /* Card Styles */
-  .card {
-    border-radius: 30px; 
-    border: 8px solid transparent; 
-    box-sizing: border-box; 
-    transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease; 
-    margin-bottom: 3px;
+}
+
+@media (max-width: 1000px) {
+  .projectsCard {
+    max-width: 75%;
   }
-  
-  /* Card Image */
-  .card-img-top {
-    object-fit: cover;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+}
+
+@media (max-width: 800px) {
+  .projectsCard {
+    max-width: 65%;
   }
-  
-  /* Card Body */
-  .card-body {
-    padding: 20px;
+}
+
+@media (max-width: 426px) {
+  .card-container {
+    min-width: 300px;
   }
-  
-  .card:hover {
-    border-color: white; 
-    transform: scale(1.05);
-  }
-  
-  @media (max-width: 1400px) {
-    .projectsCard {
-      max-width: 88%;
-    }
-  }
-  
-  @media (max-width: 1000px) {
-    .projectsCard {
-      max-width: 75%;
-    }
-  }
-  
-  @media (max-width: 800px) {
-    .projectsCard {
-      max-width: 65%;
-    }
-  }
-  
+}

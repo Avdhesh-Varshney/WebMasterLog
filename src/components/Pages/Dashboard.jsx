@@ -5,9 +5,7 @@ const Dashboard = () => {
     <>
       <div>
         <h1 className="text-end my-2 mx-3">WEB MASTER LOG</h1>
-
         <br />
-
         <Footer />
       </div>
     </>

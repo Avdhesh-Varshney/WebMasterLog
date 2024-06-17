@@ -53,12 +53,12 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h4 align='center'>Developed By <b><i>Sneha Mishra</i></b></h4>
+<h4 align='center'>Developed By <b><i>Damini Chachane</i></b></h4>
 <p align='center'>
-  <a href='https://www.linkedin.com/in/sneha-mishra-764aba253'>
+  <a href='https://linkedin.com/in/damini-chachane-82a210252'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
   </a>
-  <a href='https://github.com/Sneha123-zudo'>
+  <a href='https://github.com/Damini2004'>
     <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
   </a>
 </p>

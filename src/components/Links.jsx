@@ -26,8 +26,8 @@ const routesName = (category) => {
 };
 
 const techName = (category) => {
-  if(category === '') return 'Dashboard';
-  else if(category === 'frontend') return 'Front-end-Projects';
+  if (category === '') return 'Dashboard';
+  else if (category === 'frontend') return 'Front-end-Projects';
   return category[0].toUpperCase() + category.slice(1) + '-JS-Projects';
 }
 
