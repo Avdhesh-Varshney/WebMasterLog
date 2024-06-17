@@ -35,6 +35,7 @@
 |   8   | [Spotify Clone](./Intermediate/Spotify-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   9   | [Apple Clone](./Intermediate/Apple-Clone )| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   10  | [Reddit Clone](./Intermediate/Reddit-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   10  | [Microsoft Clone](./Intermediate/Microsoft-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 </div>
