@@ -1,62 +1,53 @@
 body {
-  font-family: Arial, sans-serif;
-  background-image: url('backgroundimage/background-image.avif');
-  background-size: cover;
-  background-position: center;
-  background-color: rgb(158, 27, 158);
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+  background-color: #3e3e3e;
 }
 
-header {
-  color: rgb(255, 255, 255);
-  margin-bottom: 40px;
-  font-weight: bold;
-  font-size: large;
-  text-decoration: underline;
-  text-decoration-color: rgb(255, 255, 255);
+#text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #0a0808;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
-h2 {
-  color: #12015d;
-  margin-bottom: 40px;
-  font-weight: bold;
-}
+
 
 
 .container {
+  width: 310px;
   display: flex;
   flex-direction: column;
-  color: rgb(0, 42, 195);
-  font-weight: bold;
-  font-size: larger;
-  align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #4ba4f8, #bb39ef);
-  border-radius: 30px;
-  padding: 100px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border: #379df6;
+  align-items: center;
+  border: 2px solid #0a0808;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
 label {
   margin-bottom: 20px;
-  color: #9b016d;
+  color: #019b32;
+  font-weight: bold;
 }
 
 input {
   padding: 8px;
   margin-bottom: 20px;
   width: 150px;
-  border: #b3f32b
+  border: #bbff27
 }
 
 button {
   padding: 10px;
-  background-color: rgb(249, 50, 196);
+  background-color: rgb(249, 50, 86);
   color: white;
   border: none;
   cursor: pointer;
