@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1a1a1a;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="MSCOM_Icons" data-name="MSCOM Icons">
+    <g id="Link-List-Icons-Microsoft-365">
+      <g id="Bounding_Box" data-name="Bounding Box">
+        <rect class="cls-2" width="120" height="120"/>
+      </g>
+      <path class="cls-1" d="m57.23,15v42.23H15V15h42.23Zm0,47.77v42.23H15v-42.23h42.23ZM105,15v42.23h-42.23V15h42.23Zm0,47.77v42.23h-42.23v-42.23h42.23Z"/>
+    </g>
+  </g>
+</svg>
