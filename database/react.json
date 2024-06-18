@@ -35,7 +35,7 @@
 		"description": "Ths is a simple currency converter application that allows users to convert between different currencies. It fetches live exchange rates from an API and performs conversions accordingly."
 	},
 	{
-		"tag": "Intermediate",
+		"tag": "Advanced",
 		"title": "Code Editor",
 		"description": "This is a code editor application built with React.js. It allows users to write, edit, and execute code snippets in programming languages like HTML,CSS,JS. The editor provides syntax highlighting, auto-completion, and other essential features to enhance the coding experience."
 	}
