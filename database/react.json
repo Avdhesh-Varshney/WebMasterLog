@@ -33,5 +33,10 @@
 		"tag": "Intermediate",
 		"title": "Currency Converter",
 		"description": "Ths is a simple currency converter application that allows users to convert between different currencies. It fetches live exchange rates from an API and performs conversions accordingly."
+	},
+	{
+		"tag": "Advanced",
+		"title": "Notes App",
+		"description": "This is an user-friendly notes app enabling seamless note management functionalities."
 	}
 ]
