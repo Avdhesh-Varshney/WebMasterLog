@@ -36,6 +36,9 @@
 	},
 	{
 		"tag": "Advanced",
+		"title": "Code Editor",
+		"description": "This is a code editor application built with React.js. It allows users to write, edit, and execute code snippets in programming languages like HTML,CSS,JS. The editor provides syntax highlighting, auto-completion, and other essential features to enhance the coding experience."
+  },
 		"title": "Notes App",
 		"description": "This is an user-friendly notes app enabling seamless note management functionalities."
 	}
