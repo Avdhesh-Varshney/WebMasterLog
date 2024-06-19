@@ -96,10 +96,3 @@ npm run dev
 <h4 align='center'>Happy Coding 🧑‍💻</h4>
 
 <h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
-    <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
-  </a>
-</p>
-
-<h4 align='center'>Happy Coding 🧑‍💻</h4>
-
-<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
