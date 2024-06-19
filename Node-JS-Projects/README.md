@@ -30,6 +30,7 @@
 |   3   | [CRUD Operations](./Basic/Crud-Operations) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   4   |  [YouTube Video Downloader](./Intermediate/YouTube-Video-Downloader) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   5   | [Url Shortener](./Advanced/Url-Shortener) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge)|
+|   6   | [Headline Hub](./Basic/Headline-Hub) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 
 
 </div>
