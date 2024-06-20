@@ -1,0 +1,1067 @@
+{
+    "elements": [
+      {
+        "name": "Hydrogen",
+        "atomic_mass": 1.008,
+        "atomic_weight": 1.008,
+        "atomic_number": 1,
+        "block": "s",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Helium",
+        "atomic_mass": 4.0026,
+        "atomic_weight": 4.0026,
+        "atomic_number": 2,
+        "block": "s",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Lithium",
+        "atomic_mass": 6.94,
+        "atomic_weight": 6.94,
+        "atomic_number": 3,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Beryllium",
+        "atomic_mass": 9.0122,
+        "atomic_weight": 9.0122,
+        "atomic_number": 4,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Boron",
+        "atomic_mass": 10.81,
+        "atomic_weight": 10.81,
+        "atomic_number": 5,
+        "block": "p",
+        "state": "solid",
+        "classification": "metalloid"
+      },
+      {
+        "name": "Carbon",
+        "atomic_mass": 12.011,
+        "atomic_weight": 12.011,
+        "atomic_number": 6,
+        "block": "p",
+        "state": "solid",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Nitrogen",
+        "atomic_mass": 14.007,
+        "atomic_weight": 14.007,
+        "atomic_number": 7,
+        "block": "p",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Oxygen",
+        "atomic_mass": 15.999,
+        "atomic_weight": 15.999,
+        "atomic_number": 8,
+        "block": "p",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Fluorine",
+        "atomic_mass": 18.998,
+        "atomic_weight": 18.998,
+        "atomic_number": 9,
+        "block": "p",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Neon",
+        "atomic_mass": 20.180,
+        "atomic_weight": 20.180,
+        "atomic_number": 10,
+        "block": "p",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Sodium",
+        "atomic_mass": 22.990,
+        "atomic_weight": 22.990,
+        "atomic_number": 11,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Magnesium",
+        "atomic_mass": 24.305,
+        "atomic_weight": 24.305,
+        "atomic_number": 12,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Aluminum",
+        "atomic_mass": 26.982,
+        "atomic_weight": 26.982,
+        "atomic_number": 13,
+        "block": "p",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Silicon",
+        "atomic_mass": 28.085,
+        "atomic_weight": 28.085,
+        "atomic_number": 14,
+        "block": "p",
+        "state": "solid",
+        "classification": "metalloid"
+      },
+      {
+        "name": "Phosphorus",
+        "atomic_mass": 30.974,
+        "atomic_weight": 30.974,
+        "atomic_number": 15,
+        "block": "p",
+        "state": "solid",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Sulfur",
+        "atomic_mass": 32.06,
+        "atomic_weight": 32.06,
+        "atomic_number": 16,
+        "block": "p",
+        "state": "solid",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Chlorine",
+        "atomic_mass": 35.45,
+        "atomic_weight": 35.45,
+        "atomic_number": 17,
+        "block": "p",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Argon",
+        "atomic_mass": 39.95,
+        "atomic_weight": 39.95,
+        "atomic_number": 18,
+        "block": "p",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Potassium",
+        "atomic_mass": 39.098,
+        "atomic_weight": 39.098,
+        "atomic_number": 19,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Calcium",
+        "atomic_mass": 40.078,
+        "atomic_weight": 40.078,
+        "atomic_number": 20,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Scandium",
+        "atomic_mass": 44.956,
+        "atomic_weight": 44.956,
+        "atomic_number": 21,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Titanium",
+        "atomic_mass": 47.867,
+        "atomic_weight": 47.867,
+        "atomic_number": 22,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Vanadium",
+        "atomic_mass": 50.942,
+        "atomic_weight": 50.942,
+        "atomic_number": 23,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Chromium",
+        "atomic_mass": 51.996,
+        "atomic_weight": 51.996,
+        "atomic_number": 24,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Manganese",
+        "atomic_mass": 54.938,
+        "atomic_weight": 54.938,
+        "atomic_number": 25,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Iron",
+        "atomic_mass": 55.845,
+        "atomic_weight": 55.845,
+        "atomic_number": 26,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Cobalt",
+        "atomic_mass": 58.933,
+        "atomic_weight": 58.933,
+        "atomic_number": 27,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Nickel",
+        "atomic_mass": 58.693,
+        "atomic_weight": 58.693,
+        "atomic_number": 28,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Copper",
+        "atomic_mass": 63.546,
+        "atomic_weight": 63.546,
+        "atomic_number": 29,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Zinc",
+        "atomic_mass": 65.38,
+        "atomic_weight": 65.38,
+        "atomic_number": 30,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Gallium",
+        "atomic_mass": 69.723,
+        "atomic_weight": 69.723,
+        "atomic_number": 31,
+        "block": "p",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Germanium",
+        "atomic_mass": 72.63,
+        "atomic_weight": 72.63,
+        "atomic_number": 32,
+        "block": "p",
+        "state": "solid",
+        "classification": "metalloid"
+      },
+      {
+        "name": "Arsenic",
+        "atomic_mass": 74.922,
+        "atomic_weight": 74.922,
+        "atomic_number": 33,
+        "block": "p",
+        "state": "solid",
+        "classification": "metalloid"
+      },
+      {
+        "name": "Selenium",
+        "atomic_mass": 78.971,
+        "atomic_weight": 78.971,
+        "atomic_number": 34,
+        "block": "p",
+        "state": "solid",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Bromine",
+        "atomic_mass": 79.904,
+        "atomic_weight": 79.904,
+        "atomic_number": 35,
+        "block": "p",
+        "state": "liquid",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Krypton",
+        "atomic_mass": 83.798,
+        "atomic_weight": 83.798,
+        "atomic_number": 36,
+        "block": "p",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Rubidium",
+        "atomic_mass": 85.468,
+        "atomic_weight": 85.468,
+        "atomic_number": 37,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Strontium",
+        "atomic_mass": 87.62,
+        "atomic_weight": 87.62,
+        "atomic_number": 38,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Yttrium",
+        "atomic_mass": 88.906,
+        "atomic_weight": 88.906,
+        "atomic_number": 39,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Zirconium",
+        "atomic_mass": 91.224,
+        "atomic_weight": 91.224,
+        "atomic_number": 40,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Niobium",
+        "atomic_mass": 92.906,
+        "atomic_weight": 92.906,
+        "atomic_number": 41,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Molybdenum",
+        "atomic_mass": 95.95,
+        "atomic_weight": 95.95,
+        "atomic_number": 42,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Technetium",
+        "atomic_mass": 98,
+        "atomic_weight": 98,
+        "atomic_number": 43,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Ruthenium",
+        "atomic_mass": 101.07,
+        "atomic_weight": 101.07,
+        "atomic_number": 44,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Rhodium",
+        "atomic_mass": 102.91,
+        "atomic_weight": 102.91,
+        "atomic_number": 45,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Palladium",
+        "atomic_mass": 106.42,
+        "atomic_weight": 106.42,
+        "atomic_number": 46,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Silver",
+        "atomic_mass": 107.87,
+        "atomic_weight": 107.87,
+        "atomic_number": 47,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Cadmium",
+        "atomic_mass": 112.41,
+        "atomic_weight": 112.41,
+        "atomic_number": 48,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Indium",
+        "atomic_mass": 114.82,
+        "atomic_weight": 114.82,
+        "atomic_number": 49,
+        "block": "p",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Tin",
+        "atomic_mass": 118.71,
+        "atomic_weight": 118.71,
+        "atomic_number": 50,
+        "block": "p",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Antimony",
+        "atomic_mass": 121.76,
+        "atomic_weight": 121.76,
+        "atomic_number": 51,
+        "block": "p",
+        "state": "solid",
+        "classification": "metalloid"
+      },
+      {
+        "name": "Tellurium",
+        "atomic_mass": 127.60,
+        "atomic_weight": 127.60,
+        "atomic_number": 52,
+        "block": "p",
+        "state": "solid",
+        "classification": "metalloid"
+      },
+      {
+        "name": "Iodine",
+        "atomic_mass": 126.90,
+        "atomic_weight": 126.90,
+        "atomic_number": 53,
+        "block": "p",
+        "state": "solid",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Xenon",
+        "atomic_mass": 131.29,
+        "atomic_weight": 131.29,
+        "atomic_number": 54,
+        "block": "p",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Cesium",
+        "atomic_mass": 132.91,
+        "atomic_weight": 132.91,
+        "atomic_number": 55,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Barium",
+        "atomic_mass": 137.33,
+        "atomic_weight": 137.33,
+        "atomic_number": 56,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Lanthanum",
+        "atomic_mass": 138.91,
+        "atomic_weight": 138.91,
+        "atomic_number": 57,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Cerium",
+        "atomic_mass": 140.12,
+        "atomic_weight": 140.12,
+        "atomic_number": 58,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Praseodymium",
+        "atomic_mass": 140.91,
+        "atomic_weight": 140.91,
+        "atomic_number": 59,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Neodymium",
+        "atomic_mass": 144.24,
+        "atomic_weight": 144.24,
+        "atomic_number": 60,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Promethium",
+        "atomic_mass": 145,
+        "atomic_weight": 145,
+        "atomic_number": 61,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Samarium",
+        "atomic_mass": 150.36,
+        "atomic_weight": 150.36,
+        "atomic_number": 62,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Europium",
+        "atomic_mass": 151.96,
+        "atomic_weight": 151.96,
+        "atomic_number": 63,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Gadolinium",
+        "atomic_mass": 157.25,
+        "atomic_weight": 157.25,
+        "atomic_number": 64,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Terbium",
+        "atomic_mass": 158.93,
+        "atomic_weight": 158.93,
+        "atomic_number": 65,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Dysprosium",
+        "atomic_mass": 162.50,
+        "atomic_weight": 162.50,
+        "atomic_number": 66,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Holmium",
+        "atomic_mass": 164.93,
+        "atomic_weight": 164.93,
+        "atomic_number": 67,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Erbium",
+        "atomic_mass": 167.26,
+        "atomic_weight": 167.26,
+        "atomic_number": 68,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Thulium",
+        "atomic_mass": 168.93,
+        "atomic_weight": 168.93,
+        "atomic_number": 69,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Ytterbium",
+        "atomic_mass": 173.04,
+        "atomic_weight": 173.04,
+        "atomic_number": 70,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Lutetium",
+        "atomic_mass": 174.97,
+        "atomic_weight": 174.97,
+        "atomic_number": 71,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Hafnium",
+        "atomic_mass": 178.49,
+        "atomic_weight": 178.49,
+        "atomic_number": 72,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Tantalum",
+        "atomic_mass": 180.95,
+        "atomic_weight": 180.95,
+        "atomic_number": 73,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Tungsten",
+        "atomic_mass": 183.84,
+        "atomic_weight": 183.84,
+        "atomic_number": 74,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Rhenium",
+        "atomic_mass": 186.21,
+        "atomic_weight": 186.21,
+        "atomic_number": 75,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Osmium",
+        "atomic_mass": 190.23,
+        "atomic_weight": 190.23,
+        "atomic_number": 76,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Iridium",
+        "atomic_mass": 192.22,
+        "atomic_weight": 192.22,
+        "atomic_number": 77,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Platinum",
+        "atomic_mass": 195.08,
+        "atomic_weight": 195.08,
+        "atomic_number": 78,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Gold",
+        "atomic_mass": 196.97,
+        "atomic_weight": 196.97,
+        "atomic_number": 79,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Mercury",
+        "atomic_mass": 200.59,
+        "atomic_weight": 200.59,
+        "atomic_number": 80,
+        "block": "d",
+        "state": "liquid",
+        "classification": "metal"
+      },
+      {
+        "name": "Thallium",
+        "atomic_mass": 204.38,
+        "atomic_weight": 204.38,
+        "atomic_number": 81,
+        "block": "p",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Lead",
+        "atomic_mass": 207.2,
+        "atomic_weight": 207.2,
+        "atomic_number": 82,
+        "block": "p",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Bismuth",
+        "atomic_mass": 208.98,
+        "atomic_weight": 208.98,
+        "atomic_number": 83,
+        "block": "p",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Polonium",
+        "atomic_mass": 209,
+        "atomic_weight": 209,
+        "atomic_number": 84,
+        "block": "p",
+        "state": "solid",
+        "classification": "metalloid"
+      },
+      {
+        "name": "Astatine",
+        "atomic_mass": 210,
+        "atomic_weight": 210,
+        "atomic_number": 85,
+        "block": "p",
+        "state": "solid",
+        "classification": "metalloid"
+      },
+      {
+        "name": "Radon",
+        "atomic_mass": 222,
+        "atomic_weight": 222,
+        "atomic_number": 86,
+        "block": "p",
+        "state": "gas",
+        "classification": "non-metal"
+      },
+      {
+        "name": "Francium",
+        "atomic_mass": 223,
+        "atomic_weight": 223,
+        "atomic_number": 87,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Radium",
+        "atomic_mass": 226,
+        "atomic_weight": 226,
+        "atomic_number": 88,
+        "block": "s",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Actinium",
+        "atomic_mass": 227,
+        "atomic_weight": 227,
+        "atomic_number": 89,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Thorium",
+        "atomic_mass": 232.04,
+        "atomic_weight": 232.04,
+        "atomic_number": 90,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Protactinium",
+        "atomic_mass": 231.04,
+        "atomic_weight": 231.04,
+        "atomic_number": 91,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Uranium",
+        "atomic_mass": 238.03,
+        "atomic_weight": 238.03,
+        "atomic_number": 92,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Neptunium",
+        "atomic_mass": 237,
+        "atomic_weight": 237,
+        "atomic_number": 93,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Plutonium",
+        "atomic_mass": 244,
+        "atomic_weight": 244,
+        "atomic_number": 94,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Americium",
+        "atomic_mass": 243,
+        "atomic_weight": 243,
+        "atomic_number": 95,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Curium",
+        "atomic_mass": 247,
+        "atomic_weight": 247,
+        "atomic_number": 96,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Berkelium",
+        "atomic_mass": 247,
+        "atomic_weight": 247,
+        "atomic_number": 97,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Californium",
+        "atomic_mass": 251,
+        "atomic_weight": 251,
+        "atomic_number": 98,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Einsteinium",
+        "atomic_mass": 252,
+        "atomic_weight": 252,
+        "atomic_number": 99,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Fermium",
+        "atomic_mass": 257,
+        "atomic_weight": 257,
+        "atomic_number": 100,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Mendelevium",
+        "atomic_mass": 258,
+        "atomic_weight": 258,
+        "atomic_number": 101,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Nobelium",
+        "atomic_mass": 259,
+        "atomic_weight": 259,
+        "atomic_number": 102,
+        "block": "f",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Lawrencium",
+        "atomic_mass": 266,
+        "atomic_weight": 266,
+        "atomic_number": 103,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Rutherfordium",
+        "atomic_mass": 267,
+        "atomic_weight": 267,
+        "atomic_number": 104,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Dubnium",
+        "atomic_mass": 270,
+        "atomic_weight": 270,
+        "atomic_number": 105,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Seaborgium",
+        "atomic_mass": 271,
+        "atomic_weight": 271,
+        "atomic_number": 106,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Bohrium",
+        "atomic_mass": 274,
+        "atomic_weight": 274,
+        "atomic_number": 107,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Hassium",
+        "atomic_mass": 277,
+        "atomic_weight": 277,
+        "atomic_number": 108,
+        "block": "d",
+        "state": "solid",
+        "classification": "metal"
+      },
+      {
+        "name": "Meitnerium",
+        "atomic_mass": 278,
+        "atomic_weight": 278,
+        "atomic_number": 109,
+        "block": "d",
+        "state": "unknown",
+        "classification": "metal"
+      },
+      {
+        "name": "Darmstadtium",
+        "atomic_mass": 281,
+        "atomic_weight": 281,
+        "atomic_number": 110,
+        "block": "d",
+        "state": "unknown",
+        "classification": "metal"
+      },
+      {
+        "name": "Roentgenium",
+        "atomic_mass": 282,
+        "atomic_weight": 282,
+        "atomic_number": 111,
+        "block": "d",
+        "state": "unknown",
+        "classification": "metal"
+      },
+      {
+        "name": "Copernicium",
+        "atomic_mass": 285,
+        "atomic_weight": 285,
+        "atomic_number": 112,
+        "block": "d",
+        "state": "unknown",
+        "classification": "metal"
+      },
+      {
+        "name": "Nihonium",
+        "atomic_mass": 286,
+        "atomic_weight": 286,
+        "atomic_number": 113,
+        "block": "p",
+        "state": "unknown",
+        "classification": "metal"
+      },
+      {
+        "name": "Flerovium",
+        "atomic_mass": 289,
+        "atomic_weight": 289,
+        "atomic_number": 114,
+        "block": "p",
+        "state": "unknown",
+        "classification": "metal"
+      },
+      {
+        "name": "Moscovium",
+        "atomic_mass": 290,
+        "atomic_weight": 290,
+        "atomic_number": 115,
+        "block": "p",
+        "state": "unknown",
+        "classification": "metal"
+      },
+      {
+        "name": "Livermorium",
+        "atomic_mass": 293,
+        "atomic_weight": 293,
+        "atomic_number": 116,
+        "block": "p",
+        "state": "unknown",
+        "classification": "metal"
+      },
+      {
+        "name": "Tennessine",
+        "atomic_mass": 294,
+        "atomic_weight": 294,
+        "atomic_number": 117,
+        "block": "p",
+        "state": "unknown",
+        "classification": "metal"
+      },
+      {
+        "name": "Oganesson",
+        "atomic_mass": 294,
+        "atomic_weight": 294,
+        "atomic_number": 118,
+        "block": "p",
+        "state": "unknown",
+        "classification": "non-metal"
+      }
+    ]
+  }
+  
