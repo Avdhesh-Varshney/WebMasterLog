@@ -33,5 +33,10 @@
 		"tag": "Intermediate",
 		"title": "Microsoft Clone",
 		"description": "This project is a simple HTML and Tailwind CSS implementation of a Microsoft website clone. It aims to replicate the basic structure and styling of the popular entertaining website Microsoft. This project Showcases the power of HTML and Tailwind CSS."
+	},
+	{
+		"tag": "Basic",
+		"title": "Facebook Login Page",
+		"description": "This project is a simple HTML and Tailwind CSS implementation of a Facebook Login Page clone. It aims to replicate the basic structure and styling of the popular entertaining Facebook Login Page. This project Showcases the power of HTML and Tailwind CSS."
 	}
 ]
