@@ -36,8 +36,6 @@
 |   9   | [Apple Clone](./Intermediate/Apple-Clone )| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   10  | [Reddit Clone](./Intermediate/Reddit-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
   11  | [Microsoft Clone](./Intermediate/Microsoft-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-  12  | [Image-Search_Engine](./Intermediate/Image-Search-Engine/)  ![Intermediate]
-  (https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 
