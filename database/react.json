@@ -11,6 +11,11 @@
 	},
 	{
 		"tag": "Intermediate",
+		"title": "Image Carousel",
+		"description": "A web application that allows users to add, remove, and view images in a carousel format. Integrated a chatbot feature using APIs to enhance user interaction."
+	},
+	{
+		"tag": "Intermediate",
 		"title": "Quiz App",
 		"description": "This is React JS project which displays various questions to gain knowledge and also displays the score."
 	},
