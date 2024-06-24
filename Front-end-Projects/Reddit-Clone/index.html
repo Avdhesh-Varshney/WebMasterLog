@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reddit - Dive into anything</title>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img id="icon" src="assets/icon.png" alt="icon" />
+        <h1>reddit</h1>
+      </div>
+      <input type="text" name="" id="search" placeholder="Search Reddit" />
+      <div class="login">
+        <img src="assets/ipl-navbar-icon.svg" alt="" />
+        <hr style="height: 40px; border: 1px solid #2a3236" />
+        <button id="qrcode">
+          <img src="assets/qrcode-icon.png" alt="qrcode icon" /> Get app
+        </button>
+        <button id="login-btn">Log in</button>
+        <button id="nav"><img src="assets/nav-icon.png" alt="" /></button>
+      </div>
+    </header>
+    <div class="line">
+      <hr id="navline" />
+    </div>
+    <div class="main">
+      <div class="leftarea">
+        <div class="toplevel">
+          <a href="#"><img src="assets/home.png" alt="" /> Home</a>
+          <a href="#"><img src="assets/popular.png" alt="" /> Popular</a>
+        </div>
+        <hr
+          style="
+            width: 90%;
+            background-color: #2a3236;
+            height: 1px;
+            border: none;
+            margin-top: 10px;
+          "
+        />
+        <div class="middlelevel">
+          <button id="topics" onclick="hidemiddle()">
+            Topics <img id="arrow" src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidemiddle">
+            <img src="assets/internetcultureicon.png" alt="" /> Internet
+            Culture(Viral) <img src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidemiddle">
+            <img src="assets/gameicon.png" alt="" /> Games
+            <img src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidemiddle">
+            <img src="assets/qnaicon.png" alt="" /> Q&As
+            <img src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidemiddle">
+            <img src="assets/technologyicon.png" alt="" /> Technology
+            <img src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidemiddle">
+            <img src="assets/popculture.png" alt="" /> Pop Culture
+            <img src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidemiddle">
+            <img src="assets/moviesicon.png" alt="" /> Movies & TV
+            <img src="assets/arrow.png" alt="" />
+          </button>
+        </div>
+        <hr
+          style="
+            width: 90%;
+            background-color: #2a3236;
+            height: 1px;
+            border: none;
+            margin-top: 10px;
+          "
+        />
+        <div class="bottomlevel">
+          <button id="resources" onclick="hidebottom()">
+            Resources <img id="arrow2" src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidebottom">
+            <img src="assets/abouticon.png" alt="" /> About Reddit
+            <img src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidebottom">
+            <img src="assets/advertiseicon.png" alt="" /> Advertise
+            <img src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidebottom">
+            <img src="assets/helpicon.png" alt="" /> Help
+            <img src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidebottom">
+            <img src="assets/blogicon.png" alt="" /> Blog
+            <img src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidebottom">
+            <img src="assets/careersicon.png" alt="" /> Careers
+            <img src="assets/arrow.png" alt="" />
+          </button>
+          <button class="hidebottom">
+            <img src="assets/popculture.png" alt="" /> Press
+            <img src="assets/arrow.png" alt="" />
+          </button>
+        </div>
+        <div class="lowlevel"></div>
+      </div>
+      <div class="mainarea">
+        <div class="headscroller">
+          <div
+            class="news"
+            style="
+              background-image: url('https://th.bing.com/th/id/OIP.7wL6TegON9qY108zzDRe6wHaEK?w=318&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+            "
+          >
+            <div class="textcontent">
+              <h1 class="h1">Todays news</h1>
+              <p class="para">A man named otto killed ...</p>
+              <p class="rname">
+                <img src="assets/space.png" alt="" />
+                <span>&ensp;r/Crimenews&ensp;</span> and MORE
+              </p>
+            </div>
+          </div>
+          <div class="news" style="background-image: url('assets/space.png')">
+            <div class="textcontent">
+              <h1 class="h1">Black Holes</h1>
+              <p class="para">Ever wondered why black hole is...</p>
+              <p class="rname">
+                <img src="assets/nasa2.png" alt="" />
+                <span>&ensp; r/Space&ensp;</span> and MORE
+              </p>
+            </div>
+          </div>
+          <div class="news" style="background-image: url('assets/elon.png')">
+            <div class="textcontent">
+              <h1 class="h1">Elon's replay</h1>
+              <p class="para">Elon must latestly says "mars is ...</p>
+              <p class="rname">
+                <img src="assets/space.png" alt="" /><span
+                  >&ensp; r/TechNews&ensp;</span
+                >
+                and MORE
+              </p>
+            </div>
+          </div>
+          <div
+            class="news"
+            style="background-image: url('assets/avengers.png')"
+          >
+            <div class="textcontent">
+              <h1 class="h1">Kang Dy nasty</h1>
+              <p class="para">Marvel Editors says "Everyone universe...</p>
+              <p class="rname">
+                <img src="assets/marvellogo.png" alt="" />
+                <span>&ensp;r/MarvelNews&ensp;</span> and MORE
+              </p>
+            </div>
+          </div>
+          <div
+            class="news"
+            style="background-image: url('assets/spaceship.png')"
+          >
+            <div class="textcontent">
+              <h1 class="h1">Alian Species</h1>
+              <p class="para">NASA Scientists says they finally found...</p>
+              <p class="rname">
+                <img src="assets/nasa.png" alt="" />
+                <span>&ensp;r/Nasa&ensp;</span> and MORE
+              </p>
+            </div>
+          </div>
+          <div class="news" style="background-image: url('assets/ironman.png')">
+            <div class="textcontent">
+              <h1 class="h1">Ironman is Back</h1>
+              <p class="para">Ironman is back in Avengers Kang...</p>
+              <p class="rname">
+                <img src="assets/mov.png" alt="" />
+                <span>&ensp;r/MovieNews&ensp;</span> and MORE
+              </p>
+            </div>
+          </div>
+          <div class="news" style="background-image: url('assets/car.png')">
+            <div class="textcontent">
+              <h1 class="h1">Nvidia Hypercar</h1>
+              <p class="para">Nvidia had recently announced its new...</p>
+              <p class="rname">
+                <img src="assets/supercar.png" alt="" />
+                <span>&ensp;r/SupercarBlondie&ensp;</span> and MORE
+              </p>
+            </div>
+          </div>
+          <div
+            class="news"
+            style="background-image: url('assets/landscape.png')"
+          >
+            <div class="textcontent">
+              <h1 class="h1">A Beautiful Day</h1>
+              <p class="para">Today is the one of the best days...</p>
+              <p class="rname">
+                <img src="assets/aesthetic.png" alt="" />
+                <span>&ensp;r/GoodTalks&ensp;</span> and MORE
+              </p>
+            </div>
+          </div>
+          <div
+            class="news"
+            style="background-image: url('assets/aestheticpost.png')"
+          >
+            <div class="textcontent">
+              <h1 class="h1">A Beautiful Day</h1>
+              <p class="para">Today is the one of the best days...</p>
+              <p class="rname">
+                <img src="assets/aestheticpaper.png" alt="" />
+                <span>&ensp;r/AestheticWorld&ensp;</span> and MORE
+              </p>
+            </div>
+          </div>
+          <div class="news" style="background-image: url('assets/climate.png')">
+            <div class="textcontent">
+              <h1 class="h1">A Beautiful Day</h1>
+              <p class="para">Today is the one of the best days...</p>
+              <p class="rname">
+                <img src="assets/aurora.png" alt="" />
+                <span>&ensp;r/Climate&ensp;</span> and MORE
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="mainscroller">
+          <div class="mainleft">
+            <div class="headbtns">
+              <button>
+                Hot <img class="headimg" src="assets/arrow.png" alt="" />
+              </button>
+              <button>
+                India <img class="headimg" src="assets/arrow.png" alt="" />
+              </button>
+              <button>
+                📦 <img class="headimg" src="assets/arrow.png" alt="" />
+              </button>
+            </div>
+            <hr
+              style="
+                border: none;
+                background-color: #2a3236;
+                width: 100%;
+                height: 2px;
+                border-radius: 2px;
+              "
+            />
+            <div class="maincards">
+              <div class="card" onclick="clickk()">
+                <div class="heading">
+                  <div class="headtopleft">
+                    <img src="assets/marvellogo.png" alt="" />
+                    <p class="time">
+                      <span>&nbsp; r/MarvelNews</span> 4 hr. ago
+                    </p>
+                  </div>
+                  <div class="headtopright">
+                    <button>Join</button>
+                    <img src="assets/nav-icon.png" alt="" />
+                  </div>
+                </div>
+                <div class="headline">
+                  <h1>
+                    Marvel Editors have annouced that "Kang Dynasty contains
+                    many kang varients including Ironman Kang, Thor Kang,
+                    Captain America Kang, Scarlet Witch Kang(male version), Dr
+                    Strange Kang, Thanos Kang and Loki Kang."
+                  </h1>
+                </div>
+                <div class="videoimage">
+                  <img src="assets/kang.png" alt="" />
+                </div>
+                <div class="fourbuttons">
+                  <button>
+                    <img class="like" src="assets/likeicon.png" alt="" />&nbsp;
+                    18M &nbsp;<img
+                      class="dislike"
+                      src="assets/likeicon.png"
+                      alt=""
+                    />
+                  </button>
+                  <button>
+                    <img
+                      class="comment"
+                      src="assets/chaticon.png"
+                      alt=""
+                    />&nbsp; 2M
+                  </button>
+                  <button>
+                    <img class="share" src="assets/share.png" alt="" />&nbsp;
+                    share
+                  </button>
+                </div>
+              </div>
+              <div class="card" onclick="clickk()">
+                <div class="heading">
+                  <div class="headtopleft">
+                    <img src="assets/marvellogo.png" alt="" />
+                    <p class="time">
+                      <span>&nbsp; r/DailyNews</span> 4 hr. ago
+                    </p>
+                  </div>
+                  <div class="headtopright">
+                    <button>Join</button>
+                    <img src="assets/nav-icon.png" alt="" />
+                  </div>
+                </div>
+                <div class="headline">
+                  <h1>
+                    Have you ever wondered why you wake up when you die in
+                    dreams? Because your brain doesn't know what happens after
+                    death. This becomes the starting point of another question
+                    "If we die in real life, do we wake up in another life ?".
+                  </h1>
+                </div>
+                <div class="fourbuttons">
+                  <button>
+                    <img class="like" src="assets/likeicon.png" alt="" />&nbsp;
+                    2M &nbsp;<img
+                      class="dislike"
+                      src="assets/likeicon.png"
+                      alt=""
+                    />
+                  </button>
+                  <button>
+                    <img
+                      class="comment"
+                      src="assets/chaticon.png"
+                      alt=""
+                    />&nbsp; 1.2k
+                  </button>
+                  <button>
+                    <img class="share" src="assets/share.png" alt="" />&nbsp;
+                    share
+                  </button>
+                </div>
+              </div>
+              <hr
+                style="
+                  height: 2px;
+                  background-color: #2a3236;
+                  width: 100%;
+                  border: none;
+                "
+              />
+              <div class="card" onclick="clickk()">
+                <div class="heading">
+                  <div class="headtopleft">
+                    <img src="assets/marvellogo.png" alt="" />
+                    <p class="time">
+                      <span>&nbsp; r/DailyNews</span> 4 hr. ago
+                    </p>
+                  </div>
+                  <div class="headtopright">
+                    <button>Join</button>
+                    <img src="assets/nav-icon.png" alt="" />
+                  </div>
+                </div>
+                <div class="headline">
+                  <h1>
+                    Elon musk in his recent interview says, "I have met Putin
+                    and Biden for the nukes, and they have agreed to give me
+                    some powerful nuks includeing Tsar Bomba, so that I can nuke
+                    the Mars. "
+                  </h1>
+                </div>
+                <div class="videoimage">
+                  <img src="assets/elonmusk.png" alt="" />
+                </div>
+                <div class="fourbuttons">
+                  <button>
+                    <img class="like" src="assets/likeicon.png" alt="" />&nbsp;
+                    2M &nbsp;<img
+                      class="dislike"
+                      src="assets/likeicon.png"
+                      alt=""
+                    />
+                  </button>
+                  <button>
+                    <img
+                      class="comment"
+                      src="assets/chaticon.png"
+                      alt=""
+                    />&nbsp; 1.2k
+                  </button>
+                  <button>
+                    <img class="share" src="assets/share.png" alt="" />&nbsp;
+                    share
+                  </button>
+                </div>
+              </div>
+              <hr
+                style="
+                  height: 2px;
+                  background-color: #2a3236;
+                  width: 100%;
+                  border: none;
+                "
+              />
+              <hr
+                style="
+                  height: 2px;
+                  background-color: #2a3236;
+                  width: 100%;
+                  border: none;
+                "
+              />
+            </div>
+          </div>
+          <div class="mainright">
+            <p>POPULAR COMMUNITIES</p>
+            <div class="popular">
+              <div class="column" onclick="clickk()">
+                <div class="icon">
+                  <img src="assets/spaceship.png" alt="" />
+                </div>
+                <div class="sidefield">
+                  <h1 class="channelname">r/SpaceNews</h1>
+                  <p>1,200,300 members</p>
+                </div>
+              </div>
+              <div class="column" onclick="clickk()">
+                <div class="icon">
+                  <img src="assets/avengers.png" alt="" />
+                </div>
+                <div class="sidefield">
+                  <h1 class="channelname">r/Avengers</h1>
+                  <p>1,200,300 members</p>
+                </div>
+              </div>
+              <div class="column" onclick="clickk()">
+                <div class="icon">
+                  <img src="assets/space.png" alt="" />
+                </div>
+                <div class="sidefield">
+                  <h1 class="channelname">r/Space</h1>
+                  <p>1,200,300 members</p>
+                </div>
+              </div>
+              <div class="column" onclick="clickk()">
+                <div class="icon">
+                  <img src="assets/aesthetic.png" alt="" />
+                </div>
+                <div class="sidefield">
+                  <h1 class="channelname">r/LifeQuotes</h1>
+                  <p>1,200,300 members</p>
+                </div>
+              </div>
+              <div class="column" onclick="clickk()">
+                <div class="icon">
+                  <img src="assets/marvellogo.png" alt="" />
+                </div>
+                <div class="sidefield">
+                  <h1 class="channelname">r/MarvelNews</h1>
+                  <p>1,200,300 members</p>
+                </div>
+              </div>
+              <button id="seemore">See more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
