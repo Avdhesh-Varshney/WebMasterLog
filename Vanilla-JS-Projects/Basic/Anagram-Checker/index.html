@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anagram Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="heading">Anagram Checker:</h1>
+      <h3 class="about">Anagrams means given two strings whether one string can be rearranged to get another string.
+      </h3>
+    </div>
+    <div class="input">
+      <label for="string1">String1:</label>
+      <input type="text" id="string1" required>
+      <label for="string2">String2:</label>
+      <input type="text" id="string2" required>
+    </div>
+    <div class="output">
+      <button onclick="check()">Check</button>
+      <div class="output-box">
+        <p id="output-text"></p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
