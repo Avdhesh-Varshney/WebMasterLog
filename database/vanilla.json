@@ -118,5 +118,10 @@
 		"tag":"Intermediate",
 		"title":"Meme-Generator",
 		"description":"This is a simple project which generates random memes along with an image and the name of the author just by one click of a button."
+	},
+	{
+		"tag":"Intermediate",
+		"title":"Search-From-Here",
+		"description":"Search-From-Here is a simple project that allows users to search for products from a variety of popular websites including Amazon, Flipkart, Google, and Youtube all in one place."
 	}
 ]
