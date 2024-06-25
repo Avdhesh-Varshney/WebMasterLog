@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
-import { NavLink, useLocation } from 'react-router-dom';
-import SideBarMenu from './SideBarMenu';
-import './sidebar.css';
+import React, { useState, useEffect, useRef } from "react";
+import { AnimatePresence, motion } from "framer-motion";
+import { NavLink, useLocation } from "react-router-dom";
+import SideBarMenu from "./SideBarMenu";
+import "./sidebar.css";
 
-import { FaBars } from 'react-icons/fa';
-import { BiSearch } from 'react-icons/bi';
+import { FaBars } from "react-icons/fa";
+import { BiSearch } from "react-icons/bi";
 
 const inputAnimation = {
   hidden: {
@@ -16,8 +16,8 @@ const inputAnimation = {
     },
   },
   show: {
-    width: '140px',
-    padding: '5px 15px',
+    width: "140px",
+    padding: "5px 15px",
     transition: {
       duration: 0.2,
     },
@@ -33,19 +33,26 @@ const showAnimation = {
   },
   show: {
     opacity: 1,
-    width: 'auto',
+    width: "auto",
     transition: {
       duration: 0.5,
     },
   },
 };
 
-const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) => {
+const SideBar = ({
+  routes,
+  isOpen,
+  toggleSidebar,
+  children,
+  setQuery,
+  query,
+  setSidebarOpen,
+}) => {
   // const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-  const [modes, setModes] = useState("Dark")
-
-
+  const [modes, setModes] = useState("Dark");
+  const searchInputRef = useRef(null);
   useEffect(() => {
     const currentCategory = getCurrentCategory();
     const scrollbarColor = getScrollbarColor(currentCategory);
@@ -60,27 +67,27 @@ const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) =>
 
   const getScrollbarColor = (currentPath) => {
     switch (currentPath) {
-      case '/angular':
-        return '#eb0d0d';
-      case '/frontend':
-        return '#6cd380';
-      case '/next':
-        return '#68bf6f';
-      case '/node':
-        return 'green';
-      case '/react':
-        return 'blue';
-      case '/vanilla':
-        return '#ffd700';
-      case '/vue':
-        return 'green';
+      case "/angular":
+        return "#eb0d0d";
+      case "/frontend":
+        return "#6cd380";
+      case "/next":
+        return "#68bf6f";
+      case "/node":
+        return "green";
+      case "/react":
+        return "blue";
+      case "/vanilla":
+        return "#ffd700";
+      case "/vue":
+        return "green";
       default:
-        return 'blue';
+        return "blue";
     }
   };
 
   const applyScrollbarColor = (color) => {
-    const style = document.createElement('style');
+    const style = document.createElement("style");
     style.textContent = `
       ::-webkit-scrollbar-thumb {
         background: ${color};
@@ -97,53 +104,76 @@ const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) =>
   // const toggle = () => setIsOpen(!isOpen);
 
   const modes_control = () => {
-    document.body.classList.toggle('light')
-    if (document.body.classList.contains('light')) {
-      setModes("Light")
+    document.body.classList.toggle("light");
+    if (document.body.classList.contains("light")) {
+      setModes("Light");
+    } else {
+      setModes("Dark");
     }
-    else {
-      setModes("Dark")
-    }
-  }
+  };
   // console.log(modes)
-
+  const handleSearchIconClick = () => {
+    setSidebarOpen(true);
+    setTimeout(() => {
+      if (searchInputRef.current) {
+        searchInputRef.current.focus();
+      }
+    }, 300); // Delay to allow sidebar animation to complete
+  };
   return (
     <>
-      <div className='main-container'>
+      <div className="main-container">
         <motion.div
           animate={{
-            width: isOpen ? '200px' : '75px',
-            position: 'fixed',
-            transition: { duration: 0.5, type: 'spring', damping: 10 },
+            width: isOpen ? "200px" : "75px",
+            position: "fixed",
+            transition: { duration: 0.5, type: "spring", damping: 10 },
           }}
           className={`sidebar`}
         >
-          <div className='top_section d-lg-flex align-items-center justify-content-center'>
+          <div className="top_section d-lg-flex align-items-center justify-content-center">
             <AnimatePresence>
               {isOpen && (
-                <motion.h1 variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='logo'>
+                <motion.h1
+                  variants={showAnimation}
+                  initial="hidden"
+                  animate="show"
+                  exit="hidden"
+                  className="logo"
+                >
                   WebMasterLog
                 </motion.h1>
               )}
             </AnimatePresence>
 
-            <div className='bars flex-grow d-flex align-items-stretch align-self-center'>
+            <div className="bars flex-grow d-flex align-items-stretch align-self-center">
               <FaBars onClick={toggleSidebar} />
             </div>
           </div>
 
-          <div className='search'>
-            <div className='search_icon circle'>
-              <BiSearch />
+          <div className="search">
+            <div className="search_icon circle">
+              <BiSearch onClick={handleSearchIconClick} />
             </div>
             <AnimatePresence>
-              {isOpen && <motion.input initial='hidden' animate='show' exit='hidden' variants={inputAnimation}
-               type='text' placeholder='Search' value={query} onChange={(e) => setQuery(e.target.value)}  />}
+              {isOpen && (
+                <motion.input
+                  ref={searchInputRef}
+                  initial="hidden"
+                  animate="show"
+                  exit="hidden"
+                  variants={inputAnimation}
+                  type="text"
+                  placeholder="Search"
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
+                />
+              )}
             </AnimatePresence>
           </div>
 
-          <section className='routes'>
-          {routes.map((route, index) => {
+          <section className="routes">
+            {routes.map((route, index) => {
               if (route.subRoutes) {
                 return (
                   <SideBarMenu
@@ -154,24 +184,29 @@ const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) =>
                     setIsOpen={setIsOpen}
                     routes={routes} // Pass the routes prop here
                   />
-
                 );
               }
 
               return (
-                <NavLink 
-                  to={route.path} 
-                  key={index} 
-                  className='link' 
-                  activeClassName='active'
+                <NavLink
+                  to={route.path}
+                  key={index}
+                  className="link"
+                  activeClassName="active"
                   title={route.name} // Add hover text here
                 >
-                  <div className='circle'>
-                    <div className='icon'>{route.icon}</div>
+                  <div className="circle">
+                    <div className="icon">{route.icon}</div>
                   </div>
                   <AnimatePresence>
                     {isOpen && (
-                      <motion.div variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='link_text'>
+                      <motion.div
+                        variants={showAnimation}
+                        initial="hidden"
+                        animate="show"
+                        exit="hidden"
+                        className="link_text"
+                      >
                         {route.name}
                       </motion.div>
                     )}
@@ -179,14 +214,22 @@ const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) =>
                 </NavLink>
               );
             })}
-            <div className={isOpen ? "opened_menu_bar" : 'Dark_Light_mode'} onClick={() => modes_control()}>
-              <img src='https://cdn-icons-png.flaticon.com/128/12301/12301351.png' alt='Dark_light_mode' />
+            <div
+              className={isOpen ? "opened_menu_bar" : "Dark_Light_mode"}
+              onClick={() => modes_control()}
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/12301/12301351.png"
+                alt="Dark_light_mode"
+              />
               {isOpen ? <p>{modes}</p> : <></>}
             </div>
           </section>
         </motion.div>
 
-        <main style={{ marginLeft: 'auto', transition: 'all 0.3s' }}>{children}</main>
+        <main style={{ marginLeft: "auto", transition: "all 0.3s" }}>
+          {children}
+        </main>
       </div>
     </>
   );
