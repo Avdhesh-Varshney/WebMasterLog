@@ -59,8 +59,11 @@ Steps to run this website in your local machine is as follows :
 
 <h4 align='center'>Developed By <b><i>Aditya Bhaumik</i></b> 👦</h4>
 <p align='center'>
+  <a href = "https://www.linkedin.com/in/aditya-bhaumik-62b6b2220/">
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
+  <a href ="https://github.com/aditya-bhaumik">
     <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
+  </a>
 </p>
 
 <h4 align='center'>Happy Coding 🧑‍💻</h4>
