@@ -20,7 +20,7 @@
 ## :zap: Description 📃
 
 <div>
-  <p>This project is a simple HTML and CSS implementation of a PhonePe Clone website clone. It aims to replicate the basic structure and styling of the popular  website PhonePe Clone.This project Showcases the power of HTML and CSS.</p>
+  <p>This project is a simple HTML and CSS implementation of a Phonepe website clone. It aims to replicate the basic structure and styling of the popular website Phonepe. This project Showcases the power of HTML and CSS.</p>
 </div>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
@@ -28,12 +28,12 @@
 ## :zap: How to run it? 🕹️
 
 <div>
-  <p>To run this project locally, follow these steps:
+    <p>To run this project locally, follow these steps:
 
 1. Fork the repository.
 
 2. Clone the repository to your local machine:
-    git clone https://github.com/your-username/Amazon-Prime-Clone.git
+    git clone https://github.com/your-username/Phonepe.git
 
 3. Open the project folder in your preferred code editor, now you can view website in live.
 
@@ -53,11 +53,12 @@
 
 <h4 align='center'>Developed By <b><i>Damini Chachane</i></b></h4>
 <p align='center'>
- <a href='https://linkedin.com/in/damini-chachane-82a210252'>
+  <a href='linkedin.com/in/damini-chachane-82a210252'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
   </a>
   <a href='https://github.com/Damini2004'>
     <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
+  </a>
 </p>
 
 <h4 align='center'>Happy Coding 🧑‍💻</h4>
