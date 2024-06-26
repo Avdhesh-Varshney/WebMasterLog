@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Strength Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="heading">Want to check your<br>Password Strength</h1>
+
+    </div>
+    <div class="input">
+      <h3 class="input-text">Enter Password:</h3><br>
+      <input type="password" id="input-box" oninput="checkPasswordStrength()"><br>
+    </div>
+    <div class="output">
+      <h3 class="convert-text">Strength:</h3>
+      <div class="output-box">
+        <p id="output-text"></p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

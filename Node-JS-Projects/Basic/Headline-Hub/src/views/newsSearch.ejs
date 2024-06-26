@@ -1,0 +1,45 @@
+<!-- We will add JavaScript in the EJS and will show the pulled data from the API -->
+<!-- JSON API from https://newsapi.org/s/india-news-api -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node.js News Search Results</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="/" style="text-decoration: none; color: inherit;">Node.js News</a>
+        </div>
+        <div class="header__search">
+            <form action="/" method="POST">
+                <input type="text" name="search" placeholder="Search for news" required>
+                <input type="submit" value="Search">
+            </form>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <h1>Search Results</h1>
+        <button onclick="window.location.href='/'">Back to Home</button>
+        <div class="news">
+            <% if (articles && articles.length > 0) { %>
+                <% articles.forEach(function(article) { %>
+                    <% if (article.urlToImage) { %> <!-- Check if the article has an image URL -->
+                        <a href="<%= article.url %>" target="_blank" class="news__card">
+                            <h2><%= article.title %></h2>
+                            <img src="<%= article.urlToImage %>" alt="Article Image">
+                            <p><%= article.description %></p>
+                        </a>
+                    <% } %>
+                <% }) %>
+            <% } else { %>
+                <p>No news articles available for your search query.</p>
+            <% } %>
+        </div>
+    </div>
+</body>
+</html>
