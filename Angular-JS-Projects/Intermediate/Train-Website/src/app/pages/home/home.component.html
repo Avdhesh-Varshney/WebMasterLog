@@ -10,27 +10,27 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <label class="form-label" for="form3Example1c">From Station</label>
-                                        <select name="" id="" class="form-select">
+                                        <select [(ngModel)]="travelObj.fromStationId" name="fromStationId" id="" class="form-select">
                                             <option value="">From Station</option>
-                                            <option *ngFor="let station of stationList" [value]="station.stationID">{{station.stationName}}</option>
+                                            <option *ngFor="let station of stationList" [value]="station.stationID">{{station.stationName}}</option> 
                                         </select>
                                     </div>
                                     <div class="col-6">
                                         <label class="form-label" for="form3Example1c">To Station</label>
-                                        <select name="" id="" class="form-select">
+                                        <select [(ngModel)]="travelObj.toStationId"  name="toStationId" id="" class="form-select">
                                             <option value="">To Station</option>
-                                            <option *ngFor="let station of stationList" [value]="station.stationID">{{station.stationName}}</option>
+                                            <option *ngFor="let station of stationList" [value]="station.stationID">{{station.stationName}}</option> 
                                         </select>
                                     </div>
                                 </div>
                                 <div class="row pt-3">
                                     <div class="col-6">
                                         <label class="form-label" for="form3Example4c">Date Of Travel</label>
-                                        <input type="date" id="form3Example4c" class="form-control" /> 
+                                        <input type="date" [(ngModel)]="travelObj.dateOfTravel" name="dateOfTravel" id="form3Example4c" class="form-control" /> 
                                     </div>
                                 </div> 
                                 <div class="d-flex justify-content-center mt-4 mx-4 mb-3 mb-lg-4">
-                                    <button type="button" class="btn btn-primary">Search</button>
+                                    <button type="button" class="btn btn-primary" (click)="onSearch()">Search</button>
                                 </div> 
                             </form> 
                         </div>
@@ -46,3 +46,5 @@
         </div>
     </div>
 </div>
+
+

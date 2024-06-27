@@ -15,6 +15,6 @@ export class StationsService {
     this.apiEndPoint = environment.ApiEndPoint;
   }
   getAllStations(): Observable<ResponseMOodel>{
-    return this.http.get<ResponseMOodel>(this.apiEndPoint + CONSTANT.ENDPOINT.GET_ALL_STATIONS);
+    return this.http.get<ResponseMOodel>(this.apiEndPoint + CONSTANT.ENDPOINTS.GET_ALL_STATION);
   }
 }
