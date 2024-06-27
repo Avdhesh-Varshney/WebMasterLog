@@ -67,7 +67,7 @@
 |  40	| [Anagram-Checker](./Basic/Anagram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  41   | [Leap-Year-Checker](./Basic/Leap-Year-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  42	| [Image-Search-Engine](./Basic/Image-Search-Engine/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|	 43 |	[Prime-Number-Checker](./Basic/Prime-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge)
+|  43   | [Prime-Number-Checker](./Basic/Prime-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 </div>
 
 
