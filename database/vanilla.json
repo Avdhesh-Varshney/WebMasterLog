@@ -118,5 +118,10 @@
 		"tag":"Intermediate",
 		"title":"Meme-Generator",
 		"description":"This is a simple project which generates random memes along with an image and the name of the author just by one click of a button."
+	},
+	{
+		"tag":"Intermediate",
+		"title":"Code-Editor",
+		"description":"This project utilizes a technology stack comprising HTML, CSS, and JavaScript. The integrated code editor features dedicated HTML, CSS, and JavaScript editors, providing real-time output previews for an enhanced development experience."
 	}
 ]
