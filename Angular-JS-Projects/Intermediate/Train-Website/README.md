@@ -1,27 +1,70 @@
-# TrainWebsite
+<h1 align='center'><b>💥 Train Booking Website 💥</b></h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+<!-- -------------------------------------------------------------------------------------------------------------- -->
 
-## Development server
+<h3 align='center'>Tech Stack Used 🎮</h3>
+<!-- enlist all the technologies used to create this project from them (Remove comment using 'ctrl+z' or 'command+z') -->
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<div align='center'>
 
-## Code scaffolding
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white)
+</div>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<!-- -------------------------------------------------------------------------------------------------------------- -->
 
-## Running unit tests
+## :zap: Description 📃
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<div>
+    <p>A train booking website using Angular that helps users book train website for their travels</p>
+</div>
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## :zap: How to run it? 🕹️
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+
+
+## :zap: Screenshots 📸
+<img src="./screenshot.webp"/>
+
+
+
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+<h4 align='center'>Developed By <b><i>Pulkit Gupta</i></b> 👦</h4>
+<p align='center'>
+  <a href='www.linkedin.com/in/pulkitgupta2408'>
+    <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
+  </a>
+  <a href='https://github.com/pulkit1417'>
+    <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
+  </a>
+</p>
+
+<h4 align='center'>Happy Coding 🧑‍💻</h4>
+
+<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
