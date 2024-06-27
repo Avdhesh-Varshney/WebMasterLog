@@ -35,11 +35,9 @@
 |   8   | [Spotify Clone](./Intermediate/Spotify-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   9   | [Apple Clone](./Intermediate/Apple-Clone )| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   10  | [Reddit Clone](./Intermediate/Reddit-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|  11   | [Microsoft Clone](./Intermediate/Microsoft-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|  12   | [Facebook Login Page](./Basic/Facebook-Login-Page) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-
-
-
+|   11  | [Microsoft Clone](./Intermediate/Microsoft-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   12  | [Facebook Login Page](./Basic/Facebook-Login-Page) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   13  | [PhonePe Clone](./Basic/PhonePe/)| ![Basic](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
