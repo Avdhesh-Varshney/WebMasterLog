@@ -1,0 +1,18 @@
+.jumbotron-custom {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.form-container {
+    margin-top: 20px;
+}
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-icons i {
+    font-size: 2rem;
+    margin: 0 10px;
+    color: #C13584; /* Instagram's gradient color */
+}

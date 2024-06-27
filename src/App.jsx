@@ -12,18 +12,29 @@ const routes = Links();
 
 function App() {
   const [progress, setProgress] = useState(0);
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
+  const [query, setQuery] = useState('')
+
+
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
+
 
   return (
-    <div>
+    <div className='app-container'>
       <Router>
-        <SideBar routes={routes}>
-          <LoadingBar height={3} color='#f11946' progress={progress} />
+        <SideBar routes={routes} isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} setQuery={setQuery} query={query}>
 
-          <Routes>
-            {categories.map((category) => {
-              return <Route key={category} exact path={`/${category}`} element={<MainPage setProgress={setProgress} key={category} category={category} routes={routes} />} />;
-            })}
-          </Routes>
+          <LoadingBar height={3} color='#f11946' progress={progress} />
+          <div className={`main-container ${isSidebarOpen ? 'shifted' : ''}`}>
+
+            <Routes>
+              {categories.map((category) => {
+                return <Route key={category} exact path={`/${category}`} element={<MainPage className='main-page' setProgress={setProgress} key={category} category={category} routes={routes} query={query}/>} />;
+              })}
+            </Routes>
+          </div>
         </SideBar>
 
       </Router>

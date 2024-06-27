@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+  font-family: 'open-sans', serif;
+  color: #F5F7F8;
+  background-color: #45474B;
+  text-align: center;
+}
+.title{
+  color: #F4CE14;
+  font-style: italic;
+}
+table{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 1000px;
+  border-collapse: collapse;
+}
+input[type="text"]{
+  width: 500px;
+  padding: 10px 10px;
+  font-size: 15px;
+  color: #45474B;
+  border-radius: 15px;
+  outline: none;
+  box-sizing: border-box;
+}
+::placeholder{
+  font-size: 15px;
+}
+.id,td{
+  padding: 8px;
+  border-bottom: 1px solid #F5F7F8;
+}
+th{
+  font-size: 1.3rem;
+  background-color: #F4CE14;
+  padding: 5px;
+}
