@@ -1,0 +1,36 @@
+.flex{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+   margin:2rem 2rem  auto 0; 
+  width: 40vw;
+  height: 40vh;
+  margin-right: 25rem;
+}
+
+@media screen and (max-width: 584px) {
+  .flex{
+    margin-right:10rem;
+  } 
+}
+
+
+@media screen and (max-width: 800px) and  (min-width: 584px) {
+  .flex{
+    margin-right: 15rem;
+  } 
+}
+
+.but{
+  padding: 1rem;
+  background-color: #212121;
+  color: #fff;
+  border-radius: 10px;
+  border: black solid;
+}
+
+.but:hover{
+  color: #212121;
+  background-color: #fff;
+}

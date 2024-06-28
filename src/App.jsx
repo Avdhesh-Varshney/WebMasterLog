@@ -6,7 +6,7 @@ import './App.css';
 import SideBar from './components/Sidebar/SideBar';
 import Links from './components/Links';
 import MainPage from './components/Pages/MainPage';
-
+import Error from './components/Error/Error';
 const categories = ['angular', '', 'frontend', 'next', 'node', 'react', 'vanilla', 'vue'];
 const routes = Links();
 
@@ -30,13 +30,17 @@ function App() {
           <div className={`main-container ${isSidebarOpen ? 'shifted' : ''}`}>
 
             <Routes>
+            <Route path='/*' element={<Error/>}></Route>
               {categories.map((category) => {
                 return <Route key={category} exact path={`/${category}`} element={<MainPage className='main-page' setProgress={setProgress} key={category} category={category} routes={routes} query={query}/>} />;
               })}
             </Routes>
           </div>
         </SideBar>
-
+       
+          
+       
+              
       </Router>
     </div>
   );

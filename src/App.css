@@ -23,11 +23,11 @@ body {
 }
 
 .main-container {
-  transition: margin-left 0.5s ease;
+  /* transition: margin-left 0.5s ease; */
 }
 
 @media (min-width: 768px) {
   .main-container.shifted {
-    margin-left: 120px;
+    /* margin-left: 120px; */
   }
 }
