@@ -57,10 +57,11 @@ input[type="email"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 300px;
+  border-bottom: 4px solid #61b7bd;
 }
 
 input[type="submit"] {
-  padding: 8px 16px;
+  padding: 12px 16px;
   border: none;
   background-color: hsl(184, 41%, 56%);
   color: white;

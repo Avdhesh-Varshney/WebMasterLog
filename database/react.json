@@ -33,5 +33,25 @@
 		"tag": "Intermediate",
 		"title": "Currency Converter",
 		"description": "Ths is a simple currency converter application that allows users to convert between different currencies. It fetches live exchange rates from an API and performs conversions accordingly."
+	},
+	{
+		"tag": "Advanced",
+		"title": "Code Editor",
+		"description": "This is a code editor application built with React.js. It allows users to write, edit, and execute code snippets in programming languages like HTML,CSS,JS. The editor provides syntax highlighting, auto-completion, and other essential features to enhance the coding experience."
+	},
+	{
+		"tag": "Advanced",
+		"title": "Notes App",
+		"description": "This is an user-friendly notes app enabling seamless note management functionalities."
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Movie Land",
+		"description": "MovieLand is a web application that fetches and displays movies from the OMDB API, allowing users to search and explore various movie titles. It provides a simple interface to view movie details such as title, year, and poster."
+	},
+	{
+	        "tag": "Advanced",
+		"title": "Travel Website",
+		"description": "This is a website made using reactjs to showcase the different places of the world to the tourist to go there for a tour."
 	}
 ]

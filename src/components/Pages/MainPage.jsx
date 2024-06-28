@@ -2,9 +2,10 @@ import React, { useEffect, useState } from "react";
 import ProjectCards from "../Cards/ProjectCards";
 import "./mainpage.css";
 import Dashboard from "./Dashboard";
+import BackToTop from '../BackToTop';
 
 const MainPage = (props) => {
-  const { category, routes, setProgress } = props;
+  const { category, routes, setProgress, query } = props;
   if (category === "") return <Dashboard />;
 
   const [projectsData, setProjectsData] = useState([]);
@@ -20,6 +21,7 @@ const MainPage = (props) => {
     let filtered = routes.filter((obj) => obj.path === `/${category}`);
     return filtered[0].tech;
   };
+
 
   useEffect(() => {
     const fetchData = async () => {
@@ -57,6 +59,21 @@ const MainPage = (props) => {
     setTag(selectedTag);
   };
 
+   // Filter projects based on search query
+   useEffect(() => {
+    if (query.trim() === "") {
+      setFilteredData(projectsData); // Show all projects if search query is empty
+    } else {
+      const lowerCaseQuery = query.toLowerCase();
+      const filteredProjects = projectsData.filter(
+        (project) =>
+          project.title.toLowerCase().includes(lowerCaseQuery) ||
+          project.description.toLowerCase().includes(lowerCaseQuery)
+      );
+      setFilteredData(filteredProjects);
+    }
+   }, [query, projectsData]);
+   
   useEffect(() => {
     const dropdown = document.querySelector(".custom-dropdown");
     if (dropdown) {
@@ -94,6 +111,7 @@ const MainPage = (props) => {
         </select>
       </div>
       <ProjectCards projectsData={filteredData} tech={getTech(category)} />
+      <BackToTop/>
     </div>
   );
 };

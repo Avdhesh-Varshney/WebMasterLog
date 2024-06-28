@@ -40,10 +40,12 @@ const showAnimation = {
   },
 };
 
-const SideBar = ({ routes, isOpen, toggleSidebar, children }) => {
+const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) => {
   // const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const [modes, setModes] = useState("Dark")
+
+
   useEffect(() => {
     const currentCategory = getCurrentCategory();
     const scrollbarColor = getScrollbarColor(currentCategory);
@@ -104,6 +106,7 @@ const SideBar = ({ routes, isOpen, toggleSidebar, children }) => {
     }
   }
   // console.log(modes)
+
   return (
     <>
       <div className='main-container'>
@@ -134,12 +137,13 @@ const SideBar = ({ routes, isOpen, toggleSidebar, children }) => {
               <BiSearch />
             </div>
             <AnimatePresence>
-              {isOpen && <motion.input initial='hidden' animate='show' exit='hidden' variants={inputAnimation} type='text' placeholder='Search' />}
+              {isOpen && <motion.input initial='hidden' animate='show' exit='hidden' variants={inputAnimation}
+               type='text' placeholder='Search' value={query} onChange={(e) => setQuery(e.target.value)}  />}
             </AnimatePresence>
           </div>
 
           <section className='routes'>
-            {routes.map((route, index) => {
+          {routes.map((route, index) => {
               if (route.subRoutes) {
                 return (
                   <SideBarMenu

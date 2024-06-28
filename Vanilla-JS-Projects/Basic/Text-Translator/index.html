@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <title>Text Translator</title>
+</head>
+<body>
+    <div class="container">
+        <div style="display: flex; justify-content: center;">
+        <h1>Text Translator</h1></div>
+        <div style="display: flex; justify-content: center;">
+        <textarea rows="5" placeholder="Enter Text ..." required id="txt"></textarea></div>
+        <div style="display: flex; justify-content: center; padding-top: 5px;">
+        <select id="languageSelect">
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="zh-CN">Chinese</option>
+            <option value="en">English</option>
+            <option value="hi">Hindi</option>
+            <option value="te">Telugu</option>
+            <option value="ml">Malayalam</option>
+            <option value="bn">Bengali</option>
+        </select>
+    </div>
+    <div style="display: flex; justify-content: center;">
+    <button id="translateButton" onclick="translateText()">Translate</button></div>
+    <div style="display: flex; justify-content: center;">
+        <textarea id="translatedText" placeholder="Translated text will appear here" readonly></textarea></div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
