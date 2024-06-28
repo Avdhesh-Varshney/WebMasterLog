@@ -113,5 +113,10 @@
 		"tag":"Basic",
 		"title":"Virtual-Piano",
 		"description":"Virtual Piano enables users to play a digital piano with adjustable volumes, providing a customizable and interactive musical experience."
+	},
+	{
+		"tag":"Intermediate",
+		"title":"Fitness-Website",
+	  "description":"A fitness website offers workout plans, exercise guides, and tools to help users achieve their fitness goals."
 	}
 ]
