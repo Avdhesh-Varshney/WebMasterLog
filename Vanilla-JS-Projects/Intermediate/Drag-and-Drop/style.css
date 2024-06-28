@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(68, 68, 194);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left,#right
+{
+ width: 300px;
+ min-height: 400px;
+ margin: 20px;
+ border: 2px dashed #fff;
+}
+.list
+{
+    background: rgb(244, 56, 88);
+    height: 60px;
+    margin: 30px;
+    color:white;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+.list img
+{
+    width: 20px;
+    margin-right: 30px;
+    margin-left: 20px;
+    
+}
