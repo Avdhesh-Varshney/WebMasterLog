@@ -39,6 +39,7 @@
 |   12  | [Facebook Login Page](./Basic/Facebook-Login-Page) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   13  | [PhonePe Clone](./Basic/PhonePe/)| ![Basic](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 | 14  | [SpaceX Website Clone](./Basic/SpaceX-Website-Clone/) | ![Basic](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   15  | [Flipkart Clone](./Intermediate/Flipkart-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
