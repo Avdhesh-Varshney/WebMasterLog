@@ -53,5 +53,10 @@
 	        "tag": "Advanced",
 		"title": "Travel Website",
 		"description": "This is a website made using reactjs to showcase the different places of the world to the tourist to go there for a tour."
-	}
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Form Validation",
+		"description": "This is a simple registration form built with React, that features real-time validation and error handling to ensure that users provide valid information"
+	},
 ]
