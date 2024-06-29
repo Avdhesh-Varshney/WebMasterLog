@@ -69,8 +69,8 @@
 |  42	  | [Image-Search-Engine](./Basic/Image-Search-Engine/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  43   | [Code-Editor](./Intermediate/Code-Editor/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  44   | [Prime-Number-Checker](./Basic/Prime-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|  45   | [Drag-and-Drop](./Intermediate/Drag-and-Drop/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
-
+|  45   |  [Fitness Website](./Intermediate/Fitness-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  46   | [Drag-and-Drop](./Intermediate/Drag-and-Drop/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
 
 
 </div>
