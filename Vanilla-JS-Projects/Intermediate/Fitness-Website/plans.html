@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitnessPro - Plans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">FitnessPro</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exercises.html">Exercises</a></li>
+                <li><a href="plans.html">Plans</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="plans">
+            <h2 class="animate-fade-in">Workout Plans</h2>
+            <div class="plan overlay-container animate-slide-in">
+                <h3>Arm Workout</h3>
+                <p>Target your arm muscles with these effective exercises.</p>
+                <button onclick="startPlan('arm')">Start Plan</button>
+            </div>
+            <div class="plan overlay-container animate-slide-in">
+                <h3>Leg Workout</h3>
+                <p>Strengthen your leg muscles and improve lower body strength.</p>
+                <button onclick="startPlan('leg')">Start Plan</button>
+            </div>
+            <div class="plan overlay-container animate-slide-in">
+                <h3>Shoulder Workout</h3>
+                <p>Enhance shoulder mobility and strength with these exercises.</p>
+                <button onclick="startPlan('shoulder')">Start Plan</button>
+            </div>
+            <div class="plan overlay-container animate-slide-in">
+                <h3>Back Workout</h3>
+                <p>Focus on your back muscles to improve posture and strength.</p>
+                <button onclick="startPlan('back')">Start Plan</button>
+            </div>
+        </section>
+    </main>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
