@@ -64,11 +64,14 @@
 |  37   | [Text-to-Image-Generator](./Intermediate/Text-to-Image-Generator/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
 |  38   | [Text-Translator](./Basic/Text-Translator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  39   | [Interactive-Periodic-Table](./Intermediate/Interactive-Periodic-Table/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
-|  40	| [Anagram-Checker](./Basic/Anagram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  40 	| [Anagram-Checker](./Basic/Anagram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  41   | [Leap-Year-Checker](./Basic/Leap-Year-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|  42	| [Image-Search-Engine](./Basic/Image-Search-Engine/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  42	  | [Image-Search-Engine](./Basic/Image-Search-Engine/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  43   | [Code-Editor](./Intermediate/Code-Editor/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|  44   | [Drag-and-Drop](./Intermediate/Drag-and-Drop/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
+|  44   | [Prime-Number-Checker](./Basic/Prime-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  45   | [Drag-and-Drop](./Intermediate/Drag-and-Drop/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
+
+
 
 </div>
 
