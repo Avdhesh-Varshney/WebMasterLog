@@ -1,176 +1,232 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.light {
+  filter: invert(1);
+}
+
+.light img,
+.light svg,
+.light .button-group button,
+.light #Ui {
+  filter: invert(1);
+}
+
+.light #svg {
+  filter: invert(0%);
 }
 
 .main-container {
-    display: flex;
-    background-color: black;
-    color: white;
+  display: flex;
+  background-color: black;
+  color: white;
 }
 
 .sidebar {
-    background: #12151e;
-    color: #6c7293;
-    height: 100%;
-    overflow-y: auto;
+  z-index: 100;
+  display: block;
+  height: 100vh;
+  background: #12151e;
+  color: #6c7293;
+  padding: 10px 0;
+  overflow-y: auto;
+  position: relative;
+}
+
+.Dark_Light_mode,
+.opened_menu_bar {
+  position: absolute;
+  bottom: 2%;
+  right: 0;
+  left: 0;
+  margin: auto;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
+
+.Dark_Light_mode {
+  justify-content: center;
+  align-items: center;
+}
+
+.Dark_Light_mode img,
+.opened_menu_bar img {
+  filter: invert(1);
+  height: 30px;
+  width: 30px;
+}
+
+.opened_menu_bar {
+  padding-left: 2rem;
+}
+
+.opened_menu_bar:hover,
+.Dark_Light_mode:hover {
+  color: white;
+}
+
+.opened_menu_bar p {
+  margin-top: 2px;
 }
 
 .top_section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10px;
 }
 
 .logo {
-    font-size: 18px;
-    line-height: 0;
-    margin: 0 5px;
+  font-size: 18px;
+  line-height: 0;
+  margin: 0 5px;
 }
 
 .bars {
-    width: 20px;
-    margin: 0px 5px;
+  width: 20px;
+  margin: 0px 5px;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .search {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-    height: 30px;
-    padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  height: 30px;
+  padding: 10px;
 }
 
 .search input {
-    border: none;
-    margin-left: 10px;
-    border-radius: 5px;
-    background: rgb(238, 238, 238);
-    color: black;
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  background: rgb(238, 238, 238);
+  color: black;
 }
 
 .routes {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .link {
-    display: flex;
-    color: #6c7293;
-    gap: 10px;
-    padding: 5px 10px;
-    margin-right: 5px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-right: 4px solid transparent;
-    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  display: flex;
+  color: #6c7293;
+  gap: 10px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 .link:hover {
-    color: white;
-    background: #0f1015;
-    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  color: white;
+  background: #0f1015;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 
 .active {
-    border-left: 4px solid white;
-    color: white;
-    background: #0f1015;
+  border-left: 4px solid white;
+  color: white;
+  background: #0f1015;
 }
 
 .link_text {
-    white-space: nowrap;
-    font-size: 15px;
-    margin: auto 0;
+  white-space: nowrap;
+  font-size: 15px;
+  margin: auto 0;
 }
 
 .menu {
-    display: flex;
-    color: white;
-    padding: 5px 10px;
-    border-right: 4px solid transparent;
-    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-    justify-content: space-between;
+  display: flex;
+  color: white;
+  padding: 5px 10px;
+  border-right: 4px solid transparent;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  justify-content: space-between;
 }
 
 .menu_item {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .menu_container {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu_container .link {
-    padding-left: 20px;
-    border-bottom: #fff 0.5px solid;
+  padding-left: 20px;
+  border-bottom: #fff 0.5px solid;
 }
 
 .icon {
-    font-size: 1.2rem;
-    line-height: 1.2;
-    color: #bba8bff5;
+  font-size: 1.2rem;
+  line-height: 1.2;
+  color: #bba8bff5;
 }
 
 .icon::before {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .circle {
-    width: 30px;
-    height: 30px;
-    border-radius: 100%;
-    background-color: #6c729333;
-    text-align: center;
-    margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #6c729333;
+  text-align: center;
+  margin-left: 10px;
 }
 
 .dashboard {
-    color: violet;
-    filter: drop-shadow(0 0 5px violet);
+  color: violet;
+  filter: drop-shadow(0 0 5px violet);
 }
 
 .angular {
-    color: red;
-    filter: drop-shadow(0 0 5px red);
+  color: red;
+  filter: drop-shadow(0 0 5px red);
 }
 
 .frontend {
-    color: yellowgreen;
-    filter: drop-shadow(0 0 5px yellowgreen);
+  color: yellowgreen;
+  filter: drop-shadow(0 0 5px yellowgreen);
 }
 
 .next {
-    filter: drop-shadow(0 0 5px yellowgreen);
-    color: #12151e;
+  filter: drop-shadow(0 0 5px yellowgreen);
+  color: #12151e;
 }
 
 .node {
-    filter: drop-shadow(0 0 5px yellowgreen);
-    color: green;
+  filter: drop-shadow(0 0 5px yellowgreen);
+  color: green;
 }
 
 .react {
-    color: blue;
-    filter: drop-shadow(0 0 5px blue);
+  color: blue;
+  filter: drop-shadow(0 0 5px blue);
 }
 
 .vanilla {
-    color: yellow;
-    filter: drop-shadow(0 0 5px yellowgreen);
+  color: yellow;
+  filter: drop-shadow(0 0 5px yellowgreen);
 }
 
 .vue {
-    color: green;
-    filter: drop-shadow(0 0 5px yellowgreen);
+  color: green;
+  filter: drop-shadow(0 0 5px yellowgreen);
 }

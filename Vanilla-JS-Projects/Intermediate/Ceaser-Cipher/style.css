@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #050816; /* Dark background color */
+  color: #fff; /* Light text color */
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #eee; /* Light heading color */
+}
+#theme-toggle {
+  width: 50px;
+  height: 50px;
+}
+form {
+  max-width: 400px;
+  margin: 20px;
+  background: rgba(23, 17, 49, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(21, 26, 106, 0.37); /* Dark form background color */
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow */
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+label {
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #ccc; /* Light label color */
+}
+h2,
+h3 {
+  text-align: center;
+}
+textarea,
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #555; /* Dark border color */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #444; /* Dark input background color */
+  color: #fff; /* Light text color */
+}
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Light text color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#decrypt-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Light text color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Button hover color */
+}
+
+input[type="Decrypt"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Light text color */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="Decrypt"]:hover {
+  background-color: #0056b3; /* Button hover color */
+}
+
+#output {
+  max-width: 400px;
+  margin: 20px;
+  background-color: #333; /* Dark output background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow */
+}
+#plaintext {
+  color: white;
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #333; /* Dark output background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* White shadow */
+}
+.output-heading {
+  font-size: 1.2em;
+  color: #eee; /* Light heading color */
+  margin-bottom: 10px;
+}

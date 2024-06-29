@@ -40,9 +40,11 @@ const showAnimation = {
   },
 };
 
-const SideBar = ({ routes, children }) => {
-  const [isOpen, setIsOpen] = useState(false);
+const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) => {
+  // const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const [modes, setModes] = useState("Dark")
+
 
   useEffect(() => {
     const currentCategory = getCurrentCategory();
@@ -92,7 +94,18 @@ const SideBar = ({ routes, children }) => {
     };
   };
 
-  const toggle = () => setIsOpen(!isOpen);
+  // const toggle = () => setIsOpen(!isOpen);
+
+  const modes_control = () => {
+    document.body.classList.toggle('light')
+    if (document.body.classList.contains('light')) {
+      setModes("Light")
+    }
+    else {
+      setModes("Dark")
+    }
+  }
+  // console.log(modes)
 
   return (
     <>
@@ -115,7 +128,7 @@ const SideBar = ({ routes, children }) => {
             </AnimatePresence>
 
             <div className='bars flex-grow d-flex align-items-stretch align-self-center'>
-              <FaBars onClick={toggle} />
+              <FaBars onClick={toggleSidebar} />
             </div>
           </div>
 
@@ -124,12 +137,13 @@ const SideBar = ({ routes, children }) => {
               <BiSearch />
             </div>
             <AnimatePresence>
-              {isOpen && <motion.input initial='hidden' animate='show' exit='hidden' variants={inputAnimation} type='text' placeholder='Search' />}
+              {isOpen && <motion.input initial='hidden' animate='show' exit='hidden' variants={inputAnimation}
+               type='text' placeholder='Search' value={query} onChange={(e) => setQuery(e.target.value)}  />}
             </AnimatePresence>
           </div>
 
           <section className='routes'>
-            {routes.map((route, index) => {
+          {routes.map((route, index) => {
               if (route.subRoutes) {
                 return (
                   <SideBarMenu
@@ -140,11 +154,18 @@ const SideBar = ({ routes, children }) => {
                     setIsOpen={setIsOpen}
                     routes={routes} // Pass the routes prop here
                   />
+
                 );
               }
 
               return (
-                <NavLink to={route.path} key={index} className='link' activeClassName='active'>
+                <NavLink 
+                  to={route.path} 
+                  key={index} 
+                  className='link' 
+                  activeClassName='active'
+                  title={route.name} // Add hover text here
+                >
                   <div className='circle'>
                     <div className='icon'>{route.icon}</div>
                   </div>
@@ -158,6 +179,10 @@ const SideBar = ({ routes, children }) => {
                 </NavLink>
               );
             })}
+            <div className={isOpen ? "opened_menu_bar" : 'Dark_Light_mode'} onClick={() => modes_control()}>
+              <img src='https://cdn-icons-png.flaticon.com/128/12301/12301351.png' alt='Dark_light_mode' />
+              {isOpen ? <p>{modes}</p> : <></>}
+            </div>
           </section>
         </motion.div>
 

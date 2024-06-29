@@ -25,10 +25,13 @@
 
 | S.No  | Project Name | Category |
 |-------|--------------|----------|
-|   1   |  |  |
-|   2   |  |  |
-
-
+|   1   |  [JWT Authenticator With Roles](./Intermediate/JWT-Authenticator-With-Roles) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   2   | [Infinite Scrolling](./Basic/Infinite-Scrolling) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   3   | [CRUD Operations](./Basic/Crud-Operations) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   4   |  [YouTube Video Downloader](./Intermediate/YouTube-Video-Downloader) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   5   | [Url Shortener](./Advanced/Url-Shortener) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge)|
+|   6   | [Blog Platform](./Advanced/Blog-Platform) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge)|
+|   7   | [Headline Hub](./Basic/Headline-Hub) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 
 </div>
 

@@ -1,0 +1,192 @@
+#main {
+  margin: auto;
+  border: 2px black solid;
+  height: 297mm;
+  width: 210mm;
+  display: flex;
+}
+
+#sidebar {
+  background-color: rgb(247, 244, 239);
+  width: 35%; /* Reduced width */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#sidebar img {
+  margin-bottom: 20px;
+}
+
+#bar {
+  width: 65%; /* Increased width */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+}
+
+#name {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.vertical-line {
+  position: absolute;
+  left: -0.25px;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: black;
+}
+#A {
+ background-color: black;
+ width:100%;
+ height: 0.1em;
+}
+#namebar 
+{
+text-align: center;
+}
+
+#B
+{
+  width:75%;
+  color:grey;
+  height:0.05em;
+}
+
+h5 
+{
+  font-family: 'Monospace';
+}
+
+h5, #ico {
+  display: inline-flex;
+}
+#head {
+  margin-top: 20px;
+  position: relative; /* Add this line */
+}
+
+#C {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: black;
+  position: absolute; /* Add this line */
+  bottom: -9px; /* Adjust this value to move the line up */
+}
+#info 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.flex-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+#a {
+  margin-top: 20px; /* Add margin to separate it from the previous section */
+}
+
+#a h4 {
+  font-size: 20px; /* Larger font size for the year */
+  font-weight: bold; /* Make the year bold */
+  color: #555; /* Dark gray color for the year */
+  margin-bottom: 5px; /* Add some space below the year */
+}
+
+#deg {
+  font-size: 18px; /* Larger font size for the degree */
+  font-weight: bold; /* Make the degree bold */
+  color: #333; /* Darker gray color for the degree */
+  margin-bottom: 5px; /* Add some space below the degree */
+}
+
+#clg {
+  font-style: italic; /* Make college name italic */
+  color: #777; /* Dark gray color for college name */
+  margin-bottom: 5px; /* Add some space below the college name */
+}
+
+#gpa {
+  font-size: 16px; /* Slightly smaller font size for the GPA */
+  color: #888; /* Light gray color for the GPA */
+}
+#D{width: 100%;
+  height: 1px;
+  border: none;
+  background-color: gray;
+  position: absolute; /* Add this line */
+  bottom: -9px; }
+
+  #skillsform ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skillsform ul li {
+    margin-bottom: 10px;
+  }
+  
+  #skillsform ul li span {
+    display: inline-block;
+    width: 100px; /* Adjust width as needed */
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    display: inline-block;
+    width: 100px; /* Adjust width as needed */
+    height: 2px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-progress {
+    height: 100%;
+    background-color: gray;
+  }
+  
+  #profiletext 
+  {
+    font-size: small;
+    padding : 10px;
+  }
+  #work .b {
+    margin-bottom: 20px;
+    padding: 10px; /* Add padding */
+  }
+  
+  #work .b h3 {
+    font-size: 1.1em; /* Reduce font size */
+    margin-bottom: 3px; /* Adjust margin */
+  }
+  
+  #work .b p {
+    font-size: 0.9em; /* Reduce font size */
+    margin-bottom: 3px; /* Adjust margin */
+  }
+  
+  #work .b #rol {
+    font-weight: bold;
+  }
+  
+  #work .b #com {
+    font-style: italic;
+  }
+  
+  .nut 
+  {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+  }
+ 
