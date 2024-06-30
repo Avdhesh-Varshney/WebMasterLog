@@ -40,11 +40,17 @@ const showAnimation = {
   },
 };
 
-const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) => {
-  // const [isOpen, setIsOpen] = useState(false);
+const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery, query }) => {
   const location = useLocation();
-  const [modes, setModes] = useState("Dark")
+  const [modes, setModes] = useState("Dark");
 
+  useEffect(() => {
+    const savedMode = localStorage.getItem('themeMode') || 'Dark';
+    if (savedMode === 'Light') {
+      document.body.classList.add('light');
+      setModes('Light');
+    }
+  }, []);
 
   useEffect(() => {
     const currentCategory = getCurrentCategory();
@@ -94,18 +100,16 @@ const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) =>
     };
   };
 
-  // const toggle = () => setIsOpen(!isOpen);
-
   const modes_control = () => {
-    document.body.classList.toggle('light')
+    document.body.classList.toggle('light');
     if (document.body.classList.contains('light')) {
-      setModes("Light")
+      setModes("Light");
+      localStorage.setItem('themeMode', 'Light');
+    } else {
+      setModes("Dark");
+      localStorage.setItem('themeMode', 'Dark');
     }
-    else {
-      setModes("Dark")
-    }
-  }
-  // console.log(modes)
+  };
 
   return (
     <>
@@ -154,7 +158,6 @@ const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) =>
                     setIsOpen={setIsOpen}
                     routes={routes} // Pass the routes prop here
                   />
-
                 );
               }
 
