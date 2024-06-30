@@ -37,6 +37,7 @@
 |   10   | [Movie Land](./Intermediate/Movie-Land/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   11   | [Travel Website](./Advanced/Travel-Website/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   12   | [Solar System Model](./Advanced/Solar-system-model/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   13   | [Insight Hub](./Intermediate/Insight-Hub/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 </div>

@@ -53,5 +53,11 @@
 	        "tag": "Advanced",
 		"title": "Travel Website",
 		"description": "This is a website made using reactjs to showcase the different places of the world to the tourist to go there for a tour."
+	},
+	{
+		"tag": "Intermediate",
+		"title": "Insight Hub",
+		"description": "Insight Hub is a Community Forum web application built using the MERN stack. The app allows users to post questions, provide answers, and engage in discussions on various topics."
 	}
+
 ]
