@@ -114,8 +114,8 @@
 		"title":"Virtual-Piano",
 		"description":"Virtual Piano enables users to play a digital piano with adjustable volumes, providing a customizable and interactive musical experience."
 	},
-	{
-		"tag":"Intermediate",
+        {
+                "tag":"Intermediate", 
 		"title":"Meme-Generator",
 		"description":"This is a simple project which generates random memes along with an image and the name of the author just by one click of a button."
 	},
@@ -123,5 +123,10 @@
 		"tag":"Intermediate",
 		"title":"Code-Editor",
 		"description":"This project utilizes a technology stack comprising HTML, CSS, and JavaScript. The integrated code editor features dedicated HTML, CSS, and JavaScript editors, providing real-time output previews for an enhanced development experience."
-	}
+        },
+	{
+		"tag":"Intermediate",
+		"title":"Fitness-Website",
+	        "description":"A fitness website offers workout plans, exercise guides, and tools to help users achieve their fitness goals."
+        }
 ]
