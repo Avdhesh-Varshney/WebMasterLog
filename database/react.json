@@ -59,4 +59,9 @@
 		"title": "Form Validation",
 		"description": "This is a simple registration form built with React, that features real-time validation and error handling to ensure that users provide valid information"
 	},
+	{
+		"tag": "Intermediate",
+		"title": "Insight Hub",
+		"description": "Insight Hub is a Community Forum web application which allows users to post questions, provide answers, and engage in discussions on various topics."
+	}
 ]

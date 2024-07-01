@@ -1,0 +1,212 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    max-width: 700px;
+    box-shadow: 0px 5px 8px -9px solid rgab(0, 0, 0, 0.5);
+  }
+  
+  .post__info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post__info > h4 {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  .post__info > h4:hover {
+    text-decoration: underline;
+  }
+  
+  .post__info > small {
+    margin-left: 10px;
+  }
+  
+  .post__body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post__body > .post__question {
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .post__question > .post__btnAnswer {
+    margin-left: auto;
+    cursor: pointer;
+    padding: 7px;
+    background-color: #222;
+    outline: none;
+    border: none;
+    color: lightgray;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .post__btnAnswer:hover {
+    color: #222;
+    background: lightgray;
+  }
+  
+  .post__question > p:hover {
+    text-decoration: underline;
+  }
+  
+  .post__body > .post__answer > p {
+    margin-bottom: 10px;
+  }
+  
+  /* .post__image {
+    background: rgb(0, 140, 255);
+  } */
+  
+  .post__body > img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .post__footer {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  
+  .post__footer > .MuiSvgIcon-root {
+    color: gray;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  
+  .post__footerAction {
+    background-color: lightgray;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 33px;
+  }
+  .post__footerAction > .MuiSvgIcon-root {
+    color: gray;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  
+  .post__footerAction > .MuiSvgIcon-root:hover {
+    color: rgb(0, 140, 255);
+    margin-right: 40px;
+  }
+  
+  .post__footerLeft {
+    margin-left: auto;
+  }
+  
+  .post__footerLeft > .MuiSvgIcon-root {
+    color: gray;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  
+  .modal__question {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .modal__question > h1 {
+    color: #8f1f1b;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .modal__question > p {
+    color: gray;
+    font-size: small;
+  }
+  
+  .modal__question > p > .name {
+    color: black;
+    font-weight: bold;
+  }
+  
+  .modal__answer {
+    display: flex;
+    padding-top: 20px;
+    flex: 1;
+  }
+  
+  .modal__answer > textarea {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+  }
+  
+  .modal__button {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  .modal__button > .cancle {
+    border: none;
+    margin-top: 10px;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+  }
+  
+  .modal__button > .cancle:hover {
+    color: red;
+  }
+  .modal__button > .add {
+    border: none;
+    outline: none;
+    margin-top: 5px;
+    background-color: #222;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 33px;
+    cursor: pointer;
+    width: 50%;
+  }
+  .modal__button > .add:hover {
+    background-color: #eee;
+    color: #222;
+  }
+  
+  .react-responsive-modal-modal {
+    /* width: 600px; */
+    height: 400px;
+  }
+  
+  .quill {
+    width: 100%;
+    height: 120px;
+  }
