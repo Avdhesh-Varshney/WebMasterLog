@@ -1,0 +1,157 @@
+.grid-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+    background-color: rgba(18,18,18,255);
+    padding: 4px 4px;
+    column-gap: 5px;
+    justify-content: space-evenly;
+    margin-top: -5px;
+ }
+ .grid-cont1{
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    padding-top: 10px;
+    height: 5px;
+    margin-left: 60px;
+ }
+
+.pro-beyond{
+    width: 1400px;
+    height: auto; 
+}
+.image_side{
+    margin-top:-780px; 
+    margin-left: 520px; margin-right: 50px; 
+    color: #d6d0d0; font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; 
+    font-size: 500%; 
+    padding-left: 210px;
+    padding-bottom: 500px;  
+}
+
+.content1{
+    color:#bbbbbb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    margin-left: 270px; 
+    font-weight: bold;
+    font-size: 230%; 
+    margin-top: -90px;
+}
+.gradient-data{
+    background: linear-gradient(to bottom,#f9adff, #a945eb); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 230%; 
+    margin-left: 270px; 
+    font-weight: bold; 
+}
+.iphone-color{
+    margin-left: 450px;
+    margin-top:150px;
+}
+
+.color_option{
+    margin-top: -700px;
+    margin-left: 690px; 
+    margin-right: 50px; 
+    color: #bbbbbb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; font-size: 200%; 
+    padding-left: 250px; 
+    line-height: 45px;
+    /* padding-bottom: 100px;  */
+    /* font-weight: 450;     */
+}
+.below-image-data{
+    color: #d6d0d0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; 
+    font-size: 200%;
+    margin-top: 30px;
+    font-size: x-large;
+    margin-left: 450px; 
+    font-weight: bold;
+}
+.arrow{    
+    background: linear-gradient(to bottom,#d3aac2, #b459c8); 
+    border-radius: 50px; 
+    color: black;
+    height: 60px; 
+    width: 60px;
+    margin-top: 40px;
+    padding-left: 12px; 
+    padding-top: 10px;
+    /* margin-left: 100px; */
+}
+.caption{
+    margin-top:10px;
+    margin-left:150px;
+    color: grey;
+    font-weight: 500;
+    font-size: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.caption-1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: grey;
+    margin-left: 50px;
+    /* margin-top:10px; */
+}
+.pic-grid{
+    padding:20px;
+    /* background-color: red; */
+    display: inline-grid;
+    grid-template-columns: 370px 370px 370px;
+    column-gap: 10px; 
+    row-gap:30px;
+    margin-left: 100px;
+}
+.grid-cont2{
+    display: inline-grid;
+    padding:20px;
+    grid-template-columns: auto auto auto;
+    /* background-color: red; */
+    column-gap: 30px;
+    margin-left:150px; 
+    /* margin-bottom: 500px; */
+}
+.grid-items-1{
+    color: #d6d0d0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; 
+    font-size: 150%;
+    /* font-weight: bold; */
+    /* margin-left:60px; */
+    padding-left:100px
+}
+.caption-2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: grey;
+    margin-left: 7px; 
+    font-size: 70%; 
+    font-weight: 600;
+    line-height: 30px;
+}
+.end-back{
+    background-color: #111111;
+    margin-top:200px
+}
+.end-site{
+    /* background-color: red;   #111111 */
+    /* width: 100%; */
+    grid-template-columns: 500px 500px;
+    display: inline-grid; 
+    column-gap: 10px; 
+    row-gap: 20px;
+    padding:100px;
+    margin-left: 100px;
+}
+.grid-merge{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.end-bg{
+    border-radius: 30px;
+    background-color: black;
+    padding-left: 10px;
+    /* border: 1px solid blue; */
+    padding:50px;
+}
