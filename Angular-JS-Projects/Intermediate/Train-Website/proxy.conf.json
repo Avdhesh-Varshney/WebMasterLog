@@ -1,0 +1,8 @@
+{
+    "/api/*": {
+      "target": "https://freeapi.miniprojectideas.com/api/TrainApp/",
+      "secure": true,
+      "logLevel": "debug",
+      "changeOrigin": true
+    }
+  }

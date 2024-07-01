@@ -1,0 +1,17 @@
+.form-control {
+    border: 1px solid black !important;
+}
+.form-select {
+    border: 1px solid black !important;
+}
+
+.rounded-btn {
+    border-radius: 20px;
+}
+.navbar {
+    background-color: #1e6a99 !important;
+    color: white !important;
+}
+.card-body {
+    border: 1px solid gray !important;
+}
