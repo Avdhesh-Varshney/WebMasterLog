@@ -1,0 +1,133 @@
+<div class="container-fluid bg-secondary p-4">
+    <div class="row">
+        <div class="col-4 px-4">
+            <select class="form-select" [(ngModel)]="searchObj.fromStationId">
+                <option value="">Select From Station</option>
+                <option *ngFor="let station of stationList" [value]="station.stationID">{{station.stationName}}</option>
+            </select>
+        </div>
+        <div class="col-4 px-4">
+            <select class="form-select" [(ngModel)]="searchObj.toStationId">
+                <option value=""> Select To Station </option>
+                <option *ngFor="let station of stationList" [value]="station.stationID">{{station.stationName}}</option>
+            </select>
+        </div>
+        <div class="col-2 px-2">
+            <input type="text" [(ngModel)]="searchObj.dateOfTravel" class="form-control" />
+        </div>
+        <div class="col-2 text-end">
+            <button type="button" class="btn btn-primary btn-sm" (click)="getAllTrains()">Modify Search</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid pt-2">
+    <p style="border: 1px solid;padding: 5px;margin-top: 5px;"><strong>{{trainsList.length}}</strong> Result Found For
+        <strong>Pune</strong>
+        to <strong>Nagpur</strong> on 12-12-2023</p>
+    <div class="row">
+        <ng-container *ngIf="trainsList.length ==0">
+            <div class="col-12">
+                <p>No Trains Available, Please Check All trains API data .</p>
+            </div>
+        </ng-container>
+        <ng-container *ngIf="trainsList.length !==0">
+            <div class="col-6 mt-2"  *ngFor="let train of trainsList">
+                <div class="card">
+                    <div class="card-header bg-secondary text-white">
+                        {{train.trainName}}
+                    </div>
+                    <div class="card-body">
+                        <div class="row pb-2">
+                            <div class="col-5">
+                                {{train.departureTime}} | {{train.departureStationName}} | {{train.departureDate|date:'dd-MMM-yy'}}
+                            </div>
+                            <div class="col-2">
+                                15:05 hrs
+                            </div>
+                            <div class="col-5 text-end">
+                               {{train.arrivalTime}} | {{train.arrivalStationName}} |{{train.departureDate |date:'dd-MMM-yy'}}
+                            </div>
+                        </div>
+                        <button *ngIf="train.bookedSeats !== train.totalSeats" (click)="openBooking(train.trainId)" class="btn btn-success btn-sm"  data-bs-toggle="modal" data-bs-target="#myModal">Book
+                            Now</button>
+                       <button *ngIf="train.bookedSeats == train.totalSeats" class="btn btn-danger btn-sm"  data-bs-toggle="modal" data-bs-target="#myModal">All Booked
+                                 </button>
+                    </div>
+                </div>
+            </div> 
+        </ng-container>
+       
+    </div>
+</div>
+
+
+<div class="modal" id="bookmodel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h5 class="modal-title">Book Ticket</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-8 text-end">
+                        Train: Pune Express
+                    </div>
+                    <div class="col-4 text-end">
+                        Time:14.30
+                    </div>
+                </div>
+                <div class="row pt-1">
+                    <div class="col-6 mt-2">
+                        <label for="">Passenger Name</label>
+                        <input type="text" [(ngModel)]="bookingPassengers.passengerName" class="form-control">
+                    </div>
+                    <div class="col-3">
+                        <label for="">Age</label>
+                        <input type="text"  [(ngModel)]="bookingPassengers.age" class="form-control">
+                    </div>
+                    <div class="col-3  text-end pt-4">
+                        <button class="btn btn-sm btn-primary" (click)="AddPassenger()">Add</button>
+                    </div>
+                </div>
+                <div class="row pt-1">
+                    <div class="col-12">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Sr </th>
+                                    <th>Passenger Name</th>
+                                    <th>Age</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let paswenger of bokingObj.TrainAppBookingPassengers;let sr=index">
+                                    <td>{{sr+1}}</td>
+                                    <td>{{paswenger.passengerName}}</td>
+                                    <td>{{paswenger.age}}</td>
+                                    <td>
+                                        <button class="btn btn-danger btn-sm" (click)="onRemove(sr)">Remove</button>
+                                    </td>
+                                </tr>
+                               
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger btn-sm" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success btn-sm"  (click)="BookTicket()">Book
+                    Ticket</button>
+            </div>
+
+        </div>
+    </div>
+</div>
