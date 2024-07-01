@@ -128,5 +128,10 @@
 		"tag":"Intermediate",
 		"title":"Fitness-Website",
 	        "description":"A fitness website offers workout plans, exercise guides, and tools to help users achieve their fitness goals."
-        }
+        },
+	{
+		"tag":"Intermediate",
+		"title":"Drag-and-Drop",
+		"description":"This project shows how drag and drop option in any file uploading website working."
+	}
 ]
