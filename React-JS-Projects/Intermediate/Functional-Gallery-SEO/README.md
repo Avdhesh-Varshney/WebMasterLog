@@ -20,35 +20,45 @@
 This project is an Image Generator built with React. It fetches images from the Pexels API based on user search queries and displays them in a gallery format. Users can search for images using keywords and view them in a lightbox for a larger preview.
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
-
-# :zap: How to run it? 🕹️
+## :zap: How to run it? 🕹️
 
 <!-- Add steps how to run this project -->
 
-To run this project locally, follow these steps:
+1. Clone the Repository:
 
-1. Fork the repository.
+```
+git clone project-url
+```
 
-2. Clone the repository to your local computer
+2. Install Dependencies:
 
-3. Open the project folder in your preferred code editor, now you can view website in live.
+```
+cd Functional-Gallery-SEO
+npm install
+```
 
+3. Run the Application:
 
+```
+npm start
+```
+
+4. Open your browser and navigate to `http://localhost:3000` to see the registration form in action.
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
+
 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-![img](./screenshot.webp)
-
+<img src="./screenshot.webp" alt="Functional Gallery">
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h4 align='center'>Developed By <b><i>ISHITHA JAIN</i></b> 👦</h4>
+<h4 align='center'>Developed By <b><i>ISHITHA JAIN</i></b> 👩🏻‍💻</h4>
 <p align='center'>
   <a href='https://www.linkedin.com/in/ishitha-chaudhary/'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
@@ -60,4 +70,4 @@ To run this project locally, follow these steps:
 
 <h4 align='center'>Happy Coding 🧑‍💻</h4>
 
-<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
+<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>       
