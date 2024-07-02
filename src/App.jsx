@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import LoadingBar from 'react-top-loading-bar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Context } from './contexts/Context';
-import FetchData from './utils/fetchData';
+import FetchData from './utils/FetchData';
 import './App.css';
 
 // Importing Components
