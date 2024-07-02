@@ -1,0 +1,36 @@
+{
+  "extends": ["//"],
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**"]
+    },
+    "clean": {
+      "cache": false
+    },
+    "dev": {
+      "cache": false
+    },
+    "storybook": {
+      "cache": false
+    },
+    "test#test": {
+      "dependsOn": ["input-otp#build"],
+      "cache": false
+    },
+    "test:ui": {
+      "dependsOn": ["input-otp#build"],
+      "cache": false
+    },
+    "type-check": {
+      "cache": false
+    },
+    "lint": {
+      "cache": false
+    },
+    "format": {
+      "cache": false
+    }
+  }
+}
