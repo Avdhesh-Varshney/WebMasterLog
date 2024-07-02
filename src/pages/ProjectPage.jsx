@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import { Context } from '../contexts/Context';
 import { useParams } from 'react-router-dom';
-import FetchData from "../utils/fetchData";
+import FetchData from "../utils/FetchData";
 
 // Importing Icons & Images
 import { FaGithub } from 'react-icons/fa';

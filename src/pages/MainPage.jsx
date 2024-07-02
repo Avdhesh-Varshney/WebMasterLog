@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 // Importing Components
 import Dashboard from "./Dashboard";
-import FetchData from "../utils/fetchData";
+import FetchData from "../utils/FetchData";
 
 // Importing Images
 import Basic from '../assets/img/Basic.jpg';
