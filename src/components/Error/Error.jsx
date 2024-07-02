@@ -1,11 +1,11 @@
 import Lottie from "lottie-react";
-import pre from "../../assets/preloader.json";
+import err from "../../assets/404.json";
 import './Error.css'
 function Error(){
   return (
     <center className="flex">
       <div>
-        <Lottie animationData={pre}/>
+        <Lottie animationData={err}/>
       </div>
 
       <a href='/'> <button className="but">HOME</button> </a>
