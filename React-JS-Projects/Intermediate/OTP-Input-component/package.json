@@ -1,0 +1,60 @@
+{
+  "name": "root",
+  "private": true,
+  "author": "Guilherme Rodz <g@rodz.dev>",
+  "description": "One-time password input component for React.",
+  "homepage": "https://input-otp.rodz.dev/",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "turbo run build --filter=*",
+    "build:lib": "turbo run build --filter=input-otp...",
+    "build:website": "turbo run build --filter=website...",
+    "clean": "turbo run clean",
+    "dev": "turbo run dev --filter=*",
+    "dev:website": "turbo run dev --filter=website...",
+    "dev:test": "turbo run dev --filter=test...",
+    "start:website": "pnpm --filter=website start",
+    "storybook": "turbo run storybook",
+    "test": "turbo run test --filter=test...",
+    "test:ui": "turbo run test:ui --filter=test...",
+    "type-check": "turbo run type-check",
+    "lint:lib": "turbo run lint --filter=input-otp",
+    "format": "prettier --write .",
+    "release": "run-s test build:lib && cd ./packages/input-otp && cp ../../README.md . && pnpm release && rimraf ./README.md && cd ../..",
+    "release:bypass": "run-s build:lib && cd ./packages/input-otp && cp ../../README.md . && pnpm release && rimraf ./README.md && cd ../..",
+    "release:beta": "run-s test build:lib && cd ./packages/input-otp && cp ../../README.md . && pnpm release:beta && rimraf ./README.md && cd ../..",
+    "release:beta:bypass": "run-s build:lib && cd ./packages/input-otp && cp ../../README.md . && pnpm release:beta && rimraf ./README.md && cd ../.."
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "printWidth": 80,
+    "useTabs": false,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "arrowParens": "avoid",
+    "endOfLine": "lf"
+  },
+  "trustedDependencies": [
+    "npm-run-all"
+  ],
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "tsup": "^8.0.2",
+    "turbo": "^1.12.4",
+    "typescript": "^5.3.3"
+  }
+}
