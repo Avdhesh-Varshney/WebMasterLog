@@ -59,4 +59,9 @@
 		"title": "Form Validation",
 		"description": "This is a simple registration form built with React, that features real-time validation and error handling to ensure that users provide valid information"
 	},
+	{
+		"tag": "Intermediate",
+	  "title": "Functional Image Gallery",
+	"description": "This project is designed to function as a gallery for displaying images fetched from the Pexels API. Users can search for images using keywords and view them in a gallery format. Additionally, the application supports a lightbox feature for larger previews of selected images."
+  }
 ]
