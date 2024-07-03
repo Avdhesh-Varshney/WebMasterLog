@@ -1,6 +1,6 @@
 <h2>Hey <𝚌𝚘𝚍𝚎𝚛𝚜/>! 👋</h2>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=NODE+JS+PROJECTS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=TYPESCRIPT+PROJECTS)](https://git.io/typing-svg)
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=65&pause=400&color=18b8d0&center=true&vCenter=true&width=2000&height=200&lines=BASIC+LEVEL+PROJECTS;INTERMEDIATE+LEVEL+PROJECTS;ADVANCED+LEVEL+PROJECTS)](https://git.io/typing-svg)
 
 
@@ -25,14 +25,8 @@
 
 | S.No  | Project Name | Category |
 |-------|--------------|----------|
-|   1   | [JWT Authenticator With Roles](./Intermediate/JWT-Authenticator-With-Roles) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   2   | [Infinite Scrolling](./Basic/Infinite-Scrolling) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   3   | [CRUD Operations](./Basic/Crud-Operations) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   4   | [YouTube Video Downloader](./Intermediate/YouTube-Video-Downloader) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   5   | [Url Shortener](./Advanced/Url-Shortener) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   6   | [Blog Platform](./Advanced/Blog-Platform) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   7   | [Headline Hub](./Basic/Headline-Hub) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   8   | [URL Scraper](./Intermediate/Url-Scraper) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   1   |  |  |
+
 
 
 </div>
