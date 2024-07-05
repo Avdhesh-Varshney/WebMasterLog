@@ -1,11 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useContext } from 'react';
+import { Context } from '../../contexts/Context';
 import { AnimatePresence, motion } from 'framer-motion';
 import { NavLink, useLocation } from 'react-router-dom';
-import SideBarMenu from './SideBarMenu';
 import './sidebar.css';
 
 import { FaBars } from 'react-icons/fa';
 import { BiSearch } from 'react-icons/bi';
+import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
 const inputAnimation = {
   hidden: {
@@ -40,46 +41,21 @@ const showAnimation = {
   },
 };
 
-const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) => {
-  // const [isOpen, setIsOpen] = useState(false);
+const SideBar = ({ children }) => {
+  const { isSidebarOpen, setSidebarOpen, searchQuery, setSearchQuery, data, isDarkMode, setDarkMode } = useContext(Context);
   const location = useLocation();
-  const [modes, setModes] = useState("Dark")
 
+  const toggleSidebar = () => {
+    setSidebarOpen(!isSidebarOpen);
+  };
 
   useEffect(() => {
-    const currentCategory = getCurrentCategory();
-    const scrollbarColor = getScrollbarColor(currentCategory);
-    applyScrollbarColor(scrollbarColor);
-  }, [location]); // Watch for changes in location state
+    const currentCategory = location.pathname;
+    applyScrollbarColor(currentCategory.slice(1));
+  }, [location]);
 
-  const getCurrentCategory = () => {
-    const currentPath = location.pathname;
-    const category = routes.find((route) => currentPath.startsWith(route.path));
-    return currentPath; // Return the category name
-  };
-
-  const getScrollbarColor = (currentPath) => {
-    switch (currentPath) {
-      case '/angular':
-        return '#eb0d0d';
-      case '/frontend':
-        return '#6cd380';
-      case '/next':
-        return '#68bf6f';
-      case '/node':
-        return 'green';
-      case '/react':
-        return 'blue';
-      case '/vanilla':
-        return '#ffd700';
-      case '/vue':
-        return 'green';
-      default:
-        return 'blue';
-    }
-  };
-
-  const applyScrollbarColor = (color) => {
+  const applyScrollbarColor = (category) => {
+    const color = data.find((item) => item.name === category)?.scrollBarColor || '#cfd3d7';
     const style = document.createElement('style');
     style.textContent = `
       ::-webkit-scrollbar-thumb {
@@ -94,100 +70,112 @@ const SideBar = ({ routes, isOpen, toggleSidebar, children, setQuery,query }) =>
     };
   };
 
-  // const toggle = () => setIsOpen(!isOpen);
-
-  const modes_control = () => {
-    document.body.classList.toggle('light')
-    if (document.body.classList.contains('light')) {
-      setModes("Light")
-    }
-    else {
-      setModes("Dark")
-    }
-  }
-  // console.log(modes)
+  const darkModeController = () => {
+    setDarkMode(!isDarkMode);
+    document.body.classList.toggle('light');
+    if (document.body.classList.contains('light')) localStorage.setItem('darkMode', 'false');
+    else localStorage.setItem('darkMode', 'true');
+  };
 
   return (
     <>
-      <div className='main-container'>
-        <motion.div
-          animate={{
-            width: isOpen ? '200px' : '75px',
-            position: 'fixed',
-            transition: { duration: 0.5, type: 'spring', damping: 10 },
-          }}
-          className={`sidebar`}
-        >
-          <div className='top_section d-lg-flex align-items-center justify-content-center'>
-            <AnimatePresence>
-              {isOpen && (
-                <motion.h1 variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='logo'>
-                  WebMasterLog
-                </motion.h1>
-              )}
-            </AnimatePresence>
+      <motion.div
+        animate={{
+          width: isSidebarOpen ? '220px' : '75px',
+          position: 'fixed',
+          transition: { duration: 0.5, type: 'spring', damping: 10 },
+        }}
+        className="z-index-100 vh-100 py-4"
+        style={{ backgroundColor: isDarkMode ? '#12151e' : '#f5f5f5', overflowY: 'auto', overflowX: 'hidden' }}
+      >
+        <div className='d-flex align-items-center justify-content-center py-2'>
+          <AnimatePresence>
+            {isSidebarOpen && (
+              <motion.h1 variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='my-1' style={{fontSize: '18px', lineHeight: '0'}}>
+                WebMasterLog
+              </motion.h1>
+            )}
+          </AnimatePresence>
 
-            <div className='bars flex-grow d-flex align-items-stretch align-self-center'>
-              <FaBars onClick={toggleSidebar} />
-            </div>
+          <div className='my-1 flex-grow d-flex align-items-stretch align-self-center' style={{width: '20px'}}>
+            <FaBars onClick={toggleSidebar} />
           </div>
+        </div>
 
-          <div className='search'>
-            <div className='search_icon circle'>
-              <BiSearch />
-            </div>
-            <AnimatePresence>
-              {isOpen && <motion.input initial='hidden' animate='show' exit='hidden' variants={inputAnimation}
-               type='text' placeholder='Search' value={query} onChange={(e) => setQuery(e.target.value)}  />}
-            </AnimatePresence>
+        <div className='search'>
+          <div className='search_icon circle'>
+            <BiSearch />
           </div>
+          <AnimatePresence>
+            {isSidebarOpen &&
+              <motion.input
+                initial='hidden'
+                animate='show'
+                exit='hidden'
+                variants={inputAnimation}
+                type='text'
+                placeholder='Search Project...'
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+            }
+          </AnimatePresence>
+        </div>
 
-          <section className='routes'>
-          {routes.map((route, index) => {
-              if (route.subRoutes) {
-                return (
-                  <SideBarMenu
-                    key={index}
-                    route={route}
-                    showAnimation={showAnimation}
-                    isOpen={isOpen}
-                    setIsOpen={setIsOpen}
-                    routes={routes} // Pass the routes prop here
-                  />
+        <section className='routes'>
+          {data.map((obj) => {
+            return (
+              <NavLink
+                key={obj.name}
+                to={obj.route}
+                className='link'
+                title={obj.name}
+              >
+                <div className='circle'>
+                  <div style={{fontSize: '1.2rem', lineHeight: '1.2', color: '#bba8bff5', verticalAlign: 'middle'}}>{obj.icon}</div>
+                </div>
+                <AnimatePresence>
+                  {isSidebarOpen && (
+                    <motion.div variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='my-auto' style={{fontSize: '15px', whiteSpace: 'nowrap' }}>
+                      {obj.showName}
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </NavLink>
+            );
+          })}
+        </section>
 
-                );
-              }
+        <div className="mt-5 d-flex justify-content-center">
+          <div className="d-flex align-items-center" onClick={darkModeController} style={{ cursor: 'pointer' }}>
+            {isSidebarOpen ? (
+              <p className="mb-0">
+                {isDarkMode ? (
+                  <>
+                    <MdOutlineLightMode style={{ fontSize: '1.5rem' }} /> Light
+                  </>
+                ) : (
+                  <>
+                    <MdOutlineDarkMode style={{ fontSize: '1.5rem' }} /> Dark
+                  </>
+                )}
+              </p>
+            ) : (
+              <p className="mb-0">
+                {isDarkMode ? (
+                  <MdOutlineLightMode style={{ fontSize: '1.5rem' }} />
+                ) : (
+                  <MdOutlineDarkMode style={{ fontSize: '1.5rem' }} />
+                )}
+              </p>
+            )}
+          </div>
+        </div>
+      </motion.div>
 
-              return (
-                <NavLink 
-                  to={route.path} 
-                  key={index} 
-                  className='link' 
-                  activeClassName='active'
-                  title={route.name} // Add hover text here
-                >
-                  <div className='circle'>
-                    <div className='icon'>{route.icon}</div>
-                  </div>
-                  <AnimatePresence>
-                    {isOpen && (
-                      <motion.div variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='link_text'>
-                        {route.name}
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </NavLink>
-              );
-            })}
-            <div className={isOpen ? "opened_menu_bar" : 'Dark_Light_mode'} onClick={() => modes_control()}>
-              <img src='https://cdn-icons-png.flaticon.com/128/12301/12301351.png' alt='Dark_light_mode' />
-              {isOpen ? <p>{modes}</p> : <></>}
-            </div>
-          </section>
-        </motion.div>
-
-        <main style={{ marginLeft: 'auto', transition: 'all 0.3s' }}>{children}</main>
-      </div>
+      <main style={{ marginLeft: isSidebarOpen ? '220px' : '75px', transition: 'margin-left 0.5s' }}>
+        {children}
+      </main>
     </>
   );
 };

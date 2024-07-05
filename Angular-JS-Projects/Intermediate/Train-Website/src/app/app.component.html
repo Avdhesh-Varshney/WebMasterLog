@@ -1,0 +1,118 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<header>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light nav-yellow  border-bottom border-top p-0">
+      <div class="container">
+          <a class="navbar-brand fs-4 fw-bold " href="#">  <span class="text-white">
+                  Railway
+              </span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <!--Toggle  -->
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Nav Items -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0  text-center ">
+
+                  <li class="nav-item">
+                      <a class="nav-link fw-semibold text-white  me-1" routerLink="/home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link fw-semibold text-white  me-1" routerLink="/trains">Trains</a>
+                  </li>
+                  <!-- cart -->
+                  <li class="nav-item" *ngIf="!loggedUserData">
+                      <a  (click)="openLogin()" class="nav-link fw-semibold  text-white  me-1"  >Login</a>
+                  </li>
+                  <li class="nav-item" *ngIf="!loggedUserData">
+                      <a (click)="openRegister()" class="nav-link fw-semibold  text-white  me-1"  >Register</a>
+                  </li> 
+                  <li class="nav-item" *ngIf="loggedUserData">
+                      <a   class="nav-link fw-semibold  text-white  me-1"  routerLink="/bookings">My Bookings</a>
+                  </li> 
+                  <li class="nav-item" *ngIf="loggedUserData">
+                      <a   class="nav-link fw-semibold  text-white  me-1"  >{{loggedUserData.phone}}</a>
+                  </li> 
+                  <li class="nav-item" *ngIf="loggedUserData">
+                      <a (click)="logoff()"  class="nav-link fw-semibold  text-white  me-1"  >Log Off</a>
+                  </li> 
+              </ul>
+          </div>
+      </div>
+  </nav>
+</header>
+<router-outlet></router-outlet>
+
+<div class="modal" id="registerModel">
+  <div class="modal-dialog">
+    <div class="modal-content"> 
+      <div class="modal-header">
+        <h4 class="modal-title">Register</h4>
+        <button type="button" class="btn-close"  (click)="closeRegister()" data-bs-dismiss="modal"></button>
+      </div> 
+      <div class="modal-body">
+          <div class="row">
+              <div class="col-6">
+                  <label>First Name</label>
+                  <input type="text" [(ngModel)]="registerObj.firstName" class="form-control" />
+              </div>
+              <div class="col-6">
+                  <label>Last Name</label>
+                  <input type="text" [(ngModel)]="registerObj.lastName" class="form-control" />
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-6">
+                  <label>Email</label>
+                  <input type="text" [(ngModel)]="registerObj.email" class="form-control" />
+              </div>
+              <div class="col-6">
+                  <label>Phone</label>
+                  <input type="text" [(ngModel)]="registerObj.phone" class="form-control" />
+              </div>
+          </div>
+          <div class="row"> 
+              <div class="col-6">
+                  <label>Password</label>
+                  <input type="text" [(ngModel)]="registerObj.password" class="form-control" />
+              </div>
+          </div>
+      </div> 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" (click)="closeRegister()">Close</button>
+        <button type="button" class="btn btn-success" (click)="onRegister()" >Register</button>
+      </div> 
+    </div>
+  </div>
+</div>
+<div class="modal" id="loginModel">
+  <div class="modal-dialog">
+    <div class="modal-content"> 
+      <div class="modal-header">
+        <h4 class="modal-title">Login</h4>
+        <button type="button" class="btn-close"  (click)="closeLogin()" data-bs-dismiss="modal"></button>
+      </div> 
+      <div class="modal-body">
+           
+          <div class="row"> 
+              <div class="col-12">
+                  <label>Phone</label>
+                  <input type="text" [(ngModel)]="registerObj.phone" class="form-control" />
+              </div>
+          </div>
+          <div class="row"> 
+              <div class="col-12">
+                  <label>Password</label>
+                  <input type="text" [(ngModel)]="registerObj.password" class="form-control" />
+              </div>
+          </div>
+      </div> 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger"  (click)="closeLogin()">Close</button>
+        <button type="button" class="btn btn-success" (click)="onLogin()" >Login</button>
+      </div> 
+    </div>
+  </div>
+</div>

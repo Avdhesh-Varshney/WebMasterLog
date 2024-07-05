@@ -25,8 +25,8 @@
 
 | S.No  | Project Name | Category |
 |-------|--------------|----------|
-|   1   | [QuickNotes](./Basic/Quick-Notes) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   2   |  |  |
+|   1   | [Quick Notes](./Basic/Quick-Notes) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   2   | [Train Booking Website](./Intermediate/Train-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 
