@@ -45,7 +45,7 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-![image]()
+![image](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/168436423/05ad1e27-0ef9-4077-a6d2-44b5058e14b4)
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
