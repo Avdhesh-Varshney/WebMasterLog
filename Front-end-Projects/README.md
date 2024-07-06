@@ -40,7 +40,8 @@
 |   13  | [PhonePe Clone](./Basic/PhonePe/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   14  | [SpaceX Website Clone](./Basic/SpaceX-Website-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   15  | [Flipkart Clone](./Intermediate/Flipkart-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-| 16 | [Tea-Cup](./Basic/Animated-Tea-Cup) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   16  | [IPHONE 14 Pro Clone](./Intermediate/IPHONE-14-Pro-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   17  | [Tea-Cup](./Basic/Animated-Tea-Cup) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 
 </div>
 
