@@ -33,9 +33,8 @@
 
 1. Fork the repository.
 
-2. Clone the repository to your local machine:
-    git clone https://github.com/your-username/Biography-of-Dr.-B-R-Ambedkar.git
-
+2. Clone the repository to your local machine.
+   
 3. Open the project folder in your preferred code editor, now you can view website in live.
 
 </p>
