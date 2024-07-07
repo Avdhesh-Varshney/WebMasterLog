@@ -128,5 +128,11 @@
 		"tag":"Intermediate",
 		"title":"Fitness-Website",
 	        "description":"A fitness website offers workout plans, exercise guides, and tools to help users achieve their fitness goals."
+        },
+	{
+		"tag":"Basic",
+		"title":"World-Population",
+	        "description":"An dummy world population website with population predictor developed using HTML, CSS and Javascript."
         }
+			
 ]
