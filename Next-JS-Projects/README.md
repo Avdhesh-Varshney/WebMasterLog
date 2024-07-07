@@ -23,10 +23,10 @@
 -->
 
 
-| S.No  | Project Name | Category |
-|-------|--------------|----------|
+| S.No | Project Name | Category |
+|------|--------------|----------|
 |  1   | [Weather-Website](./Basic/Weather-Website) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   2   |  |  |
+|  2   |  |  |
 
 
 
