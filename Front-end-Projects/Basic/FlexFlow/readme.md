@@ -45,7 +45,7 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-<img src ='flexflow.png'>
+![Img](./screenshot.webp)
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
