@@ -51,7 +51,7 @@
 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
-![Uploading WhatsApp Image 2024-07-03 at 11.23.06_ec6ec3d4.jpg…]()
+![image](./screenshot.webp)
 
 
 
