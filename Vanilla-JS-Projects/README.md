@@ -75,6 +75,7 @@
 |  48   |  [Language-Learning-Website](./Intermediate/Language-Learning-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  49   | [Valid-Parenthesis-Checker](./Intermediate/Valid-Parenthesis-Checker/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  50   | [Isogram-Checker](./Basic/Isogram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  50   | [GasGuys-HomePage-Clone](./Intermediate/GasGuys-HomePage-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 </div>
 
 
