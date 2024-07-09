@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+
+:root{
+    --dark-color: #575757;
+    --red-color: #ff5252;
+    --dark-red-color: #ff4141;
+    --light-color: #fff;
+    --light-grey-color: #efefee;
+    --transition: all 0.3s ease-in-out;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    color: var(--dark-color);
+    background-image: url('https://cdn.wallpapersafari.com/6/62/eNTHj9.png');
+}
+button{
+    border: none;
+    outline: 0;
+    background-color: transparent;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    
+}
+.word-app-header{
+    -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+    background-color: var(--light-color);
+}
+.word-app-header-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.word-app-header-title{
+    text-transform: uppercase;
+}
+.word-app-header-title i{
+    color: var(--red-color);
+}
+.word-app-header-title span{
+    font-size: 2.6rem;
+}
+.word-app-header-link{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--red-color);
+    color: var(--light-color);
+    font-weight: 600;
+    display: inline-block;
+    padding: 1rem 1.6rem;
+    font-size: 2rem;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+    display: none;
+}
+.word-app-header-link:hover{
+    background-color: var(--dark-red-color);
+}
+.word-app-searchbox{
+    margin-top: 3rem;
+}
+.word-app-searchbox-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.form-element{
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: var(--light-color);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+}
+.form-icon, #submit-btn{
+    font-size: 2.4rem;
+    margin: 0 1.6rem;
+    color: var(--dark-color);
+}
+.form-input{
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    border: none;
+    outline: 0;
+    color: var(--dark-color);
+    width: 100%;
+}
+.word-app-body{
+    display: none;
+}
+.word-app-body-content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+#word-list{
+    background-color: #ff5252;
+    border-radius: 4px;
+    padding: 3rem;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+}
+.word-item{
+    font-weight: 500;
+    font-size: 1.7rem;
+    opacity: 0.9;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
+    display: inline-block;
+    padding: 0.8rem 1.6rem;
+    margin: 1rem 0.7rem;
+    border-radius: 3px;
+    background-color: #efefee;
+}
+#copy-btn{
+    padding: 1.5rem 2rem;
+    font-size: 1.8rem;
+    margin-top: 4rem;
+    font-weight: 600;
+    color: var(--light-color);
+    border-radius: 4px;
+    background-color: var(--red-color);
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
+    transition: var(--transition);
+}
+#copy-btn:hover{
+    background-color: var(--dark-red-color);
+}
+#spinner{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: none;
+}
+
+@media screen and (min-width: 768px){
+    .word-app-header-link{
+        display: block;
+    }
+    .form-input{
+        min-width: 480px;
+    }
+}
