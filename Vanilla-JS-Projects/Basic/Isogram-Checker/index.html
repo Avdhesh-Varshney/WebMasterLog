@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isogram Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="heading">Isogram Checker:</h1>
+      <h3 class="about">An isogram is a word in which the letters occur an equal number of times.</h3>
+    </div>
+    <div class="input">
+      <label for="string">Enter String:</label>
+      <input type="text" id="string" required>
+    </div>
+    <div class="output">
+      <button onclick="checkIsogram()">Check</button>
+      <div class="output-box">
+        <p id="output-text"></p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
