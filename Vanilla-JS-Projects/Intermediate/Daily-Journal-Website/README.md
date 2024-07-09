@@ -58,7 +58,7 @@ View and interact with the website: You can now explore the different pages and 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-![alt text](image.png)
+![image](https://github.com/aditya-bhaumik/WebMasterLog/assets/92214013/b358fe79-c76d-4368-a585-36a01182d523)
 
 
 
