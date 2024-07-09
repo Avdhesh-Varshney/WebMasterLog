@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Drawing Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Drawing Website</h1>
+    </header>
+    <main>
+        <div class="toolbar">
+            <button id="pen" class="tool active">Pen</button>
+            <button id="eraser" class="tool">Eraser</button>
+            <button id="clear" class="tool">Clear</button>
+            <input type="color" id="colorPicker" class="tool">
+            <input type="range" id="brushSize" min="1" max="50" value="5" class="tool">
+            <button id="undo" class="tool">Undo</button>
+            <button id="redo" class="tool">Redo</button>
+            <button id="save" class="tool">Save</button>
+            <button id="load" class="tool">Load</button>
+        </div>
+        <canvas id="canvas"></canvas>
+    </main>
+    <footer>
+        <p>&copy; 2024 Interactive Drawing Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
