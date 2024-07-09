@@ -1,131 +1,110 @@
+// Video Slider
 let currentVideoIndex = 0;
 const videos = document.querySelectorAll(".video");
 
-function showVideo(index) {
-  videos.forEach((video, i) => {
-    video.style.display = i === index ? "block" : "none";
-    if (i === index) video.play();
-    else video.pause();
+function displayVideo(index) {
+  videos.forEach((video, idx) => {
+    video.style.display = idx === index ? "block" : "none";
+    idx === index ? video.play() : video.pause();
   });
 }
 
 function nextVideo() {
   currentVideoIndex = (currentVideoIndex + 1) % videos.length;
-  showVideo(currentVideoIndex);
+  displayVideo(currentVideoIndex);
 }
 
 function previousVideo() {
   currentVideoIndex = (currentVideoIndex - 1 + videos.length) % videos.length;
-  showVideo(currentVideoIndex);
+  displayVideo(currentVideoIndex);
 }
 
-// Add event listeners to all videos to switch when ended
-videos.forEach((video, index) => {
-  video.addEventListener("ended", () => {
-    nextVideo();
-  });
-});
+videos.forEach((video) => video.addEventListener("ended", nextVideo));
 
-showVideo(currentVideoIndex);
+displayVideo(currentVideoIndex);
 
-let slideIndex = 1;
-showSlides(slideIndex);
+// Image Slider
+let currentSlideIndex = 1;
+displaySlides(currentSlideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides((slideIndex += n));
+function changeSlide(n) {
+  displaySlides((currentSlideIndex += n));
 }
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides((slideIndex = n));
+function setSlide(n) {
+  displaySlides((currentSlideIndex = n));
 }
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  let captionText = document.getElementById("caption");
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
-  captionText.innerHTML = dots[slideIndex - 1].alt;
+function displaySlides(n) {
+  const slides = document.querySelectorAll(".mySlides");
+  const dots = document.querySelectorAll(".demo");
+  const caption = document.getElementById("caption");
+
+  if (n > slides.length) currentSlideIndex = 1;
+  if (n < 1) currentSlideIndex = slides.length;
+
+  slides.forEach((slide) => (slide.style.display = "none"));
+  dots.forEach((dot) => (dot.className = dot.className.replace(" active", "")));
+
+  slides[currentSlideIndex - 1].style.display = "block";
+  dots[currentSlideIndex - 1].className += " active";
+  caption.textContent = dots[currentSlideIndex - 1].alt;
 }
 
-// form js
-
+// Form Submission
 document
   .getElementById("consultationForm")
-  .addEventListener("submit", function (event) {
+  .addEventListener("submit", (event) => {
     event.preventDefault();
     alert("Form submitted!");
   });
 
+// Mobile Menu
 const menu = document.querySelector(".menu1");
-const menuMain = menu.querySelector(".menu-main");
-const goBack = menu.querySelector(".go-back");
-const menuTrigger = document.querySelector(".mobile-menu-trigger");
-const closeMenu = menu.querySelector(".mobile-menu-close");
+const mainMenu = menu.querySelector(".menu-main");
+const backButton = menu.querySelector(".go-back");
+const menuButton = document.querySelector(".mobile-menu-trigger");
+const closeButton = menu.querySelector(".mobile-menu-close");
 let subMenu;
-menuMain.addEventListener("click", (e) => {
-  if (!menu.classList.contains("active")) {
-    return;
+
+mainMenu.addEventListener("click", (e) => {
+  if (!menu.classList.contains("active")) return;
+
+  const parentMenuItem = e.target.closest(".menu-item-has-children");
+  if (parentMenuItem) {
+    showSubMenu(parentMenuItem);
   }
-  if (e.target.closest(".menu-item-has-children")) {
-    const hasChildren = e.target.closest(".menu-item-has-children");
-    showSubMenu(hasChildren);
-  }
 });
-goBack.addEventListener("click", () => {
-  hideSubMenu();
-});
-menuTrigger.addEventListener("click", () => {
-  toggleMenu();
-});
-closeMenu.addEventListener("click", () => {
-  toggleMenu();
-});
-document.querySelector(".menu-overlay").addEventListener("click", () => {
-  toggleMenu();
-});
+
+backButton.addEventListener("click", hideSubMenu);
+menuButton.addEventListener("click", toggleMenu);
+closeButton.addEventListener("click", toggleMenu);
+document.querySelector(".menu-overlay").addEventListener("click", toggleMenu);
+
 function toggleMenu() {
   menu.classList.toggle("active");
   document.querySelector(".menu-overlay").classList.toggle("active");
 }
-function showSubMenu(hasChildren) {
-  subMenu = hasChildren.querySelector(".sub-menu");
+
+function showSubMenu(parent) {
+  subMenu = parent.querySelector(".sub-menu");
   subMenu.classList.add("active");
   subMenu.style.animation = "slideLeft 0.5s ease forwards";
   const menuTitle =
-    hasChildren.querySelector("i").parentNode.childNodes[0].textContent;
-  menu.querySelector(".current-menu-title").innerHTML = menuTitle;
+    parent.querySelector("i").parentNode.childNodes[0].textContent;
+  menu.querySelector(".current-menu-title").textContent = menuTitle;
   menu.querySelector(".mobile-menu-head").classList.add("active");
 }
 
 function hideSubMenu() {
   subMenu.style.animation = "slideRight 0.5s ease forwards";
-  setTimeout(() => {
-    subMenu.classList.remove("active");
-  }, 300);
-  menu.querySelector(".current-menu-title").innerHTML = "";
+  setTimeout(() => subMenu.classList.remove("active"), 300);
+  menu.querySelector(".current-menu-title").textContent = "";
   menu.querySelector(".mobile-menu-head").classList.remove("active");
 }
 
-window.onresize = function () {
-  if (this.innerWidth > 991) {
-    if (menu.classList.contains("active")) {
-      toggleMenu();
-    }
+window.addEventListener("resize", () => {
+  if (window.innerWidth > 991 && menu.classList.contains("active")) {
+    toggleMenu();
   }
-};
+});
