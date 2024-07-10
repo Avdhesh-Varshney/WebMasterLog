@@ -78,6 +78,8 @@
 |  51   | [Isogram-Checker](./Basic/Isogram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  52   | [Synonym-Searcher](./Intermediate/Synonym-Searcher/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
 |  53   | [GasGuys-HomePage-Clone](./Intermediate/GasGuys-HomePage-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  54   | [Daily-Journal-Website](./Intermediate/Daily-Journal-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+
 
 </div>
 
