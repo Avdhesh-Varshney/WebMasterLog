@@ -74,17 +74,15 @@
 |  47   | [Pangram-Checker](./Basic/Pangram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  48   |  [Language-Learning-Website](./Intermediate/Language-Learning-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  49   | [Valid-Parenthesis-Checker](./Intermediate/Valid-Parenthesis-Checker/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-<<<<<<< HEAD
-|  50   | [Isogram-Checker](./Basic/Isogram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|  51   |  [World Population Predictor](./Basic/World-Population/) | ![Intermediate](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-=======
 |  50   | [Interactive-Drawing-Website](./Intermediate/Interactive-Drawing-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  51   | [Isogram-Checker](./Basic/Isogram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  52   | [Synonym-Searcher](./Intermediate/Synonym-Searcher/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
 |  53   | [GasGuys-HomePage-Clone](./Intermediate/GasGuys-HomePage-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  54   | [Daily-Journal-Website](./Intermediate/Daily-Journal-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  55   | [Apna-College-Clone](./Basic/Apna-College-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
->>>>>>> c61efece338d9e226b80be81e98018e2d9e1f715
+|  54   | [Daily-Journal-Website](./Intermediate/Daily-Journal-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  56   | [World Population Predictor](./Basic/World-Population/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+
 </div>
 
 
