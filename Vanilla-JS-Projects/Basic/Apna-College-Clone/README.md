@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥 Isogram Checker 💥</b></h1>
+<h1 align='center'><b>💥 Apna-College-Clone 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -31,7 +31,7 @@
 
 ## :zap: Description 📃
 
-- The clone project focuses on using HTML, CSS, and JavaScript to create reusable components for better maintainability and scalability. It manages routes for "Home", "New Courses", "Log In", and "Sign Up" pages, and includes forms with basic validation. The design ensures consistency and responsiveness across the webpage.
+- The clone project uses HTML, CSS, and JavaScript to create reusable components for better maintainability and scalability. It manages routes for "Home", "New Courses", "Log In", and "Sign Up" pages, and includes forms with basic validation. The design ensures consistency and responsiveness across the webpage.
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
