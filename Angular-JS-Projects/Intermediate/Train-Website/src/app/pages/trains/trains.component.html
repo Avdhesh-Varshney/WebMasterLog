@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-12">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Sr No</th> 
+                    <th>Train Name</th>
+                    <th>Train No</th>
+                    <th>Travel Date</th>
+                    <th>From Station</th>
+                    <th>To Station </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of trainList;let index= index">
+                    <td>{{index+1}}</td> 
+                    <td>{{item.trainName}}</td>
+                    <td>{{item.trainNo}}</td>
+                    <td>{{item.departureDate | date:'dd-MMM-yy'}}</td>
+                    <td>{{item.departureStationName}}</td>
+                    <td>{{item.arrivalStationName}}</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</div>

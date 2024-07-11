@@ -64,12 +64,24 @@
 |  37   | [Text-to-Image-Generator](./Intermediate/Text-to-Image-Generator/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
 |  38   | [Text-Translator](./Basic/Text-Translator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  39   | [Interactive-Periodic-Table](./Intermediate/Interactive-Periodic-Table/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
-|  40	| [Anagram-Checker](./Basic/Anagram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  40 	| [Anagram-Checker](./Basic/Anagram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  41   | [Leap-Year-Checker](./Basic/Leap-Year-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|  42	| [Image-Search-Engine](./Basic/Image-Search-Engine/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|  43   | [Code-Editor](./Intermediate/Code-Editor/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
-
+|  42	  | [Image-Search-Engine](./Basic/Image-Search-Engine/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  43   | [Code-Editor](./Intermediate/Code-Editor/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  44   | [Prime-Number-Checker](./Basic/Prime-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  45   |  [Fitness Website](./Intermediate/Fitness-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  46   | [Drag-and-Drop](./Intermediate/Drag-and-Drop/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
+|  47   | [Pangram-Checker](./Basic/Pangram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  48   |  [Language-Learning-Website](./Intermediate/Language-Learning-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  49   | [Valid-Parenthesis-Checker](./Intermediate/Valid-Parenthesis-Checker/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  50   | [Interactive-Drawing-Website](./Intermediate/Interactive-Drawing-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  51   | [Isogram-Checker](./Basic/Isogram-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  52   | [Synonym-Searcher](./Intermediate/Synonym-Searcher/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) | 
+|  53   | [GasGuys-HomePage-Clone](./Intermediate/GasGuys-HomePage-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  54   | [Daily-Journal-Website](./Intermediate/Daily-Journal-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  55   | [Apna-College-Clone](./Basic/Apna-College-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 </div>
+
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)

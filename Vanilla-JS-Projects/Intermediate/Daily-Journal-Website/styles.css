@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays above other content */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    margin-top: 10px; /* Adjust spacing from header */
+}
+
+nav a {
+    color: #fff;
+    margin: 0 20px; /* Increase margin for better spacing */
+    text-decoration: none;
+    font-size: 18px; /* Adjust font size */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    opacity: 0.8; /* Reduce opacity on hover */
+}
+
+main {
+    padding: 80px 20px 20px; /* Adjust padding to accommodate fixed header */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Entry List Styles */
+#entriesList {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.entry {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.entry:last-child {
+    border-bottom: none;
+}
+
+.entry h3 {
+    margin: 0;
+    color: #333;
+}
+
+.entry p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.entry a {
+    color: #333;
+    text-decoration: none;
+}
+
+.entry a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    main {
+        padding-top: 60px; /* Adjust padding for fixed header */
+    }
+}

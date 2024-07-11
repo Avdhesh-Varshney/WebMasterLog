@@ -1,0 +1,72 @@
+.shop{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+     background-color: rgba(64,38,73,255);
+}
+
+a.shop:link{text-decoration: none; color: rgba(39,134,223,255);}
+a.shop:hover{text-decoration: underline;}
+a.shop:visited{color:rgba(39,134,223,255)}
+a.shop:active{color:rgba(39,134,223,255)}
+
+.iphone-image1{
+    margin-left: 145px; 
+    margin-right: 50px; 
+    height: 880px; 
+    width: auto; 
+    padding-top: 40px;}  
+
+.bag{
+    height: 20px; 
+    width: 20px;}
+
+img.bag:hover{color:white}
+
+.data-1{ text-align: justify; 
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif; 
+        line-height: 55px;
+        margin-left:250px; 
+        font-weight: 750;
+        font-size: 320%; 
+        background: linear-gradient(to bottom,#e99aef,#9641d2, #7520ad); -webkit-background-clip: text; -webkit-text-fill-color: transparent;} 
+/* .film{
+    border: solid; border-radius: 16px; padding: 1px 10px 3px 12px;
+    text-decoration: none; background-color: white; color: black; border-color: white; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 300;
+    margin-left:200px;
+    margin-bottom: 300px; margin-top: 100px;
+} */
+.grid-table{
+    display: inline-grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    /* background-color: red; */
+    color: #d6d0d0;
+    padding:10px;
+    gap:10px 40px;
+    margin-top: 50px;
+    margin-left: 270px;
+}
+.grid-table-items{
+    text-align: center; 
+    /* border: 1px solid blue; */
+    font-weight: 500;
+    font-size: 90%; 
+    color: #d6d0d0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.grid-table-sub{
+    text-align: center; 
+    color: #d6d0d0;
+    font-size: 90%; 
+    font-weight: 350; 
+    line-height: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.grid-table-capt{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    color: grey;
+    font-size: 70%; 
+    font-weight: 600;
+    line-height: 15px; 
+    margin-top:-12px
+}
