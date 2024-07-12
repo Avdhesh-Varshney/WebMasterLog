@@ -83,6 +83,8 @@
 |  56   | [Isomorphic-Strings-Checker](./Basic/Isomorphic-Strings-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  57   | [Random-Advice-Generator](./Basic/Random-Advice-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  58   | [Task-Reminder](./Intermediate/Task-Reminder/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  59   | [Garden-Planning-Website](./Advanced/Garden-Planning-Website/) |![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+
 </div>
 
 
