@@ -58,7 +58,8 @@ View and interact with the website: You can now explore the different pages and 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/2765491d-54e9-4d9a-a5fb-d629767fd00a)
+
 
 
 
