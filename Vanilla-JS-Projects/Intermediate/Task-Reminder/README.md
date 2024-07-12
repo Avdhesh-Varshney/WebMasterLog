@@ -69,7 +69,7 @@
 
 ## :zap: Screenshots 📸
 
-![Screenshot](https://raw.githubusercontent.com/ananyag309/WebMasterLog_gssoc/main/Vanilla-JS-Projects/Intermediate/Task-Reminder/screenshot.webp)
+![Screenshot](https://raw.githubusercontent.com/ananyag309/WebMasterLog_gssoc/Task-Reminder/Vanilla-JS-Projects/Intermediate/Task-Reminder/screenshot.webp)
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
