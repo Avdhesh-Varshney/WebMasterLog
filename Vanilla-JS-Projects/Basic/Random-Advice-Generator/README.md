@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥 World Population Stats 💥</b></h1>
+<h1 align='center'><b>💥 Random Advice Generator 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -7,10 +7,9 @@
 
 <div align='center'>
 
-  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-  <!-- ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) -->
-  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
   <!-- ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) -->
   <!-- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) -->
   <!-- ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) -->
@@ -31,31 +30,37 @@
 
 ## :zap: Description 📃
 
-- This application can displays population stats(dummy) and can predict population as per user input.
+<div>
+   <p>Random Advice Generator generates a new and random advice for you each time on click of the button .</p> 
+   
+</div>
+
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: How to run it? 🕹️
 
-<!-- add the steps how to run the project -->
-- Fork this project and run the `index.html` file directly.
+- Fork this repository.
+- Clone the forked repository.
+- Open index.html in your web browser to start your culinary exploration.
+
+
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
-
-![image](https://github.com/vansh-codes/WebMasterLog/blob/World-Population-Project/Vanilla-JS-Projects/Basic/World-Population/screenshot.webp)
-
-
+![Adviceimg](./screenshot.webp)
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
-
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h4 align='center'>Developed By <b><i><a href="https://github.com/vansh-codes/">Vansh</a></i></b> </h4>
+<h4 align='center'>Developed By <b><i>Meet Arora</i></b> 👦</h4>
 <p align='center'>
-  <a href='https://github.com/vansh-codes/'>
+  <a href='https://www.linkedin.com/in/meet-arora-603682296'>
+    <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
+  </a>
+  <a href='https://github.com/meetarora10'>
     <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
   </a>
 </p>
