@@ -41,7 +41,7 @@ To run this project locally, follow these steps:
 
 ## ⚡ Screenshots 📸
 
-<img src="screenshot.png">
+<img src="screenshot.webp">
 
 
 <!-- ----------------------------------------------------------------------------------------------------- -->
