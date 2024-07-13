@@ -16,8 +16,8 @@ import BackToTop from './components/shared/BackToTop';
 import useRepoData from './hooks/UseRepoData';
 
 function App() {
-  const { datax, isLoading, error } = useRepoData();
-  const { data, progress } = useContext(Context);
+  const { progress } = useContext(Context);
+  const { data, isLoading, error } = useRepoData();
 
   if (isLoading)
     return <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
