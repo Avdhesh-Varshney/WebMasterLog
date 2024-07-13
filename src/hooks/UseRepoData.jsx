@@ -4,17 +4,17 @@ import { Context } from '../contexts/Context';
 import FetchData from '../utils/FetchData';
 
 // Importing Icons 
-import { FaHome, FaAngular, FaReact, FaVuejs } from "react-icons/fa";
+import { FaAngular, FaReact, FaVuejs } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaNode } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
-import { MdLaptopWindows } from "react-icons/md";
-import { SiTypescript } from "react-icons/si";
+import { MdDashboard } from "react-icons/md";
+import { SiFrontendmentor, SiTypescript } from "react-icons/si";
 
 const icons = {
-  'Dashboard': <FaHome className="dashboard" />,
+  'Dashboard': <MdDashboard className="dashboard" />,
   'Angular-JS-Projects': <FaAngular className="angular" />,
-  'Front-end-Projects': <MdLaptopWindows className="frontend" />,
+  'Front-end-Projects': <SiFrontendmentor className="frontend" />,
   'Next-JS-Projects': <TbBrandNextjs className="next" />,
   'Node-JS-Projects': <FaNode className="node" />,
   'React-JS-Projects': <FaReact className="react" />,
@@ -59,7 +59,7 @@ const useRepoData = () => {
     setMilestones(milestonesResult);
 
     setProgress(50);
-    const contributorsResult = await FetchData(`${import.meta.env.VITE_GITHUB_REPO_URL}/contributors?per_page=500`);
+    const contributorsResult = await FetchData(`${import.meta.env.VITE_GITHUB_REPO_URL}/contributors?per_page=200`);
     setContributors(contributorsResult);
     
     setProgress(60);
