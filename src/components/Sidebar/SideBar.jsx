@@ -88,7 +88,7 @@ const SideBar = ({ children }) => {
         className="z-index-100 vh-100 py-4"
         style={{ backgroundColor: isDarkMode ? '#12151e' : '#f5f5f5', overflowY: 'auto', overflowX: 'hidden' }}
       >
-        <div className='d-flex align-items-center justify-content-center py-2'>
+        <div className='d-flex align-items-center justify-content-center py-2 gap-2'>
           <AnimatePresence>
             {isSidebarOpen && (
               <motion.h1 variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='my-1' style={{fontSize: '18px', lineHeight: '0'}}>
@@ -100,26 +100,6 @@ const SideBar = ({ children }) => {
           <div className='my-1 flex-grow d-flex align-items-stretch align-self-center' style={{width: '20px'}}>
             <FaBars onClick={toggleSidebar} />
           </div>
-        </div>
-
-        <div className='search'>
-          <div className='search_icon circle'>
-            <BiSearch />
-          </div>
-          <AnimatePresence>
-            {isSidebarOpen &&
-              <motion.input
-                initial='hidden'
-                animate='show'
-                exit='hidden'
-                variants={inputAnimation}
-                type='text'
-                placeholder='Search Project...'
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-              />
-            }
-          </AnimatePresence>
         </div>
 
         <section className='routes'>
