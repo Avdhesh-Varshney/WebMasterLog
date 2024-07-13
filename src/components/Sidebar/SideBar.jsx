@@ -5,7 +5,6 @@ import { NavLink, useLocation } from 'react-router-dom';
 import './sidebar.css';
 
 import { FaBars } from 'react-icons/fa';
-import { BiSearch } from 'react-icons/bi';
 import { MdOutlineDarkMode, MdOutlineLightMode } from "react-icons/md";
 
 const inputAnimation = {
@@ -42,7 +41,7 @@ const showAnimation = {
 };
 
 const SideBar = ({ children }) => {
-  const { isSidebarOpen, setSidebarOpen, searchQuery, setSearchQuery, data, isDarkMode, setDarkMode } = useContext(Context);
+  const { isSidebarOpen, setSidebarOpen, data, isDarkMode, setDarkMode } = useContext(Context);
   const location = useLocation();
 
   const toggleSidebar = () => {
