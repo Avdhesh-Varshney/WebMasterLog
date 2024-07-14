@@ -83,6 +83,12 @@
 |  56   | [Isomorphic-Strings-Checker](./Basic/Isomorphic-Strings-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  57   | [Random-Advice-Generator](./Basic/Random-Advice-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  58   | [Task-Reminder](./Intermediate/Task-Reminder/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  59   | [Analog-Clock](./Basic/Analog-Clock/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  60   | [Kanban-Board](./Intermediate/Kanban-Board/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  61   | [World Population Predictor](./Basic/World-Population/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  62   | [Stop Watch](./Basic/Stop-Watch/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+
+
 </div>
 
 
