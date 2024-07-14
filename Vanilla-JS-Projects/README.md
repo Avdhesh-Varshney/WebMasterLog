@@ -87,7 +87,7 @@
 |  60   | [Kanban-Board](./Intermediate/Kanban-Board/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  61   | [World Population Predictor](./Basic/World-Population/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  62   | [Stop Watch](./Basic/Stop-Watch/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-
+|  63   | [Zomato-Clone](./Intermediate/Zomato-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
