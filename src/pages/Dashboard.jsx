@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { Context } from '../contexts/Context';
+import Logo from '../assets/img/logo.webp';
 
 // Importing chart elements
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
@@ -76,7 +77,7 @@ const Dashboard = () => {
             <div className='row align-items-center'>
               <div className='col-md-4 text-center'>
                 <a href={repoData.owner.html_url} target='_blank' rel='noopener noreferrer'>
-                  <img src={repoData.owner.avatar_url} alt={`${repoData.owner.login} avatar`} className='img-thumbnail rounded-circle' style={{ width: '13em' }} />
+                  <img src={Logo} alt={`${repoData.owner.login} avatar`} className='img-thumbnail rounded-circle' style={{ width: '13em' }} />
                 </a>
               </div>
               <div className='col-md-8'>

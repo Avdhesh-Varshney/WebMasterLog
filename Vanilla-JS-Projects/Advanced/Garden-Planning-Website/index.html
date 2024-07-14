@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Garden Planner</h1>
+    </header>
+    <main>
+        <div class="sidebar">
+            <h2>Plants</h2>
+            <div id="plantList">
+                <!-- Plant list will be populated here -->
+            </div>
+            <button id="saveButton">Save Layout</button>
+            <button id="loadButton">Load Layout</button>
+            <div class="cost">
+                <h3>Total Cost: $<span id="totalCost">0</span></h3>
+            </div>
+        </div>
+        <div class="grid-container" id="gridContainer">
+            <!-- Grid for garden layout -->
+        </div>
+        <div class="info-panel" id="infoPanel">
+            <h2>Plant Information</h2>
+            <div id="plantInfo"></div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Garden Planner</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
