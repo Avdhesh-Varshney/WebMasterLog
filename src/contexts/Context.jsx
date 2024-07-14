@@ -12,6 +12,11 @@ const ContextProvider = ({ children }) => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [isDarkMode, setDarkMode] = useState(getInitialDarkMode);
+  const [repoData, setRepoData] = useState(null);
+  const [contributors, setContributors] = useState([]);
+  const [milestones, setMilestones] = useState([]);
+  const [chartMilestones, setChartMilestones] = useState([]);
+  const [languages, setLanguages] = useState({});
 
   useEffect(() => {
     localStorage.setItem('darkMode', isDarkMode);
@@ -25,7 +30,12 @@ const ContextProvider = ({ children }) => {
       projectsData, setProjectsData,
       isSidebarOpen, setSidebarOpen,
       searchQuery, setSearchQuery,
-      isDarkMode, setDarkMode
+      isDarkMode, setDarkMode,
+      repoData, setRepoData,
+      contributors, setContributors,
+      milestones, setMilestones,
+      chartMilestones, setChartMilestones,
+      languages, setLanguages,
     }}>
       {children}
     </Context.Provider>
