@@ -86,7 +86,7 @@ npm start
 ### UPDATE CATEGORY (Authentication: ADMIN)
 <img src="./images/category_update.png"/>
 
-### DEMETE CATEGORY (Authentication: ADMIN)
+### DELETE CATEGORY (Authentication: ADMIN)
 <img src="./images/category_delete.png"/>
 
 ### GET ALL CATEGORY (Authentication: No)
@@ -101,7 +101,7 @@ npm start
 ### UPDATE PRODUCT (Authentication: ADMIN)
 <img src="./images/product_update.png"/>
 
-### DElETE PRODUCT (Authentication: ADMIN)
+### DELETE PRODUCT (Authentication: ADMIN)
 <img src="./images/product_delete.png"/>
 
 ### FILTER PRODUCTS (Authentication: No)
