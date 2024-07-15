@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Search App</title>
+    <!-- font awesome icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "main.css">
+</head>
+<body>
+
+    <main>
+        <div class = "word-app-wrapper">
+            <div class = "container word-app-header-content">
+                <h2 class = "word-app-header-title">
+                    <i class = 'fas fa-search'></i>
+                    <span>word find</span>
+                </h2>
+                <a href = "https://www.datamuse.com/api/" class = "word-app-header-link" target = "_blank">api homepage</a>
+            </div>
+        </div>
+
+        <div class = "word-app-searchbox">
+            <div class = "container word-app-searchbox-content">
+                <form id = "word-search-form">
+                    <div class = "form-element">
+                        <span class = "form-icon">
+                            <i class = "fa-solid fa-pen-nib"></i>
+                        </span>
+                        <input type = "text" class = "form-input" placeholder="Enter your word to find synonyms" name = "search_word">
+                        <button type = "submit" id = "submit-btn">
+                            <i class = "fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div id = "spinner">
+            <img src = "asset/spinner.svg" alt = "">
+        </div>
+
+        <div class = "word-app-body">
+            <div class = "container word-app-body-content">
+                <div id = "word-list">
+                    <!-- <span class = "word-item">lorem</span>
+                    <span class = "word-item">lorem</span>
+                    <span class = "word-item">lorem</span>
+                    <span class = "word-item">lorem</span>
+                    <span class = "word-item">lorem</span>
+                    <span class = "word-item">lorem</span>
+                    <span class = "word-item">lorem</span> -->
+                </div>
+                <button type = "button" id = "copy-btn">
+                    <i class = 'fas fa-copy'></i> copy
+                </button>
+            </div>
+        </div>
+    </main>
+   
+
+    <script src = "app.js"></script>
+</body>
+</html>

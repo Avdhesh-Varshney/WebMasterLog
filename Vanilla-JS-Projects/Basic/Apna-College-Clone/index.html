@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white px-4 py-2 flex justify-between items-center" id="navi">
+        <div class="flex items-center">
+            <img src="img/logo.png" alt="Apna College Logo" class="h-10">
+        </div>
+        <div class="flex items-center space-x-4">
+            <button class="bg-primary text-primary-foreground px-3 py-1 rounded" id="b1">New Sigma 3.0</button>
+            <a href="index.html" class="text-zinc-700 font-bold">Home</a>
+            <div class="relative group">
+                <button class="text-zinc-700 font-bold">New Courses</button>
+                <div class="dropdown-menu absolute bg-white border border-zinc-200 mt-2 rounded shadow-lg">
+                    <a href="#" class="block px-4 py-2 text-zinc-700 hover:bg-zinc-100 font-bold">Sigma 3.0 (May
+                        Batch)</a>
+                    <a href="#" class="block px-4 py-2 text-zinc-700 hover:bg-zinc-100 font-bold">C++ DSA</a>
+                    <a href="#" class="block px-4 py-2 text-zinc-700 hover:bg-zinc-100 font-bold">Sigma 2.0 (Feb
+                        Batch)</a>
+                    <a href="#" class="block px-4 py-2 text-zinc-700 hover:bg-zinc-100 font-bold">Delta 4.0
+                        (Development)</a>
+                </div>
+            </div>
+            <a href="#" id="openLogin" class="text-zinc-700 font-bold">Log in</a>
+            <a id="openSignup" class="bg-secondary text-secondary-foreground px-3 py-1 rounded font-bold">Sign up</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="bg-white py-16 px-4 flex flex-col md:flex-row items-center justify-center" id="bg">
+        <div class="text-center mb-8 md:text-left md:w-1/2 md:px-8" id="size-main">
+            <h1 class="text-4xl font-bold" id="black">Learn & become the</h1><br>
+            <h2 class="text-4xl font-bold" id="purple">Top 1% software
+            </h2><br>
+            <h2 class="text-4xl font-bold" id="purple">developer</h2><br>
+            <p class="text-lg mt-4">
+                <span id="typewriter" class="text-zinc-700"></span>
+            </p>
+            <br><button class="text-white px-6 py-3 mt-4 rounded font-bold" id="b2">Explore
+                new batches > </button>
+        </div>
+        <img src="img/sradha.jpg" alt="Student Image" class="border-2" id="photo">
+    </section>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content" id="model">
+            <span class="close" id="closeSignup">&times;</span>
+            <h2 class="text-xl font-bold mb-4">SIGN UP TO APNA COLLEGE!</h2><br>
+            <form id="signupForm" class="space-y-4">
+                <div>
+                    <label for="name" class="block mb-1">What's your name?</label>
+                    <input type="text" id="name" name="name" class="w-full p-2 border border-border" placeholder="Name"
+                        required>
+                </div>
+                <div>
+                    <label for="email" class="block mb-1">What's your e-mail?</label>
+                    <input type="email" id="email" name="email" class="w-full p-2 border border-border"
+                        placeholder="E-mail" required>
+                </div>
+                <div>
+                    <label for="password" class="block mb-1">Your password?</label>
+                    <input type="password" id="password" name="password" class="w-full p-2 border border-border"
+                        placeholder="Password" required>
+                </div>
+                <div>
+                    <label for="phone" class="block mb-1">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="w-full p-2 border border-border"
+                        placeholder="98xxxxxxxx" pattern="[0-9]{10}" required>
+                </div><br>
+                <button type="submit" class="bg-primary text-primary-foreground w-full p-2" id="bg_p">Start your learning journey</button>
+            </form>
+            <br>
+            <div class="flex justify-between mt-4">
+                <a class="text-secondary-foreground" id="purple_small">Sign in with your
+                    account</a>
+                <a href="#" class="text-secondary-foreground" id="purple_small">Forgot your password?</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content" id="model">
+            <span class="close" id="closeLogin">&times;</span>
+            <h2 class="text-xl font-bold mb-4">LOG IN TO APNA COLLEGE!</h2><br>
+            <form id="loginForm" class="space-y-4">
+                <div>
+                    <label for="email" class="block mb-1">E-mail</label>
+                    <input type="email" id="email" name="email" class="w-full p-2 border border-border"
+                        placeholder="E-mail" required>
+                </div>
+                <div>
+                    <label for="password" class="block mb-1">Password</label>
+                    <input type="password" id="password" name="password" class="w-full p-2 border border-border"
+                        placeholder="Password" required>
+                </div><br>
+                <button type="submit" class="bg-primary text-primary-foreground w-full p-2" id="bg_p">Log In</button>
+            </form>
+            <br>
+            <div class="flex justify-between mt-4">
+                <a class="text-secondary-foreground" id="purple_small">Create an account</a>
+                <a href="#" class="text-secondary-foreground" id="purple_small">Forgot your password?</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-white py-4 text-center" id="foot">INDIA'S MOST LOVED CODING COMMUNITY ❤️</footer>
+
+    <!-- JavaScript for typewriter effect and modal handling -->
+    <script src="script.js"></script>
+</body>
+
+</html>
