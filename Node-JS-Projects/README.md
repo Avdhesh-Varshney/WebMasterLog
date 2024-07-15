@@ -33,7 +33,7 @@
 |   6   | [Blog Platform](./Advanced/Blog-Platform) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   7   | [Headline Hub](./Basic/Headline-Hub) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   8   | [URL Scraper](./Intermediate/Url-Scraper) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   9   | [E COMMERCE](./Advanced/E-COMMERCE) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   9   | [E COMMERCE](./Advanced/E-Commerce) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 
 
 </div>
