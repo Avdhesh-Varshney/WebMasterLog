@@ -65,7 +65,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## ⚡ Screenshots 📸
 
-<img src="screenshot.png">
+<img src="pomodoro_clock.png">
 
 
 <!-- ----------------------------------------------------------------------------------------------------- -->
