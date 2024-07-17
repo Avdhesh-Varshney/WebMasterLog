@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #072747;
+    color: #ecf0f1;
+}
+
+header {
+    background-color: #2d6298;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 1em;
+    background-color: #031c38;
+    box-shadow: 2px 0 5px rgba(12, 11, 11, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideIn 1s ease;
+    overflow-y: auto;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+.grid-container {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 5px;
+    padding: 1em;
+    overflow-y: auto;
+    animation: fadeIn 1s ease;
+}
+
+.grid-container div {
+    border: 1px solid #33c4ce;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #022d58;
+    transition: background-color 0.3s;
+}
+
+.grid-container div:hover {
+    background-color: #010a15;
+}
+
+.info-panel {
+    width: 20%;
+    padding: 1em;
+    background-color: #144a7d;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: slideInRight 1s ease;
+    overflow-y: auto;
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+footer {
+    background-color: #2564a3;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1em;
+}
+
+.cost {
+    margin-top: 20px;
+}
+
+#plantList {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+#plantList div {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    background-color: #34495e;
+    border: 1px solid #7f8c8d;
+    transition: background-color 0.3s;
+}
+
+#plantList div:hover {
+    background-color: #3b4d61;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #054c86;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #16a085;
+}
+
+@media (max-width: 768px) {
+    .sidebar, .info-panel {
+        width: 100%;
+        order: 2;
+        padding: 0.5em;
+    }
+    .grid-container {
+        width: 100%;
+        order: 1;
+    }
+}
