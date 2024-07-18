@@ -11,12 +11,16 @@ import SideBar from './components/Sidebar/SideBar';
 import Footer from './components/shared/Footer';
 import CursorComponent from './components/shared/Cursor';
 import BackToTop from './components/shared/BackToTop';
+import Chatbot from './components/chat/Chatbot';
 
 // Custom Hook
 import useRepoData from './hooks/UseRepoData';
 
+// Importing Icons
+import { TbMessageChatbot } from "react-icons/tb";
+
 function App() {
-  const { progress } = useContext(Context);
+  const { progress, showChatbot, setShowChatbot } = useContext(Context);
   const { data, isLoading, error } = useRepoData();
 
   if (isLoading)
@@ -50,6 +54,11 @@ function App() {
 
           <Footer />
           <BackToTop />
+
+          <button className="btn border-0" onClick={() => setShowChatbot(!showChatbot)} style={{ zIndex: 1001, position: 'fixed', bottom: '10px', right: '3px' }} >
+            <TbMessageChatbot className='text-light' style={{ fontSize: '3rem' }} />
+          </button>
+          {showChatbot && <Chatbot />}
 
         </SideBar>
       </Router>
