@@ -89,7 +89,7 @@
 |  62   | [Stop Watch](./Basic/Stop-Watch/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  63   | [Garden-Planning-Website](./Advanced/Garden-Planning-Website/) |![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |  64   | [Substring-Checker](./Basic/Substring-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-
+| 65 | [Tesla-Website-Clone](./Basic/Tesla-Website-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 </div>
 
 
