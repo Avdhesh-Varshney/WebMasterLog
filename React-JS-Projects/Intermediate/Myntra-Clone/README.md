@@ -58,7 +58,7 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h4 align='center'>Developed By <b><i>YOUR NAME</i></b> 👦</h4>
+<h4 align='center'>Developed By <b><i>Sanaya Mahajan</i></b> 👦</h4>
 <p align='center'>
   <a href='https://www.linkedin.com/in/sanaya-mahajan-38b421256/'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
