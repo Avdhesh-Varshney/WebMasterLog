@@ -17,6 +17,7 @@ const ContextProvider = ({ children }) => {
   const [milestones, setMilestones] = useState([]);
   const [chartMilestones, setChartMilestones] = useState([]);
   const [languages, setLanguages] = useState({});
+  const [showChatbot, setShowChatbot] = useState(false);
 
   useEffect(() => {
     localStorage.setItem('darkMode', isDarkMode);
@@ -36,6 +37,7 @@ const ContextProvider = ({ children }) => {
       milestones, setMilestones,
       chartMilestones, setChartMilestones,
       languages, setLanguages,
+      showChatbot, setShowChatbot,
     }}>
       {children}
     </Context.Provider>
