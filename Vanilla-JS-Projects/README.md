@@ -91,6 +91,7 @@
 |  64   | [Substring-Checker](./Basic/Substring-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  65   | [Zomato-Clone](./Intermediate/Zomato-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  66   | [Tesla-Website-Clone](./Basic/Tesla-Website-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  65   | [Countries-Over-The-World](./Intermediate/Countries-Over-The-World/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
