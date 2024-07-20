@@ -53,12 +53,12 @@ npm install
 node server.js
 ```
 
-5. Open your browser and navigate to http://localhost:5000 to start chatting.
+5. Open your browser and navigate to http://localhost:5173 to start chatting.
 <!-- -------------------------------------------------------------------------------------------------------------- -->
-:zap: Screenshots 📸
-![alt text](<Screenshot 2024-07-20 115929.png>)
-![alt text](<Screenshot 2024-07-20 115841.png>)
-![alt text](<Screenshot 2024-07-20 115855.png>)
+## :zap: Screenshots 📸
+![Screenshot 2024-07-20 115929](https://github.com/user-attachments/assets/c0c0cd3e-5fb7-4347-a73a-2d5df106569e)
+![Screenshot 2024-07-20 115841](https://github.com/user-attachments/assets/b29b5399-431e-49e5-8648-89688953108b)
+![Screenshot 2024-07-20 115855](https://github.com/user-attachments/assets/a732fd46-8486-4638-8035-b9dbd7836320)
 
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
