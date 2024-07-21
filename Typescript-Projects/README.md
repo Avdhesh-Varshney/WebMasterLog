@@ -25,7 +25,8 @@
 
 | S.No  | Project Name | Category |
 |-------|--------------|----------|
-|   1   |  |  |
+|   1   | [Property-Rental-Website](./Intermediate/Property-Rental-Website) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   2   |  |  |
 
 
 
