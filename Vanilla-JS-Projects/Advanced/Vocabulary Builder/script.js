@@ -32,16 +32,27 @@ document.addEventListener('DOMContentLoaded', () => {
         words.forEach((wordObj, index) => {
             const card = document.createElement('div');
             card.className = 'flashcard';
-            card.innerHTML = `<strong>${wordObj.word}</strong><p>${wordObj.definition}</p>
-                              <button class="remove-btn" data-index="${index}">Remove</button>`;
-            flashcardsContainer.appendChild(card);
-        });
-        document.querySelectorAll('.remove-btn').forEach(button => {
-            button.addEventListener('click', (e) => {
-                const index = e.target.getAttribute('data-index');
+    
+            const wordElement = document.createElement('strong');
+            wordElement.textContent = wordObj.word;
+            card.appendChild(wordElement);
+    
+            const definitionParagraph = document.createElement('p');
+            definitionParagraph.textContent = wordObj.definition;
+            card.appendChild(definitionParagraph);
+    
+            const removeButton = document.createElement('button');
+            removeButton.textContent = 'Remove';
+            removeButton.className = 'remove-btn';
+            removeButton.setAttribute('data-index', index);
+            removeButton.addEventListener('click', (e) => {
+                const index = parseInt(e.target.getAttribute('data-index'), 10);
                 words.splice(index, 1);
                 loadFlashcards();
             });
+            card.appendChild(removeButton);
+    
+            flashcardsContainer.appendChild(card);
         });
     }
 
