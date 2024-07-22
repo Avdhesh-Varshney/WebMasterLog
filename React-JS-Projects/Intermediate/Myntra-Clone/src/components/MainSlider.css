@@ -1,0 +1,59 @@
+  .main-slider {
+    margin: 20px 0;
+    padding-top:30px;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slick-list {
+    margin-bottom: 100px;
+  }
+  
+  ul.slick-dots {
+    position: absolute;
+    bottom: -40px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+  }
+  
+  ul.slick-dots li {
+    height: 30px;
+    width: 30px;
+    margin: 0 -5px; /* Adjust the margin to reduce or increase the gap between dots */
+    padding: 0;    /* Ensure there is no padding */
+  }
+  
+  .slick-dots li button {
+    height: 100%;
+    width: 100%;
+    border: 0;
+    background: transparent;
+    display: block;
+    outline: none;
+    line-height: 0;
+    font-size: 0; /* Set to 0 to avoid interfering with the dot size */
+    color: transparent;
+    padding: 0;    /* Ensure there is no padding */
+  }
+  
+  .slick-dots li button:before {
+    font-size: 2px; /* Adjust this value to increase the size of the dot */
+    width: 7px;     /* Adjust this value to increase the width of the dot */
+    height: 7px;    /* Adjust this value to increase the height of the dot */
+    content: '';     /* Ensure content is empty to use the pseudo-element for the dot */
+    display: inline-block;
+    background-color:grey; /* Customize the color of the dot */
+    border-radius: 50%;     /* Make the dot circular */
+    margin: 0 auto;         /* Center the dot within its container */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    background-color: #2e2c2c; /* Customize the active dot color if needed */
+  }
+  
