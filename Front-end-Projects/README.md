@@ -45,7 +45,7 @@
 |   18  | [Google Drive Clone](./Basic/Google-Drive-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   19  | [FlexFlow](./Basic//FlexFlow) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   20  | [Login Signup Form](./Basic//Login-Signup-Form) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-
+|   21  | [3D Solar System](./Basic/3D-Solar-System/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 
 </div>
 
