@@ -94,6 +94,7 @@
 |  67   | [Countries-Over-The-World](./Intermediate/Countries-Over-The-World/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  68   | [Expense-Splitter-Website](./Intermediate/Expense-Splitter-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  69   | [Star-Rating-Component](./Basic/Star-Rating-Component/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  70   | [Vocabulary-Builder](./Advanced/Vocabulary-Builder/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 </div>
 
 

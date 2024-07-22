@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥Vocabulary Builder💥</b></h1>
+<h1 align='center'><b>💥 Vocabulary Builder 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -7,10 +7,10 @@
 
 <div align='center'>
 
-   ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-   ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
   <!-- ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) -->
-   ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
   <!-- ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) -->
   <!-- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) -->
   <!-- ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) -->
@@ -24,35 +24,27 @@
   <!-- ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) -->
 </div>
 
-
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Description 📃
 
-<div>
-<p>
-This application is designed to assist users in expanding their vocabulary. It utilizes storing the vocabulary and uses quizzes to make the learning process engaging and effective.
-
-</p>
-  
-
-</div>
-
+- This application is designed to assist users in expanding their vocabulary. It utilizes storing the vocabulary and uses quizzes to make the learning process engaging and effective.
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: How to run it? 🕹️
 
+<!-- add the steps how to run the project -->
 - Fork this repository.
 - Clone the forked repository.
 - Open index.html in your web browser to start your culinary exploration.
 
-
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Screenshots 📸
+<!-- add the screenshot of the project (Mandatory) -->
 
 ![image](https://github.com/user-attachments/assets/effb3262-0bf4-48b4-945d-9e248b745d11)
 
@@ -60,16 +52,13 @@ This application is designed to assist users in expanding their vocabulary. It u
 
 ![image](https://github.com/user-attachments/assets/2d085187-79b5-40e2-aeae-3664563ca53c)
 
-
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h4 align='center'>Developed By <b><i>Kosuri Indu</i></b> 👦</h4>
+<h4 align='center'>Developed By <b><i>Kosuri Indu</i></b> </h4>
 <p align='center'>
-  <a href='https://www.linkedin.com/in/kosuri-indu/'>
-    <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
-  </a>
   <a href='https://github.com/kosuri-indu'>
     <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
   </a>
