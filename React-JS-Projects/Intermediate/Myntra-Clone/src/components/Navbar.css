@@ -1,0 +1,82 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  height: 40px; /* Adjust logo height as needed */
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Assistant', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size:14px;
+}
+
+.search-bar {
+  color: #696e79;
+  right:30px;
+  top:20px;
+  position: relative;
+  max-width: 700px; /* Adjust the max width as needed */
+  flex: 2;
+  margin-right:40px;
+}
+
+.search-input {
+  background-color: #f5f5f6;
+  width: 100%;
+  padding:5px; /* Add padding to the input field */
+  border: 1px solid #f5f5f6;
+  border-radius: 12px;
+  font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+.search-input:focus{
+  border: 1px solid #f5f5f6;
+  background-color: #fff; /* Change background color to white when focused */
+}
+.search-icon {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  transform: translateY(-50%);
+  color: #333;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  font-family: 'Assistant', sans-serif;
+}
+
+.icon-item span {
+  font-weight:700;
+  font-size: 12px; /* Adjust font size for the icon labels */
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 0.5px; /* Add letter spacing */
+}
