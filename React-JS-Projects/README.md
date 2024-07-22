@@ -39,8 +39,9 @@
 |   12  | [Form Validation](./Intermediate/Form-Validation/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   13  | [Solar System Model](./Advanced/Solar-system-model/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   14  | [Image Carousel](./Intermediate/Image-Carousel) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   15  | [Myntra Clone](./Intermediate/myntra-clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   16 | [IP-Address-Tracker](./Advanced/IP-Address-Tracker/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   15  | [Myntra Clone](./Intermediate/Myntra-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   16  | [IP-Address-Tracker](./Advanced/IP-Address-Tracker/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   17  | [Tesla Clone](./Intermediate/Tesla-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 </div>
 
 
