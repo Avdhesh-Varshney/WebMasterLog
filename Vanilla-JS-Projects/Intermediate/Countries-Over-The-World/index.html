@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countries over the World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Countries over the World</h1>
+    </header>
+    <main>
+      <div class="controls">
+        <input type="text" id="search" placeholder="Search for a country...">
+        <select id="regionFilter">
+          <option value="all">All Regions</option>
+          <option value="Africa">Africa</option>
+          <option value="Americas">Americas</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="Oceania">Oceania</option>
+        </select>
+      </div>
+      <div id="countries-list" class="grid"></div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
