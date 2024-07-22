@@ -94,7 +94,9 @@
 |  67   | [Countries-Over-The-World](./Intermediate/Countries-Over-The-World/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  68   | [Expense-Splitter-Website](./Intermediate/Expense-Splitter-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  69   | [Star-Rating-Component](./Basic/Star-Rating-Component/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|  70   | [Subsequence-Checker](./Basic/Subsequence-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  70   | [Random-Picker](./Basic/Random-Picker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  71   | [Subsequence-Checker](./Basic/Subsequence-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+
 </div>
 
 
