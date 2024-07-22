@@ -70,7 +70,7 @@ http://localhost:3000
 <img src='./screenshot.webp'>
 
 
-## :zap: Working Video 📹
+
 <!-- directly add the link of video (If, possible) -->
 
 
