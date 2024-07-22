@@ -47,12 +47,11 @@
 ## :zap: Features 🚀
 
 <div>
-- **Text Summarization:** Summarize long texts into concise summaries.
-- **Multilingual Support:** Summarize texts in multiple languages.
-- **Word Count:** Display the word count of the input text.
-- **Export Summary:** Export the summarized text to a file.
-- **Responsive Design:** Optimized for various devices and screen sizes.
-- **User-Friendly Interface:** Clean and modern UI inspired by Twitter's color scheme.
+<p>Text Summarization: Summarize long texts into concise summaries.</p>
+<p>Multilingual Support: Summarize texts in multiple languages.</p>
+<p>Word Count: Display the word count of the input text.</p>
+<p>Export Summary: Export the summarized text to a file.</p>
+<p>Responsive Design: Optimized for various devices and screen sizes.</p>
 </div>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
