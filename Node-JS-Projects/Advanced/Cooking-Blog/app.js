@@ -14,19 +14,21 @@ const port =process.env.PORT || 3000;
 
 require('dotenv').config()
 
+const isProduction = process.env.NODE_ENV === 'production';
+
+app.use(session({
+    secret: process.env.SESSION_SECRET, // Use environment variable
+    resave: false,
+    saveUninitialized: true,
+    cookie: { secure: isProduction } // Secure cookies in production
+}));
+
 app.use(express.urlencoded( { extended:true } ));
 //static is used so that hame koi image insert karni ho kabhi to yaha par path path na khelna pade
 app.use(express.static('public'));
 app.use(expressLayouts);
 
 
-//creating middlewares for the submit button to work
-app.use(cookieParser('CookingBlogSecure'));
-app.use(session({
-    secret: 'CookingBlogSecretSession',
-    saveUninitialized: true,
-    resave: true
-}));
 app.use(flash());
 app.use(fileUpload());
 

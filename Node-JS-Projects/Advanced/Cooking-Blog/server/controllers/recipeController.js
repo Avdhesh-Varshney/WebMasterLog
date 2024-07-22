@@ -2,6 +2,22 @@ require('../models/database');
 const Category = require('../models/Category')
 const Recipe = require('../models/Recipe')
 
+const path = require('path');
+const fs = require('fs');
+
+// Assuming filePath is constructed somewhere in your code
+const safeFilePath = path.resolve(__dirname, 'uploads', path.basename(filePath));
+
+// Ensure the filePath is within the intended directory
+if (safeFilePath.startsWith(path.resolve(__dirname, 'uploads'))) {
+    fs.readFile(safeFilePath, (err, data) => {
+        if (err) throw err;
+        // handle data
+    });
+} else {
+    // Handle invalid file path
+}
+
 /**
  * GET/
  * Homepage
