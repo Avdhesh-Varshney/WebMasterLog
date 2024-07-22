@@ -96,7 +96,7 @@
 |  69   | [Star-Rating-Component](./Basic/Star-Rating-Component/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  70   | [Random-Picker](./Basic/Random-Picker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  71   | [Subsequence-Checker](./Basic/Subsequence-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-
+|  72   | [Vocabulary-Builder](./Advanced/Vocabulary-Builder/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 </div>
 
 
