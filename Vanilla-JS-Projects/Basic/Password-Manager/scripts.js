@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const passwordForm = document.getElementById('passwordForm');
     const passwordList = document.getElementById('passwordList');
-    const encryptionKey = '1'; // Use a secure encryption key
+    const encryptionKey = 'your-encryption-key'; // Use a secure encryption key
 
     passwordForm.addEventListener('submit', (e) => {
         e.preventDefault();
