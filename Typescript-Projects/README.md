@@ -25,7 +25,7 @@
 
 | S.No  | Project Name | Category |
 |-------|--------------|----------|
-|   1   |  |  |
+|   1   | [Slack Clone](./Intermediate/Slack-Clone/) |![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 
