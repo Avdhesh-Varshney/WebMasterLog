@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #E8F5FD;
+    padding: 20px;
+    color: #14171A;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 2.5em;
+    color: #1DA1F2;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #14171A;
+}
+
+.language-selection {
+    margin-bottom: 20px;
+}
+
+.language-selection label {
+    font-size: 1.2em;
+    color: #14171A;
+    margin-right: 10px;
+}
+
+.language-selection select {
+    padding: 10px;
+    border: 2px solid #1DA1F2;
+    border-radius: 10px;
+    background: #E8F5FD;
+    color: #14171A;
+    font-size: 1em;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.language-selection select:focus {
+    background: #DDEAF7;
+    outline: none;
+    box-shadow: 0 0 10px rgba(29, 161, 242, 0.5);
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    border: 2px solid #1DA1F2;
+    border-radius: 10px;
+    resize: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background: #E8F5FD;
+    color: #14171A;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+textarea:focus {
+    background: #DDEAF7;
+    outline: none;
+    box-shadow: 0 0 10px rgba(29, 161, 242, 0.5);
+}
+
+.info {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #657786;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background: #1DA1F2;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0A95DD;
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.output {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#summaryText {
+    background: #E8F5FD;
+    padding: 15px;
+    border-radius: 10px;
+    animation: slideIn 0.5s ease-out;
+    transition: background 0.3s;
+    color: #14171A;
+    border: 1px solid #1DA1F2;
+}
+
+#summaryText:hover {
+    background: #DDEAF7;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
