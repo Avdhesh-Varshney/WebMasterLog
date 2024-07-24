@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url('https://i.pinimg.com/564x/16/04/2d/16042df6c4aef13398ccc4c9cdc1aab5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:cursive;
+}
+h1{
+    text-align: center;
+    background-color: red;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+.container{
+    height:300px;
+    width:460px;
+    border-radius:5px;
+    background-image: url('https://i.pinimg.com/564x/0a/84/e4/0a84e471c1c0ae2464156910073d6b0e.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 12px 12px 12px rgba(0, 0, 0, 0.1);
+}
+.quote{
+    text-align: center;
+    padding-top:100px ;
+}
+.author{
+    text-align: center;
+    padding:20px;
+    font-weight: 900;
+    font-size: large;
+    color: #af4261;
+}
+button{
+    border-radius: 5px;
+    margin-left:190px;
+    margin-top:15px;
+    padding:6px;
+    border-style: 1px solid black;
+    height:50px;
+    width:100px;
+    cursor: pointer;
+    transition: background-image 0.3s ease;
+}
+button:hover{
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    color:white;
+}

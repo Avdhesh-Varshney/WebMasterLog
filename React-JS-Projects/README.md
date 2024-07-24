@@ -45,6 +45,8 @@
 |   18  | [Swiggy Clone](./Basic/Swiggy-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   19  | [Chat Application](./Advanced/Chat-Application/)  | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   20  | [Shopping Cart](./Basic/Shopping-Cart/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   21  | [Random Quote Generator](./Basic/Random-Quote-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+
 
 </div>
 
