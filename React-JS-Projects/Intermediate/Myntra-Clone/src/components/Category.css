@@ -1,0 +1,43 @@
+/* src/components/Category.css */
+.category-container {
+  text-align: center;
+}
+
+.category-container h2 {
+  margin-bottom: 20px;
+}
+
+.category-cards {
+  padding-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards if less than 6 */
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.category-card {
+  flex: 1 0 16%; /* Adjust this value to have 6 cards per row */
+  max-width: 16%; /* Ensure the card does not exceed 16% of the row */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.category-card img {
+  width: 100%;
+  height: auto;
+}
+
+.category-card h3 {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 1em; /* Adjust font size as needed */
+}
+h2{
+  font-family: 'Assistant', sans-serif;
+  font-weight:600;
+  padding-bottom:80px;
+  padding-left:30px;
+}

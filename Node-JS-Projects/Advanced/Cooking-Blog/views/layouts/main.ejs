@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= typeof title != 'undefined' ? title: 'Tasty Tales - Made with Node.js' %></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+<body>
+    <!-- ejs ki body daal rahe idhar -->
+    <!--isme index ya home page ke element aa rahe-->
+    <!-- mb is margin bottom , md is middle -->
+    <div class="container-xxl px-md-5 bg-white shadow-lg">
+
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+          <img src="/img/logo.svg" width="229" height="68" alt="Tasty Tales - Made with Node.js">
+        </a>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="/" class="nav-link px-2 link-secondary">Home</a></li>
+          <li><a href="/about" class="nav-link px-2 link-secondary">About</a></li>
+          <li><a href="/submit-recipe" class="nav-link px-2 link-secondary">Submit</a></li>
+          <li><a href="/contact" class="nav-link px-2 link-secondary">Contact</a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end">
+          <form method="POST" action="/search">
+            <input type="search" name="searchTerm" class="form-control" placeholder="Search..." aria-label="Search">
+          </form>
+        </div>
+      </header>
+  
+      <main>
+        <%- body -%>
+      </main>
+  
+      <footer class="py-5">
+        <p>Build by Simran Saini</p>
+      </footer>
+  
+    </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+  </body>
+  </html>
