@@ -64,7 +64,9 @@ To run the application follow these steps:
 ## :zap: Screenshots 📸
 
 - Web page user interface
- ![alt text](image.png)
+ ![web page screenshot](screenshot.webp)
+
+ 
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
