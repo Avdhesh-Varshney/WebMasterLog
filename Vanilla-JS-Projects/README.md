@@ -99,6 +99,7 @@
 |  72   | [Vocabulary-Builder](./Advanced/Vocabulary-Builder/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |  73   | [Text-Summarizer](./Intermediate/Text-Summarizer/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  74   | [3D Solar System](./Basic/3D-Solar-System/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  75   | [Custom-Video-Player](./Basic/Custom-Video-Player/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 </div>
 
 
