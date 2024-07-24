@@ -1,0 +1,34 @@
+<div class="px-4 py-5 my-5 text-center">
+    <h1 class="display-5 fw-bold">Contact Us</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead">If you have any questions or concerns, feel free to reach out to us through the form below.</p>
+    </div>
+  </div>
+  
+  <div class="row justify-content-center">
+    <div class="col-8">
+      <form action="/contact" method="POST">
+        <div class="row g-3">
+          <div class="col-12">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" name="name" id="name" class="form-control" required>
+          </div>
+  
+          <div class="col-12">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" name="email" id="email" class="form-control" required>
+          </div>
+  
+          <div class="col-12">
+            <label for="message" class="form-label">Message</label>
+            <textarea name="message" id="message" class="form-control" cols="30" rows="4" required></textarea>
+          </div>
+  
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  
