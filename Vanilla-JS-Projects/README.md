@@ -100,6 +100,8 @@
 |  73   | [Text-Summarizer](./Intermediate/Text-Summarizer/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  74   | [3D Solar System](./Basic/3D-Solar-System/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  75   | [Co-Prime-Number-Checker](./Basic/Co-Prime-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  76   | [Vowel-Counter](./Basic/Vowel-Counter/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+
 </div>
 
 
