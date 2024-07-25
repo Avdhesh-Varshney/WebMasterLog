@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Context } from './contexts/Context';
 import LoadingBar from 'react-top-loading-bar';
+import preloadergif from './assets/preloader.gif';
 import './App.css';
 
 // Importing Components
@@ -24,9 +25,10 @@ function App() {
   const { data, isLoading, error } = useRepoData();
 
   if (isLoading)
-    return <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
-      <h1>Loading...</h1>
-    </div>;
+    return ( <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+      <img src={preloadergif} alt="Loading..." />
+    </div>
+    );
 
   if (error)
     return <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
