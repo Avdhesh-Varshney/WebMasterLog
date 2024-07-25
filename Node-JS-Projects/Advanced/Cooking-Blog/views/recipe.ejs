@@ -1,0 +1,39 @@
+<% if (recipe != null) { %>
+    <!-- This breadcrumb is taken from bootstrap -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page"><%- recipe.name %></li>
+        </ol>
+    </nav>
+
+    <div class="row">
+        <div class="col-12 col-md-4">
+            <img src="/uploads/<%- recipe.image %>" class="img-fluid sticky-top" style="top: 20px;" alt="<%- recipe.name %>" loading="lazy">
+        </div>
+
+        <div class="col-12 col-md-8">
+            <div class="row">
+                <div class="col-12"><h1><%- recipe.name %></h1></div>
+                <div class="col-12 mb-4"><i class="bi bi-tag"></i> <%- recipe.category %></div>
+                <div class="col-12" style="white-space: pre-line;">
+                    <h4>Cooking Instructions</h4>
+                    <%- recipe.description %>
+                </div>
+            </div>
+
+            <div class="row pt-4">
+                <div class="col-12">
+                    <h4>Ingredients</h4>
+                    <ul class="list-group list-group-flush">
+                        <% recipe.ingredients.forEach(function(ingredient, index) { %>
+                            <li class="list-group-item"><%= ingredient %></li>
+                        <% }) %>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<% } else { %>
+    <p>No items Found!</p>
+<% } %>
