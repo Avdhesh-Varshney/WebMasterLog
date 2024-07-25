@@ -50,7 +50,7 @@ const ProjectPage = ({ page }) => {
               <div className="card text-white" style={{ width: '22rem', backgroundColor: `#12151e` }}>
                 <img
                   onError={(e) => { e.target.onerror = null; e.target.src = image; }}
-                  src={`https://github.com/Avdhesh-Varshney/WebMasterLog/raw/main/${project.path}/screenshot.webp`}
+                  src={`${import.meta.env.VITE_MAIN_BRANCH_URL}/${project.path}/screenshot.webp`}
                   className="card-img-top"
                   alt={project.name}
                   style={{ objectFit: 'cover', height: '200px' }}

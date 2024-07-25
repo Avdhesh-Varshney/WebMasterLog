@@ -27,7 +27,7 @@
 |-------|--------------|----------|
 |   1   | [Markdown Previewer](./Basic/Markdown-Previewer) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   2   | [Quote-Generator](./Basic/Quote-Generator) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   3   | [Pomodoro-Clock](./Basic/Pomodoro-Clock) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge)  |
+|   3   | [Pomodoro-Clock](./Basic/Pomodoro-Clock) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 
 
 
