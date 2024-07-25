@@ -15,7 +15,6 @@ const Profile = ({ username }) => {
   const [error, setError] = useState(false)
   const perPage = 30;
 
-  console.log(page, totalPages)
   const fetchProfile = async () => {
     setloading(true)
     try {
@@ -82,15 +81,6 @@ const Profile = ({ username }) => {
       <FilterCard filter={filter} sortOption={sortOption} page={page} hasMore={page!==totalPages} setFilter={setFilter} setSortOption={setSortOption} setPage={setPage}/>
 
       <ReposList filteredRepos={filteredRepos} />
-
-      {/* {hasMore && (
-        <button
-          className="mt-4 p-2 bg-blue-500 text-white rounded disabled:opacity-60 disabled:pointer-events-none"
-          disabled={loading}
-        >
-          {loadingRepos ? "Loading Repositories..." : "Load more"}
-        </button>
-      )} */}
     </div>
   );
 };
