@@ -1,0 +1,62 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "eqeqeq": "warn",
+    "no-var": "warn",
+    "no-multi-spaces": "warn",
+    "indent": [
+      "off"
+    ],
+    "object-curly-spacing": [
+      "warn",
+      "always"
+    ],
+    "semi": [
+      "warn",
+      "never"
+    ],
+    "comma-dangle": [
+      "warn",
+      "never"
+    ],
+    "quotes": [
+      "warn",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "yoda": [
+      "warn",
+      "never",
+      {
+        "exceptRange": true
+      }
+    ],
+    "no-trailing-spaces": [
+      "warn",
+      {
+        "skipBlankLines": true
+      }
+    ],
+    "block-spacing": [
+      "warn",
+      "always"
+    ],
+    "no-unsafe-negation": [
+      "warn",
+      {
+        "enforceForOrderingRelations": true
+      }
+    ],
+    "multiline-ternary": [
+      "warn",
+      "always-multiline"
+    ]
+  }
+}

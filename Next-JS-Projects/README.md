@@ -26,7 +26,7 @@
 | S.No | Project Name | Category |
 |------|--------------|----------|
 |  1   | [Weather-Website](./Basic/Weather-Website) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|  2   |  |  |
+|  2   | [Url-Shortener](.Intermediate/Url-Shortener) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 
