@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(45deg,rgb(233, 248, 95),rgb(207, 243, 81));
+}
+img{
+  height: 60px;
+  width: 60px;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 100px;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid black;
+}
+button:hover{
+  background-color: rgb(233, 249, 90);
+}
+#verse {
+  font-size: 18px;
+  color: #333;
+}
