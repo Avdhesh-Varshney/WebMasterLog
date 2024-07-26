@@ -1,0 +1,49 @@
+:root{
+    --bs-font-sans-serif: 'Rubik',sans-serif;
+}
+
+.container-xxl { max-width:1530px; }
+
+body{
+    background-image: url("/img/i-like-food.svg");
+    background-color: rgb(243, 243, 243);
+}
+
+a { color : var(--bs-dark); }
+
+/* Category Card */
+.category__link{
+    text-align: center;
+    display: block;
+    text-decoration:none;
+    transition: 250ms all;
+}
+
+.category__link:hover{
+    /* in order to zoom out the picture where cursor is moved */
+    transform: scale(1.1);
+}
+
+/* to style the images of the food */
+.category__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 6px rgba(0,0, 0, .16);
+    overflow: hidden;
+    border-radius:8px;
+}
+
+/* this sets the height of image as 330px This is typically used for images that need to be prominently displayed. 
+In your example, it is applied to images of recipes to ensure they have a larger, uniform size, making them 
+more visually appealing and consistent on the page. */
+.category__img--large{
+    height: 330px;
+}
+/*this will make the image fit completely in width or height of that box*/
+.category__img img{
+    width: 100%;
+    object-fit: cover;
+}
