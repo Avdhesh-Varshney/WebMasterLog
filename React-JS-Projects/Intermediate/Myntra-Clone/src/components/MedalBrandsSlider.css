@@ -1,0 +1,52 @@
+/* src/components/MedalBrandsSlider.css */
+.medal-brands-slider {
+  margin: 20px auto;
+  width: 100%; /* Ensure it takes the full width of the container */
+  text-align: center;
+}
+
+.medal-brands-slider h1 {
+  margin-bottom: 20px;
+}
+
+.brand-slide {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  width: 100%; /* Ensure the slide takes up full width */
+  padding: 0;
+  margin: 0;
+}
+
+.brand-images {
+  display: flex;
+  justify-content: center; /* Center images within the container */
+  align-items: center;
+  width: 100%; /* Ensure the container takes up full width */
+  padding: 0;
+  margin: 0;
+}
+
+.brand-images img {
+  max-width: 326px; /* Adjust the size as needed */
+  max-height: 428px; /* Adjust the size as needed */
+}
+
+.slick-dots {
+  bottom: 10px;
+  display: flex !important;
+  justify-content: center;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button::before {
+  font-size: 12px; /* Adjust dot size */
+}
+h1{
+  font-family: 'Assistant', sans-serif;
+  font-weight:600;
+  padding-bottom:80px;
+  padding-left:30px;
+}

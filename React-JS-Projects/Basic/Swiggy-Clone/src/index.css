@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/styles/global.css */
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: 300;
+    src: url('/fonts/ProximaNova-Light.woff2') format('woff2'),
+         url('/fonts/ProximaNova-Light.woff') format('woff');
+    font-display: swap;
+  }
+  .custom-underline {
+     position: relative;
+     display: inline-block;
+   }
+   .custom-underline:hover::after {
+     background: orange; 
+   }
+   
+   .custom-underline::after {
+     content: '';
+     position: absolute;
+     left: 0;
+     right: 0;
+     bottom: -6px; 
+     height: 2px; 
+     background-color: black; 
+   }
+   .back{
+   background: linear-gradient(rgba(27, 30, 36, 0) 0%, rgb(27, 30, 36) 84.21%);
+  }
