@@ -46,6 +46,7 @@
 |   19  | [Chat Application](./Advanced/Chat-Application/)  | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   20  | [Shopping Cart](./Basic/Shopping-Cart/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   21  | [GitHub Profile Viewer](./Intermediate/GitHub-Profile-Viewer/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   22  | [Chat Bot](./Intermediate/Chat-Bot/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
