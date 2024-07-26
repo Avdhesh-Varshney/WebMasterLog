@@ -104,6 +104,7 @@
 |  77   | [Youtube-Clone](./Basic/Youtube-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  78   | [Word-Counter](./Basic/Word-Counter/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  79   | [Captcha-Generator](./Basic/Captcha-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  80   | [Perfect-Number-Checker](./Basic/Perfect-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 </div>
 
 
