@@ -48,6 +48,7 @@
 |   21  | [GitHub Profile Viewer](./Intermediate/GitHub-Profile-Viewer/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   22  | [Random Bible Verse](./Intermediate/Random-Bible-Verse/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   23  | [Chat Bot](./Intermediate/Chat-Bot/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   24  | [Motivation For The Day](./Basic/Motivation-For-The-Day/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 
 </div>
 
