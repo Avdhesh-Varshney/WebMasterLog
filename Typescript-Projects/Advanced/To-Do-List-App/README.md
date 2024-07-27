@@ -18,7 +18,7 @@
 
 ## :zap: Description 📃
 
-- This is an to do list application, allow users to create, edit, delete, view, pin, mark as done tasks.
+- This is a to do list application, allow users to create, edit, delete, view, pin, mark as done tasks.
   
 
 
