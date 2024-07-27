@@ -1,17 +1,27 @@
 function isIsogram(str) {
   let lowerStr = str.toLowerCase();
-  let charCount = {};
-
-  for (let char of lowerStr) {
-    if (charCount[char]) {
-      charCount[char]++;
-    } else {
-      charCount[char] = 1;
+  const len = lowerStr.length;
+  for(let i=0;i<len;i++){
+    for(let j=i+1;j<len;j++){
+      if(lowerStr[i]===lowerStr[j]){
+        return false;
+      }
     }
   }
+  return true;
+  // let charCount = {};
 
-  let counts = Object.values(charCount);
-  return counts.every(count => count === counts[0]);
+  // for (let char of lowerStr) {
+  //   if (charCount[char]) {
+  //     charCount[char]++;
+  //     return false;
+  //   } else {
+  //     charCount[char] = 1;
+  //   }
+  // }
+  // return true;
+  // // let counts = Object.values(charCount);
+  // // return counts.every(count => count === counts[0]);
 }
 
 function checkIsogram() {
