@@ -39,7 +39,7 @@
 |   12  | [Form Validation](./Intermediate/Form-Validation/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   13  | [Solar System Model](./Advanced/Solar-system-model/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   14  | [Image Carousel](./Intermediate/Image-Carousel) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-
+|   15  | [Tesla Clone](./Intermediate/Image-Carousel) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 </div>
 
 
