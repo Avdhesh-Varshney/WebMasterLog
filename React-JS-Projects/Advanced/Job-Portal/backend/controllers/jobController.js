@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { check, validationResult } from "express-validator";
+import { check, validationResult, param } from "express-validator";
 import Jobs from "../models/jobsModel.js";
 import Companies from "../models/companiesModel.js";
 
@@ -13,110 +13,126 @@ const validateJobInput = [
   check("requirements").notEmpty().withMessage("Requirements are required").trim().escape(),
 ];
 
-export const createJob = async (req, res, next) => {
-  try {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() });
+const validateJobId = [
+  param("jobId").custom((value) => {
+    if (!mongoose.Types.ObjectId.isValid(value)) {
+      throw new Error("Invalid job ID");
     }
+    return true;
+  })
+];
 
-    const {
-      jobTitle,
-      jobType,
-      location,
-      salary,
-      vacancies,
-      experience,
-      desc,
-      requirements,
-    } = req.body;
-
-    const id = req.user.userId; // Fetch userId from authenticated user information
-
-    if (!mongoose.Types.ObjectId.isValid(id)) {
-      return res.status(404).send("No Company with id: " + id);
-    }
-
-    const company = await Companies.findById(id);
-    if (!company) {
-      return res.status(404).send("No Company with id: " + id);
-    }
-
-    const jobPost = {
-      jobTitle,
-      jobType,
-      location,
-      salary,
-      vacancies,
-      experience,
-      detail: { desc, requirements },
-      company: id,
-    };
-
-    const job = new Jobs(jobPost);
-    await job.save();
-
-    company.jobPosts.push(job._id);
-    await company.save();
-
-    res.status(200).json({
-      success: true,
-      message: "Job Posted Successfully",
-      job,
-    });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Server Error" });
+const validateCompanyId = (req, res, next) => {
+  const id = req.user.userId; // Fetch userId from authenticated user information
+  if (!mongoose.Types.ObjectId.isValid(id)) {
+    return res.status(404).send("No Company with id: " + id);
   }
+  next();
 };
 
-export const updateJob = async (req, res, next) => {
-  try {
-    const errors = validationResult(req);
-    if (!errors.isEmpty()) {
-      return res.status(400).json({ errors: errors.array() });
+export const createJob = [
+  validateJobInput,
+  validateCompanyId,
+  async (req, res, next) => {
+    try {
+      const errors = validationResult(req);
+      if (!errors.isEmpty()) {
+        return res.status(400).json({ errors: errors.array() });
+      }
+
+      const {
+        jobTitle,
+        jobType,
+        location,
+        salary,
+        vacancies,
+        experience,
+        desc,
+        requirements,
+      } = req.body;
+
+      const id = req.user.userId;
+
+      const company = await Companies.findById(id);
+      if (!company) {
+        return res.status(404).send("No Company with id: " + id);
+      }
+
+      const jobPost = {
+        jobTitle,
+        jobType,
+        location,
+        salary,
+        vacancies,
+        experience,
+        detail: { desc, requirements },
+        company: id,
+      };
+
+      const job = new Jobs(jobPost);
+      await job.save();
+
+      company.jobPosts.push(job._id);
+      await company.save();
+
+      res.status(200).json({
+        success: true,
+        message: "Job Posted Successfully",
+        job,
+      });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ message: "Server Error" });
     }
-
-    const {
-      jobTitle,
-      jobType,
-      location,
-      salary,
-      vacancies,
-      experience,
-      desc,
-      requirements,
-    } = req.body;
-    const { jobId } = req.params;
-
-    const id = req.user.userId; // Fetch userId from authenticated user information
-
-    if (!mongoose.Types.ObjectId.isValid(id)) {
-      return res.status(404).send("No Company with id: " + id);
-    }
-
-    const jobPost = {
-      jobTitle,
-      jobType,
-      location,
-      salary,
-      vacancies,
-      experience,
-      detail: { desc, requirements },
-    };
-
-    const updatedJob = await Jobs.findByIdAndUpdate(jobId, jobPost, { new: true });
-
-    res.status(200).json({
-      success: true,
-      message: "Job Post Updated Successfully",
-      job: updatedJob,
-    });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Server Error" });
   }
-};
+];
+
+export const updateJob = [
+  validateJobInput,
+  validateJobId,
+  validateCompanyId,
+  async (req, res, next) => {
+    try {
+      const errors = validationResult(req);
+      if (!errors.isEmpty()) {
+        return res.status(400).json({ errors: errors.array() });
+      }
+
+      const {
+        jobTitle,
+        jobType,
+        location,
+        salary,
+        vacancies,
+        experience,
+        desc,
+        requirements,
+      } = req.body;
+      const { jobId } = req.params;
+
+      const jobPost = {
+        jobTitle,
+        jobType,
+        location,
+        salary,
+        vacancies,
+        experience,
+        detail: { desc, requirements },
+      };
+
+      const updatedJob = await Jobs.findByIdAndUpdate(jobId, jobPost, { new: true });
+
+      res.status(200).json({
+        success: true,
+        message: "Job Post Updated Successfully",
+        job: updatedJob,
+      });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ message: "Server Error" });
+    }
+  }
+];
 
 export const getJobPosts = async (req, res, next) => {
   try {
@@ -229,21 +245,24 @@ export const getJobById = async (req, res, next) => {
   }
 };
 
-export const deleteJobPost = async (req, res, next) => {
-  try {
-    const { id } = req.params;
+export const deleteJobPost = [
+  validateJobId,
+  async (req, res, next) => {
+    try {
+      const { jobId } = req.params;
 
-    await Jobs.findByIdAndDelete(id);
+      await Jobs.findByIdAndDelete(jobId);
 
-    res.status(200).json({
-      success: true,
-      message: "Job Post Deleted Successfully.",
-    });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: "Server Error" });
+      res.status(200).json({
+        success: true,
+        message: "Job Post Deleted Successfully.",
+      });
+    } catch (error) {
+      console.error(error);
+      res.status(500).json({ message: "Server Error" });
+    }
   }
-};
+];
 
 // Export validateJobInput middleware
 export { validateJobInput };
