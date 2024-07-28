@@ -1,0 +1,39 @@
+html{
+   background-color: #9376E0;
+}
+h1{
+    text-align: center;
+}
+#clockcontainer{
+    height:39vw;
+    width:40vw;
+    position: relative;
+    margin:auto;
+    background-image: url("https://clipart-library.com/images/8c65Lyrzi.jpg");
+    background-size: 100%;
+    border-radius: 20px;
+}
+#hour,#min,#sec{
+   background-color: black;
+   border-radius: 10px;
+   transform-origin: bottom;
+   position: absolute;
+}
+#hour{
+   height: 25%;
+   width: 1.8%;
+   top:24%;
+   left:48.4%;
+} 
+#min{
+    height: 30%;
+    width: 1.5%;
+    top:19%;
+    left:48.5%;
+}
+#sec{
+    height: 33%;
+    width: 1.0%;
+    top:15.9%;
+    left:48.9%;
+}
