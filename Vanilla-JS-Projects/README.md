@@ -106,6 +106,7 @@
 |  79   | [Captcha-Generator](./Basic/Captcha-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  80   | [Custom-Video-Player](./Basic/Custom-Video-Player/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  81   | [Perfect-Number-Checker](./Basic/Perfect-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  82   | [Lunar Cycle - Moon Phase Visibility](./Advanced/Moon-Phase-Visibility/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 </div>
 
 
