@@ -24,7 +24,7 @@
   <!-- <p>Add Description of the project</p> -->
     <p> A news app is a mobile or web application designed to provide users with up-to-date news and information from various sources. The app aggregates news articles, videos, and other content, presenting it in an organized and easily accessible format. 
 </p>
-</div></p>
+</div>
 </div>
 
 
