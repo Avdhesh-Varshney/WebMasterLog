@@ -8,31 +8,20 @@
   <a href="https://www.buymeacoffee.com/avdheshvarshney">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
   </a><br /><br />
-  <img src="https://img.shields.io/github/repo-size/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkred" />
-  <img src="https://img.shields.io/github/contributors/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=orange" />
-  <img src="https://img.shields.io/github/languages/count/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=yellowgreen" />
-  <img src="https://img.shields.io/github/stars/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=brightgreen" />
-  <img src="https://img.shields.io/github/forks/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=blue" />
-  <img src="https://img.shields.io/github/last-commit/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=navy" />
-  <img src="https://img.shields.io/github/license/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=violet" />
-  
-  <img src="https://img.shields.io/github/issues-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkgreen" />
-  <img src="https://img.shields.io/github/issues-closed-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkviolet" />
-  <img src="https://img.shields.io/github/issues-pr-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkgreen" />
-  <img src="https://img.shields.io/github/issues-pr-closed-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkviolet" />
+  <img src="https://img.shields.io/github/repo-size/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/contributors/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/languages/count/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/stars/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/forks/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/last-commit/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/license/Avdhesh-Varshney/WebMasterLog" />
+  <br />
+  <img src="https://img.shields.io/github/issues-raw/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/issues-closed-raw/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/issues-pr-raw/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/Avdhesh-Varshney/WebMasterLog" />
  </p>
 </div>
-<br />
-
-<!-- -------------------ABOUT SECTION---------------------- -->
-## :zap: About WebMasterLog ❤️
-
-<div align="center">
-  Welcome to WebMasterLog, It serves as a comprehensive record of various web development endeavors, highlighting the versatility and capabilities of projects built with Front-end and Back-end Web developement technologies. From interactive and responsive user interfaces to dynamic web applications, this repository encompasses a spectrum of web development solutions.
-</div>
-
-![image](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/f4229ca0-c80d-40a2-98c1-3193844d25de)
-
 <br />
 
 <!-- ------------TECH STACK USED---------------------- -->
@@ -58,6 +47,19 @@
 </div>
 <br />
 
+<!-- -------------------ABOUT SECTION---------------------- -->
+## :zap: About WebMasterLog ❤️
+
+<div align="center">
+  Welcome to WebMasterLog, It serves as a comprehensive record of various web development endeavors, highlighting the versatility and capabilities of projects built with Front-end and Back-end Web developement technologies. From interactive and responsive user interfaces to dynamic web applications, this repository encompasses a spectrum of web development solutions.
+</div>
+<br />
+
+<a href="https://avdhesh-portfolio.vercel.app/projects/web-master-log">
+  <img src="./src/assets/cover-page.jpeg" />
+</a>
+<br />
+
 <!-- -------------Structure of the Project------------ -->
 ## :zap: Project Structure 📜
 
@@ -68,6 +70,7 @@ The project is organized into the following main directories:
 - [**Next-JS-Projects**](./Next-JS-Projects/README.md)
 - [**Node-JS-Projects**](./Node-JS-Projects/README.md)
 - [**React-JS-Projects**](./React-JS-Projects/README.md)
+- [**Typescript-Projects**](./Typescript-Projects/README.md)
 - [**Vanilla-JS-Projects**](./Vanilla-JS-Projects/README.md)
 - [**Vue-JS-Projects**](./Vue-JS-Projects/README.md)
 
@@ -148,6 +151,9 @@ And these directories contains 3 sub-directories.
         <a href="https://www.linkedin.com/in/avdhesh-varshney-5314a4233/">
           <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
         </a>
+        <a href="https://discord.gg/tSqtvHUJzE">
+          <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+        </a>
       </td>
     </tr>
   </table>
@@ -155,7 +161,7 @@ And these directories contains 3 sub-directories.
 <br />
 
 <!-- -----------------PROJECT CONTRIBUTORS SECTION---------------------- -->
-## :zap: Project Contributors ❤️
+## :zap: Thanks to all Contributors 💪
 
 <div align="center">
 

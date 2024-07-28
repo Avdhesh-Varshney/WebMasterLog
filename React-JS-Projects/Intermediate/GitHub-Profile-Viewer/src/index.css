@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    color: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #323232;
+}
+input, select {
+    background-color: #101010;
+    border: none;
+    outline: none;
+}
