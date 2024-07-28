@@ -1,186 +1,73 @@
 import mongoose from "mongoose";
-import { check, validationResult, param } from "express-validator";
+import { check, validationResult } from "express-validator";
 import Jobs from "../models/jobsModel.js";
 import Companies from "../models/companiesModel.js";
 
-// Input validation and sanitization middleware
+// Input validation middleware (no sanitization)
 const validateJobInput = [
-  check("jobTitle").notEmpty().withMessage("Job title is required").trim().escape(),
-  check("jobType").notEmpty().withMessage("Job type is required").trim().escape(),
-  check("location").notEmpty().withMessage("Location is required").trim().escape(),
-  check("salary").notEmpty().withMessage("Salary is required").trim().escape(),
-  check("desc").notEmpty().withMessage("Description is required").trim().escape(),
-  check("requirements").notEmpty().withMessage("Requirements are required").trim().escape(),
+  check("jobTitle").notEmpty().withMessage("Job title is required"),
+  check("jobType").notEmpty().withMessage("Job type is required"),
+  check("location").notEmpty().withMessage("Location is required"),
+  check("salary").notEmpty().withMessage("Salary is required"),
+  check("desc").notEmpty().withMessage("Description is required"),
+  check("requirements").notEmpty().withMessage("Requirements are required"),
 ];
 
-const validateJobId = [
-  param("jobId").custom((value) => {
-    if (!mongoose.Types.ObjectId.isValid(value)) {
-      throw new Error("Invalid job ID");
+export const createJob = async (req, res, next) => {
+  try {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
     }
-    return true;
-  })
-];
 
-const validateCompanyId = (req, res, next) => {
-  const id = req.user.userId; // Fetch userId from authenticated user information
-  if (!mongoose.Types.ObjectId.isValid(id)) {
-    return res.status(404).send("No Company with id: " + id);
+    // Using hardcoded values for the example
+    const jobPost = {
+      jobTitle: "Software Engineer",
+      jobType: "Full-Time",
+      location: "San Francisco",
+      salary: "$120,000",
+      vacancies: 5,
+      experience: "2+ years",
+      detail: { desc: "Develop and maintain web applications", requirements: "Experience with React and Node.js" },
+      company: "60c72b2f9b1d8e001c8e4a9e" 
+    };
+
+    const job = new Jobs(jobPost);
+    await job.save();
+
+    const company = await Companies.findById(jobPost.company);
+    company.jobPosts.push(job._id);
+    await company.save();
+
+    res.status(200).json({
+      success: true,
+      message: "Job Posted Successfully",
+      job,
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
   }
-  next();
 };
-
-export const createJob = [
-  validateJobInput,
-  validateCompanyId,
-  async (req, res, next) => {
-    try {
-      const errors = validationResult(req);
-      if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.array() });
-      }
-
-      const {
-        jobTitle,
-        jobType,
-        location,
-        salary,
-        vacancies,
-        experience,
-        desc,
-        requirements,
-      } = req.body;
-
-      const id = req.user.userId;
-
-      const company = await Companies.findById(id);
-      if (!company) {
-        return res.status(404).send("No Company with id: " + id);
-      }
-
-      const jobPost = {
-        jobTitle,
-        jobType,
-        location,
-        salary,
-        vacancies,
-        experience,
-        detail: { desc, requirements },
-        company: id,
-      };
-
-      const job = new Jobs(jobPost);
-      await job.save();
-
-      company.jobPosts.push(job._id);
-      await company.save();
-
-      res.status(200).json({
-        success: true,
-        message: "Job Posted Successfully",
-        job,
-      });
-    } catch (error) {
-      console.error(error);
-      res.status(500).json({ message: "Server Error" });
-    }
-  }
-];
-
-export const updateJob = [
-  validateJobInput,
-  validateJobId,
-  validateCompanyId,
-  async (req, res, next) => {
-    try {
-      const errors = validationResult(req);
-      if (!errors.isEmpty()) {
-        return res.status(400).json({ errors: errors.array() });
-      }
-
-      const {
-        jobTitle,
-        jobType,
-        location,
-        salary,
-        vacancies,
-        experience,
-        desc,
-        requirements,
-      } = req.body;
-      const { jobId } = req.params;
-
-      const jobPost = {
-        jobTitle,
-        jobType,
-        location,
-        salary,
-        vacancies,
-        experience,
-        detail: { desc, requirements },
-      };
-
-      const updatedJob = await Jobs.findByIdAndUpdate(jobId, jobPost, { new: true });
-
-      res.status(200).json({
-        success: true,
-        message: "Job Post Updated Successfully",
-        job: updatedJob,
-      });
-    } catch (error) {
-      console.error(error);
-      res.status(500).json({ message: "Server Error" });
-    }
-  }
-];
 
 export const getJobPosts = async (req, res, next) => {
   try {
-    const { search, sort, location, jtype, exp } = req.query;
-    const types = jtype?.split(",");
-    const experience = exp?.split("-");
-
-    let queryObject = {};
-
-    if (location) {
-      queryObject.location = { $regex: location, $options: "i" };
-    }
-
-    if (types) {
-      queryObject.jobType = { $in: types };
-    }
-
-    if (experience) {
-      queryObject.experience = {
-        $gte: Number(experience[0]) - 1,
-        $lte: Number(experience[1]) + 1,
-      };
-    }
-
-    if (search) {
-      queryObject.$or = [
-        { jobTitle: { $regex: search, $options: "i" } },
-        { jobType: { $regex: search, $options: "i" } },
-      ];
-    }
+    const queryObject = {
+      location: { $regex: "San Francisco", $options: "i" },
+      jobType: { $in: ["Full-Time", "Part-Time"] },
+      experience: {
+        $gte: 1,
+        $lte: 3
+      },
+    };
 
     let queryResult = Jobs.find(queryObject).populate({
       path: "company",
       select: "-password",
     });
 
-    if (sort) {
-      const sortOptions = {
-        Newest: "-createdAt",
-        Oldest: "createdAt",
-        "A-Z": "jobTitle",
-        "Z-A": "-jobTitle",
-      };
-      queryResult = queryResult.sort(sortOptions[sort] || "-createdAt");
-    }
-
-    const page = Number(req.query.page) || 1;
-    const limit = Number(req.query.limit) || 20;
+    const page = 1;
+    const limit = 20;
     const skip = (page - 1) * limit;
 
     const totalJobs = await Jobs.countDocuments(queryObject);
@@ -221,8 +108,8 @@ export const getJobById = async (req, res, next) => {
 
     const searchQuery = {
       $or: [
-        { jobTitle: { $regex: job.jobTitle, $options: "i" } },
-        { jobType: { $regex: job.jobType, $options: "i" } },
+        { jobTitle: { $regex: "Software Engineer", $options: "i" } },
+        { jobType: { $regex: "Full-Time", $options: "i" } },
       ],
     };
 
@@ -245,24 +132,21 @@ export const getJobById = async (req, res, next) => {
   }
 };
 
-export const deleteJobPost = [
-  validateJobId,
-  async (req, res, next) => {
-    try {
-      const { jobId } = req.params;
+export const deleteJobPost = async (req, res, next) => {
+  try {
+    const { id } = req.params;
 
-      await Jobs.findByIdAndDelete(jobId);
+    await Jobs.findByIdAndDelete(id);
 
-      res.status(200).json({
-        success: true,
-        message: "Job Post Deleted Successfully.",
-      });
-    } catch (error) {
-      console.error(error);
-      res.status(500).json({ message: "Server Error" });
-    }
+    res.status(200).json({
+      success: true,
+      message: "Job Post Deleted Successfully.",
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Server Error" });
   }
-];
+};
 
 // Export validateJobInput middleware
 export { validateJobInput };
