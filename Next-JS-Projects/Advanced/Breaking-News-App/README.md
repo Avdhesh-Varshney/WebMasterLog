@@ -22,8 +22,12 @@
 
 <div>
   <!-- <p>Add Description of the project</p> -->
+<<<<<<< HEAD:Next-JS-Projects/Advanced/Breaking-News-App/README.md
     <p>
     A news app is a mobile or web application designed to provide users with up-to-date news and information from various sources. The app aggregates news articles, videos, and other content, presenting it in an organized and easily accessible format. 
+=======
+    <p> A news app is a mobile or web application designed to provide users with up-to-date news and information from various sources. The app aggregates news articles, videos, and other content, presenting it in an organized and easily accessible format. 
+>>>>>>> 947caaaa99dddd588f72e191a9f52ed7bd14e413:Next-JS-Projects/Intermediate/Breaking-News-App/README.md
 </p>
 </div>
 </div>
