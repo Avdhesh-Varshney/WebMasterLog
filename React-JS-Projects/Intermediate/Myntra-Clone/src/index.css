@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+ 
+    font-family: 'Assistant', sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1, h2 {
+  text-transform: uppercase; /* Convert text to uppercase */
+  font-weight: 600; /* Make the text bold */
+  text-align: left; /* Align text to the left */
+  letter-spacing: 1px; /* Add letter spacing */
+}
