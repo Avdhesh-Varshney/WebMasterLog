@@ -1,22 +1,3 @@
-// // script.js
-
-// document.addEventListener("DOMContentLoaded", function() {
-//     const itemsTextarea = document.getElementById('items');
-//     const selectRandomButton = document.getElementById('select-random');
-//     const resultParagraph = document.getElementById('result');
-
-//     selectRandomButton.addEventListener('click', () => {
-//         const items = itemsTextarea.value.split(',').map(item => item.trim()).filter(item => item);
-//         if (items.length > 0) {
-//             const randomIndex = Math.floor(Math.random() * items.length);
-//             const randomItem = items[randomIndex];
-//             resultParagraph.textContent = `Selected: ${randomItem}`;
-//         } else {
-//             resultParagraph.textContent = 'Please enter some items.';
-//         }
-//     });
-// });
-// script.js
 document.addEventListener('DOMContentLoaded', function() {
   const itemsTextarea = document.getElementById('items');
   const updateWheelButton = document.getElementById('update-wheel');
