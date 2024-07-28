@@ -35,7 +35,7 @@
 
 <!-- Add screenshots or demo GIFs of your application -->
 
-![Screenshot](./image.png)
+![Screenshot](./screenshot.webp)
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
@@ -43,10 +43,10 @@
 
 <h4 align='center'>Developed By <b><i>Vijay Shanker Sharma</i></b> 👨‍💻</h4>
 <p align='center'>
-  <a href='https://www.linkedin.com/in/your-linkedin-profile/'>
+  <a href='www.linkedin.com/in/vijay-shanker-sharma'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
   </a>
-  <a href='https://github.com/your-github-profile'>
+  <a href='https://github.com/thevijayshankersharma'>
     <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
   </a>
 </p>
