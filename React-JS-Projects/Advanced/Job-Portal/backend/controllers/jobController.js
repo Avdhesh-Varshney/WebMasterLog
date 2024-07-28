@@ -5,12 +5,12 @@ import Companies from "../models/companiesModel.js";
 
 // Input validation and sanitization middleware
 const validateJobInput = [
-  check("jobTitle").notEmpty().withMessage("Job title is required"),
-  check("jobType").notEmpty().withMessage("Job type is required"),
-  check("location").notEmpty().withMessage("Location is required"),
-  check("salary").notEmpty().withMessage("Salary is required"),
-  check("desc").notEmpty().withMessage("Description is required"),
-  check("requirements").notEmpty().withMessage("Requirements are required"),
+  check("jobTitle").notEmpty().withMessage("Job title is required").trim().escape(),
+  check("jobType").notEmpty().withMessage("Job type is required").trim().escape(),
+  check("location").notEmpty().withMessage("Location is required").trim().escape(),
+  check("salary").notEmpty().withMessage("Salary is required").trim().escape(),
+  check("desc").notEmpty().withMessage("Description is required").trim().escape(),
+  check("requirements").notEmpty().withMessage("Requirements are required").trim().escape(),
 ];
 
 export const createJob = async (req, res, next) => {
@@ -31,9 +31,14 @@ export const createJob = async (req, res, next) => {
       requirements,
     } = req.body;
 
-    const id = req.body.user.userId;
+    const id = req.user.userId; // Fetch userId from authenticated user information
 
     if (!mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(404).send("No Company with id: " + id);
+    }
+
+    const company = await Companies.findById(id);
+    if (!company) {
       return res.status(404).send("No Company with id: " + id);
     }
 
@@ -51,11 +56,8 @@ export const createJob = async (req, res, next) => {
     const job = new Jobs(jobPost);
     await job.save();
 
-    const company = await Companies.findById(id);
-    if (company) {
-      company.jobPosts.push(job._id);
-      await company.save();
-    }
+    company.jobPosts.push(job._id);
+    await company.save();
 
     res.status(200).json({
       success: true,
@@ -87,7 +89,7 @@ export const updateJob = async (req, res, next) => {
     } = req.body;
     const { jobId } = req.params;
 
-    const id = req.body.user.userId;
+    const id = req.user.userId; // Fetch userId from authenticated user information
 
     if (!mongoose.Types.ObjectId.isValid(id)) {
       return res.status(404).send("No Company with id: " + id);
@@ -242,3 +244,6 @@ export const deleteJobPost = async (req, res, next) => {
     res.status(500).json({ message: "Server Error" });
   }
 };
+
+// Export validateJobInput middleware
+export { validateJobInput };
