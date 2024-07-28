@@ -49,7 +49,8 @@
 |   22  | [Random Bible Verse](./Intermediate/Random-Bible-Verse/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   23  | [Chat Bot](./Intermediate/Chat-Bot/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   24  | [Tesla Clone](./Intermediate/Tesla-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   25  | [Ecommerce App](./Intermediate/ElectroKart_E_Commerce) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   25  | [Motivation For The Day](./Basic/Motivation-For-The-Day/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   26  | [Ecommerce App](./Intermediate/ElectroKart_E_Commerce) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 </div>
 
 
