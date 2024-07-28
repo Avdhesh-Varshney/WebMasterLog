@@ -106,7 +106,7 @@
 |  79   | [Captcha-Generator](./Basic/Captcha-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  80   | [Custom-Video-Player](./Basic/Custom-Video-Player/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  81   | [Perfect-Number-Checker](./Basic/Perfect-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-
+</div>
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
