@@ -9,19 +9,6 @@ function isIsogram(str) {
     }
   }
   return true;
-  // let charCount = {};
-
-  // for (let char of lowerStr) {
-  //   if (charCount[char]) {
-  //     charCount[char]++;
-  //     return false;
-  //   } else {
-  //     charCount[char] = 1;
-  //   }
-  // }
-  // return true;
-  // // let counts = Object.values(charCount);
-  // // return counts.every(count => count === counts[0]);
 }
 
 function checkIsogram() {
