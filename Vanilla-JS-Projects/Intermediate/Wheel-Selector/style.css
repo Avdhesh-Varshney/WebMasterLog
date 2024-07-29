@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+  animation: gradient 15s ease infinite;
+  background-size: 400% 400%;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 0%;
+  }
+  50% {
+      background-position: 100% 100%;
+  }
+  100% {
+      background-position: 0% 0%;
+  }
+}
+
+.gradient {
+  --size: 750px;
+  --speed: 50s;
+  --easing: cubic-bezier(0.8, 0.2, 0.2, 0.8);
+
+  width: var(--size);
+  height: var(--size);
+  filter: blur(calc(var(--size) / 5));
+  background-image: linear-gradient(hsl(222, 84, 60, 100%), hsl(164, 79, 71));
+  animation: rotate var(--speed) var(--easing) alternate infinite;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Make sure it's behind the main content */
+}
+
+@keyframes rotate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1; /* Ensure it appears on top of the gradient */
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+#wheel-container {
+  padding-left: 100px;
+  position: relative;
+  margin: 1rem auto;
+}
+
+#wheel {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 5px solid #333;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  transform-origin: center;
+}
+
+.slice {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-color: #ffcc00;
+  border: 1px solid #fff;
+  text-align: center;
+  line-height: 150px;
+  font-size: 20px;
+  color: #333;
+  transform-origin: 100% 100%;
+}
+
+#spin {
+  margin-top: 1rem;
+}
+
+#result {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #000;
+}
+
+#arrow {
+  position: absolute;
+  top: 100px; /* Position the arrow above the wheel */
+  left: 20%; /* Center the arrow horizontally */
+  transform: translateX(-50%) rotate(90deg); /* Center and rotate */
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid #007bff; /* Arrow color */
+}
