@@ -25,7 +25,7 @@
 
 | S.No  | Project Name | Category |
 |-------|--------------|----------|
-|   1   |  |  |
+|   1  | [To do list app](./Advanced/To-Do-List-App/)  | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 
 
 
