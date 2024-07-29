@@ -22,7 +22,18 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
     this.reset();
 });
-
+function escapeHTML(str) {
+    return str.replace(/[&<>"']/g, function(match) {
+        const escapeMap = {
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+        };
+        return escapeMap[match];
+    });
+}
 function createHackathonCard(name, registrationDate, deadline, status) {
     const card = document.createElement('div');
     card.className = 'hackathon-card';
