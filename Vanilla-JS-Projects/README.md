@@ -91,9 +91,26 @@
 |  64   | [Substring-Checker](./Basic/Substring-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  65   | [Zomato-Clone](./Intermediate/Zomato-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  66   | [Tesla-Website-Clone](./Basic/Tesla-Website-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-
+|  67   | [Countries-Over-The-World](./Intermediate/Countries-Over-The-World/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  68   | [Expense-Splitter-Website](./Intermediate/Expense-Splitter-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  69   | [Star-Rating-Component](./Basic/Star-Rating-Component/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  70   | [Random-Picker](./Basic/Random-Picker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  71   | [Subsequence-Checker](./Basic/Subsequence-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  72   | [Vocabulary-Builder](./Advanced/Vocabulary-Builder/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|  73   | [Text-Summarizer](./Intermediate/Text-Summarizer/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  74   | [3D Solar System](./Basic/3D-Solar-System/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  75   | [Co-Prime-Number-Checker](./Basic/Co-Prime-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  76   | [Vowel-Counter](./Basic/Vowel-Counter/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge)|
+|  77   | [Youtube-Clone](./Basic/Youtube-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  78   | [Word-Counter](./Basic/Word-Counter/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  79   | [Captcha-Generator](./Basic/Captcha-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  80   | [Custom-Video-Player](./Basic/Custom-Video-Player/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  81   | [Perfect-Number-Checker](./Basic/Perfect-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  82   | [Password-Manager](./Basic/Password-Manager/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  83   | [Wheel-Counter](./Intermediate/Wheel-Selector/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  84   | [Book-Review-Website](./Intermediate/Book-Review-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  85   | [Lunar Cycle - Moon Phase Visibility](./Advanced/Moon-Phase-Visibility/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 </div>
-
 
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
