@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.box-shadow{ 
+    box-shadow:rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.css-button-shadow-border--yellow {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    background: #ffd819;
+  }
+  .css-button-shadow-border--yellow:hover {
+    background-color: #ffe566;
+  }
+  .css-button-shadow-border--yellow:active {
+    top: 2px;
+  }

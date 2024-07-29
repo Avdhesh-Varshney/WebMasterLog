@@ -106,7 +106,8 @@
 |  79   | [Captcha-Generator](./Basic/Captcha-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  80   | [Custom-Video-Player](./Basic/Custom-Video-Player/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  81   | [Perfect-Number-Checker](./Basic/Perfect-Number-Checker/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|  82   | [Wheel-Counter](./Intermediate/Wheel-Selector/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  82   | [Password-Manager](./Basic/Password-Manager/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  83   | [Wheel-Counter](./Intermediate/Wheel-Selector/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 </div>
 
 
