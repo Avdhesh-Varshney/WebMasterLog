@@ -36,7 +36,14 @@ const Projects = ({ page }) => {
     };
     getData();
   }, []);
+  const [isHover, setIsHover] = useState(false);
 
+  const handleMouseEnter = () => {
+     setIsHover(true);
+  };
+  const handleMouseLeave = () => {
+     setIsHover(false);
+  };
   return (
     <div className='container d-flex flex-column align-items-center justify-content-center my-2 gap-3'>
       <h1 className="border-bottom border-2 border-info" style={{ color: pageColor }}>{page} Projects</h1>
@@ -48,7 +55,10 @@ const Projects = ({ page }) => {
           {projectsData.map((project, index) => (
 
             <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center" key={index}>
-              <div className="card text-white" style={{ width: '22rem', backgroundColor: `#12151e` }}>
+              <div className="card text-white" style={{ width: '22rem', backgroundColor: isHover ? 'rgb(227, 137, 56)' : 'black' }}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
                 <img
                   onError={(e) => { e.target.onerror = null; e.target.src = '/photo-not-available.webp'; }}
                   src={`${import.meta.env.VITE_MAIN_BRANCH_URL}/${project.path}/screenshot.webp`}
