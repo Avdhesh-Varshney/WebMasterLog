@@ -6,12 +6,7 @@ import { Link } from "react-router-dom";
 import Dashboard from "./Dashboard";
 import FetchData from "../utils/FetchData";
 
-// Importing Images
-import Basic from '../assets/img/Basic.jpg';
-import Intermediate from '../assets/img/Intermediate.jpg';
-import Advanced from '../assets/img/Advanced.jpg';
-
-const MainPage = ({ page }) => {
+const Categories = ({ page }) => {
   if (page === "Dashboard") return <Dashboard />;
   const { setProgress, data, tagData, setTagData } = useContext(Context);
   const pageObj = data.find((item) => item.showName === page);
@@ -39,12 +34,10 @@ const MainPage = ({ page }) => {
       <div className="container">
         <div className="row g-1 justify-content-evenly">
           {tagData.map((project) => (
+
             <div className="col-12 col-md-6 col-lg-4 d-flex justify-content-center" key={project.name}>
               <div className="card text-white" style={{ width: '18rem', backgroundColor: `#12151e` }}>
-                <img src={`${project.name === 'Basic' ? Basic : project.name === 'Intermediate' ? Intermediate : Advanced}`}
-                  className="card-img-top"
-                  alt={`${project.name} image`}
-                />
+                <img src={`/${project.name}.jpg`} className="card-img-top" alt={`${project.name} image`} />
                 <div className="card-body">
                   <h5 className="card-title" style={{ color: `${pageObj.scrollBarColor}` }}>{project.name} Projects</h5>
                   <p className="card-text">
@@ -54,6 +47,7 @@ const MainPage = ({ page }) => {
                 </div>
               </div>
             </div>
+
           ))}
         </div>
       </div>
@@ -62,4 +56,4 @@ const MainPage = ({ page }) => {
   );
 };
 
-export default MainPage;
+export default Categories;
