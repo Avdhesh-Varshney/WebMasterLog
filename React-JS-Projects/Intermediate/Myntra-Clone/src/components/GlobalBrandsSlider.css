@@ -1,0 +1,41 @@
+/* src/components/GlobalBrandsSlider.css */
+.global-brands-slider {
+  margin: 20px auto;
+  width: 100%; /* Ensure it takes the full width of the container */
+  text-align: center;
+}
+
+.global-slide {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  width: 100%; /* Ensure the slide takes up full width */
+  padding: 0;
+  margin: 0;
+}
+
+.global-slide img {
+  max-width: 326px; /* Adjust the size as needed */
+ 
+  height: 428px;
+}
+
+.slick-prev, .slick-next {
+  color: #000;
+  font-size: 24px;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+h1{
+  font-family: 'Assistant', sans-serif;
+  font-weight:600;
+  padding-bottom:80px;
+  padding-left:30px;
+}

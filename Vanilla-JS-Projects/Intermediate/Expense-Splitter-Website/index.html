@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Expense Splitter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Expense Splitter</h1>
+        </header>
+        
+        <section id="setup">
+            <h2>Setup Participants</h2>
+            <label for="numParticipants">Number of Participants:</label>
+            <input type="number" id="numParticipants" min="1" placeholder="Enter number of participants">
+            <button onclick="setupParticipants()">Next</button>
+            <div id="participantNames"></div>
+        </section>
+
+        <section id="addExpenses" style="display:none;">
+            <h2>Add Expense</h2>
+            <input type="text" id="expenseDescription" placeholder="Expense Description">
+            <input type="number" id="expenseAmount" placeholder="Amount">
+            <select id="expensePaidBy"></select>
+            <button onclick="addExpense()">Add Expense</button>
+            <ul id="expensesList"></ul>
+            <label for="uploadBill">Upload Bill:</label>
+            <input type="file" id="uploadBill" accept="image/*">
+            <button onclick="showBill()">Show Bill</button>
+            <div id="billContainer"></div>
+        </section>
+
+        <section id="results" style="display:none;">
+            <h2>Split Calculation</h2>
+            <button onclick="calculateSplit()">Calculate</button>
+            <ul id="resultsList"></ul>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
