@@ -22,35 +22,44 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
     this.reset();
 });
-function escapeHTML(str) {
-    return str.replace(/[&<>"']/g, function(match) {
-        const escapeMap = {
-            '&': '&amp;',
-            '<': '&lt;',
-            '>': '&gt;',
-            '"': '&quot;',
-            "'": '&#39;'
-        };
-        return escapeMap[match];
-    });
-}
 function createHackathonCard(name, registrationDate, deadline, status) {
     const card = document.createElement('div');
     card.className = 'hackathon-card';
-    card.innerHTML = `
-        <h3>${name}</h3>
-        <p>Registration Date: ${registrationDate}</p>
-        <p>Deadline: ${deadline}</p>
-        <p class="status">Status: ${status}</p>
-        <button class="edit-btn">Edit</button>
-        <button class="delete-btn">Delete</button>
-    `;
-    card.querySelector('.edit-btn').addEventListener('click', () => {
+
+    const h3 = document.createElement('h3');
+    h3.textContent = name;
+    card.appendChild(h3);
+
+    const regDateP = document.createElement('p');
+    regDateP.textContent = `Registration Date: ${registrationDate}`;
+    card.appendChild(regDateP);
+
+    const deadlineP = document.createElement('p');
+    deadlineP.textContent = `Deadline: ${deadline}`;
+    card.appendChild(deadlineP);
+
+    const statusP = document.createElement('p');
+    statusP.className = 'status';
+    statusP.textContent = `Status: ${status}`;
+    card.appendChild(statusP);
+
+    const editBtn = document.createElement('button');
+    editBtn.className = 'edit-btn';
+    editBtn.textContent = 'Edit';
+    card.appendChild(editBtn);
+
+    const deleteBtn = document.createElement('button');
+    deleteBtn.className = 'delete-btn';
+    deleteBtn.textContent = 'Delete';
+    card.appendChild(deleteBtn);
+
+    editBtn.addEventListener('click', () => {
         populateFormForEdit(name, registrationDate, deadline, status);
         editMode = true;
         currentCard = card;
     });
-    card.querySelector('.delete-btn').addEventListener('click', () => {
+
+    deleteBtn.addEventListener('click', () => {
         const parentCategory = card.parentElement;
         parentCategory.removeChild(card);
         const index = hackathons.findIndex(h => h.name === name && h.deadline === deadline);
@@ -59,6 +68,7 @@ function createHackathonCard(name, registrationDate, deadline, status) {
             updateCalendar();
         }
     });
+
     return card;
 }
 
