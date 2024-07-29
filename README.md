@@ -1,7 +1,7 @@
 <h2>Hey <𝚌𝚘𝚍𝚎𝚛𝚜/>! 👋</h2>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=Web+Master+Log)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=90&pause=400&color=18b8d0&center=true&vCenter=true&width=2000&height=200&lines=WEB+3.0;HTML;CSS;BOOTSTRAP;TAILWINDCSS;JAVASCRIPT;j-QUERY;REACT;REDUX;EXPRESS;ANGULAR+JS;VUE+JS;NEXT+JS;NODE+JS;MONGO+DB)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=90&pause=400&color=18b8d0&center=true&vCenter=true&width=2000&height=200&lines=HTML;CSS;SCSS;BOOTSTRAP;TAILWINDCSS;JAVASCRIPT;j-QUERY;REACT;REDUX;EXPRESS;ANGULAR+JS;VUE+JS;NEXT+JS;NODE+JS;TYPESCRIPT;MONGO+DB)](https://git.io/typing-svg)
 
 <div align="center">
  <p>
@@ -56,7 +56,7 @@
 <br />
 
 <a href="https://avdhesh-portfolio.vercel.app/projects/web-master-log">
-  <img src="./src/assets/cover-page.jpeg" />
+  <img src="./public/cover-page.jpeg" />
 </a>
 <br />
 
@@ -147,10 +147,7 @@ And these directories contains 3 sub-directories.
         <a href="https://github.com/Avdhesh-Varshney">
           <img src="https://avatars.githubusercontent.com/u/114330097?v=4" width=150px height=150px />
         </a></br> 
-        <h4 style="color:red;"><a href="https://discord.gg/tSqtvHUJzE">Avdhesh Varshney</a></h4>
-        <a href="https://www.linkedin.com/in/avdhesh-varshney-5314a4233/">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
+        <h4 style="color:red;"><a href="https://www.youtube.com/@Code_A2Z">Avdhesh Varshney</a></h4>
         <a href="https://discord.gg/tSqtvHUJzE">
           <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
         </a>
