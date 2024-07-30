@@ -7,7 +7,7 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAVOpKDN7TI3ObFQiapYrVVpLd_9vMAmlA",
+  // apiKey: "AIzaSyAVOpKDN7TI3ObFQiapYrVVpLd_9vMAmlA",
   authDomain: "react-quiz-32a90.firebaseapp.com",
   projectId: "react-quiz-32a90",
   storageBucket: "react-quiz-32a90.appspot.com",
