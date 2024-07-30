@@ -68,6 +68,22 @@ document.addEventListener("DOMContentLoaded", () => {
                 img.alt = "Photo";
                 photosDiv.appendChild(img);
             }
+            photosDiv.className = "card-photos";
+            if (journal.photos.length > 0) {
+                const img = document.createElement("img");
+                const url = journal.photos[0];
+                try {
+                    const parsedUrl = new URL(url);
+                    if (parsedUrl.protocol === "http:" || parsedUrl.protocol === "https:") {
+                        img.src = url;
+                        photosDiv.appendChild(img);
+                    } else {
+                        console.error("Invalid image URL protocol.");
+                    }
+                } catch (e) {
+                    console.error("Invalid image URL.", e);
+                }
+            }
 
             const detailsButton = document.createElement("button");
             detailsButton.textContent = "View Details";
