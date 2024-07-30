@@ -2,11 +2,13 @@ import React, { useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Context } from './contexts/Context';
 import LoadingBar from 'react-top-loading-bar';
-import './App.css';
 
-// Importing Components
-import MainPage from './pages/MainPage';
-import ProjectPage from './pages/ProjectPage';
+// Importing Pages
+import Categories from './pages/Categories';
+import Projects from './pages/Projects';
+
+// Shareable Components
+import Project from './components/shared/Project';
 import SideBar from './components/Sidebar/SideBar';
 import Footer from './components/shared/Footer';
 import CursorComponent from './components/shared/Cursor';
@@ -45,8 +47,9 @@ function App() {
             <Routes>
               {data.map((obj) => (
                 <React.Fragment key={obj.name}>
-                  <Route exact path={obj.route} element={<MainPage page={obj.showName} />} />
-                  <Route exact path={`${obj.route}/:projectTag`} element={<ProjectPage page={obj.showName} />} />
+                  <Route exact path={obj.route} element={<Categories page={obj.showName} />} />
+                  <Route exact path={`${obj.route}/:projectTag`} element={<Projects page={obj.showName} />} />
+                  <Route exact path={`${obj.route}/:projectTag/:project`} element={<Project page={obj.showName} />} />
                 </React.Fragment>
               ))}
             </Routes>

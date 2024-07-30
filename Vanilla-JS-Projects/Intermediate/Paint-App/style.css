@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+canvas {
+  touch-action: none;
+  margin: 0;
+}
+
+#canvas-container {
+  width: 100vw;
+  height: calc(100vh - 70px);
+  padding: 0;
+}
+
+#tools {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 -1px 3px 0px rgba(0, 0, 0, 0.24);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+}
+
+button {
+  border: 0;
+  background: transparent;
+  color: black;
+  border-radius: 50%;
+  transition: background-color 0.3s linear;
+  outline: 0;
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:active {
+  background-color: #ccc;
+}
+
+label {
+  font-size: 10px;
+}
+
+.material-icons {
+  font-size: 35px;
+  padding: 0;
+}
+
+#selectColor {
+  transition: 0;
+}
+
+#c-border {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+#eraser-svg {
+  background: url(https://www.svgrepo.com/show/140438/eraser.svg) no-repeat center;
+  width: 35px;
+  height: 35px;
+  background-size: 35px;
+}
+
+#loader {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: white;
+}
+
+#loader-logo {
+  font-size: 100px;
+  border-radius: 50%;
+  padding: 30px;
+  background-color: rgba(255, 100, 100, 0.8);
+  width: 100px;
+  height: 100px;
+  color: blue;
+}
+
+#options {
+  width: 100vw;
+  height: 100px;
+  background-color: white;
+  box-shadow: 0 -1px 3px 0px rgba(0, 0, 0, 0.24);
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  bottom: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: bottom 0.2s ease-in-out;
+}
+
+#stroke-preview {
+  background-color: black;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  margin: 3px;
+}
+
+#strokePreviewContainer {
+  border: 3px solid black;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#strokeSliderContainer {
+  width: calc(100vw - 150px);
+}
+
+@keyframes fade {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes goUp {
+  to {
+    bottom: 70px;
+    opacity: 1;
+    z-index: 5;
+  }
+}
+
+@keyframes goDown {
+  from {
+    z-index: 5;
+  }
+
+  to {
+    bottom: -50px;
+    opacity: 0;
+    z-index: 5;
+  }
+}
+
+a {
+  text-decoration: none;
+}
