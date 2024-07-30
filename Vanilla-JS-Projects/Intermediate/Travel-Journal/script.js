@@ -62,27 +62,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const photosDiv = document.createElement("div");
             photosDiv.className = "card-photos";
-            if (Array.isArray(journal.photos) && journal.photos.length > 0) {
+            if (journal.photos.length > 0) {
                 const img = document.createElement("img");
                 const url = journal.photos[0];
-                function isValidUrl(string) {
-                    try {
-                        const url = new URL(string);
-                        return (url.protocol === "http:" || url.protocol === "https:") && /\.(jpg|jpeg|png|gif)$/.test(url.pathname);
-                    } catch (_) {
-                        return false;  
-                    }
-                }
-
-                if (isValidUrl(url)) {
-                    img.src = url;
-                    photosDiv.appendChild(img);
-                } else {
-                    console.error("Invalid image URL.");
-                }
-            } else {
-                console.error("journal.photos is not an array or is empty.");
-            }
+                img.setAttribute('src', url);
+                img.alt = "Photo";
+                photosDiv.appendChild(img);
+            }            
 
             const detailsButton = document.createElement("button");
             detailsButton.textContent = "View Details";
