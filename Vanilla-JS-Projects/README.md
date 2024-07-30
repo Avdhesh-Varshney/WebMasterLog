@@ -111,6 +111,7 @@
 |  84   | [Book-Review-Website](./Intermediate/Book-Review-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  85   | [Lunar Cycle - Moon Phase Visibility](./Advanced/Moon-Phase-Visibility/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |  86   | [Paint-App](./Intermediate/Paint-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  87   | [Dictionay-App](./Basic/Dictionary-App/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 </div>
 
 
