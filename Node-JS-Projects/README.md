@@ -37,7 +37,7 @@
 |   10   | [Cooking Blog](./Advanced/Cooking-Blog) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   11  | [Docx To Pdf Converter](./Advanced/Docx-To-Pdf-Converter) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |  12   |[Nodemailer Contact Form ](./Intermediate/Gmail-Nodemailer/app.js) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge)|
-|   13   | [User Registration System](./Basic/User-Registration-System) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   13   | [User Registration System](./Advanced/User-Registration-System) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 </div>
 
 
