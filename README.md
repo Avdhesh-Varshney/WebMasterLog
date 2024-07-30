@@ -1,38 +1,27 @@
 <h2>Hey <𝚌𝚘𝚍𝚎𝚛𝚜/>! 👋</h2>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=Web+Master+Log)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=90&pause=400&color=18b8d0&center=true&vCenter=true&width=2000&height=200&lines=WEB+3.0;HTML;CSS;BOOTSTRAP;TAILWINDCSS;JAVASCRIPT;j-QUERY;REACT;REDUX;EXPRESS;ANGULAR+JS;VUE+JS;NEXT+JS;NODE+JS;MONGO+DB)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=90&pause=400&color=18b8d0&center=true&vCenter=true&width=2000&height=200&lines=HTML;CSS;SCSS;BOOTSTRAP;TAILWINDCSS;JAVASCRIPT;j-QUERY;REACT;REDUX;EXPRESS;ANGULAR+JS;VUE+JS;NEXT+JS;NODE+JS;TYPESCRIPT;MONGO+DB)](https://git.io/typing-svg)
 
 <div align="center">
  <p>
   <a href="https://www.buymeacoffee.com/avdheshvarshney">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
   </a><br /><br />
-  <img src="https://img.shields.io/github/repo-size/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkred" />
-  <img src="https://img.shields.io/github/contributors/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=orange" />
-  <img src="https://img.shields.io/github/languages/count/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=yellowgreen" />
-  <img src="https://img.shields.io/github/stars/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=brightgreen" />
-  <img src="https://img.shields.io/github/forks/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=blue" />
-  <img src="https://img.shields.io/github/last-commit/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=navy" />
-  <img src="https://img.shields.io/github/license/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=violet" />
-  
-  <img src="https://img.shields.io/github/issues-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkgreen" />
-  <img src="https://img.shields.io/github/issues-closed-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkviolet" />
-  <img src="https://img.shields.io/github/issues-pr-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkgreen" />
-  <img src="https://img.shields.io/github/issues-pr-closed-raw/Avdhesh-Varshney/WebMasterLog?style=for-the-badge&color=darkviolet" />
+  <img src="https://img.shields.io/github/repo-size/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/contributors/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/languages/count/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/stars/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/forks/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/last-commit/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/license/Avdhesh-Varshney/WebMasterLog" />
+  <br />
+  <img src="https://img.shields.io/github/issues-raw/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/issues-closed-raw/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/issues-pr-raw/Avdhesh-Varshney/WebMasterLog" />
+  <img src="https://img.shields.io/github/issues-pr-closed-raw/Avdhesh-Varshney/WebMasterLog" />
  </p>
 </div>
-<br />
-
-<!-- -------------------ABOUT SECTION---------------------- -->
-## :zap: About WebMasterLog ❤️
-
-<div align="center">
-  Welcome to WebMasterLog, It serves as a comprehensive record of various web development endeavors, highlighting the versatility and capabilities of projects built with Front-end and Back-end Web developement technologies. From interactive and responsive user interfaces to dynamic web applications, this repository encompasses a spectrum of web development solutions.
-</div>
-
-![image](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/f4229ca0-c80d-40a2-98c1-3193844d25de)
-
 <br />
 
 <!-- ------------TECH STACK USED---------------------- -->
@@ -58,6 +47,19 @@
 </div>
 <br />
 
+<!-- -------------------ABOUT SECTION---------------------- -->
+## :zap: About WebMasterLog ❤️
+
+<div align="center">
+  Welcome to WebMasterLog, It serves as a comprehensive record of various web development endeavors, highlighting the versatility and capabilities of projects built with Front-end and Back-end Web developement technologies. From interactive and responsive user interfaces to dynamic web applications, this repository encompasses a spectrum of web development solutions.
+</div>
+<br />
+
+<a href="https://avdhesh-portfolio.vercel.app/projects/web-master-log">
+  <img src="./public/cover-page.jpeg" />
+</a>
+<br />
+
 <!-- -------------Structure of the Project------------ -->
 ## :zap: Project Structure 📜
 
@@ -68,6 +70,7 @@ The project is organized into the following main directories:
 - [**Next-JS-Projects**](./Next-JS-Projects/README.md)
 - [**Node-JS-Projects**](./Node-JS-Projects/README.md)
 - [**React-JS-Projects**](./React-JS-Projects/README.md)
+- [**Typescript-Projects**](./Typescript-Projects/README.md)
 - [**Vanilla-JS-Projects**](./Vanilla-JS-Projects/README.md)
 - [**Vue-JS-Projects**](./Vue-JS-Projects/README.md)
 
@@ -144,9 +147,9 @@ And these directories contains 3 sub-directories.
         <a href="https://github.com/Avdhesh-Varshney">
           <img src="https://avatars.githubusercontent.com/u/114330097?v=4" width=150px height=150px />
         </a></br> 
-        <h4 style="color:red;"><a href="https://discord.gg/tSqtvHUJzE">Avdhesh Varshney</a></h4>
-        <a href="https://www.linkedin.com/in/avdhesh-varshney-5314a4233/">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        <h4 style="color:red;"><a href="https://www.youtube.com/@Code_A2Z">Avdhesh Varshney</a></h4>
+        <a href="https://discord.gg/tSqtvHUJzE">
+          <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
         </a>
       </td>
     </tr>
@@ -155,7 +158,7 @@ And these directories contains 3 sub-directories.
 <br />
 
 <!-- -----------------PROJECT CONTRIBUTORS SECTION---------------------- -->
-## :zap: Project Contributors ❤️
+## :zap: Thanks to all Contributors 💪
 
 <div align="center">
 

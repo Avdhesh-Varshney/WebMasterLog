@@ -27,8 +27,7 @@
 |------|--------------|----------|
 |  1   | [Weather-Website](./Basic/Weather-Website) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  2   | [Quiz-App](./Intermediate/Quiz-App) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-
-
+|  3   | [Breaking-News-App](./Advanced/Breaking-News-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 
 </div>
 

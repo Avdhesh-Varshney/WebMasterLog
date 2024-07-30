@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: rgb(13, 12, 12);
+  transition: all 0.25s ease-in-out;
+  overflow-y: auto;
+}
+
+h1#heading {
+  font-size: 1.5em;
+  color: #fff;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#color-theme #theme{
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  background-color: inherit;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Moon Phase container */
+#moon-phase{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 370px;
+  width: 450px;
+  line-height: 1.7rem;
+  font-size: 1.3rem;
+  margin-left: 50%;
+  transform: translate(-50%, 0);
+  background-color: rgb(13, 12, 12);
+  transition: all 0.25s ease-in-out;
+}
+
+#moon-phase #moon-phase-icon{
+  /* padding: 10px; */
+  height: 200px;
+  width: 200px;
+}
+
+#moon-phase #moon-phase-img{
+  /* padding: 0px 10px 10px 10px; */
+  margin-top: -20px;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -40%);
+}
+
+#moon-phase .moon-phase-note{
+  position: absolute;
+  font-size: 0.8rem;
+  font-size: clamp(0.5rem, 0.125rem + 1.2vw, 0.8rem);
+  bottom: 0;
+  right: 10px;
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  background: rgb(13, 12, 12);
+  text-align: center;
+  color: white;
+}
+
+/* 7 Day Chart */
+#seven-day-chart{
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+
+#seven-day-table{
+  border: collapse;
+  border: 1px solid white;
+  width: 100%;
+  max-width: 800px; /* Set a max-width for better responsiveness */
+  margin-top: 10px;
+}
+
+#seven-day-table td, 
+#seven-day-table th {
+  border: 1px solid white; /* Ensure all cells have a border */
+  padding: 10px; /* Add padding for better spacing */
+  text-align: center; /* Center align text */
+}
+
+#seven-day-table tr {
+  background-color: rgba(0, 0, 0, 0.2); /* Slight background color for rows */
+}
+
+#seven-day-table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.3); /* Alternate row color for better readability */
+}
+
+#phase-photo-row img{
+  height: 75px;
+  width: 75px;
+}
+
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #0e77e7df;
+    text-decoration: underline;
+}
+
+/* Social link */
+#right-socials {
+  position: absolute;
+  right: 1em;
+  height: 150px;
+  width: 70px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#right-socials a i {
+  transition: scale .3s ease-in-out;
+}
+
+#right-socials a i#github-link:hover,
+i#linkedin-link:hover {
+  scale: 1.1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #seven-day-table {
+    font-size: 0.9em; /* Slightly smaller font size for smaller screens */
+  }
+  #phase-photo-row img {
+    height: 50px;
+    width: 50px; /* Smaller images for smaller screens */
+  }
+}

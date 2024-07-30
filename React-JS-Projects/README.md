@@ -44,6 +44,12 @@
 |   17  | [Interview Report](./Intermediate/Interview-Report/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   18  | [Swiggy Clone](./Basic/Swiggy-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   19  | [Chat Application](./Advanced/Chat-Application/)  | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   20  | [Shopping Cart](./Basic/Shopping-Cart/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|   21  | [GitHub Profile Viewer](./Intermediate/GitHub-Profile-Viewer/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   22  | [Random Bible Verse](./Intermediate/Random-Bible-Verse/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   23  | [Chat Bot](./Intermediate/Chat-Bot/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   24  | [Tesla Clone](./Intermediate/Tesla-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   25  | [Motivation For The Day](./Basic/Motivation-For-The-Day/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 
 </div>
 
