@@ -64,11 +64,9 @@ document.addEventListener("DOMContentLoaded", () => {
             photosDiv.className = "card-photos";
             if (journal.photos.length > 0) {
                 const img = document.createElement("img");
-                const url = journal.photos[0];
-                img.setAttribute('src', url);
                 img.alt = "Photo";
                 photosDiv.appendChild(img);
-            }            
+            }      
 
             const detailsButton = document.createElement("button");
             detailsButton.textContent = "View Details";
