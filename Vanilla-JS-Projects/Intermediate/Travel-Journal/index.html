@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Journal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Travel Journal</h1>
+            <nav>
+                <button id="journalBtn">Add Journal</button>
+                <button id="galleryBtn">Gallery</button>
+                <button id="dashboardBtn">Dashboard</button>
+            </nav>
+        </header>
+        <main>
+            <section id="journalSection">
+                <h2>Document Your Trip</h2>
+                <form id="journalForm">
+                    <label for="title">Trip Title:</label>
+                    <input type="text" id="title" required>
+                    
+                    <label for="description">Description:</label>
+                    <textarea id="description" required></textarea>
+                    
+                    <label for="photos">Upload Photos:</label>
+                    <input type="file" id="photos" accept="image/*" multiple required>
+                    
+                    <label for="fromDate">From Date:</label>
+                    <input type="date" id="fromDate" required>
+                    
+                    <label for="toDate">To Date:</label>
+                    <input type="date" id="toDate" required>
+                    <button type="submit">Add Journal</button>
+                </form>
+            </section>
+            <section id="gallerySection" class="hidden">
+                <h2>Gallery</h2>
+                <div id="galleryContainer" class="gallery-grid"></div>
+                <div id="tripDetails" class="photo-gallery"></div>
+            </section>
+            <section id="dashboardSection" class="hidden">
+                <h2>Dashboard</h2>
+                <table id="dashboardTable">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>From Date</th>
+                            <th>To Date</th>
+                            <th>Photos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

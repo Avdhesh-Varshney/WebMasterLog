@@ -27,6 +27,7 @@
 |-------|--------------|----------|
 |   1  | [To do list app](./Advanced/To-Do-List-App/)  | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   2  | [Rental-Website](./Advanced/Rental-Website/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   3  | [Quiz App](./Intermediate/Quiz-App/)  | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 
