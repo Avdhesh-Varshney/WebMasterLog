@@ -31,7 +31,7 @@
 ## :zap: Description 📃
 
 <div>
-   <p>Random Advice Generator generates a new and random advice for you each time on click of the button .</p> 
+   <p>In this simple project , on click of the power button the bulb glows and on another click bulb stops glowing .</p> 
    
 </div>
 
