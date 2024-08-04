@@ -1,0 +1,45 @@
+body{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  background-color: black;
+  background: linear-gradient(45deg,rgb(60, 59, 59),black);
+}
+body.on{
+  background: radial-gradient(rgb(212, 207, 207),rgb(88, 88, 88))
+}
+.wire{
+  background-color: white;
+  height: 300px;
+  width: 5px;
+  border-radius: 3px;
+}
+i{
+  font-size: 37px;
+  color: grey;
+}
+.bulb{
+  position: relative;
+  right: 11px;
+  rotate: 180deg;
+}
+.power{
+  position: absolute;
+  top: 60px;
+  right: 100px;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.on .bulb i{
+  color: yellow;
+}
+.on .power{
+  background-color: rgb(123, 244, 123);
+}
