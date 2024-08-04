@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { Context } from '../contexts/Context';
-import Logo from '../assets/img/logo.webp';
 
 // Importing chart elements
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
@@ -8,7 +7,7 @@ import { Pie } from 'react-chartjs-2';
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 // Importing Icons
-import { FaProjectDiagram, FaBell, FaUsers, FaGithub, FaStar, FaCode, FaHdd, FaDatabase } from 'react-icons/fa';
+import { FaProjectDiagram, FaBell, FaUsers, FaGithub, FaStar, FaCode, FaDatabase } from 'react-icons/fa';
 import { FaCodeFork } from 'react-icons/fa6';
 import { DiMitlicence } from "react-icons/di";
 
@@ -77,7 +76,7 @@ const Dashboard = () => {
             <div className='row align-items-center'>
               <div className='col-md-4 text-center'>
                 <a href={repoData.owner.html_url} target='_blank' rel='noopener noreferrer'>
-                  <img src={Logo} alt={`${repoData.owner.login} avatar`} className='img-thumbnail rounded-circle' style={{ width: '13em' }} />
+                  <img src='/logo.webp' alt={`${repoData.owner.login} avatar`} className='img-thumbnail rounded-circle' style={{ width: '13em' }} />
                 </a>
               </div>
               <div className='col-md-8'>

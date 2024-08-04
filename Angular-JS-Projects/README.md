@@ -27,7 +27,7 @@
 |-------|--------------|----------|
 |   1   | [Quick Notes](./Basic/Quick-Notes) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   2   | [Train Booking Website](./Intermediate/Train-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-
+|   3   | [Contact Manager](./Advanced/Contact-Manager/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 
 
 </div>
