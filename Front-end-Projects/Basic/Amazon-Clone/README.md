@@ -26,34 +26,46 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
 ## :zap: Description 📃
 
 <div>
-  <!-- <p>Add Description of the project</p> -->
-    <p>This project is used for learning basics of frontend.</p>
+  <p>This project is a simple HTML and CSS implementation of Amazon clone. It aims to replicate the basic structure and styling of amazon.This project showcases the power of HTML and CSS.</p>
 </div>
-
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: How to run it? 🕹️
 
-<!-- Add steps how to run this project -->
+<div>
+  <p>To run this project locally, follow these steps:
 
-- Clone the repo
-- Navigate to directory
-- Run `index.html`
+1. Fork the repository.
+
+2. Clone the repository to your local machine:
+    git clone https://github.com/your-username/Facebook-Login-Page.git
+
+3. Open the project folder in your preferred code editor, now you can view website in live.
+
+</p>
+</div>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-![Img](./Amazon_clone.png)
+<img src='./Amazon_clone.png'>
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h4 align='center'>Developed By <b><i>Shelly Garg</i></b> 👦</h4>
+<h4 align='center'>Developed By <b><i>Shelly Garg</i></b></h4>
 <p align='center'>
   <a href='https://www.linkedin.com/in/shelly-garg/'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
