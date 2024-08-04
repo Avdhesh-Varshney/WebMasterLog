@@ -1,0 +1,43 @@
+<div class="bg-white border shadow-md py-3 px-4 w-full h-96 mx-auto overflow-y-scroll">
+    <input type="text" id="name"
+        class=" mt-2 mb-2 bg-transparent border border-gray-300 text-gray-900 text-sm rounded-lg outline-none block w-full p-2 px-3"
+        [(ngModel)]="searchQuery"
+        (input)="searchContacts()"
+        placeholder="Search contacts..." 
+    />
+    <div class="flow-root m2-4">
+        <ul role="list" class="divide-y divide-gray-200" *ngFor="let contact of filteredContacts">
+            <li class="py-3 px-2 hover:bg-gray-100 cursor-pointer">
+                <div class="flex items-center space-x-4">
+                    <div class="flex-shrink-0 h-10 w-10 grid place-items-center rounded-full border-2 ">
+                        <i class="fa fa-user text-gray-500"></i>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <p class="text-sm font-medium text-gray-900 truncate capitalize">
+                            {{contact.name}}
+                        </p>
+                        <p class="text-sm text-gray-500 truncate ">
+                            {{contact.phone}}
+                        </p>
+                        <p class="text-sm text-gray-500 truncate ">
+                            {{contact.email}}
+                        </p>
+                    </div>
+                    <div 
+                        (click)="toggleEditContact(contact)"
+                        class="items-center text-base font-semibold text-white bg-yellow-500 hover:bg-yellow-600 rounded-full w-8 h-8 grid place-items-center"
+                    >
+                        <i class="fa fa-pencil"></i>
+                    </div>
+                    <div 
+                        (click)="deleteContact(contact)"
+                        class="items-center text-base font-semibold text-white bg-red-500 hover:bg-red-600 rounded-full w-8 h-8 grid place-items-center">
+                        <i class="fa fa-trash"></i>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<app-edit-contact *ngIf="editContact.id.length" [editContact]="editContact" (toggleTask)="toggleEditContact($event)"></app-edit-contact>
