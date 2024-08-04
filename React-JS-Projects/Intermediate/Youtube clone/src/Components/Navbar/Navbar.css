@@ -1,0 +1,135 @@
+.navbarContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+/* LEFT SIDE */
+
+.navbarContainer .left {
+  flex: 33%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.navbarContainer .left #icon {
+  font-size: 30px;
+}
+
+.navbarContainer .left #homeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarContainer .left #homeBtn:hover {
+  cursor: pointer;
+}
+
+.navbarContainer .left #sidebarToggle {
+  border: none;
+  background-color: transparent;
+  color: grey;
+  width: 50px;
+  height: 50px;
+  border-radius: 45%;
+  margin: 10px;
+}
+
+.navbarContainer .left #sidebarToggle:hover {
+  cursor: pointer;
+}
+
+.navbarContainer .left #sidebarToggle:focus {
+  outline: none;
+  background-color: lightgray;
+}
+
+.navbarContainer .left h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 30;
+}
+
+/* CENTER */
+
+.navbarContainer .center {
+  flex: 34%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarContainer .center #searchBar {
+  width: 90%;
+  height: 35px;
+  border: 1px solid lightgrey;
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+.navbarContainer .center #searchButton {
+  width: 10%;
+  height: 40px;
+  background-color: #f5f5f5;
+  border: none;
+  border: 1px solid lightgrey;
+  border-left: none;
+}
+
+/* RIGHT SIDE */
+
+.navbarContainer .right {
+  flex: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+.navbarContainer .right #createVideo {
+  font-size: 40px;
+  color: grey;
+  margin: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.navbarContainer .right #createVideo:hover {
+  cursor: pointer;
+}
+
+.navbarContainer .right #profilePic {
+  color: grey;
+  margin: 10px;
+  border: none;
+  background-color: black;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.navbarContainer .right #signInButton {
+  width: 80px;
+  height: 40px;
+  border: none;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-color: transparent;
+  color: blue;
+}
+
+.navbarContainer .right #signInButton:hover {
+  cursor: pointer;
+}
+
+.navbarContainer .right #profilePic:hover {
+  cursor: pointer;
+}
+
+.navbarContainer .right #profilePic:focus {
+  outline: none;
+}

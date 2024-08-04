@@ -1,0 +1,58 @@
+.SignInPage {
+  width: 100vw;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.SignInPage .Container {
+  border: 2px solid grey;
+  box-shadow: -5px 5px darkgray;
+  width: 600px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.SignInPage .Container .top {
+  background-color: white;
+  border: none;
+  text-align: center;
+}
+
+.SignInPage .Container .body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.SignInPage .Container .body input {
+  margin: 100px;
+  width: 250px;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+#bttn {
+  width: 200px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#bttn:hover {
+  cursor: pointer;
+}
