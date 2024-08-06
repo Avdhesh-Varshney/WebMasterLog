@@ -117,14 +117,12 @@ document.addEventListener('DOMContentLoaded', () => {
         modalCapsuleMessage.textContent = capsule.message;
 
         if (capsule.image) {
-            modalCapsuleImage.src = capsule.image;
             modalCapsuleImage.style.display = 'block';
         } else {
             modalCapsuleImage.style.display = 'none';
         }
 
         if (capsule.video) {
-            modalCapsuleVideo.src = capsule.video;
             modalCapsuleVideo.style.display = 'block';
         } else {
             modalCapsuleVideo.style.display = 'none';
