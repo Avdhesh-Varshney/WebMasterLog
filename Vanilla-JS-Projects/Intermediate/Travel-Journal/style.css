@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('assets/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+nav {
+    margin-top: 10px;
+}
+nav button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+nav button:hover {
+    background-color: #777;
+}
+main {
+    margin-top: 20px;
+}
+.hidden {
+    display: none;
+}
+section {
+    margin-top: 2em;
+}
+section h2 {
+    font-size: 2em;
+}
+#journalSection {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+#journalSection h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#journalForm {
+    display: flex;
+    flex-direction: column;
+}
+#journalForm label {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+#journalForm input,
+#journalForm textarea,
+#journalForm button {
+    font-size: 0.9em;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#journalForm input[type="file"] {
+    padding: 5px;
+}
+#journalForm button, .close-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#journalForm button:hover {
+    background-color: #555;
+}
+#gallerySection {
+    padding: 20px;
+}
+#gallerySection h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.close-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 1rem;
+    display: flex;
+    width: 250px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card h3 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #333;
+}
+.card p {
+    font-size: 1em;
+    color: #666;
+    margin: 10px 0;
+}
+.card p:nth-of-type(2) {
+    font-size: 0.9em;
+    color: #999;
+}
+#gallerySection h2, #tripDetails{
+    color: white;
+}
+.card-photos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+.card-photos img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.card button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: background-color 0.3s;
+}
+.card button:hover {
+    background-color: #ff1a1a;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.gallery-card {
+    position: relative;
+}
+.delete-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: red;
+}
+#dashboardSection {
+    padding: 20px;
+}
+#dashboardSection h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#dashboardTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+#dashboardTable th,
+#dashboardTable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+#dashboardTable th {
+    background-color: #f4f4f4;
+}
+#dashboardTable td{
+    color: white;
+}
+.photo-gallery {
+    display: none;
+    flex-direction: column;
+    margin-top: 1em;
+}
+.photo-gallery img {
+    width: 100%;
+    margin-bottom: 1em;
+    border-radius: 10px;
+}
