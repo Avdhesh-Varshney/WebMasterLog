@@ -1,0 +1,24 @@
+<header>
+  <h1>Add Recipe</h1>
+  <nav>
+      <a href="#!/">Home</a> | 
+      <a href="#!/add-recipe">Add Recipe</a>
+  </nav>
+</header>
+<main>
+  <form ng-submit="addRecipe()">
+      <label for="title">Title:</label>
+      <input type="text" id="title" ng-model="recipe.title" required>
+      
+      <label for="description">Description:</label>
+      <textarea id="description" ng-model="recipe.description" required></textarea>
+      
+      <label for="ingredients">Ingredients (comma separated):</label>
+      <input type="text" id="ingredients" ng-model="recipe.ingredients" required>
+      
+      <label for="instructions">Instructions:</label>
+      <textarea id="instructions" ng-model="recipe.instructions" required></textarea>
+      
+      <button type="submit">Add Recipe</button>
+  </form>
+</main>

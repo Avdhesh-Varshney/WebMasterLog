@@ -1,0 +1,14 @@
+<header>
+  <h1>RecipeRealm</h1>
+  <nav>
+      <a href="#!/">Home</a> | 
+      <a href="#!/add-recipe">Add Recipe</a>
+  </nav>
+</header>
+<main>
+  <div class="recipe-card" ng-repeat="recipe in recipes">
+      <h2>{{recipe.data.title}}</h2>
+      <p>{{recipe.data.description}}</p>
+      <a href="#!/recipe/{{recipe.id}}">View Recipe</a>
+  </div>
+</main>
