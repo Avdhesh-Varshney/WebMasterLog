@@ -116,6 +116,7 @@
 |  89   | [Travel-Journal](./Intermediate/Travel-Journal/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  90   | [Bulb-On-Off](./Basic/Bulb-On-Off/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  91   | [Theme Cake Order Form](./Basic/Theme-Cake-Order-Form/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  92   | [Movie-App](./Basic/Movie-App/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 
 </div>
 
