@@ -51,6 +51,7 @@
 |   24  | [Tesla Clone](./Intermediate/Tesla-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   25  | [Motivation For The Day](./Basic/Motivation-For-The-Day/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   26  | [Job Portal](./Advanced/Job-Portal/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   27  | [TSPOT](./Intermediate/Tspot-Travel-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
