@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥 Tutoring Website 💥</b></h1>
+![image](https://github.com/user-attachments/assets/da0a3ef6-0610-4002-a285-3c92eca31886)<h1 align='center'><b>💥 Tutoring Website 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -46,7 +46,7 @@
 ```bash
 git clone 
 cd React-JS-Projects
-cd Chat-Application
+cd Tutoring-Website
 ```
 
 2. Install Dependencies:
@@ -64,10 +64,14 @@ npm start
 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
+![image](https://github.com/user-attachments/assets/65d0e69b-ec7e-4e71-8a69-9a3dd437e990)
+![image](https://github.com/user-attachments/assets/5ea52456-d019-4520-9391-115aa339f86f)
+![image](https://github.com/user-attachments/assets/b2435884-ab87-49d7-a660-b0663e058b98)
 
 
 ## :zap: Working Video 📹
 <!-- directly add the link of video (If, possible) -->
+https://github.com/user-attachments/assets/c881fbfe-37fa-4126-aeef-19bb55a0f4d9
 
 
 
