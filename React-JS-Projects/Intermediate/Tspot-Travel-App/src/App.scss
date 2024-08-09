@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+$dark-red:#740316;
+$dark-green: #1a8755;
+$dark-green-hover: #084d2d;
+$dark-blue:#180374;
+$white:#fff;
+$light-gray:#cfcfcf;
+$clr-grey-5: hsl(210, 22%, 49%);
+$font-family-kaushan-script:'Kaushan Script', cursive;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  p{
+    margin-bottom:0 !important;
+  }
+  .img-fluid{
+    max-width: 100%;
+    height:auto;
+  }
+  .home,
+  .services-banner,
+  .products,
+  .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .services-banner {
+    background-image: url('./images/img-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .products {
+    background-image: url('./images/img-1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .sign-up {
+    background-image: url('./images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+/*-- destinations gallery css starts --*/
+.destinations{
+  .tags {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: rgb(43, 92, 226);
+  }
+  
+  .tag {
+    outline: none;
+    border: none;
+    color: #eee;
+    margin: 0px 10px;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .active {
+    font-weight: bold;
+    border-bottom: 1px solid #eee;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+  
+  .image-card {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+  }
+  
+  .image {
+    width: 100%;
+  }
+}
+
+/*-- destinations gallery css ends --*/
+
+/*-- services page styles start --*/
+
+.services{
+
+  .tags{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    height:90px;
+    align-items: center;
+    text-transform: uppercase;
+    margin: {
+      top:50px;
+    }
+    .tag{
+      border: solid #19242f;
+      padding:10px 30px;
+      background-color: #fff;
+    }
+    .active{
+      color: #fff;
+      background:#19242f !important;
+    }
+  }
+  .services-data{
+    padding: {
+      top:0px;
+      bottom:50px;
+    }
+    .service-card{
+      margin: {
+        bottom: 10px;
+      }
+      &:last-child{
+        margin: {
+          bottom: 0px;
+        }
+      }
+      .service-data{
+        background-color: #eff;
+        padding:1rem;
+        .service-data-heading{
+          font-size: 2rem;
+          text-transform: uppercase;
+          margin: {
+            bottom: 15px;
+          }
+          border: {
+            bottom: 2px solid #ddd;
+          }
+          padding: {
+            bottom:5px;
+          }
+        }
+        .service-data-style, .service-data-setting, .service-data-tag{
+          margin: {
+            bottom:15px;
+          }
+          display: flex;
+          width:100%;
+          p:nth-of-type(1){
+            width:20%;
+            text-align: left;
+            padding: {
+              left: 20px;
+            }
+            font-size:1.2rem;
+            font-weight:700;
+          }
+          p:nth-of-type(2){
+            flex-grow: 2;
+            text-align:left;
+            font-size:1.1rem;
+          }
+        }
+        .service-data-price{
+          display: flex;
+          width:100%;
+          background-color: #eee;
+          padding:10px;
+          justify-content: center;
+          p:nth-of-type(1){
+            font-size:1.4rem;
+          }
+          p:nth-of-type(2){
+            font-size:1.4rem;
+            font-weight:bold;
+            padding: {
+              left: 20px;
+            }
+            color:$dark-red;
+          }
+        }
+        .view-service-btn{
+          display: flex;
+          width:100%;
+          background-color: $dark-green;
+          margin: {
+            top:15px;
+            bottom: 0;
+          }
+          padding:15px;
+          color:$white;
+          justify-content: center;
+          text-transform: uppercase;
+          text-decoration: none;
+          border-radius: 2rem;
+          font-size:1.1rem;
+          transition:all 1s ease;
+          &:hover{
+            background-color: $dark-green-hover;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+/*-- services page styles end --*/
+
+/*-- signup and login page starts --*/
+
+.signup-layout{
+  padding: {
+    top:50px;
+    bottom:50px;
+  }
+  .card-title{
+    background-color: $dark-blue;
+    padding:10px 0;
+    color:$white;
+    font-size: 1.3rem;
+  }
+  .card-text{
+    input[type="submit"]{
+      background-color: $dark-green;
+      color:$white;
+      font-size:1.5rem; 
+    }
+  }
+  .btn-login{
+    background-color: $dark-blue;
+    color:$white;
+    &:hover{
+      color: $light-gray;
+    }
+  }
+}
+
+.login-layout{
+  padding: {
+    top:50px;
+    bottom:50px;
+  }
+  .card-title{
+    background-color: $dark-blue;
+    padding:10px 0;
+    color:$white;
+    font-size: 1.3rem;
+  }
+  .card-text{
+    input[type="submit"]{
+      background-color: $dark-green;
+      color:$white;
+      font-size:1.5rem; 
+    }
+  }
+  .btn-signup{
+    background-color: $dark-blue;
+    color:$white;
+    &:hover{
+      color: $light-gray;
+    }
+  }
+}
+
+/*-- signup and login page ends --*/
+
+/*-- products listing page starts--*/
+
+.product-lists{
+  padding: {
+    bottom:50px;
+  }
+  .products-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    .product{
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.5);
+      padding: {
+        right: 15px;
+        left:15px;
+        top:10px;
+      }
+      transition: all 0.5s;
+      &:hover{
+        cursor: pointer;
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.5);
+      }
+      .product-img{
+        height: 300px;
+        object-fit: contain;
+        object-position: center;
+      }
+      .product-info{
+
+        .single-product-link{
+          text-decoration: none;
+          color: $clr-grey-5;
+          h4{
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*-- products listing page ends --*/
+
+.singleItem{
+  padding: {
+    top:50px;
+    bottom:50px;
+  }
+  .single-product-img{
+    img{
+      height: 500px;
+      width: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+
+  }
+  .single-product-right{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    .singleProductTitle{
+      font-size: 1.7rem;
+      font-weight: bold;
+      margin:20px 0;
+    }
+    .singleProductDesc{
+      margin: {
+        bottom:40px;
+      }
+      h4{
+        border: {
+          bottom: 1px solid $clr-grey-5;
+        }
+        padding: {
+          bottom:10px;
+        }
+      }
+      p{
+        font-size:1.2rem;
+        color:#09204d;
+        font-style: italic;
+      }
+    }
+    ul{
+      padding: {
+        left: 0 !important;
+      }
+      li{
+        margin:20px 0;
+        font-size: 1.2rem;
+        list-style-type: none;
+        &:nth-child(1){
+          // background-color: red;
+          span{
+            font-family: $font-family-kaushan-script;
+            color: $clr-grey-5;
+          }
+        }
+        &:nth-child(2){
+          // background-color: yellow;
+          span{
+            font-family: $font-family-kaushan-script;
+            text-transform: uppercase;
+            color: $dark-blue;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  ol, ul {
+    padding-left: 0rem !important;
+}
+
+  .product-lists .products-container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 1rem;
+      gap: 1rem;
+  }
+  .slider-caption {
+    height: 400px !important;
+    justify-content: center;
+  }
+
+.service-slider-images {
+    height: 400px !important;
+  }
+  .service-data-style, .service-data-setting, .service-data-tag {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p{
+        padding-left:0 !important;
+      }
+  }
+  .destinations .container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    gap: 10px;
+    padding: {
+      top:20px;
+      bottom:20px;
+    }
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  ol, ul {
+    padding-left: 0rem !important;
+}
+
+  .product-lists .products-container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 1rem;
+      gap: 1rem;
+  }
+  .slider-caption {
+    height: 400px !important;
+    justify-content: center;
+  }
+
+.service-slider-images {
+    height: 400px !important;
+  }
+  .service-data-style, .service-data-setting, .service-data-tag {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p{
+        padding-left:0 !important;
+      }
+  }
+  .destinations .container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    gap: 10px;
+    padding: {
+      top:20px;
+      bottom:20px;
+    }
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  
+}
