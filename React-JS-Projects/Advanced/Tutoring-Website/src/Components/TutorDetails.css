@@ -1,0 +1,264 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
+
+.detailsContainer {
+  width: 90%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.tutordetailsdivcontainer {
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+}
+
+.left-container-tutordetails {
+  margin-top: 40px;
+  flex: 2;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 2px solid #9a1750;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px #c04278;
+  max-width: 1200px;
+}
+
+.upperdetails {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tutordetailsprofilepic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.upperinfo {
+  flex: 1;
+}
+
+.tutordetailsprofilename {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.qualifications {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 16px;
+  color: #666;
+}
+
+.bio {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.tutordetailsshowmoreless {
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  color: #9a1750;
+  cursor: pointer;
+}
+
+.socials,
+.reviews,
+.subjects {
+  margin-top: 30px;
+}
+
+.reviews p {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.subjects a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 5px;
+}
+
+.right-container-tutordetails {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-top: 120px;
+  margin-left: 50px;
+  border: 3px solid #9a1750;
+  border-radius: 8px;
+  height: 50vh;
+  max-width: 400px;
+  position: relative;
+}
+
+.right-container-tutordetails h4 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.sentmesssage-tutordetails {
+  background-color: #9a1750;
+}
+
+.sentmesssage-tutordetails:hover {
+  background-color: #c04278;
+}
+
+.messagesucessfully-tutordetails {
+  margin-top: 20px;
+  align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.estimatedtime {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 40px;
+  color: #8e8585;
+}
+
+.spacing {
+  width: 20px;
+}
+
+.message {
+  font-size: 18px;
+  color: red;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 90px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: 90px;
+}
+
+.links a {
+  color: #9a1750;
+  font-size: 28px;
+  margin-right: 20px;
+}
+
+.links a:hover {
+  color: #c04278;
+}
+
+.links .number {
+  color: #9a1750;
+  font-size: 22px;
+}
+
+.links .number:hover {
+  color: #c04278;
+}
+
+.zero {
+  font-size: 60px;
+  color: #9a1750;
+  margin-right: 10px;
+}
+
+.subjects {
+  margin-top: 30px;
+}
+
+.subjects li {
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.subjects li:hover {
+  color: #9a1750 !important;
+  text-decoration: underline !important;
+}
+
+.subjects h5,
+.reviews h5,
+.socials h5,
+.bio h5 {
+  font-weight: bold;
+  font-style: italic;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.bio h5 {
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+.price {
+  margin-top: 0;
+  padding-top: 0;
+  font-weight: bold;
+}
+
+.price span {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 1180px) {
+  .tutordetailsdivcontainer {
+    flex-direction: column;
+  }
+
+  .left-container-tutordetails,
+  .right-container-tutordetails {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .spacing {
+    display: none;
+  }
+
+  .detailsContainer {
+    flex-direction: column;
+  }
+
+  .detailsContainer > div {
+    width: 100%;
+  }
+
+  .spacing {
+    display: none;
+  }
+}
+
+#b1234567890:hover{
+  background-color: none;
+}
+
+
