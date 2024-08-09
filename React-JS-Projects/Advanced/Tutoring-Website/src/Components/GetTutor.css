@@ -1,0 +1,271 @@
+.tutor-cards-container {
+  padding: 20px;
+}
+
+.tutor-details{
+  padding-left: 20px;
+}
+
+
+.tutor-details h3 {
+  color: #9a1750;
+}
+
+.content-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.tutor-cards {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.tutor-card {
+  border: 2px solid #9a1750;
+  border-radius: 5px;
+  margin-top: 50px;
+  padding: 10px;
+  margin-left: 50px;
+  background-color: #f9f9f9;
+  width: 1000px;
+  transition: width 0.3s;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  box-shadow: 0 0 5px #d579a1;
+}
+
+.tutor-card:hover {
+  border: 2px solid #9a1750;
+  width: 1200px;
+  z-index: 2;
+}
+
+.tutor-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.tutor-card p {
+  margin: 5px 0;
+}
+
+.filter-panel {
+  margin-top: 60px;
+  margin-right: 70px;
+  margin-left: 10px;
+  flex: 1;
+  position: absolute;
+  top: 10;
+  right: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #9a1750;
+  border-radius: 5px;
+  max-height: 500px;
+  width: 500px;
+}
+
+.filter-panel h3 {
+  margin-left: 170px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.filter-input {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.filter-input label {
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 17px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.filter-input input {
+  width: calc(100% - 10px);
+  height: 30px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tutor-cards-container h1 {
+  margin-top: 40px;
+  font-size: 45px;
+  font-family: "Fjalla One", sans-serif;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.tutor-cards-container .tagline {
+  font-size: 25px;
+  color: #9a1750;
+  font-style: italic;
+  margin-bottom: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.tutor-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tutor-card-content {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.tutor-photo {
+  flex: 1;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: 20px;
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+}
+
+.tutor-details {
+  flex: 3;
+}
+.tutor-details h3 {
+  font-size: 30px;
+  text-transform: uppercase; /* Capitalize the text */
+  font-weight: bold; /* Make the text bold */
+}
+
+.tutor-details p {
+  font-size: 20px; 
+  margin: 5px 0; 
+}
+
+.tutor-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.tutor-card:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.hourly-rate-box {
+  position: absolute;
+  top: 0;
+  right: -200px;
+  width: 200px;
+  height: 100%;
+  background-color: #f9f9f9;
+  border-left: 2px solid #ccc;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 10px;
+  transition: right 0.3s;
+}
+
+.tutor-card:hover .hourly-rate-box {
+  right: 0;
+}
+
+.button-container-gettutor {
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  justify-content: space-evenly;
+}
+
+.button-container-gettutor button {
+  margin-top: 15px;
+  background-color: #9a1750;
+  color: white;
+}
+
+.button-container-gettutor button:hover {
+  background-color: #c5296d;
+  color: white;
+}
+
+.hourly-rate-box p {
+  font-size: 35px; /* Adjust the font size as needed */
+  color: #9a1750; /* Pink color */
+  font-weight: bold; /* Bold text */
+  padding-left: 10px;
+}
+
+.additional-info p {
+  font-size: 22px;
+  color: black;
+  font-weight: 5px;
+  margin-top: 20px;
+  line-height: 20px;
+}
+@media (max-width: 1200px) {
+  .filter-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .tutor-cards {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .filter-panel {
+    margin-top: 20px;
+    position: static;
+    max-height: none;
+    width: 100%;
+    display: none;
+  }
+
+  .tutor-card {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .tutor-card-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tutor-details h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .tutor-card:hover {
+    box-shadow: none; 
+    border: none; 
+  }
+
+  .tutor-details p {
+    font-size: 16px;
+    margin: 2px 0;
+  }
+
+  .filter-panel {
+    margin-top: 40px;
+    position: static;
+    max-height: none;
+    width: 100%;
+    display: none;
+  }
+
+  .filter-panel.show {
+    display: block;
+  }
+}

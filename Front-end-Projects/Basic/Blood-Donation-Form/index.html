@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Donation Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="icon.png" alt="Blood Icon" class="header-icon">
+            <h1>Blood Donation Form</h1>
+            <p>Please fill out the following information to help us ensure the safety and eligibility of your donation.</p>
+        </div>
+        <form>
+            <div class="section">
+                <h2>Personal Information</h2>
+                <div class="form-group">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Birth Date</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Contact Information</h2>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Address</h2>
+                <div class="form-group">
+                    <label for="address">Street Address</label>
+                    <input type="text" id="address" name="address" placeholder="Street Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" placeholder="City" required>
+                </div>
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" placeholder="State" required>
+                </div>
+                <div class="form-group">
+                    <label for="zip">Postal Code</label>
+                    <input type="text" id="zip" name="zip" placeholder="Postal Code" required>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Blood Donation Details</h2>
+                <div class="form-group">
+                    <label for="blood-type">What is your blood type?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="a-pos" name="blood-type" value="A+">
+                        <label for="a-pos">A+</label>
+                        <input type="radio" id="a-neg" name="blood-type" value="A-">
+                        <label for="a-neg">A-</label>
+                        <input type="radio" id="b-pos" name="blood-type" value="B+">
+                        <label for="b-pos">B+</label>
+                        <input type="radio" id="b-neg" name="blood-type" value="B-">
+                        <label for="b-neg">B-</label>
+                        <input type="radio" id="ab-pos" name="blood-type" value="AB+">
+                        <label for="ab-pos">AB+</label>
+                        <input type="radio" id="ab-neg" name="blood-type" value="AB-">
+                        <label for="ab-neg">AB-</label>
+                        <input type="radio" id="o-pos" name="blood-type" value="O+">
+                        <label for="o-pos">O+</label>
+                        <input type="radio" id="o-neg" name="blood-type" value="O-">
+                        <label for="o-neg">O-</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="last-donation">When was the last time you donated blood?</label>
+                    <input type="date" id="last-donation" name="last-donation">
+                </div>
+                <div class="form-group">
+                    <label>Have you donated previously?</label>
+                    <div class="radio-group">
+                        <input type="radio" id="donated-yes" name="donated" value="yes">
+                        <label for="donated-yes">Yes</label>
+                        <input type="radio" id="donated-no" name="donated" value="no">
+                        <label for="donated-no">No</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Health Information</h2>
+                <div class="form-group">
+                    <label>In the last 6 months, have you had any of the following?</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="tattoo" name="symptoms" value="tattoo">
+                        <label for="tattoo">Tattooing</label>
+                        <input type="checkbox" id="piercing" name="symptoms" value="piercing">
+                        <label for="piercing">Body Piercing</label>
+                        <input type="checkbox" id="surgery" name="symptoms" value="surgery">
+                        <label for="surgery">Surgery</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Do you suffer from or have suffered from any of the following diseases?</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="hiv" name="diseases" value="hiv">
+                        <label for="hiv">HIV</label>
+                        <input type="checkbox" id="hepatitis" name="diseases" value="hepatitis">
+                        <label for="hepatitis">Hepatitis</label>
+                        <input type="checkbox" id="malaria" name="diseases" value="malaria">
+                        <label for="malaria">Malaria</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Are you taking any medication?</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="antibiotics" name="medications" value="antibiotics">
+                        <label for="antibiotics">Antibiotics</label>
+                        <input type="checkbox" id="insulin" name="medications" value="insulin">
+                        <label for="insulin">Insulin</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Have you had any surgeries or blood transfusions in the past six months?</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="surgery-major" name="surgery" value="major">
+                        <label for="surgery-major">Major Surgery</label>
+                        <input type="checkbox" id="surgery-minor" name="surgery" value="minor">
+                        <label for="surgery-minor">Minor Surgery</label>
+                        <input type="checkbox" id="blood-transfusion" name="surgery" value="blood-transfusion">
+                        <label for="blood-transfusion">Blood Transfusion</label>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

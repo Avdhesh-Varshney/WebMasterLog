@@ -90,13 +90,13 @@ const SideBar = ({ children }) => {
         <div className='d-flex align-items-center justify-content-center py-2 gap-2'>
           <AnimatePresence>
             {isSidebarOpen && (
-              <motion.h1 variants={showAnimation} initial='hidden' animate='show' exit='hidden' className='my-1' style={{fontSize: '18px', lineHeight: '0'}}>
+              <motion.h1 variants={showAnimation} initial='hidden' animate='show' exit='hidden' className={`${isDarkMode ? "text-white" : "text-black"} my-1`} style={{fontSize: '18px', lineHeight: '0'}}>
                 WebMasterLog
               </motion.h1>
             )}
           </AnimatePresence>
 
-          <div className='my-1 flex-grow d-flex align-items-stretch align-self-center' style={{width: '20px'}}>
+          <div className={`my-1 flex-grow d-flex align-items-stretch align-self-center ${isDarkMode ? "text-white":"text-black"}`} style={{width: '20px'}}>
             <FaBars onClick={toggleSidebar} />
           </div>
         </div>

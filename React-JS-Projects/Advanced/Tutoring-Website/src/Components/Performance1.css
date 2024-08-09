@@ -1,0 +1,41 @@
+.banner123 {
+  margin-top: 4.9rem;
+  display: flex;
+  flex-direction: coloumn;
+  align-items: center;
+  background-color: #9a1750;
+  color: white;
+  height: 5rem;
+  padding: 20px 20px 10px 10px;
+  overflow: hidden;
+}
+
+.banner123 h2{
+  flex: 10;
+  text-align: center;
+  padding: 40px 10px 40px 90px;
+  width: 60%;
+}
+
+.ertyui{
+  flex:1;
+  padding: 40px 10px 40px 0px;
+}
+
+.banner123 button{
+  padding: 10px 10px 10px 0px;
+  font-size: larger;
+  background-color: transparent;
+  height: 100px;
+  width: 90px;
+}
+
+.banner123 button:hover{
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#arrow{
+  font-size: 40px;
+  padding: 0px 10px 18px 0px;
+}

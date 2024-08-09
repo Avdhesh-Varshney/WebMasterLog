@@ -1,0 +1,132 @@
+#abc{
+  padding-top: 25px;
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.whole-how {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:flex-start;
+  flex-wrap: wrap; 
+  padding-top: 0;
+  color: white;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #9a1750;
+  color: white;
+}
+
+.user-how {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid white;
+  background-color:white;
+  color:#9a1750;
+  height: 600px;
+  width: 600px;
+  margin: 10px;
+  padding: 10px;
+  margin: 10px; 
+}
+
+.avatar-how{
+  padding: 20px 10px 10px 20px;
+}
+
+.name-how3 {
+  display: flex;
+  justify-content: center;
+}
+
+.name-how3 img {
+  width: 500px;
+  height: 270px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name-how2 {
+  display: flex;
+  justify-content: center;
+}
+
+.name-how2 img {
+  width: 600px;
+  height: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name-how1 {
+  display: flex;
+  justify-content: center;
+}
+
+.name-how1 img {
+  width: 600px;
+  height: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.avatar-how div {
+  padding: 10px 10px 10px 10px;
+  background-color: #9a1750;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  width: 90px;
+  height: 90px;
+}
+
+.text-how {
+  padding: 8px 10px 10px 10px;
+  font-size: 50px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icon-how {
+  font-size: 25px;
+}
+
+.icon-how a {
+  text-decoration: none;
+  color: #9a1750;
+  padding: 0 10px 0 10px;
+}
+
+.container-how{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70vh;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  background-color: #9a1750;
+}
+
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 768px) {
+  .whole-how {
+    justify-content: flex-start; /* Align images to the start on smaller screens */
+  }
+
+  .user-how {
+    width: calc(100% - 2vw); /* Adjust to display one card per row */
+  }
+}
+

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+@import url("https://rsms.me/inter/inter.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+:root{
+  --font:'Inter var', cursive;
+  --font-logo:'Amatic SC', cursive;
+  --primary-bg:#FDEBF7;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  ;
+  /*background: url("/images/back.jpg");*/
+  /*background-size: contain;*/
+  width:100vw;
+  max-width:100vw;
+  overflow-x: hidden;
+  font-family:var(--font), -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+section{
+
+}
+
+.primary-bg{
+  background:var(--primary-bg);
+}

@@ -1,0 +1,9 @@
+<header class="p-3 border-b-2 flex justify-between">
+    <h2 class="text-center text-2xl font-bold tracking-tight text-indigo-900">
+        Contact manager
+    </h2>
+    <button (click)="toggleNewContactModal(true)" class="flex justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+        New contact
+    </button>
+</header>
+<app-new-contact *ngIf="isNewContactModalOpen" (closeNewContactModal)="toggleNewContactModal($event)"></app-new-contact>

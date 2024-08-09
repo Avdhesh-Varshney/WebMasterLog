@@ -1,0 +1,152 @@
+.head{
+  height: 85.5vh;
+  background-color: #E3AFBC;
+  margin-top: -110px;
+}
+.main-head {
+  flex:1;
+  margin-top: 18%;
+  margin-left: 20%;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: black;
+  padding-top: 25px;
+}
+
+.text-highlight {
+  text-align: center;
+  color: #5D001E;
+  font-size: 6rem;
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.head {
+  display: flex;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  margin-top: 70px;
+  padding-right: 10%;
+}
+
+.bttnsearch{
+  flex:1;
+  padding-left: 10%;
+  padding-top: -10px;
+  margin-top: -200px;
+}
+
+.bttnsearch select {
+  width: 250px;
+  height: 80px;
+  background-color: white;
+  border: 3px solid #9a1750;;
+  border-radius: 5px;
+  padding: 5px 30px 5px 10px; 
+  appearance: none; 
+  background-image: url('./logo.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 50px; 
+}
+.bttnsearch select option {
+  font-size: 18px;
+  text-align: center;
+  width: 250px;
+  height: 80px;
+}
+.bttnsearch select::-ms-expand {
+  display: none;
+}
+.bttnsearch select {
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+}
+.bttnsearch button{
+  width: 250px;
+  height: 80px;
+  background-color:#9a1750;
+  margin-left: 5px;
+  border-radius: 5px;
+  appearance: none; 
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+
+.get-started-home:hover{
+  background-color: #ae2460;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  .head {
+    height: auto; /* Set the height of the header to auto */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+  }
+
+  .main-head {
+    font-size: 12vw; /* Responsive font size */
+    text-align: center;
+    margin-right: 1rem;
+    margin-top: 35vw; /* Adjusted for smaller screen sizes */
+  }
+
+  .text-highlight {
+    font-size: 10vw; /* Responsive font size */
+  }
+
+  .container {
+    width: 90%; /* Adjusted for smaller screen sizes */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center;
+    text-align: center;
+  }
+
+  .image {
+    margin-top: -25vw; /* Adjusted for smaller screen sizes */
+  }
+
+  .image img {
+    width: 80%; /* Adjusted for smaller screen sizes */
+  }
+
+  .bttnsearch {
+    width: 90%; /* Adjusted for smaller screen sizes */
+    margin-top: -45vw; /* Adjusted for smaller screen sizes */
+  }
+
+  .bttnsearch select {
+    width: 100%; /* Adjusted for smaller screen sizes */
+  }
+
+  .bttnsearch button {
+    width: 100%; /* Adjusted for smaller screen sizes */
+  }
+}
