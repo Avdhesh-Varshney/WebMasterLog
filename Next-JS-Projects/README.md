@@ -28,6 +28,7 @@
 |  1   | [Weather-Website](./Basic/Weather-Website) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  2   | [Quiz-App](./Intermediate/Quiz-App) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  3   | [Breaking-News-App](./Advanced/Breaking-News-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|  4    | [Attendance-Tracking-App](./Advanced/Attendance-Tracking-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 
 </div>
 
@@ -35,6 +36,6 @@
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <div align="center">
-	<h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
+ <h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
 </div>
 <a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
