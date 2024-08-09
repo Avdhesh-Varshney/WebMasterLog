@@ -1,0 +1,63 @@
+.benefits-cards {
+  margin-top: -170px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Sourcesanspro, sans-serif;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: space-around; /* Spread items evenly across the container */
+  gap: 20px; /* Add space between items */
+  margin-bottom: 40px;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center;
+  height: 25vh;
+  overflow: hidden;
+/* Set max width for each card */
+}
+
+.benefits-card {
+  flex: 30%; /* Each card takes up one-third of the container minus the gap */
+  max-width: 200px;
+  height: 200px;
+  border: 4px solid #9a1750; 
+  border-radius: 10%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#image{
+  flex: 4;
+  width: 200px; /* Adjust image width as needed */
+  height: 700px; /* Adjust image height as needed */
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.image-4 {
+  width: 150px;
+}
+
+.collection-list,
+.collection-item-3 {
+  list-style-type: none;
+  padding: 10px;
+  margin: 80px;
+}
+  
+.card-heading {
+  flex:1;
+  font-size: 24px; /* Adjust heading font size as needed */
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-style:italic;
+}

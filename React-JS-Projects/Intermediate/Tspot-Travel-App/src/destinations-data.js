@@ -1,0 +1,18 @@
+export default [
+  { id: "1", imageName: "destination-img01.jpeg", tag: "popular" },
+  { id: "2", imageName: "destination-img02.jpeg", tag: "new" },
+  { id: "3", imageName: "destination-img03.jpeg", tag: "romantic" },
+  { id: "4", imageName: "destination-img04.jpeg", tag: "romantic" },
+  { id: "5", imageName: "destination-img05.jpeg", tag: "popular" },
+  { id: "6", imageName: "destination-img06.jpeg", tag: "new" },
+  { id: "7", imageName: "destination-img07.jpeg", tag: "romantic" },
+  { id: "8", imageName: "destination-img08.jpeg", tag: "popular" },
+  { id: "9", imageName: "destination-img09.jpeg", tag: "new" },
+  { id: "10", imageName: "destination-img10.jpeg", tag: "new" },
+  { id: "11", imageName: "destination-img11.jpeg", tag: "new" },
+  { id: "12", imageName: "destination-img12.jpeg", tag: "new" },
+  { id: "13", imageName: "destination-img13.jpeg", tag: "popular" },
+  { id: "14", imageName: "destination-img14.jpeg", tag: "romantic" },
+  { id: "15", imageName: "destination-img15.jpeg", tag: "popular" },
+  { id: "16", imageName: "destination-img16.jpeg", tag: "new" },
+];

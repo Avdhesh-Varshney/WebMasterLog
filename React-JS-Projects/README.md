@@ -52,6 +52,9 @@
 |   25  | [Motivation For The Day](./Basic/Motivation-For-The-Day/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   26  | [Job Portal](./Advanced/Job-Portal/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   27  | [Cakes n Cookies](./Intermediate/Cakes-N-Cookies/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   28  | [TSPOT Travel App](./Intermediate/Tspot-Travel-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   29  | [Tutoring Website](./Advanced/Tutoring-Website/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   30  | [Youtube Clone](./Intermediate/Youtube-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
