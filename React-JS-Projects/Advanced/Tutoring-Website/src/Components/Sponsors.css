@@ -1,0 +1,54 @@
+.sponsors{
+  color: #232323;
+  font: inherit;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px; 
+  background-color: white; 
+  height: 15vh; 
+  overflow: hidden;    
+}
+
+.sponsors p {
+  font-weight: bold;
+  font-size: 24px;
+  padding-right: 100px;
+  padding-top: 10px;
+  
+}
+
+.widthokok{
+  margin-top: -15px;
+  padding-top: -80px;
+  margin-bottom: -10px;
+  padding-bottom: -60px;
+}
+
+.sponsors div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.sponsors span {
+  display: flex;
+  align-items: center;
+  margin: 20px; 
+}
+
+.sponsors img {
+  margin-top: 0;
+  width: 128px;
+  height: 98px;
+  margin-right: 10px; 
+}
+
+#sponsors56789{
+  width: 200px;
+}
