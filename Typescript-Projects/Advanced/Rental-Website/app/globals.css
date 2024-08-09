@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+@font-face {
+  font-family: TwemojiMozilla;
+  src: url("/public/font/Twemoji.Mozilla.ttf");
+}
+/* Your Input Div*/
+.input {
+  font-family: TwemojiMozilla, Arial;
+}
+
+.leaflet-button,
+.leaflet-control,
+.leaflet-pane,
+.leaflet-top {
+  z-index: 0 !important;
+}
+
+.rdrMonth {
+  width: 100% !important;
+}
+
+.rdrCalendarWrapper {
+  width: 100% !important;
+  font-size: 16px !important;
+}
