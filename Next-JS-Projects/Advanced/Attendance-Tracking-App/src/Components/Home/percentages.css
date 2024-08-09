@@ -1,0 +1,22 @@
+:root {
+  --bg-color: rgb(188, 0, 0);
+  --circle-percentage: 100deg;
+}
+.circular-progress {
+  border-radius: 50%;
+  background: conic-gradient(#0093a7 var(--circle-percentage), #171721 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 85%;
+  width: 85%;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  transition: all 0.5s ease;
+}
