@@ -1,0 +1,81 @@
+.tutor-tutor{
+    height: 40vh;
+    overflow: hidden;
+}
+
+.tutor-h h1{
+    padding-top: 25px;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.tutor-h p{
+    font-style: italic;
+    color: #9a1750;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tutor-h p span{
+    text-decoration: underline;
+}
+
+.tutor-h p span a:hover{
+    color:#631328;
+    font-style: normal;
+    text-decoration: #631328 underline;
+}
+
+.tutor-h p span a{
+    text-decoration: none;
+    color: #9a1750;
+}
+
+.why-tutors{
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.trfvbhyy{
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+}
+
+#tutorstutors12345{
+
+}
+
+.why-tutors p{
+    font-size: 25px;
+    text-align: center;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.why-tutors img{
+    flex: 2;
+    padding-left: 20px;
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
+}
+
+#a4567890{
+    width: 50px; 
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+}

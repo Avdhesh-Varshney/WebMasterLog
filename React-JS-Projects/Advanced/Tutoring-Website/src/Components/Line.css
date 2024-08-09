@@ -1,0 +1,28 @@
+.line-line{
+  margin-top: 0;
+  padding-top: 40px;
+  height: 38vh;
+}
+
+.line1{
+  font-size: 8rem;
+  font-weight: bold;
+  font-family: 'Platform', 'Platform-fallback', 'Platform-fallback-android', 'Noto Sans', 'NotoSans-fallback', 'NotoSans-fallback-android', sans-serif;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  letter-spacing: -8px;
+  line-height: 1;
+}
+
+.line2{
+  font-size: 2rem;
+  font-weight: bold;
+  font-style:italic ;
+  font-family: 'Platform', 'Platform-fallback', 'Platform-fallback-android', 'Noto Sans', 'NotoSans-fallback', 'NotoSans-fallback-android', sans-serif;
+  padding-left: auto;
+  padding-right: auto;
+  text-align: center;
+  padding-top: 40px;
+  color: #9a1750;
+}
