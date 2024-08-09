@@ -1,0 +1,15 @@
+<header>
+  <h1>{{recipe.title}}</h1>
+  <nav>
+      <a href="#!/">Home</a> | 
+      <a href="#!/add-recipe">Add Recipe</a>
+  </nav>
+</header>
+<main>
+  <h2>Ingredients</h2>
+  <ul>
+      <li ng-repeat="ingredient in recipe.ingredients">{{ingredient}}</li>
+  </ul>
+  <h2>Instructions</h2>
+  <p>{{recipe.instructions}}</p>
+</main>
