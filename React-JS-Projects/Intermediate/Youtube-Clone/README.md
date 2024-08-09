@@ -54,7 +54,7 @@
 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
-[img](./screenshot.webp)
+![img](./screenshot.webp)
 
 ## :zap: Working Video 📹
 <!-- directly add the link of video (If, possible) -->
