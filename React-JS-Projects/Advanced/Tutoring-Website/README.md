@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/da0a3ef6-0610-4002-a285-3c92eca31886)<h1 align='center'><b>💥 Tutoring Website 💥</b></h1>
+<h1 align='center'><b>💥 Tutoring Website 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
