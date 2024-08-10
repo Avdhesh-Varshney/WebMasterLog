@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page-height-class {
+  /* height: calc(100vh - 120px); */
+  margin-bottom: 69px;
+}
+.gradient-profile-text {
+  background: linear-gradient(90deg, #0097a1 0%, #ffffff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+.animated-slide-top {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  z-index: 1000;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.custom-calendar {
+  width: 400px;
+  min-width: 400px;
+  height: auto;
+  font-size: 1.2rem;
+  /* background-color: #000000; */
+  /* background: #000000; */
+  border-radius: 15px;
+  padding: 20px;
+  color: black;
+}
+
+.custom-calendar .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #27272a; */
+  /* color: white; */
+}
+
+.custom-calendar .react-calendar__month-view__weekdays__weekday {
+  font-weight: bold;
+  color: blue;
+  text-align: center;
+  padding: 10px;
+}
+.custom-calendar .react-calendar__tile--now {
+  background-color: rgb(255, 255, 64);
+  color: red;
+}
+.custom-calendar .react-calendar__month-view__days__day:nth-child(7n-1), /* Sunday */
+.custom-calendar .react-calendar__month-view__days__day:nth-child(7n) {
+  color: #ff0000; /* Change to desired text color */
+}
