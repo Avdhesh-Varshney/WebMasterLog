@@ -118,6 +118,7 @@
 |  91   | [Theme Cake Order Form](./Basic/Theme-Cake-Order-Form/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |  92   | [Time-Capsule-Center](./Intermediate/Time-Capsule-Center/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  93   | [Gravity-Drops](./Intermediate/Gravity-Drops/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  94   | [Movie-App](./Intermediate/Movie-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 </div>
 
 
