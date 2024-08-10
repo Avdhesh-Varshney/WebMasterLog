@@ -29,6 +29,7 @@
 |  2   | [Quiz-App](./Intermediate/Quiz-App) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  3   | [Breaking-News-App](./Advanced/Breaking-News-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |  4   | [Attendance-Tracking-App](./Advanced/Attendance-Tracking-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|  5   | [Url-Shortener](./Intermediate/Url-Shortener/)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
