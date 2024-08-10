@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paint App🎨</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"
+    />
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/themes/nano.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@simonwep/pickr/dist/pickr.es5.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="loader">
+      <div id="loader-logo">
+        <span class="material-icons" style="font-size: 100px; padding: 0"
+          >brush</span
+        >
+      </div>
+    </div>
+    <div id="main">
+      <div id="canvas-container">
+        <canvas id="canvas"></canvas>
+      </div>
+      <div id="tools">
+        <button id="selectColor"><div id="c-border"></div></button>
+        <button id="selectPen">
+          <span class="material-icons">brush</span>
+        </button>
+        <button id="selectEraser"><div id="eraser-svg"></div></button>
+        <button id="clear"><span class="material-icons">delete</span></button>
+        <a id="link" target="_blank">
+          <button id="settings">
+            <span class="material-icons">settings</span>
+          </button>
+        </a>
+      </div>
+      <div id="options">
+        <div id="strokePreviewContainer"><div id="stroke-preview"></div></div>
+        <div id="strokeSliderContainer">
+          <input
+            class="mdl-slider mdl-js-slider"
+            id="strokeSlider"
+            type="range"
+            min="1"
+            max="50"
+            value="5"
+            tabindex="0"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
