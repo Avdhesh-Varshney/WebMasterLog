@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "choices": ["Berlin", "Madrid", "Paris", "Rome"],
+    "answer": "Paris"
+  },
+  {
+    "question": "Who wrote 'To Kill a Mockingbird'?",
+    "choices": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+    "answer": "Harper Lee"
+  },
+  {
+    "question": "What is the largest planet in our Solar System?",
+    "choices": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "answer": "Jupiter"
+  },
+  {
+    "question": "In which year did the Titanic sink?",
+    "choices": ["1912", "1915", "1920", "1925"],
+    "answer": "1912"
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "choices": ["H2O", "O2", "CO2", "NaCl"],
+    "answer": "H2O"
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "choices": ["Leonardo da Vinci", "Vincent van Gogh", "Pablo Picasso", "Claude Monet"],
+    "answer": "Leonardo da Vinci"
+  },
+  {
+    "question": "What is the tallest mountain in the world?",
+    "choices": ["K2", "Kangchenjunga", "Lhotse", "Mount Everest"],
+    "answer": "Mount Everest"
+  },
+  {
+    "question": "Who developed the theory of relativity?",
+    "choices": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+    "answer": "Albert Einstein"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "choices": ["Venus", "Mars", "Jupiter", "Saturn"],
+    "answer": "Mars"
+  },
+  {
+    "question": "What is the smallest country in the world by land area?",
+    "choices": ["Monaco", "Vatican City", "San Marino", "Liechtenstein"],
+    "answer": "Vatican City"
+  }
+]

@@ -1,0 +1,96 @@
+.benefits {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  box-sizing: border-box;
+  padding: 60px 0;
+  overflow: hidden;
+  background-color: #9a1750;
+  height: 35vh;
+  margin-top: 0;
+  padding-top: 30px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.container-benefits {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; /* Aligns items to the left and right edges of the container */
+  align-items: center;
+}
+
+.benefits h3 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.row-benefits {
+  display: flex;
+  justify-content: space-between; /* Aligns items to the left and right edges of the container */
+  gap: 1rem;
+  width: 100%; /* Ensure the row takes full width */
+}
+
+.text-white-boy {
+  margin-right: auto;
+  font-size: 2.5rem !important; 
+  margin-left: -110px;/* Aligns this item to the extreme left */
+}
+
+.email{
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.phone3{
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 140px;
+}
+
+.phone{
+  margin-right: 25px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  gap: 1rem;
+  background: none;
+  padding-right: 5%;
+  padding-left: 25%;
+}
+
+.info h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+@media (max-width: 991.98px) {
+  .benefits h3 {
+    font-size: 1.5rem;
+  }
+
+  .info h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
