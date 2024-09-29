@@ -1,6 +1,7 @@
 const Product = require('../models/Product')
 const Category = require('../models/Category');
 const { default: mongoose } = require('mongoose');
+const _ = require('lodash');
 
 exports.createProduct = async (req, res) => {
 
@@ -133,7 +134,8 @@ exports.filterProducts = async (req, res) => {
         }
 
         if (key) {
-            const regex = new RegExp(key, 'i');
+            const safeKey = _.escapeRegExp(key);
+            const regex = new RegExp(safeKey, 'i');
             query.$or = [
                 { name: { $regex: regex } },
                 { description: { $regex: regex } },
