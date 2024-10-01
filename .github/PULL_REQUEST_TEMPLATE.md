@@ -1,18 +1,11 @@
-Closes: <!-- #issue-number  -->
+<!-- #issue-number  -->
+Closes: 
 
-- **Title** : 
-- **Name:** : <!--Mention Your name-->
-- **Idenitfy yourself:** : <!-- Mention your role (like GSSOC, SSOC, JWOC, etc. Contributor) -->
-
-
-<!-- Mention the following details and these are mandatory -->
+- **Title:** 
+- **Name:** 
+- **Idenitfy yourself:** <!-- Mention your role (like GSSOC, SSOC, JWOC, etc. Contributor) -->
 
 ### Describe the add-ons or changes you've made 📃
-
-
-### How Has This Been Tested? ⚙️
-<!-- Describe how it has been tested
-Describe how have you verified the changes made -->
 
 
 ### Screenshots 📷
