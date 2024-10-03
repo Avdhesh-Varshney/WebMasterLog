@@ -1,0 +1,9 @@
+Firebase for backend
+random-words library
+styled-components
+Material UI
+Chart.js for charts
+react-toastify for alerts
+React-router
+localstorage for storing themes
+dotenv for hiding sensitive info from user

@@ -55,6 +55,7 @@
 |   28  | [TSPOT Travel App](./Intermediate/Tspot-Travel-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   29  | [Tutoring Website](./Advanced/Tutoring-Website/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   30  | [Youtube Clone](./Intermediate/Youtube-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   29  | [Typing Speed Tracker](./Advanced/Typing-Speed-Tracker/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 
 </div>
 
