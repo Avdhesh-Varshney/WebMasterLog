@@ -29,6 +29,7 @@
 |   2   | [Quote-Generator](./Basic/Quote-Generator) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   3   | [Expense Tracker](./Intermediate/Expense-Tracker/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   4   | [Google-Keep](./Intermediate//Google-Keep/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   5   | [Crpto-Dashboard](./Intermediate//Crpto-Dashboard/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 
 
