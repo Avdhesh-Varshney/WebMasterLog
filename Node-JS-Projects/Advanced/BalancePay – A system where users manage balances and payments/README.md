@@ -74,7 +74,7 @@ update details
 first add Headers Authorization with the bearer and the token you get after login .
 ![image](https://github.com/user-attachments/assets/d621f672-034e-457f-b39e-26b029105cc9)
 
-![image](https://github.com/user-attachments/assets/3a5acfe3-100b-4b8c-9fe1-31009ad1273f
+![image](https://github.com/user-attachments/assets/3a5acfe3-100b-4b8c-9fe1-31009ad1273f)
 
 Bulk (also need Headers Authorization)
 ![image](https://github.com/user-attachments/assets/8949c778-fb4d-493d-8e8e-5736434afa0f)
