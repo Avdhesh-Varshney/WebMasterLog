@@ -64,6 +64,22 @@ node app.js
 
 ## :zap: Screenshots 📸
 
+signup
+![image](https://github.com/user-attachments/assets/99978920-d442-40d4-a328-b6b0152c748b)
+signin
+![image](https://github.com/user-attachments/assets/4d02a4ee-57e8-4adb-9a2a-2861e8cab31a)
+update details 
+first add Headers Authorization with the bearer and the token you get after login .
+![image](https://github.com/user-attachments/assets/d621f672-034e-457f-b39e-26b029105cc9)
+![image](https://github.com/user-attachments/assets/3a5acfe3-100b-4b8c-9fe1-31009ad1273f)
+Bulk  (also need Headers Authorization)
+![image](https://github.com/user-attachments/assets/bae9ce44-3806-4a4b-9e83-3d3270ef8e19)
+Balance  (also need Headers Authorization)
+![image](https://github.com/user-attachments/assets/29e05f4b-4ade-4fb3-ba98-66dc8a2cffd7)
+Transfer (also need Headers Authorization and take userid from bulk)
+![image](https://github.com/user-attachments/assets/c018c5bf-8307-4216-af7b-fe1c9d38a409)
+
+
 
 
 
