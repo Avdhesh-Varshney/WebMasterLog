@@ -85,7 +85,7 @@ const SideBar = ({ children }) => {
           transition: { duration: 0.5, type: 'spring', damping: 10 },
         }}
         className="z-index-100 vh-100 py-4"
-        style={{ backgroundColor: isDarkMode ? '#12151e' : '#f5f5f5', overflowY: 'auto', overflowX: 'hidden' }}
+        style={{ backgroundColor: isDarkMode ? '#12151e ' : '#c0c0c0', overflowY: 'auto', overflowX: 'hidden' }}
       >
         <div className='d-flex align-items-center justify-content-center py-2 gap-2'>
           <AnimatePresence>
@@ -94,7 +94,7 @@ const SideBar = ({ children }) => {
                 WebMasterLog
               </motion.h1>
             )}
-          </AnimatePresence>
+          </AnimatePresence>  
 
           <div className={`my-1 flex-grow d-flex align-items-stretch align-self-center ${isDarkMode ? "text-white":"text-black"}`} style={{width: '20px'}}>
             <FaBars onClick={toggleSidebar} />
