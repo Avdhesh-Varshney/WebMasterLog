@@ -76,8 +76,9 @@ first add Headers Authorization with the bearer and the token you get after logi
 
 ![image](https://github.com/user-attachments/assets/3a5acfe3-100b-4b8c-9fe1-31009ad1273f
 
-Bulk  (also need Headers Authorization)
-![image](https://github.com/user-attachments/assets/bae9ce44-3806-4a4b-9e83-3d3270ef8e19)
+Bulk (also need Headers Authorization)
+![image](https://github.com/user-attachments/assets/8949c778-fb4d-493d-8e8e-5736434afa0f)
+
 
 Balance  (also need Headers Authorization)
 ![image](https://github.com/user-attachments/assets/29e05f4b-4ade-4fb3-ba98-66dc8a2cffd7)
