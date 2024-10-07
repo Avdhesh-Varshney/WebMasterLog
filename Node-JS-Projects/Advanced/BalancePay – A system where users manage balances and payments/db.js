@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-    mongoose.connect('mongodb+srv://admin:admin123@cluster0.ymhuljk.mongodb.net/paytm');
+    mongoose.connect('');
 
    
 
