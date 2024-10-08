@@ -49,6 +49,8 @@
 |   22  | [Survey Form](./Basic//Survey-Form) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   23  | [Blood Donation Form](./Basic//Blood-Donation-Form) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   24  | [Linktree Clone](./Intermediate/Linktree-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   25  | [Google Search Clone](./Basic/Google-Search-Clone)| ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+
 
 </div>
 
