@@ -1,0 +1,12 @@
+:root {
+  font-family:  "Libre Baskerville", serif;
+}
+@font-face{
+  font-family: myFont;
+  src:url(../Muifamoso.ttf);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
