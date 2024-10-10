@@ -33,7 +33,7 @@
 
 <div>
   <!-- <p>Add Description of the project</p> -->
-    <p>An analog clock made with HTML, CSS, and JavaScript visually represents time using a traditional clock face with rotating hour, minute, and second hands. It showcases seamless integration of web technologies to create dynamic, real-time animations.</p>
+    <p>An QR code generator is a tool that converts text, URLs, or other data into a scannable QR code, enabling easy sharing of information.</p>
 </div>
 
 
