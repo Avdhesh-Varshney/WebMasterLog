@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="taskManagerApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller="TaskController as ctrl">
+    <div class="container">
+        <h1>Task Manager</h1>
+        <input type="text" ng-model="ctrl.newTask" placeholder="Add new task" />
+        <button ng-click="ctrl.addTask()">Add Task</button>
+
+        <ul>
+            <li ng-repeat="task in ctrl.tasks">
+                <span ng-if="!task.editing">{{ task.name }}</span>
+                <input ng-if="task.editing" type="text" ng-model="task.name" />
+
+                <button ng-click="task.editing = !task.editing" ng-if="!task.editing">Edit</button>
+                <button ng-click="task.editing = !task.editing" ng-if="task.editing">Save</button>
+                <button ng-click="ctrl.deleteTask(task)">Delete</button>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
