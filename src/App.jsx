@@ -26,24 +26,27 @@ function App() {
   const { data, isLoading, error } = useRepoData();
 
   if (isLoading)
-    return <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
-      <h1>Loading...</h1>
-    </div>;
+    return (
+      <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+        <h1>Loading...</h1>
+      </div>
+    );
 
   if (error)
-    return <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
-      <h1>Error: {error.message}</h1>
-    </div>;
+    return (
+      <div className="d-flex justify-content-center align-items-center" style={{ height: '100vh' }}>
+        <h1>Error: {error.message}</h1>
+      </div>
+    );
 
   return (
-    <div className='d-flex flex-column'>
+    <div className="d-flex flex-column min-vh-100">
       <Router>
         <SideBar>
-
-          <LoadingBar height={3} color='#f11946' progress={progress} />
+          <LoadingBar height={3} color="#f11946" progress={progress} />
           <CursorComponent />
 
-          <div className='flex-grow-1'>
+          <div className="d-flex flex-column justify-content-between min-vh-100">
             <Routes>
               {data.map((obj) => (
                 <React.Fragment key={obj.name}>
@@ -53,16 +56,15 @@ function App() {
                 </React.Fragment>
               ))}
             </Routes>
+            <Footer />
           </div>
 
-          <Footer />
           <BackToTop />
 
-          <button className="btn border-0" onClick={() => setShowChatbot(!showChatbot)} style={{ zIndex: 1001, position: 'fixed', bottom: '10px', right: '3px' }} >
-            <TbMessageChatbot className='text-light' style={{ fontSize: '3rem' }} />
+          <button className="btn border-0" onClick={() => setShowChatbot(!showChatbot)} style={{ zIndex: 1001, position: 'fixed', bottom: '10px', right: '3px' }}>
+            <TbMessageChatbot className="text-light" style={{ fontSize: '3rem' }} />
           </button>
           {showChatbot && <Chatbot />}
-
         </SideBar>
       </Router>
     </div>
