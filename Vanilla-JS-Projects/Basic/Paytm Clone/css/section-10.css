@@ -1,0 +1,43 @@
+.section-10 {
+  background-color: var(--grey-light);
+}
+
+.section-10-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem 0;
+  width: var(--width-2);
+  margin: auto;
+}
+
+.section-10-left {
+  width: 433px;
+}
+
+.section-10-left img {
+  max-width: 100%;
+}
+
+.section-10-right {
+  width: 45%;
+}
+
+.section-10-right-loan {
+  width: 175px;
+}
+
+.section-10-right h1 {
+  margin-top: 4.8rem;
+  width: 390px;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+}
+
+.section-10-right p {
+  padding: 2.4rem 0 3rem;
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+}
