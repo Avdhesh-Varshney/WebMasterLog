@@ -1,0 +1,188 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-bottom: 3px solid #4ca1af;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(#4ca1af, #c4e0e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.editor-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px;
+}
+
+.editor-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1e26;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.editor-container h2 {
+    color: #c4e0e5;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    background: #222436;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 1rem;
+    resize: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    scrollbar-width: thin; /* For Firefox */
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #4ca1af, #2c5364); /* Color matching the background gradient */
+    border-radius: 10px;
+}
+
+textarea:focus {
+    box-shadow: 0 0 15px rgba(144, 238, 144, 0.7);
+}
+
+button {
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #4ca1af, #c4e0e5);
+    border: none;
+    color: #222436;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #4ca1af, #1c92d2);
+}
+
+.output-section {
+    width: 100%;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+#error-log {
+    color: #ff6b6b;
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    font-family: monospace;
+    margin-top: 10px;
+    display: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-top: 3px solid #4ca1af;
+    color: #c4e0e5;
+    margin-top: auto;
+}
+
+@media (max-width: 768px) {
+    .editor-section {
+        flex-direction: column;
+    }
+
+    .editor-container {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* Custom scrollbar styles */
+textarea {
+    width: 100%;
+    height: 200px;
+    background: #222436;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 1rem;
+    resize: none;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+}
+
+/* Webkit scrollbar styles */
+textarea::-webkit-scrollbar {
+    width: 8px;
+    height: 8px; 
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #4ca1af, #2c5364);
+    border-radius: 10px;
+}
+
+textarea:focus {
+    box-shadow: 0 0 15px rgba(144, 238, 144, 0.7);
+}
