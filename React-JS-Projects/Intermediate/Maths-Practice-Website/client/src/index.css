@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* white */
+    --foreground: 240 10% 3.9%; /* black */
+    --card: 0 0% 100%; /* white */
+    --card-foreground: 240 10% 3.9%; /* black */
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 270 76% 55%; /* Adjusted for a purple color */
+    --primary-foreground: 0 0% 100%; /* white */
+    --secondary: 240 4.8% 95.9%; /* light */
+    --secondary-foreground: 240 5.9% 10%; /* dark */
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 270 76% 55%; /* same as primary for accent */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 270 76% 55%; /* purple ring */
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%; /* white */
+    --card: 240 10% 3.9%; /* dark */
+    --card-foreground: 0 0% 98%; /* white */
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 270 76% 55%; /* purple */
+    --primary-foreground: 0 0% 98%; /* white */
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 270 76% 55%; /* same purple for accent */
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 270 76% 55%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-black; /* Change text-foreground to text-black */
+  }
+}
+
+/* Default text sizes */
+@layer base {
+  h1 {
+    @apply text-4xl font-bold mb-4 text-black; /* Explicitly set color */
+  }
+  h2 {
+    @apply text-3xl font-semibold mb-3 text-black; /* Explicitly set color */
+  }
+  h3 {
+    @apply text-2xl font-semibold mb-2 text-black; /* Explicitly set color */
+  }
+  h4 {
+    @apply text-xl font-semibold mb-2 text-black; /* Explicitly set color */
+  }
+  h5 {
+    @apply text-lg font-semibold mb-2 text-black; /* Explicitly set color */
+  }
+  h6 {
+    @apply text-base font-semibold mb-2 text-black; /* Explicitly set color */
+  }
+  p {
+    @apply text-base mb-4 text-black; /* Explicitly set color */
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.clerk-sign-in,
+.clerk-sign-up {
+  width: 400px; 
+  margin: auto;
+}
+
+
+body {
+  overflow: auto; 
+}
+
+body::-webkit-scrollbar {
+  width: 0; 
+  background: transparent; 
+}
+
+body {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
+
+.scrollable-container {
+  overflow-y: scroll; 
+  height: 100vh; 
+}
+
+.scrollable-container::-webkit-scrollbar {
+  width: 0; 
+  background: transparent; 
+}
+
+.scrollable-container {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
