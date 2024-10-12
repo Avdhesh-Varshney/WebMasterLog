@@ -1,0 +1,74 @@
+.banner{
+    background-size: cover;
+    height: 448px;
+    color: white ;
+}
+.content{
+    padding-top: 140px;
+    height: 190px;
+    padding-left: 15px;
+
+}
+.title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+.button{
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.button:hover{
+    color: black;
+    background-color: #e6e6e6;
+}
+.description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 1rem;
+    height: auto; /* Set height to auto to allow flexible content */
+    max-width: 560px;
+    overflow: hidden; /* Ensure that overflowing content is hidden */
+    text-overflow: ellipsis; /* Optionally add ellipsis for overflowing text */
+}
+.fade_bottom{
+    height: 7.4rem;
+    background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61), #111);
+}
+
+/* Responsive styling for smaller devices */
+@media (max-width: 1024px) {
+    .description {
+        width: 35rem; /* Decrease the width for tablets */
+        font-size: 0.95rem; /* Slightly smaller font size */
+    }
+}
+
+@media (max-width: 768px) {
+    .description {
+        width: 100%; /* Use full width for smaller screens */
+        font-size: 0.9rem; /* Adjust font size */
+        max-width: 100%; /* Ensure max-width is not limiting */
+        padding-right: 15px; /* Add some padding to avoid edge overflow */
+    }
+}
+
+@media (max-width: 480px) {
+    .description {
+        width: 100%; /* Full width for mobile */
+        font-size: 0.85rem; /* Further reduce font size */
+        max-width: 100%; /* Ensure it spans full width */
+        padding-right: 10px; /* Small padding for mobile */
+    }
+}
