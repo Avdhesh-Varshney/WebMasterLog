@@ -66,8 +66,6 @@ Start the server
 <!-- add the screenshot of the project (Mandatory) -->
 ![App Screenshot](https://github.com/user-attachments/assets/04080ffb-11cc-4ee8-a538-6e6820369b12)
 
-## :zap: Working Video 📹
-<!-- directly add the link of video (If, possible) -->
 
 
 
@@ -77,7 +75,7 @@ Start the server
 
 <h4 align='center'>Developed By <b><i>Hamzathul Favas E</i></b> 👦</h4>
 <p align='center'>
-  <a href='www.linkedin.com/in/hamzathul'>
+  <a href='https://www.linkedin.com/in/hamzathul'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
   </a>
   <a href='https://github.com/hamzathul'>
