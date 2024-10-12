@@ -1,0 +1,26 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    transition: background-color 0.3s ease; /* Smooth transition */
+    z-index: 1000;
+  }
+  
+  .logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  .avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    cursor: pointer;
+  }
+  

@@ -57,6 +57,7 @@
 |   30  | [Youtube Clone](./Intermediate/Youtube-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   31  | [Typing Speed Tracker](./Advanced/Typing-Speed-Tracker/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   32 | [Food Recipe App](./Advanced/Food-Recipe-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   33 | [Netflix Clone](./Intermediate/Netflix-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 

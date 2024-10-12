@@ -1,0 +1,181 @@
+.row {
+    position: relative; /* To position the arrows */
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px; /* Fixed width for the arrow */
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    transition: opacity 0.2s ease;
+    opacity: 0.8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.arrow:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+
+.arrow.left {
+    left: 0;
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent); */
+}
+
+.arrow.right {
+    right: 0;
+    /* background: linear-gradient(to left, rgba(0, 0, 0, 0.8), transparent); */
+}
+
+.arrow::before {
+    content: '';
+    border: solid white;
+    border-width: 0 5px 5px 0;
+    padding: 10px;
+    transform: rotate(45deg);
+    display: block;
+}
+
+.arrow.left::before {
+    transform: rotate(135deg);
+}
+
+.arrow.right::before {
+    transform: rotate(-45deg);
+}
+
+.poster-container {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px; /* Space between posters */
+}
+
+.poster,
+.smallPoster {
+    transition: transform 0.2s;
+}
+
+.poster {
+    max-height: 250px;
+    width: auto; /* Responsive width */
+}
+
+.smallPoster {
+    max-height: 150px;
+    width: auto; /* Responsive width */
+}
+
+.poster:hover,
+.smallPoster:hover {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.poster-container:hover .overlay {
+    opacity: 1;
+}
+
+.button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.button:hover {
+    color: black;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+
+.button-rowpost {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 5px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.button-rowpost:hover {
+    color: black;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .poster {
+        max-height: 200px; /* Adjust size for smaller screens */
+    }
+    .smallPoster {
+        max-height: 120px; /* Adjust size for smaller screens */
+    }
+    .arrow {
+        width: 40px; /* Reduce arrow width */
+    }
+}
+
+@media (max-width: 480px) {
+    .poster {
+        max-height: 150px; /* Further adjust for mobile */
+    }
+    .smallPoster {
+        max-height: 100px; /* Further adjust for mobile */
+    }
+    .button {
+        padding-left: 1rem; /* Adjust button padding */
+        padding-right: 1rem;
+    }
+}
