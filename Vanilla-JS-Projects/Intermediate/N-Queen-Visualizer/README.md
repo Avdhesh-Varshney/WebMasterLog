@@ -56,3 +56,14 @@ Contributions are welcome! Please follow these steps to contribute to this proje
 3. Commit your changes (git commit -m 'Add some feature').
 4. Push to the branch (git push origin feature/YourFeature).
 5. Open a Pull Request.
+
+## Screenshots
+
+![image](https://github.com/user-attachments/assets/b8187f8d-c9dc-4aba-8d60-70a3ff21f03e)
+
+![image](https://github.com/user-attachments/assets/31fddb61-90e7-4639-8d33-66dd552bdd75)
+
+https://github.com/user-attachments/assets/158578b8-81c2-46b8-bc90-c52e23d20c5b
+
+
+
