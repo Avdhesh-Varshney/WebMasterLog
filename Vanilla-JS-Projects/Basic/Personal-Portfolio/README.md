@@ -75,20 +75,22 @@
 
 ## :zap: Screenshots 📸
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/e949722a-9ec4-47a1-9960-babc67f188b2" alt="Portfolio Screenshot 1" width="70%"> 
+    <img src="https://github.com/user-attachments/assets/a915b3cb-26f5-443f-99de-3fee2f6fc9da" alt="Portfolio Screenshot 1" width="70%"> 
 </div>
 <div style="text-align: center;">
-  <img src="https://github.com/user-attachments/assets/9ebaeae1-bbc1-4952-baca-d96cd984c1f0" alt="Portfolio Screenshot 2" width="35%">
-    <img src="https://github.com/user-attachments/assets/06ced319-55b4-42b5-a737-ec90fb70cb28" alt="Portfolio Screenshot 3" width="35%">
+  <img src="https://github.com/user-attachments/assets/f8d3a0ed-d09e-4831-91bf-46c57615c503" alt="Portfolio Screenshot 2" width="35%">
+    <img src="https://github.com/user-attachments/assets/12fabdc8-967a-418b-bc11-518cfbf59da3" alt="Portfolio Screenshot 3" width="35%">
 </div>
 <div style="text-align: center;">
-   <img src="https://github.com/user-attachments/assets/5dbbb469-449c-428f-897b-617fd90d36ec" alt="Portfolio Screenshot 4" width="70%">
+   <img src="https://github.com/user-attachments/assets/3ac7ea96-f764-494f-bfd3-dfd882766c09" alt="Portfolio Screenshot 4" width="70%">
 </div>
 
 
 
 ## :zap: Working Video 📹
-https://github.com/user-attachments/assets/49976f5c-399e-4065-8a6b-47038922e373
+https://github.com/user-attachments/assets/cd85b1fc-2664-4c62-812f-3fc427a7027f
+
+
 
 
 
