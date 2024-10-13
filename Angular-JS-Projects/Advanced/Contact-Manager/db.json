@@ -1,34 +1,22 @@
 {
   "contacts": [
     {
-      "id": "a1b2",
-      "name": "Liam Harper",
-      "email": "liam.harper@example.com",
-      "phone": "698745231"
+      "id": "ac05",
+      "name": "John Doe",
+      "email": "jonhn@gmail.com",
+      "phone": "123456789"
     },
     {
-      "id": "d3e4",
-      "name": "Ava Bennett",
-      "email": "ava.bennett@example.com",
-      "phone": "690124567"
+      "id": "c548",
+      "name": "Mr Adam Shmitz",
+      "email": "shmitz@gmail.com",
+      "phone": "987654321"
     },
     {
-      "id": "f5g6",
-      "name": "Oliver Cooper",
-      "email": "oliver.cooper@example.com",
-      "phone": "691045678"
-    },
-    {
-      "id": "h7i8",
-      "name": "Emma Patterson",
-      "email": "emma.patterson@example.com",
-      "phone": "692345890"
-    },
-    {
-      "id": "j9k0",
-      "name": "Ethan Campbell",
-      "email": "ethan.campbell@example.com",
-      "phone": "693567123"
+      "id": "64d5",
+      "name": "Mouhamadou Awalou",
+      "email": "awalou@gmail.com",
+      "phone": "741852963"
     }
   ]
 }

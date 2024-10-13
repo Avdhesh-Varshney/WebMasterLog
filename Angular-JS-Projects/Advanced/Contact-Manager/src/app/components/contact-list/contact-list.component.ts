@@ -9,6 +9,7 @@ import { ContactService } from "../../services/contact.service";
 import { Contact } from "../../models/contact";
 import { CommonModule } from "@angular/common";
 import { EditContactComponent } from "../edit-contact/edit-contact.component";
+import { ToastrService } from "ngx-toastr";
 
 @Component({
   selector: "app-contact-list",
@@ -30,6 +31,11 @@ export class ContactListComponent implements OnInit, OnChanges {
 
   ngOnInit(): void {
     this.getAllTasks();
+    // Listens to whenever the contacts change
+    // so as to update the list, by getting the tasks
+    this.contactService.getModalEvent().subscribe(() => {
+      this.getAllTasks();
+    });
   }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -38,7 +44,10 @@ export class ContactListComponent implements OnInit, OnChanges {
     }
   }
 
-  constructor(private contactService: ContactService) {}
+  constructor(
+    private contactService: ContactService,
+    private notificationPopup: ToastrService
+  ) {}
 
   getAllTasks(): void {
     this.contactService.getAllContacts().subscribe(
@@ -53,15 +62,19 @@ export class ContactListComponent implements OnInit, OnChanges {
   }
 
   deleteContact(contact: Contact): void {
-    this.contactService.deleteContact(contact).subscribe(
-      (res) => {
-        console.log(res);
-        window.location.reload();
+    this.contactService.deleteContact(contact).subscribe({
+      next: (response) => {
+        this.notificationPopup.success(
+          "Contact deleted successfully",
+          "Success!"
+        );
+        this.getAllTasks();
       },
-      (err) => {
+      error: (err) => {
+        this.notificationPopup.error("An Error Occured", "Error!");
         console.log(err);
-      }
-    );
+      },
+    });
   }
 
   searchContacts(): void {

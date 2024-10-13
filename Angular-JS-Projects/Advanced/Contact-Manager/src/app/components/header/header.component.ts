@@ -13,6 +13,7 @@ import { FormsModule } from "@angular/forms";
 export class HeaderComponent {
   isNewContactModalOpen: boolean = false;
   @Output() searchChanged = new EventEmitter<string>();
+  @Output() newContactAdded = new EventEmitter();
   searchQuery: string = "";
 
   toggleNewContactModal(toggle: boolean): void {
@@ -22,5 +23,9 @@ export class HeaderComponent {
 
   onSearchChange(): void {
     this.searchChanged.emit(this.searchQuery);
+  }
+
+  onAddNewContact(): void {
+    this.newContactAdded.emit();
   }
 }

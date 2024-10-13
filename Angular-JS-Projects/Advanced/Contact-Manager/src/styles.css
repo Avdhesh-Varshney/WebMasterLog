@@ -24,3 +24,8 @@ html, body { height: 100%; width: 100%; background-image: url('./assets/images/b
   background-position: center center;
   background-repeat: no-repeat; 
 }
+
+
+.toast-top-center {
+  top: 15px !important;
+}

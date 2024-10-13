@@ -1,4 +1,3 @@
-
 <h1 align='center'><b>💥 CONTACT MANAGER 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
@@ -13,15 +12,14 @@
   <img src="https://img.shields.io/badge/typescipt-darkblue?style=for-the-badge&logo=typescript&logoColor=white)" />
 </div>
 
-
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Description 📃
 
-- This is an contact manager web application which allowed users to view, add, edit, delete and search contact details (name, phone and email).
-  
+- This is an contact manager web application which allowed users to view, add, edit, delete and search contact details (name, phone and email). Users are notified with the use of a popup alert after every operation.
+
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: How to run it? 🕹️
@@ -62,19 +60,9 @@ ng serve
 
 8. Open a web browser and go to `http://localhost:4200/` to see the Contact manager running.
 
-
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Screenshots 📸
-
-
-![contact management app](https://github.com/user-attachments/assets/4cce9544-fff4-4edc-87df-72d110d0bd9f)
-![noContactFound](https://github.com/user-attachments/assets/0a2d55bb-6152-4656-ad86-b0d536949179)
-![newContact](https://github.com/user-attachments/assets/0d2c862e-1d69-4793-8c7f-0cf7198e1684)
-![mobileView](https://github.com/user-attachments/assets/0b84f5d7-43a4-4c59-b858-83d35f125db7)
-
-
-![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
