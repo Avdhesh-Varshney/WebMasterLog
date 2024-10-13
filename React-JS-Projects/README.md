@@ -56,7 +56,8 @@
 |   29  | [Tutoring Website](./Advanced/Tutoring-Website/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 |   30  | [Youtube Clone](./Intermediate/Youtube-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |   31  | [Typing Speed Tracker](./Advanced/Typing-Speed-Tracker/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   32 | [Food Recipe App](./Advanced/Food-Recipe-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   32  | [Food Recipe App](./Advanced/Food-Recipe-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+|   33  | [Maths Practice Website](./Intermediate//Maths-Practice-Website/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 
 </div>
 
