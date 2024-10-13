@@ -121,9 +121,11 @@
 |  94   | [Movie-App](./Intermediate/Movie-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  95   | [Meme-Creator](./Intermediate/Meme-Creator/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
 |  96   | [Github-Profile-Viewer](./Intermediate/Github-Profile-Viewer/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|  97  | [Qr-Code-Generator](./Basic/Qr-Code-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|  98  | [Amazon-Clone](./Intermediate/Amazon-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|  99  | [Personal-Portfolio](./Basic/Personal-Portfolio/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  97   | [Qr-Code-Generator](./Basic/Qr-Code-Generator/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  98   | [Amazon-Clone](./Intermediate/Amazon-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|  99   | [Travel-App](./Basic/Travel-App/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+|  100  | [Personal Portfolio](./Basic/Personal-Portfolio/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+
 </div>
 
 
