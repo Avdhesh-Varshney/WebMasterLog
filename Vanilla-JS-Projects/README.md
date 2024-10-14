@@ -225,12 +225,6 @@
 | [Zomato Clone](./Intermediate/Zomato-Clone) |  |  |
 
 
-#### :zap: Row 19
-
-| <img src="./Intermediate/N-Queen-Visualizer/screenshot.webp" width="300px" height="180px"> |  |  |
-|:--:|:--:|:--:|
-| [N Queen Visualizer](./Intermediate/N-Queen-Visualizer/) |  |  |
-
 ---
 <!-- ###################################################################################################################### -->
 <!-- ###################################################################################################################### -->
@@ -261,6 +255,11 @@
 |:--:|:--:|:--:|
 | [Vocabulary Builder](./Advanced/Vocabulary-Builder) |  |  |
 
+#### :zap: Row 5
+
+| <img src="./Advanced/N-Queen-Visualizer/screenshot.webp" width="300px" height="180px"> |  |  |
+|:--:|:--:|:--:|
+| [N Queen Visualizer](./Advanced/N-Queen-Visualizer/) |  |  |
 
 </div>
 
