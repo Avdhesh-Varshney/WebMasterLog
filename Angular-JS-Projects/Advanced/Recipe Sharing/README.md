@@ -32,10 +32,14 @@ This is a Recipe Sharing web application that allows users to view, add, edit, d
 
 * * *
 
-#### Developed By **_YOUR NAME_** 👩
+#### Developed By **Mehul P** 👩
 
- (https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](mehul-m-prajapati)
-
+<h4 align='center'>Developed By <b><i>Mehul Prajapati</i></b> 👦</h4>
+<p align='center'>
+  <a href='https://github.com/mehul-m-prajapati'>
+    <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
+  </a>
+</p>
 #### Happy Cooking! 🍳
 
 ### Show some  ❤️  by  🌟  this repository!
