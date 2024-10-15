@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport content="width=device-width,initial-scale=1.0">
+    <title>Protolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html" class="logo"><span>P</span>ortfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+         <a href="#home">Home</a>
+         <a href="#about">About</a>
+         <a href="#projects">Projects</a>
+         <a href="#contact">Contact</a>
+       </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Jomana</span> Tantawy</h1>
+            <h3>I'm a <span>Computer Science and Engineering</span> undergraduate in <span>GUC</span></h3>
+            <p>I am a Computer Science and Engineering student at The German University in Cairo, focused on software development and programming. I have a strong background in Java, Python, SQL, and various frameworks. I enjoy creating innovative solutions and have experience building dynamic applications and contributing to open-source projects. I love taking on challenges and want to use my skills to create software that makes a difference.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+                <a href="https://github.com/JomanaMahmoud">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://x.com">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com">
+                    <i class="bx bxl-instagram-alt"></i>
+                </a>
+            </div>
+            <div class="buttons">
+                <a href="#contact" class="button">Contact me</a>
+                <a href="#contact" class="button">Hire me</a>
+            </div>
+        </div>
+        <div class="img">
+            <img src="picture.jpg" alt="Personal Image">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="picture.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I’m currently a 5th-semester Computer Science and Engineering student at The German University in Cairo, with a deep passion for problem-solving and innovative software development. Over the past few years, I've honed my skills in Java, Python, and SQL, among other languages and frameworks, through various projects and coursework.
+
+                I’ve built dynamic applications, contributed to open-source projects, and explored different areas of software engineering, such as mobile app development, game design, and system simulations. These experiences have not only strengthened my technical skills but also fueled my curiosity and passion for creating impactful software.
+                
+                Beyond coding, I enjoy collaborating with others, learning new technologies, and taking on challenges that push me to grow as a developer. My goal is to continue expanding my knowledge and contribute to projects that bring real-world solutions to everyday problems.
+            </p>
+            <p id="more-content" style="display: none;">Outside of work, I enjoy watching Harry Potter movies, getting lost in the magical world of Hogwarts. I also like watching Turkish series, appreciating the rich storytelling and cultural nuances. When I'm not on screen, I find peace in crocheting, creating handmade items and experimenting with different patterns.
+            </p>
+            <a href="javascript:void(0);" onclick="showMore();" class="button">Read More</a>
+            
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="projects-box">
+            <div class="card">
+            <img src="project1.png" alt="">
+            <h3>Project 1</h3>
+            <p>Project 1 description</p>
+            <a href="https://github.com/JomanaMahmoud/">
+                 <div class="button">View repository</div>
+            </a>
+            </div>
+            <div class="card">
+                <img src="project2.avif" alt="">
+                <h3>Project 2</h3>
+                <p>Project 2 description</p>
+                <a href="https://github.com/JomanaMahmoud/">
+                    <div class="button">View repository</div>
+                </a>
+            </div> 
+            <div class="card">
+                <img src="project3.jpg" alt="">
+                <h3>Project 3</h3>
+                <p>Project 3 description</p>
+                <a href="https://github.com/JomanaMahmoud/">
+                   <div class="button">View repository</div>
+                </a>
+            </div> 
+        </div> 
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>me</span> </h2>
+        <form action="">
+            <div class="input-box">
+                <div class="input">
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Subject"> 
+                </div>
+                <div class="input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" class="button">
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com">
+                <i class="bx bxl-linkedin-square"></i>
+            </a>
+            <a href="https://github.com/JomanaMahmoud">
+                <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://x.com">
+                <i class="bx bxl-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com">
+                <i class="bx bxl-instagram-alt"></i>
+            </a>
+        </div>
+        <ul class="list">
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact me</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            &copy; 2024 Jomana Tantawy. All rights reserved.
+        </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
