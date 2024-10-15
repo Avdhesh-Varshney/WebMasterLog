@@ -1,19 +1,27 @@
-**🍽️ RECIPE SHARING APP 🍽️**
-==============================
 
-### Tech Stack Used 🎮
+<h1 align='center'><b>💥 RECIPE SHARING APP💥</b></h1>
 
-![](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5&logoColor=white) ![](https://img.shields.io/badge/angular-purple?style=for-the-badge&logo=angular&logoColor=white) ![](https://img.shields.io/badge/tailwind-blue?style=for-the-badge&logo=tailwindcss&logoColor=white) ![](https://img.shields.io/badge/typescript-darkblue?style=for-the-badge&logo=typescript&logoColor=white)
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+<h3 align='center'>Tech Stack Used 🎮</h3>
+<!-- enlist all the technologies used to create this project from them (Remove comment using 'ctrl+z' or 'command+z') -->
 
-* * *
+<div align='center'>
 
-### Description 📃
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white)
 
-This is a Recipe Sharing web application that allows users to view, add, edit, delete, and search for delicious recipes (title, ingredients, and instructions).
+</div>
 
-* * *
+## :zap: Description 📃
 
-### How to run it? 🕹️
+<div>
+    <p>
+This is a Recipe Sharing web application that allows users to view, add, edit, delete, and search for delicious recipes (title, ingredients, and instructions).</p>
+</div>
+
+## :zap: How to run it? 🕹️
 
 1.  Fork the repository.
 2.  Clone the project: `git clone repository-url`
@@ -23,13 +31,12 @@ This is a Recipe Sharing web application that allows users to view, add, edit, d
 
 * * *
 
-### Screenshots 📸
+## :zap: Screenshots 📸
+<img src="./screenshot.webp"/>
 
-![](./screenshot.webp)
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
-* * *
-
-#### Developed By **Mehul P** 👩
+<!-- -------------------------------------------------------------------------------------------------------------- -->
 
 <h4 align='center'>Developed By <b><i>Mehul Prajapati</i></b> 👦</h4>
 <p align='center'>
@@ -38,4 +45,6 @@ This is a Recipe Sharing web application that allows users to view, add, edit, d
   </a>
 </p>
 
-### Show some  ❤️  by  🌟  this repository!
+<h4 align='center'>Happy Coding 🧑‍💻</h4>
+
+<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
