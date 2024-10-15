@@ -1,69 +1,67 @@
-# N-Queens Visualiser
+<h1 align='center'><b>💥 N-Queens Visualiser 💥</b></h1>
 
-Welcome to the **N-Queens Visualiser**! This web application allows you to visualize the classic N-Queens problem, where the objective is to place N queens on an N x N chessboard such that no two queens threaten each other. This is achieved by ensuring that no two queens share the same row, column, or diagonal.
+<!-- -------------------------------------------------------------------------------------------------------------- -->
 
-## Table of Contents
+<h3 align='center'>Tech Stack Used 🎮</h3>
+<!-- enlist all the technologies used to create this project from them (Remove comment using 'ctrl+z' or 'command+z') -->
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [License](#license)
+<div align='center'>
 
-## Features
+ ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-- Interactive visualization of the N-Queens problem
-- Ability to input the number of queens (up to 8)
-- Slider for controlling the speed of visualization
-- Displays all possible arrangements of queens for the given input
-- Responsive design for both desktop and mobile
-
-## Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-- [Font Awesome](https://fontawesome.com/) for icons
-
-## Getting Started
-
-To get a local copy up and running follow these simple steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/N-Queens-Visualiser.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd N-Queens-Visualiser
-   ```
-3. Open index.html in your web browser.
-
-## How to Use
-1. Enter the number of queens you want to place on the chessboard in the input field.
-2. Use the slider to adjust the speed of the visualization.
-3. Click the Play button to start the visualization.
-4. You can stop the visualization at any time.
+</div>
 
 
-## Contributing
-Contributions are welcome! Please follow these steps to contribute to this project:
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+## :zap: Description 📃
+
+<div>
+  <!-- <p>Add Description of the project</p> -->
+    <p>Welcome to the **N-Queens Visualiser**! This web application allows you to visualize the classic N-Queens problem, where the objective is to place N queens on an N x N chessboard such that no two queens threaten each other. This is achieved by ensuring that no two queens share the same row, column, or diagonal.</p>
+</div>
+
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+## :zap: How to run it? 🕹️
+
+<!-- Add steps how to run this project -->
+To run this project locally, follow these steps:
 
 1. Fork the repository.
-2. Create a new branch (git checkout -b feature/YourFeature).
-3. Commit your changes (git commit -m 'Add some feature').
-4. Push to the branch (git push origin feature/YourFeature).
-5. Open a Pull Request.
 
-## Screenshots
+2. Clone the repository to your local computer:
+    git clone https://github.com/Shariq2003/N-Queen-Visualiser.git
 
-![image](https://github.com/user-attachments/assets/b8187f8d-c9dc-4aba-8d60-70a3ff21f03e)
-
-![image](https://github.com/user-attachments/assets/31fddb61-90e7-4639-8d33-66dd552bdd75)
-
-https://github.com/user-attachments/assets/158578b8-81c2-46b8-bc90-c52e23d20c5b
+3. Open the project folder in your preferred code editor, now you can view website in live.
 
 
 
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+## :zap: Screenshots 📸
+<!-- add the screenshot of the project (Mandatory) -->
+
+<img src='./screenshot.webp'>
+
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+<h4 align='center'>Developed By <b><i>Shariq</i></b> 👦</h4>
+<p align='center'>
+  <a href='https://www.linkedin.com/in/shariq-sd'>
+    <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
+  </a>
+  <a href='https://github.com/Shariq2003'>
+    <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
+  </a>
+</p>
+
+<h4 align='center'>Happy Coding 🧑‍💻</h4>
+
+<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
