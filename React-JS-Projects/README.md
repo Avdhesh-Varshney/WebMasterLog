@@ -92,9 +92,9 @@
 
 #### :zap: Row 4
 
-| <img src="./Advanced/Tutoring-Website/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Typing-Speed-Tracker/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="./Advanced/Tutoring-Website/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Typing-Speed-Tracker/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Sudoku-Solver/screenshot.webp" width="300px" height="180px" /> |
 |:--:|:--:|:--:|
-| [Tutoring Website](./Advanced/Tutoring-Website) | [Typing Speed Tracker](./Advanced/Typing-Speed-Tracker) |  |
+| [Tutoring Website](./Advanced/Tutoring-Website) | [Typing Speed Tracker](./Advanced/Typing-Speed-Tracker) | [Sudoku Solver](./Advanced/Sudoku-Solver/) |
 
 </div>
 
