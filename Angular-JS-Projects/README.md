@@ -26,9 +26,9 @@
 
 #### :zap: Row 1
 
-| <img src="./Intermediate/Train-Website/screenshot.webp" width="300px" height="180px"> |  |  |
+| <img src="./Intermediate/Train-Website/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Recipe-Sharing/screenshot.webp" width="300px" height="180px"> |  |
 |:--:|:--:|:--:|
-| [Train Website](./Intermediate/Train-Website) |  |  |
+| [Train Website](./Intermediate/Train-Website) | [Recipe Sharing](./Intermediate/Recipe-Sharing) |  |
 
 ---
 <!-- ###################################################################################################################### -->
@@ -38,9 +38,9 @@
 
 #### :zap: Row 1
 
-| <img src="./Advanced/Contact-Manager/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Recipe-Sharing/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="./Advanced/Contact-Manager/screenshot.webp" width="300px" height="180px"> |  |  |
 |:--:|:--:|:--:|
-| [Contact Manager](./Advanced/Contact-Manager) | [Recipe Sharing](./Advanced/Recipe-Sharing) | |
+| [Contact Manager](./Advanced/Contact-Manager) | | |
 </div>
 
 
