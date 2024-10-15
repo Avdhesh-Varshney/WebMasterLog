@@ -29,3 +29,7 @@ This project is a clone of the Razorpay website, built to replicate its design a
 ## ⚡ Screenshots 📸
 
 ![alt text](image.png)
+
+## ⚡ Working Video 📹
+
+<video controls src="bandicam 2024-10-15 14-42-12-192.mp4" title="Working Video"></video>

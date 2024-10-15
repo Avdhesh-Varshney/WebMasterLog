@@ -74,15 +74,16 @@
 
 #### :zap: Row 5
 
+| <img src="./Intermediate//Razorpay-Clone/screenshot.webp" width="300px" height="180px"> |  |  |
+|:--:|:--:|:--:|
+| [RazorPay Clone](./Intermediate/Razorpay-Clone/) |  |  |
+
+#### :zap: Row 6
+
 | <img src="./Intermediate/Spotify-Clone/screenshot.webp" width="300px" height="180px"> |  |  |
 |:--:|:--:|:--:|
 | [Spotify Clone](./Intermediate/Spotify-Clone) |  |  |
 
-#### :zap: Row 6
-
-| <img src="./Intermediate//Razorpay-Clone/screenshot.webp" width="300px" height="180px"> |  |  |
-|:--:|:--:|:--:|
-| [RazorPay Clone](./Intermediate/Razorpay-Clone/) |  |  |
 
 ---
 <!-- ###################################################################################################################### -->
