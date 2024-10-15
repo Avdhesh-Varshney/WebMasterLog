@@ -14,7 +14,7 @@
 
 #### :zap: Row 1
 
-| <img src="./Basic/Quick-Notes/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Task-Manager/screenshot.webp" width="300px" height="180px"> |  |    
+| <img src="./Basic/Quick-Notes/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Task-Manager/screenshot.webp" width="300px" height="180px"> |  |
 |:--:|:--:|:--:|
 | [Quick Notes](./Basic/Quick-Notes) | [Task Manager](./Basic/Task-Manager) |  |
 
@@ -41,7 +41,7 @@
 | <img src="./Advanced/Contact-Manager/screenshot.webp" width="300px" height="180px"> |  |  |
 |:--:|:--:|:--:|
 | [Contact Manager](./Advanced/Contact-Manager) |  |  |
-
+| [Recipe Sharing](./Advanced/Recipe Sharing) |  |  |
 
 </div>
 
