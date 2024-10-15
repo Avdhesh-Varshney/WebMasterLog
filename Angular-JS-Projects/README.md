@@ -40,9 +40,7 @@
 
 | <img src="./Advanced/Contact-Manager/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Contact-Manager/screenshot.webp" width="300px" height="180px"> |  |
 |:--:|:--:|:--:|
-| [Contact Manager](./Advanced/Contact-Manager) |  |  |
-| [Recipe Sharing](./Advanced/'Recipe Sharing') |  |  |
-
+| [Contact Manager](./Advanced/Contact-Manager) | [Recipe Sharing](./Advanced/'Recipe Sharing') |
 </div>
 
 
