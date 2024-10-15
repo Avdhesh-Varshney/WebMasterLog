@@ -28,7 +28,7 @@ This is a Recipe Sharing web application that allows users to view, add, edit, d
 
 ### Screenshots 📸
 
-![](./images/image01.png) ![](./images/image02.png) ![](./images/image03.png) ![](./images/image04.png) ![](./images/image05.png)
+![](./screenshot.webp)
 
 * * *
 
