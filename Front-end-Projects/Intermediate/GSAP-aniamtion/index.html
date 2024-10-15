@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gsap - 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/469fbaf61b.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js" integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <a href="../index.html" class="back">
+        <i class="fa-solid fa-arrow-left"></i>
+    </a>
+    <div class="container">
+
+        <div class="stripes">
+            <div class="line-one"></div>
+            <div class="line-two"></div>
+        </div>
+
+        <nav>
+            <div class="logo">
+                <span>Omega</span>
+            </div>
+            <ul>
+                <li><a href="">collection</a></li>
+                <li><a href="">products</a></li>
+                <li><a href="">offer</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <div class="img">
+            <img src="img/watch.png" alt="">
+        </div>
+
+        <div class="title">
+            <p>speedmaster</p>
+            <span>Moonwatch.</span>
+        </div>
+
+        <div class="btn">
+            <a href="">Order Now</a>
+        </div>
+
+        <div class="year">2022*</div>
+
+        <div class="media">
+            <ul>
+                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><i class="fa-brands fa-instagram"></i></li>
+                <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+        </div>
+
+    </div>    
+
+    
+    <script>
+        TweenMax.from(".logo",1,{
+            opacity:0,
+            x:-20,
+            ease:Expo.easeInOut,
+        })
+
+        TweenMax.staggerFrom("nav ul li", 1, {
+            opacity: 0,
+            x: -20,
+            ease:Power3.easeInOut,
+        }, 0.1)
+        
+        TweenMax.from(".search", 1, {
+            opacity: 0,
+            delay: 0.5,
+            x: -20,
+            ease:Expo.easeInOut,
+        })
+
+        TweenMax.from(".menu", 1, {
+            opacity: 0,
+            delay: 0.6,
+            x: -20,
+            ease:Expo.easeInOut,
+        })
+
+        TweenMax.from(".title", 1, {
+            opacity: 0,
+            delay: 1,
+            y: 20,
+            ease:Expo.easeInOut,
+        })
+
+        TweenMax.from(".btn", 1, {
+            opacity: 0,
+            delay: 1.6,
+            y: 20,
+            ease:Expo.easeInOut,
+        })
+        
+        TweenMax.from(".line-one", 1, {
+            opacity: 0,
+            delay: 2,
+            y: -1000,
+            ease:Expo.easeInOut,
+        })
+
+        TweenMax.from(".line-two", 1, {
+            opacity: 0,
+            delay: 2.5,
+            y: -1000,
+            ease:Expo.easeInOut,
+        })
+
+        TweenMax.from(".img", 2, {
+            opacity: 0,
+            delay: 2.9,
+            y: -1000,
+            ease:Expo.easeInOut,
+        })
+
+        TweenMax.from(".year", 1, {
+            opacity: 0,
+            delay: 1.4,
+            y: -20,
+            ease:Expo.easeInOut,
+        })
+        
+        TweenMax.staggerFrom(".media ul li", 2, {
+            opacity: 0,
+            delay: 3.2,
+            y: 40,
+            ease:Expo.easeInOut,
+        }, 0.2)
+
+    </script>
+</body>
+</html>
