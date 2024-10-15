@@ -7,37 +7,54 @@
 <div align="center">
 
 ## :zap: Available Projects 🎉
-<!-- Rules to Add project are as follows:
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
 
-1. Attach the project name as shown below or you can refer from the README file of Vanilla-JS.
-[To Do List](./Basic/To-Do-List)
+![Basic Level](https://img.shields.io/badge/Level-Basic-00FF00?style=for-the-badge&logo=codeigniter)
 
-2. If alignment is distorted, i will manage it. You have just added you project here according to serial number. 
+#### :zap: Row 1
 
-3. Add the category of the project using the provided links below here, according to your project.
+| <img src="./Basic/Crud-Operations/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Headline-Hub/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Infinite-Scrolling/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Crud Operations](./Basic/Crud-Operations) | [Headline Hub](./Basic/Headline-Hub) | [Infinite Scrolling](./Basic/Infinite-Scrolling) |
 
-![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) 
-![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) 
-![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) 
+---
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
 
--->
+![Intermediate Level](https://img.shields.io/badge/Level-Intermediate-FFD700?style=for-the-badge&logo=codeigniter)
+
+#### :zap: Row 1
+
+| <img src="./Intermediate/Gmail-Nodemailer/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/JWT-Authenticator-With-Roles/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Url-Scraper/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Gmail Nodemailer](./Intermediate/Gmail-Nodemailer) | [JWT Authenticator With Roles](./Intermediate/JWT-Authenticator-With-Roles) | [Url Scraper](./Intermediate/Url-Scraper) |
+
+#### :zap: Row 2
+
+| <img src="./Intermediate/YouTube-Video-Downloader/screenshot.webp" width="300px" height="180px"> |  |  |
+|:--:|:--:|:--:|
+| [YouTube Video Downloader](./Intermediate/YouTube-Video-Downloader) |  |  |
+
+---
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
+
+![Advanced Level](https://img.shields.io/badge/Level-Advanced-FF0000?style=for-the-badge&logo=codeigniter)
+
+#### :zap: Row 1
+
+| <img src="./Advanced/Blog-Platform/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Cooking-Blog/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Docx-To-Pdf-Converter/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Blog Platform](./Advanced/Blog-Platform) | [Cooking Blog](./Advanced/Cooking-Blog) | [Docx To Pdf Converter](./Advanced/Docx-To-Pdf-Converter) |
+
+#### :zap: Row 2
+
+| <img src="./Advanced/E-Commerce/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Url-Shortener/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/User-Registration-System/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [E Commerce](./Advanced/E-Commerce) | [Url Shortener](./Advanced/Url-Shortener) | [User Registration System](./Advanced/User-Registration-System) |
 
 
-| S.No  | Project Name | Category |
-|-------|--------------|----------|
-|   1   | [JWT Authenticator With Roles](./Intermediate/JWT-Authenticator-With-Roles) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   2   | [Infinite Scrolling](./Basic/Infinite-Scrolling) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   3   | [CRUD Operations](./Basic/Crud-Operations) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   4   | [YouTube Video Downloader](./Intermediate/YouTube-Video-Downloader) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   5   | [Url Shortener](./Advanced/Url-Shortener) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   6   | [Blog Platform](./Advanced/Blog-Platform) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   7   | [Headline Hub](./Basic/Headline-Hub) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   8   | [URL Scraper](./Intermediate/Url-Scraper) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   9   | [E COMMERCE](./Advanced/E-Commerce) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   10   | [Cooking Blog](./Advanced/Cooking-Blog) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   11  | [Docx To Pdf Converter](./Advanced/Docx-To-Pdf-Converter) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|  12   |[Nodemailer Contact Form ](./Intermediate/Gmail-Nodemailer/app.js) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge)|
-|   13   | [User Registration System](./Advanced/User-Registration-System) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
 </div>
 
 
@@ -46,4 +63,5 @@
 <div align="center">
 	<h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
 </div>
-<a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
+
+<a href="#top"><img src="https://img.shields.io/badge/⬆-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
