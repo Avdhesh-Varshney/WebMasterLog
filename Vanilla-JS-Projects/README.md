@@ -251,15 +251,9 @@
 
 #### :zap: Row 4
 
-| <img src="./Advanced/N-Queen-Visualizer/screenshot.webp" width="300px" height="180px"> |  |  |
+| <img src="./Advanced/Vocabulary-Builder/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/N-Queen-Visualizer/screenshot.webp" width="300px" height="180px"> |  |
 |:--:|:--:|:--:|
-| [N Queen Visualizer](./Advanced/N-Queen-Visualizer/) |  |  |
-
-#### :zap: Row 5
-
-| <img src="./Advanced/Vocabulary-Builder/screenshot.webp" width="300px" height="180px"> |  |  |
-|:--:|:--:|:--:|
-| [Vocabulary Builder](./Advanced/Vocabulary-Builder) |  |  |
+| [Vocabulary Builder](./Advanced/Vocabulary-Builder) | [N Queen Visualizer](./Advanced/N-Queen-Visualizer/) |  |  |
 
 
 </div>
