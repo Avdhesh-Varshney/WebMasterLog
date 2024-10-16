@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --header-height: 92px;
+  --white: #fff;
+  --grey-light: #f5f7fa;
+  --grey: #cfcfcf;
+
+  --black: #000;
+  --blue-dark: #002970;
+  --blue: #0d3e80;
+  --light-blue: #00baf2;
+  --light-blue-2: #00afe3;
+  --radius: 4px;
+  --radius-2: 20px;
+  --shadow: 0 5px 20px rgb(0 41 112 / 10%);
+
+  --width: 1260px;
+  --width-2: 1170px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  font-size: 62.5%;
+}
+
+.download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 4.4rem;
+  padding: 0 2.4rem;
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--black);
+  border-radius: 50px;
+  width: max-content;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.download-btn:hover {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.download-btn a {
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.download-btn a svg {
+  margin-left: 1.2rem;
+  fill: var(--white);
+  transition: fill 0.2s ease;
+}
+
+.download-btn:hover a svg {
+  fill: var(--black);
+}
+
+.secondary-btn {
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  font-size: 1.7rem;
+  font-weight: 500;
+  width: fit-content;
+  padding: 1.6rem 2.4rem;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: var(--blue-dark);
+  transition: background-color 0.2s ease;
+}
+
+.secondary-btn:hover {
+  background-color: var(--light-blue);
+}
+
+.secondary-btn img {
+  margin-left: 1.1rem;
+  height: 1.8rem;
+}
