@@ -64,6 +64,12 @@ ng serve
 
 ## :zap: Screenshots 📸
 
+<img src="./images/image01.png">
+<img src="./images/image02.png">
+<img src="./images/image03.png">
+<img src="./images/image04.png">
+<img src="./images/image05.png">
+
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 <h4 align='center'>Developed By <b><i>DHARSHI B.</i></b> 👩</h4>
