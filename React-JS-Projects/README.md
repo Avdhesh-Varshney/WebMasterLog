@@ -62,7 +62,7 @@
 
 #### :zap: Row 6
 
-| <img src="./Intermediate/Youtube-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Video-Hub/screenshort.webp" width="300px" height="180px"> |  |
+| <img src="./Intermediate/Youtube-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Video-Hub/screenshot.webp" width="300px" height="180px"> |  |
 |:--:|:--:|:--:|
 | [Youtube Clone](./Intermediate/Youtube-Clone) | [Video Hub](./Intermediate/Video-Hub) |  |
 
