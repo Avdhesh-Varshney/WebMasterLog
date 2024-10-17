@@ -58,7 +58,7 @@ const ProjectCard = ({ key, projectDir, projectSubdir, project }: { key: number,
       <CardContent className="flex justify-center items-center">
         <div className="relative w-full h-48 group">
           <Image
-            src={`https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/${projectDir}/${projectSubdir}/${project}/screenshot.webp` || `/photo-not-available.webp`}
+            src={`https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/${projectDir}/${projectSubdir}/${project}/screenshot.webp`}
             alt={project}
             width={300}
             height={280}
@@ -66,7 +66,6 @@ const ProjectCard = ({ key, projectDir, projectSubdir, project }: { key: number,
             className="w-full h-full object-cover"
           />
 
-          {/* Button that appears on hover */}
           <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <button
               onClickCapture={() => router.push(`${pathname}/${projectSubdir.toLowerCase()}/${project.toLowerCase()}`)}
