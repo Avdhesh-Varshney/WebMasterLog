@@ -6,7 +6,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const ProjectCard = ({ key, projectDir, projectSubdir, project }: { key: number, projectDir: string, projectSubdir: string, project: string }) => {
+const ProjectCard = ({ key, projectPath }: { key: number, projectPath: string }) => {
+  const [projectDir, projectSubdir, project] = [projectPath.split('/')[3], projectPath.split('/')[4], projectPath.split('/')[5]];
   const router = useRouter();
   const pathname = usePathname();
   const [name, setName] = React.useState('');
