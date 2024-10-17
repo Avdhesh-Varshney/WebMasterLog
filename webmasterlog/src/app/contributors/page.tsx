@@ -27,7 +27,7 @@ interface Contributor {
 }
 
 const Contributors = () => {
-  const URL = 'https://api.github.com/repos/Avdhesh-Varshney/WebMasterLog/contributors?per_page=500';
+  const URL = `${process.env.NEXT_PUBLIC_GITHUB_API_URL}/contributors?per_page=500`;
   const [contributors, setContributors] = useState<Contributor[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<null | string>(null);
@@ -52,7 +52,6 @@ const Contributors = () => {
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
-  console.log(contributors[0])
 
   return (
     <div className="bg-[#191c24] p-4 rounded-lg my-2">

@@ -6,7 +6,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const ProjectCard = ({ key, projectDir, projectSubdir, project }: { key: number, projectDir: string, projectSubdir: string, project: string }) => {
+const ProjectCard = ({ key, projectPath }: { key: number, projectPath: string }) => {
+  const [projectDir, projectSubdir, project] = [projectPath.split('/')[3], projectPath.split('/')[4], projectPath.split('/')[5]];
   const router = useRouter();
   const pathname = usePathname();
   const [name, setName] = React.useState('');
@@ -18,7 +19,7 @@ const ProjectCard = ({ key, projectDir, projectSubdir, project }: { key: number,
     const fetchData = async (project: string) => {
       try {
         const response = await fetch(
-          `https://api.github.com/repos/Avdhesh-Varshney/WebMasterLog/commits?path=${projectDir}/${projectSubdir}/${project}&per_page=50`,
+          `${process.env.NEXT_PUBLIC_GITHUB_API_URL}/commits?path=${projectDir}/${projectSubdir}/${project}&per_page=50`,
           {
             next: {
               revalidate: 86400,
@@ -49,7 +50,7 @@ const ProjectCard = ({ key, projectDir, projectSubdir, project }: { key: number,
       <CardHeader>
         <CardTitle className="text-white">{project.replace(/-/g, ' ')}</CardTitle>
         <CardDescription>
-          <Link href={`https://github.com/Avdhesh-Varshney/WebMasterLog/raw/main/${projectDir}/${projectSubdir}/${project}`}>
+          <Link href={`${process.env.NEXT_PUBLIC_GITHUB_MAIN_BRANCH_URL}/${projectDir}/${projectSubdir}/${project}`}>
             {`${projectSubdir}/${project}`}
           </Link>
         </CardDescription>
@@ -58,7 +59,7 @@ const ProjectCard = ({ key, projectDir, projectSubdir, project }: { key: number,
       <CardContent className="flex justify-center items-center">
         <div className="relative w-full h-48 group">
           <Image
-            src={`https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/${projectDir}/${projectSubdir}/${project}/screenshot.webp`}
+            src={`${process.env.NEXT_PUBLIC_GITHUB_MAIN_BRANCH_RAW_URL}/${projectDir}/${projectSubdir}/${project}/screenshot.webp`}
             alt={project}
             width={300}
             height={280}
