@@ -1,12 +1,14 @@
+'use server';
+
 import ProjectCard from '../../components/shared/ProjectCard';
 import React from 'react';
 import fs from 'fs';
 
 const Project = ({ params }: { params: { projectDomain: string } }) => {
-  const rootDirFiles = fs.readdirSync('.././');
+  const rootDirFiles = fs.readdirSync('./../');
   const rootDirProjects = rootDirFiles.filter(project => project.includes('-Projects'));
   const projectDir = rootDirProjects.find(project => project.replace('-Projects', '').replace('-', '').toLowerCase() == params.projectDomain);
-  const projectFiles = fs.readdirSync(`.././${projectDir}`);
+  const projectFiles = fs.readdirSync(`./../${projectDir}`);
 
   const levels = [
     { level: 'Basic', projects: projectFiles.filter(project => project.includes('Basic')) },
@@ -18,7 +20,7 @@ const Project = ({ params }: { params: { projectDomain: string } }) => {
     if (!projectSubdir) return null;
     return (
       <div key={level} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {fs.readdirSync(`.././${projectDir}/${projectSubdir}`).map((project, key) => (
+        {fs.readdirSync(`./../${projectDir}/${projectSubdir}`).map((project, key) => (
           <ProjectCard key={key} projectDir={projectDir} projectSubdir={projectSubdir} project={project} />
         ))}
       </div>
