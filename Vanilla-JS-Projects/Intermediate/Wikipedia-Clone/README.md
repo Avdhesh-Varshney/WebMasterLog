@@ -50,7 +50,7 @@
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h4 align='center'>Developed By <b><i>Heli Detroja</i></b></h4>
+<h4 align='center'>Developed By <b><i>Aman Verma</i></b></h4>
 <p align='center'>
   <a href='https://www.linkedin.com/in/aman-verma-47b626294/'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
