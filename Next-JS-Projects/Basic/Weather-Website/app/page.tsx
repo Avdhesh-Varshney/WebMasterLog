@@ -14,7 +14,9 @@ const Home = () => {
   const date = getCurrentDate();
   const [weatherData, setWeatherData] = useState<any>(null);
   const [city, setCity] = useState("Ghaziabad");
+  const [time, setTime] = useState<string>("");
 
+  // Fetch Weather Data by City
   async function fetchData(cityName: string) {
     try {
       const response = await fetch(
@@ -27,6 +29,7 @@ const Home = () => {
     }
   }
 
+  // Fetch Weather Data by Coordinates
   async function fetchDataByCoordinates(latitude: number, longitude: number) {
     try {
       const response = await fetch(
@@ -39,6 +42,16 @@ const Home = () => {
     }
   }
 
+  // Update Clock
+  useEffect(() => {
+    const timer = setInterval(() => {
+      const now = new Date();
+      setTime(now.toLocaleTimeString());
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
+  // Get user coordinates for weather data
   useEffect(() => {
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition(
@@ -72,9 +85,10 @@ const Home = () => {
             onChange={(e) => setCity(e.target.value)}
           />
           <button className={styles.search_button} type="submit">
-            Seach
+            Search
           </button>
         </form>
+        <div className={styles.time}>Current Time: {time}</div>
         {weatherData && weatherData.weather && weatherData.weather[0] ? (
           <>
             <div className={styles.icon_and_weatherInfo}>
