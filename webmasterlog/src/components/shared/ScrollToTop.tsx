@@ -14,11 +14,13 @@ const ScrollToTop = () => {
     }
   };
 
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+  const smoothScrollToTop = () => {
+    const scrollY = window.pageYOffset;
+    const scrollStep = Math.max(10, Math.floor(scrollY / 20)); 
+    if (scrollY > 0) {
+      window.scrollBy(0, -scrollStep);
+      requestAnimationFrame(smoothScrollToTop);
+    }
   };
 
   useEffect(() => {
@@ -30,7 +32,7 @@ const ScrollToTop = () => {
     <div>
       {isVisible && (
         <Button
-          onClick={scrollToTop}
+          onClick={() => requestAnimationFrame(smoothScrollToTop)}
           className="fixed bottom-4 right-4 p-3 bg-blue-500 text-white rounded-full shadow-md hover:bg-blue-600 transition"
         >
           ↑
