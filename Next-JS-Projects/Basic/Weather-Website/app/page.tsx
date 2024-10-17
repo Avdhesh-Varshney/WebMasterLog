@@ -42,6 +42,17 @@ const Home = () => {
     }
   }
 
+  // Mapping for weather conditions to icons
+  const weatherIconMapping = {
+    clear: "wi-day-sunny",
+    rain: "wi-rain",
+    thunderstorm: "wi-thunderstorm",
+    snow: "wi-snow",
+    mist: "wi-fog",
+    clouds: "wi-cloudy",
+    fog: "wi-fog",
+  };
+
   // Update Clock
   useEffect(() => {
     const timer = setInterval(() => {
@@ -65,6 +76,11 @@ const Home = () => {
       );
     }
   }, []);
+
+  // Determine weather icon based on the description
+  const weatherDescription = weatherData?.weather[0]?.main?.toLowerCase();
+  const weatherIconClass =
+    weatherIconMapping[weatherDescription] || "wi-day-cloudy";
 
   return (
     <main className={styles.main}>
@@ -93,14 +109,7 @@ const Home = () => {
           <>
             <div className={styles.icon_and_weatherInfo}>
               <div className={styles.weatherIcon}>
-                {weatherData?.weather[0]?.description === "rain" ||
-                weatherData?.weather[0]?.description === "fog" ? (
-                  <i
-                    className={`wi wi-day-${weatherData?.weather[0]?.description}`}
-                  ></i>
-                ) : (
-                  <i className="wi wi-day-cloudy"></i>
-                )}
+                <i className={`wi ${weatherIconClass}`}></i>
               </div>
               <div className={styles.weatherInfo}>
                 <div className={styles.temperature}>
