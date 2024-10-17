@@ -1,8 +1,14 @@
 {
+  "builds": [
+    {
+      "src": "webmasterlog/**/*",
+      "use": "@vercel/next"
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/"
+      "destination": "/webmasterlog/$1"
     }
   ]
 }
