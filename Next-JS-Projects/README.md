@@ -38,9 +38,9 @@
 
 #### :zap: Row 1
 
-| <img src="./Advanced/Attendance-Tracking-App/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Breaking-News-App/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="./Advanced/Attendance-Tracking-App/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Breaking-News-App/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Video-Call-App/screenshot.webp" width="300px" height="180px"> | 
 |:--:|:--:|:--:|
-| [Attendance Tracking App](./Advanced/Attendance-Tracking-App) | [Breaking News App](./Advanced/Breaking-News-App) |  |
+| [Attendance Tracking App](./Advanced/Attendance-Tracking-App) | [Breaking News App](./Advanced/Breaking-News-App) |  [Video Call App](./Advanced/Video-Call-App)| |
 
 
 </div>
