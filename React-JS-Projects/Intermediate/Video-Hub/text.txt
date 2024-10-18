@@ -1,0 +1,6 @@
+🔗  Linked to roushan-code/video-lecture-app (created .vercel and added it to .gitignore)
+🔍  Inspect: https://vercel.com/roushan-code/video-lecture-app/E74ypGs4ruCTDDtPrfBpFcNU5JrA [2s]
+✅  Production: https://video-lecture-hofgxjvmj-roushan-code.vercel.app [2s]
+📝  Deployed to production. Run `vercel --prod` to overwrite later (https://vercel.link/2F).
+💡  To change the domain or build command, go to https://vercel.com/roushan-code/video-lecture-app/settings
+
