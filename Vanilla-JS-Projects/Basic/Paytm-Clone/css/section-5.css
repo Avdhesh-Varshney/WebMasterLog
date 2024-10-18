@@ -1,0 +1,73 @@
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey-light);
+  padding-bottom: 4.8rem;
+  /* padding: 8rem 5rem 8rem 11.5rem; */
+}
+
+.section-5 h1 {
+  width: var(--width-2);
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: var(--black);
+  line-height: 5rem;
+}
+
+.section-5-postpaid {
+  width: var(--width-2);
+  margin: auto;
+  border-radius: 1rem;
+  background-color: var(--white);
+  padding: 8rem 5rem 8rem 11.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-5-postpaid-left {
+  width: 45%;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.section-5-postpaid-left-header {
+  display: flex;
+  align-items: center;
+}
+.section-5-postpaid-left-header img {
+  height: 7.7rem;
+  padding-right: 1.2rem;
+}
+
+.section-5-postpaid-left-header div {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-5-postpaid-left-body {
+  margin-top: 4.8rem;
+}
+
+.section-5-postpaid-left-body h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+  width: 39rem;
+}
+
+.section-5-postpaid-left-body p {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  padding: 2.4rem 0 3rem;
+}
+
+.section-5-postpaid-right {
+  /* width: 55%; */
+}
+
+.section-5-postpaid-right img {
+  width: 433px;
+}

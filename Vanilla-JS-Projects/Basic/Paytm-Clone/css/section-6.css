@@ -1,0 +1,60 @@
+.section-6 {
+  background-color: var(--grey-light);
+  padding-bottom: 13rem;
+}
+
+.section-6-container {
+  display: flex;
+  width: var(--width-2);
+  margin: 0 auto;
+}
+
+.section-6-child {
+  position: relative;
+  width: 561px;
+  height: 700px;
+  background-color: var(--white);
+  border-radius: 16px;
+  padding: 7rem 6.4rem 0;
+  cursor: pointer;
+}
+
+.section-6-child:first-of-type {
+  margin-right: 4.8rem;
+}
+
+.section-6-child-bank-1,
+.section-6-child-bank-2 {
+  height: 7.5rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+.section-6-child-bank-1 img {
+  height: 7.7rem;
+}
+
+.section-6-child-bank-2 img {
+  height: 2rem;
+}
+
+.section-6-child h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  padding-top: 2.8rem;
+}
+
+.section-6-child p {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 2rem 0;
+  line-height: 3rem;
+}
+
+.section-6-child-bank-card {
+  height: 296px;
+  transform: translate(-50%, 2%);
+  position: absolute;
+  bottom: 6px;
+  left: 50%;
+}

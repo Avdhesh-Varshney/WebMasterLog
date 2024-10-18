@@ -1,0 +1,59 @@
+.section-7 {
+  /* margin-bottom: 500px; */
+}
+
+.section-7 h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 5rem;
+  color: var(--black);
+  width: var(--width-2);
+  margin: 0 auto 3.5rem;
+  padding-top: 12rem;
+}
+
+.section-7-container {
+  width: var(--width-2);
+  margin: auto;
+  padding-bottom: 7.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-7-left {
+  width: 40%;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.section-7-left-bank-logo {
+  width: 212px;
+  padding-bottom: 1.2rem;
+}
+
+.section-7-left h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 50px;
+  margin-top: 4.8rem;
+}
+
+.section-7-left p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  margin-top: 2.4rem;
+  margin-bottom: 4.5rem;
+  padding-top: 1.2rem;
+  width: 515px;
+}
+
+.section-7-right {
+  width: 452px;
+}
+
+.section-7-right img {
+  max-width: 100%;
+  max-height: 100%;
+}

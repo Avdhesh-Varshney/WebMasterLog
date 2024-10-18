@@ -1,0 +1,37 @@
+.section-1 {
+  width: var(--width);
+  margin: auto;
+  padding: 12rem 0;
+}
+
+.section-1-logo {
+  margin-bottom: 4.8rem;
+  height: 8rem;
+}
+
+.section-1-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: var(--shadow);
+}
+
+.section-1 h1 {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 6.5rem;
+}
+
+.section-1 p {
+  font-size: 2rem;
+  margin-bottom: 4rem;
+  font-weight: 500;
+  line-height: 3rem;
+  padding-top: 1rem;
+}
+
+.section-1-content-img {
+  position: absolute;
+  width: 52.8rem;
+  right: 0;
+  top: 25rem;
+}

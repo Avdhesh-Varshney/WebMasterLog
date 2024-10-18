@@ -1,0 +1,117 @@
+.section-14 {
+  margin-bottom: 500px;
+}
+
+.section-14-wrapper {
+  width: var(--width-2);
+  margin: auto;
+  margin-top: 12rem;
+  padding: 6rem 0 6rem 6rem;
+  margin-bottom: 3.3rem;
+  display: flex;
+}
+
+.section-14-top {
+  display: flex;
+}
+
+.section-14-top-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 4rem;
+  width: 20rem;
+}
+
+.section-14-top-right-wrapper {
+  position: relative;
+
+  overflow: visible;
+  z-index: 0;
+}
+
+.section-14-top-right {
+  display: flex;
+  width: 87rem;
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+.section-14-top-right {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.section-14-top-right::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.section-14-top-right-cards {
+  display: flex;
+}
+
+.section-14-top-right-card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: var(--light-blue);
+  opacity: 0.7;
+  padding: 5px 0;
+  white-space: normal;
+  text-align: center;
+  cursor: pointer;
+  width: 15.5rem;
+  min-width: 15.5rem;
+  height: 23rem;
+  min-height: 23rem;
+  margin-right: 3.6rem;
+}
+
+.section-14-top-right-card div {
+  width: 14.5rem;
+  height: 15.8rem;
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-14-top-right-card div img {
+  width: 14.5rem;
+  height: 15.8rem;
+}
+
+.section-14-top-right-card span {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--white);
+  width: 11.4rem;
+  height: 7.2rem;
+  padding: 1.6rem 0;
+  display: block;
+  white-space: normal;
+}
+
+.section-14-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  margin: auto;
+  overflow: visible;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  border-radius: 50%;
+  background-color: var(--white);
+  border: 3px solid var(--light-blue);
+}
+
+.section-14-controls.left {
+  transform: rotate(180deg);
+  left: -1.5rem;
+}
+
+.section-14-controls.right {
+  right: -1.5rem;
+}

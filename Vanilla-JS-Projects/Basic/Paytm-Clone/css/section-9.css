@@ -1,0 +1,43 @@
+.section-9 {
+  /* margin-bottom: 500px; */
+}
+
+.section-9-wrapper {
+  width: var(--width-2);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem 0;
+}
+
+.section-9-left {
+  width: 45%;
+}
+
+.section-9-left-insurance {
+  width: 175px;
+}
+
+.section-9-left h1 {
+  margin-top: 4.8rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+  width: 470px;
+}
+
+.section-9-left p {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  padding: 2.4rem 0 3rem;
+}
+
+.section-9-right {
+  width: 433px;
+}
+
+.section-9-right img {
+  max-width: 100%;
+}
