@@ -1,0 +1,461 @@
+body{
+    margin: 0;  
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 80px;
+    background-color: #1A242E;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.navbar{
+    display: inline-flex;
+    list-style: none;
+    padding-left: 55px;
+    padding-top: 9px;
+    text-align: center;
+    cursor: pointer;
+    
+    
+}
+.logo{
+    height: 35px;
+    position: sticky;
+    top: -3px;
+    left: -5px;
+}
+.navbar-items{
+    padding-left: 17px;
+    font-family: "Amazon Ember Light";
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding-top: 0;
+    
+
+}
+.text1 h2{
+    position: absolute;
+    color: white;
+    margin-left: 95px;
+    margin-top: 109px;
+    font-family: "Amazon Ember";
+    font-weight: 300;
+    font-size: 44.8px;
+
+}
+.text1 h3{
+    position: absolute;
+    color: white;
+    margin-left: 95px;
+    margin-top: 186px;
+    line-height: 28.8px;
+    letter-spacing: normal;
+    font-family: "Amazon Ember Light",sans-serif;
+    font-weight: 100;
+    width: 850px;
+    font-size: 24px;
+
+}
+.btn1{
+    position: absolute;
+    height: 52px;
+    width: 283px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    background-color: #0f79af;
+    margin-left: 94px;
+    margin-top: 258px;
+    border-radius: 5px;
+    font-family: "Amazon Ember";
+
+}
+.btn1:hover{
+    background-color: #00A0D6;
+}
+
+.img2{
+    width: 100%;
+    margin-top: -4px;
+    }
+    .text2 h2{
+        position: absolute;
+        color: white;
+        margin-left: 1037px;
+        margin-top: 189px;
+        font-family: "Amazon Ember";
+        font-weight: 400;
+        font-size: 40px;
+    
+    }
+    .text2 h3{
+        position: absolute;
+        color: white;
+        margin-left: 1037px;
+        margin-top: 261px;
+        line-height: 27.3px;
+        letter-spacing: normal;
+        font-family: "Amazon Ember Light",sans-serif;
+        font-weight: 100;
+        width: 850px;
+        font-size: 21px;
+    
+    }
+    .btn2{
+        position: absolute;
+    height: 56px;
+    width: 283px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    background-color: #0f79af;
+    margin-left: 1035px;
+    margin-top: 345px;
+    border-radius: 5px;
+    font-family: "Amazon Ember";
+    border-style: none;
+    
+    }
+    .btn2:hover{
+        background-color: #00A0D6;
+    }
+    .text3 h2{
+        position: absolute;
+        color: rgb(0, 0, 0);
+        margin-left: 95px;
+        margin-top: 34px;
+        font-family: "Amazon Ember";
+        font-weight: 300;
+        font-size: 44.8px;
+    
+    }
+    .text3 h3{
+        position: absolute;
+        color: rgb(0, 0, 0);
+        margin-left: 95px;
+        margin-top: 108px;
+        line-height: 28.8px;
+        letter-spacing: normal;
+        font-family: "Amazon Ember Light",sans-serif;
+        font-weight: 100;
+        width: 780px;
+        font-size: 24px;
+    
+    }
+
+.text4 h2{
+    position: absolute;
+    color: white;
+    margin-left: 1037px;
+    margin-top: 162px;
+    font-family: "Amazon Ember";
+    font-weight: 400;
+    font-size: 40px;
+
+}
+.text4 h3{
+    position: absolute;
+    color: white;
+    margin-left: 1037px;
+    margin-top: 234px;
+    line-height: 27.3px;
+    letter-spacing: normal;
+    font-family: "Amazon Ember Light",sans-serif;
+    font-weight: 100;
+    width: 800px;
+    font-size: 21px;
+}
+.btn4{
+    position: absolute;
+height: 56px;
+width: 283px;
+font-size: 17px;
+text-align: center;
+color: white;
+background-color: #0f79af;
+margin-left: 1035px;
+margin-top: 372px;
+border-radius: 5px;
+font-family: "Amazon Ember";
+border-style: none;
+
+}
+.btn4:hover{
+    background-color: #00A0D6;
+}
+.btn5{
+    position: absolute;
+    height: 54px;
+    width: 283px;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+    background-color: #0f79af;
+    margin-left: 94px;
+    margin-top: 370px;
+    border-radius: 5px;
+    border-style: none;
+    font-family: "Amazon Ember";
+
+}
+.btn5:hover{
+    background-color: #00A0D6;
+}
+    .text5 h2{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        margin-left: 95px;
+        margin-top: 162px;
+        font-family: "Amazon Ember";
+        font-weight: 300;
+        font-size: 44.8px;
+    
+    }
+    .text5 h3{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        margin-left: 95px;
+        margin-top: 234px;
+        line-height: 28.8px;
+        letter-spacing: normal;
+        font-family: "Amazon Ember Light",sans-serif;
+        font-weight: 100;
+        width: 780px;
+        font-size: 24px;
+    
+    }
+.img5{
+    margin-top: -4px;
+}
+.footer{
+    height: 160px;
+    background-color: #222222;
+    margin-top: -4px;
+}
+.footer img{
+    margin-top: 24px;
+margin-left: 897px;
+}
+.footer ul{
+    margin-left: 736px;
+    margin-top: 10px;
+    font-family: "Amazon Ember Light";
+    line-height: 19px;
+    font-size: 15px;
+    color: #0f79af;
+}
+.footer a{
+    margin-right: 20px;
+    transition: .2s;
+    cursor: pointer;
+}
+.footer a:hover{
+    
+    color: #69CDF7;
+    transition: .2s;
+}
+.footer h3{
+    color: #949494;
+    font-family: "Amazon Ember Light";
+    line-height: 19px;
+    font-size: 15px;
+    margin-left: 797px;
+    font-weight: 100;
+
+}
+.material-symbols-outlined{
+    color: white;
+    float: right;
+}
+.navbar-right{
+display: inline-flex;
+list-style: none;
+float: right;
+padding-right: 55px;
+cursor: pointer;
+}
+.button{
+background-color: #0f79af;
+color: #f2f4f6;
+opacity: 90%;
+border-style: none;
+border-radius: 3px;
+font-size: 17px;
+font-family: "Amazon Ember Light", "Amazon Arabic Ember", Arial, sans-serif;
+line-height: 8.5px;
+height: 36px;
+width: 122px;
+position: relative;
+left: 200px;
+margin-top: 6px;
+z-index: 1;
+}
+.button:hover{
+    background-color:#1399DE;
+}
+
+.language{
+    display: inline-flex;
+    position: relative;
+    right: 18px;
+}
+#lang{
+    color: white;
+    opacity: 90%;
+    font-size: 20px;
+    text-align: start;
+    letter-spacing: normal;
+    margin-top: 15px;
+   padding-left: 2px;
+   
+    
+}
+#lang:hover{
+    opacity: 100%;
+}
+#search{
+    margin-top: 15px;
+    position: relative;
+    right: 45px;
+    opacity: 90%;
+}
+#search:hover{
+    opacity: 100%;
+}
+#searchbox{
+    display: inline-flex;
+    background-color: #1A242E;
+    border-style: solid;
+    border-color: rgb(164, 164, 164);
+    border-radius: 3px;
+    border-width: 1px;
+    width: 250px;
+    height: 40px;
+    line-height: 24px;
+    margin-top: 2px;
+    position: relative;
+    transform: translateX();
+    transition: .5s;
+    opacity: 0;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#searchbox::placeholder{
+    padding-left: 27px;
+    font-size: 17px;
+    font-family: "Amazon Ember Light";
+}
+#user{
+    margin-top: 15px;
+    opacity: 70%;
+
+}
+#user:hover{
+    opacity: 100%;
+}
+.channel{
+    
+    width: 800px;
+    position: absolute;
+    left: 958px;
+    top: 1410px;
+
+}
+.channel img{
+    display: inline-block;
+    height: 176px;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-right: 6px;
+    transition: 0.2s;
+
+}
+.channel img:hover{
+    box-shadow: 0px 0px 10px 2px;
+    transition: 0.2s;
+
+}
+/* .dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-list {
+    display: none;
+    width: 100%;
+    height: 351px;
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    background-color: #1A242E;
+    
+  } */
+  
+  /* .dropdown:hover .dropdown-list {
+    display: block; */
+  /* } */
+  .Top h3{
+    margin-left: 10px;
+    color: white;
+    position: relative;
+    left: -230px;
+    font-family: "Amazon Ember Light";
+    font-size: 17px;
+    font-weight: 100;
+  }
+  .Top{
+    width: 30%;
+    height: 200px;
+    
+  }
+  
+  
+  .dropdown{
+    height: 70px;
+    display: flex;
+    
+  }
+  
+#categories:hover .Dropdown-list{
+    transition: all 0.3s ease;
+    top: 70px;
+    
+    opacity: 1;
+    visibility: visible;
+    z-index: 0;
+  }
+  
+  .Dropdown-list{
+    position: absolute;
+    left: 0;
+    width: 100%;
+background-color: #1A242E;
+    top: 75px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .Dropdown-list .content{
+    background: #1A242E;
+    width: 100%;
+    flex-direction: ro;
+  }
+  .Dropdown-list .content .image{
+    padding-top: 70px;
+    width: 30%;
+    height: 346px;
+    float: left;
+    position: relative;
+    left: 403px;
+  }
+  .image img{
+    margin: 0;
+    float: left;
+    margin-bottom: 6px;
+    margin-right: 6px;
+  }
+  .image img:hover{
+    box-shadow:1px 1px 0px white;
+   
+  }
