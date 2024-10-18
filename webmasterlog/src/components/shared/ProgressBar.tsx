@@ -19,20 +19,18 @@ const ProgressBar = () => {
         return () => window.removeEventListener("scroll", updateProgressBar);
     }, []);
 
-    const progressBarColor = "blue"; // Change as per your color choice
-    const containerBackgroundColor = "black";
+    const progressBarColor = "bg-blue-500";
+    const containerBackgroundColor = "bg-black";
 
     return (
         <div
             id="progressBarContainer"
-            style={{ backgroundColor: containerBackgroundColor }}
+            className={`fixed top-0 left-0 w-full h-[3px] z-[9999] ${containerBackgroundColor}`}
         >
             <div
                 id="progressBar"
-                style={{
-                    width: `${scrollPercent}%`,
-                    backgroundColor: progressBarColor,
-                }}
+                className={`h-full transition-all ease-linear ${progressBarColor}`}
+                style={{ width: `${scrollPercent}%` }}
             ></div>
         </div>
     );
