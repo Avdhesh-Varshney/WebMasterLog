@@ -1,24 +1,30 @@
 body {
     padding: 20px;
     overflow-x: hidden;
+    font-family: Arial, sans-serif;
 }
 
 .navbar {
     background-color: #343a40 !important;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .navbar-brand,
 .nav-link {
     color: #ffffff !important;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #ffc107 !important; /* Change color on hover */
 }
 
 section {
     margin-bottom: 50px;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #ffffff; /* Uniform background color for section content */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Other styles remain the same */
@@ -29,17 +35,27 @@ section {
 h1, h2, h3, h4, h5, h6 {
     color: #007bff; /* Heading color */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px;
 }
 
 p {
     font-size: 1.2em;
     text-align: justify;
+    line-height: 1.6;
 }
 
 button {
-    padding: 8px;
+    padding: 10px; /* Increased padding */
     margin-left: 10px;
     cursor: pointer;
+    background-color: #007bff; /* Added background color */
+    color: white; /* Changed text color */
+    border: none; /* Removed border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
 }
 
 footer {
@@ -51,6 +67,7 @@ footer {
     margin-left: -60px;
     clear: both;
     animation: fadeInUp 1s ease-out;
+    border-top: 3px solid #ffc107;
 }
 
 
@@ -68,4 +85,5 @@ footer {
 .quote {
     font-style: italic;
     margin-top: 10px;
+    font-size: 1.1em;
 }
