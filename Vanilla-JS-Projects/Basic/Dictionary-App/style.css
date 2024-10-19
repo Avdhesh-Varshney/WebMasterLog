@@ -9,6 +9,7 @@
 /* Font styling */
 *:not(i) {
   font-family: "Poppins", sans-serif;
+  color: #333;
 }
 
 /* Body styling */
@@ -51,10 +52,15 @@ a {
   -webkit-box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
   box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
   margin-top: 30px;
+  transition: background-color 0.3s;
+}
+a:hover {
+  background-color: #f0f0f0; /* Change background on hover */
 }
 
 /* Search box styling */
 .search-box {
+  padding: 10px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -81,6 +87,11 @@ a {
   color: #ffffff;
   border-radius: 5px;
   font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.search-box button:hover {
+  background-color: #9a80e6; /* Darker shade on hover */
 }
 
 /* Result section styling */
@@ -91,6 +102,7 @@ a {
 .result h3 {
   font-size: 30px;
   color: #1f194c;
+  margin-top: 20px;
 }
 
 .result .word {
@@ -109,6 +121,7 @@ a {
   border: none;
   outline: none;
   font-size: 18px;
+  cursor: pointer;
 }
 
 .result .details {
@@ -148,5 +161,9 @@ a {
 
   .search-box button {
     font-size: 14px;
+  }
+
+  .search-box input {
+    padding: 8px;
   }
 }
