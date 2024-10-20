@@ -1,3 +1,22 @@
 {
-  "contacts": []
+  "contacts": [
+    {
+      "id": "ac05",
+      "name": "John Doe",
+      "email": "jonhn@gmail.com",
+      "phone": "123456789"
+    },
+    {
+      "id": "c548",
+      "name": "Mr Adam Shmitz",
+      "email": "shmitz@gmail.com",
+      "phone": "987654321"
+    },
+    {
+      "id": "64d5",
+      "name": "Mouhamadou Awalou",
+      "email": "awalou@gmail.com",
+      "phone": "741852963"
+    }
+  ]
 }

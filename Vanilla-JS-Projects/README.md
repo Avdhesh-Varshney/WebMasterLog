@@ -104,9 +104,9 @@
 
 #### :zap: Row 16
 
-| <img src="./Basic/Youtube-Clone/screenshot.webp" width="300px" height="180px"> |  |  |
+| <img src="./Basic/Youtube-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Electronic-Drum-Kit/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Paytm-Clone/screenshot.webp" width="300px" height="180px"> |
 |:--:|:--:|:--:|
-| [Youtube Clone](./Basic/Youtube-Clone) |  |  |
+| [Youtube Clone](./Basic/Youtube-Clone) | [Electronic Drum Kit](./Basic/Electronic-Drum-Kit) | [Paytm Clone](./Basic/Paytm-Clone)  |
 
 ---
 <!-- ###################################################################################################################### -->
@@ -220,9 +220,9 @@
 
 #### :zap: Row 18
 
-| <img src="./Intermediate/Zomato-Clone/screenshot.webp" width="300px" height="180px"> |  |  |
+| <img src="./Intermediate/Zomato-Clone/screenshot.webp" width="300px" height="180px"> |  <img src="./Intermediate/Wikipedia-Clone/screenshot.webp" width="300px" height="180px"> |  |
 |:--:|:--:|:--:|
-| [Zomato Clone](./Intermediate/Zomato-Clone) |  |  |
+| [Zomato Clone](./Intermediate/Zomato-Clone) | [Wikipedia Clone](./Intermediate/Wikipedia-Clone) |  |
 
 
 ---
