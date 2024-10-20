@@ -6,6 +6,7 @@ import Sidebar from "./shared/Sidebar";
 import Header from "./shared/Header";
 import Footer from "./shared/Footer";
 import Cursor from "./shared/Cursor";
+import ProgressBar from "./shared/ProgressBar";
 
 const MainContent = ({ children }: { children: React.ReactNode }) => {
   const context = useSidebarContext();
@@ -14,6 +15,7 @@ const MainContent = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <>
+      <ProgressBar/>
       <Sidebar />
       <main className={`grid w-full h-full transition-all duration-300 ${isSidebarOpen ? 'pl-[245px]' : 'pl-[75px]'}`}>
         <Header />
