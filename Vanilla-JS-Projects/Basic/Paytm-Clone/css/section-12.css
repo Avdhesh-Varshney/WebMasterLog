@@ -1,0 +1,41 @@
+.section-12 {
+  padding-bottom: 4.8rem;
+}
+
+.section-12-wrapper {
+  width: var(--width-2);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem 0 8rem 11.5rem;
+  background-color: var(--grey-light);
+  border-radius: 10px;
+}
+
+.section-12-left {
+  width: 45%;
+}
+
+.section-12-left h2 {
+  margin-top: 4.8rem;
+  width: 390px;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+}
+
+.section-12-left p {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  padding: 2.4rem 0 3rem;
+}
+
+.section-12-right {
+  width: 433px;
+}
+
+.section-12-right img {
+  max-width: 100%;
+}
