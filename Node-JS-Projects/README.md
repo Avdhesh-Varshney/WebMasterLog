@@ -32,9 +32,9 @@
 
 #### :zap: Row 2
 
-| <img src="./Intermediate/YouTube-Video-Downloader/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/File-Upload-and-Download-System/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="./Intermediate/YouTube-Video-Downloader/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/File-Upload-And-Download-System/screenshot.webp" width="300px" height="180px"> |  |
 |:--:|:--:|:--:|
-| [YouTube Video Downloader](./Intermediate/YouTube-Video-Downloader) | [File Upload and Download System](./Intermediate/File-Upload-and-Download-System) |  |
+| [YouTube Video Downloader](./Intermediate/YouTube-Video-Downloader) | [File Upload and Download System](./Intermediate/File-Upload-And-Download-System) |  |
 
 ---
 <!-- ###################################################################################################################### -->
