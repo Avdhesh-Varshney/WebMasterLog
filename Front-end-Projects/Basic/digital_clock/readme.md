@@ -49,7 +49,7 @@ Copy and paste the following code into each respective file, and then perform th
 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
-![Digital Clock Screenshot](https://drive.google.com/file/d/1D2IoOcANrOdRoAseXxBsc1ou_H0x8Odn/view?usp=sharing)
+![Screenshot 2024-10-20 at 7 24 23 PM](https://github.com/user-attachments/assets/51b747dd-e297-4539-9dae-c88b00e3217f)
 
 ## :zap: Working Video 📹
 <!-- directly add the link of video (If, possible) -->
