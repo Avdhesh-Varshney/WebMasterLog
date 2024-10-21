@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="clock-container">
+        <div class="clock">
+            <div class="time-display">
+                <span class="hour"></span>:
+                <span class="minute"></span>:
+                <span class="second"></span>
+                <span class="am-pm"></span>
+            </div>
+            <div class="settings">
+                <label for="time-zone-select">Select Time Zone:</label>
+                <select id="time-zone-select">
+                    <option value="America/New_York">New York (GMT-5)</option>
+                    <option value="Europe/London">London (GMT)</option>
+                    <option value="Europe/Berlin">Berlin (GMT+1)</option>
+                    <option value="Asia/Tokyo">Tokyo (GMT+9)</option>
+                    <option value="Australia/Sydney">Sydney (GMT+11)</option>
+                    <option value="America/Los_Angeles">Los Angeles (GMT-8)</option>
+                    <option value="America/Chicago">Chicago (GMT-6)</option>
+                    <option value="Asia/Kolkata">Kolkata (GMT+5:30)</option>
+                    <option value="Asia/Shanghai">Shanghai (GMT+8)</option>
+                    <option value="America/Sao_Paulo">São Paulo (GMT-3)</option>
+                    <option value="Pacific/Auckland">Auckland (GMT+13)</option>
+                    <!-- Add more time zones as needed -->
+                </select>
+                <label for="format-select">Select Format:</label>
+                <select id="format-select">
+                    <option value="12">12 hours</option>
+                    <option value="24">24 hours</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
