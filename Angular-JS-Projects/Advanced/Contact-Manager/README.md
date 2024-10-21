@@ -1,4 +1,3 @@
-
 <h1 align='center'><b>💥 CONTACT MANAGER 💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
@@ -13,15 +12,14 @@
   <img src="https://img.shields.io/badge/typescipt-darkblue?style=for-the-badge&logo=typescript&logoColor=white)" />
 </div>
 
-
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Description 📃
 
-- This is an contact manager web application which allowed users to view, add, edit, delete and search contact details (name, phone and email).
-  
+- This is an contact manager web application which allowed users to view, add, edit, delete and search contact details (name, phone and email). Users are notified with the use of a popup alert after every operation.
+
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: How to run it? 🕹️
@@ -62,7 +60,6 @@ ng serve
 
 8. Open a web browser and go to `http://localhost:4200/` to see the Contact manager running.
 
-
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Screenshots 📸
@@ -72,10 +69,6 @@ ng serve
 <img src="./images/image03.png">
 <img src="./images/image04.png">
 <img src="./images/image05.png">
-
-
-
-![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 

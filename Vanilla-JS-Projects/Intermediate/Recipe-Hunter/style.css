@@ -1,0 +1,204 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+/* Main container */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Searchbar styles */
+.searchbar {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.searchbar h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.input {
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    border: 2px solid #efebeb;
+    padding-left: 10px;
+    outline: none;
+}
+
+#result {
+    margin:auto;
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 5rem;
+}
+.btnde{
+    width: 150px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #191c24;
+    cursor: pointer;
+}
+
+.btnde:active { 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+}
+
+.icard{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 5px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: #191c24;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.time {
+    color: #6463638f;
+    font-weight: 200;
+    font-size: smaller;
+}
+
+.img{
+    height: 200px;
+    border-radius: 10px;
+}
+
+.img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #191c24;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Smartphones (portrait and landscape) */
+@media (max-width: 600px) {
+    .input {
+        width: 90%;
+        height: 40px;
+    }
+
+    .card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #result {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .img {
+        height: 150px;
+    }
+
+    .btnde {
+        width: 100px;
+        height: 35px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+}
+
+/* Tablets (iPad, etc.) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .input {
+        width: 80%;
+        height: 45px;
+    }
+
+    .card {
+        width: 45%;
+    }
+
+    #result {
+        width: 90%;
+        gap: 20px;
+    }
+
+    .img {
+        height: 180px;
+    }
+
+    .btnde {
+        width: 130px;
+        height: 35px;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1025px) {
+    .input {
+        width: 400px;
+        height: 50px;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    #result {
+        width: 1300px;
+        gap: 30px;
+    }
+
+    .img {
+        height: 200px;
+    }
+
+    .btnde {
+        width: 150px;
+        height: 40px;
+    }
+}
