@@ -7,49 +7,89 @@
 <div align="center">
 
 ## :zap: Available Projects 🎉
-<!-- Rules to Add project are as follows:
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
 
-1. Attach the project name as shown below or you can refer from the README file of Vanilla-JS.
-[To Do List](./Basic/To-Do-List)
+![Basic Level](https://img.shields.io/badge/Level-Basic-00FF00?style=for-the-badge&logo=codeigniter)
 
-2. If alignment is distorted, i will manage it. You have just added you project here according to serial number. 
+#### :zap: Row 1
 
-3. Add the category of the project using the provided links below here, according to your project.
+| <img src="./Basic/Animated-Tea-Cup/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Biography-BR-Ambedkar/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Biography-Mahatma-Gandhi/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Animated Tea Cup](./Basic/Animated-Tea-Cup) | [Biography BR Ambedkar](./Basic/Biography-BR-Ambedkar) | [Biography Mahatma Gandhi](./Basic/Biography-Mahatma-Gandhi) |
 
-![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) 
-![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) 
-![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) 
+#### :zap: Row 2
 
--->
+| <img src="./Basic/Blood-Donation-Form/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Facebook-Login-Page/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Feedback-Form/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Blood Donation Form](./Basic/Blood-Donation-Form) | [Facebook Login Page](./Basic/Facebook-Login-Page) | [Feedback Form](./Basic/Feedback-Form) |
 
+#### :zap: Row 3
 
-| S.No  | Project Name | Category |
-|-------|--------------|----------|
-|   1   | [Amazon Prime Clone](./Intermediate/Amazon-Prime-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   2   | [Make My Trip Website Clone](./Intermediate/MakeMyTrip-website-clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   3   | [Biography of Mahatma Gandhi](./Basic/Biography-Mahatma-Gandhi) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   4   | [Biography of Dr. B R Ambedkar](./Basic/Biography-BR-Ambedkar) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   5   | [Netflix Clone](./Intermediate/Netflix-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   6   | [Starbucks Landing Page Clone](./Basic/Starbucks-Landing-page) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   7   | [Product Landing Page](./Intermediate/Product-Landing-Page ) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   8   | [Spotify Clone](./Intermediate/Spotify-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   9   | [Apple Clone](./Intermediate/Apple-Clone ) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   10  | [Reddit Clone](./Intermediate/Reddit-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   11  | [Microsoft Clone](./Intermediate/Microsoft-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   12  | [Facebook Login Page](./Basic/Facebook-Login-Page) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   13  | [PhonePe Clone](./Basic/PhonePe/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   14  | [SpaceX Website Clone](./Basic/SpaceX-Website-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   15  | [Flipkart Clone](./Intermediate/Flipkart-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   16  | [IPHONE 14 Pro Clone](./Intermediate/IPHONE-14-Pro-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   17  | [Tea-Cup](./Basic/Animated-Tea-Cup) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   18  | [Google Drive Clone](./Basic/Google-Drive-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   19  | [FlexFlow](./Basic//FlexFlow) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   20  | [Login Signup Form](./Basic//Login-Signup-Form) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   21  | [Feedback Form](./Basic//Feedback-Form) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   22  | [Survey Form](./Basic//Survey-Form) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   23  | [Blood Donation Form](./Basic//Blood-Donation-Form) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   24  | [Linktree Clone](./Intermediate/Linktree-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   25  | [Google Search Clone](./Basic/Google-Search-Clone)| ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+| <img src="./Basic/FlexFlow/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Google-Drive-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Google-Search-Clone/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [FlexFlow](./Basic/FlexFlow) | [Google Drive Clone](./Basic/Google-Drive-Clone) | [Google Search Clone](./Basic/Google-Search-Clone) |
+
+#### :zap: Row 4
+
+| <img src="./Basic/Login-Signup-Form/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/PhonePe/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/SpaceX-Website-Clone/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Login Signup Form](./Basic/Login-Signup-Form) | [PhonePe](./Basic/PhonePe) | [SpaceX Website Clone](./Basic/SpaceX-Website-Clone) |
+
+#### :zap: Row 5
+
+| <img src="./Basic/Starbucks-Landing-page/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Survey-Form/screenshot.webp" width="300px" height="180px"> |  |
+|:--:|:--:|:--:|
+| [Starbucks Landing page](./Basic/Starbucks-Landing-page) | [Survey Form](./Basic/Survey-Form) |  |
+
+---
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
+
+![Intermediate Level](https://img.shields.io/badge/Level-Intermediate-FFD700?style=for-the-badge&logo=codeigniter)
+
+#### :zap: Row 1
+
+| <img src="./Intermediate/Amazon-Prime-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Apple-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Book-Website/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Amazon Prime Clone](./Intermediate/Amazon-Prime-Clone) | [Apple Clone](./Intermediate/Apple-Clone) | [Book Website](./Intermediate/Book-Website) |
+
+#### :zap: Row 2
+
+| <img src="./Intermediate/Flipkart-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Hotstar-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/IPHONE-14-Pro-Clone/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Flipkart Clone](./Intermediate/Flipkart-Clone) | [Hotstar Clone](./Intermediate/Hotstar-Clone) | [IPHONE 14 Pro Clone](./Intermediate/IPHONE-14-Pro-Clone) |        
+
+#### :zap: Row 3
+
+| <img src="./Intermediate/Linktree-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/MakeMyTrip-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Microsoft-Clone/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Linktree Clone](./Intermediate/Linktree-Clone) | [MakeMyTrip Clone](./Intermediate/MakeMyTrip-Clone) | [Microsoft Clone](./Intermediate/Microsoft-Clone) |
+
+#### :zap: Row 4
+
+| <img src="./Intermediate/Netflix-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Product-Landing-Page/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Reddit-Clone/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Netflix Clone](./Intermediate/Netflix-Clone) | [Product Landing Page](./Intermediate/Product-Landing-Page) | [Reddit Clone](./Intermediate/Reddit-Clone) |
+
+#### :zap: Row 5
+
+| <img src="./Intermediate/Spotify-Clone/screenshot.webp" width="300px" height="180px"> |  |  |
+|:--:|:--:|:--:|
+| [Spotify Clone](./Intermediate/Spotify-Clone) |  |  |
+
+---
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
+
+![Advanced Level](https://img.shields.io/badge/Level-Advanced-FF0000?style=for-the-badge&logo=codeigniter)
+
+#### :zap: Row 1 
+
+|  |  |  |
+|:--:|:--:|:--:|
+|  |  |  |
+
 
 
 </div>
@@ -60,4 +100,5 @@
 <div align="center">
 	<h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
 </div>
-<a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
+
+<a href="#top"><img src="https://img.shields.io/badge/⬆-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>

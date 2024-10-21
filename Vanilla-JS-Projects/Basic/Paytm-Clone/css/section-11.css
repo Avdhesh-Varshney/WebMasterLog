@@ -1,0 +1,52 @@
+.section-11 {
+  padding-top: 12rem;
+  padding-bottom: 4.8rem;
+}
+
+.section-11 h1 {
+  width: var(--width-2);
+  margin: auto;
+  margin-bottom: 3.5rem;
+  font-size: 4.8rem;
+  color: var(--black);
+  font-weight: 700;
+  line-height: 5rem;
+}
+
+.section-11-wrapper {
+  width: var(--width-2);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem 0 8rem 11.5rem;
+  background-color: var(--grey-light);
+  border-radius: 10px;
+}
+
+.section-11-left {
+  width: 45%;
+}
+
+.section-11-left h2 {
+  margin-top: 4.8rem;
+  width: 390px;
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 4.6rem;
+}
+
+.section-11-left p {
+  font-size: 1.7rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  padding: 2.4rem 0 3rem;
+}
+
+.section-11-right {
+  width: 433px;
+}
+
+.section-11-right img {
+  max-width: 100%;
+}

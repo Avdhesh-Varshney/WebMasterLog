@@ -7,29 +7,41 @@
 <div align="center">
 
 ## :zap: Available Projects 🎉
-<!-- Rules to Add project are as follows:
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
 
-1. Attach the project name as shown below or you can refer from the README file of Vanilla-JS.
-[To Do List](./Basic/To-Do-List)
+![Basic Level](https://img.shields.io/badge/Level-Basic-00FF00?style=for-the-badge&logo=codeigniter)
 
-2. If alignment is distorted, i will manage it. You have just added you project here according to serial number. 
+#### :zap: Row 1
 
-3. Add the category of the project using the provided links below here, according to your project.
+| <img src="./Basic/Weather-Website/screenshot.webp" width="300px" height="180px"> |  |  |
+|:--:|:--:|:--:|
+| [Weather Website](./Basic/Weather-Website) |  |  |
 
-![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) 
-![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) 
-![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) 
+---
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
 
--->
+![Intermediate Level](https://img.shields.io/badge/Level-Intermediate-FFD700?style=for-the-badge&logo=codeigniter)
 
+#### :zap: Row 1
 
-| S.No | Project Name | Category |
-|------|--------------|----------|
-|  1   | [Weather-Website](./Basic/Weather-Website) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|  2   | [Quiz-App](./Intermediate/Quiz-App) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|  3   | [Breaking-News-App](./Advanced/Breaking-News-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|  4   | [Attendance-Tracking-App](./Advanced/Attendance-Tracking-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|  5   | [Url-Shortener](./Intermediate/Url-Shortener/)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+| <img src="./Intermediate/Quiz-App/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Url-Shortener/screenshot.webp" width="300px" height="180px"> |  |
+|:--:|:--:|:--:|
+| [Quiz App](./Intermediate/Quiz-App) | [Url Shortener](./Intermediate/Url-Shortener) |  |
+
+---
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
+
+![Advanced Level](https://img.shields.io/badge/Level-Advanced-FF0000?style=for-the-badge&logo=codeigniter)
+
+#### :zap: Row 1
+
+| <img src="./Advanced/Attendance-Tracking-App/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Breaking-News-App/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Video-Call-App/screenshot.webp" width="300px" height="180px"> | 
+|:--:|:--:|:--:|
+| [Attendance Tracking App](./Advanced/Attendance-Tracking-App) | [Breaking News App](./Advanced/Breaking-News-App) |  [Video Call App](./Advanced/Video-Call-App)| |
+
 
 </div>
 
@@ -39,4 +51,5 @@
 <div align="center">
 	<h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
 </div>
-<a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
+
+<a href="#top"><img src="https://img.shields.io/badge/⬆-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
