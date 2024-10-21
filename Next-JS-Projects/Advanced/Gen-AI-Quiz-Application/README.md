@@ -6,10 +6,14 @@
 <!-- enlist all the technologies used to create this project from them (Remove comment using 'ctrl+z' or 'command+z') -->
 
 <div align='center'>
-  ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-  ![Gemini](https://img.shields.io/badge/Gemini-%23F16822.svg?style=for-the-badge&logo=Gemini&logoColor=white)
-  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-  ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=tailwind&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Nextjs](https://img.shields.io/badge/Nextjs-%2320232a.svg?style=for-the-badge&logo=nextjs&logoColor=%2361DAFB)
+![Gemini](https://img.shields.io/badge/gemini-a08021?style=for-the-badge&logo=gemini&logoColor=%2361DAFB)
+
 </div>
 
 
