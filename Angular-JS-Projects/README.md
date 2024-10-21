@@ -14,7 +14,7 @@
 
 #### :zap: Row 1
 
-| <img src="./Basic/Quick-Notes/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Task-Manager/screenshot.webp" width="300px" height="180px"> |  |    
+| <img src="./Basic/Quick-Notes/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Task-Manager/screenshot.webp" width="300px" height="180px"> |  |
 |:--:|:--:|:--:|
 | [Quick Notes](./Basic/Quick-Notes) | [Task Manager](./Basic/Task-Manager) |  |
 
@@ -26,9 +26,9 @@
 
 #### :zap: Row 1
 
-| <img src="./Intermediate/Train-Website/screenshot.webp" width="300px" height="180px"> |  |  |
+| <img src="./Intermediate/Train-Website/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Recipe-Sharing/screenshot.webp" width="300px" height="180px"> |  |
 |:--:|:--:|:--:|
-| [Train Website](./Intermediate/Train-Website) |  |  |
+| [Train Website](./Intermediate/Train-Website) | [Recipe Sharing](./Intermediate/Recipe-Sharing) |  |
 
 ---
 <!-- ###################################################################################################################### -->
@@ -40,9 +40,7 @@
 
 | <img src="./Advanced/Contact-Manager/screenshot.webp" width="300px" height="180px"> |  |  |
 |:--:|:--:|:--:|
-| [Contact Manager](./Advanced/Contact-Manager) |  |  |
-
-
+| [Contact Manager](./Advanced/Contact-Manager) | | |
 </div>
 
 

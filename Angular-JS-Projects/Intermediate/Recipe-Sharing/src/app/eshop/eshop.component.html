@@ -1,0 +1,11 @@
+<ul *ngFor="let product of allProducts let i = index">
+    <li> 
+        {{product.id}} -
+        {{product.name}} -
+        {{product.quantity}} -
+       
+    </li>
+    <button (click)="reduceQuantity(i)">Buy</button>
+    <button >Request for Restok</button>
+          
+ </ul>
