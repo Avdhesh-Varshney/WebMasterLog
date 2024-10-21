@@ -220,9 +220,9 @@
 
 #### :zap: Row 18
 
-| <img src="./Intermediate/Zomato-Clone/screenshot.webp" width="300px" height="180px"> |  <img src="./Intermediate/Wikipedia-Clone/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="./Intermediate/Zomato-Clone/screenshot.webp" width="300px" height="180px"> |  <img src="./Intermediate/Wikipedia-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Calendar-App/screenshot.webp" width="300px" height="180px" /> |
 |:--:|:--:|:--:|
-| [Zomato Clone](./Intermediate/Zomato-Clone) | [Wikipedia Clone](./Intermediate/Wikipedia-Clone) |  |
+| [Zomato Clone](./Intermediate/Zomato-Clone) | [Wikipedia Clone](./Intermediate/Wikipedia-Clone) | [Calendar App](./Intermediate/Calendar-App) |
 
 
 ---
