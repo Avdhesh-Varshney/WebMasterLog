@@ -66,6 +66,12 @@
 |:--:|:--:|:--:|
 | [Youtube Clone](./Intermediate/Youtube-Clone) | [Video Hub](./Intermediate/Video-Hub) |  |
 
+#### :zap: Row 7
+
+| <img src="./Intermediate/Dynamic-Dashboard/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Video-Hub/screenshot.webp" width="300px" height="180px"> |  |
+|:--:|:--:|:--:|
+| [Dynamic_Dashboard](./Intermediate/Dynamic-Dashboard) | [Video Hub](./Intermediate/Video-Hub) |  |
+
 ---
 <!-- ###################################################################################################################### -->
 <!-- ###################################################################################################################### -->
