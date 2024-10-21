@@ -225,6 +225,11 @@
 | [Zomato Clone](./Intermediate/Zomato-Clone) | [Wikipedia Clone](./Intermediate/Wikipedia-Clone) | [Calendar App](./Intermediate/Calendar-App) |
 
 
+#### :zap: Row 19 
+| <img src="./Intermediate/Recipe-Hunter/screenshot.webp" width="300px" height="180px" /> |  |  |
+|:--:|:--:|:--:|
+| [Recipe Hunter](./Intermediate/Recipe-Hunter) |  |  |
+
 ---
 <!-- ###################################################################################################################### -->
 <!-- ###################################################################################################################### -->
