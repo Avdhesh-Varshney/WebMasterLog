@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+canvas {
+    background-color: #1d2027;
+    position: relative;
+}
+
+.toolbox {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    top: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background-color: #28292e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5em;
+    gap: 0.5em;
+    flex-direction: column;
+}
+
+.toolbox > div {
+    display: flex;
+    gap: 0.5em;
+    flex-direction: column;
+}
+
+.toolbox .btn {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.5em;
+    transition: background-color 300ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    height: 2px;
+    width: 50%;
+    transform: translate(-50%, 50%);
+    background-color: red;
+    opacity: 0;
+    transition: opacity 300ms ease;
+}
+
+.btn:hover {
+    background-color: #0c0d11;
+}
+.btn:hover::after {
+    opacity: 1;
+}
+
+.btn:hover svg {
+    fill: white;
+}
+
+.btn svg {
+    fill: #595a5d;
+    line-height: 1;
+    width: 1.5em;
+    text-decoration: none;
+    padding: 0.1em;
+}
+
+.tab {
+    position: absolute;
+    top: 0;
+    background-color: inherit;
+    padding: 0.75em;
+    color: white;
+    background-color: #28292e;
+    border-radius: 5px;
+    min-width: 15vw;
+    display: none;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    height: 30px;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltiptext {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: max-content;
+    transform: translateX(calc(100% + 20px));
+    background-color: #28292e;
+    color: #fff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+    pointer-events: none;
+    user-select: none;
+    z-index: 2;
+    opacity: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    border: 7px solid;
+    border-color: transparent #28292e transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.tooltiptext span {
+    font-size: 0.6em;
+    margin-left: 0.3em;
+    opacity: 0.9;
+}
+
+.contextMenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+
+.cursor {
+    --cursor-width: 10px;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: var(--cursor-width);
+    height: var(--cursor-width);
+    border: 1px solid white;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+footer {
+    font-size: large;
+    text-align: center;
+    color: #fa0404be;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 25px;
+}
