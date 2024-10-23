@@ -7,56 +7,94 @@
 <div align="center">
 
 ## :zap: Available Projects 🎉
-<!-- Rules to Add project are as follows:
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
 
-1. Attach the project name as shown below or you can refer from the README file of Vanilla-JS.
-[To Do List](./Basic/To-Do-List)
+![Basic Level](https://img.shields.io/badge/Level-Basic-00FF00?style=for-the-badge&logo=codeigniter)
 
-2. If alignment is distorted, i will manage it. You have just added you project here according to serial number. 
+#### :zap: Row 1
 
-3. Add the category of the project using the provided links below here, according to your project.
+| <img src="./Basic/Motivation-For-The-Day/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Password-Generator/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Shopping-Cart/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Motivation For The Day](./Basic/Motivation-For-The-Day) | [Password Generator](./Basic/Password-Generator) | [Shopping Cart](./Basic/Shopping-Cart) |
 
-![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) 
-![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) 
-![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) 
+#### :zap: Row 2
 
--->
+| <img src="./Basic/Swiggy-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/To-Do-List/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Weather-App/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Swiggy Clone](./Basic/Swiggy-Clone) | [To Do List](./Basic/To-Do-List) | [Weather App](./Basic/Weather-App) |
 
+---
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
 
-| S.No  | Project Name | Category |
-|-------|--------------|----------|
-|   1   | [Password Generator](./Basic/Password-Generator) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   2   | [To Do List](./Basic/ToDo-List) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   3   | [Weather App](./Basic/Weather-App) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   4   | [Cryptocurrency Finder](./Intermediate/Cryptocurrency-Finder/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   5   | [QR Code Generator](./Advanced/Qr-Code-Generator/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   6   | [Quiz App](./Intermediate/Quiz-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   7   | [Currency Converter](./Intermediate/Currency-Converter/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   8   | [Code Editor](./Advanced/Code-Editor/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   9   | [Notes App](./Advanced/Notes-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   10  | [Movie Land](./Intermediate/Movie-Land/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   11  | [Travel Website](./Advanced/Travel-Website/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   12  | [Form Validation](./Intermediate/Form-Validation/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   13  | [Solar System Model](./Advanced/Solar-system-model/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   14  | [Image Carousel](./Intermediate/Image-Carousel) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   15  | [IP Address Tracker](./Advanced/IP-Address-Tracker/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   16  | [Myntra Clone](./Intermediate/Myntra-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   17  | [Interview Report](./Intermediate/Interview-Report/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   18  | [Swiggy Clone](./Basic/Swiggy-Clone/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   19  | [Chat Application](./Advanced/Chat-Application/)  | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   20  | [Shopping Cart](./Basic/Shopping-Cart/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   21  | [GitHub Profile Viewer](./Intermediate/GitHub-Profile-Viewer/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   22  | [Random Bible Verse](./Intermediate/Random-Bible-Verse/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   23  | [Chat Bot](./Intermediate/Chat-Bot/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   24  | [Tesla Clone](./Intermediate/Tesla-Clone) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   25  | [Motivation For The Day](./Basic/Motivation-For-The-Day/) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
-|   26  | [Job Portal](./Advanced/Job-Portal/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   27  | [Cakes n Cookies](./Intermediate/Cakes-N-Cookies/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   28  | [TSPOT Travel App](./Intermediate/Tspot-Travel-App/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   29  | [Tutoring Website](./Advanced/Tutoring-Website/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   30  | [Youtube Clone](./Intermediate/Youtube-Clone/) | ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   31  | [Typing Speed Tracker](./Advanced/Typing-Speed-Tracker/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
-|   32 | [Food Recipe App](./Advanced/Food-Recipe-App/) | ![Advanced](https://img.shields.io/badge/Advanced-FF0000?style=for-the-badge) |
+![Intermediate Level](https://img.shields.io/badge/Level-Intermediate-FFD700?style=for-the-badge&logo=codeigniter)
+
+#### :zap: Row 1
+
+| <img src="./Intermediate/Cakes-N-Cookies/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Chat-Bot/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Cryptocurrency-Finder/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Cakes N Cookies](./Intermediate/Cakes-N-Cookies) | [Chat Bot](./Intermediate/Chat-Bot) | [Cryptocurrency Finder](./Intermediate/Cryptocurrency-Finder) |
+
+#### :zap: Row 2
+
+| <img src="./Intermediate/Currency-Converter/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Form-Validation/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/GitHub-Profile-Viewer/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Currency Converter](./Intermediate/Currency-Converter) | [Form Validation](./Intermediate/Form-Validation) | [GitHub Profile Viewer](./Intermediate/GitHub-Profile-Viewer) |
+
+#### :zap: Row 3
+
+| <img src="./Intermediate/Image-Carousel/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Interview-Report/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Movie-Land/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Image Carousel](./Intermediate/Image-Carousel) | [Interview Report](./Intermediate/Interview-Report) | [Movie Land](./Intermediate/Movie-Land) |
+
+#### :zap: Row 4
+
+| <img src="./Intermediate/Myntra-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Netflix-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Quiz-App/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Myntra Clone](./Intermediate/Myntra-Clone) | [Netflix Clone](./Intermediate/Netflix-Clone) | [Quiz App](./Intermediate/Quiz-App) |
+
+#### :zap: Row 5
+
+| <img src="./Intermediate/Random-Bible-Verse/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Tesla-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Tspot-Travel-App/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Random Bible Verse](./Intermediate/Random-Bible-Verse) | [Tesla Clone](./Intermediate/Tesla-Clone) | [Tspot Travel App](./Intermediate/Tspot-Travel-App) |
+
+#### :zap: Row 6
+
+| <img src="./Intermediate/Youtube-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Video-Hub/screenshot.webp" width="300px" height="180px"> |  |
+|:--:|:--:|:--:|
+| [Youtube Clone](./Intermediate/Youtube-Clone) | [Video Hub](./Intermediate/Video-Hub) |  |
+
+---
+<!-- ###################################################################################################################### -->
+<!-- ###################################################################################################################### -->
+
+![Advanced Level](https://img.shields.io/badge/Level-Advanced-FF0000?style=for-the-badge&logo=codeigniter)
+
+#### :zap: Row 1
+
+| <img src="./Advanced/Chat-Application/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Code-Editor/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Food-Recipe-App/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Chat Application](./Advanced/Chat-Application) | [Code Editor](./Advanced/Code-Editor) | [Food Recipe App](./Advanced/Food-Recipe-App) |
+
+#### :zap: Row 2
+
+| <img src="./Advanced/IP-Address-Tracker/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Job-Portal/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Notes-App/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [IP Address Tracker](./Advanced/IP-Address-Tracker) | [Job Portal](./Advanced/Job-Portal) | [Notes App](./Advanced/Notes-App) |
+
+#### :zap: Row 3
+
+| <img src="./Advanced/Qr-Code-Generator/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Solar-System-Model/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Travel-Website/screenshot.webp" width="300px" height="180px"> |
+|:--:|:--:|:--:|
+| [Qr Code Generator](./Advanced/Qr-Code-Generator) | [Solar System Model](./Advanced/Solar-System-Model) | [Travel Website](./Advanced/Travel-Website) |
+
+#### :zap: Row 4
+
+| <img src="./Advanced/Tutoring-Website/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Typing-Speed-Tracker/screenshot.webp" width="300px" height="180px"> | <img src="./Advanced/Sudoku-Solver/screenshot.webp" width="300px" height="180px" /> |
+|:--:|:--:|:--:|
+| [Tutoring Website](./Advanced/Tutoring-Website) | [Typing Speed Tracker](./Advanced/Typing-Speed-Tracker) | [Sudoku Solver](./Advanced/Sudoku-Solver/) |
 
 </div>
 
@@ -66,4 +104,5 @@
 <div align="center">
 	<h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
 </div>
-<a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
+
+<a href="#top"><img src="https://img.shields.io/badge/⬆-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>

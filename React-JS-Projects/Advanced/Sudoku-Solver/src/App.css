@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #f8f9fa, #e0e0e0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  margin-top: 30px;
+  color: #333;
+}
+
+.image-container {
+  margin-right: 20px;
+  position: absolute;
+  width: 10rem;
+  right: 73%;
+  top: 4.8rem;
+  user-select: none;
+  display: none;
+}
+
+.image-container img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (min-width: 1220px) {
+  .image-container {
+    display: block;
+  }
+}
+
+/* @media (width: 1350px) {
+  .image-container {
+    margin-right: 20px;
+    position: absolute;
+    width: 10rem;
+    right: 90.66667%;
+    top: 4.8rem;
+    user-select: none;
+    display: none;
+  }
+} */
+
+.sudoku-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  border-collapse: collapse;
+  border: 4px solid #000;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  border: 1.5px solid #999;
+  transition: all 0.3s ease-in-out;
+}
+
+table tr:nth-child(3n) td,
+table tr:nth-child(3n + 3) td {
+  border-bottom: 2px solid #000;
+}
+
+table td:nth-child(3n) {
+  border-right: 2px solid #000;
+}
+
+input {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: inherit;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #0a5c36;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #18392b;
+}
+
+.solved {
+  background-color: #9ccc65;
+  transition: all 0.2s ease-in-out;
+}
+
+.warning {
+  color: red;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .cell {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  h1 {
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cell {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 12px 24px;
+  }
+}
+
+.linkedin-icon {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.linkedin-icon::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #0077b5;
+  transform: translate(60%, 50%);
+}
+
+.linkedin-icon a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.linkedin-icon a:hover {
+  color: #005582;
+}

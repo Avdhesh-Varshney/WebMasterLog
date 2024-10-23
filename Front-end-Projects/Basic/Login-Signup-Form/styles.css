@@ -68,6 +68,16 @@ input[type="radio"] {
     background-color: rgba(255, 255, 255, 0.37);
 }
 
+.icon1,.icon2,.icon{
+    display: flex;
+    justify-content: end;
+}
+
+.user,.pass,.email,.Spass{
+    margin-top:23px;
+    margin-left: 10px;
+}
+
 .form-container {
     position: relative;
 }

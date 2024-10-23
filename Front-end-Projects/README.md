@@ -49,7 +49,9 @@
 |   22  | [Survey Form](./Basic//Survey-Form) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   23  | [Blood Donation Form](./Basic//Blood-Donation-Form) | ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
 |   24  | [Linktree Clone](./Intermediate/Linktree-Clone)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
-|   26  | [Currency Converter](./Intermediate/Currency-Converter)| ![Intermediate](https://img.shields.io/badge/Intermediate-FFD700?style=for-the-badge) |
+|   25  | [Google Search Clone](./Basic/Google-Search-Clone)| ![Basic](https://img.shields.io/badge/Basic-00FF00?style=for-the-badge) |
+
+
 </div>
 
 
@@ -58,4 +60,5 @@
 <div align="center">
 	<h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
 </div>
-<a href="#top"><img src="https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
+
+<a href="#top"><img src="https://img.shields.io/badge/⬆-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>

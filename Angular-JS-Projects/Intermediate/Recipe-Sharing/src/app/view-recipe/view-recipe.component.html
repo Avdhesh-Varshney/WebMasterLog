@@ -1,0 +1,8 @@
+
+<div class="container">
+    <ul *ngFor="let recipe of allRecipe">
+        Food name: {{recipe.name}} <br>
+        <li>Ingredients: {{recipe.ingredients}}</li>
+        <li>Details: {{recipe.details}}</li> <button class="btn btn-default m-3" (click)="onSubmitUpdate(recipe)">Update</button><button class="btn btn-default" (click)="onDelete(recipe)">Delete</button>
+    </ul>
+</div>
