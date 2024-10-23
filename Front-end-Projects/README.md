@@ -38,9 +38,9 @@
 
 #### :zap: Row 5
 
-| <img src="./Basic/Starbucks-Landing-page/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Survey-Form/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="./Basic/Starbucks-Landing-page/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Survey-Form/screenshot.webp" width="300px" height="180px"> |  <img src="./Basic/Amazon-clone/screenshot.webp" width="300px" height="180px">
 |:--:|:--:|:--:|
-| [Starbucks Landing page](./Basic/Starbucks-Landing-page) | [Survey Form](./Basic/Survey-Form) |  |
+| [Starbucks Landing page](./Basic/Starbucks-Landing-page) | [Survey Form](./Basic/Survey-Form) |  [Amazon clone](./Basic/Amazon-clone)
 
 ---
 <!-- ###################################################################################################################### -->

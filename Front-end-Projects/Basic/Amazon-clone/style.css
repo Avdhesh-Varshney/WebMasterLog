@@ -1,0 +1,983 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+.navbar{
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 3px;
+}
+
+.border:hover{
+    border: 1.5px solid rgb(203, 203, 203);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* Box 1 Style(amazon-logo) */
+
+.amazon-logo{
+    height: 50px;
+    width: 110px;
+    margin: 1px;
+}
+
+.logo{
+    background-image: url("assets/logo.png");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+/* Box 2 Style(address) */
+
+.address{
+    padding: 8px 4px 8px 4px;
+}
+
+.first-add{
+    font-size:0.9rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+
+.icon-location{
+    display: flex;
+}
+
+.location{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+/* Box 3 Style(search-box) */
+
+.search-box{
+    width: 890px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    cursor: pointer;
+}
+
+.search-box:active{
+    border: 3px solid orange;
+    border-radius: 8px;
+}
+
+.search-box:hover{
+    border: 3px solid orange;
+    border-radius: 8px;
+}
+
+.select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    border-right: 1.5px solid #a4a5a5;
+    outline: none;
+    font-size: 14px;
+    width: 50px;
+    text-align: center;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+.search-input{
+    width: 100%;
+    margin-left: 8px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.search-input::placeholder{
+    font-size: 1.1rem;
+}
+
+.search-icon{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: #0f1111;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* Box 4 Style(language) */
+
+.language2{
+    padding: 16px 4px 12px 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flag{
+    width: 21.6px;
+    height: 20.5px;
+}
+
+.lang{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Box 5 Style(account1) */
+
+.account{
+    padding: 8px 7px 8px 7px;
+}
+
+span{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.second-line{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Box6 Style(Order1) */
+
+.order{
+    padding: 8px 7px 8px 7px;
+}
+
+/* Box7 Style(cart) */
+
+.cart{
+    padding: 8px 7px 5px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartlogo{
+    width: 40px;
+    height: 32px;
+}
+
+.cart p{
+    padding-top: 18px;
+}
+
+/* Panel Style(panel) */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.all{
+    display: flex;
+    height: 40px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.all i{
+    font-size: 18px;
+}
+
+.all p{
+    font-size: 0.9rem;
+    padding-left: 3px;
+    font-weight: 700;
+}
+
+.options{
+    width: 93%;
+    display: flex;
+    padding-left: 5px;
+}
+
+.op{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.options a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-left: 8px;
+    padding-right: 8px;
+}
+
+/* Main Section Style */
+
+.main-section{
+    background-image: url("assets/main.jpg");
+    mask-image: linear-gradient(to bottom, #000000 50%, transparent 100%);
+    background-size: cover;
+    max-width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.main-message{
+    background-color: #ffffff;
+    color: #0f1111;
+    height: 40px;
+    width: 97%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 308px;
+}
+
+.main-message p{
+    font-size: 0.9rem;
+}
+
+.main-message a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #007185;
+}
+
+/* Shop Section Style*/
+
+.box-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #eeeeee;
+    padding-bottom: 25px;
+    margin-top: -20.1vw;
+}
+
+.box{
+    height: 420px;
+    width: 23%;
+    background-color: #ffffff;
+    padding: 25px 0px 15px;
+    margin-top: 25px;
+    z-index: 1;
+}
+
+.box-image{
+    height: 325px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.box-content{
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+
+.box-content h2{
+    font-size: 1.32rem;
+}
+
+.box-content a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #007185;
+    padding-top: -20px;
+    cursor: pointer;
+}
+
+/* For Squadren Image Style */
+
+.squad-images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.squad-box{
+    width: 47%;
+}
+
+.squad-box-image{
+    height: 17vh;
+    background-size: cover;
+}
+
+.squad-box-content p{
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.push{
+    margin-top: 30px;
+}
+
+/* Footer Style*/
+
+.pannel1{
+    height: 50px;
+    background-color: #37475a;
+    color: #ffffff;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pannel2{
+    background: linear-gradient(180deg, #1f2b37, #25323f, #273849);
+    color: #ffffff;
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pannel2 p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.pannel2 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+ul{
+    margin-top: 50px;
+}
+
+ul a{
+    padding-top: 30px;
+    display: block;
+    color: #dddddd;
+}
+
+.pannel3{
+    background-color: #1f2b37;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-logo{
+    background-image: url("assets/logo.png");
+    width: 150px;
+    height: 60px;
+    background-size: cover;
+}
+
+.pannel4{
+    height: 80px;
+    background-color:#19222c;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redirect a{
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: #ffffff;
+    padding-left: 15px;
+}
+
+.copy-right {
+    margin-top: 5px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.copy-right span{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        border: border-box;
+        font-family: Arial;
+    }
+
+    .navbar{
+        font-size: 20px;
+    }
+
+    .amazon-logo{
+        height: 43px;
+        margin-left: 6px; 
+    }
+
+    .logo{
+        background-image: url("assets/footerLogo.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+        width: 67px;
+    }
+
+    .add{
+        margin-left: 3px;
+    }
+
+    .address{
+        width: 55px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .first-add{
+        font-size: 0.6rem;
+        margin-left: 11px;
+        margin-bottom: 5px;
+    }
+
+    .location{
+        font-size: 0.9rem;
+        margin-left: 2px;
+    }
+
+    .icon-location i{
+        font-size: 0.7rem;
+    }
+
+    .select{
+        width: 37px;
+        font-size: 12px;
+    }
+
+    .search-box{
+        height: 36px;
+    }
+
+    .search-input{
+        font-size: 0.9rem;
+    }
+
+    .search-input::placeholder{
+        font-size: 0.9rem;
+    }
+
+    .search-icon{
+        font-size: 1.3rem;
+    }
+
+    .language{
+        display: none;
+    }
+
+    .account{
+        margin-left: 8px;
+        width: 45px;
+    }
+
+    .second-line{
+        font-size: 0.75rem;
+    }
+
+    .order{
+        height: 30px;
+        margin-left: 5px;
+    }
+
+    .gu{
+        margin-top: 5px;
+    }
+
+    .account span, .order span{
+        display: none;
+    }
+
+    .cart{
+        height: 30px;
+        margin-right: 8px;
+    }
+
+    .cartlogo{
+        height: 30px;
+        width: 30px;
+    }
+
+    .ghu{
+        margin-bottom: 10px;
+    }
+
+    .options a{
+        font-size: 0.8rem;
+        margin-left: 8px;
+    }
+
+    .all{
+        margin-right: -8px;
+    }
+
+    .all i{
+        font-size: 0.8rem;
+    }
+    
+    .all p{
+        font-size: 0.9rem;
+        padding-left: 5px;
+        padding-top: 3px;
+        font-weight: 700;
+    }
+
+    .main-section {
+        height: 420px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 180px;
+    }
+
+    .main-message {
+        width: 90%;
+        border-radius: 5px;
+        height: 45px;
+        margin-bottom: 22vh;
+        text-align: center;
+        color: #000000;
+        padding: 3px 3px 3px 3px;
+    }
+
+    .main-message p{
+        font-size: 0.73rem;
+    }
+
+    .main-message a{
+        font-size: 0.8rem;
+    }
+
+    .box-section {
+        margin-top: -55.1vw;
+        margin-bottom: -10px;
+    }
+
+    .box {
+        margin-top: 25px;
+        height: 16rem;
+        width: 45%;
+        padding-top: 15px;
+    }
+
+    .box-image {
+        height: 22vh;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .box-content h2 {
+        font-size: 0.8rem;
+    }
+
+    .box-content a {
+        font-size: 12px;
+    }
+
+    .squad-box-image{
+        height: 9vh;
+        background-size:cover;
+    }
+
+    .squad-box-content{
+        margin-bottom: -20px;
+    }
+
+    .squad-box-content p{
+        font-size: 0.5rem;
+
+    }
+
+    .push{
+        margin-top: 2rem;
+    }
+
+    .pannel1{
+        height: 37px;
+        font-size: 0.65rem;
+    }
+
+    .pannel2{
+        height: 300px;
+    }
+
+    .pannel2 p{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    
+    .pannel2 a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.7rem;
+    }
+    
+    ul{
+        margin-top: 40px;
+    }
+
+    .big{
+        display: none;
+    }
+    
+    ul a{
+        padding-top: 15px;
+        display: block;
+        color: #dddddd;
+    }
+    .pannel3{
+        height: 50px;
+    }
+
+    .foot-logo{
+        margin-top: 20px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+    }
+
+    .pannel4{
+        height: 80px;
+        background-color:#19222c;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .redirect a{
+        text-decoration: none;
+        font-size: 0.7rem;
+        color: #ffffff;
+        padding-left: 15px;
+    }
+    
+    .copy-right {
+        margin-top: 5px;
+        font-size: 0.65rem;
+        text-align: center;
+    }
+    
+    .copy-right span{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }  
+}
+
+@media (max-width: 480px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        border: border-box;
+        font-family: Arial;
+    }
+
+    .navbar{
+        font-size: 10px;
+    }
+
+    .amazon-logo{
+        height: 37px;
+        margin-left: 4px; 
+    }
+
+    .logo{
+        background-image: url("assets/smallImage.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: -15px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .add{
+        margin-left: -3px;
+    }
+
+    .address{
+        width: 30px;
+        margin-right: 10px;
+    }
+
+    .first-add{
+        font-size: 0.4rem;
+        margin-left: 1px;
+    }
+
+    .location{
+        font-size: 0.7rem;
+        margin-left: 2px;
+    }
+
+    .icon-location i{
+        display: none;
+    }
+
+    .select{
+        width: 20px;
+        font-size: 9px;
+    }
+
+    .search-box{
+        height: 30px;
+    }
+
+    .search-box:hover{
+        border: 2px solid orange;
+        border-radius: 5px;
+    }
+
+    .search-box:active{
+        border: 2px solid orange;
+        border-radius: 5px;
+    }
+
+    .search-input{
+        font-size: 0.7rem;
+    }
+
+    .search-input::placeholder{
+        font-size: 0.6rem;
+    }
+
+    .search-icon{
+        font-size: 16px;
+    }
+
+    .language{
+        display: none;
+    }
+
+    .account{
+        margin-left: 8px;
+    }
+
+    .second-line{
+        font-size: 10px;
+    }
+
+    .order{
+        height: 20px;
+    }
+
+    .gu{
+        margin-top: 5px;
+    }
+
+    .account span, .order span{
+        display: none;
+    }
+
+    .cart{
+        height: 25px;
+    }
+
+    .cartlogo{
+        height: 20px;
+        width: 20px;
+    }
+
+    .ghu{
+        margin-bottom: 10px;
+    }
+
+    .options a{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .all{
+        margin-right: -8px;
+    }
+
+    .all i{
+        font-size: 12px;
+    }
+    
+    .all p{
+        font-size: 0.6rem;
+        padding-left: 5px;
+        padding-top: 3px;
+        font-weight: 700;
+    }
+
+    .main-section {
+        height: 200px;
+        margin-bottom: 180px;
+    }
+
+    .main-message {
+        width: 67%;
+        border-radius: 5px;
+        height: 25px;
+        margin-bottom: 6vh;
+        text-align: center;
+        color: #000000;
+        padding: 3px 3px 3px 3px;
+        z-index: 3;
+    }
+
+    .main-message p{
+        font-size: 0.5rem;
+    }
+
+    .main-message a{
+        font-size: 0.55rem;
+    }
+
+    .box-section {
+        margin-top: -50.1vw;
+        margin-bottom: -10px;
+    }
+
+    .box {
+        margin-top: 15px;
+        height: 16rem;
+        width: 45%;
+        padding-top: 15px;
+    }
+
+    .box-image {
+        height: 22vh;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .box-content h2 {
+        font-size: 0.8rem;
+    }
+
+    .box-content a {
+        font-size: 12px;
+    }
+
+    .squad-box-image{
+        height: 9vh;
+        background-size:cover;
+    }
+
+    .squad-box-content{
+        margin-bottom: -20px;
+    }
+
+    .squad-box-content p{
+        font-size: 0.5rem;
+
+    }
+
+    .push{
+        margin-top: 2rem;
+    }
+
+    .pannel1{
+        height: 37px;
+        font-size: 0.65rem;
+    }
+
+    .pannel2{
+        height: 300px;
+    }
+
+    .pannel2 p{
+        font-size: 0.57rem;
+        font-weight: 600;
+    }
+    
+    .pannel2 a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.4rem;
+    }
+    
+    ul{
+        margin-top: 40px;
+    }
+
+    .big{
+        display: none;
+    }
+    
+    ul a{
+        padding-top: 15px;
+        display: block;
+        color: #dddddd;
+    }
+
+    .pannel3{
+        height: 60px;
+    }
+
+    .foot-logo{
+        background-image: url("assets/footerLogo.png");
+        margin-top: 28px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100px;
+    }
+
+    .pannel4{
+        height: 60px;
+        background-color:#19222c;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .redirect a{
+        text-decoration: none;
+        font-size: 0.55rem;
+        color: #ffffff;
+        padding-left: 15px;
+    }
+    
+    .copy-right {
+        margin-top: 5px;
+        margin-bottom: 7px;
+        font-size: 0.58rem;
+        text-align: center;
+    }
+    
+    .copy-right span{
+        font-size: 0.8rem;
+        font-weight: 600;
+    }  
+}
