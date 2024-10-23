@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+        <title>Drawing Web App</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="Jscript.js" defer></script>
+        <script src="draw.js" defer></script>
+    </head>
+
+    <body>
+        <canvas></canvas>
+        <div class="cursor"></div>
+        <section class="toolbox">
+            <div>
+                <a class="downloadBtn" href="" download="painting.png">
+                    <div class="download-icon btn tooltip">
+                        <p class="tooltiptext">Download</p>
+                        <svg viewBox="0 0 512 512">
+                            <path
+                                d="M464,128H272L208,64H48A48,48,0,0,0,0,112V400a48,48,0,0,0,48,48H464a48,48,0,0,0,48-48V176A48,48,0,0,0,464,128ZM364.44,283.36,268,379.06a17.05,17.05,0,0,1-24,0l-96.42-95.7A16,16,0,0,1,158.81,256H224V208a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16v48h65.18A16,16,0,0,1,364.44,283.36Z">
+                            </path>
+                        </svg>
+                    </div>
+                </a>
+                <div onclick="changeBrush('pen')" class="btn tooltip">
+                    <p class="tooltiptext">Pencil</p>
+                    <svg viewBox="0 0 512 512">
+                        <path
+                            d="M290.74 93.24l128.02 128.02-277.99 277.99-114.14 12.6C11.35 513.54-1.56 500.62.14 485.34l12.7-114.22 277.9-277.88zm207.2-19.06l-60.11-60.11c-18.75-18.75-49.16-18.75-67.91 0l-56.55 56.55 128.02 128.02 56.55-56.55c18.75-18.76 18.75-49.16 0-67.91z">
+                        </path>
+                    </svg>
+                </div>
+                <div onclick="undo()" class="undo-icon btn tooltip">
+                    <p class="tooltiptext">Undo Action <span>CTRL + Z</span></p>
+                    <svg viewBox="0 0 512 512">
+                        <path
+                            d="M212.333 224.333H12c-6.627 0-12-5.373-12-12V12C0 5.373 5.373 0 12 0h48c6.627 0 12 5.373 12 12v78.112C117.773 39.279 184.26 7.47 258.175 8.007c136.906.994 246.448 111.623 246.157 248.532C504.041 393.258 393.12 504 256.333 504c-64.089 0-122.496-24.313-166.51-64.215-5.099-4.622-5.334-12.554-.467-17.42l33.967-33.967c4.474-4.474 11.662-4.717 16.401-.525C170.76 415.336 211.58 432 256.333 432c97.268 0 176-78.716 176-176 0-97.267-78.716-176-176-176-58.496 0-110.28 28.476-142.274 72.333h98.274c6.627 0 12 5.373 12 12v48c0 6.627-5.373 12-12 12z">
+                        </path>
+                    </svg>
+                </div>
+                <div onclick="openTab('colorTab')" class="color-icon btn tooltip">
+                    <sppan class="tooltiptext">Color Palette <span>C</span></sppan>
+                    <svg viewBox="0 0 512 512">
+                        <path
+                            d="M204.3 5C104.9 24.4 24.8 104.3 5.2 203.4c-37 187 131.7 326.4 258.8 306.7 41.2-6.4 61.4-54.6 42.5-91.7-23.1-45.4 9.9-98.4 60.9-98.4h79.7c35.8 0 64.8-29.6 64.9-65.3C511.5 97.1 368.1-26.9 204.3 5zM96 320c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm32-128c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128-64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 64c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z">
+                        </path>
+                    </svg>
+                </div>
+                <div onclick="openTab('brushTab')" class="brushIcon btn tooltip">
+                    <p class="tooltiptext">Brush Customizer</p>
+                    <svg viewBox="0 0 512 512">
+                        <path
+                            d="M434.66,167.71h0L344.5,77.36a31.83,31.83,0,0,0-45-.07h0l-.07.07L224,152.88V424L434.66,212.9A32,32,0,0,0,434.66,167.71ZM480,320H373.09L186.68,506.51c-2.06,2.07-4.5,3.58-6.68,5.49H480a32,32,0,0,0,32-32V352A32,32,0,0,0,480,320ZM192,32A32,32,0,0,0,160,0H32A32,32,0,0,0,0,32V416a96,96,0,0,0,192,0ZM96,440a24,24,0,1,1,24-24A24,24,0,0,1,96,440Zm32-184H64V192h64Zm0-128H64V64h64Z">
+                        </path>
+                    </svg>
+                </div>
+                <div onclick="changeBrush('erase')" class="eraseIcon btn tooltip">
+                    <p class="tooltiptext">Eraser <span>E</span></p>
+                    <svg viewBox="0 0 512 512">
+                        <path
+                            d="M497.941 273.941c18.745-18.745 18.745-49.137 0-67.882l-160-160c-18.745-18.745-49.136-18.746-67.883 0l-256 256c-18.745 18.745-18.745 49.137 0 67.882l96 96A48.004 48.004 0 0 0 144 480h356c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12H355.883l142.058-142.059zm-302.627-62.627l137.373 137.373L265.373 416H150.628l-80-80 124.686-124.686z">
+                        </path>
+                    </svg>
+                </div>
+                <div onclick="clearCanvas()" class="trashIcon btn tooltip">
+                    <p class="tooltiptext">Delete Painting</p>
+                    <svg viewBox="0 0 448 512">
+                        <path
+                            d="M432 32H312l-9.4-18.7A24 24 0 0 0 281.1 0H166.8a23.72 23.72 0 0 0-21.4 13.3L136 32H16A16 16 0 0 0 0 48v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16zM53.2 467a48 48 0 0 0 47.9 45h245.8a48 48 0 0 0 47.9-45L416 128H32z">
+                        </path>
+                    </svg>
+                </div>
+                <article class="colorTab tab">
+                    <div>
+                        <p>Color Selector!</p>
+                        <input class="colorPicker" type="color" onchange="updateColor()" />
+                        <p>Background Selector!</p>
+                        <input class="backgroundPicker" type="color" onchange="updateBgColor()" />
+                    </div>
+                </article>
+                <article class="brushTab tab">
+                    <div>
+                        <p>Line width</p>
+                        <input value="2" class="thickness" type="number" min="1" max="100" />
+                    </div>
+                </article>
+            </div>
+            <div>
+                <div class="btn tooltip">
+                    <span class="tooltiptext">Settings</span>
+                    <svg viewBox="0 0 448 512">
+                        <path
+                            d="M272 352h-24V16c0-8.8-7.2-16-16-16h-16c-8.8 0-16 7.2-16 16v336h-24c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h24v80c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16v-80h24c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM112 96H88V16c0-8.8-7.2-16-16-16H56c-8.8 0-16 7.2-16 16v80H16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h24v336c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V160h24c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm320 128h-24V16c0-8.8-7.2-16-16-16h-16c-8.8 0-16 7.2-16 16v208h-24c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h24v208c0 8.8 7.2 16 16 16h16c8.8 0 16-7.2 16-16V288h24c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <a href="https://github.com/abhisek2004">@ Created and Design By Abhisek Panda</a>
+        </footer>
+    </body>
+
+</html>
