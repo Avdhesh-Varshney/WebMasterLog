@@ -52,7 +52,7 @@
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
 
-![Img](images/Screenshot 2024-10-25 at 1.35.12 PM.png)
+![Img](WebMasterLog/Front-end-Projects/Basic/Pokemon-Card/images/Screenshot 2024-10-25 at 1.35.12 PM.png)
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
