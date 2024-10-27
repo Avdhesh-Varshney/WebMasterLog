@@ -42,17 +42,22 @@
 ## :zap: How to run it? 🕹️
 
 <!-- Add steps how to run this project -->
-
+- Fork this project and run the `index.html` file directly.
 
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Screenshots 📸
 <!-- add the screenshot of the project (Mandatory) -->
+![image](https://github.com/user-attachments/assets/2a09643c-3751-4b5e-a239-3d1287c66b32)
+
 
 
 ## :zap: Working Video 📹
 <!-- directly add the link of video (If, possible) -->
+
+https://github.com/user-attachments/assets/3127ff07-b9c3-4655-8472-68ecacf8d5c3
+
 
 
 
