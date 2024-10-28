@@ -3,9 +3,6 @@ import NotFound from '../../components/shared/NotFound';
 import ProjectCard from '../../components/shared/ProjectCard';
 import React from 'react';
 import fs from 'fs';
-import Link from 'next/link';
-import {motion} from 'framer-motion'
-import Image from 'next/image';
 const Project = ({ params }: { params: { projectDomain: string } }) => {
   const rootDirFiles = fs.readdirSync('./../');
   const rootDirProjects = rootDirFiles.filter(project => project.includes('-Projects'));
