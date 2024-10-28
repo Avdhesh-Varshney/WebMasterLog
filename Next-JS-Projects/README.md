@@ -44,9 +44,9 @@
 
 #### :zap: Row 2
 
-|<img src="./Advanced/Gen-AI-Quiz-Application/screenshot.webp" width="300px" height="180px">|||
+|<img src="./Advanced/Gen-AI-Quiz-Application/screenshot.webp" width="300px" height="180px">|<img src="./Advanced/Voice-Call-App/screenshot.webp" width="300px" height="180px">||
 |:--:|:--:|:--:|
-[Gen AI Quiz Application](./Advanced/Gen-AI-Quiz-Application)|||
+[Gen AI Quiz Application](./Advanced/Gen-AI-Quiz-Application)|[Voice Call App](./Advanced/Voice-Call-App)||
 </div>
 
 
