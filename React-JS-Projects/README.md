@@ -62,15 +62,9 @@
 
 #### :zap: Row 6
 
-| <img src="./Intermediate/Youtube-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Video-Hub/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="./Intermediate/Youtube-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Video-Hub/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Text-Editor/screenshot.webp" width="300px" height="180px"> |
 |:--:|:--:|:--:|
-| [Youtube Clone](./Intermediate/Youtube-Clone) | [Video Hub](./Intermediate/Video-Hub) | |
-
-#### :zap: Row 7
-
-| <img src="./Intermediate/Video-Hub/screenshot.webp" width="300px" height="180px"> | <img src="./Intermediate/Text-Editor/screenshot.webp" width="300px" height="180px"> |  |
-|:--:|:--:|:--:|
-| [Video Hub](./Intermediate/Video-Hub) | [Text Editor](./Intermediate/Text-Editor) |
+| [Youtube Clone](./Intermediate/Youtube-Clone) | [Video Hub](./Intermediate/Video-Hub) | [Text Editor](./Intermediate/Text-Editor) |
 
 ---
 <!-- ###################################################################################################################### -->
