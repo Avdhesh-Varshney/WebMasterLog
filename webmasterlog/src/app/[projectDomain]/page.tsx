@@ -1,14 +1,18 @@
 'use server';
-
+import NotFound from '../../components/shared/NotFound';
 import ProjectCard from '../../components/shared/ProjectCard';
 import React from 'react';
 import fs from 'fs';
-
 const Project = ({ params }: { params: { projectDomain: string } }) => {
   const rootDirFiles = fs.readdirSync('./../');
   const rootDirProjects = rootDirFiles.filter(project => project.includes('-Projects'));
   const projectDir = rootDirProjects.find(project => project.replace('-Projects', '').replace('-', '').toLowerCase() == params.projectDomain);
-  const projectFiles = fs.readdirSync(`./../${projectDir}`);
+  if (!projectDir) {  // This is the code for error 404 , and must be altered carefully
+    return (
+      <NotFound/>
+    );
+  }
+  const projectFiles = fs.readdirSync(`./../${projectDir }`); 
 
   const levels = [
     { level: 'Basic', projects: projectFiles.filter(project => project.includes('Basic')) },
