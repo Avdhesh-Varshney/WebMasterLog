@@ -35,7 +35,7 @@ This is an basic `Sidebar Menu` without using Java Script. It appear from left, 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Screenshots 📸
-
+<img src='./screenshot.webp'>
 
 
 
