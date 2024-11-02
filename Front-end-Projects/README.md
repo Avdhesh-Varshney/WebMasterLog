@@ -42,6 +42,12 @@
 |:--:|:--:|:--:|
 | [Starbucks Landing page](./Basic/Starbucks-Landing-page) | [Survey Form](./Basic/Survey-Form) |  [Sidebar Menu](./Basic/Sidebar-Menu) |
 
+#### :zap: Row 6
+
+| <img src="./Basic/Amazon-Clone/screenshot.webp" width="300px" height="180px"> |  |  |
+|:--:|:--:|:--:|
+| [Amazon Clone](./Basic/Amazon-Clone) | | |
+
 ---
 <!-- ###################################################################################################################### -->
 <!-- ###################################################################################################################### -->
