@@ -7,6 +7,7 @@ import Header from "./shared/Header";
 import Footer from "./shared/Footer";
 import Cursor from "./shared/Cursor";
 import ProgressBar from "./shared/ProgressBar";
+import AiChatbot from "./shared/AiChatbot";
 
 const MainContent = ({ children }: { children: React.ReactNode }) => {
   const context = useSidebarContext();
@@ -15,7 +16,7 @@ const MainContent = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <>
-      <ProgressBar/>
+      <ProgressBar />
       <Sidebar />
       <main className={`grid w-full h-full transition-all duration-300 ${isSidebarOpen ? 'pl-[245px]' : 'pl-[75px]'}`}>
         <Header />
@@ -23,6 +24,7 @@ const MainContent = ({ children }: { children: React.ReactNode }) => {
           <Cursor />
           {children}
           <ScrollToTop />
+          <AiChatbot />
         </div>
         <Footer />
       </main>

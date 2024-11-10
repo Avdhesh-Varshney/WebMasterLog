@@ -49,16 +49,30 @@ export class ContactListComponent implements OnInit, OnChanges {
     private notificationPopup: ToastrService
   ) {}
 
+  groupedContacts = new Map<string, any[]>();
+
   getAllTasks(): void {
-    this.contactService.getAllContacts().subscribe(
-      (res) => {
-        this.contacts = res.sort((a, b) => a.name.localeCompare(b.name));
+    this.contactService.getAllContacts().subscribe({
+      next: (response) => {
+        this.contacts = response.sort((a, b) => a.name.localeCompare(b.name));
         this.filteredContacts = this.contacts;
+        this.groupContacts();
       },
-      (err) => {
-        console.log(err);
+      error: (err) => {
+        this.notificationPopup.error("An Error Occured", "Error!");
+      },
+    });
+  }
+
+  groupContacts(): void {
+    this.groupedContacts.clear();
+    this.filteredContacts.forEach((contact) => {
+      const firstLetter = contact.name.charAt(0).toUpperCase();
+      if (!this.groupedContacts.has(firstLetter)) {
+        this.groupedContacts.set(firstLetter, []);
       }
-    );
+      this.groupedContacts.get(firstLetter)?.push(contact);
+    });
   }
 
   deleteContact(contact: Contact): void {
@@ -78,10 +92,13 @@ export class ContactListComponent implements OnInit, OnChanges {
   }
 
   searchContacts(): void {
-    this.filteredContacts = this.contacts.filter(
+    const filtered = this.contacts.filter(
       (contact) =>
         contact.name.toLowerCase().includes(this.searchQuery.toLowerCase()) ||
         contact.phone.includes(this.searchQuery)
     );
+
+    this.filteredContacts = filtered;
+    this.groupContacts();
   }
 }
