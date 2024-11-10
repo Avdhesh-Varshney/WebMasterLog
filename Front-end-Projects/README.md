@@ -44,7 +44,7 @@
 
 #### :zap: Row 6
 
-| <img src="./Basic/Amazon-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Pokemon-Card" width="300px" height="180px"> |  |
+| <img src="./Basic/Amazon-Clone/screenshot.webp" width="300px" height="180px"> | <img src="./Basic/Pokemon-Card/screenshot.webp" width="300px" height="180px"> |  |
 |:--:|:--:|:--:|
 | [Amazon Clone](./Basic/Amazon-Clone) | [Pokemon Card](./Basic/Pokemon-Card) | |
 
