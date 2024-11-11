@@ -1,0 +1,3963 @@
+{
+	"angular": {
+		"beginner": [
+			{
+				"project_name": "quick-notes",
+				"creator": "osmoosiis",
+				"date": "Sun May 26 2024",
+				"github_url": "https://github.com/osmoosiis",
+				"avatar_url": "https://avatars.githubusercontent.com/u/138987789?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"Angular.js"
+				]
+			},
+			{
+				"project_name": "task-manager",
+				"creator": "Mehul Prajapati",
+				"date": "Sat Oct 12 2024",
+				"github_url": "https://github.com/mehul-m-prajapati",
+				"avatar_url": "https://avatars.githubusercontent.com/u/7879392?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"Angular.js"
+				]
+			}
+		],
+		"intermediate": [
+			{
+				"project_name": "recipe-sharing",
+				"creator": "Mehul Prajapati",
+				"date": "Thu Oct 17 2024",
+				"github_url": "https://github.com/mehul-m-prajapati",
+				"avatar_url": "https://avatars.githubusercontent.com/u/7879392?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"Angular.js",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "train-website",
+				"creator": "Pulkit",
+				"date": "Mon Jul 01 2024",
+				"github_url": "https://github.com/pulkit1417",
+				"avatar_url": "https://avatars.githubusercontent.com/u/160238709?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"Angular.js",
+					"JavaScript"
+				]
+			}
+		],
+		"advanced": [
+			{
+				"project_name": "contact-manager",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Sat Aug 03 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": []
+			}
+		]
+	},
+	"frontend": {
+		"beginner": [
+			{
+				"project_name": "amazon-clone",
+				"creator": "Suvadip Sana",
+				"date": "Sat Nov 02 2024",
+				"github_url": "https://github.com/Suvadip-sana",
+				"avatar_url": "https://avatars.githubusercontent.com/u/78638404?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "animated-tea-cup",
+				"creator": "AmrutaJayanti",
+				"date": "Sat Jul 06 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "biography-br-ambedkar",
+				"creator": "Bishal-35",
+				"date": "Sun Feb 04 2024",
+				"github_url": "https://github.com/Bishal-35",
+				"avatar_url": "https://avatars.githubusercontent.com/u/120501312?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "biography-mahatma-gandhi",
+				"creator": "Tanushree Borase",
+				"date": "Sat Jan 27 2024",
+				"github_url": "https://github.com/TanushreeBorase",
+				"avatar_url": "https://avatars.githubusercontent.com/u/130696335?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "blood-donation-form",
+				"creator": "Khushi Pushkar",
+				"date": "Tue Aug 06 2024",
+				"github_url": "https://github.com/Khushi-Pushkar",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142687709?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "facebook-login-page",
+				"creator": "Bhavy Zala",
+				"date": "Sat Jun 22 2024",
+				"github_url": "https://github.com/zalabhavy",
+				"avatar_url": "https://avatars.githubusercontent.com/u/126322584?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Tailwind CSS"
+				]
+			},
+			{
+				"project_name": "feedback-form",
+				"creator": "Khushi Pushkar",
+				"date": "Sat Jul 27 2024",
+				"github_url": "https://github.com/Khushi-Pushkar",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142687709?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "flexflow",
+				"creator": "Khushi Pushkar",
+				"date": "Wed Jul 10 2024",
+				"github_url": "https://github.com/Khushi-Pushkar",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142687709?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "google-drive-clone",
+				"creator": "Damini Chachane",
+				"date": "Sun Jul 07 2024",
+				"github_url": "https://github.com/Damini2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/119414762?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"CSS"
+				]
+			},
+			{
+				"project_name": "google-search-clone",
+				"creator": "Manya .N",
+				"date": "Thu Oct 10 2024",
+				"github_url": "https://github.com/nksmanya",
+				"avatar_url": "https://avatars.githubusercontent.com/u/171407728?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"CSS"
+				]
+			},
+			{
+				"project_name": "login-signup-form",
+				"creator": "Khushi Pushkar",
+				"date": "Fri Jul 19 2024",
+				"github_url": "https://github.com/Khushi-Pushkar",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142687709?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "phonepe",
+				"creator": "Damini Chachane",
+				"date": "Thu Jun 27 2024",
+				"github_url": "https://github.com/Damini2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/119414762?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "pokemone-card",
+				"creator": "Prachi Kansal",
+				"date": "Mon Nov 11 2024",
+				"github_url": "https://github.com/prachi-0319",
+				"avatar_url": "https://avatars.githubusercontent.com/u/111628902?v=4",
+				"description": "This is a basic introduction to profile cards and how they can be used to make fun card games.",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "sidebar-menu",
+				"creator": "Suvadip Sana",
+				"date": "Fri Nov 01 2024",
+				"github_url": "https://github.com/Suvadip-sana",
+				"avatar_url": "https://avatars.githubusercontent.com/u/78638404?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "spacex-website-clone",
+				"creator": "AmrutaJayanti",
+				"date": "Mon Jul 01 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "starbucks-landing-page",
+				"creator": "Sneha123-zudo",
+				"date": "Mon Feb 19 2024",
+				"github_url": "https://github.com/Sneha123-zudo",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145490348?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "survey-form",
+				"creator": "Khushi Pushkar",
+				"date": "Tue Jul 30 2024",
+				"github_url": "https://github.com/Khushi-Pushkar",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142687709?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			}
+		],
+		"intermediate": [
+			{
+				"project_name": "amazon-prime-clone",
+				"creator": "Prithwi",
+				"date": "Tue Jan 23 2024",
+				"github_url": "https://github.com/Prithwi32",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115262737?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "apple-clone",
+				"creator": "Damini2004",
+				"date": "Sat Jun 08 2024",
+				"github_url": "https://github.com/Damini2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/119414762?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "book-website",
+				"creator": "Abankita Behera",
+				"date": "Sat Oct 12 2024",
+				"github_url": "https://github.com/Abankita",
+				"avatar_url": "https://avatars.githubusercontent.com/u/138569378?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "flipkart-clone",
+				"creator": "Anagha Chaudhari",
+				"date": "Sat Jun 29 2024",
+				"github_url": "https://github.com/anagha-chaudhari",
+				"avatar_url": "https://avatars.githubusercontent.com/u/143149376?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "hotstar-clone",
+				"creator": "Aditi",
+				"date": "Sun Oct 13 2024",
+				"github_url": "https://github.com/Aditijainnn",
+				"avatar_url": "https://avatars.githubusercontent.com/u/144632601?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "iphone-14-pro-clone",
+				"creator": "Vansh Chaurasiya",
+				"date": "Sat Jul 06 2024",
+				"github_url": "https://github.com/vansh-codes",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114163734?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "linktree-clone",
+				"creator": "Ananya Gupta",
+				"date": "Wed Oct 02 2024",
+				"github_url": "https://github.com/ananyag309",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "makemytrip-clone",
+				"creator": "Avdhesh-Varshney",
+				"date": "Fri Mar 01 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "microsoft-clone",
+				"creator": "Bhavy Zala",
+				"date": "Tue Jun 18 2024",
+				"github_url": "https://github.com/zalabhavy",
+				"avatar_url": "https://avatars.githubusercontent.com/u/126322584?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Tailwind CSS"
+				]
+			},
+			{
+				"project_name": "netflix-clone",
+				"creator": "Sneha123-zudo",
+				"date": "Mon Feb 05 2024",
+				"github_url": "https://github.com/Sneha123-zudo",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145490348?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "product-landing-page",
+				"creator": "Damini2004",
+				"date": "Thu May 30 2024",
+				"github_url": "https://github.com/Damini2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/119414762?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "reddit-clone",
+				"creator": "Avdhesh-Varshney",
+				"date": "Tue Jul 02 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "spotify-clone",
+				"creator": "chaanakyaaM",
+				"date": "Mon Jun 10 2024",
+				"github_url": "https://github.com/chaanakyaaM",
+				"avatar_url": "https://avatars.githubusercontent.com/u/131477601?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5"
+				]
+			}
+		],
+		"advanced": [
+		]
+	},
+	"next": {
+		"beginner": [
+			{
+				"project_name": "weather-website",
+				"creator": "pulkit1417",
+				"date": "Sun May 12 2024",
+				"github_url": "https://github.com/pulkit1417",
+				"avatar_url": "https://avatars.githubusercontent.com/u/160238709?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"CSS3",
+					"NodeJS",
+					"React",
+					"Next JS"
+				]
+			}
+		],
+		"intermediate": [
+			{
+				"project_name": "quiz-app",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Sat Jul 20 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": []
+			},
+			{
+				"project_name": "url-shortener",
+				"creator": "Aditi",
+				"date": "Sat Aug 10 2024",
+				"github_url": "https://github.com/Aditijainnn",
+				"avatar_url": "https://avatars.githubusercontent.com/u/144632601?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"Next JS",
+					"JavaScript"
+				]
+			}
+		],
+		"advanced": [
+			{
+				"project_name": "attendance-tracking-app",
+				"creator": "Anirudh Sharma",
+				"date": "Sat Aug 10 2024",
+				"github_url": "https://github.com/anisharma07",
+				"avatar_url": "https://avatars.githubusercontent.com/u/126901961?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"TailwindCSS",
+					"CSS3",
+					"Firebase",
+					"React",
+					"Nextjs"
+				]
+			},
+			{
+				"project_name": "breaking-news-app",
+				"creator": "Maheshwari Love",
+				"date": "Mon Jul 29 2024",
+				"github_url": "https://github.com/Maheshwari-Love",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142833275?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"Nextjs",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "gen-ai-quiz-application",
+				"creator": "Mugundh J B",
+				"date": "Wed Oct 23 2024",
+				"github_url": "https://github.com/J-B-Mugundh",
+				"avatar_url": "https://avatars.githubusercontent.com/u/98593517?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"Gemini",
+					"TailwindCSS",
+					"CSS3",
+					"Nextjs"
+				]
+			},
+			{
+				"project_name": "video-call-app",
+				"creator": "Amit Bora",
+				"date": "Sun Oct 20 2024",
+				"github_url": "https://github.com/amitb0ra",
+				"avatar_url": "https://avatars.githubusercontent.com/u/151981970?v=4",
+				"description": "No description found",
+				"tags": []
+			},
+			{
+				"project_name": "voice-call-app",
+				"creator": "Sezal Lagwal",
+				"date": "Mon Oct 28 2024",
+				"github_url": "https://github.com/sezallagwal",
+				"avatar_url": "https://avatars.githubusercontent.com/u/137872276?v=4",
+				"description": "No description found",
+				"tags": []
+			}
+		]
+	},
+	"node": {
+		"beginner": [
+			{
+				"project_name": "crud-operations",
+				"creator": "Hannan2004",
+				"date": "Sat May 25 2024",
+				"github_url": "https://github.com/Hannan2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142076469?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "headline-hub",
+				"creator": "Simran Saini",
+				"date": "Sat Jun 22 2024",
+				"github_url": "https://github.com/1simransaini",
+				"avatar_url": "https://avatars.githubusercontent.com/u/91106038?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "infinite-scrolling",
+				"creator": "Simran Saini",
+				"date": "Wed May 22 2024",
+				"github_url": "https://github.com/1simransaini",
+				"avatar_url": "https://avatars.githubusercontent.com/u/91106038?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			}
+		],
+		"intermediate": [
+			{
+				"project_name": "file-upload-and-download-system",
+				"creator": "Aashutosh Singh",
+				"date": "Mon Oct 21 2024",
+				"github_url": "https://github.com/aashutosh148",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115392574?v=4",
+				"description": "No description found",
+				"tags": []
+			},
+			{
+				"project_name": "gmail-nodemailer",
+				"creator": "Dhairya Gothi",
+				"date": "Mon Jul 29 2024",
+				"github_url": "https://github.com/dhairyagothi",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142989448?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"CSS3",
+					"NodeJS",
+					"Express.js"
+				]
+			},
+			{
+				"project_name": "jwt-authenticator-with-roles",
+				"creator": "Pulkit Gupta",
+				"date": "Thu May 16 2024",
+				"github_url": "https://github.com/Pulkit95700",
+				"avatar_url": "https://avatars.githubusercontent.com/u/94851500?v=4",
+				"description": "No description found",
+				"tags": [
+					"MongoDB",
+					"Nodemon",
+					"NodeJS",
+					"Express.js"
+				]
+			},
+			{
+				"project_name": "url-scraper",
+				"creator": "Ragini Mishra",
+				"date": "Fri May 31 2024",
+				"github_url": "https://github.com/Rags-Mishra",
+				"avatar_url": "https://avatars.githubusercontent.com/u/83007531?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"CSS3",
+					"NodeJS",
+					"Express.js"
+				]
+			},
+			{
+				"project_name": "youtube-video-downloader",
+				"creator": "Siddheya Kulkarni",
+				"date": "Mon Jun 03 2024",
+				"github_url": "https://github.com/Asymtode712",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115717746?v=4",
+				"description": "No description found",
+				"tags": []
+			}
+		],
+		"advanced": [
+			{
+				"project_name": "blog-platform",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Tue Jun 25 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": []
+			},
+			{
+				"project_name": "cooking-blog",
+				"creator": "Simran Saini",
+				"date": "Wed Jul 24 2024",
+				"github_url": "https://github.com/1simransaini",
+				"avatar_url": "https://avatars.githubusercontent.com/u/91106038?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "docx-to-pdf-converter",
+				"creator": "Madhavan",
+				"date": "Sun Jul 28 2024",
+				"github_url": "https://github.com/Madhavan112",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115526384?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "e-commerce",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Fri Jul 19 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": []
+			},
+			{
+				"project_name": "url-shortener",
+				"creator": "Simran Saini",
+				"date": "Fri Jun 07 2024",
+				"github_url": "https://github.com/1simransaini",
+				"avatar_url": "https://avatars.githubusercontent.com/u/91106038?v=4",
+				"description": "No description found",
+				"tags": []
+			},
+			{
+				"project_name": "user-registration-system",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Thu Aug 01 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": [
+					"javascript",
+					"tailwind",
+					"node",
+					"html5",
+					"express",
+					"mongodb"
+				]
+			}
+		]
+	},
+	"react": {
+		"beginner": [
+			{
+				"project_name": "motivation-for-the-day",
+				"creator": "Meet Arora",
+				"date": "Sun Jul 28 2024",
+				"github_url": "https://github.com/meetarora10",
+				"avatar_url": "https://avatars.githubusercontent.com/u/143121854?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "password-generator",
+				"creator": "PranavBarthwal",
+				"date": "Thu Feb 15 2024",
+				"github_url": "https://github.com/PranavBarthwal",
+				"avatar_url": "https://avatars.githubusercontent.com/u/110532770?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"TailwindCSS",
+					"CSS3",
+					"React"
+				]
+			},
+			{
+				"project_name": "shopping-cart",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Wed Jul 24 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": []
+			},
+			{
+				"project_name": "swiggy-clone",
+				"creator": "Madhavan",
+				"date": "Mon Jul 22 2024",
+				"github_url": "https://github.com/Madhavan112",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115526384?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "to-do-list",
+				"creator": "Avdhesh-Varshney",
+				"date": "Fri Mar 01 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "This project is a react.js project that helps to create a ToDo list.",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "weather-app",
+				"creator": "Avdhesh-Varshney",
+				"date": "Fri Mar 01 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "This project is a React-JS project using material ui, that helps to search the weather for any place, it uses api to render the information and then provided to the user.",
+				"tags": [
+					"CSS3",
+					"React",
+					"JavaScript"
+				]
+			}
+		],
+		"intermediate": [
+			{
+				"project_name": "cakes-n-cookies",
+				"creator": "Maheshwari Love",
+				"date": "Thu Aug 08 2024",
+				"github_url": "https://github.com/Maheshwari-Love",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142833275?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "chat-bot",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Fri Jul 26 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": []
+			},
+			{
+				"project_name": "cryptocurrency-finder",
+				"creator": "Saimanjari777",
+				"date": "Thu May 30 2024",
+				"github_url": "https://github.com/Saimanjari777",
+				"avatar_url": "https://avatars.githubusercontent.com/u/130165687?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "currency-converter",
+				"creator": "Komal Agarwal",
+				"date": "Fri Jun 14 2024",
+				"github_url": "https://github.com/komal-agarwal5",
+				"avatar_url": "https://avatars.githubusercontent.com/u/122633300?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"TailwindCSS",
+					"CSS3",
+					"React"
+				]
+			},
+			{
+				"project_name": "form-validation",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Mon Jul 01 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": [
+					"React"
+				]
+			},
+			{
+				"project_name": "github-profile-viewer",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Thu Jul 25 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": []
+			},
+			{
+				"project_name": "image-carousel",
+				"creator": "SriramChowdaryMogalapu",
+				"date": "Mon Jul 08 2024",
+				"github_url": "https://github.com/SriramChowdaryMogalapu",
+				"avatar_url": "https://avatars.githubusercontent.com/u/103817400?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "interview-report",
+				"creator": "Maheshwari Love",
+				"date": "Mon Jul 22 2024",
+				"github_url": "https://github.com/Maheshwari-Love",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142833275?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "movie-land",
+				"creator": "Mankala Vaishnavi",
+				"date": "Fri Jun 21 2024",
+				"github_url": "https://github.com/VaishnaviMankala19",
+				"avatar_url": "https://avatars.githubusercontent.com/u/131646799?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "myntra-clone",
+				"creator": "sanayamahajan-23",
+				"date": "Sat Jul 20 2024",
+				"github_url": "https://github.com/sanayamahajan-23",
+				"avatar_url": "https://avatars.githubusercontent.com/u/112759683?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"CSS3",
+					"Material-UI",
+					"React"
+				]
+			},
+			{
+				"project_name": "netflix-clone",
+				"creator": "Hamzathul Favas E",
+				"date": "Sat Oct 12 2024",
+				"github_url": "https://github.com/hamzathul",
+				"avatar_url": "https://avatars.githubusercontent.com/u/83232962?v=4",
+				"description": "No description found",
+				"tags": [
+					"React",
+					"NodeJS",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "quiz-app",
+				"creator": "Saimanjari777",
+				"date": "Tue Jun 11 2024",
+				"github_url": "https://github.com/Saimanjari777",
+				"avatar_url": "https://avatars.githubusercontent.com/u/130165687?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "random-bible-verse",
+				"creator": "Meet Arora",
+				"date": "Fri Jul 26 2024",
+				"github_url": "https://github.com/meetarora10",
+				"avatar_url": "https://avatars.githubusercontent.com/u/143121854?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "tesla-clone",
+				"creator": "sanayamahajan-23",
+				"date": "Sun Jul 28 2024",
+				"github_url": "https://github.com/sanayamahajan-23",
+				"avatar_url": "https://avatars.githubusercontent.com/u/112759683?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"Redux",
+					"CSS3",
+					"Material-UI",
+					"React"
+				]
+			},
+			{
+				"project_name": "text-editor",
+				"creator": "SANCHARI SINGH",
+				"date": "Thu Oct 31 2024",
+				"github_url": "https://github.com/Sancharisingh",
+				"avatar_url": "https://avatars.githubusercontent.com/u/123357539?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "tspot-travel-app",
+				"creator": "Maheshwari Love",
+				"date": "Fri Aug 09 2024",
+				"github_url": "https://github.com/Maheshwari-Love",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142833275?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "video-hub",
+				"creator": "Roushan singh",
+				"date": "Fri Oct 18 2024",
+				"github_url": "https://github.com/roushan-code",
+				"avatar_url": "https://avatars.githubusercontent.com/u/122218982?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"ChakraUi",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "youtube-clone",
+				"creator": "Sourabh Singh Rawat",
+				"date": "Fri Aug 09 2024",
+				"github_url": "https://github.com/Sourabh782",
+				"avatar_url": "https://avatars.githubusercontent.com/u/103349890?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			}
+		],
+		"advanced": [
+			{
+				"project_name": "chat-application",
+				"creator": "Khushi Kalra",
+				"date": "Mon Jul 22 2024",
+				"github_url": "https://github.com/abckhush",
+				"avatar_url": "https://avatars.githubusercontent.com/u/127378920?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"MongoDB",
+					"CSS3",
+					"NodeJS",
+					"Express.js",
+					"Socket.io",
+					"Bootstrap"
+				]
+			},
+			{
+				"project_name": "code-editor",
+				"creator": "maradadivyasree020",
+				"date": "Wed Jun 19 2024",
+				"github_url": "https://github.com/maradadivyasree020",
+				"avatar_url": "https://avatars.githubusercontent.com/u/132190190?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "food-recipe-app",
+				"creator": "Diksha Jain",
+				"date": "Tue Oct 08 2024",
+				"github_url": "https://github.com/iAmDiksha",
+				"avatar_url": "https://avatars.githubusercontent.com/u/89463068?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "ip-address-tracker",
+				"creator": "Maheshwari Love",
+				"date": "Sun Jul 14 2024",
+				"github_url": "https://github.com/Maheshwari-Love",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142833275?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "job-portal",
+				"creator": "Khushi Kalra",
+				"date": "Tue Aug 06 2024",
+				"github_url": "https://github.com/abckhush",
+				"avatar_url": "https://avatars.githubusercontent.com/u/127378920?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "notes-app",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Wed Jun 19 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": []
+			},
+			{
+				"project_name": "qr-code-generator",
+				"creator": "Saimanjari777",
+				"date": "Mon Jun 03 2024",
+				"github_url": "https://github.com/Saimanjari777",
+				"avatar_url": "https://avatars.githubusercontent.com/u/130165687?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "solar-system-model",
+				"creator": "Siddheya Kulkarni",
+				"date": "Sat Jun 29 2024",
+				"github_url": "https://github.com/Asymtode712",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115717746?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"CSS3",
+					"React",
+					"ThreeJS"
+				]
+			},
+			{
+				"project_name": "sudoku-solver",
+				"creator": "Anantesh G",
+				"date": "Tue Oct 15 2024",
+				"github_url": "https://github.com/AnanteshG",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139615557?v=4",
+				"description": "No description found",
+				"tags": [
+					"ReactJS"
+				]
+			},
+			{
+				"project_name": "travel-website",
+				"creator": "Aditya Bhaumik",
+				"date": "Tue Jun 25 2024",
+				"github_url": "https://github.com/aditya-bhaumik",
+				"avatar_url": "https://avatars.githubusercontent.com/u/92214013?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"React",
+					"TailwindCSS"
+				]
+			},
+			{
+				"project_name": "tutoring-website",
+				"creator": "Khushi Kalra",
+				"date": "Fri Aug 09 2024",
+				"github_url": "https://github.com/abckhush",
+				"avatar_url": "https://avatars.githubusercontent.com/u/127378920?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "typing-speed-tracker",
+				"creator": "Prajyot Tayde",
+				"date": "Fri Oct 04 2024",
+				"github_url": "https://github.com/Prajyot05",
+				"avatar_url": "https://avatars.githubusercontent.com/u/133549235?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"Firebase",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			}
+		]
+	},
+	"typescript": {
+		"beginner": [
+		],
+		"intermediate": [
+			{
+				"project_name": "quiz-app",
+				"creator": "Madhavan",
+				"date": "Thu Aug 01 2024",
+				"github_url": "https://github.com/Madhavan112",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115526384?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"TYPESCRIPT",
+					"Angular.js",
+					"Vue.js",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Next JS"
+				]
+			}
+		],
+		"advanced": [
+			{
+				"project_name": "to-do-list-app",
+				"creator": "Dharshi Balasubramaniyam",
+				"date": "Sun Jul 28 2024",
+				"github_url": "https://github.com/DharshiBalasubramaniyam",
+				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
+				"description": "No description found",
+				"tags": []
+			}
+		]
+	},
+	"javascript": {
+		"beginner": [
+			{
+				"project_name": "3d-solar-system",
+				"creator": "Damini Chachane",
+				"date": "Wed Jul 24 2024",
+				"github_url": "https://github.com/Damini2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/119414762?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"CSS"
+				]
+			},
+			{
+				"project_name": "anagram-checker",
+				"creator": "Anshika",
+				"date": "Sat Jun 22 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "analog-clock",
+				"creator": "Mankala Vaishnavi",
+				"date": "Sun Jul 14 2024",
+				"github_url": "https://github.com/VaishnaviMankala19",
+				"avatar_url": "https://avatars.githubusercontent.com/u/131646799?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "apna-college-clone",
+				"creator": "Heli Detroja",
+				"date": "Wed Jul 10 2024",
+				"github_url": "https://github.com/heli0707",
+				"avatar_url": "https://avatars.githubusercontent.com/u/95361125?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "bulb-on-off",
+				"creator": "Meet Arora",
+				"date": "Sun Aug 04 2024",
+				"github_url": "https://github.com/meetarora10",
+				"avatar_url": "https://avatars.githubusercontent.com/u/143121854?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "captcha-generator",
+				"creator": "Damini Chachane",
+				"date": "Fri Jul 26 2024",
+				"github_url": "https://github.com/Damini2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/119414762?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "co-prime-number-checker",
+				"creator": "Anshika",
+				"date": "Thu Jul 25 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "css-art-gallery",
+				"creator": "AmrutaJayanti",
+				"date": "Fri Jun 07 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "custom-video-player",
+				"creator": "Ananya Gupta",
+				"date": "Sat Jul 27 2024",
+				"github_url": "https://github.com/ananyag309",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "days-between-two-dates",
+				"creator": "Anshika",
+				"date": "Tue Jun 18 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "dictionary-app",
+				"creator": "Vijay Shanker Sharma",
+				"date": "Tue Jul 30 2024",
+				"github_url": "https://github.com/thevijayshankersharma",
+				"avatar_url": "https://avatars.githubusercontent.com/u/109781385?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "dictonary-app",
+				"creator": "Damini2004",
+				"date": "Wed May 22 2024",
+				"github_url": "https://github.com/Damini2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/119414762?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "electronic-drum-kit",
+				"creator": "Jomana Mahmoud Tantawy",
+				"date": "Thu Oct 17 2024",
+				"github_url": "https://github.com/JomanaMahmoud",
+				"avatar_url": "https://avatars.githubusercontent.com/u/140981371?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "expense-tracker",
+				"creator": "Saimanjari777",
+				"date": "Wed Jun 05 2024",
+				"github_url": "https://github.com/Saimanjari777",
+				"avatar_url": "https://avatars.githubusercontent.com/u/130165687?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "gallery",
+				"creator": "Avdhesh-Varshney",
+				"date": "Thu Jan 11 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "image-search-engine",
+				"creator": "G AVINESHWAR",
+				"date": "Tue Jun 25 2024",
+				"github_url": "https://github.com/GAVINESHWAR",
+				"avatar_url": "https://avatars.githubusercontent.com/u/124431955?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "isogram-checker",
+				"creator": "Anshika",
+				"date": "Sun Jul 07 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "isomorphic-strings-checker",
+				"creator": "Anshika",
+				"date": "Thu Jul 11 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "joke-telling-website",
+				"creator": "AftabMankapure",
+				"date": "Mon Feb 19 2024",
+				"github_url": "https://github.com/AftabMankapure",
+				"avatar_url": "https://avatars.githubusercontent.com/u/125949765?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "leap-year-checker",
+				"creator": "Anshika",
+				"date": "Tue Jun 25 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "palindrome-checker",
+				"creator": "Tanushree Borase",
+				"date": "Tue Jan 23 2024",
+				"github_url": "https://github.com/TanushreeBorase",
+				"avatar_url": "https://avatars.githubusercontent.com/u/130696335?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "pangram-checker",
+				"creator": "Anshika",
+				"date": "Wed Jul 03 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "password-manager",
+				"creator": "Vijay Shanker Sharma",
+				"date": "Mon Jul 29 2024",
+				"github_url": "https://github.com/thevijayshankersharma",
+				"avatar_url": "https://avatars.githubusercontent.com/u/109781385?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "paytm-clone",
+				"creator": "Aman Verma",
+				"date": "Sun Oct 20 2024",
+				"github_url": "https://github.com/amanver45",
+				"avatar_url": "https://avatars.githubusercontent.com/u/183379031?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "perfect-number-checker",
+				"creator": "Anshika",
+				"date": "Sat Jul 27 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "personal-portfolio",
+				"creator": "Jomana Mahmoud Tantawy",
+				"date": "Sun Oct 13 2024",
+				"github_url": "https://github.com/JomanaMahmoud",
+				"avatar_url": "https://avatars.githubusercontent.com/u/140981371?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "prime-number-checker",
+				"creator": "Anshika",
+				"date": "Sat Jun 29 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "qr-code-generator",
+				"creator": "Ananya Gupta",
+				"date": "Fri Oct 11 2024",
+				"github_url": "https://github.com/ananyag309",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "quote-generator",
+				"creator": "Siddheya Kulkarni",
+				"date": "Fri Jun 07 2024",
+				"github_url": "https://github.com/Asymtode712",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115717746?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "random-advice-generator",
+				"creator": "Meet Arora",
+				"date": "Fri Jul 12 2024",
+				"github_url": "https://github.com/meetarora10",
+				"avatar_url": "https://avatars.githubusercontent.com/u/143121854?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "random-picker",
+				"creator": "Heli Detroja",
+				"date": "Sun Jul 21 2024",
+				"github_url": "https://github.com/heli0707",
+				"avatar_url": "https://avatars.githubusercontent.com/u/95361125?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "rgb-color-slider",
+				"creator": "AmrutaJayanti",
+				"date": "Wed Jun 05 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "search-from-here",
+				"creator": "Jomana Mahmoud Tantawy",
+				"date": "Mon Oct 28 2024",
+				"github_url": "https://github.com/JomanaMahmoud",
+				"avatar_url": "https://avatars.githubusercontent.com/u/140981371?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "star-rating-component",
+				"creator": "Meet Arora",
+				"date": "Sat Jul 20 2024",
+				"github_url": "https://github.com/meetarora10",
+				"avatar_url": "https://avatars.githubusercontent.com/u/143121854?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "stop-watch",
+				"creator": "Khushi Pushkar",
+				"date": "Sun Jul 14 2024",
+				"github_url": "https://github.com/Khushi-Pushkar",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142687709?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "stopwatch",
+				"creator": "Abirami Gurushanker",
+				"date": "Wed May 15 2024",
+				"github_url": "https://github.com/A-b-i-r-a-m-i-G-S",
+				"avatar_url": "https://avatars.githubusercontent.com/u/89207514?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "subsequence-checker",
+				"creator": "Anshika",
+				"date": "Mon Jul 22 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "substring-checker",
+				"creator": "Anshika",
+				"date": "Tue Jul 16 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "tesla-website-clone",
+				"creator": "AmrutaJayanti",
+				"date": "Fri Jul 19 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "text-translator",
+				"creator": "Amruta Jayanti",
+				"date": "Mon Jun 17 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "theme-cake-order-form",
+				"creator": "Khushi Pushkar",
+				"date": "Tue Aug 06 2024",
+				"github_url": "https://github.com/Khushi-Pushkar",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142687709?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "to-do-list",
+				"creator": "Avdhesh-Varshney",
+				"date": "Thu Jan 11 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "travel-app",
+				"creator": "Aditi",
+				"date": "Sun Oct 13 2024",
+				"github_url": "https://github.com/Aditijainnn",
+				"avatar_url": "https://avatars.githubusercontent.com/u/144632601?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "virtual-piano",
+				"creator": "mankalavaishnavi",
+				"date": "Fri Jun 14 2024",
+				"github_url": "https://github.com/VaishnaviMankala19",
+				"avatar_url": "https://avatars.githubusercontent.com/u/131646799?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "vowel-counter",
+				"creator": "Meet Arora",
+				"date": "Thu Jul 25 2024",
+				"github_url": "https://github.com/meetarora10",
+				"avatar_url": "https://avatars.githubusercontent.com/u/143121854?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "word-counter",
+				"creator": "Heli Detroja",
+				"date": "Fri Jul 26 2024",
+				"github_url": "https://github.com/heli0707",
+				"avatar_url": "https://avatars.githubusercontent.com/u/95361125?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "world-clock",
+				"creator": "Siddheya Kulkarni",
+				"date": "Fri May 31 2024",
+				"github_url": "https://github.com/Asymtode712",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115717746?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "world-population",
+				"creator": "Vansh Chaurasiya",
+				"date": "Sun Jul 14 2024",
+				"github_url": "https://github.com/vansh-codes",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114163734?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "youtube-clone",
+				"creator": "yamini777",
+				"date": "Fri Jul 26 2024",
+				"github_url": "https://github.com/yamini777",
+				"avatar_url": "https://avatars.githubusercontent.com/u/123323935?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			}
+		],
+		"intermediate": [
+			{
+				"project_name": "amazon-clone",
+				"creator": "D.V.Kavya Sai",
+				"date": "Fri Oct 11 2024",
+				"github_url": "https://github.com/kavya410004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/116058046?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "battery-status-tracker",
+				"creator": "Surajit Maity",
+				"date": "Sat Feb 10 2024",
+				"github_url": "https://github.com/Surajit0573",
+				"avatar_url": "https://avatars.githubusercontent.com/u/111490250?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "book-review-website",
+				"creator": "Damini Chachane",
+				"date": "Mon Jul 29 2024",
+				"github_url": "https://github.com/Damini2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/119414762?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "calendar-app",
+				"creator": "Shalini Bhandari",
+				"date": "Mon Oct 21 2024",
+				"github_url": "https://github.com/shalini-bhandari",
+				"avatar_url": "https://avatars.githubusercontent.com/u/76897566?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "ceaser-cipher",
+				"creator": "Damini2004",
+				"date": "Wed May 15 2024",
+				"github_url": "https://github.com/Damini2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/119414762?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"Javascript",
+					"HTML5"
+				]
+			},
+			{
+				"project_name": "code-editor",
+				"creator": "Mankala Vaishnavi",
+				"date": "Thu Jun 27 2024",
+				"github_url": "https://github.com/VaishnaviMankala19",
+				"avatar_url": "https://avatars.githubusercontent.com/u/131646799?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "cosmoxplore-apod",
+				"creator": "Pranav Barthwal",
+				"date": "Mon Feb 05 2024",
+				"github_url": "https://github.com/PranavBarthwal",
+				"avatar_url": "https://avatars.githubusercontent.com/u/110532770?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "countdown-timer",
+				"creator": "vishal2005025",
+				"date": "Thu Jan 25 2024",
+				"github_url": "https://github.com/vishal2005025",
+				"avatar_url": "https://avatars.githubusercontent.com/u/146833908?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "countries-over-the-world",
+				"creator": "Ananya Gupta",
+				"date": "Sat Jul 20 2024",
+				"github_url": "https://github.com/ananyag309",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"REST API",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "daily-journal-website",
+				"creator": "Aditya Bhaumik",
+				"date": "Wed Jul 10 2024",
+				"github_url": "https://github.com/aditya-bhaumik",
+				"avatar_url": "https://avatars.githubusercontent.com/u/92214013?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "day-calculator",
+				"creator": "Avdhesh-Varshney",
+				"date": "Thu Jan 11 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "drag-and-drop",
+				"creator": "Bhavy Zala",
+				"date": "Mon Jul 01 2024",
+				"github_url": "https://github.com/zalabhavy",
+				"avatar_url": "https://avatars.githubusercontent.com/u/126322584?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "email-subscription-form-with-google-sheet",
+				"creator": "Damini2004",
+				"date": "Sat May 18 2024",
+				"github_url": "https://github.com/Damini2004",
+				"avatar_url": "https://avatars.githubusercontent.com/u/119414762?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "emoji-maker",
+				"creator": "SOHAN",
+				"date": "Sun Feb 11 2024",
+				"github_url": "https://github.com/SohanRC",
+				"avatar_url": "https://avatars.githubusercontent.com/u/124901633?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "expense-splitter-website",
+				"creator": "Vivek Vardhan",
+				"date": "Sat Jul 20 2024",
+				"github_url": "https://github.com/vivekvardhan2810",
+				"avatar_url": "https://avatars.githubusercontent.com/u/91594529?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "fitness-website",
+				"creator": "Aditya Bhaumik",
+				"date": "Sat Jun 29 2024",
+				"github_url": "https://github.com/aditya-bhaumik",
+				"avatar_url": "https://avatars.githubusercontent.com/u/92214013?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "food-recipe-finder",
+				"creator": "AmrutaJayanti",
+				"date": "Fri May 31 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "gasguys-homepage-clone",
+				"creator": "G AVINESHWAR",
+				"date": "Tue Jul 09 2024",
+				"github_url": "https://github.com/GAVINESHWAR",
+				"avatar_url": "https://avatars.githubusercontent.com/u/124431955?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "github-profile-viewer",
+				"creator": "Ananya Gupta",
+				"date": "Mon Oct 07 2024",
+				"github_url": "https://github.com/ananyag309",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"GitHub API",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "gravity-drops",
+				"creator": "Kosuri Indu",
+				"date": "Fri Aug 09 2024",
+				"github_url": "https://github.com/kosuri-indu",
+				"avatar_url": "https://avatars.githubusercontent.com/u/118645569?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "hex-color-code-generator",
+				"creator": "Avdhesh-Varshney",
+				"date": "Fri Mar 01 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "interactive-drawing-website",
+				"creator": "Aditya Bhaumik",
+				"date": "Mon Jul 08 2024",
+				"github_url": "https://github.com/aditya-bhaumik",
+				"avatar_url": "https://avatars.githubusercontent.com/u/92214013?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "interactive-periodic-table",
+				"creator": "AmrutaJayanti",
+				"date": "Thu Jun 20 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "interval-timer",
+				"creator": "AftabMankapure",
+				"date": "Sat Feb 24 2024",
+				"github_url": "https://github.com/AftabMankapure",
+				"avatar_url": "https://avatars.githubusercontent.com/u/125949765?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "kanban-board",
+				"creator": "Heli Detroja",
+				"date": "Sun Jul 14 2024",
+				"github_url": "https://github.com/heli0707",
+				"avatar_url": "https://avatars.githubusercontent.com/u/95361125?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "language-learning-website",
+				"creator": "Aditya Bhaumik",
+				"date": "Fri Jul 05 2024",
+				"github_url": "https://github.com/aditya-bhaumik",
+				"avatar_url": "https://avatars.githubusercontent.com/u/92214013?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "language-translator",
+				"creator": "pulkit1417",
+				"date": "Mon May 13 2024",
+				"github_url": "https://github.com/pulkit1417",
+				"avatar_url": "https://avatars.githubusercontent.com/u/160238709?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "martian-imagery",
+				"creator": "PranavBarthwal",
+				"date": "Fri Feb 09 2024",
+				"github_url": "https://github.com/PranavBarthwal",
+				"avatar_url": "https://avatars.githubusercontent.com/u/110532770?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "meme-creator",
+				"creator": "Ananya Gupta",
+				"date": "Sun Oct 06 2024",
+				"github_url": "https://github.com/ananyag309",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "meme-generator",
+				"creator": "Parna Roy Chowdhury",
+				"date": "Wed Jun 19 2024",
+				"github_url": "https://github.com/ParnaRoyChowdhury777",
+				"avatar_url": "https://avatars.githubusercontent.com/u/123104247?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "morse-code-convertor",
+				"creator": "AftabMankapure",
+				"date": "Mon Feb 05 2024",
+				"github_url": "https://github.com/AftabMankapure",
+				"avatar_url": "https://avatars.githubusercontent.com/u/125949765?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "movie-app",
+				"creator": "Ananya Gupta",
+				"date": "Sat Aug 10 2024",
+				"github_url": "https://github.com/ananyag309",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "movie-finder",
+				"creator": "Siddheya Kulkarni",
+				"date": "Mon Jun 10 2024",
+				"github_url": "https://github.com/Asymtode712",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115717746?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "number-to-words-convertor",
+				"creator": "Avdhesh-Varshney",
+				"date": "Thu Jan 11 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "paint-app",
+				"creator": "Vijay Shanker Sharma",
+				"date": "Tue Jul 30 2024",
+				"github_url": "https://github.com/thevijayshankersharma",
+				"avatar_url": "https://avatars.githubusercontent.com/u/109781385?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "password-generator",
+				"creator": "Mitali Raj",
+				"date": "Tue Jan 23 2024",
+				"github_url": "https://github.com/Hacxmr",
+				"avatar_url": "https://avatars.githubusercontent.com/u/129144413?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "password-strength-checker",
+				"creator": "Anshika",
+				"date": "Fri Jun 21 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "random-name-generator",
+				"creator": "SOHAN",
+				"date": "Wed Feb 07 2024",
+				"github_url": "https://github.com/SohanRC",
+				"avatar_url": "https://avatars.githubusercontent.com/u/124901633?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "recipe-hunter",
+				"creator": "Aditya Singh",
+				"date": "Mon Oct 21 2024",
+				"github_url": "https://github.com/aditya9855",
+				"avatar_url": "https://avatars.githubusercontent.com/u/62770104?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "social-media-analytics",
+				"creator": "Amruta Jayanti",
+				"date": "Sun Jun 09 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "sudoku-game",
+				"creator": "Avdhesh-Varshney",
+				"date": "Fri Mar 01 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "sudoku-solver",
+				"creator": "SOHAN",
+				"date": "Tue Feb 13 2024",
+				"github_url": "https://github.com/SohanRC",
+				"avatar_url": "https://avatars.githubusercontent.com/u/124901633?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "synonym-searcher",
+				"creator": "Anshika Agarwal",
+				"date": "Tue Jul 09 2024",
+				"github_url": "https://github.com/AnshikaAg03",
+				"avatar_url": "https://avatars.githubusercontent.com/u/122719744?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "task-reminder",
+				"creator": "Ananya Gupta",
+				"date": "Fri Jul 12 2024",
+				"github_url": "https://github.com/ananyag309",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"LocalStorage",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "text-summarizer",
+				"creator": "Ananya Gupta",
+				"date": "Tue Jul 23 2024",
+				"github_url": "https://github.com/ananyag309",
+				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"Translation API",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "text-to-image-generator",
+				"creator": "Siddheya Kulkarni",
+				"date": "Sun Jun 16 2024",
+				"github_url": "https://github.com/Asymtode712",
+				"avatar_url": "https://avatars.githubusercontent.com/u/115717746?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "text-to-voice",
+				"creator": "Aashi19234",
+				"date": "Sun Feb 04 2024",
+				"github_url": "https://github.com/Aashi19234",
+				"avatar_url": "https://avatars.githubusercontent.com/u/140010647?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "time-capsule-center",
+				"creator": "Kosuri Indu",
+				"date": "Thu Aug 08 2024",
+				"github_url": "https://github.com/kosuri-indu",
+				"avatar_url": "https://avatars.githubusercontent.com/u/118645569?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "time-watcher",
+				"creator": "Avdhesh-Varshney",
+				"date": "Thu Jan 11 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "travel-journal",
+				"creator": "Kosuri Indu",
+				"date": "Fri Aug 02 2024",
+				"github_url": "https://github.com/kosuri-indu",
+				"avatar_url": "https://avatars.githubusercontent.com/u/118645569?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "valid-parenthesis-checker",
+				"creator": "Anshika",
+				"date": "Sat Jul 06 2024",
+				"github_url": "https://github.com/Anshika14528",
+				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "weather-app",
+				"creator": "PranavBarthwal",
+				"date": "Mon Feb 12 2024",
+				"github_url": "https://github.com/PranavBarthwal",
+				"avatar_url": "https://avatars.githubusercontent.com/u/110532770?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "wheel-selector",
+				"creator": "Heli Detroja",
+				"date": "Mon Jul 29 2024",
+				"github_url": "https://github.com/heli0707",
+				"avatar_url": "https://avatars.githubusercontent.com/u/95361125?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "wikipedia-clone",
+				"creator": "Aman Verma",
+				"date": "Fri Oct 18 2024",
+				"github_url": "https://github.com/amanver45",
+				"avatar_url": "https://avatars.githubusercontent.com/u/183379031?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "zomato-clone",
+				"creator": "Meet Arora",
+				"date": "Fri Jul 19 2024",
+				"github_url": "https://github.com/meetarora10",
+				"avatar_url": "https://avatars.githubusercontent.com/u/143121854?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			}
+		],
+		"advanced": [
+			{
+				"project_name": "audio-analyzer",
+				"creator": "Avdhesh-Varshney",
+				"date": "Thu Jan 11 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "garden-planning-website",
+				"creator": "Aditya Bhaumik",
+				"date": "Sun Jul 14 2024",
+				"github_url": "https://github.com/aditya-bhaumik",
+				"avatar_url": "https://avatars.githubusercontent.com/u/92214013?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "hackathon-tracker",
+				"creator": "Kosuri Indu",
+				"date": "Thu Aug 01 2024",
+				"github_url": "https://github.com/kosuri-indu",
+				"avatar_url": "https://avatars.githubusercontent.com/u/118645569?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "markdown-previewer",
+				"creator": "AmrutaJayanti",
+				"date": "Sun Jun 02 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "moon-phase-visibility",
+				"creator": "Vansh Chaurasiya",
+				"date": "Mon Jul 29 2024",
+				"github_url": "https://github.com/vansh-codes",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114163734?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "n-queen-visualizer",
+				"creator": "Shariq",
+				"date": "Wed Oct 16 2024",
+				"github_url": "https://github.com/Shariq2003",
+				"avatar_url": "https://avatars.githubusercontent.com/u/109452033?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"TailwindCSS",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "recipe-finder",
+				"creator": "Surajit Maity",
+				"date": "Fri Feb 02 2024",
+				"github_url": "https://github.com/Surajit0573",
+				"avatar_url": "https://avatars.githubusercontent.com/u/111490250?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "resume-builder",
+				"creator": "Amruta Jayanti",
+				"date": "Wed Jun 12 2024",
+				"github_url": "https://github.com/AmrutaJayanti",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "sort-visualizer",
+				"creator": "Avdhesh-Varshney",
+				"date": "Fri Mar 01 2024",
+				"github_url": "https://github.com/Avdhesh-Varshney",
+				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "typing-test",
+				"creator": "Simran Saini",
+				"date": "Thu May 30 2024",
+				"github_url": "https://github.com/1simransaini",
+				"avatar_url": "https://avatars.githubusercontent.com/u/91106038?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "vocabulary-builder",
+				"creator": "Kosuri Indu",
+				"date": "Mon Jul 22 2024",
+				"github_url": "https://github.com/kosuri-indu",
+				"avatar_url": "https://avatars.githubusercontent.com/u/118645569?v=4",
+				"description": "No description found",
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"Vue.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			}
+		]
+	},
+	"vue": {
+		"beginner": [
+			{
+				"project_name": "markdown-previewer",
+				"creator": "Bishal-35",
+				"date": "Mon Feb 19 2024",
+				"github_url": "https://github.com/Bishal-35",
+				"avatar_url": "https://avatars.githubusercontent.com/u/120501312?v=4",
+				"description": "Add Description of the project",
+				"tags": [
+					"HTML5",
+					"Vue.js",
+					"Angular.js",
+					"JavaScript",
+					"MongoDB",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"NodeJS",
+					"jQuery",
+					"Express.js",
+					"Web3.js",
+					"React",
+					"Bootstrap",
+					"Next JS"
+				]
+			},
+			{
+				"project_name": "quote-generator",
+				"creator": "Aditi",
+				"date": "Sun Jul 14 2024",
+				"github_url": "https://github.com/Aditijainnn",
+				"avatar_url": "https://avatars.githubusercontent.com/u/144632601?v=4",
+				"description": "Add Description of the project",
+				"tags": [
+					"CSS",
+					"Vue.js",
+					"HTML"
+				]
+			}
+		],
+		"intermediate": [
+			{
+				"project_name": "expense-tracker",
+				"creator": "Maheshwari Love",
+				"date": "Sat Jul 27 2024",
+				"github_url": "https://github.com/Maheshwari-Love",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142833275?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"VUE.js",
+					"JavaScript"
+				]
+			},
+			{
+				"project_name": "google-keep",
+				"creator": "Maheshwari Love",
+				"date": "Sat Aug 10 2024",
+				"github_url": "https://github.com/Maheshwari-Love",
+				"avatar_url": "https://avatars.githubusercontent.com/u/142833275?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"VUE.js",
+					"JavaScript"
+				]
+			}
+		],
+		"advanced": [
+		]
+	}
+}

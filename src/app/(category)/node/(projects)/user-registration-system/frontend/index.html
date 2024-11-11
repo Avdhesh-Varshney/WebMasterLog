@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-black">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Home</title>
+</head>
+
+<body class="h-full">
+
+    <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm" id="before-login">
+            <h2 class="mt-10 mb-5 text-center text-2xl font-bold leading-9 tracking-tight text-gray-200">
+                Sign in to Continue
+            </h2>
+            <a href="./Login.html">
+                <button
+                    class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Sign
+                    in</button>
+            </a>
+        </div>
+
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm border p-2 rounded" id="after-login">
+            <div class="photo-wrapper p-2 flex justify-center w-full">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#6366F1"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"
+                    width="48" height="48">
+                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+            </div>
+            <div class="p-2">
+                <h3 class="text-center text-xl text-gray-200 font-medium leading-8" id="username"></h3>
+                <h3 class="text-center text-xl text-gray-200 font-medium leading-8 my-2" id="email"></h3>
+                <button
+                    class="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 mt-5">Sign
+                    out</button>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/profile.js"></script>
+
+</body>
+
+</html>
