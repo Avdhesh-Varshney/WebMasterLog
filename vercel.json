@@ -1,0 +1,79 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "src/app/**/angular/**/package.json",
+            "use": "@vercel/static-build"
+        },
+        {
+            "src": "src/app/**/frontend/**/index.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "src/app/**/javascript/**/index.html",
+            "use": "@vercel/static"
+        },
+        {
+            "src": "src/app/**/next/**/package.json",
+            "use": "@vercel/next"
+        },
+        {
+            "src": "src/app/**/node/**/package.json",
+            "use": "@vercel/node"
+        },
+        {
+            "src": "src/app/**/react/**/package.json",
+            "use": "@vercel/static-build"
+        },
+        {
+            "src": "src/app/**/typescript/**/package.json",
+            "use": "@vercel/next"
+        },
+        {
+            "src": "src/app/**/vue/**/package.json",
+            "use": "@vercel/static-build"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/src/app/angular/(.*)",
+            "dest": "/src/app/angular/$1"
+        },
+        {
+            "src": "/src/app/frontend/(.*)",
+            "dest": "/src/app/frontend/$1"
+        },
+        {
+            "src": "/src/app/javascript/(.*)",
+            "dest": "/src/app/javascript/$1"
+        },
+        {
+            "src": "/src/app/next/(.*)",
+            "dest": "/src/app/next/$1"
+        },
+        {
+            "src": "/src/app/node/(.*)",
+            "dest": "/src/app/node/$1"
+        },
+        {
+            "src": "/src/app/react/(.*)",
+            "dest": "/src/app/react/$1"
+        },
+        {
+            "src": "/src/app/typescript/(.*)",
+            "dest": "/src/app/typescript/$1"
+        },
+        {
+            "src": "/src/app/vue/(.*)",
+            "dest": "/src/app/vue/$1"
+        }
+    ],
+    "cleanUrls": true,
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "/src/app/next/",
+            "statusCode": 301
+        }
+    ]
+}
