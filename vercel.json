@@ -6,6 +6,10 @@
             "use": "@vercel/static-build"
         },
         {
+            "src": "src/app/**/angular/**/index.html",
+            "use": "@vercel/static"
+        },
+        {
             "src": "src/app/**/frontend/**/index.html",
             "use": "@vercel/static"
         },
