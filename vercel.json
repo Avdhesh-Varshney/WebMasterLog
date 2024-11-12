@@ -2,21 +2,21 @@
     "version": 2,
     "builds": [
         {
-            "src": "src/app/next/package.json",
+            "src": "package.json",
             "use": "@vercel/next"
         }
     ],
+    "cleanUrls": true,
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/src/app/next/$1"
+            "destination": "/src/app/$1"
         }
     ],
-    "cleanUrls": true,
     "redirects": [
         {
             "source": "/",
-            "destination": "/src/app/next",
+            "destination": "/src/app",
             "statusCode": 301
         }
     ]
