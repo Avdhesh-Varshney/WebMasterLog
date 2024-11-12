@@ -2,90 +2,31 @@
     "version": 2,
     "builds": [
         {
-            "src": "src/app/**/angular/**/package.json",
-            "use": "@vercel/static-build",
-            "config": {
-                "distDir": "dist"
-            }
-        },
-        {
-            "src": "src/app/**/angular/**/index.html",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "src/app/**/frontend/**/index.html",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "src/app/**/javascript/**/index.html",
-            "use": "@vercel/static"
-        },
-        {
-            "src": "src/app/**/next/**/package.json",
+            "src": "src/app/next/package.json",
             "use": "@vercel/next"
-        },
-        {
-            "src": "src/app/**/node/**/package.json",
-            "use": "@vercel/node"
-        },
-        {
-            "src": "src/app/**/react/**/package.json",
-            "use": "@vercel/static-build",
-            "config": {
-                "distDir": "dist"
-            }
-        },
-        {
-            "src": "src/app/**/typescript/**/package.json",
-            "use": "@vercel/next"
-        },
-        {
-            "src": "src/app/**/vue/**/package.json",
-            "use": "@vercel/static-build",
-            "config": {
-                "distDir": "dist"
-            }
         }
     ],
-    "rewrites": [
+    "routes": [
         {
-            "source": "/src/app/angular/(.*)",
-            "destination": "/src/app/angular/$1"
-        },
-        {
-            "source": "/src/app/frontend/(.*)",
-            "destination": "/src/app/frontend/$1"
-        },
-        {
-            "source": "/src/app/javascript/(.*)",
-            "destination": "/src/app/javascript/$1"
-        },
-        {
-            "source": "/src/app/next/(.*)",
-            "destination": "/src/app/next/$1"
-        },
-        {
-            "source": "/src/app/node/(.*)",
-            "destination": "/src/app/node/$1"
-        },
-        {
-            "source": "/src/app/react/(.*)",
-            "destination": "/src/app/react/$1"
-        },
-        {
-            "source": "/src/app/typescript/(.*)",
-            "destination": "/src/app/typescript/$1"
-        },
-        {
-            "source": "/src/app/vue/(.*)",
-            "destination": "/src/app/vue/$1"
+            "src": "/(.*)",
+            "dest": "/src/app/next/$1"
         }
+    ],
+    "ignoreFiles": [
+        "src/app/(category)/angular/**",
+        "src/app/(category)/frontend/**",
+        "src/app/(category)/javascript/**",
+        "src/app/(category)/next/**",
+        "src/app/(category)/node/**",
+        "src/app/(category)/react/**",
+        "src/app/(category)/typescript/**",
+        "src/app/(category)/vue/**"
     ],
     "cleanUrls": true,
     "redirects": [
         {
             "source": "/",
-            "destination": "/src/app/next/",
+            "destination": "/src/app/next",
             "statusCode": 301
         }
     ]
