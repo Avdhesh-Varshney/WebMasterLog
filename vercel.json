@@ -19,5 +19,8 @@
             "destination": "/src/app",
             "statusCode": 301
         }
+    ],
+    "ignore": [
+        "src/app/**/\\(projects\\)/**"
     ]
 }
