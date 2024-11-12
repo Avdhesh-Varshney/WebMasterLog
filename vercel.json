@@ -8,8 +8,8 @@
     ],
     "rewrites": [
         {
-            "src": "/(.*)",
-            "dest": "/src/app/next/$1"
+            "source": "/(.*)",
+            "destination": "/src/app/next/$1"
         }
     ],
     "cleanUrls": true,
