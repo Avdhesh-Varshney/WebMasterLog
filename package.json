@@ -6,7 +6,8 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint"
+		"lint": "next lint",
+		"ignoreBuildStep": "echo 'Ignoring (projects) folder' && rm -rf src/app/\\(projects\\)"
 	},
 	"dependencies": {
 		"@radix-ui/react-dialog": "^1.1.2",
