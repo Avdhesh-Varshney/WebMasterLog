@@ -12,16 +12,6 @@
             "dest": "/src/app/next/$1"
         }
     ],
-    "ignoreFiles": [
-        "src/app/(category)/angular/**",
-        "src/app/(category)/frontend/**",
-        "src/app/(category)/javascript/**",
-        "src/app/(category)/next/**",
-        "src/app/(category)/node/**",
-        "src/app/(category)/react/**",
-        "src/app/(category)/typescript/**",
-        "src/app/(category)/vue/**"
-    ],
     "cleanUrls": true,
     "redirects": [
         {
