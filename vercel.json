@@ -3,7 +3,10 @@
     "builds": [
         {
             "src": "package.json",
-            "use": "@vercel/next"
+            "use": "@vercel/next",
+            "config": {
+                "buildCommand": "npm run ignoreBuildStep && next build"
+            }
         }
     ],
     "cleanUrls": true,
@@ -19,8 +22,5 @@
             "destination": "/src/app",
             "statusCode": 301
         }
-    ],
-    "ignore": [
-        "src/app/**/\\(projects\\)/**"
     ]
 }
