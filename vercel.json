@@ -3,7 +3,10 @@
     "builds": [
         {
             "src": "src/app/**/angular/**/package.json",
-            "use": "@vercel/static-build"
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "dist"
+            }
         },
         {
             "src": "src/app/**/angular/**/index.html",
@@ -27,7 +30,10 @@
         },
         {
             "src": "src/app/**/react/**/package.json",
-            "use": "@vercel/static-build"
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "dist"
+            }
         },
         {
             "src": "src/app/**/typescript/**/package.json",
@@ -35,7 +41,10 @@
         },
         {
             "src": "src/app/**/vue/**/package.json",
-            "use": "@vercel/static-build"
+            "use": "@vercel/static-build",
+            "config": {
+                "distDir": "dist"
+            }
         }
     ],
     "rewrites": [
