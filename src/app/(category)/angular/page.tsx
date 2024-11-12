@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../../../../data.json';
+import data from '../../../database/data.json';
 import { ProjectsData } from '../../../types';
 import ProjectCard from '../../../components/shared/ProjectCard';
 

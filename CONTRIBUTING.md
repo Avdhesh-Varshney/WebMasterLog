@@ -12,7 +12,7 @@
 ```css
 git clone https://github.com/<your-github-username>/WebMasterLog.git
 ```
-  
+
 4. Navigate to the project directory.
 ```py
 cd WebMasterLog
@@ -44,7 +44,7 @@ We want your work to be readable by others; therefore, we encourage you to note 
 
 1. Directory names should be in `Kebab-Case` letters (e.g., `To-Do-List`, `Joke-Telling-Application`).
 2. Add a `README` file in the project directory.
-3. Follow the [***PROJECT README TEMPLATE***](./PROJECT-README-TEMPLATE.md).
+3. Follow the [***PROJECT README TEMPLATE***](./.github/PROJECT-README-TEMPLATE.md).
 4. Include a screenshot of the project. Named to be exact `screenshot.webp`.
 5. If you have contributed in `React-JS-Projects`, updates the respective README file and enlist your project there.
 6. Don't create more than 3-4 commits until not permitted by Admin and Mentors of the project.
