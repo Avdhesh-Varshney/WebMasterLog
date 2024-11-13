@@ -19,7 +19,7 @@ const ProjectCard = ({ key, category, level, project, liveURL }: { key: number, 
 			<CardContent className="flex justify-center items-center">
 				<div className="relative w-full h-48 group">
 					<Image
-						src={`https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/src/app/(projects)/${category}/(projects)/${project.project_name}/screenshot.webp`}
+						src={`https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/projects/${category}/(projects)/${project.project_name}/screenshot.webp`}
 						alt=''
 						width={300}
 						height={280}
