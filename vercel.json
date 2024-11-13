@@ -1,14 +1,5 @@
 {
-    "builds": [
-        {
-            "src": "package.json",
-            "use": "@vercel/next"
-        }
-    ],
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/$1"
-        }
+    "ignore": [
+        "projects"
     ]
 }
