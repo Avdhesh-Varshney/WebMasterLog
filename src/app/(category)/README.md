@@ -1,10 +1,142 @@
 <h2>Hey <𝚌𝚘𝚍𝚎𝚛𝚜/>! 👋</h2>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=VANILLA+JS+PROJECTS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=60&pause=1000&center=true&vCenter=true&multiline=true&width=1000&height=100&lines=AVAILABLE+PROJECTS)](https://git.io/typing-svg)
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
+<!-- ######################################### Angular JS Projects ######################################### -->
+
+<details>
+<summary>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=60&pause=1500&color=dd0031&center=true&vCenter=true&width=2000&height=120&lines=ANGULAR+JS+PROJECTS)](https://git.io/typing-svg)
+</summary>
 
 <div align="center">
 
-### :zap: Available Projects 🎉
+#### :zap: Row 1
+
+| <img src="/src/app/(category)/angular/(projects)/contact-manager/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/angular/(projects)/quick-notes/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/angular/(projects)/recipe-sharing/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Contact Manager](./src/app/(category)/angular/(projects)/contact-manager) | [Quick Notes](./src/app/(category)/angular/(projects)/quick-notes) | [Recipe Sharing](./src/app/(category)/angular/(projects)/recipe-sharing) |
+
+---
+
+#### :zap: Row 2
+
+| <img src="/src/app/(category)/angular/(projects)/task-manager/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/angular/(projects)/train-website/screenshot.webp" width="300px" height="180px"> |  |
+| :--: | :--: | :--: |
+| [Task Manager](./src/app/(category)/angular/(projects)/task-manager) | [Train Website](./src/app/(category)/angular/(projects)/train-website) |  |
+
+</div>
+
+</details>
+
+---
+
+<!-- ######################################### Frontend Projects ######################################### -->
+
+<details>
+<summary>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=60&pause=1500&color=61dafb&center=true&vCenter=true&width=2000&height=120&lines=FRONTEND+PROJECTS)](https://git.io/typing-svg)
+</summary>
+
+<div align="center">
+
+#### :zap: Row 1
+
+| <img src="/src/app/(category)/frontend/(projects)/amazon-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/amazon-prime-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/animated-tea-cup/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Amazon Clone](./src/app/(category)/frontend/(projects)/amazon-clone) | [Amazon Prime Clone](./src/app/(category)/frontend/(projects)/amazon-prime-clone) | [Animated Tea Cup](./src/app/(category)/frontend/(projects)/animated-tea-cup) |
+
+---
+
+#### :zap: Row 2
+
+| <img src="/src/app/(category)/frontend/(projects)/apple-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/biography-br-ambedkar/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/biography-mahatma-gandhi/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Apple Clone](./src/app/(category)/frontend/(projects)/apple-clone) | [Biography Br Ambedkar](./src/app/(category)/frontend/(projects)/biography-br-ambedkar) | [Biography Mahatma Gandhi](./src/app/(category)/frontend/(projects)/biography-mahatma-gandhi) |
+
+---
+
+#### :zap: Row 3
+
+| <img src="/src/app/(category)/frontend/(projects)/blood-donation-form/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/book-website/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/facebook-login-page/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Blood Donation Form](./src/app/(category)/frontend/(projects)/blood-donation-form) | [Book Website](./src/app/(category)/frontend/(projects)/book-website) | [Facebook Login Page](./src/app/(category)/frontend/(projects)/facebook-login-page) |
+
+---
+
+#### :zap: Row 4
+
+| <img src="/src/app/(category)/frontend/(projects)/feedback-form/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/flexflow/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/flipkart-clone/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Feedback Form](./src/app/(category)/frontend/(projects)/feedback-form) | [Flexflow](./src/app/(category)/frontend/(projects)/flexflow) | [Flipkart Clone](./src/app/(category)/frontend/(projects)/flipkart-clone) |
+
+---
+
+#### :zap: Row 5
+
+| <img src="/src/app/(category)/frontend/(projects)/google-drive-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/google-search-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/hotstar-clone/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Google Drive Clone](./src/app/(category)/frontend/(projects)/google-drive-clone) | [Google Search Clone](./src/app/(category)/frontend/(projects)/google-search-clone) | [Hotstar Clone](./src/app/(category)/frontend/(projects)/hotstar-clone) |
+
+---
+
+#### :zap: Row 6
+
+| <img src="/src/app/(category)/frontend/(projects)/iphone-14-pro-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/linktree-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/login-signup-form/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Iphone 14 Pro Clone](./src/app/(category)/frontend/(projects)/iphone-14-pro-clone) | [Linktree Clone](./src/app/(category)/frontend/(projects)/linktree-clone) | [Login Signup Form](./src/app/(category)/frontend/(projects)/login-signup-form) |
+
+---
+
+#### :zap: Row 7
+
+| <img src="/src/app/(category)/frontend/(projects)/makemytrip-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/microsoft-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/netflix-clone/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Makemytrip Clone](./src/app/(category)/frontend/(projects)/makemytrip-clone) | [Microsoft Clone](./src/app/(category)/frontend/(projects)/microsoft-clone) | [Netflix Clone](./src/app/(category)/frontend/(projects)/netflix-clone) |
+
+---
+
+#### :zap: Row 8
+
+| <img src="/src/app/(category)/frontend/(projects)/phonepe/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/pokemon-card/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/product-landing-page/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Phonepe](./src/app/(category)/frontend/(projects)/phonepe) | [Pokemon Card](./src/app/(category)/frontend/(projects)/pokemon-card) | [Product Landing Page](./src/app/(category)/frontend/(projects)/product-landing-page) |
+
+---
+
+#### :zap: Row 9
+
+| <img src="/src/app/(category)/frontend/(projects)/reddit-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/sidebar-menu/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/spacex-website-clone/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Reddit Clone](./src/app/(category)/frontend/(projects)/reddit-clone) | [Sidebar Menu](./src/app/(category)/frontend/(projects)/sidebar-menu) | [Spacex Website Clone](./src/app/(category)/frontend/(projects)/spacex-website-clone) |
+
+---
+
+#### :zap: Row 10
+
+| <img src="/src/app/(category)/frontend/(projects)/spotify-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/starbucks-landing-page/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/survey-form/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Spotify Clone](./src/app/(category)/frontend/(projects)/spotify-clone) | [Starbucks Landing Page](./src/app/(category)/frontend/(projects)/starbucks-landing-page) | [Survey Form](./src/app/(category)/frontend/(projects)/survey-form) |
+
+</div>
+
+</details>
+
+---
+
+<!-- ######################################### Javascript/ Vanilla JS Projects ######################################### -->
+
+<details>
+<summary>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=60&pause=1500&color=F7DF1E&center=true&vCenter=true&width=2000&height=120&lines=VANILLA+JS+PROJECTS)](https://git.io/typing-svg)
+</summary>
+
+<div align="center">
 
 #### :zap: Row 1
 
@@ -317,6 +449,262 @@
 | [Zomato Clone](./src/app/(category)/javascript/(projects)/zomato-clone) |  |  |
 
 </div>
+
+</details>
+
+---
+
+<!-- ######################################### Next JS Projects ######################################### -->
+
+<details>
+<summary>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=60&pause=1500&color=000000&center=true&vCenter=true&width=2000&height=120&lines=NEXT+JS+PROJECTS)](https://git.io/typing-svg)
+</summary>
+
+<div align="center">
+
+#### :zap: Row 1
+
+| <img src="/src/app/(category)/next/(projects)/attendance-tracking-app/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/next/(projects)/breaking-news-app/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/next/(projects)/gen-ai-quiz-application/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Attendance Tracking App](./src/app/(category)/next/(projects)/attendance-tracking-app) | [Breaking News App](./src/app/(category)/next/(projects)/breaking-news-app) | [Gen Ai Quiz Application](./src/app/(category)/next/(projects)/gen-ai-quiz-application) |
+
+---
+
+#### :zap: Row 2
+
+| <img src="/src/app/(category)/next/(projects)/quiz-app/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/next/(projects)/url-shortener/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/next/(projects)/video-call-app/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Quiz App](./src/app/(category)/next/(projects)/quiz-app) | [Url Shortener](./src/app/(category)/next/(projects)/url-shortener) | [Video Call App](./src/app/(category)/next/(projects)/video-call-app) |
+
+---
+
+#### :zap: Row 3
+
+| <img src="/src/app/(category)/next/(projects)/voice-call-app/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/next/(projects)/weather-website/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: |
+| [Voice Call App](./src/app/(category)/next/(projects)/voice-call-app) | [Weather Website](./src/app/(category)/next/(projects)/weather-website) |
+
+</div>
+
+</details>
+
+---
+
+<!-- ######################################### Node JS Projects ######################################### -->
+
+<details>
+<summary>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=60&pause=1500&color=339933&center=true&vCenter=true&width=2000&height=120&lines=NODE+JS+PROJECTS)](https://git.io/typing-svg)
+</summary>
+
+<div align="center">
+
+#### :zap: Row 1
+
+| <img src="/src/app/(category)/node/(projects)/blog-platform/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/cooking-blog/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/crud-operations/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Blog Platform](./src/app/(category)/node/(projects)/blog-platform) | [Cooking Blog](./src/app/(category)/node/(projects)/cooking-blog) | [Crud Operations](./src/app/(category)/node/(projects)/crud-operations) |
+
+---
+
+#### :zap: Row 2
+
+| <img src="/src/app/(category)/node/(projects)/docx-to-pdf-converter/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/e-commerce/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/file-upload-and-download-system/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Docx To Pdf Converter](./src/app/(category)/node/(projects)/docx-to-pdf-converter) | [E Commerce](./src/app/(category)/node/(projects)/e-commerce) | [File Upload And Download System](./src/app/(category)/node/(projects)/file-upload-and-download-system) |
+
+---
+
+#### :zap: Row 3
+
+| <img src="/src/app/(category)/node/(projects)/gmail-nodemailer/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/headline-hub/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/infinite-scrolling/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Gmail Nodemailer](./src/app/(category)/node/(projects)/gmail-nodemailer) | [Headline Hub](./src/app/(category)/node/(projects)/headline-hub) | [Infinite Scrolling](./src/app/(category)/node/(projects)/infinite-scrolling) |
+
+---
+
+#### :zap: Row 4
+
+| <img src="/src/app/(category)/node/(projects)/jwt-authenticator-with-roles/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/url-scraper/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/url-shortener/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Jwt Authenticator With Roles](./src/app/(category)/node/(projects)/jwt-authenticator-with-roles) | [Url Scraper](./src/app/(category)/node/(projects)/url-scraper) | [Url Shortener](./src/app/(category)/node/(projects)/url-shortener) |
+
+---
+
+#### :zap: Row 5
+
+| <img src="/src/app/(category)/node/(projects)/user-registration-system/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/youtube-video-downloader/screenshot.webp" width="300px" height="180px"> |  |
+| :--: | :--: | :--: |
+| [User Registration System](./src/app/(category)/node/(projects)/user-registration-system) | [Youtube Video Downloader](./src/app/(category)/node/(projects)/youtube-video-downloader) |  |
+
+</div>
+
+</details>
+
+---
+
+<!-- ######################################### React JS Projects ######################################### -->
+
+<details>
+<summary>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=60&pause=1500&color=61DAFB&center=true&vCenter=true&width=2000&height=120&lines=REACT+JS+PROJECTS)](https://git.io/typing-svg)
+</summary>
+
+<div align="center">
+
+#### :zap: Row 1
+
+| <img src="/src/app/(category)/react/(projects)/cakes-n-cookies/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/chat-application/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/chat-bot/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Cakes N Cookies](./src/app/(category)/react/(projects)/cakes-n-cookies) | [Chat Application](./src/app/(category)/react/(projects)/chat-application) | [Chat Bot](./src/app/(category)/react/(projects)/chat-bot) |
+
+---
+
+#### :zap: Row 2
+
+| <img src="/src/app/(category)/react/(projects)/code-editor/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/cryptocurrency-finder/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/currency-converter/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Code Editor](./src/app/(category)/react/(projects)/code-editor) | [Cryptocurrency Finder](./src/app/(category)/react/(projects)/cryptocurrency-finder) | [Currency Converter](./src/app/(category)/react/(projects)/currency-converter) |
+
+---
+
+#### :zap: Row 3
+
+| <img src="/src/app/(category)/react/(projects)/food-recipe-app/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/form-validation/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/github-profile-viewer/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Food Recipe App](./src/app/(category)/react/(projects)/food-recipe-app) | [Form Validation](./src/app/(category)/react/(projects)/form-validation) | [Github Profile Viewer](./src/app/(category)/react/(projects)/github-profile-viewer) |
+
+---
+
+#### :zap: Row 4
+
+| <img src="/src/app/(category)/react/(projects)/image-carousel/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/interview-report/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/ip-address-tracker/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Image Carousel](./src/app/(category)/react/(projects)/image-carousel) | [Interview Report](./src/app/(category)/react/(projects)/interview-report) | [Ip Address Tracker](./src/app/(category)/react/(projects)/ip-address-tracker) |
+
+---
+
+#### :zap: Row 5
+
+| <img src="/src/app/(category)/react/(projects)/job-portal/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/motivation-for-the-day/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/movie-land/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Job Portal](./src/app/(category)/react/(projects)/job-portal) | [Motivation For The Day](./src/app/(category)/react/(projects)/motivation-for-the-day) | [Movie Land](./src/app/(category)/react/(projects)/movie-land) |
+
+---
+
+#### :zap: Row 6
+
+| <img src="/src/app/(category)/react/(projects)/myntra-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/netflix-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/notes-app/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Myntra Clone](./src/app/(category)/react/(projects)/myntra-clone) | [Netflix Clone](./src/app/(category)/react/(projects)/netflix-clone) | [Notes App](./src/app/(category)/react/(projects)/notes-app) |
+
+---
+
+#### :zap: Row 7
+
+| <img src="/src/app/(category)/react/(projects)/password-generator/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/qr-code-generator/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/quiz-app/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Password Generator](./src/app/(category)/react/(projects)/password-generator) | [Qr Code Generator](./src/app/(category)/react/(projects)/qr-code-generator) | [Quiz App](./src/app/(category)/react/(projects)/quiz-app) |
+
+---
+
+#### :zap: Row 8
+
+| <img src="/src/app/(category)/react/(projects)/random-bible-verse/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/shopping-cart/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/solar-system-model/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Random Bible Verse](./src/app/(category)/react/(projects)/random-bible-verse) | [Shopping Cart](./src/app/(category)/react/(projects)/shopping-cart) | [Solar System Model](./src/app/(category)/react/(projects)/solar-system-model) |
+
+---
+
+#### :zap: Row 9
+
+| <img src="/src/app/(category)/react/(projects)/sudoku-solver/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/swiggy-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/tesla-clone/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Sudoku Solver](./src/app/(category)/react/(projects)/sudoku-solver) | [Swiggy Clone](./src/app/(category)/react/(projects)/swiggy-clone) | [Tesla Clone](./src/app/(category)/react/(projects)/tesla-clone) |
+
+---
+
+#### :zap: Row 10
+
+| <img src="/src/app/(category)/react/(projects)/text-editor/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/to-do-list/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/travel-website/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Text Editor](./src/app/(category)/react/(projects)/text-editor) | [To Do List](./src/app/(category)/react/(projects)/to-do-list) | [Travel Website](./src/app/(category)/react/(projects)/travel-website) |
+
+---
+
+#### :zap: Row 11
+
+| <img src="/src/app/(category)/react/(projects)/tspot-travel-app/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/tutoring-website/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/typing-speed-tracker/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Tspot Travel App](./src/app/(category)/react/(projects)/tspot-travel-app) | [Tutoring Website](./src/app/(category)/react/(projects)/tutoring-website) | [Typing Speed Tracker](./src/app/(category)/react/(projects)/typing-speed-tracker) |
+
+---
+
+#### :zap: Row 12
+
+| <img src="/src/app/(category)/react/(projects)/video-hub/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/weather-app/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/react/(projects)/youtube-clone/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Video Hub](./src/app/(category)/react/(projects)/video-hub) | [Weather App](./src/app/(category)/react/(projects)/weather-app) | [Youtube Clone](./src/app/(category)/react/(projects)/youtube-clone) |
+
+</div>
+
+</details>
+
+---
+
+<!-- ######################################### Typescript Projects ######################################### -->
+
+<details>
+<summary>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=60&pause=1500&color=3178C6&center=true&vCenter=true&width=2000&height=120&lines=TYPESCRIPT+PROJECTS)](https://git.io/typing-svg)
+</summary>
+
+<div align="center">
+
+#### :zap: Row 1
+
+| <img src="/src/app/(category)/typescript/(projects)/quiz-app/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/typescript/(projects)/to-do-list-app/screenshot.webp" width="300px" height="180px"> |  |
+| :--: | :--: | :--: |
+| [Quiz App](./src/app/(category)/typescript/(projects)/quiz-app) | [To Do List App](./src/app/(category)/typescript/(projects)/to-do-list-app) |  |
+
+</div>
+
+</details>
+
+---
+
+<!-- ######################################### Vue JS Projects ######################################### -->
+
+<details>
+<summary>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Comfortaa&size=60&pause=1500&color=4FC08D&center=true&vCenter=true&width=2000&height=120&lines=VUE+JS+PROJECTS)](https://git.io/typing-svg)
+</summary>
+
+<div align="center">
+
+#### :zap: Row 1
+
+| <img src="/src/app/(category)/vue/(projects)/expense-tracker/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/vue/(projects)/google-keep/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/vue/(projects)/markdown-previewer/screenshot.webp" width="300px" height="180px"> |
+| :--: | :--: | :--: |
+| [Expense Tracker](./src/app/(category)/vue/(projects)/expense-tracker) | [Google Keep](./src/app/(category)/vue/(projects)/google-keep) | [Markdown Previewer](./src/app/(category)/vue/(projects)/markdown-previewer) |
+
+---
+
+#### :zap: Row 2
+
+| <img src="/src/app/(category)/vue/(projects)/quote-generator/screenshot.webp" width="300px" height="180px"> |  |  |
+| :--: | :--: | :--: |
+| [Quote Generator](./src/app/(category)/vue/(projects)/quote-generator) |  |  |
+
+</div>
+
+</details>
 
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 

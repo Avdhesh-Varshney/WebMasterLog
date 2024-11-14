@@ -44,6 +44,12 @@ const menuList = [
 				iconColor: "#61DAFB"
 			},
 			{
+				link: "/javascript",
+				text: "Vanilla JS",
+				icon: <SiJavascript color="#F7DF1E" />,
+				iconColor: "#F7DF1E"
+			},
+			{
 				link: "/next",
 				text: "Next JS",
 				icon: <SiNextdotjs color="#000000" />,
@@ -66,12 +72,6 @@ const menuList = [
 				text: "Typescript",
 				icon: <SiTypescript color="#3178C6" />,
 				iconColor: "#3178C6"
-			},
-			{
-				link: "/javascript",
-				text: "Vanilla JS",
-				icon: <SiJavascript color="#F7DF1E" />,
-				iconColor: "#F7DF1E"
 			},
 			{
 				link: "/vue",
