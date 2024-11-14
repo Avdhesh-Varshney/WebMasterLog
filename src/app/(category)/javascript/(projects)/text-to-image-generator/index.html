@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-adsense-account" content="ca-pub-7654240481590326">
+  <link rel="stylesheet" href="styles.css">
+  <title> Text to Image Generator </title>
+</head>
+
+<body>
+  <div id="particles-js"></div>
+   <div class="container">
+    <h1>AI Image Generator</h1><br>
+    <p>Write your prompt here to generate top-notch, stunningly detailed, high-definition images with the power of AI.</p> 
+    <p>Example prompt: "Supreme Quality, Masterwork, Highly Intricate, High Resolution, 4K, Ultra HD, Detailed Shadows, Vivid Colors, Blended Fujifilm, Adorable, Joyful"</p>
+    <form class="gen-form">
+      <input type="text" id="user-prompt" , placeholder="Type your prompt here..." autocomplete="off">
+      <button type="button" id="generate">Generate</button>
+    </form>
+
+    <div class="result">
+      <div id="loading">Generating...</div>
+      <div id="image-grid"></div>
+    </div>
+   </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particlesjs-config.json', function() {
+        console.log('callback - particles.js config loaded');
+    });
+  </script>
+
+</body>
+
+</html>

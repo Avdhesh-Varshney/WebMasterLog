@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body { height: 100%; width: 100%; background-image: url('./assets/images/bg-2.jpeg');
+    background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;  }
+
+  .popup {
+    background-image: url('./assets/images/bg-2.jpeg');
+    background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; 
+}
+
+
+.toast-top-center {
+  top: 15px !important;
+}

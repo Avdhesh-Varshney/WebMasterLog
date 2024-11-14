@@ -1,0 +1,31 @@
+<header
+  class="py-4 md:py-5 px-2 md:px-4 flex flex-col md:flex-row justify-between items-center"
+>
+  <h2
+    class="text-center text-lg md:text-2xl font-bold tracking-wide text-white mb-2 md:mb-0"
+  >
+    Contact Manager
+  </h2>
+  <div class="flex">
+    <!-- Search Box -->
+    <input
+      class="h-10 px-2 md:px-5 mr-2 md:mr-5 rounded-lg text-sm md:text-md lg:text-lg text-white tracking-wider border-2 border-gray-400/20 bg-transparent focus:outline-none focus:border-gray-400"
+      type="search"
+      name="search"
+      placeholder="Search contacts..."
+      [(ngModel)]="searchQuery"
+      (input)="onSearchChange()"
+    />
+    <!-- Add New Button -->
+    <button
+      (click)="toggleNewContactModal(true)"
+      class="flex justify-center rounded-md bg-orange-500 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-600"
+    >
+      + Add New
+    </button>
+  </div>
+</header>
+<app-new-contact
+  *ngIf="isNewContactModalOpen"
+  (closeNewContactModal)="toggleNewContactModal($event)"
+></app-new-contact>
