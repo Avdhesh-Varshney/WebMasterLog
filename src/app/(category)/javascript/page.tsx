@@ -13,7 +13,7 @@ const page = () => {
             {levels.map((level) => (
                 <div key={level} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     {projects[level].map((project, index) => (
-                        <ProjectCard key={index} category="javascript" level={level} project={project} liveURL={`https://raw.githack.com/Avdhesh-Varshney/WebMasterLog/main/projects/javascript/(projects)/${project.project_name}/index.html`} />
+                        <ProjectCard key={index} category="javascript" level={level} project={project} liveURL={`https://raw.githack.com/Avdhesh-Varshney/WebMasterLog/main/src/app/(category)/javascript/(projects)/${project.project_name}/index.html`} />
                     ))}
                 </div>
             ))}
