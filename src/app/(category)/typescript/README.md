@@ -8,9 +8,9 @@
 
 #### :zap: Row 1
 
-| <img src="/projects/typescript/(projects)/quiz-app/screenshot.webp" width="300px" height="180px"> | <img src="/projects/typescript/(projects)/to-do-list-app/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="/src/app/(category)/typescript/(projects)/quiz-app/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/typescript/(projects)/to-do-list-app/screenshot.webp" width="300px" height="180px"> |  |
 | :--: | :--: | :--: |
-| [Quiz App](./projects/typescript/(projects)/quiz-app) | [To Do List App](./projects/typescript/(projects)/to-do-list-app) |  |
+| [Quiz App](./src/app/(category)/typescript/(projects)/quiz-app) | [To Do List App](./src/app/(category)/typescript/(projects)/to-do-list-app) |  |
 
 </div>
 

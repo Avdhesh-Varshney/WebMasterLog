@@ -10,7 +10,7 @@ const ProjectCard = ({ key, category, level, project, liveURL }: { key: number, 
 			<CardHeader>
 				<CardTitle className="text-white">{project.project_name.replace(/-/g, ' ').replace(/\b\w/g, (char) => char.toUpperCase())}</CardTitle>
 				<CardDescription>
-					<Link href={`https://github.com/Avdhesh-Varshney/WebMasterLog/raw/main/src/app/(projects)/${category}/(projects)/${project.project_name}`}>
+					<Link href={`https://github.com/Avdhesh-Varshney/WebMasterLog/raw/main/src/app/(category)/${category}/(projects)/${project.project_name}`}>
 						{`${level}/${project.project_name}`}
 					</Link>
 				</CardDescription>
@@ -19,7 +19,7 @@ const ProjectCard = ({ key, category, level, project, liveURL }: { key: number, 
 			<CardContent className="flex justify-center items-center">
 				<div className="relative w-full h-48 group">
 					<Image
-						src={`https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/projects/${category}/(projects)/${project.project_name}/screenshot.webp`}
+						src={`https://raw.githubusercontent.com/Avdhesh-Varshney/WebMasterLog/main/src/app/(category)/${category}/(projects)/${project.project_name}/screenshot.webp`}
 						alt=''
 						width={300}
 						height={280}
