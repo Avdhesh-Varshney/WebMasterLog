@@ -1,0 +1,71 @@
+<div class="flow-root m2-4">
+  <ul role="list">
+    <!-- In case there is no contact -->
+    <li *ngIf="filteredContacts.length === 0">
+      <div class="flex-1">
+        <p
+          class="text-md font-medium text-white truncate capitalize tracking-wide text-center pt-5"
+        >
+          No Contact found
+        </p>
+      </div>
+    </li>
+    <!-- If contacts are found -->
+    <ng-container *ngFor="let group of groupedContacts | keyvalue">
+      <!-- Below we have the header of each section -->
+      <div class="relative">
+        <div class="absolute inset-0 flex items-center" aria-hidden="true">
+          <div class="w-full border-t ml-5 border-gray-300"></div>
+        </div>
+        <div class="relative flex justify-start">
+          <span class="py-2 text-xl font-semibold text-blue-400">{{
+            group.key
+          }}</span>
+        </div>
+      </div>
+
+      <li class="py-3 px-3 rounded-xl" *ngFor="let contact of group.value">
+        <div class="flex items-center space-x-4">
+          <div
+            class="flex-shrink-0 h-10 w-10 grid place-items-center rounded-full border-2"
+          >
+            <i class="fa fa-user text-gray-400"></i>
+          </div>
+          <div class="flex-1">
+            <p
+              class="text-sm font-medium text-white truncate capitalize tracking-wide"
+            >
+              {{ contact.name }}
+            </p>
+            <p class="text-sm text-gray-500 truncate">
+              {{ contact.phone }}
+            </p>
+          </div>
+          <div class="flex-1">
+            <p class="text-sm text-gray-400 truncate">
+              {{ contact.email }}
+            </p>
+          </div>
+          <div
+            (click)="toggleEditContact(contact)"
+            class="items-center text-base font-semibold text-blue-950 bg-blue-400 hover:bg-blue-500 rounded-md w-10 h-8 grid place-items-center"
+          >
+            <i class="fa fa-pencil"></i>
+          </div>
+          <div
+            (click)="deleteContact(contact)"
+            class="items-center text-base font-semibold text-red-800 bg-red-400 hover:bg-red-500 rounded-md w-10 h-8 grid place-items-center"
+          >
+            <i class="fa fa-trash"></i>
+          </div>
+        </div>
+      </li>
+    </ng-container>
+  </ul>
+</div>
+
+<app-edit-contact
+  *ngIf="editContact.id.length"
+  [editContact]="editContact"
+  (toggleTask)="toggleEditContact($event)"
+></app-edit-contact>

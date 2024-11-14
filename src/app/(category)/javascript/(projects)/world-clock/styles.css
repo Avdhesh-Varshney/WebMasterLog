@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+}
+
+#cityForm {
+    margin-bottom: 20px;
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    padding: 5px;
+    font-size: 14px;
+    border: 1.5px solid #1b1919;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+body.clock-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /* Allow clocks to wrap to the next row */
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.clock {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    width: 150px; /* Set the width of each clock */
+}
+.clock span {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: small;
+}
+
+.time {
+    display: block;
+}
+
+.timezone {
+    display: block;
+    font-size: small;
+}

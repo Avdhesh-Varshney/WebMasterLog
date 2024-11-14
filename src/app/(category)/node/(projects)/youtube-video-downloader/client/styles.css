@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( to right, #FEB692 10%, #EA5455 100%);
+}
+
+.container {
+    margin-top: 200px;
+    width: 450px;
+    height: 300px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #ff0000; 
+}
+
+input[type="text"] {
+    width: 250px; 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #ff0000; 
+    outline: none;
+}
+
+select {
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #cc0000; 
+}
+
+#downloadLinks {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#downloadLinks a {
+    display: block;
+    margin-bottom: 10px;
+    color: #ff0000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#downloadLinks a:hover {
+    color: #cc0000; 
+}
+
+#message {
+    margin-top: 20px;
+    color: #555;
+    font-size: 1.2em;
+}

@@ -1,0 +1,27 @@
+<!-- <main
+  class="w-full min-h-screen bg-slate-300 flex items-start py-10 justify-center z-0"
+>
+  <section class="w-2/3 min-h-96 h-[90vh] bg-white border-4 border-red-600">
+    <app-header></app-header>
+    <app-contact-list></app-contact-list>
+  </section>
+</main> -->
+
+<main
+  class="w-full min-h-screen flex justify-center items-start p-0 m-0 md:p-4"
+>
+  <div
+    class="w-full max-w-4xl h-[100vh] md:h-[95vh] min-h-full backdrop-blur-md p-2 md:p-4 lg:p-5 overflow-hidden rounded-xl shadow-xl flex flex-col"
+  >
+    <!-- Header of the contact list -->
+    <app-header (searchChanged)="onSearchChanged($event)"></app-header>
+
+    <!-- Separator between header and the contact list -->
+    <hr class="border-2 border-gray-400/20 my-2 rounded-2xl" />
+
+    <!-- App Contact list -->
+    <div class="flex-1 overflow-auto">
+      <app-contact-list [searchQuery]="searchQuery"></app-contact-list>
+    </div>
+  </div>
+</main>

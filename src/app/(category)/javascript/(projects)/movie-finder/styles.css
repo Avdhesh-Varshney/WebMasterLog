@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #292929;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.wrapper {
+    min-height: 100vh;
+    background-color: #171717;
+}
+
+.search-area {
+    background-color: #1d1d1d;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.search-box h3 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.form-input {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    width: 350px;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+    z-index: 10;
+    right: 0;
+}
+
+.search-item {
+    background-color: #292929;
+    padding: 0.5rem;
+    border-bottom: 1px solid #171717;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 200ms ease;
+}
+
+.search-item:hover {
+    background-color: #1f1f1f;
+}
+
+.search-item-content {
+    display: flex;
+    align-items: center;
+}
+
+.search-item-thumbnail img {
+    width: 40px;
+    margin-right: 1rem;
+}
+
+.search-item-info h3 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.search-item-info p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.hide-search-list{
+    display: none;
+}
+
+.search-results::-webkit-scrollbar {
+    width: 8px;
+}
+
+.search-results::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.search-results::-webkit-scrollbar-thumb {
+    background-color: #d4aa11;
+    border-radius: 10px;
+}
+
+.results-area {
+    padding: 3rem 0;
+}
+
+.movie-poster img {
+    max-width: 300px;
+    margin: 0 auto;
+    border: 4px solid #fff;
+}
+
+.movie-info {
+    text-align: center;
+    color: #fff;
+    padding-top: 3rem;
+}
+
+.movie-title {
+    font-size: 2rem;
+    color: #d4aa11;
+}
+
+.movie-details {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.movie-details .year {
+    font-weight: 500;
+}
+
+.movie-details .rated {
+    background-color: #d4aa11;
+    padding: 0.4rem;
+    margin: 0 0.4rem;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.movie-details .released {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.movie-info .genre {
+    background-color: #292929;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
+.movie-info .writer {
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+
+.movie-info .plot {
+    max-width: 400px;
+    margin: 1rem auto;
+}
+
+.movie-info .language {
+    color: #d4aa11;
+    font-style: italic;
+}
+
+.movie-info .awards {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.movie-info .awards i {
+    color: #d4aa11;
+    margin: 1rem 0.7rem 0 0;
+}

@@ -1,0 +1,41 @@
+[
+  { "question": "What does HTML stand for?", "options": ["HyperText Markup Language", "HighText Machine Language", "Hyperlink and Text Markup Language", "None of the above"], "answer": "HyperText Markup Language", "category": "html" },
+  { "question": "What is the correct HTML element for inserting a line break?", "options": ["<break>", "<lb>", "<br>", "<line>"], "answer": "<br>", "category": "html" },
+  { "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?", "options": ["alt", "title", "src", "href"], "answer": "alt", "category": "html" },
+  { "question": "Which HTML tag is used to define an internal style sheet?", "options": ["<style>", "<css>", "<script>", "<link>"], "answer": "<style>", "category": "html" },
+
+  { "question": "What does CSS stand for?", "options": ["Cascading Style Sheets", "Colorful Style Sheets", "Computer Style Sheets", "Creative Style Sheets"], "answer": "Cascading Style Sheets", "category": "css" },
+  { "question": "How do you select an element with the class name 'example' in CSS?", "options": [".example", "#example", "example", "*example"], "answer": ".example", "category": "css" },
+  { "question": "Which CSS property controls the text size?", "options": ["font-size", "text-size", "font-style", "text-style"], "answer": "font-size", "category": "css" },
+  { "question": "How do you make a list that lists items horizontally in CSS?", "options": ["list-style: horizontal", "display: inline", "list-style-type: horizontal", "float: left"], "answer": "display: inline", "category": "css" },
+
+  { "question": "What is the output of `typeof NaN` in JavaScript?", "options": ["number", "NaN", "undefined", "object"], "answer": "number", "category": "javascript" },
+  { "question": "Which method removes the last element from an array and returns it?", "options": ["pop()", "push()", "shift()", "unshift()"], "answer": "pop()", "category": "javascript" },
+  { "question": "What does `JSON.stringify()` do?", "options": ["Converts a JavaScript object to a JSON string", "Parses a JSON string to a JavaScript object", "Converts a string to a JavaScript object", "Stringifies a JavaScript function"], "answer": "Converts a JavaScript object to a JSON string", "category": "javascript" },
+  { "question": "Which keyword is used to declare a variable that cannot be reassigned?", "options": ["let", "var", "const", "static"], "answer": "const", "category": "javascript" },
+
+  { "question": "What is the output of `print(2 ** 3)` in Python?", "options": ["8", "9", "6", "3"], "answer": "8", "category": "python" },
+  { "question": "How do you create a function in Python?", "options": ["def functionName():", "function functionName():", "create functionName():", "functionName():"], "answer": "def functionName():", "category": "python" },
+  { "question": "What is the correct way to write a list in Python?", "options": ["list = [1, 2, 3]", "list = (1, 2, 3)", "list = {1, 2, 3}", "list = 1, 2, 3"], "answer": "list = [1, 2, 3]", "category": "python" },
+  { "question": "How do you insert a comment in Python?", "options": ["// comment", "# comment", "/* comment */", "<!-- comment -->"], "answer": "# comment", "category": "python" },
+
+  { "question": "Which of these is a correct way to declare a variable in Java?", "options": ["int x = 10;", "x = 10;", "var x = 10;", "let x = 10;"], "answer": "int x = 10;", "category": "java" },
+  { "question": "What is the default value of a boolean variable in Java?", "options": ["true", "false", "0", "null"], "answer": "false", "category": "java" },
+  { "question": "What is the correct way to create an array in Java?", "options": ["int[] arr = new int[5];", "int arr = new int[5];", "array arr = new int[5];", "int arr[] = new int[5];"], "answer": "int[] arr = new int[5];", "category": "java" },
+  { "question": "Which keyword is used to prevent a method from being overridden in Java?", "options": ["static", "final", "private", "protected"], "answer": "final", "category": "java" },
+
+  { "question": "Which of these is a popular React library for state management?", "options": ["Redux", "jQuery", "Lodash", "Axios"], "answer": "Redux", "category": "react" },
+  { "question": "How do you create a functional component in React?", "options": ["function MyComponent() {}", "class MyComponent extends React.Component {}", "function MyComponent = () => {}", "const MyComponent = class {}"], "answer": "function MyComponent() {}", "category": "react" },
+  { "question": "Which hook is used to manage state in a functional component?", "options": ["useState", "useEffect", "useReducer", "useContext"], "answer": "useState", "category": "react" },
+  { "question": "How do you pass data from a parent component to a child component in React?", "options": ["props", "state", "context", "refs"], "answer": "props", "category": "react" },
+
+  { "question": "How do you declare a variable in PHP?", "options": ["$variable = value;", "var variable = value;", "let variable = value;", "const variable = value;"], "answer": "$variable = value;", "category": "php" },
+  { "question": "Which PHP function is used to get the length of a string?", "options": ["strlen()", "length()", "str_length()", "get_length()"], "answer": "strlen()", "category": "php" },
+  { "question": "How do you concatenate strings in PHP?", "options": ["string1 . string2", "concat(string1, string2)", "string1 + string2", "combine(string1, string2)"], "answer": "string1 . string2", "category": "php" },
+  { "question": "Which PHP function is used to include another file?", "options": ["include()", "require()", "import()", "include_file()"], "answer": "include()", "category": "php" },
+
+  { "question": "Which of the following is a valid variable declaration in C?", "options": ["int x = 10;", "x = 10;", "var x = 10;", "let x = 10;"], "answer": "int x = 10;", "category": "c" },
+  { "question": "What does the `printf` function do in C?", "options": ["Prints formatted output to the console", "Reads input from the user", "Allocates memory", "Declares a variable"], "answer": "Prints formatted output to the console", "category": "c" },
+  { "question": "How do you declare a constant in C?", "options": ["const int x = 10;", "#define x 10", "int x = 10;", "constant int x = 10;"], "answer": "const int x = 10;", "category": "c" },
+  { "question": "Which header file is required for using `printf` in C?", "options": ["<stdio.h>", "<stdlib.h>", "<string.h>", "<math.h>"], "answer": "<stdio.h>", "category": "c" }
+]
