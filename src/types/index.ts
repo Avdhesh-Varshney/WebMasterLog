@@ -6,6 +6,8 @@ export interface Project {
     avatar_url: string;
     description: string;
     tags: string[];
+    category?: string;
+    level?: "beginner" | "intermediate" | "advanced";
 }
 
 export interface ProjectsData {
