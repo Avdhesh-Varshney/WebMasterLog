@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Avatar Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Avatar Customizer</h1>
+        <div class="avatar-container">
+            <div class="avatar">
+                <div class="face">
+                    <div class="eyes">
+                        <div class="eye left-eye"></div>
+                        <div class="eye right-eye"></div>
+                    </div>
+                    <div class="mouth"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <h2>Customize Your Avatar</h2>
+
+            <div class="control-group">
+                <label for="skinColor">Skin Color</label>
+                <input type="color" id="skinColor" value="#ffcc99">
+            </div>
+
+            <div class="control-group">
+                <label for="eyeColor">Eye Color</label>
+                <input type="color" id="eyeColor" value="#000000">
+            </div>
+
+            <div class="control-group">
+                <label for="mouthSize">Mouth Size</label>
+                <input type="range" id="mouthSize" min="1" max="5" value="3">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const skinColorPicker = document.getElementById("skinColor");
+    const eyeColorPicker = document.getElementById("eyeColor");
+    const mouthSizeSlider = document.getElementById("mouthSize");
+
+    const avatar = document.querySelector(".avatar");
+    const eyes = document.querySelectorAll(".eye");
+    const mouth = document.querySelector(".mouth");
+
+    // Update skin color
+    skinColorPicker.addEventListener("input", function() {
+        avatar.style.backgroundColor = skinColorPicker.value;
+    });
+
+    // Update eye color
+    eyeColorPicker.addEventListener("input", function() {
+        eyes.forEach(eye => {
+            eye.style.backgroundColor = eyeColorPicker.value;
+        });
+    });
+
+    // Update mouth size
+    mouthSizeSlider.addEventListener("input", function() {
+        const size = mouthSizeSlider.value * 8; // Adjust the size factor as desired
+        mouth.style.width = `${size}px`;
+        mouth.style.height = `${size / 2}px`;
+    });
+});
+    </script>
+</body>
+</html>
