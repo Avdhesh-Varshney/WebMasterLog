@@ -98,30 +98,42 @@ Welcome to WebMasterLog, It serves as a comprehensive record of various web deve
 ### ❄️ Open Source Programs
 
 <table>
-  <tr>
+  <tr align="center">
     <td align="center">
-     <a href="https://www.jwoc.tech/">
-      <img src="https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/9a1577ad-a9b7-4e55-8be6-633e78a0b7ef" height=100px /><br />
-      <sub><b>JWOC 2024</b></sub>
-     </a>
+      <a href="https://www.jwoc.tech/">
+        <img src="https://github.com/user-attachments/assets/788a8d65-9955-4520-a4f0-439a8add3d61" height=100px /><br />
+        <sub><b>JWOC 2024</b></sub>
+      </a>
     </td>
     <td align="center">
-     <a href="https://gssoc.girlscript.tech/">
-      <img src="https://github.com/user-attachments/assets/c464f695-d0b9-4fc1-9c7c-add9e19d9167" height=100px /><br />
-      <sub><b>GSSoC 2024</b></sub>
-     </a>
+      <a href="https://gssoc.girlscript.tech/">
+        <img src="https://github.com/user-attachments/assets/c464f695-d0b9-4fc1-9c7c-add9e19d9167" height=100px /><br />
+        <sub><b>GSSoC 2024</b></sub>
+      </a>
     </td>
     <td align="center">
-     <a href="https://gssoc.girlscript.tech/">
-      <img src="https://github.com/user-attachments/assets/c464f695-d0b9-4fc1-9c7c-add9e19d9167" height=100px /><br />
-      <sub><b>GSSoC-Ext 2024</b></sub>
-     </a>
+      <a href="https://gssoc.girlscript.tech/">
+        <img src="https://github.com/user-attachments/assets/c464f695-d0b9-4fc1-9c7c-add9e19d9167" height=100px /><br />
+        <sub><b>GSSoC-Ext 2024</b></sub>
+      </a>
     </td>
     <td align="center">
-     <a href="https://hacktoberfest.com/">
-      <img src="https://github.com/user-attachments/assets/ff164f5c-d294-4af0-a77b-c19e78685c47" height=100px /><br />
-      <sub><b>Hacktoberfest 2024</b></sub>
-     </a>
+      <a href="https://hacktoberfest.com/">
+        <img src="https://github.com/user-attachments/assets/ff164f5c-d294-4af0-a77b-c19e78685c47" height=100px /><br />
+        <sub><b>Hacktoberfest 2024</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://kwoc.kossiitkgp.org/">
+        <img src="https://github.com/user-attachments/assets/4d9fea63-34df-48ac-a33a-f5a8c333b191" height=100px /><br />
+        <sub><b>KWOC 2024</b></sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://24pullrequests.com/">
+        <img src="https://github.com/user-attachments/assets/eea72bf3-eee1-481a-9f9e-2f9d9a4eb2e4" height=100px /><br />
+        <sub><b>24 Pull Requests 2024</b></sub>
+      </a>
     </td>
   </tr>
 </table>
@@ -132,14 +144,12 @@ Welcome to WebMasterLog, It serves as a comprehensive record of various web deve
   <img src="https://contrib.rocks/image?repo=Avdhesh-Varshney/WebMasterLog&&max=1000" />
 </a>
 
-</div>
-
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
-<div align="center">
-  <h1>Tip from us 😇</h1>
-  <p>It always takes time to understand and learn. So, don't worry at all. We know <b>you have got this</b>! 💪</p>
-  <h3>Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
+# Tip from us 😇 
+##### It always takes time to understand and learn. So, don't worry at all. We know <b>you have got this</b>! 💪 
+### Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository! 
+
 </div>
 
 <a href="#top"><img src="https://img.shields.io/badge/⬆-Back%20to%20Top-red?style=for-the-badge" align="right"/></a>
