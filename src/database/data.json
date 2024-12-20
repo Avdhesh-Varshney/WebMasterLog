@@ -600,20 +600,11 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
 					"NodeJS",
-					"jQuery",
 					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"MySQL"
 				]
 			},
 			{
@@ -624,21 +615,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/91106038?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
 					"NodeJS",
-					"jQuery",
 					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"EJS"
 				]
 			},
 			{
@@ -650,20 +629,11 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
 					"NodeJS",
-					"jQuery",
 					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"MySQL"
 				]
 			}
 		],
@@ -675,7 +645,13 @@
 				"github_url": "https://github.com/aashutosh148",
 				"avatar_url": "https://avatars.githubusercontent.com/u/115392574?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"CSS3",
+					"NodeJS",
+					"Express.js"
+				]
 			},
 			{
 				"project_name": "gmail-nodemailer",
@@ -728,7 +704,13 @@
 				"github_url": "https://github.com/Asymtode712",
 				"avatar_url": "https://avatars.githubusercontent.com/u/115717746?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"CSS3",
+					"NodeJS",
+					"Express.js"
+				]
 			}
 		],
 		"advanced": [
@@ -739,7 +721,11 @@
 				"github_url": "https://github.com/DharshiBalasubramaniyam",
 				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"MongoDB",
+					"NodeJS",
+					"Express.js"
+				]
 			},
 			{
 				"project_name": "cooking-blog",
@@ -749,21 +735,11 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/91106038?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
 					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
 					"NodeJS",
-					"jQuery",
 					"Express.js",
-					"Web3.js",
-					"React",
 					"Bootstrap",
-					"Next JS"
+					"EJS"
 				]
 			},
 			{
@@ -775,20 +751,12 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
 					"TailwindCSS",
-					"Redux",
 					"CSS3",
 					"NodeJS",
-					"jQuery",
 					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"React"
 				]
 			},
 			{
@@ -798,7 +766,11 @@
 				"github_url": "https://github.com/DharshiBalasubramaniyam",
 				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"MongoDB",
+					"NodeJS",
+					"Express.js"
+				]
 			},
 			{
 				"project_name": "url-shortener",
@@ -807,7 +779,14 @@
 				"github_url": "https://github.com/1simransaini",
 				"avatar_url": "https://avatars.githubusercontent.com/u/91106038?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"HTML5",
+					"JavaScript",
+					"CSS3",
+					"NodeJS",
+					"MongoDB",
+					"Express.js"
+				]
 			},
 			{
 				"project_name": "user-registration-system",
@@ -817,12 +796,12 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
 				"description": "No description found",
 				"tags": [
-					"javascript",
-					"tailwind",
-					"node",
-					"html5",
-					"express",
-					"mongodb"
+					"HTML5",
+					"JavaScript",
+					"TailwindCSS",
+					"NodeJS",
+					"MongoDB",
+					"Express.js"
 				]
 			}
 		]
@@ -865,7 +844,11 @@
 				"github_url": "https://github.com/DharshiBalasubramaniyam",
 				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"TailwindCSS",
+					"Redux",
+					"React"
+				]
 			},
 			{
 				"project_name": "swiggy-clone",
@@ -876,20 +859,10 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
 					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"React"
 				]
 			},
 			{
@@ -901,20 +874,10 @@
 				"description": "This project is a react.js project that helps to create a ToDo list.",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
 					"React",
-					"Bootstrap",
-					"Next JS"
+					"Bootstrap"
 				]
 			},
 			{
@@ -927,7 +890,8 @@
 				"tags": [
 					"CSS3",
 					"React",
-					"JavaScript"
+					"JavaScript",
+					"Material-UI"
 				]
 			}
 		],
@@ -953,7 +917,10 @@
 				"github_url": "https://github.com/DharshiBalasubramaniyam",
 				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"React",
+                    "TailwindCSS"
+				]
 			},
 			{
 				"project_name": "cryptocurrency-finder",
@@ -1002,7 +969,10 @@
 				"github_url": "https://github.com/DharshiBalasubramaniyam",
 				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"React",
+					"TailwindCSS"
+				]
 			},
 			{
 				"project_name": "image-carousel",
@@ -1041,20 +1011,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"React"
 				]
 			},
 			{
@@ -1165,22 +1123,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/122218982?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
 					"ChakraUi",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"React"
 				]
 			},
 			{
@@ -1192,20 +1137,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"React"
 				]
 			}
 		],
@@ -1250,21 +1184,8 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/89463068?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
 					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"React"
 				]
 			},
 			{
@@ -1289,21 +1210,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/127378920?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
 					"MongoDB",
 					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"React"
 				]
 			},
 			{
@@ -1313,7 +1222,11 @@
 				"github_url": "https://github.com/DharshiBalasubramaniyam",
 				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"Firebase",
+					"TailwindCSS",
+					"React"
+				]
 			},
 			{
 				"project_name": "qr-code-generator",
@@ -1376,21 +1289,7 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/127378920?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"React"
 				]
 			},
 			{
@@ -1401,22 +1300,8 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/133549235?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
 					"Firebase",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"React"
 				]
 			}
 		]
