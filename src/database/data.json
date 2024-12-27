@@ -40,7 +40,9 @@
 					"CSS3",
 					"HTML5",
 					"Angular.js",
-					"JavaScript"
+					"JavaScript",
+					"TypeScript",
+					"Karma"
 				]
 			},
 			{
@@ -54,7 +56,9 @@
 					"CSS3",
 					"HTML5",
 					"Angular.js",
-					"JavaScript"
+					"JavaScript",
+					"TypeScript",
+					"Karma"
 				]
 			}
 		],
@@ -70,7 +74,8 @@
 					"HTML5",
 					"Angular.js",
 					"TailwindCSS",
-					"TypeScript"
+					"TypeScript",
+					"Karma"
 				]
 			}
 		]
@@ -495,7 +500,9 @@
 				"tags": [
 					"HTML5",
 					"CSS3",
+					"TailwindCSS",
 					"JavaScript",
+					"TypeScript",
 					"React",
 					"NodeJS",
 					"Next JS"
@@ -525,6 +532,9 @@
 				"description": "No description found",
 				"tags": [
 					"CSS3",
+					"TailwindCSS",
+					"React",
+					"TypeScript",
 					"JavaScript",
 					"Next JS"
 				]
@@ -544,6 +554,7 @@
 					"JavaScript",
 					"TailwindCSS",
 					"React",
+					"TypeScript",
 					"Next JS",
 					"Firebase"
 				]
@@ -559,6 +570,8 @@
 					"HTML5",
 					"CSS3",
 					"JavaScript",
+					"TypeScript",
+					"BootStrap",
 					"Next JS"
 				]
 			},
@@ -571,10 +584,11 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
+					"CSS3",
 					"JavaScript",
 					"Gemini",
 					"TailwindCSS",
-					"CSS3",
+					"TypeScript",
 					"Next JS"
 				]
 			},
