@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "esnext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "app/dashboard/interview/[interviewId]/feedback/page.tsx", ".next/types/app/(auth)/sign-in/[[...sign-in]]/page.jsx", "app/(auth)/sign-in/[[...sign-in]]/page.jsx", "app/(auth)/sign-in/[[...sign-in]]/page.jsx", "app/page.js", "components/ui/accordion.jsx", "app/dashboard/upgrade/_components/PlanItemCard.jsx", "utils/planData.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
