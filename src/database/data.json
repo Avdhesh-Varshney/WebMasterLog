@@ -40,7 +40,9 @@
 					"CSS3",
 					"HTML5",
 					"Angular.js",
-					"JavaScript"
+					"JavaScript",
+					"TypeScript",
+					"Karma"
 				]
 			},
 			{
@@ -54,7 +56,9 @@
 					"CSS3",
 					"HTML5",
 					"Angular.js",
-					"JavaScript"
+					"JavaScript",
+					"TypeScript",
+					"Karma"
 				]
 			}
 		],
@@ -66,7 +70,13 @@
 				"github_url": "https://github.com/DharshiBalasubramaniyam",
 				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"HTML5",
+					"Angular.js",
+					"TailwindCSS",
+					"TypeScript",
+					"Karma"
+				]
 			}
 		]
 	},
@@ -489,10 +499,12 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"JavaScript",
 					"CSS3",
-					"NodeJS",
+					"TailwindCSS",
+					"JavaScript",
+					"TypeScript",
 					"React",
+					"NodeJS",
 					"Next JS"
 				]
 			}
@@ -505,7 +517,11 @@
 				"github_url": "https://github.com/DharshiBalasubramaniyam",
 				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"React",
+					"TailwindCSS",
+					"Next JS"
+				]
 			},
 			{
 				"project_name": "url-shortener",
@@ -516,8 +532,11 @@
 				"description": "No description found",
 				"tags": [
 					"CSS3",
-					"Next JS",
-					"JavaScript"
+					"TailwindCSS",
+					"React",
+					"TypeScript",
+					"JavaScript",
+					"Next JS"
 				]
 			}
 		],
@@ -531,12 +550,13 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
+					"CSS3",
 					"JavaScript",
 					"TailwindCSS",
-					"CSS3",
-					"Firebase",
 					"React",
-					"Nextjs"
+					"TypeScript",
+					"Next JS",
+					"Firebase"
 				]
 			},
 			{
@@ -547,10 +567,12 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/142833275?v=4",
 				"description": "No description found",
 				"tags": [
-					"CSS3",
 					"HTML5",
-					"Nextjs",
-					"JavaScript"
+					"CSS3",
+					"JavaScript",
+					"TypeScript",
+					"BootStrap",
+					"Next JS"
 				]
 			},
 			{
@@ -562,11 +584,12 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
+					"CSS3",
 					"JavaScript",
 					"Gemini",
 					"TailwindCSS",
-					"CSS3",
-					"Nextjs"
+					"TypeScript",
+					"Next JS"
 				]
 			},
 			{
@@ -576,7 +599,13 @@
 				"github_url": "https://github.com/amitb0ra",
 				"avatar_url": "https://avatars.githubusercontent.com/u/151981970?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"React",
+					"Next JS",
+					"TailwindCSS",
+					"Socket.io",
+					"Peerjs"
+				]
 			},
 			{
 				"project_name": "voice-call-app",
@@ -585,7 +614,13 @@
 				"github_url": "https://github.com/sezallagwal",
 				"avatar_url": "https://avatars.githubusercontent.com/u/137872276?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"React",
+					"Next JS",
+					"TailwindCSS",
+					"Socket.io",
+					"Peerjs"
+				]
 			}
 		]
 	},
@@ -600,8 +635,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"JavaScript",
 					"CSS3",
+					"JavaScript",
 					"NodeJS",
 					"Express.js",
 					"MySQL"
