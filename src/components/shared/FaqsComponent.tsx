@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState, MouseEventHandler } from 'react';
+import React, { useState } from 'react';
 import { FaCirclePlus } from "react-icons/fa6";
 
 interface Faqs {
@@ -48,7 +48,7 @@ const FaqsComponent = () => {
                 {
                     FaqsData.map((Faq: Faqs) => {
                         return (
-                            <div key={Faq.id} onClick={() => {(openedFaq !== Faq.id) ? setOpenedFaq(Faq.id) : setOpenedFaq(0) }} className='p-4 pl-12 rounded-xl bg-gray-900 cursor-pointer flex flex-col text-lg relative'>
+                            <div key={Faq.id} onClick={() => {setOpenedFaq((openedFaq !== Faq.id) ? Faq.id : 0)}} className='p-4 pl-12 rounded-xl bg-gray-900 cursor-pointer flex flex-col text-lg relative'>
                                 <FaCirclePlus className={`absolute w-6 transition-all duration-500 h-6 top-4 left-3.5 ${(openedFaq === Faq.id) ? "rotate-45" : "rotate-0"}`} />
                                 {Faq.question}
                                 <div className={`overflow-hidden transition-all duration-500 text-md w-full flex text-gray-400 h-full ${(openedFaq === Faq.id) ? "max-h-96 scale-100" : "max-h-0 scale-0"}`}>
