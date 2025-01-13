@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import data from "../database/data.json";
 import ProjectCard from "../components/shared/ProjectCard";
+import { FaqsComponent } from "../components/shared/FaqsComponent";
 import { ProjectsData, Project } from "../types";
 import Link from "next/link";
 
@@ -206,6 +207,8 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Frequently Asked Questions */}
+      <FaqsComponent />
     </div>
   );
 }
