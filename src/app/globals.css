@@ -85,6 +85,43 @@
   animation: neonGlow 1.5s infinite alternate;
 }
 
+.scribble {
+  position: relative;
+  background-image: none;
+  background-color: transparent;
+  color: #ffb34a;
+  font-size: 2.8rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -14%;
+    left: 0;
+    height: 30%;
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='547' height='22' fill='none'%3E%3Cmask id='a' width='546' height='23' x='0' y='1' maskUnits='userSpaceOnUse' style='mask-type:alpha'%3E%3Cpath fill='%23D9D9D9' d='M0 1h246v23H0z'/%3E%3C/mask%3E%3Cg mask='url(%23a)'%3E%3Cpath fill='%2300a661' d='M.225 13.987c40.77-3.247 81.218-6.304 122.486-5.61 40.217.68 80.07 3.493 119.823 8.284 4.828.577 4.966-4.727.193-5.301-40.597-4.886-82.029-7.082-123.059-6.436-39.896.627-80.713 2.548-119.53 8.822-.233.04-.132.263.087.25v-.009z'/%3E%3C/g%3E%3C/svg%3E");
+    mask-repeat: no-repeat;
+    mask-size: auto;
+    width: 300%;
+    background-image: linear-gradient(
+      to right,
+      currentcolor 40%,
+      transparent 50%
+    );
+    background-repeat: no-repeat;
+    animation: background-size-300 0.4s 1.5s ease-in both;
+    background-size: 300%
+  }
+}
+
+@keyframes background-size-300 {
+  from {
+    background-size: 0%;
+  }
+  to {
+    background-size: 100%;
+  }
+}
+
 @keyframes neonGlow {
   from {
     box-shadow: 0 0 10px #60A5FA, 0 0 20px #60A5FA, 0 0 30px #60A5FA, 0 0 40px #60A5FA, 0 0 70px #60A5FA;
