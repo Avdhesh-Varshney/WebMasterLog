@@ -15,7 +15,7 @@ const MainContent = ({ children }: { children: React.ReactNode }) => {
   const { isSidebarOpen } = context;
 
   return (
-    <div>
+    <>
       <ProgressBar />
       <Sidebar />
       <main className={`grid w-full h-full transition-all duration-300 ${isSidebarOpen ? 'pl-[245px]' : 'pl-[75px]'}`}>
@@ -28,7 +28,7 @@ const MainContent = ({ children }: { children: React.ReactNode }) => {
         </div>
         <Footer />
       </main>
-    </div>
+    </>
   );
 };
 
