@@ -53,8 +53,8 @@ Ensure you have the following installed:
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
 ## :zap: Screenshots 📸
-![Home-page](https://github.com/monark1/WebMasterLog/blob/main/Amazon%20clone/home-page.png)
-![footer](https://github.com/monark1/WebMasterLog/blob/main/Amazon%20clone/footer.png)
+![Home-page](https://raw.githubusercontent.com/monark1/WebMasterLog/refs/heads/amazon-clone-feature/amazon-clone/home-page.webp)
+![footer](https://raw.githubusercontent.com/monark1/WebMasterLog/refs/heads/amazon-clone-feature/amazon-clone/footer.webp)
 
 <br>
 
