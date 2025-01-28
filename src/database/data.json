@@ -83,6 +83,19 @@
 	"frontend": {
 		"beginner": [
 			{
+				"project_name": "Amazon-clone",
+				"creator": "Monark Bhardwaj",
+				"date": "Wed Jan 29 2025",
+				"github_url": "https://github.com/monark1",
+				"avatar_url": "https://avatars.githubusercontent.com/u/143939581?v=4",
+				"description": "No description found",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
 				"project_name": "amazon-clone",
 				"creator": "Suvadip Sana",
 				"date": "Sat Nov 02 2024",
