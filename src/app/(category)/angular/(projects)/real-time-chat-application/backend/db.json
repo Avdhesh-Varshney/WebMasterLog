@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "nikita",
+      "password": "123",
+      "loggedIn": true,
+      "avatar": "https://avatar.iran.liara.run/public/52",
+      "active": false
+    },
+    {
+      "id": 2,
+      "username": "nik",
+      "password": "123",
+      "loggedIn": false,
+      "avatar": "https://avatar.iran.liara.run/public/100",
+      "active": false
+    },
+    {
+      "username": "nikz",
+      "password": "18",
+      "id": 3,
+      "loggedIn": true,
+      "avatar": "https://avatar.iran.liara.run/public/62",
+      "active": false
+    },
+    {
+      "username": "yu eunho",
+      "password": "128",
+      "loggedIn": true,
+      "avatar": "https://avatar.iran.liara.run/public/91",
+      "id": 4
+    },
+    {
+      "username": "kang",
+      "password": "34",
+      "loggedIn": true,
+      "avatar": "https://avatar.iran.liara.run/public/61",
+      "id": 5
+    }
+  ]
+}

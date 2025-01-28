@@ -1,0 +1,92 @@
+.modal-container{
+    z-index: 10;
+    position: fixed; /* Use fixed to center relative to the viewport */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure it spans the entire viewport */
+    height: 100%; /* Ensure it spans the entire viewport */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+    .card{
+      background-color: #ffffff;
+      width: 20rem;
+      height: 15rem;
+      border: none;
+      box-shadow: rgb(0 0 0 / 28%) 0px 1px 4px;
+      display: flex;
+      align-items: center;
+
+      .close{
+          width: 2rem;
+          height: 2rem;
+          align-self: flex-end;
+          outline: none;
+          border: none;
+          background-color: transparent;
+      }
+
+      .user {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+      }
+      
+      .user__content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-grow: 1;
+            margin-top: 10px;
+            text-align: center;
+
+            .name{
+                outline: none;
+                border: none;
+                background-color: transparent;
+                padding: 0;
+                margin: 0;
+                color: grey;
+                font-size: large;
+            }
+            .name:hover,
+            .name:focus {
+                color: #0d4dd4;
+            }
+      }
+      
+      .user__container {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .username {
+        font-size: .9em;
+        color: #64696e;
+      }
+      
+      .image {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-right: 10px;
+        box-shadow: rgb(0 0 0 / 33%) 0px 1px 4px;
+      }
+
+      .logout{
+        width: 25%;
+        border: none;
+        background-color: cornflowerblue;
+        border-radius: 5px;
+        box-shadow: rgb(195 192 192 / 19%) 0px 2px 8px 0px;
+        color: white;
+        margin-bottom: 2rem;
+        font-size: medium;
+      }
+      
+    }
+    
+}
