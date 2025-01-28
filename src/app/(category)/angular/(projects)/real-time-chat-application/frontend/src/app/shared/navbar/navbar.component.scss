@@ -1,0 +1,20 @@
+.container{
+    background-color: cornflowerblue;
+    height: 100vh;
+    box-shadow: rgb(0 0 0 / 20%) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 0px 30px 30px 0px;
+    padding: 4px 6px 4px 4px;
+
+    > button {
+        width: 45px;
+        height: 45px;
+        border-style: none;
+        outline: none;
+        cursor: pointer;
+        margin: 1rem 0rem 1rem 0rem;  
+        background-color: transparent;   
+      }
+}

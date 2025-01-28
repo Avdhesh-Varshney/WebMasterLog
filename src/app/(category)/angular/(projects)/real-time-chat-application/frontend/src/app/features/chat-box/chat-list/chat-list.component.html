@@ -1,0 +1,18 @@
+<div class="container">
+    <p>Members</p>
+    <ul>
+        <li *ngFor="let item of friend">
+            <div class="user">
+                <div ><img class="image" src={{item.avatar}}></div>
+                <div class="user__content">
+                  <div class="text">
+                    <button class="name">{{item.username}}</button>
+                    <p class="username" 
+                    [ngStyle]="{'color': item.active ? '#50d850' : '#c6c6c6'}"
+                    >{{item.active?'Online':'Offline'}}</p>
+                  </div>
+                </div>
+            </div> 
+        </li>
+    </ul>
+</div>
