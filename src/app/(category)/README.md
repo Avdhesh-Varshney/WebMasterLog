@@ -126,9 +126,9 @@
 
 #### :zap: Row 11
 
-| <img src="/src/app/(category)/frontend/(projects)/Amazon-clone/Screenshot.webp" width="300px" height="180px"> |
+| <img src="/src/app/(category)/frontend/(projects)/amazon/screenshot.webp" width="300px" height="180px"> |
 | :--: |
-| [Amazon Clone](./src/app/(category)/frontend/(projects)/Amazon-clone) |
+| [amazon](./src/app/(category)/frontend/(projects)/amazon) |
 </div>
 
 </details>
