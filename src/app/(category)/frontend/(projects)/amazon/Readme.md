@@ -45,7 +45,7 @@ Ensure you have the following installed:
    ```bash
    cd amazon-clone
    ```
-3. Open `amazon.html` in your browser to view the project locally.
+3. Open `index.html` in your browser to view the project locally.
 
 
 
