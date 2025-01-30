@@ -24,9 +24,9 @@
 
 #### :zap: Row 2
 
-| <img src="/src/app/(category)/angular/(projects)/task-manager/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/angular/(projects)/train-website/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="/src/app/(category)/angular/(projects)/task-manager/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/angular/(projects)/train-website/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/angular/(projects)/real-time-chat-application/screenshot.webp" width="300px" height="180px"> |
 | :--: | :--: | :--: |
-| [Task Manager](./src/app/(category)/angular/(projects)/task-manager) | [Train Website](./src/app/(category)/angular/(projects)/train-website) |  |
+| [Task Manager](./src/app/(category)/angular/(projects)/task-manager) | [Train Website](./src/app/(category)/angular/(projects)/train-website) | [Real Time Chat App](./src/app/(category)/angular/(projects)/real-time-chat-application) |
 
 </div>
 
