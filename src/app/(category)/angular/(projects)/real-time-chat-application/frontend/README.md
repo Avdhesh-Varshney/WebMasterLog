@@ -1,4 +1,4 @@
-<h1 align='center'><b>💥 Real Time Chat Application 💥</b></h1>
+<h1 align='center'><b>💥 REAL TIME CHAT APP💥</b></h1>
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
@@ -65,13 +65,15 @@ This section describes how to set up the backend server.
     npx json-server --watch db.json
     ```
 
-    The JSON Server will start a REST API server, typically at `http://localhost:3000`.  The specific URL will be displayed in the terminal. This application uses `http://localhost:3000/users` as the default endpoint.
+    The JSON Server will start a REST API server, typically at `http://localhost:8000`.  The specific URL will be displayed in the terminal. This application uses `http://localhost:8000/users` as the default endpoint.
+
 
 6.  **Start the Node.js Server:**  This server handles the Socket.io connections for real-time communication.
     ```bash
     node index.js
     ```
-    This will start a Socket.IO server, the port will be displayed in the console. This application uses port 3001.
+    This will start a Socket.IO server, the port will be displayed in the console. This application uses port 3000.
+
 
 ## Frontend Setup (Angular)
 
