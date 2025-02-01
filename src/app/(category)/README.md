@@ -46,9 +46,9 @@
 
 #### :zap: Row 1
 
-| <img src="/src/app/(category)/frontend/(projects)/amazon-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/amazon-prime-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/animated-tea-cup/screenshot.webp" width="300px" height="180px"> |
+| <img src="/src/app/(category)/frontend/(projects)/amazon-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/amazon-prime-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/animated-tea-cup/screenshot.webp" width="300px" height="180px"> | 
 | :--: | :--: | :--: |
-| [Amazon Clone](./src/app/(category)/frontend/(projects)/amazon-clone) | [Amazon Prime Clone](./src/app/(category)/frontend/(projects)/amazon-prime-clone) | [Animated Tea Cup](./src/app/(category)/frontend/(projects)/animated-tea-cup) |
+| [Amazon Clone](./src/app/(category)/frontend/(projects)/amazon-clone) | [Amazon Prime Clone](./src/app/(category)/frontend/(projects)/amazon-prime-clone) | [Animated Tea Cup](./src/app/(category)/frontend/(projects)/animated-tea-cup) | 
 
 ---
 
@@ -122,6 +122,13 @@
 | :--: | :--: | :--: |
 | [Spotify Clone](./src/app/(category)/frontend/(projects)/spotify-clone) | [Starbucks Landing Page](./src/app/(category)/frontend/(projects)/starbucks-landing-page) | [Survey Form](./src/app/(category)/frontend/(projects)/survey-form) |
 
+---
+
+#### :zap: Row 11
+
+| <img src="/src/app/(category)/frontend/(projects)/amazon/screenshot.webp" width="300px" height="180px"> |
+| :--: |
+| [amazon](./src/app/(category)/frontend/(projects)/amazon) |
 </div>
 
 </details>

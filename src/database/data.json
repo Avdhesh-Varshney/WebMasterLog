@@ -83,6 +83,19 @@
 	"frontend": {
 		"beginner": [
 			{
+				"project_name": "amazon",
+				"creator": "Monark Bhardwaj",
+				"date": "Wed Jan 29 2025",
+				"github_url": "https://github.com/monark1",
+				"avatar_url": "https://avatars.githubusercontent.com/u/143939581?v=4",
+				"description": "This is a feature-rich Amazon Clone web application developed as part of my open-source contribution for **Script Winter of Code (SWOC)**. It replicates key functionalities of Amazon, showcasing a dynamic and interactive shopping experience built using modern front-end technologies.",
+				"tags": [
+					"CSS3",
+					"HTML5",
+					"JavaScript"
+				]
+			},
+			{
 				"project_name": "amazon-clone",
 				"creator": "Suvadip Sana",
 				"date": "Sat Nov 02 2024",
