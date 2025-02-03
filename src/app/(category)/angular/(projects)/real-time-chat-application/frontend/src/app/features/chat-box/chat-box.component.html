@@ -1,0 +1,43 @@
+
+<div class="chat-container">
+    <app-modal *ngIf="showProfileModal"></app-modal>
+
+    <div class="navbar">
+        <app-navbar></app-navbar>
+    </div>
+    <div class="chat-list">
+        <app-chat-list></app-chat-list>
+    </div>
+    <div class="chat-box">
+            <app-chat-header></app-chat-header>
+            <div class="chat-scroll">
+                <div class="chat-message" *ngIf="messageList.length>0; else chatView" >
+                    <ul *ngFor="let message of messageList">
+                        <span>{{chatTimestamp| date:'shortTime'}}</span> 
+                        <li [ngStyle]="{'background-color': message.color}">
+                            {{message.message}}
+                        </li>
+                    </ul>
+                </div>
+                <ng-template #chatView>
+                    <div class="defaultView">
+                        <img src="https://img.freepik.com/premium-vector/messages-concept-illustration_86047-102.jpg?w=740" alt="">
+                        <h6>Welcome to ChatSphere!</h6>
+                        <p>
+                            A real-time messaging app where conversations happen instantly.
+                            Start chatting now and stay connected effortlessly!
+                        </p>
+                    </div>
+                </ng-template>
+            </div>
+
+            <div class="input-place">
+                <input placeholder="Send a message" class="send-input" type="text" [(ngModel)]="newMessage" (keyup)="$event.keyCode == 13 && sendMessage()" />
+                <div class="send">
+                    <button (click)="sendMessage()">
+                        <svg class="send-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path fill="#6B6C7B" d="M481.508,210.336L68.414,38.926c-17.403-7.222-37.064-4.045-51.309,8.287C2.86,59.547-3.098,78.551,1.558,96.808 L38.327,241h180.026c8.284,0,15.001,6.716,15.001,15.001c0,8.284-6.716,15.001-15.001,15.001H38.327L1.558,415.193 c-4.656,18.258,1.301,37.262,15.547,49.595c14.274,12.357,33.937,15.495,51.31,8.287l413.094-171.409 C500.317,293.862,512,276.364,512,256.001C512,235.638,500.317,218.139,481.508,210.336z"></path></g></g></svg>
+                    </button>
+                </div>
+            </div>
+    </div>
+</div>
