@@ -77,24 +77,27 @@
 					"TypeScript",
 					"Karma"
 				]
+			},
+			{
+				"project_name": "real-time-chat-application",
+				"creator": "Nikita Dey",
+				"date": "Thu Jan 29 2025",
+				"github_url": "https://github.com/DeyNik",
+				"avatar_url": "https://avatars.githubusercontent.com/u/85392250?v=4",
+				"description": "A real time chat application that utilizes Angular and Socket.io to allow users interact in real time. Users can sign up and log in to start chatting. Each user is dynamically assigned an avatar. User can see online and offline group members in real time!  ",
+				"tags": [
+					"SCSS",
+					"HTML5",
+					"NodeJS",
+					"Angular.js",
+					"TailwindCSS",
+					"TypeScript"
+				]
 			}
 		]
 	},
 	"frontend": {
 		"beginner": [
-			{
-				"project_name": "amazon",
-				"creator": "Monark Bhardwaj",
-				"date": "Wed Jan 29 2025",
-				"github_url": "https://github.com/monark1",
-				"avatar_url": "https://avatars.githubusercontent.com/u/143939581?v=4",
-				"description": "This is a feature-rich Amazon Clone web application developed as part of my open-source contribution for **Script Winter of Code (SWOC)**. It replicates key functionalities of Amazon, showcasing a dynamic and interactive shopping experience built using modern front-end technologies.",
-				"tags": [
-					"CSS3",
-					"HTML5",
-					"JavaScript"
-				]
-			},
 			{
 				"project_name": "amazon-clone",
 				"creator": "Suvadip Sana",

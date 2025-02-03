@@ -24,9 +24,9 @@
 
 #### :zap: Row 2
 
-| <img src="/src/app/(category)/angular/(projects)/task-manager/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/angular/(projects)/train-website/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="/src/app/(category)/angular/(projects)/task-manager/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/angular/(projects)/train-website/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/angular/(projects)/real-time-chat-application/screenshot.webp" width="300px" height="180px"> |
 | :--: | :--: | :--: |
-| [Task Manager](./src/app/(category)/angular/(projects)/task-manager) | [Train Website](./src/app/(category)/angular/(projects)/train-website) |  |
+| [Task Manager](./src/app/(category)/angular/(projects)/task-manager) | [Train Website](./src/app/(category)/angular/(projects)/train-website) | [Real Time Chat Application](./src/app/(category)/angular/(projects)/real-time-chat-application) |
 
 </div>
 
@@ -46,9 +46,9 @@
 
 #### :zap: Row 1
 
-| <img src="/src/app/(category)/frontend/(projects)/amazon-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/amazon-prime-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/animated-tea-cup/screenshot.webp" width="300px" height="180px"> | 
+| <img src="/src/app/(category)/frontend/(projects)/amazon-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/amazon-prime-clone/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/frontend/(projects)/animated-tea-cup/screenshot.webp" width="300px" height="180px"> |
 | :--: | :--: | :--: |
-| [Amazon Clone](./src/app/(category)/frontend/(projects)/amazon-clone) | [Amazon Prime Clone](./src/app/(category)/frontend/(projects)/amazon-prime-clone) | [Animated Tea Cup](./src/app/(category)/frontend/(projects)/animated-tea-cup) | 
+| [Amazon Clone](./src/app/(category)/frontend/(projects)/amazon-clone) | [Amazon Prime Clone](./src/app/(category)/frontend/(projects)/amazon-prime-clone) | [Animated Tea Cup](./src/app/(category)/frontend/(projects)/animated-tea-cup) |
 
 ---
 
@@ -122,13 +122,6 @@
 | :--: | :--: | :--: |
 | [Spotify Clone](./src/app/(category)/frontend/(projects)/spotify-clone) | [Starbucks Landing Page](./src/app/(category)/frontend/(projects)/starbucks-landing-page) | [Survey Form](./src/app/(category)/frontend/(projects)/survey-form) |
 
----
-
-#### :zap: Row 11
-
-| <img src="/src/app/(category)/frontend/(projects)/amazon/screenshot.webp" width="300px" height="180px"> |
-| :--: |
-| [amazon](./src/app/(category)/frontend/(projects)/amazon) |
 </div>
 
 </details>
