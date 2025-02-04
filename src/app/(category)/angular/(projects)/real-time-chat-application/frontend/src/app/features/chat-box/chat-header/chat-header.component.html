@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="heading">Chat Room</div>
+    <div class="user">
+      <div *ngFor="let item of activeUsers.slice(0, 6)">
+        <img class="image" [src]="item.avatar" >
+      </div>
+      <div *ngIf="activeUsers.length > 6">
+        +{{ activeUsers.length - 6 }} more
+      </div>
+    </div>    
+</div>

@@ -1,0 +1,123 @@
+.chat-container{
+    display: flex;
+
+    .navbar{
+        padding: 0px;
+    }
+
+    & button{
+        outline: none;
+        border: none;
+        background-color: transparent;
+    }
+    
+    .chat-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+        padding: 0rem 0rem 1.5rem 0rem;
+        overflow-y: auto;
+
+        .defaultView{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            flex-direction: column;
+
+            > img{
+                width: 50%;
+            }
+            > h6{
+                color: #115DFC;
+            }
+            > p{
+                text-align: center;
+                width: 60%;
+                color: #aeadad;
+            }
+        }
+
+
+        .chat-scroll{
+            overflow-y: auto;
+            height: 70vh;
+        }
+        
+        .chat-message{
+
+            margin-right: 4rem;
+            margin-left: auto;
+            margin-top: 1rem;
+
+            > ul{
+                list-style: none;
+                align-items: flex-end;
+                display: flex;
+                flex-direction: column;
+                > span{
+                    font-size: 10px;
+                    color: lightslategrey;
+                }
+                > li{
+                    width: auto;
+                    //background-color: #dfeaff;
+                    border-radius: 11px 11px 11px 11px;
+                    padding: .5rem 1rem .5rem 1rem;
+                }
+            }
+            
+        }
+
+        .send-img {
+            width: 30px;
+        }
+        
+        .send-input {
+            outline: none;
+            display: flex;
+            border: none;
+            background: none;
+            height: 100%;
+            width: 100%;
+            border-radius: 7px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            margin-left: 5px;
+        }
+        
+        .send-input::placeholder {
+            color: #828E9E;
+        }
+        
+        .input-place {
+                display: flex;
+                flex-direction: row;
+                margin: 0 auto;
+                align-items: center;
+                border-radius: 7px;
+                width: 85%;
+                gap: 5px;
+                justify-content: space-between;
+                padding: 0.5rem;
+                box-shadow: rgba(99, 99, 99, 0.2) 0px 1px 4px 0px;
+        }
+        
+        .send {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            margin-bottom: 0.2rem;
+        }
+        
+        .send-icon {
+            width: 17px;
+        }
+    }
+    
+}
