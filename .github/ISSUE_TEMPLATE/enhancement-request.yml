@@ -1,0 +1,105 @@
+name: Enhancement Request 🧑‍💻
+
+description: Request to improve any styling or documentation of the project.
+
+labels:
+  - enhancement
+  - up-for-grabs
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Please fill in all the sections below to ensure the issue is well-documented and easy to understand.**
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "Important Points to Note"
+      options:
+        - label: "I agree to adhere to the project's [Code of Conduct](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CODE_OF_CONDUCT.md)."
+          required: true
+        - label: "I have reviewed and understood the project's [Contributing Guidelines](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CONTRIBUTING.md)."
+          required: true
+        - label: "I have checked the existing issues and can confirm that this is not a duplicate."
+          required: true
+        - label: "I have reviewed and understood the project's [Issue Creation Guidelines](https://github.com/Avdhesh-Varshney/WebMasterLog/issues/108)."
+          required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      description: "Select the category that best describes the enhancement."
+      options:
+        - "Documentation"
+        - "Styling"
+        - "Code Refactoring"
+        - "Feature Addition"
+        - "Other"
+
+  - type: textarea
+    id: enhancement-description
+    attributes:
+      label: "Enhancement Description"
+      placeholder: "Provide a detailed description of the proposed enhancement."
+    validations:
+      required: true
+
+  - type: input
+    id: screenshots
+    attributes:
+      label: "Screenshots or Logs"
+      placeholder: "Include any relevant links, screenshots, or logs related to the enhancement."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "Priority"
+      description: "How urgent is this enhancement request?"
+      options:
+        - "Up to 2 days"
+        - "Up to 5 days"
+        - "Up to 1 week"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: open-source-program
+    attributes:
+      label: "Open Source Program"
+      description: "Which open-source program are you participating in?"
+      options:
+        - "GSSoC"
+        - "GSSoC-Ext"
+        - "SSOC"
+        - "SWOC"
+        - "JWOC"
+        - "Hacktoberfest"
+        - "IWOC"
+        - "KWOC"
+        - "24 Pull Requests"
+        - "DWOC"
+        - "VSOC"
+
+  - type: dropdown
+    id: on-work
+    attributes:
+      label: "Would you like to work on this issue?"
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        **Difficulty labels (e.g., Easy/Beginner) will be applied once the PR is created.**
+        **Do not raise a PR without being assigned to the issue.**
+        > **NOTE:** This issue will automatically be unassigned if the PR is not raised within the given time frame.
+
+        ### Happy Coding! 🎉
+        All the best with your contribution! 🚀
