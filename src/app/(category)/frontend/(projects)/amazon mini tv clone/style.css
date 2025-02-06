@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    height: 100%vh;
+    width:100%vw;
+    overflow-x: hidden;
+    background-color: #070d0e ;
+    font-family: "Amazon Ember", Arial, sans-serif;
+  }
+  .nav{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: #1a2224;
+  }
+  .nav .amz-logo{
+    height:72 ;
+    width: 157px;
+    align-items: center;
+  }
+  .nav .icon-name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav .icon-name p{
+      font-size: 14px;
+      margin: 16px;
+      color: aliceblue;
+  }
+  .nav .amz-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav .amz-icon img{
+    height: 24px;
+    width: 24px;
+    padding-left: 30px;
+  }
+  .bainer{
+    height: 273px;
+  }
+  .bainer img{
+    width:100% ;
+    height: 100%;
+  }
+  .main-card{
+    height: 215px;
+    padding: 24px; 
+    width: 100%;
+    height: 100%;
+    /* padding-right: 16px; */
+    padding-left: 50px;
+  }   
+  .main-card h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  }
+  .main-card .thubnel {
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    height: 100%;
+    width: 100%;
+  }
+  .main-card .thubnel img{   
+    height: 152px; 
+    width: 270px;
+    border-radius: 25px;
+    padding: 17px;
+  }
+  footer{
+    margin-top: 32px;
+    background-color: #1a2224;
+   
+  }
+  .footer-all{
+    padding-top: 16px;
+    padding-left: 60px ;
+    padding-right:  60px;
+    padding-bottom: 24px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+  
+  }
+  .amz-rel img{
+    width: 152px;
+    height: 31px;
+  }
+  .text img{
+    height: 18px;
+    width: 246px;
+  }
+  
+  .amz-playstore{
+    width: 232px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .amz-playstore img{
+    width: 110px ;
+    height: 37px ;
+  }
+  .amz-q img{
+  height: 100px;
+  width: 100px;
+  }
+  .amz-social{
+    display: flex;
+    justify-content: space-between;
+    height: 42px;
+    width: 190px;   
+  }
+  .amz-social img{
+    height: 40px;
+    width: 40px;
+  }
+  .Name1{
+    color: gray;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  
+  
+  
