@@ -6,26 +6,29 @@ import cloudinary from "../lib/cloudinary.js";
 export const createPrescription = async (req, res) => {
     const key = req.user._id;
     try {
-      const { doctorName, hospitalName, date, medicines, location,documentUpload } = req.body;
-      const parsedLocation = JSON.parse(location);
-      const parsedMedicines = JSON.parse(medicines);
+      const { doctorName, hospitalName, date, medicines, location, documentUpload } = req.body;
+  
+      // Remove JSON.parse() since these are objects in the request
+      // You should only use JSON.parse() if you're passing them as stringified JSON
+      // const parsedLocation = JSON.parse(location); // REMOVE
+      // const parsedMedicines = JSON.parse(medicines); // REMOVE
+  
+      // If documentUpload exists, upload it to Cloudinary
       let uploadedFile;
-        if(documentUpload){
-            const uploadResponse = await cloudinary.uploader.upload(documentUpload);
-            uploadedFile = uploadResponse.secure_url;
-        }
-      // Check if a file was uploaded
-      
-      console.log(uploadedFile)
+      if (documentUpload) {
+        const uploadResponse = await cloudinary.uploader.upload(documentUpload);
+        uploadedFile = uploadResponse.secure_url;
+      }
+  
       // Create the prescription document
       const newPrescription = new Pres({
         doctorName,
         hospitalName,
         date,
-        medicines: parsedMedicines,
-        location: parsedLocation,
+        medicines,  // Directly use the object from the request body
+        location,   // Directly use the object from the request body
         documentUpload: uploadedFile,
-        key
+        key,
       });
   
       // Save to database
