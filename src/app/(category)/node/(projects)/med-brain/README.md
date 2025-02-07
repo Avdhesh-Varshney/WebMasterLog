@@ -72,10 +72,10 @@ npm start
 
 <h4 align='center'>Developed By <b><i>Your Name</i></b> 👩</h4>
 <p align='center'>
-  <a href='https://www.linkedin.com/in/your-linkedin-profile'>
+  <a href='https://www.linkedin.com/in/harshit-saini-b855b6296'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
   </a>
-  <a href='https://github.com/your-github-profile'>
+  <a href='https://github.com/Harshit457'>
     <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
   </a>
 </p>
