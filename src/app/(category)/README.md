@@ -536,15 +536,13 @@
 
 #### :zap: Row 5
 
-| <img src="/src/app/(category)/node/(projects)/user-registration-system/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/youtube-video-downloader/screenshot.webp" width="300px" height="180px"> |  |
+| <img src="/src/app/(category)/node/(projects)/user-registration-system/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/youtube-video-downloader/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/med-brain/screenshot.webp" width="300px" height="180px">  |
 | :--: | :--: | :--: |
-| [User Registration System](./src/app/(category)/node/(projects)/user-registration-system) | [Youtube Video Downloader](./src/app/(category)/node/(projects)/youtube-video-downloader) |  |
+| [User Registration System](./src/app/(category)/node/(projects)/user-registration-system) | [Youtube Video Downloader](./src/app/(category)/node/(projects)/youtube-video-downloader) | [med-brain](./src/app/(category)/node/(projects)/med-brain) |  |
 
 
-#### :zap: Row 6
 
-| <img src="/src/app/(category)/node/(projects)/med-brain/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/med-brain/screenshot.webp" width="300px" height="180px"> |  |
-| [med-brain](./src/app/(category)/node/(projects)/med-brain) |
+
 
 </div>
 
