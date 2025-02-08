@@ -891,6 +891,21 @@
 					"MongoDB",
 					"Express.js"
 				]
+			},
+			{
+				"project_name": "med-brain",
+				"creator": "Harshit",
+				"date": "Sat Feb 09 2025",
+				"github_url": "https://github.com/Harshit457",
+				"avatar_url": "https://avatars.githubusercontent.com/u/149406032?s=96&v=4",
+				"description": "No description found",
+				"tags": [
+					"MongoDB",
+					"NodeJS",
+					"Express.js",
+					"JWT",
+					"Cloudinary"
+				]
 			}
 		]
 	},

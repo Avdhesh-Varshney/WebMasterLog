@@ -70,7 +70,7 @@ npm start
 
 <!-- -------------------------------------------------------------------------------------------------------------- -->
 
-<h4 align='center'>Developed By <b><i>Your Name</i></b> 👩</h4>
+<h4 align='center'>Developed By <b><i>Harshit</i></b> 👩</h4>
 <p align='center'>
   <a href='https://www.linkedin.com/in/harshit-saini-b855b6296'>
     <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />

@@ -540,6 +540,12 @@
 | :--: | :--: | :--: |
 | [User Registration System](./src/app/(category)/node/(projects)/user-registration-system) | [Youtube Video Downloader](./src/app/(category)/node/(projects)/youtube-video-downloader) |  |
 
+
+#### :zap: Row 6
+
+| <img src="/src/app/(category)/node/(projects)/med-brain/screenshot.webp" width="300px" height="180px"> | <img src="/src/app/(category)/node/(projects)/med-brain/screenshot.webp" width="300px" height="180px"> |  |
+| [med-brain](./src/app/(category)/node/(projects)/med-brain) |
+
 </div>
 
 </details>
