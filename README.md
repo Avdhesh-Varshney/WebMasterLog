@@ -66,11 +66,12 @@
 
 ---
 
-### :zap: About WebMasterLog ❤️
+#### :zap: About WebMasterLog ❤️
 
 Welcome to WebMasterLog, It serves as a comprehensive record of various web development endeavors, highlighting the versatility and capabilities of projects built with Front-end and Back-end Web developement technologies. From interactive and responsive user interfaces to dynamic web applications, this repository encompasses a spectrum of web development solutions.
 
-### :zap: How to Contribute? 🤔
+<details>
+<summary><h4>:zap: How to Contribute? 🤔</h4></summary>
 
 1. Star the repository on GitHub to show your support.
 2. Browse the [**Issues**](https://github.com/Avdhesh-Varshney/WebMasterLog/issues) to find tasks that need attention.
@@ -81,7 +82,10 @@ Welcome to WebMasterLog, It serves as a comprehensive record of various web deve
 7. Submit a [**Pull Request**](https://github.com/Avdhesh-Varshney/WebMasterLog/pulls), and it will be reviewed.
 8. Make sure to read and follow the [**Contributing Guidelines**](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CONTRIBUTING.md) and [**Code of Conduct**](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/CODE_OF_CONDUCT.md).
 
-### :zap: What Can You Contribute? 👩‍💻
+</details>
+
+<details>
+<summary><h4>:zap: What Can You Contribute? 👩‍💻</h4></summary>
 
 > Choose a contribution area that suits your skills 
 
@@ -98,6 +102,33 @@ Welcome to WebMasterLog, It serves as a comprehensive record of various web deve
 | **Optimization**                  | Suggest and implement optimized solutions for project functionalities.        |
 
 </div>
+</details>
+
+<details>
+<summary><h4>:zap: Important Points to remember while submitting your work 📍</h4></summary>
+
+> We want your work to be readable by others; therefore, we encourage you to note the following:
+
+1. Directory names should be in `kebab-case` letters (e.g., `to-do-list`, `joke-telling-application`).
+2. Add a `README` file in the project directory.
+3. Follow the [***PROJECT README TEMPLATE***](./.github/PROJECT-README-TEMPLATE.md).
+4. Include a screenshot of the project. Named to be exact `screenshot.webp`.
+5. If you have contributed in `React-JS-Projects`, updates the respective [***README***](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/src/app/(category)/README.md) file and [***JSON***](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/src/database/data.json) file and enlist your project there.
+6. Don't create more than 3-4 commits until not permitted by Admin and Mentors of the project.
+7. Commit message should be clear. Never write un-necessary things in the commit messages.
+
+</details>
+
+<details>
+<summary><h4>:zap: Pull Requests Review Criteria 🧲</h4></summary>
+
+1. Fill out the ***PR template*** properly when submitting a pull request.
+2. Do not commit directly to the `main` branch, or your PR will be instantly rejected.
+3. Ensure all work is original and not copied from other sources.
+4. Add comments to your code wherever necessary for clarity.
+5. For frontend updates, share screenshots and work samples before submitting a PR.
+
+</details>
 
 ---
 
