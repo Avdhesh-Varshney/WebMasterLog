@@ -1,77 +1,80 @@
-# BaatCheet - Real-Time Chat Application
+<h1 align='center'><b>💬 Real-Time Chat App 💬</b></h1>
 
-BaatCheet is a modern, real-time chat application designed for seamless communication between users. Built with Node.js, Express, Socket.IO, and MongoDB, it offers a secure and interactive messaging platform with a responsive user interface powered by Tailwind CSS and DaisyUI.
+<!-- -------------------------------------------------------------------------------------------------------------- -->
 
----
+<h3 align='center'>Tech Stack Used 🎮</h3>
+<!-- enlist all the technologies used to create this project from them (Remove comment using 'ctrl+z' or 'command+z') -->
 
-## Features
-- **Real-Time Messaging**: Instant communication with live updates using WebSockets.
-- **Secure Authentication**: JWT-based user authentication and session management.
-- **Cloud Storage**: Integrates Cloudinary for handling media uploads.
-- **Responsive Design**: Optimized for all devices with a clean and modern UI.
-- **Database Management**: Scalable and efficient storage using MongoDB.
+<div align='center'>
+  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js"/>
+  <img src="https://img.shields.io/badge/socket.io-%23121011.svg?style=for-the-badge&logo=socket.io&logoColor=white" alt="Socket.io"/>
+  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
+  <img src="https://img.shields.io/badge/jwt-%23000000.svg?style=for-the-badge&logo=json-web-tokens&logoColor=white" alt="JWT"/>
+</div>
 
----
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
-## Tech Stack
+<!-- -------------------------------------------------------------------------------------------------------------- -->
 
-### Backend
-- **Node.js**
-- **Express.js**
-- **Socket.IO**
-- **MongoDB**
+## :zap: Description 📃
 
-### Frontend
-- **Tailwind CSS**
-- **DaisyUI**
+Real-Time Chat App is a backend infrastructure that allows users to chat with each other in real-time. The app supports authentication and maintains active sessions for logged-in users. **Users** can send and receive messages instantly. It leverages **Socket.io** for real-time communication and **JWT** for secure user authentication.
 
-### Other Tools
-- **Cloudinary** for media storage
-- **JWT** for secure token-based authentication
+<!-- -------------------------------------------------------------------------------------------------------------- -->
 
----
+## :zap: How to run it? 🕹️
 
-## Getting Started
+1. Fork the repository.
 
-### Prerequisites
-Make sure you have the following installed:
-- **Node.js** (v14+ recommended)
-- **MongoDB**
-- **Cloudinary Account** (for media uploads)
+2. Clone the project.
 
----
+git clone repository-url
 
-### Installation
-```bash
-1. Clone the repository:
-   
-git clone <REPO_URL>
-cd BaatCheet
+3. Install dependencies.
 
-
-2. Install dependencies:
-
-bash
-Copy code
 npm install
 
+4. Create and update `.env` file.
 
-3.Create a .env file in the root directory and add the following variables:
+MONGODB_URI = YOUR_MONGODB_URI  
+PORT = 5001  
+JWT_SECRET = YOUR_SECRET  
+NODE_ENV = development  
 
-env
-Copy code
-MONGODB_URI=your_mongodb_connection_string
-PORT=your_preferred_port
-JWT_SECRET=your_jwt_secret
-NODE_ENV=development
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+5. Run the server.
 
-
-4.Start the server:
-
-bash
-Copy code
 npm start
-Open the application in your browser at http://localhost:<PORT>.
+
+6. In another terminal, start the client-side of the application (if applicable).
+
+cd client  
+npm start
+
+## :zap: Screenshots 📸
+
+### LOGIN (Authentication: Yes)
+<img src="./images/login.png"/>
+
+### CHATROOM (Real-Time Messaging)
+<img src="./images/chatroom.png"/>
+
+---
+
+![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
+
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+
+<h4 align='center'>Developed By <b><i>Harshit</i></b> 👩</h4>
+<p align='center'>
+  <a href='https://www.linkedin.com/in/harshit-saini-b855b6296'>
+    <img src='https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white' />
+  </a>
+  <a href='https://github.com/Harshit457'>
+    <img src='https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white' />
+  </a>
+</p>
+
+<h4 align='center'>Happy Coding 🧑‍💻</h4>
+
+<h3 align="center">Show some &nbsp;❤️&nbsp; by &nbsp;🌟&nbsp; this repository!</h3>
