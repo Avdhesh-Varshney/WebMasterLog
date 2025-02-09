@@ -11,7 +11,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"Angular.js"
+					"Angular.js",
+					"Local Strorage"
 				]
 			},
 			{
@@ -42,7 +43,10 @@
 					"Angular.js",
 					"JavaScript",
 					"TypeScript",
-					"Karma"
+					"Karma",
+					"Tslib",
+					"RxJS",
+					"Zone.JS"
 				]
 			},
 			{
@@ -58,7 +62,10 @@
 					"Angular.js",
 					"JavaScript",
 					"TypeScript",
-					"Karma"
+					"Karma",
+					"Express.js",
+					"Cors",
+					"Zone.JS"
 				]
 			}
 		],
@@ -75,7 +82,9 @@
 					"Angular.js",
 					"TailwindCSS",
 					"TypeScript",
-					"Karma"
+					"Karma",
+					"Zone.JS",
+					"Ngx-Toastr"
 				]
 			},
 			{
@@ -90,8 +99,13 @@
 					"HTML5",
 					"NodeJS",
 					"Angular.js",
-					"TailwindCSS",
-					"TypeScript"
+					"BootStrap",
+					"TypeScript",
+					"Json-Proxy",
+					"Socket.io",
+					"Taiga UI",
+					"Tailwind CSS",
+					"Zone.JS"
 				]
 			}
 		]
@@ -520,7 +534,6 @@
 					"JavaScript",
 					"TypeScript",
 					"React",
-					"NodeJS",
 					"Next JS"
 				]
 			}
@@ -536,7 +549,8 @@
 				"tags": [
 					"React",
 					"TailwindCSS",
-					"Next JS"
+					"Next JS",
+					"PostCSS"
 				]
 			},
 			{
@@ -552,7 +566,11 @@
 					"React",
 					"TypeScript",
 					"JavaScript",
-					"Next JS"
+					"Next JS",
+					"Node",
+					"Swr",
+					"Nextjs-cors",
+					"ReactDOM"
 				]
 			}
 		],
@@ -572,7 +590,10 @@
 					"React",
 					"TypeScript",
 					"Next JS",
-					"Firebase"
+					"Firebase",
+					"Lucide React",
+					"React Calender",
+					"React Toastify"
 				]
 			},
 			{
@@ -588,7 +609,9 @@
 					"JavaScript",
 					"TypeScript",
 					"BootStrap",
-					"Next JS"
+					"Next JS",
+					"React",
+					"ReactDOM"
 				]
 			},
 			{
@@ -605,7 +628,11 @@
 					"Gemini",
 					"TailwindCSS",
 					"TypeScript",
-					"Next JS"
+					"Next JS",
+					"React",
+					"ReactDOM",
+					"React Toastify",
+					"React Icons"
 				]
 			},
 			{
@@ -620,7 +647,12 @@
 					"Next JS",
 					"TailwindCSS",
 					"Socket.io",
-					"Peerjs"
+					"Peerjs",
+					"Lucide React",
+					"React",
+					"ReactDOM",
+					"React Toastify",
+					"React Icons"
 				]
 			},
 			{
@@ -635,7 +667,12 @@
 					"Next JS",
 					"TailwindCSS",
 					"Socket.io",
-					"Peerjs"
+					"Peerjs",
+					"DotEnv",
+					"Express.js",
+					"Cors",
+					"Nodemon",
+					"Material-UI"
 				]
 			}
 		]
@@ -853,6 +890,21 @@
 					"NodeJS",
 					"MongoDB",
 					"Express.js"
+				]
+			},
+			{
+				"project_name": "med-brain",
+				"creator": "Harshit",
+				"date": "Sat Feb 09 2025",
+				"github_url": "https://github.com/Harshit457",
+				"avatar_url": "https://avatars.githubusercontent.com/u/149406032?s=96&v=4",
+				"description": "med-brain is a digital prescription management system designed to store and organize patient prescriptions securely. It helps doctors, clinics, and hospitals maintain a structured database of prescriptions, making it easy to access and manage patient medication records.",
+				"tags": [
+					"MongoDB",
+					"NodeJS",
+					"Express.js",
+					"JWT",
+					"Cloudinary"
 				]
 			}
 		]
@@ -1371,17 +1423,13 @@
 				"tags": [
 					"HTML5",
 					"TYPESCRIPT",
-					"Angular.js",
-					"Vue.js",
-					"MongoDB",
 					"TailwindCSS",
 					"Redux",
 					"CSS3",
-					"NodeJS",
-					"Express.js",
-					"Web3.js",
 					"React",
-					"Next JS"
+					"Uuid",
+					"React Icons",
+					"Vite"
 				]
 			}
 		],
@@ -1393,7 +1441,17 @@
 				"github_url": "https://github.com/DharshiBalasubramaniyam",
 				"avatar_url": "https://avatars.githubusercontent.com/u/139672976?v=4",
 				"description": "No description found",
-				"tags": []
+				"tags": [
+					"HTML5",
+					"TYPESCRIPT",
+					"TailwindCSS",
+					"Redux",
+					"CSS3",
+					"React",
+					"Uuid",
+					"React Icons",
+					"Vite"
+				]
 			}
 		]
 	},
@@ -1434,21 +1492,12 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
 					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
 					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
-				]
+					"Bootstrap"		
+						]
 			},
 			{
 				"project_name": "analog-clock",
@@ -1458,21 +1507,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/131646799?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -1483,21 +1520,10 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/95361125?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"Font Awesome"
 				]
 			},
 			{
@@ -1508,20 +1534,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/143121854?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -1534,7 +1549,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"Tailwind CSS"
 				]
 			},
 			{
@@ -1545,21 +1561,10 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"BootStrap"
 				]
 			},
 			{
@@ -1570,21 +1575,10 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"BootStrap"
 				]
 			},
 			{
@@ -1595,21 +1589,10 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"BootStrap"
 				]
 			},
 			{
@@ -1620,21 +1603,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -1647,7 +1618,9 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"BootStrap",
+					"Google Fonts"
 				]
 			},
 			{
@@ -1660,7 +1633,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"Rest API"
 				]
 			},
 			{
@@ -1671,21 +1645,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/140981371?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -1698,7 +1660,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"Google Fonts"
 				]
 			},
 			{
@@ -1709,21 +1672,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -1734,21 +1685,10 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/124431955?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"Rest API"
 				]
 			},
 			{
@@ -1759,21 +1699,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -1784,21 +1712,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -1811,7 +1727,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"Rest API"
 				]
 			},
 			{
@@ -1822,21 +1739,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -1847,21 +1752,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/130696335?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -1872,21 +1765,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -1899,7 +1780,9 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"CryptoJS",
+					"Local Strorage"
 				]
 			},
 			{
@@ -1924,20 +1807,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -1949,20 +1820,10 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Font Awesome",
+					"BootStrap"
 				]
 			},
 			{
@@ -1974,20 +1835,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -1999,20 +1848,10 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Rest API",
+					"QrCodeJS"
 				]
 			},
 			{
@@ -2025,7 +1864,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"Rest API"
 				]
 			},
 			{
@@ -2037,19 +1877,10 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Next JS"
+					"Font Awesome",
+					"Rest API"
 				]
 			},
 			{
@@ -2061,20 +1892,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Font Awesome"
 				]
 			},
 			{
@@ -2086,20 +1906,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2111,20 +1919,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"BootStrap"
 				]
 			},
 			{
@@ -2136,20 +1933,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"BoxIcon"
 				]
 			},
 			{
@@ -2161,20 +1947,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2199,20 +1973,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2224,20 +1986,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2249,20 +1999,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"RemixIcon"
 				]
 			},
 			{
@@ -2274,20 +2013,11 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"BootStrap",
+				"Rest API",
+				"TensorFlow"
 				]
 			},
 			{
@@ -2299,20 +2029,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"RemixIcon"
 				]
 			},
 			{
@@ -2324,20 +2043,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Font Awesome"
 				]
 			},
 			{
@@ -2349,18 +2057,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Next JS"
+					"JavaScript",
+					"CSS3"
 				]
 			},
 			{
@@ -2372,20 +2070,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2397,19 +2083,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Next JS"
+					"Font Awesome"
 				]
 			},
 			{
@@ -2421,20 +2097,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Font Awesome"
 				]
 			},
 			{
@@ -2459,20 +2124,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2484,20 +2137,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"RemixIcon"
 				]
 			}
 		],
@@ -2524,20 +2166,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2588,20 +2218,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2653,20 +2271,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2678,20 +2284,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Rest API"
 				]
 			},
 			{
@@ -2703,20 +2298,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2741,20 +2324,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Font Awesome"
 				]
 			},
 			{
@@ -2766,20 +2338,10 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Font Awesome",
+					"SwiperJS"
 				]
 			},
 			{
@@ -2791,20 +2353,7 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2816,20 +2365,11 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"BootStrap",
+					"Rest API",
+					"Font Awesome"
 				]
 			},
 			{
@@ -2841,20 +2381,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2880,20 +2408,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2906,7 +2422,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"Rest API"
 				]
 			},
 			{
@@ -2918,20 +2435,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Font Awesome"
 				]
 			},
 			{
@@ -2943,20 +2449,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -2980,21 +2474,12 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/95361125?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"BootStrap",
+					"Rest API",
+					"PopperJS"
 				]
 			},
 			{
@@ -3005,21 +2490,10 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/92214013?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"Font Awesome"
 				]
 			},
 			{
@@ -3058,7 +2532,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"BootStrap"
 				]
 			},
 			{
@@ -3071,7 +2546,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"SCSS"
 				]
 			},
 			{
@@ -3095,21 +2571,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -3133,21 +2597,10 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"Rest API"
 				]
 			},
 			{
@@ -3171,21 +2624,11 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/129144413?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"REST API",
+					"BoxIcon"
 				]
 			},
 			{
@@ -3196,21 +2639,13 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/168436423?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
+					"HTML5",
+					"JavaScript",
+					"Rest API",
+					"BootStrap",
 					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Font Awesome"
 				]
 			},
 			{
@@ -3223,7 +2658,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"Rest API"
 				]
 			},
 			{
@@ -3234,21 +2670,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/62770104?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -3259,21 +2683,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -3284,21 +2696,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/114330097?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -3309,21 +2709,13 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/124901633?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"BootStrap",
+					"Rest API",
+					"ChartJS",
+					"PopperJS"
 				]
 			},
 			{
@@ -3334,21 +2726,9 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/122719744?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript"
 				]
 			},
 			{
@@ -3373,22 +2753,11 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/145869907?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"Translation API",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"JavaScript",
+					"REST API",
+					"Font Awesome"
 				]
 			},
 			{
@@ -3401,7 +2770,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"REST API"
 				]
 			},
 			{
@@ -3414,7 +2784,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"REST API"
 				]
 			},
 			{
@@ -3426,20 +2797,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Google Fonts"
 				]
 			},
 			{
@@ -3451,20 +2811,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Bootstrap"
 				]
 			},
 			{
@@ -3476,20 +2825,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -3501,20 +2838,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -3540,7 +2865,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"REST API"
 				]
 			},
 			{
@@ -3553,7 +2879,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"REST API"
 				]
 			},
 			{
@@ -3566,7 +2893,8 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"JavaScript"
+					"JavaScript",
+					"Google Fonts"
 				]
 			}
 		],
@@ -3580,20 +2908,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -3605,20 +2921,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -3629,21 +2933,11 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/118645569?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
+					"HTML5",
 					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"JavaScript",
+					"FullCalenderJS"
 				]
 			},
 			{
@@ -3654,20 +2948,11 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/142327526?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Next JS"
+					"HTML5",
+					"MarkedJS",
+					"PurifyJS",
+					"JavaScript"
 				]
 			},
 			{
@@ -3678,21 +2963,10 @@
 				"avatar_url": "https://avatars.githubusercontent.com/u/114163734?v=4",
 				"description": "No description found",
 				"tags": [
-					"HTML5",
-					"Angular.js",
-					"Vue.js",
-					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"HTML5",
+					"Font Awesome",
+					"JavaScript"
 				]
 			},
 			{
@@ -3705,7 +2979,7 @@
 				"tags": [
 					"CSS3",
 					"HTML5",
-					"TailwindCSS",
+					"Font Awesome",
 					"JavaScript"
 				]
 			},
@@ -3718,20 +2992,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"REST API"
 				]
 			},
 			{
@@ -3743,20 +3006,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Bootstrap"
 				]
 			},
 			{
@@ -3768,20 +3020,9 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
 					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"Google API"
 				]
 			},
 			{
@@ -3793,20 +3034,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -3818,20 +3047,8 @@
 				"description": "No description found",
 				"tags": [
 					"HTML5",
-					"Angular.js",
-					"Vue.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			}
 		]
@@ -3848,19 +3065,8 @@
 				"tags": [
 					"HTML5",
 					"Vue.js",
-					"Angular.js",
 					"JavaScript",
-					"MongoDB",
-					"TailwindCSS",
-					"Redux",
-					"CSS3",
-					"NodeJS",
-					"jQuery",
-					"Express.js",
-					"Web3.js",
-					"React",
-					"Bootstrap",
-					"Next JS"
+					"CSS3"
 				]
 			},
 			{
@@ -3873,7 +3079,10 @@
 				"tags": [
 					"CSS",
 					"Vue.js",
-					"HTML"
+					"HTML",
+					"JavaScript",
+					"BootStrap",
+					"Google Fonts"
 				]
 			}
 		],
@@ -3903,7 +3112,10 @@
 					"CSS3",
 					"HTML5",
 					"VUE.js",
-					"JavaScript"
+					"JavaScript",
+					"Firebase",
+					"CoreJS",
+					"TypeScript"
 				]
 			}
 		],

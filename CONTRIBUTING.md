@@ -38,31 +38,6 @@ git push -u origin <your_branch_name>
 ![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
 
 
-## :zap: Important Points to remember while submitting your work 📍 
-
-We want your work to be readable by others; therefore, we encourage you to note the following:
-
-1. Directory names should be in `kebab-case` letters (e.g., `to-do-list`, `joke-telling-application`).
-2. Add a `README` file in the project directory.
-3. Follow the [***PROJECT README TEMPLATE***](./.github/PROJECT-README-TEMPLATE.md).
-4. Include a screenshot of the project. Named to be exact `screenshot.webp`.
-5. If you have contributed in `React-JS-Projects`, updates the respective [***README***](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/src/app/(category)/README.md) file and [***JSON***](./src/database/data.json) file and enlist your project there.
-6. Don't create more than 3-4 commits until not permitted by Admin and Mentors of the project.
-7. Commit message should be clear. Never write un-necessary things in the commit messages.
-
-
-## :zap: Pull Requests Review Criteria 🧲 
-
-1. Please fill the ***PR Template*** properly while making a Pull Request.
-2. Never commit in the `main` branch.
-3. Your work must be original, written by you not copied from other resources.
-4. You must comment on your code where necessary.
-5. For frontend changes, kindly share screenshots and work samples of your work before sending a PR.
-
-
-![Line](https://github.com/Avdhesh-Varshney/WebMasterLog/assets/114330097/4b78510f-a941-45f8-a9d5-80ed0705e847)
-
-
 ## :zap: Communication and Support 💬
 - Join the project's communication channels to interact with other contributors and seek assistance.
 - If you have any questions or need help, don't hesitate to ask in the project's communication channels or comment on the relevant issue.
