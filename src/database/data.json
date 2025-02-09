@@ -1400,6 +1400,20 @@
 	"javascript": {
 		"beginner": [
 			{
+				"project_name": "email-validator",
+				"creator": "Nikita Dey",
+				"date": "Sun Feb 09 2025",
+				"github_url": "https://github.com/DeyNik",
+				"avatar_url": "https://avatars.githubusercontent.com/u/85392250?v=4",
+				"description": "A web-based email validator built with JavaScript, Node.js, HTML, and CSS.  It verifies email format and uses Node.js to perform domain existence checks, including temporary/disposable email detection.",
+				"tags": [
+					"CSS",
+					"HTML5",
+					"NodeJS",
+					"JavaScript"
+				]
+			},
+			{
 				"project_name": "3d-solar-system",
 				"creator": "Damini Chachane",
 				"date": "Wed Jul 24 2024",

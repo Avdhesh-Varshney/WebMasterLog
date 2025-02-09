@@ -444,9 +444,9 @@
 
 #### :zap: Row 39
 
-| <img src="/src/app/(category)/javascript/(projects)/zomato-clone/screenshot.webp" width="300px" height="180px"> |  |  |
+| <img src="/src/app/(category)/javascript/(projects)/zomato-clone/screenshot.webp" width="300px" height="180px"> |  <img src="/src/app/(category)/javascript/(projects)/email-validator/screenshot.webp" width="300px" height="180px">  |  |
 | :--: | :--: | :--: |
-| [Zomato Clone](./src/app/(category)/javascript/(projects)/zomato-clone) |  |  |
+| [Zomato Clone](./src/app/(category)/javascript/(projects)/zomato-clone) | [Email Validator](./src/app/(category)/javascript/(projects)/email-validator) |
 
 </div>
 
