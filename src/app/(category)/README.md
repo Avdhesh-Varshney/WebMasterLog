@@ -541,6 +541,13 @@
 | [User Registration System](./src/app/(category)/node/(projects)/user-registration-system) | [Youtube Video Downloader](./src/app/(category)/node/(projects)/youtube-video-downloader) | [med-brain](./src/app/(category)/node/(projects)/med-brain) |  |
 
 
+#### :zap: Row 6
+
+| <img src="/src/app/(category)/node/(projects)/real-time-chat-app/screenshot.webp" width="300px" height="180px"> | 
+| :--: | :--: | :--: |
+| [Real Time Chat App](./src/app/(category)/node/(projects)/real-time-chat-app)  |  |
+
+
 
 
 

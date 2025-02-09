@@ -906,6 +906,21 @@
 					"JWT",
 					"Cloudinary"
 				]
+			},
+			{
+				"project_name": "real-time-chat-app",
+				"creator": "Harshit",
+				"date": "Sat Feb 09 2025",
+				"github_url": "https://github.com/Harshit457",
+				"avatar_url": "https://avatars.githubusercontent.com/u/149406032?s=96&v=4",
+				"description": " a modern real-time chat application designed for seamless communication between users. Built with Node.js, Express, Socket.IO, and MongoDB",
+				"tags": [
+					"MongoDB",
+					"NodeJS",
+					"Express.js",
+					"JWT",
+					"Cloudinary"
+				]
 			}
 		]
 	},
