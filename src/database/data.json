@@ -924,6 +924,21 @@
 					"Mongoose",
 					"Node Mailer"
 				]
+			},
+			{
+				"project_name": "med-brain",
+				"creator": "Harshit",
+				"date": "Sat Feb 09 2025",
+				"github_url": "https://github.com/Harshit457",
+				"avatar_url": "https://avatars.githubusercontent.com/u/149406032?s=96&v=4",
+				"description": "med-brain is a digital prescription management system designed to store and organize patient prescriptions securely. It helps doctors, clinics, and hospitals maintain a structured database of prescriptions, making it easy to access and manage patient medication records.",
+				"tags": [
+					"MongoDB",
+					"NodeJS",
+					"Express.js",
+					"JWT",
+					"Cloudinary"
+				]
 			}
 		]
 	},
