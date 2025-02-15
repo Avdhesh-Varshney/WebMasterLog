@@ -1,0 +1,155 @@
+name: Issue Assignment & Tracking
+
+on:
+  issues:
+    types: [opened, edited, reopened, labeled, unlabeled]
+  issue_comment:
+    types: [created]
+  schedule:
+    - cron: "0 0 * * *" # Runs daily to check deadlines
+
+permissions:
+  issues: write
+
+jobs:
+  assign-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign Issue Creator if Opted In
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.payload.issue;
+            const body = issue.body || "";
+            const assignees = issue.assignees.map(a => a.login);
+
+            if (!assignees.length && body.includes("Would you like to work on this issue?\nYes")) {
+              await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                assignees: [issue.user.login],
+              });
+
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                name: "up-for-grabs"
+              }).catch(() => {});
+
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ["Status: Assigned"]
+              });
+            }
+
+      - name: Handle /assign Comment
+        if: github.event_name == 'issue_comment'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const comment = context.payload.comment.body;
+            const commenter = context.payload.comment.user.login;
+            const issue = context.payload.issue;
+            const assignees = issue.assignees.map(a => a.login);
+
+            if (comment.startsWith("/assign") && !assignees.includes(commenter)) {
+              await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                assignees: [commenter],
+              });
+
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                name: "up-for-grabs"
+              }).catch(() => {});
+
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ["Status: Assigned"]
+              });
+            }
+
+  check-deadlines:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Issue Deadlines
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+            });
+
+            const now = new Date();
+            for (const issue of issues) {
+              if (!issue.assignees.length) continue;
+
+              const createdAt = new Date(issue.created_at);
+              let deadlineDays = 0;
+
+              if (issue.labels.some(l => l.name === "priority: high")) deadlineDays = 3;
+              if (issue.labels.some(l => l.name === "priority: medium")) deadlineDays = 6;
+              if (issue.labels.some(l => l.name === "priority: low")) deadlineDays = 8;
+
+              if (!deadlineDays) continue;
+
+              const deadline = new Date(createdAt);
+              deadline.setDate(deadline.getDate() + deadlineDays);
+
+              const reminder = new Date(deadline);
+              reminder.setDate(reminder.getDate() - 1);
+
+              if (now.toISOString().slice(0, 10) === reminder.toISOString().slice(0, 10)) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: `@${issue.assignees.map(a => a.login).join(", ")} Your deadline is tomorrow. Please update your progress.`
+                });
+              }
+
+              if (now > deadline) {
+                await github.rest.issues.removeAssignees({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  assignees: issue.assignees.map(a => a.login),
+                });
+
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  name: "Status: Assigned"
+                }).catch(() => {});
+
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ["up-for-grabs"]
+                });
+
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: "This issue has been unassigned due to inactivity. It is now available for others to take."
+                });
+              }
+            }
