@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Email Validator</h1>
+      <div class="form-container" id="emailForm">
+        <div class="form">
+          <span class="heading">Validate Your Email Address</span>
+          <span class="c1">Does Your Email Pass the Test?</span>
+      
+          <input class="input" type="text"  id="emailInput" placeholder="Enter your email"/>
+          <div class="button-container">
+            <div onclick="validateEmail()" class="send-button">Check Email</div>
+            <div class="reset-button-container">
+              <div class="reset-button" id="reset-btn">
+                Clear
+              </div>
+            </div>
+          </div>
+        </div>
+    </div> 
+      
+    <div class="card" id="resultcard">
+      <ul class="card__list" id="cardlist">
+        <li class="card__list_item">
+          <span class="list_text" id="result"></span>
+        </li>
+      </ul>
+   </div>
+    
+    
+
+      <script src="script.js"></script>
+    </body>
+</html>
