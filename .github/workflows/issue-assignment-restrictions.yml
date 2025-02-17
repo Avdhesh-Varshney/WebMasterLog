@@ -1,0 +1,97 @@
+name: Issue Assignment Restrictions
+
+on:
+  schedule:
+    - cron: "* * * * *"  # Runs every minute
+
+permissions:
+  issues: write
+  pull-requests: write
+  discussions: write
+  checks: write
+
+jobs:
+  check-contributor-restrictions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Contributor Issue Limits
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+            });
+
+            const { data: comments } = await github.rest.issues.listCommentsForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+
+            // Map contributor to their issue assignments, created issues, and comments
+            const contributorStats = {};
+
+            // Loop over issues to count assignees and issue creators
+            for (const issue of issues) {
+              const assignees = issue.assignees.map(a => a.login);
+              const creator = issue.user.login;
+
+              // Count the assignees
+              assignees.forEach(assignee => {
+                if (!contributorStats[assignee]) {
+                  contributorStats[assignee] = { assigned: 0, created: 0, commented: 0 };
+                }
+                contributorStats[assignee].assigned += 1;
+              });
+
+              // Count the creator of the issue
+              if (!contributorStats[creator]) {
+                contributorStats[creator] = { assigned: 0, created: 0, commented: 0 };
+              }
+              contributorStats[creator].created += 1;
+            }
+
+            // Loop over comments to count the number of comments by each user
+            for (const comment of comments) {
+              const commenter = comment.user.login;
+
+              if (!contributorStats[commenter]) {
+                contributorStats[commenter] = { assigned: 0, created: 0, commented: 0 };
+              }
+              contributorStats[commenter].commented += 1;
+            }
+
+            // Now, check contributors for the restrictions
+            for (const [contributor, stats] of Object.entries(contributorStats)) {
+              if (stats.assigned > 2) {
+                // Warn contributor about the assignment limit
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issues[0].number,  // You can use any existing issue here for the comment
+                  body: `@${contributor}, you have been assigned more than 2 issues. Please check and reduce your active issues.`
+                });
+              }
+
+              if (stats.created > 2) {
+                // Warn contributor about creating more than 2 issues
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issues[0].number,  // You can use any existing issue here for the comment
+                  body: `@${contributor}, you have raised more than 2 issues. Please consider reviewing existing ones before raising new issues.`
+                });
+              }
+
+              if (stats.commented > 2) {
+                // Warn contributor about commenting more than 2 issues
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issues[0].number,  // You can use any existing issue here for the comment
+                  body: `@${contributor}, you have commented on more than 2 issues. Please be mindful of your interactions.`
+                });
+              }
+            }
