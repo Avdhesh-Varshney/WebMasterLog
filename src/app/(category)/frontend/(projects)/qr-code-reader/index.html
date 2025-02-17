@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsqr/1.4.0/jsQR.js"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+</head>
+<body>
+    <div class="scan-body">
+        <p>Click to scan QR code</p>
+        <i class="scan-icon" id="scan">
+            <span class="iconify" data-icon="ic:baseline-qr-code-scanner" data-inline="false"></span>
+        </i>
+    </div>
+    <div class="camera">
+        <div class="video-container">
+            <video id="video" class="video-preview" autoplay playsinline></video> <!-- Video preview element -->
+        </div>
+        <canvas id="canvas" class="qr-canvas" hidden></canvas>
+        <div id="result" hidden>
+            <b>Data:</b> <span id="output"></span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
