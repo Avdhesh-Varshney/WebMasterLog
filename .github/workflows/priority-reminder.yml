@@ -1,0 +1,113 @@
+name: Issue Assignment & Priority Tracking
+
+on:
+  schedule:
+    - cron: "* * * * *"  # Runs every minute
+
+permissions:
+  issues: write
+
+jobs:
+  check-deadlines:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check Issue Deadlines
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+            });
+
+            const now = new Date();
+            console.log(`Current time: ${now}`);
+
+            for (const issue of issues) {
+              if (!issue.assignees.length) continue;
+
+              const createdAt = new Date(issue.created_at);
+              const labels = issue.labels.map(l => l.name);
+
+              let deadlineDays = 3;  // 3, 6, 8 days logic
+              const deadline = new Date(createdAt.getTime() + deadlineDays * 1000 * 60 * 60 * 24);
+              const timeLeft = Math.floor((deadline - now) / (1000 * 60 * 60 * 24)); // Days remaining
+
+              console.log(`Issue #${issue.number} | Created: ${createdAt} | Deadline: ${deadline} | Time left: ${timeLeft} days`);
+
+              // Add labels based on time left
+              if (timeLeft === 3 && !labels.includes("priority: low")) {
+                console.log(`🔹 Adding "priority: low" label to Issue #${issue.number}`);
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ["priority: low"]
+                });
+              }
+
+              if (timeLeft === 6 && !labels.includes("priority: medium")) {
+                console.log(`🔹 Adding "priority: medium" label to Issue #${issue.number}`);
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ["priority: medium"]
+                });
+              }
+
+              if (timeLeft === 8 && !labels.includes("priority: high")) {
+                console.log(`🔹 Adding "priority: high" label to Issue #${issue.number}`);
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ["priority: high"]
+                });
+              }
+
+              if (timeLeft === 1) {
+                console.log(`⚠️ Sending reminder for Issue #${issue.number}`);
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: `@${issue.assignees.map(a => a.login).join(", ")} Your deadline is in 1 minute. Please update your progress.`
+                });
+              
+
+              // If the deadline has passed, unassign the issue and reset labels
+              if (timeLeft <= 0) {
+                console.log(`❌ Deadline exceeded for Issue #${issue.number} | Unassigning...`);
+
+                await github.rest.issues.removeAssignees({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  assignees: issue.assignees.map(a => a.login),
+                }).catch(() => console.log("No assignees to remove"));
+
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  name: "Status: Assigned"
+                }).catch(() => console.log("Label not found"));
+
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ["up-for-grabs"]
+                });
+
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: "This issue has been unassigned due to inactivity. It is now available for others to take."
+                });
+              }
+            }

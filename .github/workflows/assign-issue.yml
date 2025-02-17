@@ -1,0 +1,84 @@
+name: Issue Assignment & Tracking
+
+on:
+  issues:
+    types: [opened, edited, reopened, labeled, unlabeled]
+  issue_comment:
+    types: [created]
+  schedule:
+    - cron: "0 0 * * *" 
+
+permissions:
+  issues: write
+
+jobs:
+  assign-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign Issue Creator if Opted In
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.payload.issue;
+            const body = (issue.body || "").toLowerCase().replace(/\s+/g, " ");
+            const assignees = issue.assignees.map(a => a.login);
+
+             if (body.includes("would you like to work on this issue? yes")) {
+             await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                assignees: [issue.user.login],
+               });
+
+
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                name: "up-for-grabs"
+            }).catch(() => {});
+
+              await github.rest.issues.addLabels({
+             owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: issue.number,
+            labels: ["Status: Assigned"]
+            });
+            }
+
+      - name: Handle /assign Comment
+        if: github.event_name == 'issue_comment'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const comment = context.payload.comment.body;
+            const commenter = context.payload.comment.user.login;
+            const issue = context.payload.issue;
+            const assignees = issue.assignees.map(a => a.login);
+
+            if (comment.startsWith("/assign") && !assignees.includes(commenter)) {
+              await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                assignees: [commenter],
+              });
+
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                name: "up-for-grabs"
+              }).catch(() => {});
+
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ["Status: Assigned"]
+              });
+            }
+ 
