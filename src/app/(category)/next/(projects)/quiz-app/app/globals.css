@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: rgb(0, 0, 86);
-    color: white;
-}

@@ -1,1 +1,0 @@
-<p>admin works!</p>
