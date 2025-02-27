@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import MainContent from "../components/MainContent";
 import { SidebarProvider } from "../context/SidebarContext";
+import Navbar from "../components/shared/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-[#000000] text-[#FFFFFF] overflow-x-hidden`}>
+        <Navbar />
         <SidebarProvider>
+        
           <MainContent>{children}</MainContent>
         </SidebarProvider>
       </body>
