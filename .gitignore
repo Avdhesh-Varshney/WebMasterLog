@@ -1,3 +1,25 @@
+################################################################## DATA SCIENCE ###################################################################
+# Virtual environment files
+*/venv/
+venv/
+myenv/
+etc/
+Include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+__pycache__\
+
+# Others extension files or caches
+*.ini
+.ipynb_checkpoints/
+
+# Secret files
+kaggle.json
+
+
+################################################################# WEB DEVELOPMENT #################################################################
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # Logs
