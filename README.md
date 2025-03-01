@@ -1,6 +1,6 @@
 <h2>Hey <𝚌𝚘𝚍𝚎𝚛𝚜/>! 👋</h2>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Monoton&size=85&pause=12&speed=12&color=00FF00&center=true&vCenter=true&width=2000&height=200&lines=Hello+World!;Welcome+to+The+Web+Master+Log;Your+Next+Big+Commit+Starts+Here!;Let's+Code+Something+Awesome!;Collaborate.+Build.+Inspire!;Write+Code,+Build+Dreams!;Code.+Commit.+Conquer!;Build,+Learn,+and+Contribute!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Monoton&size=85&pause=12&speed=12&color=00FF00&center=true&vCenter=true&width=2000&height=200&lines=Hello+World!;Welcome+to+This+Open+Source+Project;Your+Next+Big+Commit+Starts+Here!;Let's+Code+Something+Awesome!;Collaborate.+Build.+Inspire!;Write+Code,+Build+Dreams!;Code.+Commit.+Conquer!;Build,+Learn,+and+Contribute!)](https://git.io/typing-svg)
 
 <div align="center">
   <p>
@@ -23,52 +23,13 @@
     <img src="https://img.shields.io/github/issues-pr-raw/Avdhesh-Varshney/WebMasterLog" />
     <img src="https://img.shields.io/github/issues-pr-closed-raw/Avdhesh-Varshney/WebMasterLog" />
   </p>
-  <p>
-
-  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-  ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-  ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
-  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-  ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-  ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-  ![Web3.js](https://img.shields.io/badge/web3.js-F16822?style=for-the-badge&logo=web3.js&logoColor=white)
-  ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-  ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white)
-  ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-  ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-  ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-  ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-  ![GraphQL](https://img.shields.io/badge/graphql-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-  ![REST API](https://img.shields.io/badge/REST%20API-%23000000.svg?style=for-the-badge&logo=rest-api&logoColor=white)
-  ![Socket.io](https://img.shields.io/badge/Socket.io-%23000000.svg?style=for-the-badge&logo=socket.io&logoColor=white)
-  ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-  ![Prisma](https://img.shields.io/badge/prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-  ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-  ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
-  ![Svelte](https://img.shields.io/badge/svelte-%23FF3E00.svg?style=for-the-badge&logo=svelte&logoColor=white)
-  ![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00C58E?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
-  ![Three.js](https://img.shields.io/badge/three.js-%232F2F2F.svg?style=for-the-badge&logo=three.js&logoColor=white)
-  ![Material-UI](https://img.shields.io/badge/Material--UI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white)
-  ![Chakra UI](https://img.shields.io/badge/chakra%20ui-%23319795.svg?style=for-the-badge&logo=chakra-ui&logoColor=white)
-  ![Strapi](https://img.shields.io/badge/strapi-%232E7EEA.svg?style=for-the-badge&logo=strapi&logoColor=white)
-  ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
-  ![WebAssembly](https://img.shields.io/badge/webassembly-%236464F1.svg?style=for-the-badge&logo=webassembly&logoColor=white)
-  ![Electron](https://img.shields.io/badge/Electron-2C2E3B?style=for-the-badge&logo=electron&logoColor=white)
-  ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-  </p>
-
 </div>
 
 ---
 
-#### :zap: About WebMasterLog ❤️
+#### :zap: About Project ❤️
 
-Welcome to WebMasterLog, It serves as a comprehensive record of various web development endeavors, highlighting the versatility and capabilities of projects built with Front-end and Back-end Web developement technologies. From interactive and responsive user interfaces to dynamic web applications, this repository encompasses a spectrum of web development solutions.
+Welcome to this Project, A collaborative platform for developers & learners to explore, build, and contribute to Web Development & AI projects. Features include AI-driven recommendations, role-based access, project tracking, interactive community engagement, and structured learning resources.
 
 <details>
 <summary><h4>:zap: How to Contribute? 🤔</h4></summary>
@@ -89,19 +50,49 @@ Welcome to WebMasterLog, It serves as a comprehensive record of various web deve
 
 > Choose a contribution area that suits your skills 
 
-<div align="center">
+| **Contribution Area**             |
+| --------------------------------- |
+| **Add New Projects**              |
+| **Improve Existing Projects**     |
+| **Documentation Updates**         |
+| **Bug Fixes**                     |
+| **Responsive Design**             |
+| **Code Readability**              |
+| **Optimization**                  |
 
-| **Contribution Area**             | **Description**                                                               |
-| --------------------------------- | ----------------------------------------------------------------------------- |
-| **Add New Projects**              | Share web development projects using any front-end or back-end technologies.  |
-| **Improve Existing Projects**     | Enhance functionality, optimize performance, or add new features.             |
-| **Documentation Updates**         | Refine documentation for better clarity and usability.                        |
-| **Bug Fixes**                     | Resolve issues to ensure the stability of existing projects.                  |
-| **Responsive Design**             | Implement or improve responsive design for better device compatibility.       |
-| **Code Readability**              | Enhance code style and readability for better maintainability.                |
-| **Optimization**                  | Suggest and implement optimized solutions for project functionalities.        |
+</details>
 
-</div>
+<details>
+<summary><h4>:zap: Add Your Project as a Submodule 🚀</h4></summary>
+
+1. Run the following command to add your project as a submodule:
+
+```bash
+git submodule add --depth 1 <your_project_repo_url> projects/<category>/<project_name>
+```
+
+> Example for a web development project:
+> ```bash
+> git submodule add --depth 1 https://github.com/your-username/my-web-project.git projects/web-development/my-web-project
+> ```
+
+2. Stage the changes
+```bash
+git add .
+```
+
+3. Commit and Push changes
+```bash
+git commit -m "Add <project_name> as a submodule under <category>"
+git push -u origin main
+```
+
+4. Create a Pull Request
+  1. Go to your forked repository on GitHub.
+  2. Click on Compare & pull request.
+  3. Provide a clear description of your project.
+  4. Submit the PR for review.
+
 </details>
 
 <details>
@@ -109,13 +100,9 @@ Welcome to WebMasterLog, It serves as a comprehensive record of various web deve
 
 > We want your work to be readable by others; therefore, we encourage you to note the following:
 
-1. Directory names should be in `kebab-case` letters (e.g., `to-do-list`, `joke-telling-application`).
+1. Directory/Repository names should be in `kebab-case` letters (e.g., `to-do-list`, `joke-telling-application`).
 2. Add a `README` file in the project directory.
-3. Follow the [***PROJECT README TEMPLATE***](./.github/PROJECT-README-TEMPLATE.md).
-4. Include a screenshot of the project. Named to be exact `screenshot.webp`.
-5. If you have contributed in `React-JS-Projects`, updates the respective [***README***](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/src/app/(category)/README.md) file and [***JSON***](https://github.com/Avdhesh-Varshney/WebMasterLog/blob/main/src/database/data.json) file and enlist your project there.
-6. Don't create more than 3-4 commits until not permitted by Admin and Mentors of the project.
-7. Commit message should be clear. Never write un-necessary things in the commit messages.
+3. Commit message should be clear. Never write un-necessary things in the commit messages.
 
 </details>
 
@@ -125,8 +112,9 @@ Welcome to WebMasterLog, It serves as a comprehensive record of various web deve
 1. Fill out the ***PR template*** properly when submitting a pull request.
 2. Do not commit directly to the `main` branch, or your PR will be instantly rejected.
 3. Ensure all work is original and not copied from other sources.
-4. Add comments to your code wherever necessary for clarity.
-5. For frontend updates, share screenshots and work samples before submitting a PR.
+4. Don't create more than 3-4 commits until not permitted by Admin and Mentors of the project.
+5. Add comments to your code wherever necessary for clarity.
+6. For frontend updates, share screenshots and work samples before submitting a PR.
 
 </details>
 
