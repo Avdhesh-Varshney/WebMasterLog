@@ -2,9 +2,6 @@ name: Project Request 📜
 
 description: Request for adding a new project to the repository.
 
-labels:
-  - up-for-grabs
-
 body:
   - type: markdown
     attributes:
@@ -37,7 +34,7 @@ body:
     id: screenshots
     attributes:
       label: "Screenshots"
-      placeholder: "Include relevant links or screenshots related to the project."
+      placeholder: "Copy the image and just paste it to upload on github"
     validations:
       required: true
 

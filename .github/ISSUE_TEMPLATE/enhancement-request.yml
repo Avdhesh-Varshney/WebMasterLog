@@ -4,7 +4,6 @@ description: Request to improve any styling or documentation of the project.
 
 labels:
   - enhancement
-  - up-for-grabs
 
 body:
   - type: markdown
@@ -50,7 +49,7 @@ body:
     id: screenshots
     attributes:
       label: "Screenshots or Logs"
-      placeholder: "Include any relevant links, screenshots, or logs related to the enhancement."
+      placeholder: "Copy the image and just paste it to upload on github"
     validations:
       required: true
 

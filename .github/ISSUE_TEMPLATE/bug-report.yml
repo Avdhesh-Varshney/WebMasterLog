@@ -4,7 +4,6 @@ description: Use this template to report bugs in the project or website.
 
 labels:
   - bug
-  - up-for-grabs
 
 body:
   - type: markdown
@@ -49,7 +48,7 @@ body:
     id: screenshots
     attributes:
       label: "Screenshots or Logs"
-      placeholder: "Paste any relevant links, screenshots, or logs here."
+      placeholder: "Copy the image and just paste it to upload on github"
     validations:
       required: true
   
