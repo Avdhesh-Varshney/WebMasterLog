@@ -1,5 +1,4 @@
 import bcrypt from "bcrypt";
-import jwt from "jsonwebtoken";
 import User from "../Models/user.model.js";
 import { formatDataToSend, generateUsername, emailRegex, passwordRegex } from "../utils/helpers.js";
 
@@ -38,10 +37,7 @@ export const login = async (req, res) => {
         const isMatch = await bcrypt.compare(password, user.personal_info.password);
         if (!isMatch) return res.status(401).json({ error: "Incorrect password" });
 
-        // Generate JWT Token
-        const token = jwt.sign({ id: user._id, role: user.role }, process.env.SECRET_ACCESS_KEY, { expiresIn: "7d" });
-
-        return res.status(200).json({ token, user: formatDataToSend(user) });
+        return res.status(200).json(formatDataToSend(user));
     } catch (err) {
         return res.status(500).json({ error: "Internal Server Error" });
     }
