@@ -1,15 +1,23 @@
+import express from "express";
+import cors from "cors";
 import dotenv from "dotenv";
+import connectDB from "./config/db.js";
+import router from "./Routes/index.js";
+
 dotenv.config();
 
-import express from "express";
+const server = express();
+const PORT = process.env.PORT || 8000;
 
-const app = express();
-const PORT = process.env.BACKEND_DEV_PORT || 5000;
+// Middleware
+server.use(express.json());
+server.use(cors());
 
-app.get("/", (req, res) => {
-    res.send("Backend is running...");
-});
+// Connect to Database
+connectDB();
 
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+// Routes
+server.get("/", (req, res) => res.send("Backend is running..."));
+server.use("/api", router);
+
+server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
