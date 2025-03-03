@@ -7,6 +7,7 @@ import { UserContext } from "../App";
 import InputBox from "../components/InputBox";
 import { storeInSession } from "../common/session";
 import AnimationWrapper from "../common/page-animation";
+import { authWithGoogle } from "../common/firebase";
 
 const UserAuthForm = ({ type }) => {
 
@@ -56,6 +57,21 @@ const UserAuthForm = ({ type }) => {
             return toast.error("Password should be atleast 6 characters long and contain atleast one uppercase letter, one lowercase letter and one number");
         }
         userAuthThroughServer(serverRoute, formData);
+    }
+
+    const handleGoogleAuth = (e) => {
+        e.preventDefault();
+
+        authWithGoogle()
+            .then(user => {
+                let serverRoute = "/api/auth/google-auth";
+                let formData = { access_token: user.accessToken };
+                userAuthThroughServer(serverRoute, formData);
+            })
+            .catch(err => {
+                toast.error("Failed to authenticate with google");
+                return console.log(err);
+            })
     }
 
     return (
@@ -109,7 +125,10 @@ const UserAuthForm = ({ type }) => {
                             <hr className="w-1/2 border-black" />
                         </div>
 
-                        <button className="btn-dark flex items-center justify-center gap-4 w-[90%] center">
+                        <button
+                            className="btn-dark flex items-center justify-center gap-4 w-[90%] center"
+                            onClick={handleGoogleAuth}
+                        >
                             <img src="google.png" alt="" className="w-5" />
                             continue with google
                         </button>
