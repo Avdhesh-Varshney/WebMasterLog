@@ -1,8 +1,9 @@
 import bcrypt from "bcrypt";
+import {readFileSync} from "fs";
 
 import admin from "firebase-admin";
 import { getAuth } from "firebase-admin/auth";
-import serviceAccountKey from "../firebase-adminsdk.json" assert { type: "json" };
+const serviceAccountKey = JSON.parse(readFileSync("./firebase-adminsdk.json", "utf-8"));
 
 import User from "../Models/user.model.js";
 import { formatDataToSend, generateUsername, emailRegex, passwordRegex } from "../utils/helpers.js";
