@@ -12,6 +12,7 @@
   "dependencies": {
     "@flaticon/flaticon-uicons": "^3.3.1",
     "@tailwindcss/vite": "^4.0.9",
+    "framer-motion": "^12.4.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.2.0",
