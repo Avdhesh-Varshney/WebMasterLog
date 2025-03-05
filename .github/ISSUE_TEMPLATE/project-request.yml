@@ -47,6 +47,7 @@ body:
         - "data-science"
         - "web-development"
         - "main-website"
+        - "documentation"
     validations:
       required: true
 
