@@ -35,33 +35,33 @@
 
 ---
 
-#### :zap: About Project ❤️
+#### :zap: About the Project ❤️
 
-Welcome to the Blog Script Project, It is a collaborative project-blogging platform designed to streamline content creation, management, and sharing. It provides a structured environment where developers and writers can integrate submodules, use customizable templates, and manage their projects effectively. With role-based access, SEO optimization, and community discussions, Blog-Script enhances collaboration and ensures global visibility for your work.
+Welcome to the **Blog Script Project**—a collaborative blogging platform designed to simplify content creation, management, and sharing. 
+It provides a structured environment where developers and writers can seamlessly integrate submodules, customize templates, and efficiently manage their projects. 
+With role-based access, built-in SEO optimization, and community discussions, **Blog Script** enhances collaboration and ensures global visibility for your work.
 
-#### :zap: Features of Project 🏢
+#### :zap: Contribute to Blog Script! ✅
 
-- **Markdown Support** – Enables clean and structured formatting for blog content.
-- **Submodule Integration** – Allows seamless addition of repositories as submodules.
-- **Customizable Templates** – Provides predefined templates for personalized blog designs.
-- **Project Contribution Workflow** – Allows contributors to update projects and raise PRs.
-- **Global Visibility** – Showcases your work to a wider audience.
-- **Community Discussion** – Enables collaboration and knowledge sharing with learners.
-- **Full Ownership** – Retain control over your projects and contributions.
-- **SEO Optimized** – Generates search-engine-friendly content for better discoverability.
-- **Role-Based Dashboard** – Supports admin, collaborator, contributor, and user roles.
+Blog Script is an open-source platform where you can **submit your projects, update them anytime, and improve the platform itself**. 
+It’s perfect for developers and writers who want to **showcase their work, collaborate with others, and gain global visibility**.  
+
+Join us, contribute, and grow together! 🌍✨
 
 <details>
-<summary><h4>:zap: How to Contribute? 🤔</h4></summary>
+<summary><h4>:zap: Key Features 🏢</h4></summary>
 
-1. Star the repository on GitHub to show your support.
-2. Browse the [**Issues**](https://github.com/Avdhesh-Varshney/blog-script/issues) to find tasks that need attention.
-3. Fork the repository to your own GitHub account to start working on your changes.
-4. Create a new branch for the issue you're working on.
-5. Make your changes, ensuring they align with the project's structure and standards.
-6. Add screenshots or screen captures of your changes to showcase their effects in the pull request.
-7. Submit a [**Pull Request**](https://github.com/Avdhesh-Varshney/blog-script/pulls), and it will be reviewed.
-8. Make sure to read and follow the [**Contributing Guidelines**](https://github.com/Avdhesh-Varshney/blog-script/blob/main/CONTRIBUTING.md) and [**Code of Conduct**](https://github.com/Avdhesh-Varshney/blog-script/blob/main/CODE_OF_CONDUCT.md).
+| **Feature**                     | **Description**  |
+|----------------------------------|----------------|
+| **Markdown Support**             | Easily write and format blog content using Markdown, making it clean and well-structured. Markdown helps in organizing text, adding headings, lists, links, and images without complex coding. |
+| **Submodule Integration**        | Allows you to add external repositories as submodules, making it easier to manage and link different projects inside your blog. This helps in organizing code and keeping everything in one place. |
+| **Customizable Templates**       | Choose from ready-made templates to design your blog the way you like. These templates help in quickly setting up a beautiful and professional-looking blog. |
+| **Project Contribution Workflow** | Submit your project to this repository and update it anytime. You can also contribute more by improving your project and raising pull requests (PRs) to update Blog Script itself. This helps in growing your project while also making Blog Script better. |
+| **Global Visibility**            | Your blog and projects will be visible to a larger audience worldwide. This increases your chances of getting noticed, getting feedback, and collaborating with others. |
+| **Community Discussions**        | Connect with other contributors, discuss ideas, ask questions, and share knowledge. This makes learning and improving projects easier through teamwork. |
+| **Full Ownership**               | You have complete control over your projects and contributions. No one else can change your work without your permission. |
+| **SEO Optimization**             | Blog Script ensures your content is easily found on search engines like Google. This helps in reaching more people and increasing engagement. |
+| **Role-Based Dashboard**         | Different users have different levels of access. Admins can manage everything, collaborators can work on assigned projects, contributors can submit their work, and regular users can read and interact with blogs. |
 
 </details>
 
@@ -79,6 +79,20 @@ Welcome to the Blog Script Project, It is a collaborative project-blogging platf
 | **Responsive Design**             |
 | **Code Readability**              |
 | **Optimization**                  |
+
+</details>
+
+<details>
+<summary><h4>:zap: How to Contribute? 🤔</h4></summary>
+
+1. Star the repository on GitHub to show your support.
+2. Browse the [**Issues**](https://github.com/Avdhesh-Varshney/blog-script/issues) to find tasks that need attention.
+3. Fork the repository to your own GitHub account to start working on your changes.
+4. Create a new branch for the issue you're working on.
+5. Make your changes, ensuring they align with the project's structure and standards.
+6. Add screenshots or screen captures of your changes to showcase their effects in the pull request.
+7. Submit a [**Pull Request**](https://github.com/Avdhesh-Varshney/blog-script/pulls), and it will be reviewed.
+8. Make sure to read and follow the [**Contributing Guidelines**](https://github.com/Avdhesh-Varshney/blog-script/blob/main/CONTRIBUTING.md) and [**Code of Conduct**](https://github.com/Avdhesh-Varshney/blog-script/blob/main/CODE_OF_CONDUCT.md).
 
 </details>
 
