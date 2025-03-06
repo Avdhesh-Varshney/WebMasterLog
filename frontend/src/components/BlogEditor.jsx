@@ -127,7 +127,7 @@ const BlogEditor = () => {
 
                         <textarea
                             defaultValue={title}
-                            placeholder="Blot Title"
+                            placeholder="Project Title"
                             className="text-4xl font-medium w-full h-20 outline-none resize-none mt-10 leading-tight placeholder:opacity-40"
                             onKeyDown={handleTitleKeyDown}
                             onChange={handleTitleChange}
