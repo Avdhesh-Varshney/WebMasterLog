@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import { Toaster, toast } from 'react-hot-toast';
 import EditorJS from "@editorjs/editorjs";
 
-import defaultBanner from "../assets/blog_banner.png";
 import AnimationWrapper from "../common/page-animation";
 import { uploadImage } from "../common/cloudinary";
 import { EditorContext } from "../pages/Editor";
 import { tools } from "./Tools";
+
+const defaultBanner = "https://res.cloudinary.com/avdhesh-varshney/image/upload/v1741270498/project_banner_wpphwm.png";
 
 const BlogEditor = () => {
 
@@ -60,10 +61,10 @@ const BlogEditor = () => {
 
     const handlePublishEvent = () => {
         if (!banner.length) {
-            return toast.error("Upload a blog banner to publish it");
+            return toast.error("Upload a project banner to publish it");
         }
         if (!title.length) {
-            return toast.error("Title is required to publish a blog");
+            return toast.error("Title is required to publish a project");
         }
         if (textEditor.isReady) {
             textEditor.save()
@@ -72,7 +73,7 @@ const BlogEditor = () => {
                         setBlog({ ...blog, content: outputData });
                         setEditorState("publish");
                     } else {
-                        return toast.error("Write something in your blog to publish it");
+                        return toast.error("Write something in your project to publish it");
                     }
                 })
                 .catch((err) => {
@@ -88,7 +89,7 @@ const BlogEditor = () => {
                     <img src="logo.png" />
                 </Link>
                 <p className="max-md:hidden text-black line-clamp-1 w-full">
-                    {title.length ? title : "New Blog"}
+                    {title.length ? title : "New Project"}
                 </p>
 
                 <div className="flex gap-4 ml-auto">
