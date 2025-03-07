@@ -3,7 +3,7 @@ import { EditorContext } from "../pages/Editor";
 
 const Tag = ({ tag, tagIndex }) => {
 
-    let { blog, blog: { tags }, setBlog } = useContext(EditorContext);
+    let { project, project: { tags }, setProject } = useContext(EditorContext);
 
     const addEditable = (e) => {
         e.target.setAttribute("contentEditable", true);
@@ -15,7 +15,7 @@ const Tag = ({ tag, tagIndex }) => {
             e.preventDefault();
             let currentTag = e.target.innerText;
             tags[tagIndex] = currentTag;
-            setBlog({ ...blog, tags });
+            setProject({ ...project, tags });
 
             e.target.setAttribute("contentEditable", false);
         }
@@ -23,7 +23,7 @@ const Tag = ({ tag, tagIndex }) => {
 
     const handleTagDelete = () => {
         tags = tags.filter(t => t !== tag);
-        setBlog({ ...blog, tags });
+        setProject({ ...project, tags });
     }
 
     return (

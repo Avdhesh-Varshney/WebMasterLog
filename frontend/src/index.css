@@ -91,12 +91,12 @@
     }
 
     #textEditor *,
-    .blog-page-content * {
+    .project-page-content * {
         @apply text-xl leading-10 md:text-2xl;
     }
 
     #textEditor a,
-    .blog-page-content a {
+    .project-page-content a {
         @apply text-purple-600 underline hover:opacity-50;
     }
 
@@ -104,11 +104,11 @@
         @apply p-3 bg-gray-200 rounded-full px-6 capitalize;
     }
 
-    .blog-title {
+    .project-title {
         @apply text-2xl font-medium leading-7 line-clamp-3 sm:line-clamp-2;
     }
 
-    .blog-index {
+    .project-index {
         @apply text-4xl sm:text-3xl lg:text-5xl font-bold text-gray-600 leading-none;
     }
 }

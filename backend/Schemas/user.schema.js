@@ -87,9 +87,9 @@ const userSchema = Schema(
             type: Number,
             default: 0 // 0 - user, 1 - contributor, 2 - collaborator, 3 - admin 
         },
-        blogs: {
+        projects: {
             type: [Schema.Types.ObjectId],
-            ref: 'blogs',
+            ref: 'projects',
             default: [],
         }
     },

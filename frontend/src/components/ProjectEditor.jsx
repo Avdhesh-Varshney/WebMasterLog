@@ -10,9 +10,9 @@ import { tools } from "./Tools";
 
 const defaultBanner = "https://res.cloudinary.com/avdhesh-varshney/image/upload/v1741270498/project_banner_wpphwm.png";
 
-const BlogEditor = () => {
+const ProjectEditor = () => {
 
-    let { blog, blog: { title, banner, content, tags, des }, setBlog, textEditor, setTextEditor, setEditorState } = useContext(EditorContext);
+    let { project, project: { title, banner, content, tags, des }, setProject, textEditor, setTextEditor, setEditorState } = useContext(EditorContext);
 
     useEffect(() => {
         setTextEditor(new EditorJS({
@@ -34,7 +34,7 @@ const BlogEditor = () => {
                     if (url) {
                         toast.dismiss(loadingToast);
                         toast.success('Uploaded successfully');
-                        setBlog({ ...blog, banner: url });
+                        setProject({ ...project, banner: url });
                     }
                 })
                 .catch((err) => {
@@ -56,7 +56,7 @@ const BlogEditor = () => {
         input.style.height = 'auto';
         input.style.height = (input.scrollHeight) + 'px';
 
-        setBlog({ ...blog, title: input.value });
+        setProject({ ...project, title: input.value });
     }
 
     const handlePublishEvent = () => {
@@ -70,7 +70,7 @@ const BlogEditor = () => {
             textEditor.save()
                 .then((outputData) => {
                     if (outputData.blocks.length) {
-                        setBlog({ ...blog, content: outputData });
+                        setProject({ ...project, content: outputData });
                         setEditorState("publish");
                     } else {
                         return toast.error("Write something in your project to publish it");
@@ -143,4 +143,4 @@ const BlogEditor = () => {
     )
 }
 
-export default BlogEditor;
+export default ProjectEditor;

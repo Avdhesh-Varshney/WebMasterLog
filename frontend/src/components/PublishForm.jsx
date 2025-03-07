@@ -9,7 +9,7 @@ const PublishForm = () => {
     let characterLimit = 200;
     let tagLimit = 10;
 
-    let { blog, blog: { banner, title, tags, des }, setBlog, setEditorState } = useContext(EditorContext);
+    let { project, project: { banner, title, tags, des }, setProject, setEditorState } = useContext(EditorContext);
 
     const handleCloseEvent = () => {
         setEditorState("editor");
@@ -23,12 +23,12 @@ const PublishForm = () => {
 
     const handleProjectTitleChange = (e) => {
         let input = e.target;
-        setBlog({ ...blog, title: input.value })
+        setProject({ ...project, title: input.value })
     }
 
     const handleProjectDesChange = (e) => {
         let input = e.target;
-        setBlog({ ...blog, des: input.value })
+        setProject({ ...project, des: input.value })
     }
 
     const handleKeyDown = (e) => {
@@ -38,7 +38,7 @@ const PublishForm = () => {
 
             if (tags.length < tagLimit) {
                 if (!tags.includes(tag) && tag.length) {
-                    setBlog({ ...blog, tags: [...tags, tag] });
+                    setProject({ ...project, tags: [...tags, tag] });
                 }
             } else {
                 toast.error(`You can add maximum ${tagLimit} tags`);
