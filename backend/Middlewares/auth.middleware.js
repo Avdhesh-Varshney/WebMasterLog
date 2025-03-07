@@ -8,10 +8,14 @@ export const authenticateUser = (req, res, next) => {
     }
 
     try {
-        const verified = jwt.verify(token.split(" ")[1], process.env.SECRET_ACCESS_KEY);
-        req.user = verified;
-        next();
+        jwt.verify(token.split(" ")[1], process.env.SECRET_ACCESS_KEY, (err, user) => {
+            if (err) {
+                return res.status(403).json({ error: "Access token is invalid" });
+            }
+            req.user = user.id;
+            next();
+        });
     } catch (error) {
-        res.status(403).json({ error: "Invalid Token" });
+        res.status(500).json({ error: "Token not found" });
     }
 };
