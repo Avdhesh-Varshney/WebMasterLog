@@ -54,7 +54,7 @@ const PublishForm = () => {
         }
     }
 
-    const publishBlog = (e) => {
+    const publichProject = (e) => {
 
         if (e.target.className.includes("disable")) {
             return;
@@ -157,7 +157,7 @@ const PublishForm = () => {
                     <p className="mt-1 mb-4 text-dark-grey text-right">{tagLimit - tags.length} Tags left</p>
 
                     <button className="btn-dark px-8"
-                        onClick={publishBlog}
+                        onClick={publichProject}
                     >Publish</button>
                 </div>
             </section>
