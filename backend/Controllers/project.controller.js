@@ -67,3 +67,35 @@ export const createProject = async (req, res) => {
             return res.status(500).json({ error: err.message });
         })
 }
+
+export const getProjects = async (req, res) => {
+
+    let maxLimit = 5;
+
+    Project.find({ draft: false })
+        .populate("author", "personal_info.profile_img personal_info.username personal_info.fullname -_id")
+        .sort({ "publishedAt": -1 })
+        .select("project_id title des banner tags activity publishedAt -_id")
+        .limit(maxLimit)
+        .then(projects => {
+            return res.status(200).json({ projects });
+        })
+        .catch(err => {
+            return res.status(500).json({ error: err.message });
+        })
+}
+
+export const trendingProjects = async (req, res) => {
+
+    Project.find({ draft: false })
+        .populate("author", "personal_info.profile_img personal_info.username personal_info.fullname -_id")
+        .sort({ "activity.total_read": -1, "activity.total_likes": -1, "publishedAt": -1 })
+        .select("project_id title publishedAt -_id")
+        .limit(5)
+        .then(projects => {
+            return res.status(200).json({ projects });
+        })
+        .catch(err => {
+            return res.status(500).json({ error: err.message });
+        })
+}
