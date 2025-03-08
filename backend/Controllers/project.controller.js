@@ -1,0 +1,69 @@
+import { nanoid } from 'nanoid';
+
+import Project from "../Models/project.model.js";
+import User from "../Models/user.model.js";
+
+export const createProject = async (req, res) => {
+    let authorId = req.user;
+
+    let { title, des, banner, projectUrl, repository, tags, content, draft } = req.body;
+
+    if (!title.length) {
+        return res.status(403).json({ error: "You must provide a title" });
+    }
+
+    if (!draft) {
+        if (!des.length || des.length > 200) {
+            return res.status(403).json({ error: "You must provide project description under 200 characters" })
+        }
+
+        if (!banner.length) {
+            return res.status(403).json({ error: "You must provide project banner to publish it" });
+        }
+
+        if (!repository.length) {
+            return res.status(403).json({ error: "You must provide project repository to publish it" });
+        }
+
+        if (!content.blocks.length) {
+            return res.status(403).json({ error: "There must be some project content to publish it" });
+        }
+
+        if (!tags.length || tags.length > 10) {
+            return res.status(403).json({ error: "Provide tags in order to publish the project, Maximum 10" });
+        }
+    }
+
+    tags = tags.map(tag => tag.toLowerCase());
+
+    let project_id = title.replace(/[^a-zA-Z0-9]/g, ' ').replace(/\s+/g, '-').trim() + nanoid();
+
+    let project = new Project({
+        title,
+        des,
+        banner,
+        projectUrl,
+        repository,
+        tags,
+        content,
+        author: authorId,
+        project_id,
+        draft: Boolean(draft)
+    })
+
+    project.save()
+        .then(project => {
+            let incrementVal = draft ? 0 : 1;
+
+            User.findOneAndUpdate({ _id: authorId }, { $inc: { "account_info.total_posts": incrementVal }, $push: { "projects": project._id } })
+                .then(user => {
+                    return res.status(200).json({ id: project.project_id });
+                })
+                .catch(err => {
+                    return res.status(500).json({ error: "Failed to update total posts number" });
+                })
+        })
+        .catch(err => {
+            return res.status(500).json({ error: err.message });
+        })
+}

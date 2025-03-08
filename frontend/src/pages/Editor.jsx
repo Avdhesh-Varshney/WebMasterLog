@@ -7,6 +7,8 @@ import PublishForm from "../components/PublishForm";
 const projectStructure = {
     title: "",
     banner: "",
+    projectUrl: "",
+    repository: "",
     content: [],
     tags: [],
     des: "",

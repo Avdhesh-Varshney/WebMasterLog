@@ -1,5 +1,5 @@
 import { useContext, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Toaster, toast } from 'react-hot-toast';
 import EditorJS from "@editorjs/editorjs";
 
@@ -7,20 +7,28 @@ import AnimationWrapper from "../common/page-animation";
 import { uploadImage } from "../common/cloudinary";
 import { EditorContext } from "../pages/Editor";
 import { tools } from "./Tools";
+import axios from "axios";
+import { UserContext } from "../App";
 
 const defaultBanner = "https://res.cloudinary.com/avdhesh-varshney/image/upload/v1741270498/project_banner_wpphwm.png";
 
 const ProjectEditor = () => {
 
-    let { project, project: { title, banner, content, tags, des }, setProject, textEditor, setTextEditor, setEditorState } = useContext(EditorContext);
+    let { project, project: { title, banner, repository, projectUrl, content, tags, des }, setProject, textEditor, setTextEditor, setEditorState } = useContext(EditorContext);
+
+    let { userAuth: { access_token } } = useContext(UserContext);
+
+    let navigate = useNavigate();
 
     useEffect(() => {
-        setTextEditor(new EditorJS({
-            holder: "textEditor",
-            data: content,
-            tools: tools,
-            placeholder: "Let's write an awesome story"
-        }));
+        if (!textEditor.isReady) {
+            setTextEditor(new EditorJS({
+                holder: "textEditor",
+                data: content,
+                tools: tools,
+                placeholder: "Let's write an awesome story"
+            }));
+        }
     }, [])
 
     const handleBannerUpload = (e) => {
@@ -59,6 +67,16 @@ const ProjectEditor = () => {
         setProject({ ...project, title: input.value });
     }
 
+    const handleRepositoryURLChange = (e) => {
+        let input = e.target;
+        setProject({ ...project, repository: input.value })
+    }
+
+    const handleProjectURLChange = (e) => {
+        let input = e.target;
+        setProject({ ...project, projectUrl: input.value })
+    }
+
     const handlePublishEvent = () => {
         if (!banner.length) {
             return toast.error("Upload a project banner to publish it");
@@ -82,6 +100,58 @@ const ProjectEditor = () => {
         }
     }
 
+    const handleSaveDraft = (e) => {
+
+        if (e.target.className.includes("disable")) {
+            return;
+        }
+
+        if (!title.length) {
+            return toast.error("Write project title before saving it as a draft");
+        }
+
+        if (!repository.length) {
+            return toast.error("Add a repository URL before saving it as a draft");
+        }
+
+        let loadingToast = toast.loading("Saving Draft....");
+
+        e.target.classList.add("disable");
+
+        if (textEditor.isReady) {
+            textEditor.save()
+                .then(content => {
+
+                    let projectObj = {
+                        title, des, banner, projectUrl, repository, tags, content, draft: true
+                    }
+
+                    axios.post(`${import.meta.env.VITE_SERVER_DOMAIN}/api/project/create`, projectObj, {
+                        headers: {
+                            'Authorization': `Bearer ${access_token}`
+                        }
+                    })
+                        .then(() => {
+                            e.target.classList.remove("disable");
+                            toast.dismiss(loadingToast);
+                            toast.success("Project saved successfully");
+
+                            setTimeout(() => {
+                                navigate("/");
+                            }, 500);
+                        })
+                        .catch(({ response }) => {
+                            e.target.classList.remove("disable");
+                            toast.dismiss(loadingToast);
+                            return toast.error(response.data.error);
+                        })
+                })
+                .catch((err) => {
+                    console.log(err);
+                });
+        }
+    }
+
     return (
         <>
             <nav className="navbar">
@@ -98,7 +168,9 @@ const ProjectEditor = () => {
                     >
                         Publish
                     </button>
-                    <button className="btn-light py-2">
+                    <button className="btn-light py-2"
+                        onClick={handleSaveDraft}
+                    >
                         Save Draft
                     </button>
                 </div>
@@ -132,6 +204,23 @@ const ProjectEditor = () => {
                             onKeyDown={handleTitleKeyDown}
                             onChange={handleTitleChange}
                         ></textarea>
+
+                        <div className="flex flex-col md:flex-row gap-4 sm:gap-2 mt-5">
+                            <input
+                                type="text"
+                                placeholder="Repository URL"
+                                defaultValue={repository}
+                                className="text-xl font-medium w-full md:w-1/2 h-16 md:h-20 outline-none resize-none leading-tight placeholder:opacity-40"
+                                onChange={handleRepositoryURLChange}
+                            />
+                            <input
+                                type="text"
+                                placeholder="Project Live URL"
+                                defaultValue={projectUrl}
+                                className="text-xl font-medium w-1/2 h-20 outline-none resize-none leading-tight placeholder:opacity-40"
+                                onChange={handleProjectURLChange}
+                            />
+                        </div>
 
                         <hr className="w-full opacity-10 my-5" />
 
