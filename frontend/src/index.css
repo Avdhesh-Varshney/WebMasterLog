@@ -2,6 +2,10 @@
 @import "@flaticon/flaticon-uicons/css/all/all";
 @import "tailwindcss";
 
+.font-gelasio {
+    font-family: 'Gelasio', serif;
+}
+
 @layer components {
     * {
         @apply m-0 p-0 box-border text-base duration-100;
@@ -101,7 +105,7 @@
     }
 
     .tag {
-        @apply p-3 bg-gray-200 rounded-full px-6 capitalize;
+        @apply p-2 bg-gray-200 rounded-full px-4 capitalize;
     }
 
     .project-title {
