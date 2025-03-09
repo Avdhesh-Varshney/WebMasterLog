@@ -99,3 +99,22 @@ export const trendingProjects = async (req, res) => {
             return res.status(500).json({ error: err.message });
         })
 }
+
+export const searchProjects = async (req, res) => {
+
+    let { tag } = req.body;
+    let findQuery = { tags: tag, draft: false };
+    let maxLimit = 5;
+
+    Project.find(findQuery)
+        .populate("author", "personal_info.profile_img personal_info.username personal_info.fullname -_id")
+        .sort({ "publishedAt": -1 })
+        .select("project_id title des banner tags activity publishedAt -_id")
+        .limit(maxLimit)
+        .then(projects => {
+            return res.status(200).json({ projects });
+        })
+        .catch(err => {
+            return res.status(500).json({ error: err.message });
+        })
+}
