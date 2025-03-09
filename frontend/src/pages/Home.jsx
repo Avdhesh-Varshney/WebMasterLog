@@ -5,6 +5,7 @@ import Loader from "../components/Loader";
 import axios from "axios";
 import ProjectPostCard from "../components/ProjectPostCard";
 import MinimalProjectPost from "../components/NoBannerProjectPost";
+import NoDataMessage from "../components/NoData";
 
 const Home = () => {
 
@@ -76,25 +77,35 @@ const Home = () => {
                     <InPageNavigation routes={[pageState, "trending projects"]} defaultHidden={["trending projects"]}>
                         <>
                             {
-                                projects === null ? <Loader /> :
-                                    projects.map((project, i) => {
-                                        return (
-                                            <AnimationWrapper key={i} transition={{ duration: 1, delay: i * .1 }}>
-                                                <ProjectPostCard content={project} author={project.author.personal_info} />
-                                            </AnimationWrapper>
-                                        )
-                                    })
+                                projects === null ? (
+                                    <Loader />
+                                ) : (
+                                    projects.length ?
+                                        projects.map((project, i) => {
+                                            return (
+                                                <AnimationWrapper key={i} transition={{ duration: 1, delay: i * .1 }}>
+                                                    <ProjectPostCard content={project} author={project.author.personal_info} />
+                                                </AnimationWrapper>
+                                            )
+                                        })
+                                        : <NoDataMessage message="No projects published" />
+                                )
                             }
                         </>
                         {
-                            trendingProjects === null ? <Loader /> :
-                                trendingProjects.map((project, i) => {
-                                    return (
-                                        <AnimationWrapper key={i} transition={{ duration: 1, delay: i * .1 }}>
-                                            <MinimalProjectPost project={project} index={i} />
-                                        </AnimationWrapper>
-                                    )
-                                })
+                            trendingProjects === null ? (
+                                <Loader />
+                            ) : (
+                                trendingProjects.length ?
+                                    trendingProjects.map((project, i) => {
+                                        return (
+                                            <AnimationWrapper key={i} transition={{ duration: 1, delay: i * .1 }}>
+                                                <MinimalProjectPost project={project} index={i} />
+                                            </AnimationWrapper>
+                                        )
+                                    })
+                                    : <NoDataMessage message="No trending projects" />
+                            )
                         }
                     </InPageNavigation>
                 </div>
@@ -122,14 +133,19 @@ const Home = () => {
                             <h1 className="font-medium text-xl mb-8">Trending <i className="fi fi-rr-arrow-trend-up"></i></h1>
 
                             {
-                                trendingProjects === null ? <Loader /> :
-                                    trendingProjects.map((project, i) => {
-                                        return (
-                                            <AnimationWrapper key={i} transition={{ duration: 1, delay: i * .1 }}>
-                                                <MinimalProjectPost project={project} index={i} />
-                                            </AnimationWrapper>
-                                        )
-                                    })
+                                trendingProjects === null ? (
+                                    <Loader />
+                                ) : (
+                                    trendingProjects.length ?
+                                        trendingProjects.map((project, i) => {
+                                            return (
+                                                <AnimationWrapper key={i} transition={{ duration: 1, delay: i * .1 }}>
+                                                    <MinimalProjectPost project={project} index={i} />
+                                                </AnimationWrapper>
+                                            )
+                                        })
+                                        : <NoDataMessage message="No trending projects" />
+                                )
                             }
                         </div>
                     </div>
