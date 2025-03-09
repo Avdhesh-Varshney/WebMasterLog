@@ -24,6 +24,16 @@ const Home = () => {
             })
     }
 
+    const fetchProjectsByCategory = () => {
+        axios.post(import.meta.env.VITE_SERVER_DOMAIN + "/api/project/search", { tag: pageState })
+            .then(({ data }) => {
+                setProjects(data.projects);
+            })
+            .catch(err => {
+                console.log(err);
+            })
+    }
+
     const fetchTrendingProjects = () => {
         axios.get(import.meta.env.VITE_SERVER_DOMAIN + "/api/project/trending")
             .then(({ data }) => {
@@ -35,7 +45,6 @@ const Home = () => {
     }
 
     const loadProjectsByCategory = (e) => {
-
         let category = e.target.innerText.toLowerCase();
         setProjects(null);
 
@@ -44,18 +53,6 @@ const Home = () => {
             return;
         }
         setPageState(category);
-
-        axios.get(import.meta.env.VITE_SERVER_DOMAIN + "/api/project/get", {
-            params: {
-                category
-            }
-        })
-            .then(({ data }) => {
-                setProjects(data.projects);
-            })
-            .catch(err => {
-                console.log(err);
-            })
     }
 
     useEffect(() => {
@@ -63,6 +60,8 @@ const Home = () => {
 
         if (pageState === "home") {
             fetchLatestProjects();
+        } else {
+            fetchProjectsByCategory();
         }
         if (!trendingProjects) {
             fetchTrendingProjects();
