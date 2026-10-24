@@ -1,7 +1,7 @@
 /**
  * POST /api/auth/accept-invite - Public. Body: { token, password, fullname }.
  * Find invite; find or create Subscriber/User; create OrganizationMember; mark invite accepted.
- * Returns pre-org access_token and orgs for auto-login and redirect to select-org.
+ * Returns pre-org access_token and orgs for auto-login; sets refresh cookie.
  */
 
 import bcrypt from 'bcrypt';
@@ -11,8 +11,13 @@ import ORGANIZATION_MEMBER from '../../models/organization-member.model.js';
 import SUBSCRIBER from '../../models/subscriber.model.js';
 import USER from '../../models/user.model.js';
 import { sendResponse } from '../../utils/response.js';
-import { generatePreOrgToken, generateUsername } from './utils/index.js';
-import { USER_ROLES } from '../../typings/index.js';
+import { supportsTransactions } from '../../utils/transactions.js';
+import {
+  generatePreOrgToken,
+  generateUsername,
+  REFRESH_COOKIE_OPTIONS,
+} from './utils/index.js';
+import { COOKIE_TOKEN, USER_ROLES } from '../../typings/index.js';
 
 const PASSWORD_MIN_LENGTH = 6;
 const FULLNAME_MIN_LENGTH = 3;
@@ -37,8 +42,7 @@ const postAcceptInvite = async (req, res) => {
     return sendResponse(res, 400, 'Full name must be at least 3 characters');
   }
 
-  const useTransaction =
-    process.env.MONGODB_URL && !process.env.MONGODB_URL.includes('_test');
+  const useTransaction = await supportsTransactions();
   let session = null;
   if (useTransaction) {
     session = await mongoose.startSession();
@@ -186,7 +190,12 @@ const postAcceptInvite = async (req, res) => {
       subscriber_id: subscriber._id,
       email: subscriber.email,
     };
-    const { access_token } = generatePreOrgToken(payload);
+    const { access_token, refresh_token } = generatePreOrgToken(payload);
+    res.cookie(
+      COOKIE_TOKEN.REFRESH_TOKEN,
+      refresh_token,
+      REFRESH_COOKIE_OPTIONS
+    );
 
     const limitedUser = {
       id: user._id,

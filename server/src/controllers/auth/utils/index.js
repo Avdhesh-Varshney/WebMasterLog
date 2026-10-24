@@ -1,6 +1,7 @@
 import { nanoid } from 'nanoid';
 import jwt from 'jsonwebtoken';
 import USER from '../../../models/user.model.js';
+import ORGANIZATION_MEMBER from '../../../models/organization-member.model.js';
 import {
   JWT_SECRET_ACCESS_KEY,
   JWT_SECRET_REFRESH_KEY,
@@ -88,4 +89,24 @@ export const generateTokens = payload => {
     expiresIn: JWT_REFRESH_EXPIRES_IN,
   });
   return { access_token, refresh_token };
+};
+
+/**
+ * List the user's memberships in active organizations, in the shape returned
+ * by login / signup / session: [{ org_id, name, role }].
+ */
+export const listActiveMemberships = async userId => {
+  const memberships = await ORGANIZATION_MEMBER.find({ user_id: userId })
+    .populate('org_id', 'name slug status')
+    .lean();
+
+  return memberships
+    .filter(
+      m => m.org_id && (m.org_id.status === 'active' || m.org_id.status == null)
+    )
+    .map(m => ({
+      org_id: m.org_id._id,
+      name: m.org_id.name,
+      role: m.role,
+    }));
 };

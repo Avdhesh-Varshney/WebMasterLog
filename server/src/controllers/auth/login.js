@@ -7,10 +7,13 @@
 import bcrypt from 'bcrypt';
 import USER from '../../models/user.model.js';
 import SUBSCRIBER from '../../models/subscriber.model.js';
-import ORGANIZATION_MEMBER from '../../models/organization-member.model.js';
 import { COOKIE_TOKEN } from '../../typings/index.js';
 import { sendResponse } from '../../utils/response.js';
-import { generatePreOrgToken, REFRESH_COOKIE_OPTIONS } from './utils/index.js';
+import {
+  generatePreOrgToken,
+  listActiveMemberships,
+  REFRESH_COOKIE_OPTIONS,
+} from './utils/index.js';
 
 const login = async (req, res) => {
   const { email, password } = req.body;
@@ -47,20 +50,7 @@ const login = async (req, res) => {
       return sendResponse(res, 401, 'Incorrect password');
     }
 
-    const memberships = await ORGANIZATION_MEMBER.find({ user_id: user._id })
-      .populate('org_id', 'name slug status')
-      .lean();
-
-    const orgs = memberships
-      .filter(
-        m =>
-          m.org_id && (m.org_id.status === 'active' || m.org_id.status == null)
-      )
-      .map(m => ({
-        org_id: m.org_id._id,
-        name: m.org_id.name,
-        role: m.role,
-      }));
+    const orgs = await listActiveMemberships(user._id);
 
     if (orgs.length === 0) {
       return sendResponse(

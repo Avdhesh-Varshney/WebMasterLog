@@ -100,15 +100,16 @@ describe('API suite (auth order then in-org)', () => {
   });
 
   describe('1. No token: in-org routes return 401', () => {
-    it('GET /api/project without token returns 401', async () => {
-      const res = await request(app).get('/api/project').expect(401);
+    it('GET /api/organization/members without token returns 401', async () => {
+      const res = await request(app)
+        .get('/api/organization/members')
+        .expect(401);
       assert.strictEqual(res.body.status, 'error');
       assert.match(res.body.message, /access token|No access token/i);
     });
 
-    it('GET /api/notification without token returns 401', async () => {
-      const res = await request(app).get('/api/notification').expect(401);
-      assert.strictEqual(res.body.status, 'error');
+    it('Paused feature routes are not registered (404)', async () => {
+      await request(app).get('/api/project').expect(404);
     });
   });
 
@@ -169,7 +170,7 @@ describe('API suite (auth order then in-org)', () => {
     });
   });
 
-  describe('3. Auth: signup disabled (invite-only) and refresh', () => {
+  describe('3. Auth: signup disabled (invite-only), session and refresh', () => {
     it('POST /api/auth/signup returns 403 (signup disabled)', async () => {
       const res = await request(app)
         .post('/api/auth/signup')
@@ -185,6 +186,21 @@ describe('API suite (auth order then in-org)', () => {
         'Message must contain "Signup is disabled"'
       );
       assert.ok(!res.body.data?.access_token);
+    });
+
+    it('GET /api/auth/session with pre-org token returns user + orgs', async () => {
+      const res = await request(app)
+        .get('/api/auth/session')
+        .set('Authorization', `Bearer ${preOrgToken}`)
+        .expect(200);
+      assert.strictEqual(res.body.data.user.email, TEST_EMAIL);
+      assert.ok(
+        res.body.data.orgs.some(o => String(o.org_id) === String(defaultOrgId))
+      );
+    });
+
+    it('GET /api/auth/session without token returns 401', async () => {
+      await request(app).get('/api/auth/session').expect(401);
     });
 
     it('POST /api/auth/refresh with cookie returns pre-org token', async () => {
@@ -213,16 +229,17 @@ describe('API suite (auth order then in-org)', () => {
       orgScopedToken = res.body.data.access_token;
     });
 
-    it('Pre-org token must not work for in-org: GET /api/project returns 403', async () => {
+    it('Pre-org token must not work for in-org: GET /api/organization/members returns 403', async () => {
       const res = await request(app)
-        .get('/api/project')
+        .get('/api/organization/members')
         .set('Authorization', `Bearer ${preOrgToken}`)
         .expect(403);
       assert.match(res.body.message, /Organization context|select-org/i);
     });
   });
 
-  describe('5. In-org: projects (org-scoped token)', () => {
+  // PAUSED: route not registered (see src/routes/index.js). Re-enable with the feature.
+  describe.skip('5. In-org: projects (org-scoped token)', () => {
     it('GET /api/project with org-scoped token returns 200', async () => {
       const res = await request(app)
         .get('/api/project')
@@ -295,7 +312,8 @@ describe('API suite (auth order then in-org)', () => {
     });
   });
 
-  describe('6. In-org: collections (org-scoped token)', () => {
+  // PAUSED: route not registered (see src/routes/index.js). Re-enable with the feature.
+  describe.skip('6. In-org: collections (org-scoped token)', () => {
     let createdCollectionId;
 
     it('POST /api/collection creates collection', async () => {
@@ -322,7 +340,8 @@ describe('API suite (auth order then in-org)', () => {
     });
   });
 
-  describe('7. In-org: notifications (org-scoped token)', () => {
+  // PAUSED: route not registered (see src/routes/index.js). Re-enable with the feature.
+  describe.skip('7. In-org: notifications (org-scoped token)', () => {
     it('GET /api/notification returns 200', async () => {
       const res = await request(app)
         .get('/api/notification')
@@ -340,7 +359,8 @@ describe('API suite (auth order then in-org)', () => {
     });
   });
 
-  describe('8. In-org: chat (org-scoped token)', () => {
+  // PAUSED: route not registered (see src/routes/index.js). Re-enable with the feature.
+  describe.skip('8. In-org: chat (org-scoped token)', () => {
     it('GET /api/chat/conversations returns 200', async () => {
       const res = await request(app)
         .get('/api/chat/conversations')
@@ -358,7 +378,8 @@ describe('API suite (auth order then in-org)', () => {
     });
   });
 
-  describe('9. In-org: collaboration (org-scoped token)', () => {
+  // PAUSED: route not registered (see src/routes/index.js). Re-enable with the feature.
+  describe.skip('9. In-org: collaboration (org-scoped token)', () => {
     it('GET /api/collaboration/:project_id returns 200', async () => {
       if (!createdProjectId) return;
       const res = await request(app)
@@ -369,7 +390,8 @@ describe('API suite (auth order then in-org)', () => {
     });
   });
 
-  describe('10. In-org: feedback (org-scoped token)', () => {
+  // PAUSED: route not registered (see src/routes/index.js). Re-enable with the feature.
+  describe.skip('10. In-org: feedback (org-scoped token)', () => {
     it('POST /api/feedback/submit returns 201', async () => {
       const res = await request(app)
         .post('/api/feedback/submit')
@@ -464,6 +486,7 @@ describe('API suite (auth order then in-org)', () => {
         .expect(200);
       assert.strictEqual(res.body.status, 'success');
       assert.ok(res.body.data?.access_token);
+      assert.ok(res.headers['set-cookie'], 'Must set refresh_token cookie');
       assert.ok(res.body.data?.user);
       assert.ok(Array.isArray(res.body.data?.orgs));
       const sub = await SUBSCRIBER.findOne({ email: inviteEmail }).lean();

@@ -11,7 +11,6 @@ const USER_SCHEMA = Schema(
     personal_info: {
       fullname: {
         type: String,
-        lowercase: true,
         required: true,
         minlength: [3, 'Fullname must be 3 letters long'],
       },

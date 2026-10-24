@@ -12,6 +12,7 @@ import ORGANIZATION_MEMBER from '../../models/organization-member.model.js';
 import SUBSCRIBER from '../../models/subscriber.model.js';
 import USER from '../../models/user.model.js';
 import { sendResponse } from '../../utils/response.js';
+import { supportsTransactions } from '../../utils/transactions.js';
 import {
   generatePreOrgToken,
   generateUsername,
@@ -48,8 +49,7 @@ const postSetPasswordAfterApproval = async (req, res) => {
   const finalFullname =
     trimmedFullname.length >= FULLNAME_MIN_LENGTH ? trimmedFullname : null;
 
-  const useTransaction =
-    process.env.MONGODB_URL && !process.env.MONGODB_URL.includes('_test');
+  const useTransaction = await supportsTransactions();
   let session = null;
   if (useTransaction) {
     session = await mongoose.startSession();
