@@ -1,70 +1,55 @@
-import { memo, useEffect, useMemo } from 'react';
-import { Route, Routes, Navigate, useNavigate } from 'react-router-dom';
-import { useSetAtom } from 'jotai';
-import { setupTokenRefresh } from './shared/utils/api-interceptor';
-import { AppUnProtectedRoutes } from './app/routes';
-import { AppProtectedRoutes } from './app/routes/auth-routes';
-import useScrollbar from './shared/components/atoms/scrollbar';
-import { useAuth } from './shared/hooks/use-auth';
-import { ROUTE_SELECT_ORG } from './app/routes/constants/routes';
-import SelectOrgPage from './modules/auth/v1/select-org-page';
-import { SelectedOrgIdAtom } from './infra/states/org';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import { useAuth } from './shared/auth/use-auth';
+import { FullPageSpinner } from './shared/ui/spinner';
+import { ROUTES } from './app/routes';
+import { AppShell } from './app/app-shell';
+import LoginPage from './modules/auth/login-page';
+import RequestOrgPage from './modules/auth/request-org-page';
+import AcceptInvitePage from './modules/auth/accept-invite-page';
+import SetPasswordPage from './modules/auth/set-password-page';
+import SelectOrgPage from './modules/auth/select-org-page';
+import HomePage from './modules/home/home-page';
 
-const App = memo(() => {
-  const { GlobalScrollbar } = useScrollbar();
-  const navigate = useNavigate();
-  const setSelectedOrgId = useSetAtom(SelectedOrgIdAtom);
-  const { token, selectedOrgId, initialized } = useAuth();
-  const hasToken = useMemo(() => !!token, [token]);
-  const hasOrgContext = useMemo(() => !!selectedOrgId, [selectedOrgId]);
+/**
+ * Routing is derived from auth status, so a user can never land on a page
+ * their session doesn't allow:
+ *   signed-out -> login, request org, accept invite, set password
+ *   (access is invite-only: there is no public signup)
+ *   needs-org  -> workspace picker
+ *   ready      -> app shell
+ */
+export default function App() {
+  const { state } = useAuth();
 
-  useEffect(() => {
-    setupTokenRefresh();
-  }, []);
+  if (state.status === 'loading') return <FullPageSpinner />;
 
-  useEffect(() => {
-    const handler = () => {
-      setSelectedOrgId(null);
-      navigate(ROUTE_SELECT_ORG, { replace: true });
-    };
-    window.addEventListener('org-context-required', handler);
-    return () => window.removeEventListener('org-context-required', handler);
-  }, [navigate, setSelectedOrgId]);
-
-  if (!initialized) {
-    return null;
-  }
-
-  if (!hasToken) {
+  if (state.status === 'signed-out') {
     return (
-      <>
-        <GlobalScrollbar />
-        <AppUnProtectedRoutes />
-      </>
+      <Routes>
+        <Route path={ROUTES.LOGIN} element={<LoginPage />} />
+        <Route path={ROUTES.REQUEST_ORG} element={<RequestOrgPage />} />
+        <Route path={ROUTES.ACCEPT_INVITE} element={<AcceptInvitePage />} />
+        <Route path={ROUTES.SET_PASSWORD} element={<SetPasswordPage />} />
+        <Route path="*" element={<Navigate to={ROUTES.LOGIN} replace />} />
+      </Routes>
     );
   }
 
-  if (!hasOrgContext) {
+  if (state.status === 'needs-org') {
     return (
-      <>
-        <GlobalScrollbar />
-        <Routes>
-          <Route path={ROUTE_SELECT_ORG} element={<SelectOrgPage />} />
-          <Route
-            path="*"
-            element={<Navigate to={ROUTE_SELECT_ORG} replace />}
-          />
-        </Routes>
-      </>
+      <Routes>
+        <Route path={ROUTES.SELECT_ORG} element={<SelectOrgPage />} />
+        <Route path="*" element={<Navigate to={ROUTES.SELECT_ORG} replace />} />
+      </Routes>
     );
   }
 
   return (
-    <>
-      <GlobalScrollbar />
-      <AppProtectedRoutes />
-    </>
+    <Routes>
+      <Route element={<AppShell />}>
+        <Route index element={<HomePage />} />
+      </Route>
+      <Route path="*" element={<Navigate to={ROUTES.HOME} replace />} />
+    </Routes>
   );
-});
-
-export default App;
+}

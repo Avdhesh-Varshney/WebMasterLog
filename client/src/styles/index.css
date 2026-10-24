@@ -1,0 +1,106 @@
+@import 'tailwindcss';
+
+/*
+ * Design tokens. Components use the semantic Tailwind colors below
+ * (bg-canvas, text-ink, border-line, bg-accent, ...), never raw palette values.
+ */
+:root {
+  --canvas: oklch(0.985 0.003 85);
+  --surface: oklch(1 0 0);
+  --subtle: oklch(0.965 0.004 85);
+  --line: oklch(0.91 0.005 85);
+  --line-strong: oklch(0.84 0.006 85);
+  --ink: oklch(0.22 0.012 270);
+  --ink-muted: oklch(0.5 0.012 270);
+  --ink-faint: oklch(0.65 0.01 270);
+  --accent: oklch(0.52 0.2 275);
+  --accent-hover: oklch(0.47 0.2 275);
+  --accent-soft: oklch(0.95 0.03 275);
+  --accent-ink: oklch(0.99 0 0);
+  --danger: oklch(0.56 0.2 25);
+  --danger-soft: oklch(0.96 0.03 25);
+  --success: oklch(0.58 0.14 155);
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --canvas: oklch(0.17 0.01 270);
+  --surface: oklch(0.205 0.012 270);
+  --subtle: oklch(0.24 0.012 270);
+  --line: oklch(0.29 0.012 270);
+  --line-strong: oklch(0.36 0.014 270);
+  --ink: oklch(0.96 0.004 85);
+  --ink-muted: oklch(0.72 0.01 270);
+  --ink-faint: oklch(0.56 0.012 270);
+  --accent: oklch(0.66 0.17 275);
+  --accent-hover: oklch(0.72 0.15 275);
+  --accent-soft: oklch(0.3 0.07 275);
+  --accent-ink: oklch(0.16 0.02 275);
+  --danger: oklch(0.7 0.17 25);
+  --danger-soft: oklch(0.3 0.07 25);
+  --success: oklch(0.72 0.14 155);
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --canvas: oklch(0.17 0.01 270);
+    --surface: oklch(0.205 0.012 270);
+    --subtle: oklch(0.24 0.012 270);
+    --line: oklch(0.29 0.012 270);
+    --line-strong: oklch(0.36 0.014 270);
+    --ink: oklch(0.96 0.004 85);
+    --ink-muted: oklch(0.72 0.01 270);
+    --ink-faint: oklch(0.56 0.012 270);
+    --accent: oklch(0.66 0.17 275);
+    --accent-hover: oklch(0.72 0.15 275);
+    --accent-soft: oklch(0.3 0.07 275);
+    --accent-ink: oklch(0.16 0.02 275);
+    --danger: oklch(0.7 0.17 25);
+    --danger-soft: oklch(0.3 0.07 25);
+    --success: oklch(0.72 0.14 155);
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-surface: var(--surface);
+  --color-subtle: var(--subtle);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-faint: var(--ink-faint);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-ink: var(--accent-ink);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-success: var(--success);
+
+  --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, monospace;
+}
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-canvas text-ink font-sans antialiased;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+
+  ::selection {
+    background: var(--accent-soft);
+  }
+}
+
+@utility label-mono {
+  @apply font-mono text-[11px] font-medium tracking-[0.08em] uppercase text-ink-faint;
+}

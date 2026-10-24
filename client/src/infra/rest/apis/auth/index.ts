@@ -1,94 +1,71 @@
-import { get, patch, post } from '../..';
-import { ApiResponse, BaseApiResponse } from '../../typings';
-import {
-  signUpPayload,
-  loginPayload,
-  changePasswordPayload,
-  LoginSignupResponseData,
-  selectOrgPayload,
+import { api } from '../..';
+import type { ApiResponse, BaseApiResponse } from '../../typings';
+import type {
+  AuthSessionData,
+  LoginPayload,
+  SelectOrgPayload,
   SelectOrgResponseData,
-  AcceptInviteInfoResponseData,
+  SessionResponseData,
   AcceptInvitePayload,
-  AcceptInviteResponseData,
-  SetPasswordInfoResponseData,
-  SetPasswordAfterApprovalPayload,
-  SetPasswordAfterApprovalResponseData,
+  SetPasswordPayload,
+  TokenInfoResponseData,
 } from './typing';
 
-export const signUp = async (payload: signUpPayload) => {
-  return post<signUpPayload, ApiResponse<LoginSignupResponseData>>(
-    '/api/auth/signup',
-    false,
-    payload
-  );
-};
+export const login = async (payload: LoginPayload) =>
+  (await api.post<ApiResponse<AuthSessionData>>('/api/auth/login', payload))
+    .data;
 
-export const login = async (payload: loginPayload) => {
-  // Use credentials so the response's Set-Cookie (refresh_token) is stored; otherwise refresh returns 401.
-  return post<loginPayload, ApiResponse<LoginSignupResponseData>>(
-    '/api/auth/login',
-    true,
-    payload
-  );
-};
+export const selectOrg = async (payload: SelectOrgPayload) =>
+  (
+    await api.post<ApiResponse<SelectOrgResponseData>>(
+      '/api/auth/select-org',
+      payload
+    )
+  ).data;
 
-export const selectOrg = async (payload: selectOrgPayload) => {
-  return post<selectOrgPayload, ApiResponse<SelectOrgResponseData>>(
-    '/api/auth/select-org',
-    true,
-    payload
-  );
-};
+export const refreshToken = async () =>
+  (
+    await api.post<ApiResponse<Pick<AuthSessionData, 'access_token'>>>(
+      '/api/auth/refresh'
+    )
+  ).data;
 
-export const refreshToken = async () => {
-  return post<undefined, ApiResponse<{ access_token: string }>>(
-    `/api/auth/refresh`,
-    true
-  );
-};
+export const logout = async () =>
+  (await api.post<BaseApiResponse>('/api/auth/logout')).data;
 
-export const logout = async () => {
-  return post<undefined, BaseApiResponse>(`/api/auth/logout`, true);
-};
+export const getSession = async () =>
+  (await api.get<ApiResponse<SessionResponseData>>('/api/auth/session')).data;
 
-export const changePassword = async (
-  changePasswordPayload: changePasswordPayload
-) => {
-  return patch<changePasswordPayload, BaseApiResponse>(
-    `/api/auth/change-password`,
-    true,
-    changePasswordPayload
-  );
-};
+const tokenQuery = (token: string) => `?token=${encodeURIComponent(token)}`;
 
-export const getAcceptInviteInfo = async (token: string) => {
-  return get<undefined, ApiResponse<AcceptInviteInfoResponseData>>(
-    `/api/auth/accept-invite?token=${encodeURIComponent(token)}`,
-    false
-  );
-};
+export const getAcceptInviteInfo = async (token: string) =>
+  (
+    await api.get<ApiResponse<TokenInfoResponseData>>(
+      `/api/auth/accept-invite${tokenQuery(token)}`
+    )
+  ).data;
 
-export const postAcceptInvite = async (payload: AcceptInvitePayload) => {
-  return post<AcceptInvitePayload, ApiResponse<AcceptInviteResponseData>>(
-    '/api/auth/accept-invite',
-    false,
-    payload
-  );
-};
+/** Creates (or updates) the user, joins the org, and signs them in. */
+export const acceptInvite = async (payload: AcceptInvitePayload) =>
+  (
+    await api.post<ApiResponse<AuthSessionData>>(
+      '/api/auth/accept-invite',
+      payload
+    )
+  ).data;
 
-export const getSetPasswordInfo = async (token: string) => {
-  return get<undefined, ApiResponse<SetPasswordInfoResponseData>>(
-    `/api/auth/set-password?token=${encodeURIComponent(token)}`,
-    false
-  );
-};
+export const getSetPasswordInfo = async (token: string) =>
+  (
+    await api.get<ApiResponse<TokenInfoResponseData>>(
+      `/api/auth/set-password${tokenQuery(token)}`
+    )
+  ).data;
 
-export const postSetPasswordAfterApproval = async (
-  payload: SetPasswordAfterApprovalPayload
-) => {
-  // Send credentials so the response's Set-Cookie (refresh_token) is stored; otherwise refresh returns 401.
-  return post<
-    SetPasswordAfterApprovalPayload,
-    ApiResponse<SetPasswordAfterApprovalResponseData>
-  >('/api/auth/set-password-after-approval', true, payload);
-};
+/** After an org request is approved: set password, become owner, sign in. */
+export const setPasswordAfterApproval = async (payload: SetPasswordPayload) =>
+  (
+    await api.post<ApiResponse<AuthSessionData>>(
+      '/api/auth/set-password-after-approval',
+      payload
+    )
+  ).data;

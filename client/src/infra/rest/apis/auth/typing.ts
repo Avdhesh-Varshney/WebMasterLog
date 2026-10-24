@@ -1,17 +1,10 @@
-export interface signUpPayload {
-  fullname: string;
+export interface LoginPayload {
   email: string;
   password: string;
 }
 
-export interface loginPayload {
-  email: string;
-  password: string;
-}
-
-export interface changePasswordPayload {
-  current_password: string;
-  new_password: string;
+export interface SelectOrgPayload {
+  org_id: string;
 }
 
 /** Limited user returned by login, signup, and select-org. */
@@ -23,21 +16,18 @@ export interface AuthUser {
   profile_img?: string;
 }
 
-/** Org list item returned by login (user's memberships). */
-export interface LoginOrgItem {
+/** Organization membership returned by login / signup. */
+export interface OrgMembership {
   org_id: string;
   name: string;
   role: string;
 }
 
-export interface LoginSignupResponseData {
+/** Pre-org session: token can only be used for select-org. */
+export interface AuthSessionData {
   user: AuthUser;
-  orgs: LoginOrgItem[];
+  orgs: OrgMembership[];
   access_token: string;
-}
-
-export interface selectOrgPayload {
-  org_id: string;
 }
 
 export interface SelectOrgResponseData {
@@ -49,40 +39,25 @@ export interface SelectOrgResponseData {
   org: { org_id: string; name: string; slug: string };
 }
 
-/** GET accept-invite response (org name for valid token). */
-export interface AcceptInviteInfoResponseData {
+/** GET /api/auth/session: who is signed in and which orgs they belong to. */
+export interface SessionResponseData {
+  user: AuthUser;
+  orgs: OrgMembership[];
+}
+
+/** GET accept-invite / set-password: org the token belongs to. */
+export interface TokenInfoResponseData {
   org_name: string;
 }
 
-/** POST accept-invite payload. */
 export interface AcceptInvitePayload {
   token: string;
-  password: string;
   fullname: string;
+  password: string;
 }
 
-/** POST accept-invite response (same as login: user, orgs, access_token). */
-export interface AcceptInviteResponseData {
-  user: AuthUser;
-  orgs: LoginOrgItem[];
-  access_token: string;
-}
-
-/** GET set-password response (org name for valid token). */
-export interface SetPasswordInfoResponseData {
-  org_name: string;
-}
-
-/** POST set-password-after-approval payload. */
-export interface SetPasswordAfterApprovalPayload {
+export interface SetPasswordPayload {
   token: string;
   password: string;
   fullname?: string;
-}
-
-/** POST set-password-after-approval response (same as login). */
-export interface SetPasswordAfterApprovalResponseData {
-  user: AuthUser;
-  orgs: LoginOrgItem[];
-  access_token: string;
 }
